@@ -605,7 +605,7 @@ function Rankings() {
             <button type="button" className={'ranking-top-card rank-' + item.rank} key={item.id} onClick={() => setSelected(item)}>
               <div><span>#{String(item.rank).padStart(2, '0')}</span><small>{ruSector(item.sector)}</small></div>
               <strong>{item.name}</strong>
-              <div className="ranking-top-score"><b>{item.score.toFixed(1)}</b><em>{item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</em></div>
+              <div className="ranking-top-score"><b>{item.score.toFixed(1)}</b><em>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</em></div>
             </button>
           ))}
         </div>
@@ -642,7 +642,7 @@ function Rankings() {
         <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>ФИНАНСИРОВАНИЕ</span><span>ДИНАМИКА</span><span>ОЦЕНКА</span></div>
         {filtered.map((item) => (
           <button type="button" className="startup-row startup-item" key={item.id} onClick={() => setSelected(item)}>
-            <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
+            <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
             <span className="startup-name"><strong>{item.name}</strong><small>{ruCity(item.city)} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</small></span>
             <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
           </button>
@@ -982,7 +982,7 @@ function Analytics() {
         <Metric label="ИЗВЕСТНОЕ ФИНАНСИРОВАНИЕ" value={'₽' + formatMoney(knownFunding) + 'M'} note="видимо в записях индекса" icon={<WalletCards />} />
       </section>
       <section className="analytics-panel">
-        <div className="panel-head"><div><span>СОСТАВ ИНДЕКСА</span><h2>ГДЕ НАХОДЯТСЯ 20 КОМПАНИЙ</h2></div><BarChart3 size={22} /></div>
+        <div className="panel-head"><div><span>СОСТАВ ИНДЕКСА</span><h2>ГДЕ НАХОДЯТСЯ КОМПАНИИ ИНДЕКСА</h2></div><BarChart3 size={22} /></div>
         <div className="analytics-bars">
           {sectors.slice(0, 7).map((item) => <div className="analytics-bar-row" key={item.tag}><span>{ruTag(item.tag)}</span><div><i style={{ width: Math.max(8, item.count / startupRankings.length * 100) + '%' }} /></div><strong>{item.count}</strong></div>)}
         </div>
