@@ -547,6 +547,12 @@ function Rankings() {
       </section>
       <section className="ranking-controls">
         <label className="ranking-search"><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search company, sector, stage..." aria-label="Search startup ranking" /></label>
+        <div className="ranking-result-bar">
+          <span>{filtered.length} OF {startupRankings.length} SCORED COMPANIES</span>
+          {(query || category !== 'ALL' || view !== 'overall' || sort !== 'rank') && (
+            <button type="button" onClick={() => { setQuery(''); setCategory('ALL'); setView('overall'); setSort('rank'); }}>RESET VIEW <X size={12} /></button>
+          )}
+        </div>
         <div className="ranking-view-tabs">
           <button type="button" className={view === 'overall' ? 'active' : ''} onClick={() => setView('overall')}>OVERALL</button>
           <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>FASTEST MOVERS</button>
@@ -613,18 +619,64 @@ function StartupDrawer({ startup, onClose }) {
       <aside className="startup-drawer">
         <div className="drawer-top"><span>FORDEX INDEX · #{String(startup.rank).padStart(2, '0')}</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
         {company && <div className="drawer-media"><img src={company.image} alt="" /></div>}
-        <div className="drawer-score"><small>FORDEX SCORE</small><strong>{startup.score}</strong><span>+{startup.momentum}% MOMENTUM</span></div>
+
+        <div className="drawer-score">
+          <div>
+            <small>FORDEX SCORE</small>
+            <strong>{startup.score}</strong>
+            <span>+{startup.momentum}% MOMENTUM</span>
+          </div>
+          <div className="drawer-score-rank">
+            <span>CURRENT POSITION</span>
+            <strong>#{String(startup.rank).padStart(2, '0')}</strong>
+            <em>{deltaText}</em>
+          </div>
+        </div>
+
         <span className="drawer-sector">{startup.sector}</span>
         <h2>{startup.name}</h2>
         <p>{startup.description}</p>
-        <div className="drawer-tags">{startup.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
+
+        <div className="drawer-tags">
+          {startup.tags.map((tag) => <span key={tag}>{tag}</span>)}
+        </div>
+
+        <section className="drawer-block">
+          <div className="drawer-block-head"><span>BUSINESS SIGNAL</span><small>OBSERVED EVIDENCE</small></div>
+          <p className="drawer-traction">{startup.traction || 'No additional traction detail published.'}</p>
+        </section>
+
         <div className="drawer-stats">
           <div><span>STAGE</span><strong>{startup.stage}</strong></div>
           <div><span>FUNDING</span><strong>{startup.funding}</strong></div>
           <div><span>LATEST ROUND</span><strong>{startup.latestRound || '—'}</strong></div>
           <div><span>LOCATION</span><strong>{startup.city}</strong></div>
         </div>
-        <div className="drawer-signal"><span>RANK MOVEMENT</span><p><strong>{deltaText}</strong> · current #{startup.rank}, previous #{startup.previousRank || '—'}. Last verified {startup.lastVerified}.</p></div>
+
+        <section className="drawer-block drawer-model">
+          <div className="drawer-block-head"><span>INDEX MODEL</span><small>WEIGHTED SIGNALS</small></div>
+          <div className="drawer-weight-list">
+            {scoreWeights.map((weight) => (
+              <div key={weight.label}>
+                <span>{weight.label}</span>
+                <strong>{weight.value}%</strong>
+                <i><b style={{ width: weight.value + '%' }} /></i>
+              </div>
+            ))}
+          </div>
+          <p className="drawer-model-note">The published score is a composite editorial signal. Funding is one input, not the ranking itself.</p>
+        </section>
+
+        <div className="drawer-signal">
+          <span>RANK MOVEMENT</span>
+          <p><strong>{deltaText}</strong> · current #{startup.rank}, previous #{startup.previousRank || '—'}. Last verified {startup.lastVerified}.</p>
+        </div>
+
+        <div className="drawer-evidence">
+          <div><span>DATA STATUS</span><strong><CheckCircle2 size={13} /> SOURCE-LINKED</strong></div>
+          <small>Evidence is attached to the record; undisclosed financing remains undisclosed.</small>
+        </div>
+
         {startup.website && <a className="drawer-source" href={startup.website} target="_blank" rel="noreferrer">OPEN COMPANY <ExternalLink size={14} /></a>}
         <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">VIEW EVIDENCE <ExternalLink size={14} /></a>
       </aside>
