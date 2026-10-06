@@ -1,4 +1,4 @@
-import { scoreWeights, startupRankings } from '../data/startups';
+import { scoreWeights, startupRankings } from '../data/startups.js';
 
 const MODEL_KEYS = [
   'businessTraction',
