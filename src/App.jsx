@@ -195,7 +195,6 @@ function Home({ watchlist, toggleWatch }) {
       <section className="hero hero-large">
         <div className="hero-copy"><span>THE AI BUSINESS<br />INDEX OF RUSSIA</span><i /></div>
         <div className="hero-word" aria-hidden="true">FORDEX</div>
-        </div>
         <div className="hero-kicker"><span>RANKING · CAPITAL · PEOPLE</span><strong>THE MARKET<br />IN ONE FRAME.</strong></div>
         <div className="hero-actions">
           <ButtonLink route="rankings" className="primary">EXPLORE INDEX <ArrowRight size={14} /></ButtonLink>
