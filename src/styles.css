@@ -628,24 +628,6 @@ footer p,footer>span{color:#9bb2bb}
       radial-gradient(circle at 82% 27%,rgba(92,168,187,.25),transparent 34%),
       linear-gradient(145deg,#eaf3f6,#d9e7ec);
   }
-  .hero-visual{
-    right:5%;
-    top:auto;
-    bottom:114px;
-    width:52%;
-    min-height:240px;
-    padding:12px;
-    opacity:.98;
-  }
-  .hero-visual-score{padding-top:20px}
-  .hero-visual-score strong{font-size:58px}
-  .hero-visual-chart{height:58px}
-  .hero-visual-grid b{font-size:19px}
-  .hero-visual-head,.hero-visual-score small,.hero-visual-grid small,.hero-visual-corner{font-size:5px}
-}\n@media(max-width:520px){\n  .hero-word{opacity:.09}
+  .hero-word{opacity:.09}
   .hero-kicker{right:5%;top:42px;max-width:145px}
 }
-@media(prefers-reduced-motion:reduce){
-  .hero-visual-chart i{animation:none!important}
-}
-
