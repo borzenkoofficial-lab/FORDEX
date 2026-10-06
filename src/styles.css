@@ -193,12 +193,26 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .ranking-intro h2{font-family:Manrope,Inter,sans-serif;font-size:51px;line-height:.9;letter-spacing:-.06em;margin:14px 0 0}
 .ranking-intro p{font-size:12px;line-height:1.6;max-width:520px;margin:0 0 16px}
 .ranking-intro small{font-size:8px;letter-spacing:.12em;color:#7a776f}
-.ranking-controls{padding:17px 7%;border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:25px}
+.ranking-controls{padding:17px 7%;border-bottom:1px solid var(--line);display:flex;align-items:flex-start;justify-content:space-between;gap:25px}
 .ranking-tabs{display:flex;gap:7px;overflow:auto}
 .ranking-tabs button{font-size:8px;letter-spacing:.1em;font-weight:700;white-space:nowrap;padding:8px 10px;color:#77746d}
 .ranking-tabs button.active,.ranking-tabs button:hover{color:#111;border-bottom:1px solid #111}
 .ranking-controls label{display:flex;align-items:center;gap:8px;font-size:8px;letter-spacing:.15em;font-weight:700;white-space:nowrap}
 .ranking-controls select{border:0;background:transparent;font-size:8px;letter-spacing:.08em;font-weight:700;min-width:150px}
+
+.ranking-view-tabs{display:flex;gap:0;border-bottom:1px solid var(--line)}
+.ranking-view-tabs button{font-size:8px;letter-spacing:.11em;font-weight:700;padding:11px 15px;border-right:1px solid var(--line);color:#77746d}
+.ranking-view-tabs button:first-child{border-left:1px solid var(--line)}
+.ranking-view-tabs button.active,.ranking-view-tabs button:hover{background:#111;color:#fff}
+.ranking-filter-set{display:flex;align-items:center;gap:22px}
+.rank-cell{display:flex;flex-direction:column;gap:4px}
+.rank-cell>strong{font-size:9px;color:#77746d}
+.rank-cell small{font-size:7px;letter-spacing:.05em;font-weight:700}
+.rank-up{color:#111}.rank-down{color:#8c8982}.rank-flat{color:#aaa}
+.ranking-context{display:grid;grid-template-columns:1fr 1fr;gap:50px;padding:21px 7%;border-bottom:1px solid var(--line);background:#e8e7e2}
+.ranking-context>div{display:flex;align-items:center;gap:14px}.ranking-context>div>span{font-size:7px;letter-spacing:.17em;color:#77746d;font-weight:700}.ranking-context>div>strong{font-family:Manrope,Inter,sans-serif;font-size:15px;letter-spacing:-.02em}
+.ranking-context p{font-size:9px;line-height:1.5;color:#67645e;margin:0;justify-self:end;max-width:490px}
+
 .startup-table{margin:0 7%}
 .startup-row{width:100%;display:grid;grid-template-columns:.35fr 1.55fr 1.25fr .9fr 1fr .8fr .55fr;align-items:center;gap:12px;text-align:left;border-bottom:1px solid var(--line);min-height:69px}
 .startup-head{min-height:39px;font-size:7px;letter-spacing:.16em;font-weight:700;color:#79766f}
@@ -394,7 +408,7 @@ footer>span{font-size:7px;letter-spacing:.12em;color:#777;align-self:end}
   .portrait-grid{grid-template-columns:1fr;padding-top:18px}.portrait-image{height:430px}
   .deal-summary{grid-template-columns:1fr}.deal-summary>div,.deal-summary>div:not(:first-child){padding:14px 0;border-right:0;border-bottom:1px solid var(--line)}.deal-summary>div:last-child{border-bottom:0}.deal-summary strong{font-size:25px}
   .deals-table{margin:0 6%;overflow-x:auto}.table-row{min-width:790px;grid-template-columns:1.3fr .85fr .75fr .85fr 1.15fr .3fr}
-  .ranking-intro{grid-template-columns:1fr;gap:22px;padding-top:32px}.ranking-intro h2{font-size:41px}.ranking-controls{align-items:flex-start;flex-direction:column}.ranking-tabs{width:100%}
+  .ranking-intro{grid-template-columns:1fr;gap:22px;padding-top:32px}.ranking-intro h2{font-size:41px}.ranking-controls{align-items:stretch;flex-direction:column}.ranking-view-tabs{overflow-x:auto}.ranking-view-tabs button{white-space:nowrap}.ranking-filter-set{width:100%;align-items:flex-start;flex-direction:column;gap:14px}.ranking-tabs{width:100%}.ranking-context{grid-template-columns:1fr;gap:10px;padding-left:6%;padding-right:6%}.ranking-context p{justify-self:start}
   .startup-table{margin:0 6%;overflow-x:auto}.startup-row{min-width:820px;grid-template-columns:.3fr 1.55fr 1.2fr .9fr 1fr .8fr .55fr}
   .ranking-method{grid-template-columns:1fr;gap:31px;padding-top:38px}.ranking-method h2{font-size:40px}
   .news-list{margin:0 6%}.news-list article{grid-template-columns:45px 1fr;padding:23px 0;gap:13px}.news-list article>a{grid-column:2;justify-self:start}.news-list article h2{font-size:25px}
