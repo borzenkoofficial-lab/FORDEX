@@ -1,5 +1,5 @@
-import { emergingStartups } from './emergingStartups';
-import { startupRankings } from './startups';
+import { emergingStartups } from './emergingStartups.js';
+import { startupRankings } from './startups.js';
 
 const byId = new Map(emergingStartups.map((item) => [item.id, item]));
 const coreById = new Map(startupRankings.map((item) => [item.id, item]));
