@@ -37,6 +37,7 @@ const categoryLinks = [
 
 const sectorFilters = ['ALL', 'AI / AGENTS', 'DEEPTECH', 'MEDTECH', 'NEUROTECH', 'INDUSTRIAL', 'CONSUMER'];
 const startupRankings = rankedStartupIndex;
+const startupRankById = new Map(startupRankings.map((item) => [item.id, item]));
 
 function getRoute() {
   return window.location.hash.replace('#', '').trim().toLowerCase() || 'home';
@@ -312,7 +313,7 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
             <div className="directory-image">
               <img src={item.image} alt="" loading={index < 6 ? 'eager' : 'lazy'} />
               <button type="button" className="image-open" onClick={() => setSelected(item)} aria-label={'Open ' + item.name + ' profile'} />
-              <span>{item.ranking ? '#' + String(item.ranking).padStart(2, '0') : item.kind}</span>
+              <span>{startupRankById.has(item.id) ? '#' + String(startupRankById.get(item.id).rank).padStart(2, '0') : item.kind}</span>
               {item.verified && <span className="verified-mark"><CheckCircle2 size={13} /></span>}
               <button type="button" className={isWatched(item, watchlist) ? 'watch active' : 'watch'} onClick={() => toggleWatch(item)} aria-label="Toggle watchlist"><Heart size={16} fill={isWatched(item, watchlist) ? 'currentColor' : 'none'} /></button>
             </div>
@@ -330,6 +331,7 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
 }
 
 function CompanyDrawer({ company, onClose }) {
+  const ranked = startupRankById.get(company.id);
   return (
     <div className="startup-overlay" role="dialog" aria-modal="true" aria-label={company.name + ' profile'} onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <aside className="startup-drawer company-drawer">
@@ -339,10 +341,10 @@ function CompanyDrawer({ company, onClose }) {
         <div className="drawer-stats">
           <div><span>STAGE</span><strong>{company.stage}</strong></div>
           <div><span>LOCATION</span><strong>{company.city}</strong></div>
-          <div><span>FORDEX RANK</span><strong>{company.ranking ? '#' + String(company.ranking).padStart(2, '0') : '—'}</strong></div>
+          <div><span>FORDEX RANK</span><strong>{ranked ? '#' + String(ranked.rank).padStart(2, '0') : '—'}</strong></div>
           <div><span>REVIEWED</span><strong>{company.lastVerified || '—'}</strong></div>
         </div>
-        {company.score && <div className="drawer-signal"><span>INDEX SIGNAL</span><p>FORDEX score <strong>{company.score}</strong> · momentum <strong>+{company.momentum}%</strong>.</p></div>}
+        {ranked && <div className="drawer-signal"><span>INDEX SIGNAL</span><p>FORDEX score <strong>{ranked.score}</strong> · momentum <strong>+{ranked.momentum}%</strong>.</p></div>}
         <a className="drawer-source" href={company.website || company.source} target="_blank" rel="noreferrer">OPEN COMPANY <ExternalLink size={14} /></a>
       </aside>
     </div>
