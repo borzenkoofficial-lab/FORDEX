@@ -7,6 +7,7 @@ import { coverageLabels, researchUniverse } from './data/coverage';
 import { aiProviderRankings, aiProviderSource } from './data/providerRankings';
 import { sourceRegistry, sourceRules } from './data/sources';
 import { editorialArticles, getEditorialArticle } from './data/articles';
+import { youngLeaderRankings, youngLeaderMethodology } from './data/youngLeaders';
 import { ruText, ruTag, ruSector, ruStage, ruCity, ruKind, ruRole, ruScoreLabel, ruDate, ruSizeBand } from './i18n';
 import {
   Activity,
@@ -533,6 +534,7 @@ function Rankings() {
         ))}
       </section>
       {rankingMode === 'providers' ? <ProviderRanking /> : rankingMode === 'ai100' ? <RankingCollectionPanel collectionKey="ai100" /> : rankingMode === 'vibe100' ? <RankingCollectionPanel collectionKey="vibe100" /> : <>
+      <YoungLeadersPanel />
       <section className="ranking-intro">
         <div><span>FORDEX ИНДЕКС СТАРТАПОВ · 2026</span><h2>ИНДЕКС<br />СТАРТАПОВ.</h2></div>
         <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды. Оценка рассчитывается детерминированной моделью FORDEX.</p><small>ИССЛЕДОВАТЕЛЬСКАЯ БЕТА · МОДЕЛЬ {rankingModel.version.toUpperCase()} · {startupRankings.length} КОМПАНИЙ С ОЦЕНКОЙ · {marketSummary.trackedCompanies} ПРОФИЛЕЙ В ОТСЛЕЖИВАНИИ · ПОСЛЕДНЯЯ ПРОВЕРКА ОКТ 2026</small></div>
