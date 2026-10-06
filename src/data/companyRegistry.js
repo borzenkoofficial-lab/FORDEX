@@ -72,6 +72,17 @@ export const corporateCompanies = [
   },
 ];
 
+const registryImages = [
+  'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1000&q=86',
+  'https://images.unsplash.com/photo-1550751827-4bd374c3f58b?auto=format&fit=crop&w=1000&q=86',
+  'https://images.unsplash.com/photo-1518770660439-4636190af475?auto=format&fit=crop&w=1000&q=86',
+  'https://images.unsplash.com/photo-1535378917042-10a22c95931a?auto=format&fit=crop&w=1000&q=86',
+  'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=1000&q=86',
+  'https://images.unsplash.com/photo-1516321318423-f06f85e504b3?auto=format&fit=crop&w=1000&q=86',
+  'https://images.unsplash.com/photo-1531973576160-7125cd663d86?auto=format&fit=crop&w=1000&q=86',
+  'https://images.unsplash.com/photo-1504384308090-c894fdcc538d?auto=format&fit=crop&w=1000&q=86',
+];
+
 function fromCore(item) {
   return {
     ...item,
@@ -93,11 +104,16 @@ function fromEmerging(item) {
   };
 }
 
-export const companyRegistry = [
+const baseCompanyRegistry = [
   ...corporateCompanies,
   ...startupRankings.map(fromCore),
   ...emergingStartups.map(fromEmerging),
 ];
+
+export const companyRegistry = baseCompanyRegistry.map((company, index) => ({
+  ...company,
+  image: company.image ?? registryImages[index % registryImages.length],
+}));
 
 export const companyById = new Map(companyRegistry.map((company) => [company.id, company]));
 
