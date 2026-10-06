@@ -40,7 +40,7 @@ const categoryLinks = [
   { title: 'DEALS', text: 'Раунды финансирования и движения капитала с привязанными доказательствами.', href: 'deals', image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=720&q=86' },
 ];
 
-const sectorFilters = ['ALL', 'AI / AGENTS', 'DEEPTECH', 'MEDTECH', 'NEUROTECH', 'INDUSTRIAL', 'CONSUMER'];
+const sectorFilters = ['ALL', 'EMERGING', 'GROWING', 'AI / AGENTS', 'DEEPTECH', 'MEDTECH', 'NEUROTECH', 'INDUSTRIAL', 'CONSUMER'];
 const startupRankings = rankedStartupIndex;
 const startupRankById = new Map(startupRankings.map((item) => [item.id, item]));
 
@@ -301,7 +301,10 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
   const filtered = useMemo(() => marketCompanies.filter((item) => {
     const haystack = [item.name, item.sector, item.stage, item.city, item.description].join(' ').toLowerCase();
     const matchesQuery = haystack.includes(query.toLowerCase());
-    const matchesFilter = filter === 'ALL' || item.tags?.includes(filter);
+    const matchesFilter = filter === 'ALL'
+      || (filter === 'EMERGING' && item.kind === 'EMERGING STARTUP')
+      || (filter === 'GROWING' && item.sizeBand === 'GROWING')
+      || item.tags?.includes(filter);
     return matchesQuery && matchesFilter;
   }), [query, filter]);
 
