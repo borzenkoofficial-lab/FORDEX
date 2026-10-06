@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { rankingCategories, scoreWeights, startupRankings } from './data/startups';
 import {
   ArrowLeft,
   ArrowRight,
@@ -316,15 +317,92 @@ function Deals() {
 }
 
 function Rankings() {
+  const [category, setCategory] = useState('ALL');
+  const [sort, setSort] = useState('rank');
+  const [selected, setSelected] = useState(null);
+
+  const filtered = useMemo(() => {
+    const rows = startupRankings.filter((item) => {
+      if (category === 'ALL') return true;
+      const haystack = (item.sector + ' ' + item.name).toUpperCase();
+      return haystack.includes(category.replace(' / ', ' ')) || (category === 'MEDTECH' && haystack.includes('MEDTECH'));
+    });
+    return [...rows].sort((a, b) => {
+      if (sort === 'score') return b.score - a.score;
+      if (sort === 'momentum') return parseFloat(b.momentum) - parseFloat(a.momentum);
+      if (sort === 'funding') return parseFunding(b.funding) - parseFunding(a.funding);
+      return a.rank - b.rank;
+    });
+  }, [category, sort]);
+
   return (
-    <main className="inner-page">
-      <PageHero eyebrow="THE FORDEX INDEX" title="RANKINGS" description="A clear editorial index of companies with the strongest combination of scale, momentum and market relevance." />
-      <section className="ranking-table">
-        <div className="ranking-row ranking-head"><span>RANK</span><span>COMPANY</span><span>CATEGORY</span><span>MOMENTUM</span><span>STATUS</span></div>
-        {rankingRows.map((row) => <div className="ranking-row" key={row.rank}><strong>{String(row.rank).padStart(2, '0')}</strong><strong>{row.company}</strong><span>{row.category}</span><strong>{row.momentum}</strong><span>{row.position}</span></div>)}
+    <main className="inner-page rankings-page">
+      <PageHero eyebrow="THE FORDEX INDEX · 2026" title="STARTUP RANKINGS" description="The FORDEX ranking of Russian technology companies with the strongest combination of traction, capital, momentum and defensibility." />
+      <section className="ranking-intro">
+        <div><span>FORDEX STARTUP INDEX</span><h2>WHO IS<br />MOVING UP?</h2></div>
+        <div><p>FORDEX turns fragmented market signals into a single editorial ranking. Scores are normalized to 100 and updated as new evidence enters the dataset.</p><small>RESEARCH BETA · LAST REVIEW OCT 2026</small></div>
       </section>
-      <div className="methodology"><span>METHODOLOGY</span><h2>DATA. SIGNAL.<br />JUDGEMENT.</h2><p>FORDEX combines structured data and editorial review. The interface stays simple; the research layer stays rigorous.</p></div>
+      <section className="ranking-controls">
+        <div className="ranking-tabs">
+          {rankingCategories.map((item) => <button type="button" key={item} className={category === item ? 'active' : ''} onClick={() => setCategory(item)}>{item}</button>)}
+        </div>
+        <label> SORT
+          <select value={sort} onChange={(e) => setSort(e.target.value)}>
+            <option value="rank">FORDEX RANK</option>
+            <option value="score">SCORE</option>
+            <option value="momentum">MOMENTUM</option>
+            <option value="funding">FUNDING</option>
+          </select>
+        </label>
+      </section>
+      <section className="startup-table" aria-label="FORDEX Startup Rankings">
+        <div className="startup-row startup-head"><span>#</span><span>STARTUP</span><span>SECTOR</span><span>STAGE</span><span>FUNDING</span><span>MOMENTUM</span><span>SCORE</span></div>
+        {filtered.map((item) => (
+          <button type="button" className="startup-row startup-item" key={item.name} onClick={() => setSelected(item)}>
+            <strong>{String(item.rank).padStart(2, '0')}</strong>
+            <span className="startup-name"><strong>{item.name}</strong><small>{item.city} · {item.verified ? 'VERIFIED' : 'RESEARCH'}</small></span>
+            <span>{item.sector}</span>
+            <span>{item.stage}</span>
+            <span>{item.funding}</span>
+            <strong className="positive">{item.momentum}</strong>
+            <strong className="score">{item.score}</strong>
+          </button>
+        ))}
+      </section>
+      <section className="ranking-method">
+        <div><span>HOW FORDEX SCORES</span><h2>ONE SCORE.<br />SIX SIGNALS.</h2></div>
+        <div className="score-list">{scoreWeights.map((weight) => <div key={weight.label}><span>{weight.label}</span><strong>{weight.value}%</strong><i><b style={{ width: weight.value + '%' }} /></i></div>)}</div>
+      </section>
+      {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} />}
     </main>
+  );
+}
+
+function parseFunding(value) {
+  const match = value.match(/[0-9]+(?:[.,][0-9]+)?/);
+  if (!match) return 0;
+  return Number(match[0].replace(',', '.')) * (value.includes('B') ? 1000 : 1);
+}
+
+function StartupDrawer({ startup, onClose }) {
+  return (
+    <div className="startup-overlay" role="dialog" aria-modal="true" aria-label={startup.name + ' profile'}>
+      <aside className="startup-drawer">
+        <div className="drawer-top"><span>FORDEX PROFILE · #{String(startup.rank).padStart(2, '0')}</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
+        <div className="drawer-score"><small>FORDEX SCORE</small><strong>{startup.score}</strong><span>{startup.momentum} MOMENTUM</span></div>
+        <span className="drawer-sector">{startup.sector}</span>
+        <h2>{startup.name}</h2>
+        <p>{startup.traction}</p>
+        <div className="drawer-stats">
+          <div><span>STAGE</span><strong>{startup.stage}</strong></div>
+          <div><span>FUNDING</span><strong>{startup.funding}</strong></div>
+          <div><span>LATEST ROUND</span><strong>{startup.latestRound}</strong></div>
+          <div><span>LOCATION</span><strong>{startup.city}</strong></div>
+        </div>
+        <div className="drawer-signal"><span>RANKING SIGNAL</span><p>Current position <strong>#{startup.rank}</strong>. Previous position <strong>#{startup.previousRank}</strong>.</p></div>
+        <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">VIEW SOURCE <ArrowRight size={14} /></a>
+      </aside>
+    </div>
   );
 }
 
