@@ -6,6 +6,7 @@ import { dealRecords, founderProfiles, marketCompanies, marketSummary, newsFeed 
 import { coverageLabels, researchUniverse } from './data/coverage';
 import { aiProviderRankings, aiProviderSource } from './data/providerRankings';
 import { sourceRegistry, sourceRules } from './data/sources';
+import { editorialArticles, getEditorialArticle } from './data/articles';
 import { ruText, ruTag, ruSector, ruStage, ruCity, ruKind, ruRole, ruScoreLabel, ruDate, ruSizeBand } from './i18n';
 import {
   Activity,
@@ -128,7 +129,9 @@ export function App() {
       {route === 'news' && <News />}
       {route === 'analytics' && <Analytics />}
       {route === 'watchlist' && <Watchlist names={watchlist} toggleWatch={toggleWatch} />}
-      {!knownRoutes.includes(route) && <NotFound route={route} />}
+      {route.startsWith('article-') && <ArticlePage articleId={route.replace('article-', '')} />}
+      {route.startsWith('research-') && <ResearchArticlePage researchId={route} />}
+      {!knownRoutes.includes(route) && !route.startsWith('article-') && !route.startsWith('research-') && <NotFound route={route} />}
       <Footer />
       {searchOpen && <SearchOverlay onClose={() => setSearchOpen(false)} />}
     </div>
@@ -406,7 +409,7 @@ function MarketMap() {
         </div>
         <div className="universe-table">
           <div className="universe-row universe-head-row"><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАТУС</span><span>ИСТОЧНИК</span></div>
-          {visible.map((item, index) => <a href={item.source} target="_blank" rel="noreferrer" className="universe-row" key={item.name}><strong>{item.name}</strong><span>{ruSector(item.sector)}</span><span>ИССЛЕДОВАНИЕ · НА РАДАРЕ</span><span>{item.sourceName} <ExternalLink size={13} /></span></a>)}
+          {visible.map((item, index) => <button type="button" className="universe-row" key={item.id || item.name} onClick={() => goto(item.id)}><strong>{item.name}</strong><span>{ruSector(item.sector)}</span><span>{item.priority === 'EMERGING' ? 'МОЛОДАЯ КОМАНДА · НА РАДАРЕ' : 'ИССЛЕДОВАНИЕ · НА РАДАРЕ'}</span><span>ОТКРЫТЬ ДОСЬЕ <ArrowRight size={13} /></span></button>)}
           {!visible.length && <div className="empty">ПРОФИЛИ НЕ НАЙДЕНЫ ПО ЗАПРОСУ.</div>}
         </div>
       </section>
@@ -782,15 +785,117 @@ function StartupDrawer({ startup, onClose }) {
 function News() {
   return (
     <main className="inner-page">
-      <PageHero eyebrow="РЕДАКЦИЯ И ИСТОЧНИКИ" title="NEWS" description="Лёгкий редакционный слой на основе публичных обновлений компаний и отраслевых публикаций, с доступом к первоисточнику в один клик." />
+      <PageHero eyebrow="РЕДАКЦИЯ FORDEX" title="СТАТЬИ" description="Редакционные материалы FORDEX о российских AI-компаниях, командах, технологиях и рыночных сигналах. Материал читается внутри FORDEX; первоисточник всегда указан отдельно." action={<ButtonLink route="market" className="text-link">ВЕРНУТЬСЯ НА КАРТУ РЫНКА <ArrowRight size={13} /></ButtonLink>} />
       <section className="news-list">
-        {newsFeed.map((story, index) => (
+        {editorialArticles.map((story, index) => (
           <article key={story.id}>
             <div className="news-index">{String(index + 1).padStart(2, '0')}</div>
-            <div><span>{ruDate(story.date)} · {ruText(story.category)}</span><h2>{story.title}</h2><small>{story.sourceName}</small></div>
-            <a href={story.source} target="_blank" rel="noreferrer">ЧИТАТЬ ИСТОЧНИК <ExternalLink size={14} /></a>
+            <div><span>{ruDate(story.date)} · {story.category}</span><h2>{story.title}</h2><small>{story.readTime} · {story.sourceName}</small></div>
+            <button type="button" className="news-read" onClick={() => goto('article-' + story.id)}>ЧИТАТЬ В FORDEX <ArrowRight size={14} /></button>
           </article>
         ))}
+      </section>
+    </main>
+  );
+}
+
+function ArticlePage({ articleId }) {
+  const article = getEditorialArticle(articleId);
+  if (!article) return <NotFound route={'article-' + articleId} />;
+
+  const index = editorialArticles.findIndex((item) => item.id === article.id);
+  const related = editorialArticles.filter((item) => item.id !== article.id).slice(0, 3);
+
+  return (
+    <main className="inner-page article-page">
+      <section className="article-hero">
+        <div className="article-hero-top"><span>{article.category} · {ruDate(article.date)} · {article.readTime}</span><ButtonLink route="news" className="article-back"><ArrowLeft size={13} /> ВСЕ СТАТЬИ</ButtonLink></div>
+        <div className="article-hero-grid">
+          <span className="article-number">{String(index + 1).padStart(2, '0')}</span>
+          <div><h1>{article.title}</h1><p>{article.dek}</p></div>
+        </div>
+      </section>
+
+      <section className="article-body">
+        <article className="article-main">
+          <p className="article-lead">{article.lead}</p>
+          {article.sections.map((section) => (
+            <section className="article-section" key={section.heading}>
+              <h2>{section.heading}</h2>
+              {section.paragraphs.map((paragraph) => <p key={paragraph}>{paragraph}</p>)}
+            </section>
+          ))}
+          <div className="article-source">
+            <span>ПЕРВОИСТОЧНИК</span>
+            <strong>{article.sourceName}</strong>
+            <p>Фактическая основа материала проверена по публичной публикации. Редакционные выводы и формулировки выше принадлежат FORDEX.</p>
+            <a href={article.source} target="_blank" rel="noreferrer">ОТКРЫТЬ ПЕРВОИСТОЧНИК <ExternalLink size={13} /></a>
+          </div>
+        </article>
+
+        <aside className="article-aside">
+          <div><span>FORDEX</span><strong>РЕДАКЦИОННЫЙ<br />СЛОЙ</strong><p>Материалы находятся внутри индекса. Внешние сайты используются только как источники доказательств.</p></div>
+          <div><span>ДРУГИЕ МАТЕРИАЛЫ</span>{related.map((item) => <button type="button" key={item.id} onClick={() => goto('article-' + item.id)}><small>{ruDate(item.date)}</small><strong>{item.title}</strong><ArrowRight size={13} /></button>)}</div>
+        </aside>
+      </section>
+    </main>
+  );
+}
+
+function ResearchArticlePage({ researchId }) {
+  const entry = researchUniverse.find((item) => item.id === researchId);
+  if (!entry) return <NotFound route={researchId} />;
+
+  const profile = marketCompanies.find((item) => item.name === entry.name);
+  const isEmerging = entry.priority === 'EMERGING';
+  const founder = profile?.founder || entry.founder;
+  const founderAge = profile?.founderAge ?? entry.founderAge;
+  const description = profile?.description || `FORDEX отслеживает ${entry.name} как часть ${isEmerging ? 'исследовательского слоя молодых и растущих AI-команд' : 'расширенного покрытия российского AI-рынка'}.`;
+
+  return (
+    <main className="inner-page article-page">
+      <section className="article-hero research-article-hero">
+        <div className="article-hero-top"><span>{isEmerging ? 'МОЛОДАЯ КОМАНДА' : 'ИССЛЕДОВАТЕЛЬСКОЕ ДОСЬЕ'} · {ruSector(entry.sector)}</span><ButtonLink route="market" className="article-back"><ArrowLeft size={13} /> КАРТА РЫНКА</ButtonLink></div>
+        <div className="article-hero-grid">
+          <span className="article-number">RE</span>
+          <div><h1>{entry.name}</h1><p>{description}</p></div>
+        </div>
+      </section>
+
+      <section className="article-body">
+        <article className="article-main">
+          <p className="article-lead">FORDEX пока не присваивает этой записи автоматический рейтинг только ради заполнения списка. Сначала фиксируется исследовательское досье, затем — при наличии сопоставимых фактов — компания может перейти в опубликованный индекс.</p>
+
+          <section className="article-section">
+            <h2>Что уже известно</h2>
+            <p>{description}</p>
+            {profile?.evidence && <p>{profile.evidence}</p>}
+            {founder && <p>Основатель: <strong>{founder}</strong>{founderAge ? ` · публично указан возраст ${founderAge} лет` : ''}.</p>}
+          </section>
+
+          <section className="article-section">
+            <h2>Почему компания на радаре</h2>
+            <p>{isEmerging ? 'Молодые продукты и небольшие команды находятся в отдельном приоритете FORDEX. Размер компании не повышает оценку сам по себе, но помогает понять стадию и контекст развития.' : 'Компания включена в расширенное покрытие FORDEX, потому что упоминается в публичных исследовательских источниках по российскому AI-рынку. Наличие в покрытии не означает включение в опубликованный рейтинг.'}</p>
+          </section>
+
+          <div className="article-source">
+            <span>ИСТОЧНИК ДАННЫХ</span>
+            <strong>{entry.sourceName}</strong>
+            <p>Публичный источник, на котором основана текущая запись. FORDEX хранит ссылку внутри досье, поэтому пользователь не покидает сайт ради просмотра карточки.</p>
+            <a href={entry.source} target="_blank" rel="noreferrer">ОТКРЫТЬ ПЕРВОИСТОЧНИК <ExternalLink size={13} /></a>
+          </div>
+        </article>
+
+        <aside className="article-aside research-aside">
+          <div><span>ПРОФИЛЬ FORDEX</span><strong>{ruSector(entry.sector)}</strong><p>Статус: {isEmerging ? 'исследование · молодая команда' : 'исследование · расширенное покрытие'}.</p></div>
+          <div className="research-facts">
+            <span>ФАКТЫ</span>
+            <div><small>СТАДИЯ</small><strong>{profile?.stage ? ruStage(profile.stage) : '—'}</strong></div>
+            <div><small>ГОРОД</small><strong>{profile?.city ? ruCity(profile.city) : '—'}</strong></div>
+            <div><small>МАСШТАБ</small><strong>{profile?.sizeBand ? ruSizeBand(profile.sizeBand) : '—'}</strong></div>
+            <div><small>ОСНОВАТЕЛЬ</small><strong>{founder || '—'}</strong></div>
+          </div>
+        </aside>
       </section>
     </main>
   );
@@ -892,7 +997,7 @@ function SearchOverlay({ onClose }) {
     const founderResults = founderProfiles.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ОСНОВАТЕЛЬ · ' + item.company, route: 'founders' }));
     const dealResults = dealRecords.filter((item) => [item.company, item.type, item.sector, item.lead].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.company + ' · ' + ruText(item.type), meta: item.value + ' · ' + ruDate(item.date), route: 'deals' }));
     const newsResults = newsFeed.filter((item) => [item.title, item.category, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 3).map((item) => ({ label: item.title, meta: 'НОВОСТИ · ' + ruDate(item.date), route: 'news' }));
-    const coverageResults = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'РЫНОК · ' + ruSector(item.sector), route: 'market' }));
+    const coverageResults = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ДОСЬЕ · ' + ruSector(item.sector), route: item.id }));
     return [...companyResults, ...founderResults, ...dealResults, ...newsResults, ...coverageResults].slice(0, 12);
   }, [normalized]);
 
