@@ -2,68 +2,68 @@ export const sourceRegistry = [
   {
     id: 'cnews',
     name: 'CNews Analytics',
-    type: 'MARKET RANKING',
+    type: 'РЕЙТИНГ РЫНКА',
     title: 'Крупнейшие игроки российского рынка ИИ-решений 2025',
-    date: 'JUN 2026',
+    date: 'ИЮН 2026',
     url: 'https://www.cnews.ru/reviews/tehnologii_iskusstvennogo_intellekta_1/review_table/a8b6a30b8dca288a5d94b9a035a836bcf06be2b2/',
-    use: 'AI project revenue and growth for provider benchmarking.',
-    note: 'Displayed as an external source ranking, not as a FORDEX score.'
+    use: 'Выручка AI-проектов и рост для сравнения провайдеров.',
+    note: 'Показывается как внешний рейтинг источника, а не как оценка FORDEX.'
   },
   {
     id: 'aiana',
     name: 'AIANA',
-    type: 'MARKET RESEARCH',
+    type: 'ИССЛЕДОВАНИЕ РЫНКА',
     title: 'RAI-2026 · российский рынок искусственного интеллекта',
-    date: 'AUG 2026',
+    date: 'АВГ 2026',
     url: 'https://aiana.ru/research/rai-2026-ru/',
-    use: 'Macro market size and company-count context.',
-    note: 'Market-level figures are kept separate from company-level index scores.'
+    use: 'Контекст по размеру рынка и количеству компаний.',
+    note: 'Показатели рынка отделены от оценок отдельных компаний в индексе.'
   },
   {
     id: 'ai-review',
     name: 'AI Review',
-    type: 'ECOSYSTEM RESEARCH',
+    type: 'ИССЛЕДОВАНИЕ ЭКОСИСТЕМЫ',
     title: 'AI-стартапы России: топ-20 в 2026',
     date: 'AUG 2026',
     url: 'https://ai-review.ru/blog/ai-startapy-rossii-top-20/',
-    use: 'Candidate discovery and category cross-checks.',
-    note: 'Editorial secondary source; claims are not copied into FORDEX without a source link.'
+    use: 'Поиск кандидатов и перекрёстная проверка категорий.',
+    note: 'Вторичный редакционный источник; сведения не переносятся в FORDEX без ссылки на источник.'
   },
   {
     id: 'seedtable',
     name: 'Seedtable',
-    type: 'STARTUP DATABASE',
-    title: 'Best AI Startups in Russia (2026)',
+    type: 'БАЗА СТАРТАПОВ',
+    title: 'Лучшие AI-стартапы России (2026)',
     date: '2026',
     url: 'https://seedtable.com/best-ai-startups-in-russia',
-    use: 'Startup discovery and funding-stage cross-checks.',
-    note: 'Third-party scoring is never reused as the FORDEX score.'
+    use: 'Поиск стартапов и перекрёстная проверка стадий финансирования.',
+    note: 'Оценки третьих сторон никогда не используются как оценка FORDEX.'
   },
   {
     id: 'venture-guide',
     name: 'Venture Guide / Moscow Venture Fund',
-    type: 'VENTURE DATA',
-    title: 'Russian technology investment flow',
+    type: 'ВЕНЧУРНЫЕ ДАННЫЕ',
+    title: 'Поток технологических инвестиций в России',
     date: 'OCT 2026',
     url: 'https://www.comnews.ru/content/247690/2026-10-05/2026-w41/1007/iskusstvennyy-intellekt-ostaetsya-liderom-obemu-venchurnykh-investiciy',
-    use: 'Current venture-market context and deal-flow monitoring.',
-    note: 'Figures may be revised as later deal disclosures are added.'
+    use: 'Актуальный контекст венчурного рынка и мониторинг сделок.',
+    note: 'Показатели могут уточняться по мере появления новых раскрытий сделок.'
   },
   {
     id: 'official-company',
     name: 'Official company sources',
-    type: 'PRIMARY SOURCES',
-    title: 'Company websites, investor announcements and product pages',
+    type: 'ПЕРВИЧНЫЕ ИСТОЧНИКИ',
+    title: 'Сайты компаний, объявления инвесторов и страницы продуктов',
     date: 'CONTINUOUS',
     url: 'https://cognitivepilot.com/',
-    use: 'Primary evidence for product, funding and company-specific claims.',
-    note: 'FORDEX prefers a primary company source when one is public and specific.'
+    use: 'Первичные доказательства по продукту, финансированию и фактам о компании.',
+    note: 'FORDEX предпочитает публичный и конкретный первичный источник компании.
   },
 ];
 
 export const sourceRules = [
-  'A disclosed amount is recorded as disclosed; unknown financing stays UNDISCLOSED.',
-  'FORDEX editorial scores are separate from external rankings, valuations and database scores.',
-  'Every indexed company should carry a source URL and a review month.',
-  'Market-level research is presented as context, not as a substitute for company evidence.',
+  'Раскрытая сумма записывается как раскрытая; неизвестное финансирование остаётся НЕ РАСКРЫТЫМ.',
+  'Редакционные оценки FORDEX отделены от внешних рейтингов, оценок стоимости и оценок сторонних баз.',
+  'У каждой компании индекса должна быть ссылка на источник и месяц проверки.',
+  'Исследования уровня рынка представлены как контекст, а не как замена доказательствам по компаниям.',
 ];
