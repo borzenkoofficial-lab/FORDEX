@@ -209,7 +209,7 @@ function Home({ watchlist, toggleWatch }) {
         </div>
         <div className="hero-stamp"><span>ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span><strong>2026</strong><i /></div>
         <div className="hero-foot">
-          <span>20 КОМПАНИЙ С ОЦЕНКОЙ</span><span>26 ПРОФИЛЕЙ В ОТСЛЕЖИВАНИИ</span><span>ДАННЫЕ С ПРИВЯЗКОЙ К ИСТОЧНИКУ</span>
+          <span>{marketSummary.indexedStartups} КОМПАНИЙ С ОЦЕНКОЙ</span><span>{marketSummary.trackedCompanies} ПРОФИЛЕЙ В ОТСЛЕЖИВАНИИ</span><span>ДАННЫЕ С ПРИВЯЗКОЙ К ИСТОЧНИКУ</span>
           <button type="button" onClick={() => goto('market')}>ОТКРЫТЬ КАРТУ РЫНКА <ArrowRight size={13} /></button>
         </div>
       </section>
