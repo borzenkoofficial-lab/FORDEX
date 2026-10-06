@@ -658,13 +658,16 @@ function StartupDrawer({ startup, onClose }) {
         <section className="drawer-block drawer-model">
           <div className="drawer-block-head"><span>INDEX MODEL</span><small>WEIGHTED SIGNALS</small></div>
           <div className="drawer-weight-list">
-            {scoreWeights.map((weight, index) => (
-              <div key={weight.label}>
-                <span>{weight.label}</span>
-                <strong>{weight.value}%</strong>
-                <i><b style={{ width: weight.value + '%' }} /></i>
-              </div>
-            ))}
+            {scoreWeights.map((weight, index) => {
+              const signal = startup.scoreBreakdown?.[index];
+              return (
+                <div key={weight.label}>
+                  <span>{weight.label}</span>
+                  <strong>{signal?.score ?? '—'} / 100 · {weight.value}%</strong>
+                  <i><b style={{ width: (signal?.score ?? 0) + '%' }} /></i>
+                </div>
+              );
+            })}
           </div>
           <p className="drawer-model-note">The published score is calculated from six normalized signals. Funding is one input, not the ranking itself. Model v0.1 is provisional.</p>
         </section>
