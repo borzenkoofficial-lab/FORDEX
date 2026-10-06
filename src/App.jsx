@@ -4,6 +4,9 @@ import { rankingCollections } from './data/rankingCollections';
 import { rankedStartupIndex, rankingModel } from './lib/rankingEngine';
 import { dealRecords, founderProfiles, marketCompanies, marketSummary, newsFeed } from './data/market';
 import { coverageLabels, researchUniverse } from './data/coverage';
+import { aiProviderRankings, aiProviderSource } from './data/providerRankings';
+import { sourceRegistry, sourceRules } from './data/sources';
+import { ruText, ruTag, ruSector, ruStage, ruCity, ruKind, ruRole, ruScoreLabel, ruDate } from './i18n';
 import {
   Activity,
   ArrowLeft,
@@ -31,7 +34,7 @@ const NAV = ['COMPANIES', 'FOUNDERS', 'DEALS', 'RANKINGS', 'MARKET'];
 const EDITORIAL_IMAGE = 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1600&q=88';
 
 const categoryLinks = [
-  { title: 'COMPANIES', text: 'Structured company profiles across the Russian AI economy.', href: 'companies', image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=720&q=86' },
+  { title: 'COMPANIES', text: 'Structured company profiles across the Russian AI economy.', href: 'компаний', image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=720&q=86' },
   { title: 'FOUNDERS', text: 'The people building the teams, products and markets.', href: 'founders', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=720&q=86' },
   { title: 'DEALS', text: 'Funding rounds and capital movements with evidence attached.', href: 'deals', image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=720&q=86' },
 ];
@@ -109,14 +112,14 @@ export function App() {
     });
   };
 
-  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'sources', 'news', 'analytics', 'watchlist'];
+  const knownRoutes = ['home', 'компаний', 'founders', 'deals', 'rankings', 'market', 'sources', 'news', 'analytics', 'watchlist'];
 
   return (
     <div className="site">
       <TopBar />
       <Header route={route} watchCount={watchlist.length} onSearch={() => setSearchOpen(true)} />
       {route === 'home' && <Home watchlist={watchlist} toggleWatch={toggleWatch} />}
-      {route === 'companies' && <CompanyDirectory watchlist={watchlist} toggleWatch={toggleWatch} />}
+      {route === 'компаний' && <CompanyDirectory watchlist={watchlist} toggleWatch={toggleWatch} />}
       {route === 'founders' && <Founders />}
       {route === 'deals' && <Deals />}
       {route === 'rankings' && <Rankings />}
@@ -135,11 +138,11 @@ export function App() {
 function TopBar() {
   return (
     <div className="announcement">
-      <span>THE AI BUSINESS INDEX OF RUSSIA</span><strong>RESEARCH BETA · 2026</strong>
+      <span>ИНДЕКС AI-БИЗНЕСА РОССИИ</span><strong>ИССЛЕДОВАТЕЛЬСКАЯ БЕТА · 2026</strong>
       <div className="announcement-links">
-        <button type="button" onClick={() => goto('analytics')}>METHODOLOGY</button><span>|</span>
-        <button type="button" onClick={() => goto('news')}>LATEST</button><span>|</span>
-        <button type="button" onClick={() => goto('home')}>HOME</button>
+        <button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><span>|</span>
+        <button type="button" onClick={() => goto('news')}>ПОСЛЕДНЕЕ</button><span>|</span>
+        <button type="button" onClick={() => goto('home')}>ГЛАВНАЯ</button>
       </div>
     </div>
   );
@@ -156,30 +159,30 @@ function Header({ route, watchCount, onSearch }) {
   return (
     <>
       <header className="header">
-        <button className="mobile-menu" type="button" aria-label="Open navigation" aria-expanded={mobileOpen} onClick={() => setMobileOpen((open) => !open)}>
+        <button className="mobile-menu" type="button" aria-label="Открыть навигацию" aria-expanded={mobileOpen} onClick={() => setMobileOpen((open) => !open)}>
           {mobileOpen ? <X size={17} /> : <Menu size={17} />}
         </button>
-        <nav className="nav-left" aria-label="Primary">
+        <nav className="nav-left" aria-label="Основная навигация">
           {NAV.map((item) => (
-            <button type="button" key={item} className={route === item.toLowerCase() ? 'active' : ''} onClick={() => goto(item.toLowerCase())}>{item}</button>
+            <button type="button" key={item} className={route === item.toLowerCase() ? 'active' : ''} onClick={() => goto(item.toLowerCase())}>{ruText(item)}</button>
           ))}
         </nav>
-        <button className="logo" type="button" onClick={() => goto('home')} aria-label="FORDEX home">FORDEX</button>
+        <button className="logo" type="button" onClick={() => goto('home')} aria-label="Главная FORDEX">FORDEX</button>
         <div className="nav-right">
-          <button type="button" onClick={onSearch}><Search size={15} /><span>SEARCH</span></button>
-          <button type="button" onClick={() => goto('analytics')}><LineChart size={15} /><span>ANALYTICS</span></button>
+          <button type="button" onClick={onSearch}><Search size={15} /><span>ПОИСК</span></button>
+          <button type="button" onClick={() => goto('analytics')}><LineChart size={15} /><span>АНАЛИТИКА</span></button>
           <button type="button" onClick={() => goto('watchlist')}><Heart size={15} /><span>{watchLabel}</span></button>
-          <button type="button" onClick={() => goto('rankings')}><BarChart3 size={15} /><span>INDEX</span></button>
+          <button type="button" onClick={() => goto('rankings')}><BarChart3 size={15} /><span>ИНДЕКС</span></button>
         </div>
       </header>
       <div className={mobileOpen ? 'mobile-drawer open' : 'mobile-drawer'} aria-hidden={!mobileOpen}>
         <div className="mobile-drawer-links">
-          {NAV.map((item) => <button type="button" key={item} onClick={() => navigate(item.toLowerCase())}>{item}</button>)}
+          {NAV.map((item) => <button type="button" key={item} onClick={() => navigate(item.toLowerCase())}>{ruText(item)}</button>)}
           <button type="button" onClick={() => navigate('news')}>NEWS</button>
-          <button type="button" onClick={() => navigate('analytics')}>ANALYTICS</button>
+          <button type="button" onClick={() => navigate('analytics')}>АНАЛИТИКА</button>
           <button type="button" onClick={() => navigate('watchlist')}>WATCHLIST{watchCount ? ' (' + watchCount + ')' : ''}</button>
         </div>
-        <div className="mobile-drawer-note"><strong>FORDEX</strong><span>AI BUSINESS INDEX · RUSSIA</span></div>
+        <div className="mobile-drawer-note"><strong>FORDEX</strong><span>ИНДЕКС AI-БИЗНЕСА · РОССИЯ</span></div>
       </div>
     </>
   );
@@ -197,62 +200,62 @@ function Home({ watchlist, toggleWatch }) {
   return (
     <main id="top">
       <section className="hero hero-large">
-        <div className="hero-copy"><span>THE AI BUSINESS<br />INDEX OF RUSSIA</span><i /></div>
+        <div className="hero-copy"><span>THE AI BUSINESS<br />INDEX ИЗ RUSSIA</span><i /></div>
         <div className="hero-word" aria-hidden="true">FORDEX</div>
-        <div className="hero-kicker"><span>RANKING · CAPITAL · PEOPLE</span><strong>THE MARKET<br />IN ONE FRAME.</strong></div>
+        <div className="hero-kicker"><span>РЕЙТИНГИ · КАПИТАЛ · ЛЮДИ</span><strong>ВЕСЬ РЫНОК<br />В ОДНОМ КАДРЕ.</strong></div>
         <div className="hero-actions">
-          <ButtonLink route="rankings" className="primary">EXPLORE INDEX <ArrowRight size={14} /></ButtonLink>
-          <ButtonLink route="companies" className="underlined">BROWSE COMPANIES</ButtonLink>
+          <ButtonLink route="rankings" className="primary">ОТКРЫТЬ ИНДЕКС <ArrowRight size={14} /></ButtonLink>
+          <ButtonLink route="компаний" className="underlined">СМОТРЕТЬ КОМПАНИИ</ButtonLink>
         </div>
-        <div className="hero-stamp"><span>RESEARCH BETA</span><strong>2026</strong><i /></div>
+        <div className="hero-stamp"><span>ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span><strong>2026</strong><i /></div>
         <div className="hero-foot">
-          <span>20 SCORED COMPANIES</span><span>26 WATCH PROFILES</span><span>SOURCE-LINKED DATA</span>
-          <button type="button" onClick={() => goto('market')}>VIEW MARKET MAP <ArrowRight size={13} /></button>
+          <span>20 С ОЦЕНКОЙ COMPANIES</span><span>26 WATCH ПРОФИЛЕЙ</span><span>ДАННЫЕ С ПРИВЯЗКОЙ К ИСТОЧНИКУ</span>
+          <button type="button" onClick={() => goto('market')}>ОТКРЫТЬ КАРТУ РЫНКА <ArrowRight size={13} /></button>
         </div>
       </section>
 
       <section className="category-strip">
         {categoryLinks.map((category) => (
-          <button className="category" type="button" key={category.title} onClick={() => goto(category.href)}>
+          <button className="category" type="button" key={ruText(category.title)} onClick={() => goto(category.href)}>
             <img src={category.image} alt="" loading="lazy" />
-            <div><h3>{category.title}</h3><p>{category.text}</p><span>EXPLORE <ArrowRight size={13} /></span></div>
+            <div><h3>{ruText(category.title)}</h3><p>{category.text}</p><span>EXPLORE <ArrowRight size={13} /></span></div>
           </button>
         ))}
       </section>
 
       <section className="index-snapshot">
-        <div className="section-kicker">INDEX SNAPSHOT · {marketSummary.lastReview}</div>
+        <div className="section-kicker">СНИМОК ИНДЕКСА · {marketSummary.lastReview}</div>
         <div className="snapshot-grid">
-          <Metric label="COMPANIES" value={marketSummary.trackedCompanies} note="tracked profiles" icon={<Building2 />} />
-          <Metric label="STARTUPS" value={marketSummary.indexedStartups} note="ranked companies" icon={<TrendingUp />} />
-          <Metric label="FOUNDERS" value={marketSummary.founderProfiles} note="verified people" icon={<Users />} />
-          <Metric label="DEALS" value={marketSummary.recordedDeals} note="recorded transactions" icon={<WalletCards />} />
+          <Metric label="COMPANIES" value={marketSummary.trackedCompanies} note="профилей в отслеживании" icon={<Building2 />} />
+          <Metric label="STARTUPS" value={marketSummary.indexedStartups} note="компаний в рейтинге" icon={<TrendingUp />} />
+          <Metric label="FOUNDERS" value={marketSummary.founderProfiles} note="проверенных людей" icon={<Users />} />
+          <Metric label="DEALS" value={marketSummary.recordedDeals} note="зафиксированных сделок" icon={<WalletCards />} />
         </div>
       </section>
 
       <section className="editorial">
         <div className="editorial-copy">
-          <span>THE RESEARCH LAYER</span><h2>ONE PLACE.<br />MORE SIGNAL.</h2>
-          <p>FORDEX separates company facts, capital events and editorial ranking signals so a visitor can move from headline to evidence without leaving the index.</p>
-          <ButtonLink route="analytics" className="primary">HOW IT WORKS <ArrowRight size={14} /></ButtonLink>
+          <span>СЛОЙ ИССЛЕДОВАНИЙ</span><h2>В ОДНОМ МЕСТЕ.<br />БОЛЬШЕ СИГНАЛОВ.</h2>
+          <p>FORDEX разделяет факты о компаниях, события с капиталом и редакционные сигналы рейтинга, чтобы можно было пройти от новости к доказательствам, не покидая индекс.</p>
+          <ButtonLink route="analytics" className="primary">КАК ЭТО РАБОТАЕТ <ArrowRight size={14} /></ButtonLink>
         </div>
         <img src={EDITORIAL_IMAGE} alt="Team working together" loading="lazy" />
       </section>
 
       <section className="trust">
-        <div><LineChart /><strong>FRESHNESS</strong><span>Every record carries a review date.</span></div>
-        <div><ShieldCheck /><strong>VERIFIED</strong><span>Sources stay attached to profiles.</span></div>
-        <div><TrendingUp /><strong>RANKED</strong><span>One transparent editorial model.</span></div>
-        <div><LockKeyhole /><strong>OPEN INDEX</strong><span>Research is separated from hype.</span></div>
+        <div><LineChart /><strong>FRESHNESS</strong><span>Каждая запись содержит дату проверки.</span></div>
+        <div><ShieldCheck /><strong>ПРОВЕРЕНО</strong><span>Источники прикреплены к профилям.</span></div>
+        <div><TrendingUp /><strong>RANKED</strong><span>Единая прозрачная редакционная модель.</span></div>
+        <div><LockKeyhole /><strong>OPEN INDEX</strong><span>Исследования отделены от шума и хайпа.</span></div>
       </section>
 
       <section className="best">
-        <div className="section-head"><div><span>RISING NOW</span><h2>WATCH THE MOVERS</h2></div><ButtonLink route="rankings" className="view-all">VIEW INDEX <ChevronRight size={14} /></ButtonLink></div>
+        <div className="section-head"><div><span>СЕЙЧАС РАСТУТ</span><h2>ЛИДЕРЫ ДИНАМИКИ</h2></div><ButtonLink route="rankings" className="view-all">ОТКРЫТЬ ИНДЕКС <ChevronRight size={14} /></ButtonLink></div>
         <div className="movers-grid">
           {rising.map((item) => (
             <button type="button" className="mover-card" key={item.id} onClick={() => goto('rankings')}>
               <span className="mover-rank">#{String(item.rank).padStart(2, '0')}</span>
-              <div><strong>{item.name}</strong><span>{item.sector}</span></div>
+              <div><strong>{item.name}</strong><span>{ruSector(item.sector)}</span></div>
               <em>+{item.momentum}%</em>
             </button>
           ))}
@@ -261,13 +264,13 @@ function Home({ watchlist, toggleWatch }) {
 
       <section className="home-dual">
         <div className="signal-panel">
-          <div className="panel-head"><span>LARGEST RECORDED ROUNDS</span><WalletCards size={20} /></div>
+          <div className="panel-head"><span>КРУПНЕЙШИЕ ЗАФИКСИРОВАННЫЕ СДЕЛКИ</span><WalletCards size={20} /></div>
           {recentDeals.map((deal) => <button type="button" key={deal.id} onClick={() => goto('deals')}><span>{deal.company}<small>{deal.date}</small></span><strong>{deal.value}</strong><ArrowRight size={14} /></button>)}
         </div>
         <div className="signal-panel">
-          <div className="panel-head"><span>INDEX COVERAGE</span><Activity size={20} /></div>
-          {sectorCounts.map((item) => <div className="coverage-line" key={item.sector}><span>{item.sector}</span><div><i style={{ width: Math.max(15, item.count / startupRankings.length * 100) + '%' }} /></div><strong>{item.count}</strong></div>)}
-          <ButtonLink route="analytics" className="small-link">VIEW MARKET DATA <ArrowRight size={13} /></ButtonLink>
+          <div className="panel-head"><span>ПОКРЫТИЕ ИНДЕКСА</span><Activity size={20} /></div>
+          {sectorCounts.map((item) => <div className="coverage-line" key={item.sector}><span>{ruSector(item.sector)}</span><div><i style={{ width: Math.max(15, item.count / startupRankings.length * 100) + '%' }} /></div><strong>{item.count}</strong></div>)}
+          <ButtonLink route="analytics" className="small-link">СМОТРЕТЬ ДАННЫЕ РЫНКА <ArrowRight size={13} /></ButtonLink>
         </div>
       </section>
     </main>
@@ -281,7 +284,7 @@ function Metric({ label, value, note, icon }) {
 function PageHero({ eyebrow, title, description, action }) {
   return (
     <section className="page-hero">
-      <div><span>{eyebrow}</span><h1>{title}</h1><p>{description}</p>{action}</div>
+      <div><span>{eyebrow}</span><h1>{ruText(title)}</h1><p>{description}</p>{action}</div>
       <div className="page-hero-word" aria-hidden="true">{title.split(' ')[0]}</div>
     </section>
   );
@@ -301,11 +304,11 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
 
   return (
     <main className="inner-page">
-      <PageHero eyebrow="BUSINESS DIRECTORY" title="COMPANIES" description="A structured index of public AI businesses, technology groups and ranked independent companies tracked by FORDEX." />
+      <PageHero eyebrow="КАТАЛОГ КОМПАНИЙ" title="COMPANIES" description="Структурированный каталог публичных AI-компаний, технологических групп и независимых компаний, отслеживаемых FORDEX." />
       <section className="toolbar">
-        <label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search company, sector, city..." /></label>
+        <label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Поиск компании, сектора, города..." /></label>
         <button type="button" onClick={() => setFilter(filter === 'ALL' ? 'AI / AGENTS' : 'ALL')}><SlidersHorizontal size={15} />{filter === 'ALL' ? 'FILTER' : 'RESET'}</button>
-        <span className="result-count">{filtered.length} PROFILES</span>
+        <span className="result-count">{filtered.length} ПРОФИЛЕЙ</span>
       </section>
       <div className="filter-rail">{sectorFilters.map((item) => <button type="button" key={item} className={filter === item ? 'active' : ''} onClick={() => setFilter(item)}>{item}</button>)}</div>
       <section className="directory-grid">
@@ -319,12 +322,12 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
               <button type="button" className={isWatched(item, watchlist) ? 'watch active' : 'watch'} onClick={() => toggleWatch(item)} aria-label="Toggle watchlist"><Heart size={16} fill={isWatched(item, watchlist) ? 'currentColor' : 'none'} /></button>
             </div>
             <div className="directory-copy">
-              <span>{item.sector} · {item.stage}</span><h3>{item.name}</h3><p>{item.description}</p>
-              <button type="button" className="card-cta" onClick={() => setSelected(item)}>VIEW PROFILE <ArrowRight size={13} /></button>
+              <span>{ruSector(item.sector)} · {ruStage(item.stage)}</span><h3>{item.name}</h3><p>{item.description}</p>
+              <button type="button" className="card-cta" onClick={() => setSelected(item)}>ОТКРЫТЬ ПРОФИЛЬ <ArrowRight size={13} /></button>
             </div>
           </article>
         ))}
-        {!filtered.length && <div className="empty">NO RESULTS FOUND.</div>}
+        {!filtered.length && <div className="empty">РЕЗУЛЬТАТОВ НЕТ.</div>}
       </section>
       {selected && <CompanyDrawer company={selected} onClose={() => setSelected(null)} />}
     </main>
@@ -336,17 +339,17 @@ function CompanyDrawer({ company, onClose }) {
   return (
     <div className="startup-overlay" role="dialog" aria-modal="true" aria-label={company.name + ' profile'} onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <aside className="startup-drawer company-drawer">
-        <div className="drawer-top"><span>FORDEX PROFILE · {company.kind}</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
+        <div className="drawer-top"><span>ПРОФИЛЬ FORDEX · {company.kind}</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
         <div className="drawer-media"><img src={company.image} alt="" /></div>
-        <span className="drawer-sector">{company.sector}</span><h2>{company.name}</h2><p>{company.description}</p>
+        <span className="drawer-sector">{ruSector(company.sector)}</span><h2>{company.name}</h2><p>{company.description}</p>
         <div className="drawer-stats">
-          <div><span>STAGE</span><strong>{company.stage}</strong></div>
-          <div><span>LOCATION</span><strong>{company.city}</strong></div>
-          <div><span>FORDEX RANK</span><strong>{ranked ? '#' + String(ranked.rank).padStart(2, '0') : '—'}</strong></div>
+          <div><span>СТАДИЯ</span><strong>{ruStage(company.stage)}</strong></div>
+          <div><span>ЛОКАЦИЯ</span><strong>{ruCity(company.city)}</strong></div>
+          <div><span>РЕЙТИНГ FORDEX</span><strong>{ranked ? '#' + String(ranked.rank).padStart(2, '0') : '—'}</strong></div>
           <div><span>REVIEWED</span><strong>{company.lastVerified || '—'}</strong></div>
         </div>
-        {ranked && <div className="drawer-signal"><span>INDEX SIGNAL</span><p>FORDEX score <strong>{ranked.score}</strong> · momentum <strong>+{ranked.momentum}%</strong>.</p></div>}
-        <a className="drawer-source" href={company.website || company.source} target="_blank" rel="noreferrer">OPEN COMPANY <ExternalLink size={14} /></a>
+        {ranked && <div className="drawer-signal"><span>СИГНАЛ ИНДЕКСА</span><p>FORDEX score <strong>{ranked.score}</strong> · momentum <strong>+{ranked.momentum}%</strong>.</p></div>}
+        <a className="drawer-source" href={company.website || company.source} target="_blank" rel="noreferrer">OPEN КОМПАНИЯ <ExternalLink size={14} /></a>
       </aside>
     </div>
   );
@@ -371,38 +374,38 @@ function MarketMap() {
 
   return (
     <main className="inner-page market-page">
-      <PageHero eyebrow="MARKET COVERAGE" title="MARKET MAP" description="A wider research universe around the scored FORDEX index. Ranked companies carry editorial scores; the watch universe is deliberately kept unscored until evidence is strong enough." action={<ButtonLink route="rankings" className="text-link">OPEN STARTUP RANKING <ArrowRight size={13} /></ButtonLink>} />
+      <PageHero eyebrow="ПОКРЫТИЕ РЫНКА" title="MARKET MAP" description="A wider research universe around the scored FORDEX index. Ranked компаний carry editorial scores; the watch universe is deliberately kept unscored until evidence is strong enough." action={<ButtonLink route="rankings" className="text-link">OPEN STARTUP RANKING <ArrowRight size={13} /></ButtonLink>} />
       <section className="market-overview">
-        <div><span>FORDEX CORE</span><strong>{indexed}</strong><small>scored companies</small></div>
+        <div><span>FORDEX ЯДРО</span><strong>{indexed}</strong><small>scored компаний</small></div>
         <div><span>CORPORATE LAYER</span><strong>{corporate}</strong><small>large technology groups</small></div>
-        <div><span>RESEARCH UNIVERSE</span><strong>{researchUniverse.length}</strong><small>additional watch profiles</small></div>
-        <div><span>DATA SOURCES</span><strong>3+</strong><small>public research streams</small></div>
+        <div><span>ИССЛЕДОВАНИЕ UNIVERSE</span><strong>{researchUniverse.length}</strong><small>additional watch profiles</small></div>
+        <div><span>DATA ИСТОЧНИКS</span><strong>3+</strong><small>public research streams</small></div>
       </section>
 
       <section className="market-intro">
-        <div><span>HOW TO READ THE MAP</span><h2>SEPARATE THE<br />SCORE FROM<br />THE COVERAGE.</h2></div>
+        <div><span>HOW TO READ THE MAP</span><h2>SEPARATE THE<br />SЯДРО FROM<br />THE COVERAGE.</h2></div>
         <div>
           <p>FORDEX uses three layers: scored startups, corporate AI players and a research universe. This keeps the visible ranking strict without pretending every company has the same depth of public evidence.</p>
-          <div className="market-legend"><span><i className="legend-dot solid" />SCORED</span><span><i className="legend-dot" />COVERAGE ONLY</span><span><i className="legend-dot dark" />CORPORATE</span></div>
+          <div className="market-legend"><span><i className="legend-dot solid" />С ОЦЕНКОЙ</span><span><i className="legend-dot" />COVERAGE ONLY</span><span><i className="legend-dot dark" />CORPORATE</span></div>
         </div>
       </section>
 
       <section className="market-sectors">
         <div className="section-head"><div><span>SECTOR COVERAGE</span><h2>WHERE THE MARKET SITS</h2></div></div>
         <div className="sector-map-grid">
-          {buckets.map((bucket) => <div className="sector-map-card" key={bucket.label}><span>{bucket.label}</span><strong>{bucket.count}</strong><div><i style={{ width: Math.min(100, 18 + bucket.count / Math.max(1, indexed) * 100) + '%' }} /></div><small>INDEXED SIGNALS</small></div>)}
+          {buckets.map((bucket) => <div className="sector-map-card" key={bucket.label}><span>{ruText(bucket.label)}</span><strong>{bucket.count}</strong><div><i style={{ width: Math.min(100, 18 + bucket.count / Math.max(1, indexed) * 100) + '%' }} /></div><small>INDEXED SIGNALS</small></div>)}
         </div>
       </section>
 
       <section className="market-universe">
         <div className="universe-head">
-          <div><span>RESEARCH UNIVERSE</span><h2>WHO ELSE<br />IS ON THE RADAR?</h2></div>
+          <div><span>ИССЛЕДОВАНИЕ UNIVERSE</span><h2>WHO ELSE<br />IS ON THE RADAR?</h2></div>
           <label><Search size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search watch universe..." /></label>
         </div>
         <div className="universe-table">
-          <div className="universe-row universe-head-row"><span>COMPANY</span><span>SECTOR</span><span>STATUS</span><span>SOURCE</span></div>
-          {visible.map((item, index) => <a href={item.source} target="_blank" rel="noreferrer" className="universe-row" key={item.name}><strong>{item.name}</strong><span>{item.sector}</span><span>RESEARCH WATCH</span><span>{item.sourceName} <ExternalLink size={13} /></span></a>)}
-          {!visible.length && <div className="empty">NO WATCH PROFILES MATCH THE QUERY.</div>}
+          <div className="universe-row universe-head-row"><span>КОМПАНИЯ</span><span>SECTOR</span><span>СТАТУС</span><span>ИСТОЧНИК</span></div>
+          {visible.map((item, index) => <a href={item.source} target="_blank" rel="noreferrer" className="universe-row" key={item.name}><strong>{item.name}</strong><span>{ruSector(item.sector)}</span><span>ИССЛЕДОВАНИЕ WATCH</span><span>{item.sourceName} <ExternalLink size={13} /></span></a>)}
+          {!visible.length && <div className="empty">NO WATCH ПРОФИЛЕЙ MATCH THE QUERY.</div>}
         </div>
       </section>
     </main>
@@ -416,14 +419,14 @@ function Founders() {
 
   return (
     <main className="inner-page">
-      <PageHero eyebrow="PEOPLE & LEADERS" title="FOUNDERS" description="A people index covering founders and key executives, with role, company, city and source links attached to every profile." />
-      <section className="toolbar"><label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search founder or company..." /></label><span className="result-count">{filtered.length} PEOPLE</span></section>
+      <PageHero eyebrow="ЛЮДИ И ЛИДЕРЫ" title="FOUNDERS" description="Индекс основателей и ключевых руководителей: должность, компания, город и ссылка на источник для каждого профиля." />
+      <section className="toolbar"><label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Поиск основателя или компании..." /></label><span className="result-count">{filtered.length} ЛЮДЕЙ</span></section>
       <section className="portrait-grid">
         {filtered.map((founder, index) => (
           <button type="button" className="founder-card" key={founder.id} onClick={() => setSelected(founder)}>
             <div className="portrait-image"><img src={founder.image} alt="" loading={index < 4 ? 'eager' : 'lazy'} /><span>0{index + 1}</span></div>
-            <span>{founder.company}</span><h3>{founder.name}</h3><small>{founder.role}</small>
-            <span className="card-cta">VIEW PROFILE <ArrowRight size={13} /></span>
+            <span>{founder.company}</span><h3>{founder.name}</h3><small>{ruRole(founder.role)}</small>
+            <span className="card-cta">ОТКРЫТЬ ПРОФИЛЬ <ArrowRight size={13} /></span>
           </button>
         ))}
       </section>
@@ -436,11 +439,11 @@ function FounderDrawer({ founder, onClose }) {
   return (
     <div className="startup-overlay" role="dialog" aria-modal="true" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <aside className="startup-drawer founder-drawer">
-        <div className="drawer-top"><span>FORDEX PEOPLE INDEX</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
+        <div className="drawer-top"><span>FORDEX ЛЮДЕЙ INDEX</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
         <div className="drawer-media portrait"><img src={founder.image} alt="" /></div>
         <span className="drawer-sector">{founder.role}</span><h2>{founder.name}</h2><p>{founder.description}</p>
-        <div className="drawer-stats"><div><span>COMPANY</span><strong>{founder.company}</strong></div><div><span>LOCATION</span><strong>{founder.city}</strong></div><div><span>STATUS</span><strong>{founder.verified ? 'VERIFIED' : 'RESEARCH'}</strong></div></div>
-        <a className="drawer-source" href={founder.source} target="_blank" rel="noreferrer">VIEW SOURCE <ExternalLink size={14} /></a>
+        <div className="drawer-stats"><div><span>КОМПАНИЯ</span><strong>{founder.company}</strong></div><div><span>ЛОКАЦИЯ</span><strong>{ruCity(founder.city)}</strong></div><div><span>СТАТУС</span><strong>{founder.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</strong></div></div>
+        <a className="drawer-source" href={founder.source} target="_blank" rel="noreferrer">ОТКРЫТЬ ИСТОЧНИК <ExternalLink size={14} /></a>
       </aside>
     </div>
   );
@@ -458,19 +461,19 @@ function Deals() {
 
   return (
     <main className="inner-page">
-      <PageHero eyebrow="CAPITAL & TRANSACTIONS" title="DEALS" description="A source-linked ledger of funding rounds and capital events included in the current FORDEX research sample." />
-      <section className="deal-summary"><div><span>VISIBLE RECORDS</span><strong>{filtered.length}</strong></div><div><span>KNOWN CAPITAL</span><strong>₽{formatMoney(total)}M</strong></div><div><span>LAST REVIEW</span><strong>{marketSummary.lastReview}</strong></div></section>
-      <section className="toolbar"><label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search company, deal, investor..." /></label><span className="result-count">{filtered.length} RECORDS</span></section>
+      <PageHero eyebrow="КАПИТАЛ И СДЕЛКИ" title="DEALS" description="Реестр раундов финансирования и событий с капиталом в текущей исследовательской выборке FORDEX, связанных с первоисточниками." />
+      <section className="deal-summary"><div><span>ВИДИМЫЕ ЗАПИСИ</span><strong>{filtered.length}</strong></div><div><span>ИЗВЕСТНЫЙ КАПИТАЛ</span><strong>₽{formatMoney(total)}M</strong></div><div><span>ПОСЛЕДНЯЯ ПРОВЕРКА</span><strong>{marketSummary.lastReview}</strong></div></section>
+      <section className="toolbar"><label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Поиск компании, сделки, инвестора..." /></label><span className="result-count">{filtered.length} ЗАПИСЕЙ</span></section>
       <div className="filter-rail">{types.map((item) => <button type="button" key={item} className={filter === item ? 'active' : ''} onClick={() => setFilter(item)}>{item}</button>)}</div>
       <section className="deals-table">
-        <div className="table-row table-head"><span>COMPANY</span><span>TYPE</span><span>VALUE</span><span>DATE</span><span>LEAD / NOTE</span><span>SOURCE</span></div>
+        <div className="table-row table-head"><span>КОМПАНИЯ</span><span>ТИП</span><span>СУММА</span><span>ДАТА</span><span>ИНВЕСТОР / ПРИМЕЧАНИЕ</span><span>ИСТОЧНИК</span></div>
         {filtered.map((deal) => (
           <a className="table-row" key={deal.id} href={deal.source} target="_blank" rel="noreferrer">
-            <strong>{deal.company}</strong><span>{deal.type}</span><strong>{deal.value}</strong><span>{deal.date}</span><span>{deal.lead}</span><ExternalLink size={14} />
+            <strong>{deal.company}</strong><span>{ruText(deal.type)}</span><strong>{deal.value}</strong><span>{ruDate(deal.date)}</span><span>{deal.lead}</span><ExternalLink size={14} />
           </a>
         ))}
       </section>
-      {!filtered.length && <div className="empty">NO DEALS MATCH THE CURRENT FILTER.</div>}
+      {!filtered.length && <div className="empty">ПО ТЕКУЩЕМУ ФИЛЬТРУ СДЕЛОК НЕТ.</div>}
     </main>
   );
 }
@@ -511,34 +514,34 @@ function Rankings() {
 
   return (
     <main className="inner-page rankings-page">
-      <PageHero eyebrow="THE FORDEX INDEX · 2026" title="RANKINGS" description="FORDEX separates its editorial indices from external source tables. Published scores, coverage-only research and source rankings are never presented as the same signal." action={<ButtonLink route="analytics" className="text-link">METHODOLOGY <ArrowRight size={13} /></ButtonLink>} />
+      <PageHero eyebrow="ИНДЕКС FORDEX · 2026" title="RANKINGS" description="FORDEX separates its editorial indices from external source tables. Published scores, coverage-only research and source rankings are never presented as the same signal." action={<ButtonLink route="analytics" className="text-link">МЕТОДОЛОГИЯ <ArrowRight size={13} /></ButtonLink>} />
       <section className="ranking-mode-switch" aria-label="FORDEX ranking families">
         {rankingCollections.map((collection) => (
           <button type="button" key={collection.key} className={rankingMode === collection.key ? 'active' : ''} onClick={() => setRankingMode(collection.key)}>
             <span>{collection.number}</span>
             <strong>{collection.title}</strong>
-            <small>{collection.status} · {collection.scope}</small>
+            <small>{ruText(collection.status)} · {ruText(collection.scope)}</small>
           </button>
         ))}
       </section>
       {rankingMode === 'providers' ? <ProviderRanking /> : rankingMode === 'ai100' ? <RankingCollectionPanel collectionKey="ai100" /> : rankingMode === 'vibe100' ? <RankingCollectionPanel collectionKey="vibe100" /> : <>
       <section className="ranking-intro">
-        <div><span>FORDEX STARTUP INDEX · 2026</span><h2>THE<br />STARTUP INDEX.</h2></div>
-        <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды. Score рассчитывается детерминированной моделью FORDEX.</p><small>RESEARCH BETA · MODEL {rankingModel.version.toUpperCase()} · {startupRankings.length} SCORED COMPANIES · {marketSummary.trackedCompanies} TRACKED PROFILES · LAST REVIEW OCT 2026</small></div>
+        <div><span>FORDEX ИНДЕКС СТАРТАПОВ · 2026</span><h2>THE<br />ИНДЕКС СТАРТАПОВ.</h2></div>
+        <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды. Score рассчитывается детерминированной моделью FORDEX.</p><small>ИССЛЕДОВАТЕЛЬСКАЯ БЕТА · MODEL {rankingModel.version.toUpperCase()} · {startupRankings.length} С ОЦЕНКОЙ COMPANIES · {marketSummary.trackedCompanies} TRACKED ПРОФИЛЕЙ · ПОСЛЕДНЯЯ ПРОВЕРКА OCT 2026</small></div>
       </section>
       <section className="ranking-lead">
-        <div className="ranking-lead-head"><span>INDEX AT A GLANCE</span><small>CURRENT RESEARCH SNAPSHOT</small></div>
+        <div className="ranking-lead-head"><span>ИНДЕКС В ОДНОМ ВЗГЛЯДЕ</span><small>ТЕКУЩИЙ СНИМОК ИССЛЕДОВАНИЙ</small></div>
         <div className="ranking-lead-stats">
-          <div><span>SCORED</span><strong>{startupRankings.length}</strong><small>companies</small></div>
-          <div><span>TOP SCORE</span><strong>{topThree[0]?.score?.toFixed(1) || '—'}</strong><small>{topThree[0]?.name || '—'}</small></div>
-          <div><span>AVG SCORE</span><strong>{averageScore.toFixed(1)}</strong><small>out of 100</small></div>
-          <div><span>FASTEST MOVER</span><strong>+{fastestMover?.momentum?.toFixed(1) || '—'}%</strong><small>{fastestMover?.name || '—'}</small></div>
-          <div><span>KNOWN FUNDING</span><strong>₽{formatMoney(knownFunding)}M</strong><small>visible only</small></div>
+          <div><span>С ОЦЕНКОЙ</span><strong>{startupRankings.length}</strong><small>компаний</small></div>
+          <div><span>ЛУЧШАЯ ОЦЕНКА</span><strong>{topThree[0]?.score?.toFixed(1) || '—'}</strong><small>{topThree[0]?.name || '—'}</small></div>
+          <div><span>AVG SЯДРО</span><strong>{averageScore.toFixed(1)}</strong><small>из 100</small></div>
+          <div><span>САМЫЙ БЫСТРЫЙ РОСТ</span><strong>+{fastestMover?.momentum?.toFixed(1) || '—'}%</strong><small>{fastestMover?.name || '—'}</small></div>
+          <div><span>ИЗВЕСТНОЕ ФИНАНСИРОВАНИЕ</span><strong>₽{formatMoney(knownFunding)}M</strong><small>только раскрытые данные</small></div>
         </div>
         <div className="ranking-top-three">
           {topThree.map((item) => (
             <button type="button" className={'ranking-top-card rank-' + item.rank} key={item.id} onClick={() => setSelected(item)}>
-              <div><span>#{String(item.rank).padStart(2, '0')}</span><small>{item.sector}</small></div>
+              <div><span>#{String(item.rank).padStart(2, '0')}</span><small>{ruSector(item.sector)}</small></div>
               <strong>{item.name}</strong>
               <div className="ranking-top-score"><b>{item.score.toFixed(1)}</b><em>{item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</em></div>
             </button>
@@ -546,51 +549,51 @@ function Rankings() {
         </div>
       </section>
       <section className="ranking-series">
-        <div className="ranking-series-head"><div><span>RANKING SERIES</span><h2>THE INDEX<br />BY MARKET</h2></div><p>Each series reuses the core FORDEX evidence model and narrows the universe by the company tags. A sector table is a view of the index, not a claim that the sector has its own independent scoring system.</p></div>
+        <div className="ranking-series-head"><div><span>СЕРИИ РЕЙТИНГОВ</span><h2>ИНДЕКС<br />ПО РЫНКАМ</h2></div><p>Каждая серия использует базовую модель доказательств FORDEX и сужает выборку по тегам компаний. Отраслевая таблица — это представление индекса, а не отдельная система оценки отрасли.</p></div>
         <div className="ranking-series-grid">
           {rankingSeries.map((series) => (
             <button type="button" className="series-card" key={series.name} onClick={() => { setCategory(series.name); setView('overall'); }}>
-              <span>{series.name}</span><strong>{String(series.count).padStart(2, '0')}</strong><small>{series.leader ? 'LEADER · ' + series.leader.name : 'NO SCORED COMPANY'}</small><ArrowRight size={14} />
+              <span>{ruTag(series.name)}</span><strong>{String(series.count).padStart(2, '0')}</strong><small>{series.leader ? 'LEADER · ' + series.leader.name : 'NO С ОЦЕНКОЙ КОМПАНИЯ'}</small><ArrowRight size={14} />
             </button>
           ))}
         </div>
       </section>
       <section className="ranking-controls">
-        <label className="ranking-search"><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search company, sector, stage..." aria-label="Search startup ranking" /></label>
+        <label className="ranking-search"><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Поиск компании, сектора, стадии..." aria-label="Search startup ranking" /></label>
         <div className="ranking-result-bar">
-          <span>{filtered.length} OF {startupRankings.length} SCORED COMPANIES</span>
+          <span>{filtered.length} ИЗ {startupRankings.length} С ОЦЕНКОЙ COMPANIES</span>
           {(query || category !== 'ALL' || view !== 'overall' || sort !== 'rank') && (
             <button type="button" onClick={() => { setQuery(''); setCategory('ALL'); setView('overall'); setSort('rank'); }}>RESET VIEW <X size={12} /></button>
           )}
         </div>
         <div className="ranking-view-tabs">
-          <button type="button" className={view === 'overall' ? 'active' : ''} onClick={() => setView('overall')}>OVERALL</button>
-          <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>FASTEST MOVERS</button>
-          <button type="button" className={view === 'capital' ? 'active' : ''} onClick={() => setView('capital')}>CAPITAL LEADERS</button>
+          <button type="button" className={view === 'overall' ? 'active' : ''} onClick={() => setView('overall')}>ОБЩИЙ РЕЙТИНГ</button>
+          <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>САМЫЙ БЫСТРЫЙ РОСТS</button>
+          <button type="button" className={view === 'capital' ? 'active' : ''} onClick={() => setView('capital')}>ЛИДЕРЫ ПО КАПИТАЛУ</button>
         </div>
         <div className="ranking-filter-set">
           <div className="ranking-tabs">{rankingCategories.map((item) => <button type="button" key={item} className={category === item ? 'active' : ''} onClick={() => setCategory(item)}>{item}</button>)}</div>
-          <label>SORT <select value={sort} onChange={(e) => setSort(e.target.value)}><option value="rank">FORDEX RANK</option><option value="score">SCORE</option><option value="momentum">MOMENTUM</option><option value="funding">KNOWN FUNDING</option></select></label>
+          <label>СОРТИРОВАТЬ <select value={sort} onChange={(e) => setSort(e.target.value)}><option value="rank">РЕЙТИНГ FORDEX</option><option value="score">SЯДРО</option><option value="momentum">MOMENTUM</option><option value="funding">ИЗВЕСТНОЕ ФИНАНСИРОВАНИЕ</option></select></label>
         </div>
       </section>
       <section className="startup-table" aria-label="FORDEX Startup Rankings">
-        <div className="startup-row startup-head"><span>#</span><span>COMPANY</span><span>SECTOR</span><span>STAGE</span><span>FUNDING</span><span>MOMENTUM</span><span>SCORE</span></div>
+        <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>SECTOR</span><span>СТАДИЯ</span><span>FUNDING</span><span>MOMENTUM</span><span>SЯДРО</span></div>
         {filtered.map((item) => (
           <button type="button" className="startup-row startup-item" key={item.id} onClick={() => setSelected(item)}>
             <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
-            <span className="startup-name"><strong>{item.name}</strong><small>{item.city} · {item.verified ? 'VERIFIED' : 'RESEARCH'}</small></span>
-            <span>{item.sector}</span><span>{item.stage}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
+            <span className="startup-name"><strong>{item.name}</strong><small>{item.city} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</small></span>
+            <span>{ruSector(item.sector)}</span><span>{item.stage}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
           </button>
         ))}
         {!filtered.length && <div className="ranking-empty"><strong>NO MATCHES.</strong><span>Попробуйте изменить поиск или сбросить фильтр категории.</span></div>}
       </section>
       <section className="ranking-context">
-        <div><span>CURRENT VIEW</span><strong>{view === 'overall' ? 'OVERALL INDEX' : view === 'movers' ? 'FASTEST MOVERS' : 'CAPITAL LEADERS'}</strong></div>
-        <p>{view === 'overall' ? 'Ordered by the computed FORDEX score.' : view === 'movers' ? 'Ordered by the editorial momentum signal; this is not a revenue growth rate.' : 'Ordered by disclosed financing amounts; undisclosed funding is kept at the bottom.'}</p>
+        <div><span>ТЕКУЩИЙ ВИД</span><strong>{view === 'overall' ? 'ОБЩИЙ РЕЙТИНГ INDEX' : view === 'movers' ? 'САМЫЙ БЫСТРЫЙ РОСТS' : 'ЛИДЕРЫ ПО КАПИТАЛУ'}</strong></div>
+        <p>{view === 'overall' ? 'Сортировка по вычисляемой оценке FORDEX.' : view === 'movers' ? 'Сортировка по редакционному сигналу динамики; это не темп роста выручки.' : 'Сортировка по раскрытым объёмам финансирования; нераскрытое финансирование остаётся внизу.'}</p>
       </section>
       <section className="ranking-method">
-        <div><span>HOW FORDEX SCORES</span><h2>ONE SCORE.<br />SIX SIGNALS.</h2><p>The provisional v0.1 model converts six observable record signals into one 0–100 research score. Funding alone cannot win the index.</p></div>
-        <div className="score-list">{scoreWeights.map((weight) => <div key={weight.label}><span>{weight.label}</span><strong>{weight.value}%</strong><i><b style={{ width: weight.value + '%' }} /></i></div>)}</div>
+        <div><span>HOW FORDEX SЯДРОS</span><h2>ONE SЯДРО.<br />SIX SIGNALS.</h2><p>Предварительная модель v0.1 преобразует шесть наблюдаемых сигналов в единую исследовательскую оценку от 0 до 100. Одного финансирования недостаточно, чтобы возглавить индекс.</p></div>
+        <div className="score-list">{scoreWeights.map((weight) => <div key={ruScoreLabel(weight.label)}><span>{ruScoreLabel(weight.label)}</span><strong>{weight.value}%</strong><i><b style={{ width: weight.value + '%' }} /></i></div>)}</div>
       </section>
       {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} />}
       </>}
@@ -617,39 +620,39 @@ function RankingCollectionPanel({ collectionKey }) {
           <p>{collection.description}</p>
         </div>
         <div className="ranking-collection-meta">
-          <div><span>STATUS</span><strong>{collection.status}</strong><small>{collection.scope}</small></div>
-          <div><span>TARGET</span><strong>{collection.target ?? '—'}</strong><small>{collection.target ? 'companies' : 'source-defined'}</small></div>
-          <div><span>SCORED NOW</span><strong>{isAI100 ? scoredCount : '0'}</strong><small>{isAI100 ? 'startup records' : 'not published'}</small></div>
-          <div><span>COVERAGE NOTE</span><strong>{isAI100 ? corporateCount + ' corporate' : 'RESEARCH'}</strong><small>{isAI100 ? 'tracked separately' : 'evidence gate first'}</small></div>
+          <div><span>СТАТУС</span><strong>{ruText(collection.status)}</strong><small>{ruText(collection.scope)}</small></div>
+          <div><span>TARGET</span><strong>{collection.target ?? '—'}</strong><small>{collection.target ? 'компаний' : 'source-defined'}</small></div>
+          <div><span>С ОЦЕНКОЙ NOW</span><strong>{isAI100 ? scoredCount : '0'}</strong><small>{isAI100 ? 'startup records' : 'not published'}</small></div>
+          <div><span>COVERAGE NOTE</span><strong>{isAI100 ? corporateCount + ' corporate' : 'ИССЛЕДОВАНИЕ'}</strong><small>{isAI100 ? 'tracked separately' : 'evidence gate first'}</small></div>
         </div>
       </div>
 
       {isAI100 ? (
         <>
           <div className="ranking-collection-banner">
-            <div><span>PUBLICATION STATE</span><strong>{scoredCount} SCORED / {collection.target} TARGET</strong></div>
+            <div><span>СТАТУС ПУБЛИКАЦИИ</span><strong>{scoredCount} С ОЦЕНКОЙ / {collection.target} TARGET</strong></div>
             <p>{collection.note}</p>
           </div>
           <section className="startup-table collection-table" aria-label="Current AI 100 scored coverage">
-            <div className="startup-row startup-head"><span>#</span><span>COMPANY</span><span>SECTOR</span><span>STAGE</span><span>FUNDING</span><span>MOMENTUM</span><span>SCORE</span></div>
+            <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>SECTOR</span><span>СТАДИЯ</span><span>FUNDING</span><span>MOMENTUM</span><span>SЯДРО</span></div>
             {topRows.map((item) => (
               <button type="button" className="startup-row startup-item" key={item.id} onClick={() => goto('rankings')}>
-                <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className="rank-flat">CORE</small></span>
-                <span className="startup-name"><strong>{item.name}</strong><small>{item.city} · {item.verified ? 'VERIFIED' : 'RESEARCH'}</small></span>
-                <span>{item.sector}</span><span>{item.stage}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
+                <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className="rank-flat">ЯДРО</small></span>
+                <span className="startup-name"><strong>{item.name}</strong><small>{item.city} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</small></span>
+                <span>{ruSector(item.sector)}</span><span>{item.stage}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
               </button>
             ))}
           </section>
           <section className="ranking-collection-grid">
             <article>
-              <span>SCORING RULE</span>
-              <strong>STARTUP SCORE<br />IS REUSED.</strong>
-              <p>Until the broader AI universe has comparable company-level evidence, FORDEX keeps the published startup score intact instead of inventing corporate scores.</p>
+              <span>ПРАВИЛО ОЦЕНКИ</span>
+              <strong>STARTUP SЯДРО<br />IS REUSED.</strong>
+              <p>Пока для более широкого AI-рынка нет сопоставимых данных по компаниям, FORDEX сохраняет оценку стартапов и не придумывает оценки для корпораций.</p>
             </article>
             <article>
               <span>CORPORATE LAYER</span>
-              <strong>{corporateCount}<br />TRACKED.</strong>
-              <p>Corporate AI players sit in MARKET coverage and remain outside the startup ranking until the AI 100 methodology defines a comparable evidence model.</p>
+              <strong>{corporateCount}<br />В ОТСЛЕЖИВАНИИ.</strong>
+              <p>Корпоративные AI-игроки находятся в разделе «Рынок» и не входят в рейтинг стартапов, пока методология AI 100 не определит сопоставимую модель доказательств.</p>
               <ButtonLink route="market" className="text-link">VIEW MARKET COVERAGE <ArrowRight size={13} /></ButtonLink>
             </article>
           </section>
@@ -657,16 +660,16 @@ function RankingCollectionPanel({ collectionKey }) {
       ) : (
         <>
           <div className="ranking-collection-banner research">
-            <div><span>PUBLICATION GATE</span><strong>NOT YET RANKED</strong></div>
+            <div><span>УСЛОВИЕ ПУБЛИКАЦИИ</span><strong>ПОКА НЕ РАНЖИРУЕТСЯ</strong></div>
             <p>{collection.note}</p>
           </div>
           <section className="ranking-research-state">
             <div className="research-state-number">00</div>
             <div>
-              <span>VIBE 100 RESEARCH QUEUE</span>
-              <h3>NO PUBLISHED SCORES.</h3>
-              <p>We are not turning courses, agencies or generic AI tools into a ranking just because they use the phrase “vibe coding”. A candidate needs a company or product record, a public source and a clear inclusion rule first.</p>
-              {collection.source && <a href={collection.source} target="_blank" rel="noreferrer">RESEARCH BASIS · {collection.sourceName} <ExternalLink size={13} /></a>}
+              <span>VIBE 100 ИССЛЕДОВАНИЕ QUEUE</span>
+              <h3>NO PUBLISHED SЯДРОS.</h3>
+              <p>Мы не превращаем курсы, агентства или обычные AI-инструменты в рейтинг только потому, что они используют термин «vibe coding». Кандидату нужны запись о компании или продукте, публичный источник и понятное правило включения.</p>
+              {collection.source && <a href={collection.source} target="_blank" rel="noreferrer">ИССЛЕДОВАНИЕ BASIS · {collection.sourceName} <ExternalLink size={13} /></a>}
             </div>
           </section>
         </>
@@ -685,90 +688,90 @@ function ProviderRanking() {
 
   return (
     <section className="provider-ranking">
-      <div className="provider-meta"><div><span>SOURCE RANKING</span><strong>{aiProviderSource.name}</strong><small>{aiProviderSource.title}</small></div><div><span>VISIBLE</span><strong>{aiProviderRankings.length}</strong><small>companies from the source table</small></div><div><span>VISIBLE REVENUE</span><strong>₽{formatMoney(totalRevenue)}M</strong><small>sum of displayed rows</small></div><div><span>FASTEST REPORTED GROWTH</span><strong>{topGrowth ? '+' + topGrowth.growth + '%' : '—'}</strong><small>{topGrowth ? topGrowth.name : '—'}</small></div></div>
-      <div className="provider-toolbar"><p>{aiProviderSource.note}</p><div><button type="button" className={sort === 'revenue' ? 'active' : ''} onClick={() => setSort('revenue')}>REVENUE</button><button type="button" className={sort === 'growth' ? 'active' : ''} onClick={() => setSort('growth')}>GROWTH</button></div></div>
+      <div className="provider-meta"><div><span>ИСТОЧНИК RANKING</span><strong>{aiProviderSource.name}</strong><small>{aiProviderSource.title}</small></div><div><span>ВИДИМЫЕ</span><strong>{aiProviderRankings.length}</strong><small>компаний from the source table</small></div><div><span>ВИДИМЫЕ ВЫРУЧКА</span><strong>₽{formatMoney(totalRevenue)}M</strong><small>сумма показанных строк</small></div><div><span>МАКСИМАЛЬНЫЙ ЗАЯВЛЕННЫЙ РОСТ</span><strong>{topGrowth ? '+' + topGrowth.growth + '%' : '—'}</strong><small>{topGrowth ? topGrowth.name : '—'}</small></div></div>
+      <div className="provider-toolbar"><p>{aiProviderSource.note}</p><div><button type="button" className={sort === 'revenue' ? 'active' : ''} onClick={() => setSort('revenue')}>ВЫРУЧКА</button><button type="button" className={sort === 'growth' ? 'active' : ''} onClick={() => setSort('growth')}>РОСТ</button></div></div>
       <div className="provider-table">
-        <div className="provider-row provider-head"><span>#</span><span>COMPANY</span><span>AI REVENUE · 2025</span><span>GROWTH</span><span>FOCUS</span><span>CITY</span></div>
-        {rows.map((item, index) => <div className="provider-row" key={item.name}><strong>{String(item.rank ?? index + 1).padStart(2, '0')}</strong><strong>{item.name}</strong><strong>₽{formatMoney(item.revenueM)}M</strong><span className={item.growth != null && item.growth < 0 ? 'negative' : 'positive'}>{item.growth == null ? '—' : (item.growth >= 0 ? '+' : '') + item.growth + '%'}</span><span>{item.focus}</span><span>{item.city}</span></div>)}
+        <div className="provider-row provider-head"><span>#</span><span>КОМПАНИЯ</span><span>AI ВЫРУЧКА · 2025</span><span>РОСТ</span><span>СПЕЦИАЛИЗАЦИЯ</span><span>CITY</span></div>
+        {rows.map((item, index) => <div className="provider-row" key={item.name}><strong>{String(item.rank ?? index + 1).padStart(2, '0')}</strong><strong>{item.name}</strong><strong>₽{formatMoney(item.revenueM)}M</strong><span className={item.growth != null && item.growth < 0 ? 'negative' : 'positive'}>{item.growth == null ? '—' : (item.growth >= 0 ? '+' : '') + item.growth + '%'}</span><span>{ruText(item.focus)}</span><span>{ruCity(item.city)}</span></div>)}
       </div>
-      <div className="provider-source"><span>SOURCE · CNEWS ANALYTICS · 2026</span><a href={aiProviderSource.source} target="_blank" rel="noreferrer">OPEN FULL TABLE <ExternalLink size={13} /></a></div>
+      <div className="provider-source"><span>ИСТОЧНИК · CNEWS ANALYTICS · 2026</span><a href={aiProviderSource.source} target="_blank" rel="noreferrer">ОТКРЫТЬ ПОЛНУЮ ТАБЛИЦУ <ExternalLink size={13} /></a></div>
     </section>
   );
 }
 
 function StartupDrawer({ startup, onClose }) {
   const delta = startup.previousRank ? startup.previousRank - startup.rank : 0;
-  const deltaText = delta > 0 ? 'UP ' + delta : delta < 0 ? 'DOWN ' + Math.abs(delta) : 'FLAT';
+  const deltaText = delta > 0 ? 'ВВЕРХ ' + delta : delta < 0 ? 'ВНИЗ ' + Math.abs(delta) : 'БЕЗ ИЗМЕНЕНИЙ';
   const company = marketCompanies.find((item) => item.id === startup.id);
 
   return (
     <div className="startup-overlay" role="dialog" aria-modal="true" aria-label={startup.name + ' ranking profile'} onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <aside className="startup-drawer">
-        <div className="drawer-top"><span>FORDEX INDEX · #{String(startup.rank).padStart(2, '0')}</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
+        <div className="drawer-top"><span>ИНДЕКС FORDEX · #{String(startup.rank).padStart(2, '0')}</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
         {company && <div className="drawer-media"><img src={company.image} alt="" /></div>}
 
         <div className="drawer-score">
           <div>
-            <small>FORDEX SCORE</small>
+            <small>FORDEX SЯДРО</small>
             <strong>{startup.score}</strong>
             <span>+{startup.momentum}% MOMENTUM</span>
           </div>
           <div className="drawer-score-rank">
-            <span>CURRENT POSITION</span>
+            <span>ТЕКУЩАЯ ПОЗИЦИЯ</span>
             <strong>#{String(startup.rank).padStart(2, '0')}</strong>
             <em>{deltaText}</em>
           </div>
         </div>
 
-        <span className="drawer-sector">{startup.sector}</span>
+        <span className="drawer-sector">{ruSector(startup.sector)}</span>
         <h2>{startup.name}</h2>
         <p>{startup.description}</p>
 
         <div className="drawer-tags">
-          {startup.tags.map((tag) => <span key={tag}>{tag}</span>)}
+          {startup.tags.map((tag) => <span key={tag}>{ruTag(tag)}</span>)}
         </div>
 
         <section className="drawer-block">
-          <div className="drawer-block-head"><span>BUSINESS SIGNAL</span><small>OBSERVED EVIDENCE</small></div>
+          <div className="drawer-block-head"><span>БИЗНЕС-СИГНАЛ</span><small>НАБЛЮДАЕМЫЕ ФАКТЫ</small></div>
           <p className="drawer-traction">{startup.traction || 'No additional traction detail published.'}</p>
         </section>
 
         <div className="drawer-stats">
-          <div><span>STAGE</span><strong>{startup.stage}</strong></div>
+          <div><span>СТАДИЯ</span><strong>{ruStage(startup.stage)}</strong></div>
           <div><span>FUNDING</span><strong>{startup.funding}</strong></div>
-          <div><span>LATEST ROUND</span><strong>{startup.latestRound || '—'}</strong></div>
-          <div><span>LOCATION</span><strong>{startup.city}</strong></div>
+          <div><span>ПОСЛЕДНЕЕ ROUND</span><strong>{startup.latestRound || '—'}</strong></div>
+          <div><span>ЛОКАЦИЯ</span><strong>{ruCity(startup.city)}</strong></div>
         </div>
 
         <section className="drawer-block drawer-model">
-          <div className="drawer-block-head"><span>INDEX MODEL</span><small>WEIGHTED SIGNALS</small></div>
+          <div className="drawer-block-head"><span>МОДЕЛЬ ИНДЕКСА</span><small>ВЗВЕШЕННЫЕ СИГНАЛЫ</small></div>
           <div className="drawer-weight-list">
             {scoreWeights.map((weight, index) => {
               const signal = startup.scoreBreakdown?.[index];
               return (
-                <div key={weight.label}>
-                  <span>{weight.label}</span>
+                <div key={ruScoreLabel(weight.label)}>
+                  <span>{ruScoreLabel(weight.label)}</span>
                   <strong>{signal?.score ?? '—'} / 100 · {weight.value}%</strong>
                   <i><b style={{ width: (signal?.score ?? 0) + '%' }} /></i>
                 </div>
               );
             })}
           </div>
-          <p className="drawer-model-note">The computed score is calculated from six normalized signals. Funding is one input, not the ranking itself. Model v0.1 is provisional.</p>
+          <p className="drawer-model-note">Вычисляемая оценка строится из шести нормализованных сигналов. Финансирование — только один из факторов, а не сам рейтинг. Модель v0.1 является предварительной.</p>
         </section>
 
         <div className="drawer-signal">
-          <span>RANK MOVEMENT</span>
+          <span>ДВИЖЕНИЕ В РЕЙТИНГЕ</span>
           <p><strong>{deltaText}</strong> · current #{startup.rank}, previous #{startup.previousRank || '—'}. Last verified {startup.lastVerified}.</p>
         </div>
 
         <div className="drawer-evidence">
-          <div><span>DATA STATUS</span><strong><CheckCircle2 size={13} /> SOURCE-LINKED</strong></div>
-          <small>Evidence is attached to the record; undisclosed financing remains undisclosed.</small>
+          <div><span>DATA СТАТУС</span><strong><CheckCircle2 size={13} /> ИСТОЧНИК-LINKED</strong></div>
+          <small>Доказательства прикреплены к записи; нераскрытое финансирование остаётся нераскрытым.</small>
         </div>
 
-        {startup.website && <a className="drawer-source" href={startup.website} target="_blank" rel="noreferrer">OPEN COMPANY <ExternalLink size={14} /></a>}
-        <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">VIEW EVIDENCE <ExternalLink size={14} /></a>
+        {startup.website && <a className="drawer-source" href={startup.website} target="_blank" rel="noreferrer">OPEN КОМПАНИЯ <ExternalLink size={14} /></a>}
+        <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">СМОТРЕТЬ ДОКАЗАТЕЛЬСТВА <ExternalLink size={14} /></a>
       </aside>
     </div>
   );
@@ -777,13 +780,13 @@ function StartupDrawer({ startup, onClose }) {
 function News() {
   return (
     <main className="inner-page">
-      <PageHero eyebrow="EDITORIAL & SOURCES" title="NEWS" description="A lightweight editorial layer built from public company updates and ecosystem reporting, with the original source one click away." />
+      <PageHero eyebrow="EDITORIAL & ИСТОЧНИКS" title="NEWS" description="Лёгкий редакционный слой на основе публичных обновлений компаний и отраслевых публикаций, с доступом к первоисточнику в один клик." />
       <section className="news-list">
         {newsFeed.map((story, index) => (
           <article key={story.id}>
             <div className="news-index">{String(index + 1).padStart(2, '0')}</div>
-            <div><span>{story.date} · {story.category}</span><h2>{story.title}</h2><small>{story.sourceName}</small></div>
-            <a href={story.source} target="_blank" rel="noreferrer">READ SOURCE <ExternalLink size={14} /></a>
+            <div><span>{ruDate(story.date)} · {ruText(story.category)}</span><h2>{story.title}</h2><small>{story.sourceName}</small></div>
+            <a href={story.source} target="_blank" rel="noreferrer">READ ИСТОЧНИК <ExternalLink size={14} /></a>
           </article>
         ))}
       </section>
@@ -801,26 +804,26 @@ function Analytics() {
 
   return (
     <main className="inner-page">
-      <PageHero eyebrow="MARKET INTELLIGENCE" title="ANALYTICS" description="Derived metrics from the current FORDEX research dataset. Sample counts describe indexed records, not the entire Russian market." />
+      <PageHero eyebrow="РЫНОЧНАЯ АНАЛИТИКА" title="ANALYTICS" description="Производные показатели текущего исследовательского набора FORDEX. Количество записей относится к индексу и не описывает весь российский рынок." />
       <section className="metric-grid analytics-metrics">
-        <Metric label="INDEXED COMPANIES" value={startupRankings.length} note="startup ranking sample" icon={<Building2 />} />
-        <Metric label="AVERAGE SCORE" value={averageScore.toFixed(1)} note="out of 100" icon={<Activity />} />
-        <Metric label="AVG MOMENTUM" value={'+' + avgMomentum.toFixed(1) + '%'} note="editorial signal" icon={<TrendingUp />} />
-        <Metric label="KNOWN FUNDING" value={'₽' + formatMoney(knownFunding) + 'M'} note="visible in indexed records" icon={<WalletCards />} />
+        <Metric label="КОМПАНИЙ В ИНДЕКСЕ" value={startupRankings.length} note="выборка рейтинга стартапов" icon={<Building2 />} />
+        <Metric label="AVERAGE SЯДРО" value={averageScore.toFixed(1)} note="из 100" icon={<Activity />} />
+        <Metric label="СРЕДНЯЯ ДИНАМИКА" value={'+' + avgMomentum.toFixed(1) + '%'} note="редакционный сигнал" icon={<TrendingUp />} />
+        <Metric label="ИЗВЕСТНОЕ ФИНАНСИРОВАНИЕ" value={'₽' + formatMoney(knownFunding) + 'M'} note="видимо в записях индекса" icon={<WalletCards />} />
       </section>
       <section className="analytics-panel">
-        <div className="panel-head"><div><span>INDEX COMPOSITION</span><h2>WHERE THE 20 COMPANIES SIT</h2></div><BarChart3 size={22} /></div>
+        <div className="panel-head"><div><span>СОСТАВ ИНДЕКСА</span><h2>ГДЕ НАХОДЯТСЯ 20 КОМПАНИЙ</h2></div><BarChart3 size={22} /></div>
         <div className="analytics-bars">
-          {sectors.slice(0, 7).map((item) => <div className="analytics-bar-row" key={item.tag}><span>{item.tag}</span><div><i style={{ width: Math.max(8, item.count / startupRankings.length * 100) + '%' }} /></div><strong>{item.count}</strong></div>)}
+          {sectors.slice(0, 7).map((item) => <div className="analytics-bar-row" key={item.tag}><span>{ruTag(item.tag)}</span><div><i style={{ width: Math.max(8, item.count / startupRankings.length * 100) + '%' }} /></div><strong>{item.count}</strong></div>)}
         </div>
       </section>
       <section className="methodology">
-        <div><span>EDITORIAL METHODOLOGY</span><h2>MAKE THE SIGNAL<br />AUDITABLE.</h2><p>FORDEX ranks companies using six weighted signals. A score is an editorial research output; it is not a valuation, investment recommendation or claim of market leadership.</p></div>
-        <div className="method-cards">{scoreWeights.map((weight, index) => <article key={weight.label}><small>0{index + 1}</small><strong>{weight.value}%</strong><span>{weight.label}</span></article>)}</div>
+        <div><span>EDITORIAL МЕТОДОЛОГИЯ</span><h2>СДЕЛАТЬ СИГНАЛ<br />ПРОВЕРЯЕМЫМ.</h2><p>FORDEX ranks компаний using six weighted signals. A score is an editorial research output; it is not a valuation, investment recommendation or claim of market leadership.</p></div>
+        <div className="method-cards">{scoreWeights.map((weight, index) => <article key={ruScoreLabel(weight.label)}><small>0{index + 1}</small><strong>{weight.value}%</strong><span>{ruScoreLabel(weight.label)}</span></article>)}</div>
       </section>
       <section className="source-board">
-        <div><span>DATA DISCIPLINE</span><h2>FACTS FIRST.</h2></div>
-        <div><p>Known financing is recorded in rubles where a published amount is available. “UNDISCLOSED” stays visible rather than being estimated. Each indexed company carries a source and verification month.</p><ButtonLink route="companies" className="text-link">BROWSE SOURCES <ArrowRight size={13} /></ButtonLink></div>
+        <div><span>ДИСЦИПЛИНА ДАННЫХ</span><h2>FACTS FIRST.</h2></div>
+        <div><p>Известное финансирование указывается в рублях, когда опубликована сумма. «НЕ РАСКРЫТО» остаётся видимым вместо приблизительной оценки. Для каждой компании индекса указан источник и месяц проверки.</p><ButtonLink route="компаний" className="text-link">BROWSE ИСТОЧНИКS <ArrowRight size={13} /></ButtonLink></div>
       </section>
     </main>
   );
@@ -829,16 +832,16 @@ function Analytics() {
 function Sources() {
   return (
     <main className="inner-page sources-page">
-      <PageHero eyebrow="DATA & PROVENANCE" title="SOURCES" description="The public research streams behind FORDEX. External rankings remain external; primary evidence stays attached to company records." />
+      <PageHero eyebrow="ДАННЫЕ И ПРОИСХОЖДЕНИЕ" title="ИСТОЧНИКS" description="Публичные исследовательские потоки, лежащие в основе FORDEX. Внешние рейтинги остаются внешними, а первичные доказательства прикреплены к записям компаний." />
       <section className="source-principles">
-        <div><span>DATA STANDARD</span><h2>EVIDENCE<br />BEFORE<br />OPINION.</h2></div>
-        <div><p>FORDEX is an editorial research product. The interface can rank and compare, but every factual field should be traceable to a public source and a review month.</p><div className="source-rule-grid">{sourceRules.map((rule, index) => <div key={rule}><small>0{index + 1}</small><span>{rule}</span></div>)}</div></div>
+        <div><span>СТАНДАРТ ДАННЫХ</span><h2>ДОКАЗАТЕЛЬСТВА<br />ВАЖНЕЕ<br />МНЕНИЙ.</h2></div>
+        <div><p>FORDEX — редакционный исследовательский продукт. Интерфейс может сравнивать и ранжировать, но каждое фактическое поле должно быть связано с публичным источником и месяцем проверки.</p><div className="source-rule-grid">{sourceRules.map((rule, index) => <div key={rule}><small>0{index + 1}</small><span>{rule}</span></div>)}</div></div>
       </section>
       <section className="source-cards">
-        <div className="section-head"><div><span>SOURCE REGISTRY</span><h2>WHERE THE DATA COMES FROM</h2></div></div>
-        <div className="source-grid">{sourceRegistry.map((source) => <article className="source-card" key={source.id}><div><span>{source.type}</span><strong>{source.name}</strong><small>{source.date} · {source.title}</small></div><p>{source.use}</p><em>{source.note}</em><a href={source.url} target="_blank" rel="noreferrer">OPEN SOURCE <ExternalLink size={13} /></a></article>)}</div>
+        <div className="section-head"><div><span>ИСТОЧНИК REGISTRY</span><h2>ОТКУДА БЕРУТСЯ ДАННЫЕ</h2></div></div>
+        <div className="source-grid">{sourceRegistry.map((source) => <article className="source-card" key={source.id}><div><span>{ruText(source.type)}</span><strong>{source.name}</strong><small>{source.date} · {source.title}</small></div><p>{source.use}</p><em>{source.note}</em><a href={source.url} target="_blank" rel="noreferrer">OPEN ИСТОЧНИК <ExternalLink size={13} /></a></article>)}</div>
       </section>
-      <section className="source-disclaimer"><span>IMPORTANT</span><p>FORDEX scores are editorial research outputs. They are not investment advice, market capitalization, valuation, financial forecasts or a statement of market share. Source rankings are labeled separately.</p></section>
+      <section className="source-disclaimer"><span>IMPORTANT</span><p>Оценки FORDEX — результат редакционного исследования. Это не инвестиционная рекомендация, рыночная капитализация, оценка стоимости, финансовый прогноз или заявление о доле рынка. Внешние рейтинги маркируются отдельно.</p></section>
     </main>
   );
 }
@@ -847,14 +850,14 @@ function Watchlist({ names, toggleWatch }) {
   const items = marketCompanies.filter((company) => isWatched(company, names));
   return (
     <main className="inner-page">
-      <PageHero eyebrow="PERSONAL INDEX" title="WATCHLIST" description="Your saved companies stay in the browser and work without an account. The list can be cleared or extended from any company card." />
+      <PageHero eyebrow="ЛИЧНЫЙ ИНДЕКС" title="WATCHLIST" description="Your saved компаний stay in the browser and work without an account. The list can be cleared or extended from any company card." />
       <section className="company-grid watch-grid">
         {items.length ? items.map((company) => (
           <article key={company.id}>
             <div className="card-image"><img src={company.image} alt="" loading="lazy" /><button type="button" className="watch active" onClick={() => toggleWatch(company)}><Heart size={16} fill="currentColor" /></button></div>
-            <div className="card-meta"><span>{company.sector}</span><h3>{company.name}</h3><small>{company.stage}</small></div>
+            <div className="card-meta"><span>{ruSector(company.sector)}</span><h3>{company.name}</h3><small>{company.stage}</small></div>
           </article>
-        )) : <div className="empty"><Heart size={18} /> YOUR WATCHLIST IS EMPTY.</div>}
+        )) : <div className="empty"><Heart size={18} /> СПИСОК ОТСЛЕЖИВАНИЯ ПУСТ.</div>}
       </section>
     </main>
   );
@@ -865,15 +868,15 @@ function formatMoney(value) {
 }
 
 function NotFound({ route }) {
-  return <main className="not-found"><span>404</span><h1>NOT FOUND</h1><p>There is no FORDEX section called “{route}”.</p><ButtonLink route="home" className="primary"><ArrowLeft size={14} /> RETURN HOME</ButtonLink></main>;
+  return <main className="not-found"><span>404</span><h1>NOT FOUND</h1><p>Раздела FORDEX с названием «{route}”.</p><ButtonLink route="home" className="primary"><ArrowLeft size={14} /> ВЕРНУТЬСЯ НА ГЛАВНУЮ</ButtonLink></main>;
 }
 
 function Footer() {
   return (
     <footer>
-      <div><div className="logo">FORDEX</div><p>AI BUSINESS INDEX · RUSSIA</p></div>
-      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>COMPANIES</button><button type="button" onClick={() => goto('founders')}>FOUNDERS</button><button type="button" onClick={() => goto('deals')}>DEALS</button><button type="button" onClick={() => goto('analytics')}>METHODOLOGY</button><button type="button" onClick={() => goto('sources')}>SOURCES</button></div>
-      <span>© 2026 FORDEX · RESEARCH BETA</span>
+      <div><div className="logo">FORDEX</div><p>ИНДЕКС AI-БИЗНЕСА · РОССИЯ</p></div>
+      <div className="footer-links"><button type="button" onClick={() => goto('компаний')}>COMPANIES</button><button type="button" onClick={() => goto('founders')}>FOUNDERS</button><button type="button" onClick={() => goto('deals')}>DEALS</button><button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><button type="button" onClick={() => goto('sources')}>ИСТОЧНИКS</button></div>
+      <span>© 2026 FORDEX · ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span>
     </footer>
   );
 }
@@ -883,23 +886,23 @@ function SearchOverlay({ onClose }) {
   const normalized = query.trim().toLowerCase();
   const results = useMemo(() => {
     if (!normalized) return [];
-    const companyResults = marketCompanies.filter((item) => [item.name, item.sector, item.stage].join(' ').toLowerCase().includes(normalized)).slice(0, 6).map((item) => ({ label: item.name, meta: item.sector, route: 'companies' }));
-    const founderResults = founderProfiles.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'FOUNDER · ' + item.company, route: 'founders' }));
+    const companyResults = marketCompanies.filter((item) => [item.name, item.sector, item.stage].join(' ').toLowerCase().includes(normalized)).slice(0, 6).map((item) => ({ label: item.name, meta: item.sector, route: 'компаний' }));
+    const founderResults = founderProfiles.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ОСНОВАТЕЛЬ · ' + item.company, route: 'founders' }));
     const dealResults = dealRecords.filter((item) => [item.company, item.type, item.sector, item.lead].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.company + ' · ' + item.type, meta: item.value + ' · ' + item.date, route: 'deals' }));
-    const newsResults = newsFeed.filter((item) => [item.title, item.category, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 3).map((item) => ({ label: item.title, meta: 'NEWS · ' + item.date, route: 'news' }));
-    const coverageResults = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'MARKET · ' + item.sector, route: 'market' }));
+    const newsResults = newsFeed.filter((item) => [item.title, item.category, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 3).map((item) => ({ label: item.title, meta: 'НОВОСТИ · ' + ruDate(item.date), route: 'news' }));
+    const coverageResults = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'РЫНОК · ' + ruSector(item.sector), route: 'market' }));
     return [...companyResults, ...founderResults, ...dealResults, ...newsResults, ...coverageResults].slice(0, 12);
   }, [normalized]);
 
   return (
     <div className="search-overlay" role="dialog" aria-modal="true" aria-label="Search FORDEX" onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <div className="search-box">
-        <div className="search-top"><span>SEARCH FORDEX</span><button type="button" onClick={onClose} aria-label="Close search"><X size={19} /></button></div>
-        <label className="search-input"><Search size={20} /><input autoFocus value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Company, founder, deal, news..." /></label>
+        <div className="search-top"><span>ПОИСК FORDEX</span><button type="button" onClick={onClose} aria-label="Close search"><X size={19} /></button></div>
+        <label className="search-input"><Search size={20} /><input autoFocus value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Компания, основатель, сделка, новость..." /></label>
         <div className="search-results">
-          {query ? (results.length ? results.map((item) => <button key={item.label + item.meta} type="button" onClick={() => { onClose(); goto(item.route); }}><span>{item.meta}</span><strong>{item.label}</strong><ArrowRight size={14} /></button>) : <p>NO MATCHES IN THE FORDEX INDEX.</p>) : <p>TYPE TO SEARCH THE INDEX.</p>}
+          {query ? (results.length ? results.map((item) => <button key={item.label + item.meta} type="button" onClick={() => { onClose(); goto(item.route); }}><span>{item.meta}</span><strong>{item.label}</strong><ArrowRight size={14} /></button>) : <p>В ИНДЕКСЕ FORDEX НИЧЕГО НЕ НАЙДЕНО.</p>) : <p>НАЧНИТЕ ВВОДИТЬ ЗАПРОС ПО ИНДЕКСУ.</p>}
         </div>
-        <div className="search-hint">PRESS <kbd>ESC</kbd> TO CLOSE · PRESS <kbd>/</kbd> TO SEARCH</div>
+        <div className="search-hint">НАЖМИТЕ <kbd>ESC</kbd>, ЧТОБЫ ЗАКРЫТЬ · НАЖМИТЕ <kbd>/</kbd>, ЧТОБЫ ИСКАТЬ</div>
       </div>
     </div>
   );
