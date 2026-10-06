@@ -24,7 +24,7 @@ export const sourceRegistry = [
     name: 'AI Review',
     type: 'ИССЛЕДОВАНИЕ ЭКОСИСТЕМЫ',
     title: 'AI-стартапы России: топ-20 в 2026',
-    date: 'AUG 2026',
+    date: 'АВГ 2026',
     url: 'https://ai-review.ru/blog/ai-startapy-rossii-top-20/',
     use: 'Поиск кандидатов и перекрёстная проверка категорий.',
     note: 'Вторичный редакционный источник; сведения не переносятся в FORDEX без ссылки на источник.'
@@ -44,7 +44,7 @@ export const sourceRegistry = [
     name: 'Venture Guide / Moscow Venture Fund',
     type: 'ВЕНЧУРНЫЕ ДАННЫЕ',
     title: 'Поток технологических инвестиций в России',
-    date: 'OCT 2026',
+    date: 'ОКТ 2026',
     url: 'https://www.comnews.ru/content/247690/2026-10-05/2026-w41/1007/iskusstvennyy-intellekt-ostaetsya-liderom-obemu-venchurnykh-investiciy',
     use: 'Актуальный контекст венчурного рынка и мониторинг сделок.',
     note: 'Показатели могут уточняться по мере появления новых раскрытий сделок.'
@@ -54,10 +54,10 @@ export const sourceRegistry = [
     name: 'Official company sources',
     type: 'ПЕРВИЧНЫЕ ИСТОЧНИКИ',
     title: 'Сайты компаний, объявления инвесторов и страницы продуктов',
-    date: 'CONTINUOUS',
+    date: 'ПОСТОЯННО',
     url: 'https://cognitivepilot.com/',
     use: 'Первичные доказательства по продукту, финансированию и фактам о компании.',
-    note: 'FORDEX предпочитает публичный и конкретный первичный источник компании.
+    note: 'FORDEX предпочитает публичный и конкретный первичный источник компании.'
   },
 ];
 
