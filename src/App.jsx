@@ -9,6 +9,7 @@ import {
   BarChart3,
   Building2,
   ChevronRight,
+  CheckCircle2,
   ExternalLink,
   Heart,
   LineChart,
