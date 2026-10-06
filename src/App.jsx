@@ -467,17 +467,20 @@ function Deals() {
 
 function Rankings() {
   const [category, setCategory] = useState('ALL');
+  const [view, setView] = useState('overall');
   const [sort, setSort] = useState('rank');
   const [selected, setSelected] = useState(null);
   const filtered = useMemo(() => {
     const rows = startupRankings.filter((item) => category === 'ALL' || item.tags.includes(category));
     return [...rows].sort((a, b) => {
+      if (view === 'movers') return b.momentum - a.momentum;
+      if (view === 'capital') return (b.fundingM ?? -1) - (a.fundingM ?? -1);
       if (sort === 'score') return b.score - a.score;
       if (sort === 'momentum') return b.momentum - a.momentum;
       if (sort === 'funding') return (b.fundingM ?? -1) - (a.fundingM ?? -1);
       return a.rank - b.rank;
     });
-  }, [category, sort]);
+  }, [category, view, sort]);
 
   return (
     <main className="inner-page rankings-page">
@@ -487,18 +490,29 @@ function Rankings() {
         <div><p>FORDEX converts observable signals into a normalized score so companies can be compared on one page. Every profile keeps its source and review month visible.</p><small>RESEARCH BETA · 20 INDEXED COMPANIES · LAST REVIEW OCT 2026</small></div>
       </section>
       <section className="ranking-controls">
-        <div className="ranking-tabs">{rankingCategories.map((item) => <button type="button" key={item} className={category === item ? 'active' : ''} onClick={() => setCategory(item)}>{item}</button>)}</div>
-        <label>SORT <select value={sort} onChange={(e) => setSort(e.target.value)}><option value="rank">FORDEX RANK</option><option value="score">SCORE</option><option value="momentum">MOMENTUM</option><option value="funding">KNOWN FUNDING</option></select></label>
+        <div className="ranking-view-tabs">
+          <button type="button" className={view === 'overall' ? 'active' : ''} onClick={() => setView('overall')}>OVERALL</button>
+          <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>FASTEST MOVERS</button>
+          <button type="button" className={view === 'capital' ? 'active' : ''} onClick={() => setView('capital')}>CAPITAL LEADERS</button>
+        </div>
+        <div className="ranking-filter-set">
+          <div className="ranking-tabs">{rankingCategories.map((item) => <button type="button" key={item} className={category === item ? 'active' : ''} onClick={() => setCategory(item)}>{item}</button>)}</div>
+          <label>SORT <select value={sort} onChange={(e) => setSort(e.target.value)}><option value="rank">FORDEX RANK</option><option value="score">SCORE</option><option value="momentum">MOMENTUM</option><option value="funding">KNOWN FUNDING</option></select></label>
+        </div>
       </section>
       <section className="startup-table" aria-label="FORDEX Startup Rankings">
         <div className="startup-row startup-head"><span>#</span><span>COMPANY</span><span>SECTOR</span><span>STAGE</span><span>FUNDING</span><span>MOMENTUM</span><span>SCORE</span></div>
         {filtered.map((item) => (
           <button type="button" className="startup-row startup-item" key={item.id} onClick={() => setSelected(item)}>
-            <strong>{String(item.rank).padStart(2, '0')}</strong>
+            <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
             <span className="startup-name"><strong>{item.name}</strong><small>{item.city} · {item.verified ? 'VERIFIED' : 'RESEARCH'}</small></span>
             <span>{item.sector}</span><span>{item.stage}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
           </button>
         ))}
+      </section>
+      <section className="ranking-context">
+        <div><span>CURRENT VIEW</span><strong>{view === 'overall' ? 'OVERALL INDEX' : view === 'movers' ? 'FASTEST MOVERS' : 'CAPITAL LEADERS'}</strong></div>
+        <p>{view === 'overall' ? 'Ordered by the published FORDEX score.' : view === 'movers' ? 'Ordered by the editorial momentum signal; this is not a revenue growth rate.' : 'Ordered by disclosed financing amounts; undisclosed funding is kept at the bottom.'}</p>
       </section>
       <section className="ranking-method">
         <div><span>HOW FORDEX SCORES</span><h2>ONE SCORE.<br />SIX SIGNALS.</h2><p>The model is deliberately weighted toward evidence of a working business. Funding alone cannot win the index.</p></div>
