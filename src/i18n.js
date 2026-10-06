@@ -227,6 +227,11 @@ export const RU = Object.freeze({
     'FOUNDER / CEO': 'ОСНОВАТЕЛЬ / CEO',
     'CO-FOUNDER / PRODUCT LEAD': 'СО-ОСНОВАТЕЛЬ / PRODUCT LEAD',
   },
+  sizeBand: {
+    'EARLY TEAM': 'РАННЯЯ КОМАНДА',
+    'SMALL TEAM': 'НЕБОЛЬШАЯ КОМАНДА',
+    'GROWING': 'РАСТУЩАЯ КОМАНДА',
+  },
   score: {
     'Business traction': 'Бизнес-тяга',
     'Capital & financing': 'Капитал и финансирование',
@@ -260,6 +265,9 @@ export function ruRole(value) {
 }
 export function ruScoreLabel(value) {
   return RU.score[value] || value;
+}
+export function ruSizeBand(value) {
+  return RU.sizeBand[value] || value;
 }
 
 export function ruDate(value) {
