@@ -245,6 +245,7 @@ export const RU = Object.freeze({
   kind: {
     'CORPORATE': 'КОРПОРАТИВНЫЙ ИГРОК',
     'INDEX COMPANY': 'КОМПАНИЯ ИНДЕКСА',
+    'EMERGING STARTUP': 'МОЛОДОЙ СТАРТАП',
     'FOUNDER': 'ОСНОВАТЕЛЬ',
   },
   role: {
@@ -261,6 +262,7 @@ export const RU = Object.freeze({
     'EARLY TEAM': 'РАННЯЯ КОМАНДА',
     'SMALL TEAM': 'НЕБОЛЬШАЯ КОМАНДА',
     'GROWING': 'РАСТУЩАЯ КОМАНДА',
+    'LARGE TECH': 'КРУПНАЯ ТЕХНОКОМПАНИЯ',
   },
   score: {
     'Business traction': 'Бизнес-тяга',
