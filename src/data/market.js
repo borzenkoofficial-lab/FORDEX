@@ -118,7 +118,9 @@ export const marketCompanies = [
     founderAgeSource: item.founderAgeSource ?? null,
     evidence: item.evidence,
     sizeBand: item.sizeBand,
-    verified: true,
+    verified: item.verified ?? false,
+    researchStatus: 'RESEARCH',
+    founderCohort: item.founderCohort ?? 'EMERGING STARTUP FOUNDER',
     lastVerified: item.lastVerified,
   })),
 ];
@@ -204,6 +206,7 @@ export const founderProfiles = [
   ...emergingFounderProfiles.map((founder, index) => ({
     ...founder,
     image: images[(index + 3) % images.length],
+    founderCohort: founder.founderCohort ?? 'EMERGING STARTUP FOUNDER',
   })),
   {
     id: 'georgy-belyaev',
