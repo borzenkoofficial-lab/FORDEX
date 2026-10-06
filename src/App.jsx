@@ -207,7 +207,7 @@ function Home({ watchlist, toggleWatch }) {
         </div>
       </section>
 
-      <section className="index-snapshot">
+      <section className="category-strip">
         {categoryLinks.map((category) => (
           <button className="category" type="button" key={category.title} onClick={() => goto(category.href)}>
             <img src={category.image} alt="" loading="lazy" />
