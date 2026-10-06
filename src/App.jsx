@@ -370,14 +370,14 @@ function MarketMap() {
   const [query, setQuery] = useState('');
   const normalized = query.trim().toLowerCase();
   const indexed = startupRankings.length;
-  const corporate = marketCompanies.filter((item) => item.kind === 'CORPORATE').length;
-  const emerging = marketCompanies.filter((item) => item.kind === 'EMERGING STARTUP').length;
+  const corporate = companyRegistry.filter((item) => item.kind === 'CORPORATE').length;
+  const emerging = companyRegistry.filter((item) => item.kind === 'EMERGING STARTUP').length;
   const visible = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized));
 
   const buckets = useMemo(() => {
     const map = new Map();
     startupRankings.forEach((item) => item.tags.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
-    marketCompanies.filter((item) => item.kind === 'CORPORATE').forEach((item) => item.tags?.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
+    companyRegistry.filter((item) => item.kind === 'CORPORATE').forEach((item) => item.tags?.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
     return coverageLabels.map((label) => {
       const aliases = label === 'FOUNDATION & LLM' ? ['AI / AGENTS'] : label === 'COMPUTER VISION' ? ['DEEPTECH', 'MEDTECH'] : label === 'MEDTECH' ? ['MEDTECH'] : label === 'INDUSTRIAL AI' ? ['INDUSTRIAL'] : label === 'CONSUMER AI' ? ['CONSUMER'] : [];
       return { label, count: aliases.reduce((sum, alias) => sum + (map.get(alias) || 0), 0) };
