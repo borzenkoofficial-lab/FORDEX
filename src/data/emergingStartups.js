@@ -257,9 +257,6 @@ export const emergingStartups = [
     evidence: 'Публичный профиль Product Radar указывает Илью Дашкина основателем; проект развивается как единый API/агрегатор LLM.',
     lastVerified: '2026-10',
   },
-];
-
-
   {
     id: 'dozhmi-prodazhi',
     name: 'Дожми Продажи',
@@ -924,6 +921,7 @@ export const emergingStartups = [
     evidence: 'Проект находится в базе Product Radar; основатель описывает прозрачную матрицу выбора подрядчика, поставщика, IT-системы или проекта.',
     lastVerified: '2026-10',
     verified: true,
+  },
   {
     id: 'okrest',
     name: 'Окрест',
@@ -942,7 +940,6 @@ export const emergingStartups = [
     evidence: 'Соло-проект собирает данные из сотен Telegram-каналов; AI-помощник подбирает события по свободному запросу и настроению.',
     lastVerified: '2026-10',
     verified: true,
-  },
   },
 ];
 
