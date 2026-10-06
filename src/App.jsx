@@ -654,7 +654,7 @@ function Rankings() {
         <p>{view === 'overall' ? 'Сортировка по вычисляемой оценке FORDEX.' : view === 'movers' ? 'Сортировка по редакционному сигналу динамики; это не темп роста выручки.' : 'Сортировка по раскрытым объёмам финансирования; нераскрытое финансирование остаётся внизу.'}</p>
       </section>
       <section className="ranking-method">
-        <div><span>КАК FORDEX СЧИТАЕТ</span><h2>ОДНА ОЦЕНКА.<br />ШЕСТЬ СИГНАЛОВ.</h2><p>Предварительная модель v0.1 преобразует шесть наблюдаемых сигналов в единую исследовательскую оценку от 0 до 100. Одного финансирования недостаточно, чтобы возглавить индекс.</p></div>
+        <div><span>КАК FORDEX СЧИТАЕТ</span><h2>ОДНА ОЦЕНКА.<br />ШЕСТЬ СИГНАЛОВ.</h2><p>Публичная beta-модель v1.0 преобразует шесть наблюдаемых сигналов в единую исследовательскую оценку от 0 до 100. Одного финансирования недостаточно, чтобы возглавить индекс.</p></div>
         <div className="score-list">{scoreWeights.map((weight) => <div key={ruScoreLabel(weight.label)}><span>{ruScoreLabel(weight.label)}</span><strong>{weight.value}%</strong><i><b style={{ width: weight.value + '%' }} /></i></div>)}</div>
       </section>
       {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} />}
@@ -819,7 +819,7 @@ function StartupDrawer({ startup, onClose }) {
               );
             })}
           </div>
-          <p className="drawer-model-note">Вычисляемая оценка строится из шести нормализованных сигналов. Финансирование — только один из факторов, а не сам рейтинг. Модель v0.1 является предварительной.</p>
+          <p className="drawer-model-note">Вычисляемая оценка строится из шести нормализованных сигналов. Финансирование — только один из факторов, а не сам рейтинг. Модель v1.0 является предварительной.</p>
         </section>
 
         <div className="drawer-signal">
