@@ -361,6 +361,7 @@ function MarketMap() {
   const normalized = query.trim().toLowerCase();
   const indexed = startupRankings.length;
   const corporate = marketCompanies.filter((item) => item.kind === 'CORPORATE').length;
+  const emerging = marketCompanies.filter((item) => item.kind === 'EMERGING STARTUP').length;
   const visible = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized));
 
   const buckets = useMemo(() => {
@@ -379,14 +380,14 @@ function MarketMap() {
       <section className="market-overview">
         <div><span>ЯДРО FORDEX</span><strong>{indexed}</strong><small>компаний с оценкой</small></div>
         <div><span>КОРПОРАТИВНЫЙ СЛОЙ</span><strong>{corporate}</strong><small>крупных технологических групп</small></div>
-        <div><span>ИССЛЕДОВАТЕЛЬСКАЯ ВЫБОРКА</span><strong>{researchUniverse.length}</strong><small>дополнительных профилей</small></div>
-        <div><span>ИСТОЧНИКИ ДАННЫХ</span><strong>3+</strong><small>публичных исследовательских потоков</small></div>
+        <div><span>МОЛОДЫЕ КОМАНДЫ</span><strong>{emerging}</strong><small>стартапов на радаре</small></div>
+        <div><span>ИССЛЕДОВАТЕЛЬСКАЯ ВЫБОРКА</span><strong>{researchUniverse.length}</strong><small>записей до публикации в индексе</small></div>
       </section>
 
       <section className="market-intro">
         <div><span>КАК ЧИТАТЬ КАРТУ</span><h2>РАЗДЕЛЯЙТЕ<br />ЯДРО И<br />ПОКРЫТИЕ.</h2></div>
         <div>
-          <p>FORDEX использует три слоя: оценённые стартапы, корпоративных AI-игроков и исследовательскую выборку. Это позволяет сохранять строгий рейтинг и не делать вид, что по каждой компании есть одинаковый объём открытых данных.</p>
+          <p>FORDEX использует три слоя: оценённые стартапы, корпоративных AI-игроков и исследовательскую выборку. Внутри последнего слоя отдельный приоритет получают молодые команды и новые продукты, даже когда данных пока недостаточно для балла. Это позволяет сохранять строгий рейтинг и не делать вид, что по каждой компании есть одинаковый объём открытых данных.</p>
           <div className="market-legend"><span><i className="legend-dot solid" />С ОЦЕНКОЙ</span><span><i className="legend-dot" />ТОЛЬКО ПОКРЫТИЕ</span><span><i className="legend-dot dark" />КОРПОРАТИВНЫЕ</span></div>
         </div>
       </section>
