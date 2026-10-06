@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
 import { rankingCategories, scoreWeights } from './data/startups';
+import { rankingCollections } from './data/rankingCollections';
 import { rankedStartupIndex, rankingModel } from './lib/rankingEngine';
 import { dealRecords, founderProfiles, marketCompanies, marketSummary, newsFeed } from './data/market';
 import { coverageLabels, researchUniverse } from './data/coverage';
@@ -510,12 +511,17 @@ function Rankings() {
 
   return (
     <main className="inner-page rankings-page">
-      <PageHero eyebrow="THE FORDEX INDEX · 2026" title="RANKINGS" description="Two different views of the market: the editorial FORDEX startup index and a source-based AI provider revenue table. They are intentionally not mixed." action={<ButtonLink route="analytics" className="text-link">METHODOLOGY <ArrowRight size={13} /></ButtonLink>} />
-      <section className="ranking-mode-switch">
-        <button type="button" className={rankingMode === 'startups' ? 'active' : ''} onClick={() => setRankingMode('startups')}><span>01</span><strong>STARTUP INDEX</strong><small>FORDEX editorial score</small></button>
-        <button type="button" className={rankingMode === 'providers' ? 'active' : ''} onClick={() => setRankingMode('providers')}><span>02</span><strong>AI PROVIDERS</strong><small>CNews Analytics · 2025 revenue</small></button>
+      <PageHero eyebrow="THE FORDEX INDEX · 2026" title="RANKINGS" description="FORDEX separates its editorial indices from external source tables. Published scores, coverage-only research and source rankings are never presented as the same signal." action={<ButtonLink route="analytics" className="text-link">METHODOLOGY <ArrowRight size={13} /></ButtonLink>} />
+      <section className="ranking-mode-switch" aria-label="FORDEX ranking families">
+        {rankingCollections.map((collection) => (
+          <button type="button" key={collection.key} className={rankingMode === collection.key ? 'active' : ''} onClick={() => setRankingMode(collection.key)}>
+            <span>{collection.number}</span>
+            <strong>{collection.title}</strong>
+            <small>{collection.status} · {collection.scope}</small>
+          </button>
+        ))}
       </section>
-      {rankingMode === 'providers' ? <ProviderRanking /> : <>
+      {rankingMode === 'providers' ? <ProviderRanking /> : rankingMode === 'ai100' ? <RankingCollectionPanel collectionKey="ai100" /> : rankingMode === 'vibe100' ? <RankingCollectionPanel collectionKey="vibe100" /> : <>
       <section className="ranking-intro">
         <div><span>FORDEX STARTUP INDEX · 2026</span><h2>THE<br />STARTUP INDEX.</h2></div>
         <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды. Score рассчитывается детерминированной моделью FORDEX.</p><small>RESEARCH BETA · MODEL {rankingModel.version.toUpperCase()} · {startupRankings.length} SCORED COMPANIES · {marketSummary.trackedCompanies} TRACKED PROFILES · LAST REVIEW OCT 2026</small></div>
@@ -589,6 +595,83 @@ function Rankings() {
       {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} />}
       </>}
     </main>
+  );
+}
+
+function RankingCollectionPanel({ collectionKey }) {
+  const collection = rankingCollections.find((item) => item.key === collectionKey);
+  const corporateCount = marketCompanies.filter((item) => item.kind === 'CORPORATE').length;
+  const scoredCount = startupRankings.length;
+
+  if (!collection) return null;
+
+  const isAI100 = collection.key === 'ai100';
+  const topRows = isAI100 ? startupRankings.slice(0, 10) : [];
+
+  return (
+    <section className="ranking-collection-panel">
+      <div className="ranking-collection-overview">
+        <div className="ranking-collection-copy">
+          <span>{collection.label} · {collection.status}</span>
+          <h2>{collection.title === 'VIBE 100' ? <>THE NEXT<br />DEVELOPER ECONOMY.</> : <>THE BROADER<br />AI BUSINESS INDEX.</>}</h2>
+          <p>{collection.description}</p>
+        </div>
+        <div className="ranking-collection-meta">
+          <div><span>STATUS</span><strong>{collection.status}</strong><small>{collection.scope}</small></div>
+          <div><span>TARGET</span><strong>{collection.target ?? '—'}</strong><small>{collection.target ? 'companies' : 'source-defined'}</small></div>
+          <div><span>SCORED NOW</span><strong>{isAI100 ? scoredCount : '0'}</strong><small>{isAI100 ? 'startup records' : 'not published'}</small></div>
+          <div><span>COVERAGE NOTE</span><strong>{isAI100 ? corporateCount + ' corporate' : 'RESEARCH'}</strong><small>{isAI100 ? 'tracked separately' : 'evidence gate first'}</small></div>
+        </div>
+      </div>
+
+      {isAI100 ? (
+        <>
+          <div className="ranking-collection-banner">
+            <div><span>PUBLICATION STATE</span><strong>{scoredCount} SCORED / {collection.target} TARGET</strong></div>
+            <p>{collection.note}</p>
+          </div>
+          <section className="startup-table collection-table" aria-label="Current AI 100 scored coverage">
+            <div className="startup-row startup-head"><span>#</span><span>COMPANY</span><span>SECTOR</span><span>STAGE</span><span>FUNDING</span><span>MOMENTUM</span><span>SCORE</span></div>
+            {topRows.map((item) => (
+              <button type="button" className="startup-row startup-item" key={item.id} onClick={() => goto('rankings')}>
+                <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className="rank-flat">CORE</small></span>
+                <span className="startup-name"><strong>{item.name}</strong><small>{item.city} · {item.verified ? 'VERIFIED' : 'RESEARCH'}</small></span>
+                <span>{item.sector}</span><span>{item.stage}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
+              </button>
+            ))}
+          </section>
+          <section className="ranking-collection-grid">
+            <article>
+              <span>SCORING RULE</span>
+              <strong>STARTUP SCORE<br />IS REUSED.</strong>
+              <p>Until the broader AI universe has comparable company-level evidence, FORDEX keeps the published startup score intact instead of inventing corporate scores.</p>
+            </article>
+            <article>
+              <span>CORPORATE LAYER</span>
+              <strong>{corporateCount}<br />TRACKED.</strong>
+              <p>Corporate AI players sit in MARKET coverage and remain outside the startup ranking until the AI 100 methodology defines a comparable evidence model.</p>
+              <ButtonLink route="market" className="text-link">VIEW MARKET COVERAGE <ArrowRight size={13} /></ButtonLink>
+            </article>
+          </section>
+        </>
+      ) : (
+        <>
+          <div className="ranking-collection-banner research">
+            <div><span>PUBLICATION GATE</span><strong>NOT YET RANKED</strong></div>
+            <p>{collection.note}</p>
+          </div>
+          <section className="ranking-research-state">
+            <div className="research-state-number">00</div>
+            <div>
+              <span>VIBE 100 RESEARCH QUEUE</span>
+              <h3>NO PUBLISHED SCORES.</h3>
+              <p>We are not turning courses, agencies or generic AI tools into a ranking just because they use the phrase “vibe coding”. A candidate needs a company or product record, a public source and a clear inclusion rule first.</p>
+              {collection.source && <a href={collection.source} target="_blank" rel="noreferrer">RESEARCH BASIS · {collection.sourceName} <ExternalLink size={13} /></a>}
+            </div>
+          </section>
+        </>
+      )}
+    </section>
   );
 }
 
