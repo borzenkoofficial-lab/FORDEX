@@ -570,13 +570,18 @@ function ProviderRanking() {
 function StartupDrawer({ startup, onClose }) {
   const delta = startup.previousRank ? startup.previousRank - startup.rank : 0;
   const deltaText = delta > 0 ? 'UP ' + delta : delta < 0 ? 'DOWN ' + Math.abs(delta) : 'FLAT';
+  const company = marketCompanies.find((item) => item.id === startup.id);
 
   return (
     <div className="startup-overlay" role="dialog" aria-modal="true" aria-label={startup.name + ' ranking profile'} onMouseDown={(event) => { if (event.target === event.currentTarget) onClose(); }}>
       <aside className="startup-drawer">
         <div className="drawer-top"><span>FORDEX INDEX · #{String(startup.rank).padStart(2, '0')}</span><button type="button" onClick={onClose} aria-label="Close profile"><X size={18} /></button></div>
+        {company && <div className="drawer-media"><img src={company.image} alt="" /></div>}
         <div className="drawer-score"><small>FORDEX SCORE</small><strong>{startup.score}</strong><span>+{startup.momentum}% MOMENTUM</span></div>
-        <span className="drawer-sector">{startup.sector}</span><h2>{startup.name}</h2><p>{startup.description}</p>
+        <span className="drawer-sector">{startup.sector}</span>
+        <h2>{startup.name}</h2>
+        <p>{startup.description}</p>
+        <div className="drawer-tags">{startup.tags.map((tag) => <span key={tag}>{tag}</span>)}</div>
         <div className="drawer-stats">
           <div><span>STAGE</span><strong>{startup.stage}</strong></div>
           <div><span>FUNDING</span><strong>{startup.funding}</strong></div>
@@ -584,6 +589,7 @@ function StartupDrawer({ startup, onClose }) {
           <div><span>LOCATION</span><strong>{startup.city}</strong></div>
         </div>
         <div className="drawer-signal"><span>RANK MOVEMENT</span><p><strong>{deltaText}</strong> · current #{startup.rank}, previous #{startup.previousRank || '—'}. Last verified {startup.lastVerified}.</p></div>
+        {startup.website && <a className="drawer-source" href={startup.website} target="_blank" rel="noreferrer">OPEN COMPANY <ExternalLink size={14} /></a>}
         <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">VIEW EVIDENCE <ExternalLink size={14} /></a>
       </aside>
     </div>
