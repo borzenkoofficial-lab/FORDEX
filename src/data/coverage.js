@@ -1,4 +1,6 @@
-export const researchUniverse = [
+import { emergingStartups } from './emergingStartups';
+
+const establishedResearchUniverse = [
   { name: 'Zyfra', sector: 'INDUSTRIAL AI', source: 'https://seedtable.com/best-ai-startups-in-russia', sourceName: 'SEEDTABLE' },
   { name: 'Reason8.ai', sector: 'GENERATIVE AI', source: 'https://seedtable.com/best-ai-startups-in-russia', sourceName: 'SEEDTABLE' },
   { name: 'Nanosemantics', sector: 'CONVERSATIONAL AI', source: 'https://seedtable.com/best-ai-startups-in-russia', sourceName: 'SEEDTABLE' },
@@ -25,6 +27,19 @@ export const researchUniverse = [
   { name: 'Silero', sector: 'SPEECH AI', source: 'https://maximsoldatkin.ru/russkie-neyroseti/', sourceName: 'PUBLIC CATALOG' },
   { name: 'Salute AI', sector: 'CONSUMER AI', source: 'https://maximsoldatkin.ru/russkie-neyroseti/', sourceName: 'PUBLIC CATALOG' },
   { name: 'YandexGPT', sector: 'LLM', source: 'https://maximsoldatkin.ru/russkie-neyroseti/', sourceName: 'PUBLIC CATALOG' },
+];
+
+export const researchUniverse = [
+  ...establishedResearchUniverse,
+  ...emergingStartups.map((item) => ({
+    name: item.name,
+    sector: item.sector,
+    source: item.source,
+    sourceName: item.sourceName,
+    priority: 'EMERGING',
+    founder: item.founder,
+    founderAge: item.founderAge ?? null,
+  })),
 ];
 
 export const coverageLabels = [
