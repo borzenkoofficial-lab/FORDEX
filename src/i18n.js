@@ -50,6 +50,13 @@ export const RU = Object.freeze({
     'VERIFY': 'ПРОВЕРКА',
     'VERIFIED': 'ПРОВЕРЕНО',
     'RESEARCH': 'ИССЛЕДОВАНИЕ',
+    'INVESTMENT': 'ИНВЕСТИЦИЯ',
+    'PRE-SERIES A': 'ПЕРЕД SERIES A',
+    'FOUNDATION & LLM': 'ФУНДАМЕНТАЛЬНЫЕ МОДЕЛИ И LLM',
+    'INDUSTRIAL AI': 'ПРОМЫШЛЕННЫЙ ИИ',
+    'CONSUMER AI': 'ПОТРЕБИТЕЛЬСКИЙ ИИ',
+    'ROBOTICS': 'РОБОТОТЕХНИКА',
+    'ECOSYSTEM': 'ЭКОСИСТЕМА',
     'RESEARCH BETA': 'ИССЛЕДОВАТЕЛЬСКАЯ БЕТА',
     'OPEN INDEX': 'ОТКРЫТЫЙ ИНДЕКС',
     'FACTS FIRST.': 'СНАЧАЛА ФАКТЫ.',
@@ -185,6 +192,9 @@ export const RU = Object.freeze({
   city: {
     MOSCOW: 'МОСКВА',
     'PETROZAVODSK / MOSCOW': 'ПЕТРОЗАВОДСК / МОСКВА',
+    'SAINT PETERSBURG': 'САНКТ-ПЕТЕРБУРГ',
+    ULYANOVSK: 'УЛЬЯНОВСК',
+    KALININGRAD: 'КАЛИНИНГРАД',
   },
   kind: {
     'CORPORATE': 'КОРПОРАТИВНЫЙ ИГРОК',
