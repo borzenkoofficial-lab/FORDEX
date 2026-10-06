@@ -193,18 +193,23 @@ function Home({ watchlist, toggleWatch }) {
 
   return (
     <main id="top">
-      <section className="hero">
-        <div className="hero-copy"><span>AI BUSINESS<br />THAT MOVES<br />RUSSIA FORWARD</span><i /></div>
+      <section className="hero hero-large">
+        <div className="hero-copy"><span>THE AI BUSINESS<br />INDEX OF RUSSIA</span><i /></div>
         <div className="hero-word" aria-hidden="true">FORDEX</div>
         <img className="hero-image" src={HERO_IMAGE} alt="Business leaders in discussion" />
+        <div className="hero-kicker"><span>RANKING · CAPITAL · PEOPLE</span><strong>THE MARKET<br />IN ONE FRAME.</strong></div>
         <div className="hero-actions">
           <ButtonLink route="rankings" className="primary">EXPLORE INDEX <ArrowRight size={14} /></ButtonLink>
           <ButtonLink route="companies" className="underlined">BROWSE COMPANIES</ButtonLink>
         </div>
-        <div className="hero-stamp">RESEARCH<br />BETA<br /><strong>2026</strong><i /></div>
+        <div className="hero-stamp"><span>RESEARCH BETA</span><strong>2026</strong><i /></div>
+        <div className="hero-foot">
+          <span>20 SCORED COMPANIES</span><span>26 WATCH PROFILES</span><span>SOURCE-LINKED DATA</span>
+          <button type="button" onClick={() => goto('market')}>VIEW MARKET MAP <ArrowRight size={13} /></button>
+        </div>
       </section>
 
-      <section className="category-strip">
+      <section className="index-snapshot">
         {categoryLinks.map((category) => (
           <button className="category" type="button" key={category.title} onClick={() => goto(category.href)}>
             <img src={category.image} alt="" loading="lazy" />
