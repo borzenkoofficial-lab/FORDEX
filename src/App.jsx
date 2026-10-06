@@ -376,7 +376,7 @@ function MarketMap() {
     <main className="inner-page market-page">
       <PageHero eyebrow="ПОКРЫТИЕ РЫНКА" title="MARKET MAP" description="A wider research universe around the scored FORDEX index. Ranked компаний carry editorial scores; the watch universe is deliberately kept unscored until evidence is strong enough." action={<ButtonLink route="rankings" className="text-link">ОТКРЫТЬ РЕЙТИНГ СТАРТАПОВ <ArrowRight size={13} /></ButtonLink>} />
       <section className="market-overview">
-        <div><span>FORDEX ЯДРО</span><strong>{indexed}</strong><small>компаний с оценкой</small></div>
+        <div><span>ЯДРО FORDEX</span><strong>{indexed}</strong><small>компаний с оценкой</small></div>
         <div><span>КОРПОРАТИВНЫЙ СЛОЙ</span><strong>{corporate}</strong><small>крупных технологических групп</small></div>
         <div><span>ИССЛЕДОВАТЕЛЬСКАЯ ВЫБОРКА</span><strong>{researchUniverse.length}</strong><small>дополнительных профилей</small></div>
         <div><span>ИСТОЧНИКИ ДАННЫХ</span><strong>3+</strong><small>публичных исследовательских потоков</small></div>
@@ -868,14 +868,14 @@ function formatMoney(value) {
 }
 
 function NotFound({ route }) {
-  return <main className="not-found"><span>404</span><h1>НЕ НАЙДЕНО</h1><p>Раздела FORDEX с названием «{route}”.</p><ButtonLink route="home" className="primary"><ArrowLeft size={14} /> ВЕРНУТЬСЯ НА ГЛАВНУЮ</ButtonLink></main>;
+  return <main className="not-found"><span>404</span><h1>НЕ НАЙДЕНО</h1><p>Раздела FORDEX с названием «{route}» не существует.</p><ButtonLink route="home" className="primary"><ArrowLeft size={14} /> ВЕРНУТЬСЯ НА ГЛАВНУЮ</ButtonLink></main>;
 }
 
 function Footer() {
   return (
     <footer>
       <div><div className="logo">FORDEX</div><p>ИНДЕКС AI-БИЗНЕСА · РОССИЯ</p></div>
-      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>КОМПАНИИ</button><button type="button" onClick={() => goto('founders')}>ОСНОВАТЕЛИ</button><button type="button" onClick={() => goto('deals')}>СДЕЛКИ</button><button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><button type="button" onClick={() => goto('sources')}>ИСТОЧНИКS</button></div>
+      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>КОМПАНИИ</button><button type="button" onClick={() => goto('founders')}>ОСНОВАТЕЛИ</button><button type="button" onClick={() => goto('deals')}>СДЕЛКИ</button><button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><button type="button" onClick={() => goto('sources')}>ИСТОЧНИКИ</button></div>
       <span>© 2026 FORDEX · ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span>
     </footer>
   );
