@@ -467,6 +467,7 @@ function Deals() {
 }
 
 function Rankings() {
+  const [rankingMode, setRankingMode] = useState('startups');
   const [category, setCategory] = useState('ALL');
   const [view, setView] = useState('overall');
   const [sort, setSort] = useState('rank');
@@ -490,7 +491,12 @@ function Rankings() {
 
   return (
     <main className="inner-page rankings-page">
-      <PageHero eyebrow="THE FORDEX INDEX · 2026" title="STARTUP RANKINGS" description="A research-beta editorial ranking of Russian AI and technology companies. Scores reflect the published FORDEX model, not an external market authority." action={<ButtonLink route="analytics" className="text-link">METHODOLOGY <ArrowRight size={13} /></ButtonLink>} />
+      <PageHero eyebrow="THE FORDEX INDEX · 2026" title="RANKINGS" description="Two different views of the market: the editorial FORDEX startup index and a source-based AI provider revenue table. They are intentionally not mixed." action={<ButtonLink route="analytics" className="text-link">METHODOLOGY <ArrowRight size={13} /></ButtonLink>} />
+      <section className="ranking-mode-switch">
+        <button type="button" className={rankingMode === 'startups' ? 'active' : ''} onClick={() => setRankingMode('startups')}><span>01</span><strong>STARTUP INDEX</strong><small>FORDEX editorial score</small></button>
+        <button type="button" className={rankingMode === 'providers' ? 'active' : ''} onClick={() => setRankingMode('providers')}><span>02</span><strong>AI PROVIDERS</strong><small>CNews Analytics · 2025 revenue</small></button>
+      </section>
+      {rankingMode === 'providers' ? <ProviderRanking /> : <>
       <section className="ranking-intro">
         <div><span>FORDEX STARTUP INDEX</span><h2>WHO IS<br />MOVING UP?</h2></div>
         <div><p>FORDEX converts observable signals into a normalized score so companies can be compared on one page. Every profile keeps its source and review month visible.</p><small>RESEARCH BETA · 20 SCORED COMPANIES · 26 WATCH PROFILES · LAST REVIEW OCT 2026</small></div>
@@ -535,7 +541,29 @@ function Rankings() {
         <div className="score-list">{scoreWeights.map((weight) => <div key={weight.label}><span>{weight.label}</span><strong>{weight.value}%</strong><i><b style={{ width: weight.value + '%' }} /></i></div>)}</div>
       </section>
       {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} />}
+      </>}
     </main>
+  );
+}
+
+function ProviderRanking() {
+  const [sort, setSort] = useState('revenue');
+  const rows = useMemo(() => [...aiProviderRankings].sort((a, b) => sort === 'growth'
+    ? (b.growth ?? -999) - (a.growth ?? -999)
+    : b.revenueM - a.revenueM), [sort]);
+  const topGrowth = [...aiProviderRankings].filter((item) => item.growth != null).sort((a, b) => b.growth - a.growth)[0];
+  const totalRevenue = aiProviderRankings.reduce((sum, item) => sum + item.revenueM, 0);
+
+  return (
+    <section className="provider-ranking">
+      <div className="provider-meta"><div><span>SOURCE RANKING</span><strong>{aiProviderSource.name}</strong><small>{aiProviderSource.title}</small></div><div><span>VISIBLE</span><strong>{aiProviderRankings.length}</strong><small>companies from the source table</small></div><div><span>VISIBLE REVENUE</span><strong>₽{formatMoney(totalRevenue)}M</strong><small>sum of displayed rows</small></div><div><span>FASTEST REPORTED GROWTH</span><strong>{topGrowth ? '+' + topGrowth.growth + '%' : '—'}</strong><small>{topGrowth ? topGrowth.name : '—'}</small></div></div>
+      <div className="provider-toolbar"><p>{aiProviderSource.note}</p><div><button type="button" className={sort === 'revenue' ? 'active' : ''} onClick={() => setSort('revenue')}>REVENUE</button><button type="button" className={sort === 'growth' ? 'active' : ''} onClick={() => setSort('growth')}>GROWTH</button></div></div>
+      <div className="provider-table">
+        <div className="provider-row provider-head"><span>#</span><span>COMPANY</span><span>AI REVENUE · 2025</span><span>GROWTH</span><span>FOCUS</span><span>CITY</span></div>
+        {rows.map((item, index) => <div className="provider-row" key={item.name}><strong>{String(item.rank ?? index + 1).padStart(2, '0')}</strong><strong>{item.name}</strong><strong>₽{formatMoney(item.revenueM)}M</strong><span className={item.growth != null && item.growth < 0 ? 'negative' : 'positive'}>{item.growth == null ? '—' : (item.growth >= 0 ? '+' : '') + item.growth + '%'}</span><span>{item.focus}</span><span>{item.city}</span></div>)}
+      </div>
+      <div className="provider-source"><span>SOURCE · CNEWS ANALYTICS · 2026</span><a href={aiProviderSource.source} target="_blank" rel="noreferrer">OPEN FULL TABLE <ExternalLink size={13} /></a></div>
+    </section>
   );
 }
 
