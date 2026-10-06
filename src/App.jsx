@@ -475,14 +475,25 @@ function Rankings() {
   const [category, setCategory] = useState('ALL');
   const [view, setView] = useState('overall');
   const [sort, setSort] = useState('rank');
+  const [query, setQuery] = useState('');
   const [selected, setSelected] = useState(null);
   const rankingSeries = rankingCategories.filter((item) => item !== 'ALL').map((item) => {
     const rows = startupRankings.filter((startup) => startup.tags.includes(item));
     const leader = [...rows].sort((a, b) => b.score - a.score)[0];
     return { name: item, count: rows.length, leader };
   });
+  const topThree = [...startupRankings].sort((a, b) => a.rank - b.rank).slice(0, 3);
+  const averageScore = startupRankings.reduce((sum, item) => sum + item.score, 0) / startupRankings.length;
+  const fastestMover = [...startupRankings].sort((a, b) => b.momentum - a.momentum)[0];
+  const knownFunding = startupRankings.reduce((sum, item) => sum + (item.fundingM || 0), 0);
+
   const filtered = useMemo(() => {
-    const rows = startupRankings.filter((item) => category === 'ALL' || item.tags.includes(category));
+    const normalized = query.trim().toLowerCase();
+    const rows = startupRankings.filter((item) => {
+      const matchesCategory = category === 'ALL' || item.tags.includes(category);
+      const haystack = [item.name, item.sector, item.stage, item.city, ...item.tags].join(' ').toLowerCase();
+      return matchesCategory && (!normalized || haystack.includes(normalized));
+    });
     return [...rows].sort((a, b) => {
       if (view === 'movers') return b.momentum - a.momentum;
       if (view === 'capital') return (b.fundingM ?? -1) - (a.fundingM ?? -1);
@@ -491,7 +502,7 @@ function Rankings() {
       if (sort === 'funding') return (b.fundingM ?? -1) - (a.fundingM ?? -1);
       return a.rank - b.rank;
     });
-  }, [category, view, sort]);
+  }, [category, query, view, sort]);
 
   return (
     <main className="inner-page rankings-page">
