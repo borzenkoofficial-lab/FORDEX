@@ -970,7 +970,7 @@ function Analytics() {
     <main className="inner-page">
       <PageHero eyebrow="РЫНОЧНАЯ АНАЛИТИКА" title="ANALYTICS" description="Производные показатели текущего исследовательского набора FORDEX. Количество записей относится к индексу и не описывает весь российский рынок." />
       <section className="metric-grid analytics-metrics">
-        <Metric label="ЕДИНЫЙ РЕЕСТР" value={companyRegistryStats.total} note={companyRegistryStats.emerging + ' молодых · ' + companyRegistryStats.ranked + ' с оценкой'} icon={<Building2 />} />
+        <Metric label="ЕДИНЫЙ РЕЕСТР" value={companyRegistryStats.total} note={companyRegistryStats.emerging + ' молодых · ' + startupRankings.length + ' в публичном индексе'} icon={<Building2 />} />
         <Metric label="ОСНОВАТЕЛИ" value={founderRegistryStats.total} note={founderRegistryStats.withAge + ' с публично указанным возрастом'} icon={<Users />} />
         <Metric label="ДОКАЗАТЕЛЬСТВА" value={evidenceRegistryStats.total} note={evidenceRegistryStats.linkedCompanies + ' компаний связаны с источниками'} icon={<ShieldCheck />} />
         <Metric label="КОРПОРАТИВНЫЕ" value={companyRegistryStats.corporate} note="отдельный слой рынка" icon={<Building2 />} />
