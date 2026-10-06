@@ -513,8 +513,27 @@ function Rankings() {
       </section>
       {rankingMode === 'providers' ? <ProviderRanking /> : <>
       <section className="ranking-intro">
-        <div><span>FORDEX STARTUP INDEX</span><h2>WHO IS<br />MOVING UP?</h2></div>
-        <div><p>FORDEX converts observable signals into a normalized score so companies can be compared on one page. Every profile keeps its source and review month visible.</p><small>RESEARCH BETA · 20 SCORED COMPANIES · 26 WATCH PROFILES · LAST REVIEW OCT 2026</small></div>
+        <div><span>FORDEX STARTUP INDEX · 2026</span><h2>THE<br />STARTUP INDEX.</h2></div>
+        <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды.</p><small>RESEARCH BETA · ${startupRankings.length} SCORED COMPANIES · ${marketSummary.trackedCompanies} TRACKED PROFILES · LAST REVIEW OCT 2026</small></div>
+      </section>
+      <section className="ranking-lead">
+        <div className="ranking-lead-head"><span>INDEX AT A GLANCE</span><small>CURRENT RESEARCH SNAPSHOT</small></div>
+        <div className="ranking-lead-stats">
+          <div><span>SCORED</span><strong>${startupRankings.length}</strong><small>companies</small></div>
+          <div><span>TOP SCORE</span><strong>${topThree[0]?.score?.toFixed(1) || '—'}</strong><small>${topThree[0]?.name || '—'}</small></div>
+          <div><span>AVG SCORE</span><strong>${averageScore.toFixed(1)}</strong><small>out of 100</small></div>
+          <div><span>FASTEST MOVER</span><strong>+${fastestMover?.momentum?.toFixed(1) || '—'}%</strong><small>${fastestMover?.name || '—'}</small></div>
+          <div><span>KNOWN FUNDING</span><strong>₽${formatMoney(knownFunding)}M</strong><small>visible only</small></div>
+        </div>
+        <div className="ranking-top-three">
+          {topThree.map((item) => (
+            <button type="button" className={'ranking-top-card rank-' + item.rank} key={item.id} onClick={() => setSelected(item)}>
+              <div><span>#{String(item.rank).padStart(2, '0')}</span><small>{item.sector}</small></div>
+              <strong>{item.name}</strong>
+              <div className="ranking-top-score"><b>{item.score.toFixed(1)}</b><em>{item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</em></div>
+            </button>
+          ))}
+        </div>
       </section>
       <section className="ranking-series">
         <div className="ranking-series-head"><div><span>RANKING SERIES</span><h2>THE INDEX<br />BY MARKET</h2></div><p>Each series reuses the core FORDEX evidence model and narrows the universe by the company tags. A sector table is a view of the index, not a claim that the sector has its own independent scoring system.</p></div>
