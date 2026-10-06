@@ -1,6 +1,7 @@
 import { companyRegistry } from './companyRegistry.js';
 import { founderRegistry } from './founderRegistry.js';
 import { dealRecords } from './deals.js';
+import { youngLeaderRankings } from './youngLeaders.js';
 
 export const marketCompanies = companyRegistry;
 export const founderProfiles = founderRegistry;
@@ -58,7 +59,7 @@ export const newsFeed = [
 
 export const marketSummary = {
   trackedCompanies: marketCompanies.length,
-  indexedStartups: startupRankings.length,
+  indexedStartups: companyRegistry.filter((item) => item.kind === 'INDEX COMPANY').length + youngLeaderRankings.length,
   founderProfiles: founderProfiles.length,
   recordedDeals: dealRecords.length,
   knownDealCapitalM: dealRecords.reduce((sum, deal) => sum + deal.valueM, 0),
