@@ -1,4 +1,4 @@
-import { dealRecords } from './market.js';
+import { dealRecords } from './deals.js';
 
 export const dealRegistry = dealRecords.map((deal) => ({
   ...deal,
