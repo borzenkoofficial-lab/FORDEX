@@ -1,5 +1,5 @@
-import { startupRankings } from './startups';
-import { emergingStartups } from './emergingStartups';
+import { startupRankings } from './startups.js';
+import { emergingStartups } from './emergingStartups.js';
 
 export const corporateCompanies = [
   {
