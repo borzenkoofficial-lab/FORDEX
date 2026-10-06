@@ -193,6 +193,20 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 .ranking-intro h2{font-family:Manrope,Inter,sans-serif;font-size:51px;line-height:.9;letter-spacing:-.06em;margin:14px 0 0}
 .ranking-intro p{font-size:12px;line-height:1.6;max-width:520px;margin:0 0 16px}
 .ranking-intro small{font-size:8px;letter-spacing:.12em;color:#7a776f}
+
+.ranking-series{padding:43px 7% 29px;border-bottom:1px solid var(--line)}
+.ranking-series-head{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:end;margin-bottom:24px}
+.ranking-series-head>div>span{font-size:8px;letter-spacing:.23em;color:#77746d;font-weight:700}
+.ranking-series-head h2{font-family:Manrope,Inter,sans-serif;font-size:42px;line-height:.92;letter-spacing:-.055em;margin:13px 0 0}
+.ranking-series-head>p{font-size:10px;line-height:1.6;color:#69665f;margin:0;max-width:530px}
+.ranking-series-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1px;background:var(--line);border:1px solid var(--line)}
+.series-card{min-height:132px;background:var(--paper);padding:16px;text-align:left;display:grid;grid-template-columns:1fr auto;grid-template-rows:auto 1fr auto;transition:background .18s ease}
+.series-card:hover{background:#e8e7e2}
+.series-card>span{font-size:8px;letter-spacing:.1em;color:#77746d}
+.series-card>strong{grid-row:2;font-family:Manrope,Inter,sans-serif;font-size:39px;letter-spacing:-.06em;align-self:center}
+.series-card>small{font-size:7px;letter-spacing:.08em;color:#77746d;white-space:nowrap;overflow:hidden;text-overflow:ellipsis}
+.series-card>svg{justify-self:end;align-self:end;width:14px;height:14px}
+
 .ranking-controls{padding:17px 7%;border-bottom:1px solid var(--line);display:flex;align-items:flex-start;justify-content:space-between;gap:25px}
 .ranking-tabs{display:flex;gap:7px;overflow:auto}
 .ranking-tabs button{font-size:8px;letter-spacing:.1em;font-weight:700;white-space:nowrap;padding:8px 10px;color:#77746d}
@@ -408,7 +422,7 @@ footer>span{font-size:7px;letter-spacing:.12em;color:#777;align-self:end}
   .portrait-grid{grid-template-columns:1fr;padding-top:18px}.portrait-image{height:430px}
   .deal-summary{grid-template-columns:1fr}.deal-summary>div,.deal-summary>div:not(:first-child){padding:14px 0;border-right:0;border-bottom:1px solid var(--line)}.deal-summary>div:last-child{border-bottom:0}.deal-summary strong{font-size:25px}
   .deals-table{margin:0 6%;overflow-x:auto}.table-row{min-width:790px;grid-template-columns:1.3fr .85fr .75fr .85fr 1.15fr .3fr}
-  .ranking-intro{grid-template-columns:1fr;gap:22px;padding-top:32px}.ranking-intro h2{font-size:41px}.ranking-controls{align-items:stretch;flex-direction:column}.ranking-view-tabs{overflow-x:auto}.ranking-view-tabs button{white-space:nowrap}.ranking-filter-set{width:100%;align-items:flex-start;flex-direction:column;gap:14px}.ranking-tabs{width:100%}.ranking-context{grid-template-columns:1fr;gap:10px;padding-left:6%;padding-right:6%}.ranking-context p{justify-self:start}
+  .ranking-intro{grid-template-columns:1fr;gap:22px;padding-top:32px}.ranking-intro h2{font-size:41px}.ranking-series{padding-left:6%;padding-right:6%}.ranking-series-head{grid-template-columns:1fr;gap:22px}.ranking-series-head h2{font-size:38px}.ranking-series-grid{grid-template-columns:1fr 1fr}.ranking-controls{align-items:stretch;flex-direction:column}.ranking-view-tabs{overflow-x:auto}.ranking-view-tabs button{white-space:nowrap}.ranking-filter-set{width:100%;align-items:flex-start;flex-direction:column;gap:14px}.ranking-tabs{width:100%}.ranking-context{grid-template-columns:1fr;gap:10px;padding-left:6%;padding-right:6%}.ranking-context p{justify-self:start}
   .startup-table{margin:0 6%;overflow-x:auto}.startup-row{min-width:820px;grid-template-columns:.3fr 1.55fr 1.2fr .9fr 1fr .8fr .55fr}
   .ranking-method{grid-template-columns:1fr;gap:31px;padding-top:38px}.ranking-method h2{font-size:40px}
   .news-list{margin:0 6%}.news-list article{grid-template-columns:45px 1fr;padding:23px 0;gap:13px}.news-list article>a{grid-column:2;justify-self:start}.news-list article h2{font-size:25px}
