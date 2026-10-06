@@ -953,3 +953,216 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   .provider-meta{margin:0 6%}
   .startup-table{border-left:0;border-right:0}
 }
+
+
+/* =========================================================
+   FORDEX PAGE-SPECIFIC POLISH — SAME PRODUCT, DIFFERENT DATA
+   ========================================================= */
+.rankings-page .page-hero{
+  min-height:325px;
+}
+.rankings-page .ranking-intro{
+  background:#f8fbfc;
+  border-bottom:1px solid var(--line);
+}
+.rankings-page .ranking-intro h2{
+  color:#163f54;
+}
+.ranking-mode-switch{
+  padding-top:1px;
+}
+.ranking-mode-switch button{
+  transition:background .18s ease,color .18s ease;
+}
+.ranking-mode-switch button:hover{
+  background:#edf5f7;
+}
+.ranking-mode-switch button.active:hover{
+  background:#164d69;
+}
+.provider-table,.startup-table{
+  border-top:2px solid var(--blue);
+}
+.provider-row,.startup-row{
+  transition:background .16s ease,transform .16s ease;
+}
+.provider-row:hover,.startup-item:hover{
+  background:var(--blue-2);
+}
+.provider-row strong:nth-child(2),.startup-name>strong{
+  color:#163f54;
+}
+.ranking-context{
+  background:#edf5f7;
+  border-top:1px solid var(--line);
+  border-bottom:1px solid var(--line);
+}
+.ranking-series-grid{
+  background:var(--line);
+}
+.ranking-series-grid>button,.ranking-series-grid>div{
+  background:#fff;
+}
+.ranking-series-grid>button:hover,.ranking-series-grid>div:hover{
+  background:#eaf4f7;
+}
+.score-list b{
+  background:linear-gradient(90deg,#78b5c3,var(--blue));
+}
+
+/* Deals */
+.deal-summary{
+  background:#fff;
+  border-top:1px solid var(--line);
+}
+.deal-summary>div:nth-child(1){
+  background:#e6f1f5;
+}
+.deal-summary>div:nth-child(2){
+  background:#eef6f3;
+}
+.deal-summary>div:nth-child(3){
+  background:#f2f6f7;
+}
+.deal-summary strong{
+  color:#174a63;
+}
+.deals-table{
+  background:#fff;
+  border:1px solid var(--line);
+  border-top:2px solid var(--blue);
+}
+.table-row{
+  padding-left:16px;
+  padding-right:16px;
+}
+.deals-table a{
+  transition:background .15s ease;
+}
+.deals-table a:hover{
+  background:#eaf4f7!important;
+}
+
+/* Founders */
+.portrait-grid{
+  background:#edf4f6;
+  padding-top:22px;
+}
+.founder-card{
+  background:#fff;
+  border:1px solid var(--line);
+  padding-bottom:15px;
+  border-radius:3px;
+  overflow:hidden;
+  box-shadow:0 8px 28px rgba(25,91,125,.05);
+}
+.portrait-image{
+  background:#dbe8ec;
+}
+.portrait-image img{
+  filter:saturate(.72);
+  mix-blend-mode:normal;
+}
+.portrait-image>span{
+  color:var(--blue);
+  background:rgba(246,250,251,.94);
+  border:1px solid rgba(25,91,125,.12);
+}
+.founder-card>span:first-of-type,.founder-card h3,.founder-card small,.founder-card .card-cta{
+  margin-left:16px;
+  margin-right:16px;
+}
+.founder-card h3{color:#173f53}
+
+/* News */
+.news-list{
+  box-shadow:0 12px 30px rgba(26,68,84,.04);
+}
+.news-list article{
+  position:relative;
+}
+.news-list article::before{
+  content:"";
+  position:absolute;
+  left:0;
+  top:18px;
+  bottom:18px;
+  width:2px;
+  background:transparent;
+  transition:background .16s ease;
+}
+.news-list article:hover::before{
+  background:var(--blue);
+}
+.news-list article h2{
+  color:#173f53;
+}
+.news-list article>a:hover{
+  color:var(--blue);
+}
+
+/* Analytics */
+.analytics-metrics{
+  background:#fff;
+}
+.analytics-panel{
+  border-top:2px solid var(--blue);
+}
+.analytics-panel .panel-head{
+  border-bottom:1px solid var(--line);
+}
+.methodology{
+  background:#fff;
+}
+.methodology h2{color:#173f53}
+.method-cards article{
+  background:#f1f7f8;
+  border-color:var(--line);
+}
+.method-cards article:nth-child(2){background:#edf6f2}
+.method-cards article:nth-child(3){background:#f4f1ef}
+.method-cards strong{color:#174a63}
+
+/* Sources */
+.source-principles{
+  border-top:0;
+}
+.source-rule-grid>div{
+  border-color:rgba(255,255,255,.16);
+}
+.source-card{
+  background:#fff;
+}
+.source-card:hover{
+  background:#eaf4f7;
+}
+.source-card>a{
+  color:var(--blue);
+}
+.source-disclaimer{
+  background:#edf4f6;
+}
+
+/* Search + empty states */
+.search-overlay{
+  backdrop-filter:blur(7px);
+}
+.search-box{
+  border:1px solid var(--line);
+  box-shadow:0 30px 90px rgba(12,44,58,.17);
+}
+.search-results button:hover{
+  background:var(--blue-2);
+}
+.empty{
+  background:#f8fbfb;
+  color:#5f747e;
+}
+
+/* Global compact accent components */
+.text-link,.view-all,.small-link{
+  color:var(--blue);
+}
+.view-all:hover,.small-link:hover,.text-link:hover{
+  color:#103f58;
+}
