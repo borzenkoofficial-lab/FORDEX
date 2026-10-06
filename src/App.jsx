@@ -6,7 +6,7 @@ import { dealRecords, founderProfiles, marketCompanies, marketSummary, newsFeed 
 import { coverageLabels, researchUniverse } from './data/coverage';
 import { aiProviderRankings, aiProviderSource } from './data/providerRankings';
 import { sourceRegistry, sourceRules } from './data/sources';
-import { ruText, ruTag, ruSector, ruStage, ruCity, ruKind, ruRole, ruScoreLabel, ruDate } from './i18n';
+import { ruText, ruTag, ruSector, ruStage, ruCity, ruKind, ruRole, ruScoreLabel, ruDate, ruSizeBand } from './i18n';
 import {
   Activity,
   ArrowLeft,
@@ -341,9 +341,10 @@ function CompanyDrawer({ company, onClose }) {
       <aside className="startup-drawer company-drawer">
         <div className="drawer-top"><span>ПРОФИЛЬ FORDEX · {ruKind(company.kind)}</span><button type="button" onClick={onClose} aria-label="Закрыть профиль"><X size={18} /></button></div>
         <div className="drawer-media"><img src={company.image} alt="" /></div>
-        <span className="drawer-sector">{ruSector(company.sector)}</span><h2>{company.name}</h2><p>{company.description}</p>
+        <span className="drawer-sector">{ruSector(company.sector)}</span><h2>{company.name}</h2><p>{company.description}</p>{company.evidence && <div className="drawer-signal"><span>ДОКАЗАТЕЛЬСТВА</span><p>{company.evidence}</p></div>}
         <div className="drawer-stats">
           <div><span>СТАДИЯ</span><strong>{ruStage(company.stage)}</strong></div>
+          <div><span>МАСШТАБ</span><strong>{company.sizeBand ? ruSizeBand(company.sizeBand) : '—'}</strong></div>
           <div><span>ЛОКАЦИЯ</span><strong>{ruCity(company.city)}</strong></div>
           <div><span>РЕЙТИНГ FORDEX</span><strong>{ranked ? '#' + String(ranked.rank).padStart(2, '0') : '—'}</strong></div>
           <div><span>ПРОВЕРЕНО</span><strong>{company.lastVerified || '—'}</strong></div>
@@ -359,13 +360,13 @@ function MarketMap() {
   const [query, setQuery] = useState('');
   const normalized = query.trim().toLowerCase();
   const indexed = startupRankings.length;
-  const corporate = marketCompanies.filter((item) => item.kind === 'КОРПОРАТИВНЫЕ').length;
+  const corporate = marketCompanies.filter((item) => item.kind === 'CORPORATE').length;
   const visible = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized));
 
   const buckets = useMemo(() => {
     const map = new Map();
     startupRankings.forEach((item) => item.tags.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
-    marketCompanies.filter((item) => item.kind === 'КОРПОРАТИВНЫЕ').forEach((item) => item.tags?.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
+    marketCompanies.filter((item) => item.kind === 'CORPORATE').forEach((item) => item.tags?.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
     return coverageLabels.map((label) => {
       const aliases = label === 'FOUNDATION & LLM' ? ['AI / AGENTS'] : label === 'COMPUTER VISION' ? ['DEEPTECH', 'MEDTECH'] : label === 'MEDTECH' ? ['MEDTECH'] : label === 'INDUSTRIAL AI' ? ['INDUSTRIAL'] : label === 'CONSUMER AI' ? ['CONSUMER'] : [];
       return { label, count: aliases.reduce((sum, alias) => sum + (map.get(alias) || 0), 0) };
@@ -374,7 +375,7 @@ function MarketMap() {
 
   return (
     <main className="inner-page market-page">
-      <PageHero eyebrow="ПОКРЫТИЕ РЫНКА" title="MARKET MAP" description="A wider research universe around the scored FORDEX index. Ranked компаний carry editorial scores; the watch universe is deliberately kept unscored until evidence is strong enough." action={<ButtonLink route="rankings" className="text-link">ОТКРЫТЬ РЕЙТИНГ СТАРТАПОВ <ArrowRight size={13} /></ButtonLink>} />
+      <PageHero eyebrow="ПОКРЫТИЕ РЫНКА" title="MARKET MAP" description="Расширенный исследовательский контур вокруг основного индекса FORDEX. Ранжируются только компании с отдельной проверкой; молодые стартапы и новые команды сначала проходят очередь покрытия." action={<ButtonLink route="rankings" className="text-link">ОТКРЫТЬ РЕЙТИНГ СТАРТАПОВ <ArrowRight size={13} /></ButtonLink>} />
       <section className="market-overview">
         <div><span>ЯДРО FORDEX</span><strong>{indexed}</strong><small>компаний с оценкой</small></div>
         <div><span>КОРПОРАТИВНЫЙ СЛОЙ</span><strong>{corporate}</strong><small>крупных технологических групп</small></div>
@@ -403,7 +404,7 @@ function MarketMap() {
           <label><Search size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Поиск по исследовательской выборке..." /></label>
         </div>
         <div className="universe-table">
-          <div className="universe-row universe-head-row"><span>КОМПАНИЯ</span><span>SECTOR</span><span>СТАТУС</span><span>ИСТОЧНИК</span></div>
+          <div className="universe-row universe-head-row"><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАТУС</span><span>ИСТОЧНИК</span></div>
           {visible.map((item, index) => <a href={item.source} target="_blank" rel="noreferrer" className="universe-row" key={item.name}><strong>{item.name}</strong><span>{ruSector(item.sector)}</span><span>ИССЛЕДОВАНИЕ · НА РАДАРЕ</span><span>{item.sourceName} <ExternalLink size={13} /></span></a>)}
           {!visible.length && <div className="empty">ПРОФИЛИ НЕ НАЙДЕНЫ ПО ЗАПРОСУ.</div>}
         </div>
@@ -425,7 +426,7 @@ function Founders() {
         {filtered.map((founder, index) => (
           <button type="button" className="founder-card" key={founder.id} onClick={() => setSelected(founder)}>
             <div className="portrait-image"><img src={founder.image} alt="" loading={index < 4 ? 'eager' : 'lazy'} /><span>0{index + 1}</span></div>
-            <span>{founder.company}</span><h3>{founder.name}</h3><small>{ruRole(founder.role)}</small>
+            <span>{founder.company}</span><h3>{founder.name}</h3><small>{ruRole(founder.role)}{founder.age ? ' · ' + founder.age + ' ЛЕТ' : ''}</small>
             <span className="card-cta">ОТКРЫТЬ ПРОФИЛЬ <ArrowRight size={13} /></span>
           </button>
         ))}
@@ -442,7 +443,7 @@ function FounderDrawer({ founder, onClose }) {
         <div className="drawer-top"><span>ИНДЕКС ЛЮДЕЙ FORDEX</span><button type="button" onClick={onClose} aria-label="Закрыть профиль"><X size={18} /></button></div>
         <div className="drawer-media portrait"><img src={founder.image} alt="" /></div>
         <span className="drawer-sector">{ruRole(founder.role)}</span><h2>{founder.name}</h2><p>{founder.description}</p>
-        <div className="drawer-stats"><div><span>КОМПАНИЯ</span><strong>{founder.company}</strong></div><div><span>ЛОКАЦИЯ</span><strong>{ruCity(founder.city)}</strong></div><div><span>СТАТУС</span><strong>{founder.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</strong></div></div>
+        <div className="drawer-stats"><div><span>КОМПАНИЯ</span><strong>{founder.company}</strong></div><div><span>ЛОКАЦИЯ</span><strong>{ruCity(founder.city)}</strong></div><div><span>ВОЗРАСТ</span><strong>{founder.age ? founder.age + ' лет' : '—'}</strong></div><div><span>СТАТУС</span><strong>{founder.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</strong></div></div>
         <a className="drawer-source" href={founder.source} target="_blank" rel="noreferrer">ОТКРЫТЬ ИСТОЧНИК <ExternalLink size={14} /></a>
       </aside>
     </div>
