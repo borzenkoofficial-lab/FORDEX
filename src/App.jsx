@@ -470,6 +470,11 @@ function Rankings() {
   const [view, setView] = useState('overall');
   const [sort, setSort] = useState('rank');
   const [selected, setSelected] = useState(null);
+  const rankingSeries = rankingCategories.filter((item) => item !== 'ALL').map((item) => {
+    const rows = startupRankings.filter((startup) => startup.tags.includes(item));
+    const leader = [...rows].sort((a, b) => b.score - a.score)[0];
+    return { name: item, count: rows.length, leader };
+  });
   const filtered = useMemo(() => {
     const rows = startupRankings.filter((item) => category === 'ALL' || item.tags.includes(category));
     return [...rows].sort((a, b) => {
@@ -487,7 +492,17 @@ function Rankings() {
       <PageHero eyebrow="THE FORDEX INDEX · 2026" title="STARTUP RANKINGS" description="A research-beta editorial ranking of Russian AI and technology companies. Scores reflect the published FORDEX model, not an external market authority." action={<ButtonLink route="analytics" className="text-link">METHODOLOGY <ArrowRight size={13} /></ButtonLink>} />
       <section className="ranking-intro">
         <div><span>FORDEX STARTUP INDEX</span><h2>WHO IS<br />MOVING UP?</h2></div>
-        <div><p>FORDEX converts observable signals into a normalized score so companies can be compared on one page. Every profile keeps its source and review month visible.</p><small>RESEARCH BETA · 20 INDEXED COMPANIES · LAST REVIEW OCT 2026</small></div>
+        <div><p>FORDEX converts observable signals into a normalized score so companies can be compared on one page. Every profile keeps its source and review month visible.</p><small>RESEARCH BETA · 20 SCORED COMPANIES · 26 WATCH PROFILES · LAST REVIEW OCT 2026</small></div>
+      </section>
+      <section className="ranking-series">
+        <div className="ranking-series-head"><div><span>RANKING SERIES</span><h2>THE INDEX<br />BY MARKET</h2></div><p>Each series reuses the core FORDEX evidence model and narrows the universe by the company tags. A sector table is a view of the index, not a claim that the sector has its own independent scoring system.</p></div>
+        <div className="ranking-series-grid">
+          {rankingSeries.map((series) => (
+            <button type="button" className="series-card" key={series.name} onClick={() => { setCategory(series.name); setView('overall'); }}>
+              <span>{series.name}</span><strong>{String(series.count).padStart(2, '0')}</strong><small>{series.leader ? 'LEADER · ' + series.leader.name : 'NO SCORED COMPANY'}</small><ArrowRight size={14} />
+            </button>
+          ))}
+        </div>
       </section>
       <section className="ranking-controls">
         <div className="ranking-view-tabs">
