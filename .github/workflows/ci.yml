@@ -15,4 +15,5 @@ jobs:
         with:
           node-version: 22
       - run: npm install --no-audit --no-fund
-      - run: npm run verify:ranking\n      - run: npm run build
+      - run: npm run verify:ranking
+      - run: npm run build
