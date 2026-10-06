@@ -7,15 +7,12 @@ import {
   ArrowRight,
   BarChart3,
   Building2,
-  CalendarDays,
-  CheckCircle2,
   ChevronRight,
   ExternalLink,
   Heart,
   LineChart,
   LockKeyhole,
   Menu,
-  Newspaper,
   Search,
   ShieldCheck,
   SlidersHorizontal,
@@ -302,18 +299,19 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
       <div className="filter-rail">{sectorFilters.map((item) => <button type="button" key={item} className={filter === item ? 'active' : ''} onClick={() => setFilter(item)}>{item}</button>)}</div>
       <section className="directory-grid">
         {filtered.map((item, index) => (
-          <button type="button" className="directory-card" key={item.id} onClick={() => setSelected(item)}>
+          <article className="directory-card" key={item.id}>
             <div className="directory-image">
               <img src={item.image} alt="" loading={index < 6 ? 'eager' : 'lazy'} />
+              <button type="button" className="image-open" onClick={() => setSelected(item)} aria-label={'Open ' + item.name + ' profile'} />
               <span>{item.ranking ? '#' + String(item.ranking).padStart(2, '0') : item.kind}</span>
-              <span className="verified-mark">{item.verified && <CheckCircle2 size={13} />}</span>
-              <button type="button" className={isWatched(item, watchlist) ? 'watch active' : 'watch'} onClick={(event) => { event.stopPropagation(); toggleWatch(item); }} aria-label="Toggle watchlist"><Heart size={16} fill={isWatched(item, watchlist) ? 'currentColor' : 'none'} /></button>
+              {item.verified && <span className="verified-mark"><CheckCircle2 size={13} /></span>}
+              <button type="button" className={isWatched(item, watchlist) ? 'watch active' : 'watch'} onClick={() => toggleWatch(item)} aria-label="Toggle watchlist"><Heart size={16} fill={isWatched(item, watchlist) ? 'currentColor' : 'none'} /></button>
             </div>
             <div className="directory-copy">
               <span>{item.sector} · {item.stage}</span><h3>{item.name}</h3><p>{item.description}</p>
-              <span className="card-cta">VIEW PROFILE <ArrowRight size={13} /></span>
+              <button type="button" className="card-cta" onClick={() => setSelected(item)}>VIEW PROFILE <ArrowRight size={13} /></button>
             </div>
-          </button>
+          </article>
         ))}
         {!filtered.length && <div className="empty">NO RESULTS FOUND.</div>}
       </section>
@@ -588,11 +586,3 @@ function SearchOverlay({ onClose }) {
   );
 }
 
-function clampNumber(value, min, max) {
-  return Math.min(max, Math.max(min, value));
-}
-
-void clampNumber;
-void Newspaper;
-void CalendarDays;
-void CheckCircle2;
