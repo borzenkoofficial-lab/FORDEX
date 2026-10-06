@@ -3,6 +3,8 @@ import { founderRegistry, founderRegistryStats } from '../src/data/founderRegist
 import { evidenceRegistry, evidenceRegistryStats } from '../src/data/evidenceRegistry.js;
 import { emergingStartups } from '../src/data/emergingStartups.js';
 import { editorialArticles } from '../src/data/articles.js';
+import { dealRegistry } from '../src/data/dealRegistry.js';
+import { articleRegistry } from '../src/data/articleRegistry.js';
 
 const fail = (message) => {
   throw new Error('[DATA VERIFY] ' + message);
@@ -33,6 +35,17 @@ for (const evidence of evidenceRegistry) {
   if (!evidence.lastVerified) fail(evidence.id + ': missing evidence review date');
 }
 
+for (const deal of dealRegistry) {
+  if (!deal.id || !deal.company) fail('deal entity missing id/company');
+  if (!deal.source) fail(deal.id + ': deal source missing');
+  if (!deal.date) fail(deal.id + ': deal date missing');
+}
+
+for (const article of articleRegistry) {
+  if (!article.id || article.contentStatus !== 'PUBLISHED') fail(article.id + ': invalid article registry status');
+  if (!article.sourceLinked) fail(article.id + ': article source link missing');
+}
+
 for (const article of editorialArticles) {
   if (!article.source) fail(article.id + ': article source missing');
   if (!article.sections?.length) fail(article.id + ': article has no sections');
@@ -43,5 +56,7 @@ console.log(
   companyRegistryStats.total, 'companies ·',
   founderRegistryStats.total, 'founder records ·',
   uniqueEmergingFounders.size, 'unique emerging founders ·',
-  evidenceRegistryStats.total, 'evidence records'
+  evidenceRegistryStats.total, 'evidence records ·',
+  dealRegistry.length, 'deal records ·',
+  articleRegistry.length, 'article records'
 );
