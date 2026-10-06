@@ -487,6 +487,54 @@ function Deals() {
   );
 }
 
+function YoungLeadersPanel() {
+  const visible = youngLeaderRankings.slice(0, 8);
+
+  return (
+    <section className="young-leaders">
+      <div className="young-leaders-head">
+        <div>
+          <span>ГЛАВНЫЙ РЕЙТИНГ · МОЛОДЫЕ AI-КОМАНДЫ</span>
+          <h2>ТЕ, КОГО<br />НУЖНО ВИДЕТЬ СРАЗУ.</h2>
+        </div>
+        <div className="young-leaders-note">
+          <p>{youngLeaderMethodology.description}</p>
+          <small>ПРОВЕРКА · {youngLeaderMethodology.lastVerified}</small>
+        </div>
+      </div>
+      <div className="young-leaders-grid">
+        {visible.map((item) => (
+          <button
+            type="button"
+            className="young-leader-card"
+            key={item.id}
+            onClick={() => goto(item.kind === 'EMERGING STARTUP' ? 'research-' + item.id : 'companies')}
+          >
+            <div className="young-leader-top">
+              <span>#{String(item.rank).padStart(2, '0')}</span>
+              <em>{item.signal}</em>
+            </div>
+            <strong>{item.name}</strong>
+            <span>{ruSector(item.sector)} · {ruStage(item.stage)}</span>
+            <div className="young-leader-metrics">
+              <small>{item.capitalLabel}</small>
+              <small>{item.tractionLabel}</small>
+            </div>
+            <div className="young-leader-bottom">
+              <span>{item.founder ? 'ОСНОВАТЕЛЬ · ' + item.founder : 'В ЯДРЕ FORDEX'}</span>
+              <ArrowRight size={13} />
+            </div>
+          </button>
+        ))}
+      </div>
+      <div className="young-leaders-foot">
+        <span>МОЛОДОЙ НЕ ЗНАЧИТ СЛАБЫЙ. ДОРОГОЙ НЕ ЗНАЧИТ ЛУЧШИЙ.</span>
+        <span>СИГНАЛ НУЖЕН ДЛЯ ОБЗОРА. FORDEX SCORE — ДЛЯ ПОЛНОЙ ОЦЕНКИ.</span>
+      </div>
+    </section>
+  );
+}
+
 function Rankings() {
   const [rankingMode, setRankingMode] = useState('startups');
   const [category, setCategory] = useState('ALL');
