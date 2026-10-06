@@ -578,7 +578,7 @@ function Rankings() {
       </section>
       <section className="ranking-context">
         <div><span>CURRENT VIEW</span><strong>{view === 'overall' ? 'OVERALL INDEX' : view === 'movers' ? 'FASTEST MOVERS' : 'CAPITAL LEADERS'}</strong></div>
-        <p>{view === 'overall' ? 'Ordered by the published FORDEX score.' : view === 'movers' ? 'Ordered by the editorial momentum signal; this is not a revenue growth rate.' : 'Ordered by disclosed financing amounts; undisclosed funding is kept at the bottom.'}</p>
+        <p>{view === 'overall' ? 'Ordered by the computed FORDEX score.' : view === 'movers' ? 'Ordered by the editorial momentum signal; this is not a revenue growth rate.' : 'Ordered by disclosed financing amounts; undisclosed funding is kept at the bottom.'}</p>
       </section>
       <section className="ranking-method">
         <div><span>HOW FORDEX SCORES</span><h2>ONE SCORE.<br />SIX SIGNALS.</h2><p>The provisional v0.1 model converts six observable record signals into one 0–100 research score. Funding alone cannot win the index.</p></div>
@@ -669,7 +669,7 @@ function StartupDrawer({ startup, onClose }) {
               );
             })}
           </div>
-          <p className="drawer-model-note">The published score is calculated from six normalized signals. Funding is one input, not the ranking itself. Model v0.1 is provisional.</p>
+          <p className="drawer-model-note">The computed score is calculated from six normalized signals. Funding is one input, not the ranking itself. Model v0.1 is provisional.</p>
         </section>
 
         <div className="drawer-signal">
