@@ -1,6 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { rankingCategories, scoreWeights, startupRankings } from './data/startups';
 import { dealRecords, founderProfiles, marketCompanies, marketSummary, newsFeed } from './data/market';
+import { coverageLabels, researchUniverse } from './data/coverage';
 import {
   Activity,
   ArrowLeft,
@@ -23,7 +24,7 @@ import {
   X,
 } from 'lucide-react';
 
-const NAV = ['COMPANIES', 'FOUNDERS', 'DEALS', 'RANKINGS'];
+const NAV = ['COMPANIES', 'FOUNDERS', 'DEALS', 'RANKINGS', 'MARKET'];
 const HERO_IMAGE = 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1600&q=88';
 const EDITORIAL_IMAGE = 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1600&q=88';
 
@@ -104,7 +105,7 @@ export function App() {
     });
   };
 
-  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'news', 'analytics', 'watchlist'];
+  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'news', 'analytics', 'watchlist'];
 
   return (
     <div className="site">
@@ -115,6 +116,7 @@ export function App() {
       {route === 'founders' && <Founders />}
       {route === 'deals' && <Deals />}
       {route === 'rankings' && <Rankings />}
+      {route === 'market' && <MarketMap />}
       {route === 'news' && <News />}
       {route === 'analytics' && <Analytics />}
       {route === 'watchlist' && <Watchlist names={watchlist} toggleWatch={toggleWatch} />}
@@ -340,6 +342,63 @@ function CompanyDrawer({ company, onClose }) {
   );
 }
 
+function MarketMap() {
+  const [query, setQuery] = useState('');
+  const normalized = query.trim().toLowerCase();
+  const indexed = startupRankings.length;
+  const corporate = marketCompanies.filter((item) => item.kind === 'CORPORATE').length;
+  const visible = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized));
+
+  const buckets = useMemo(() => {
+    const map = new Map();
+    startupRankings.forEach((item) => item.tags.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
+    marketCompanies.filter((item) => item.kind === 'CORPORATE').forEach((item) => item.tags?.forEach((tag) => map.set(tag, (map.get(tag) || 0) + 1)));
+    return coverageLabels.map((label) => {
+      const aliases = label === 'FOUNDATION & LLM' ? ['AI / AGENTS'] : label === 'COMPUTER VISION' ? ['DEEPTECH', 'MEDTECH'] : label === 'MEDTECH' ? ['MEDTECH'] : label === 'INDUSTRIAL AI' ? ['INDUSTRIAL'] : label === 'CONSUMER AI' ? ['CONSUMER'] : [];
+      return { label, count: aliases.reduce((sum, alias) => sum + (map.get(alias) || 0), 0) };
+    });
+  }, []);
+
+  return (
+    <main className="inner-page market-page">
+      <PageHero eyebrow="MARKET COVERAGE" title="MARKET MAP" description="A wider research universe around the scored FORDEX index. Ranked companies carry editorial scores; the watch universe is deliberately kept unscored until evidence is strong enough." action={<ButtonLink route="rankings" className="text-link">OPEN STARTUP RANKING <ArrowRight size={13} /></ButtonLink>} />
+      <section className="market-overview">
+        <div><span>FORDEX CORE</span><strong>{indexed}</strong><small>scored companies</small></div>
+        <div><span>CORPORATE LAYER</span><strong>{corporate}</strong><small>large technology groups</small></div>
+        <div><span>RESEARCH UNIVERSE</span><strong>{researchUniverse.length}</strong><small>additional watch profiles</small></div>
+        <div><span>DATA SOURCES</span><strong>3+</strong><small>public research streams</small></div>
+      </section>
+
+      <section className="market-intro">
+        <div><span>HOW TO READ THE MAP</span><h2>SEPARATE THE<br />SCORE FROM<br />THE COVERAGE.</h2></div>
+        <div>
+          <p>FORDEX uses three layers: scored startups, corporate AI players and a research universe. This keeps the visible ranking strict without pretending every company has the same depth of public evidence.</p>
+          <div className="market-legend"><span><i className="legend-dot solid" />SCORED</span><span><i className="legend-dot" />COVERAGE ONLY</span><span><i className="legend-dot dark" />CORPORATE</span></div>
+        </div>
+      </section>
+
+      <section className="market-sectors">
+        <div className="section-head"><div><span>SECTOR COVERAGE</span><h2>WHERE THE MARKET SITS</h2></div></div>
+        <div className="sector-map-grid">
+          {buckets.map((bucket) => <div className="sector-map-card" key={bucket.label}><span>{bucket.label}</span><strong>{bucket.count}</strong><div><i style={{ width: Math.min(100, 18 + bucket.count / Math.max(1, indexed) * 100) + '%' }} /></div><small>INDEXED SIGNALS</small></div>)}
+        </div>
+      </section>
+
+      <section className="market-universe">
+        <div className="universe-head">
+          <div><span>RESEARCH UNIVERSE</span><h2>WHO ELSE<br />IS ON THE RADAR?</h2></div>
+          <label><Search size={15} /><input value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Search watch universe..." /></label>
+        </div>
+        <div className="universe-table">
+          <div className="universe-row universe-head-row"><span>COMPANY</span><span>SECTOR</span><span>STATUS</span><span>SOURCE</span></div>
+          {visible.map((item, index) => <a href={item.source} target="_blank" rel="noreferrer" className="universe-row" key={item.name}><strong>{item.name}</strong><span>{item.sector}</span><span>RESEARCH WATCH</span><span>{item.sourceName} <ExternalLink size={13} /></span></a>)}
+          {!visible.length && <div className="empty">NO WATCH PROFILES MATCH THE QUERY.</div>}
+        </div>
+      </section>
+    </main>
+  );
+}
+
 function Founders() {
   const [query, setQuery] = useState('');
   const [selected, setSelected] = useState(null);
@@ -347,7 +406,7 @@ function Founders() {
 
   return (
     <main className="inner-page">
-      <PageHero eyebrow="PEOPLE & LEADERS" title="FOUNDERS" description="A compact founder index with role, company, city and source links attached to every profile." />
+      <PageHero eyebrow="PEOPLE & LEADERS" title="FOUNDERS" description="A people index covering founders and key executives, with role, company, city and source links attached to every profile." />
       <section className="toolbar"><label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search founder or company..." /></label><span className="result-count">{filtered.length} PEOPLE</span></section>
       <section className="portrait-grid">
         {filtered.map((founder, index) => (
@@ -569,7 +628,8 @@ function SearchOverlay({ onClose }) {
     const founderResults = founderProfiles.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'FOUNDER · ' + item.company, route: 'founders' }));
     const dealResults = dealRecords.filter((item) => [item.company, item.type, item.sector, item.lead].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.company + ' · ' + item.type, meta: item.value + ' · ' + item.date, route: 'deals' }));
     const newsResults = newsFeed.filter((item) => [item.title, item.category, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 3).map((item) => ({ label: item.title, meta: 'NEWS · ' + item.date, route: 'news' }));
-    return [...companyResults, ...founderResults, ...dealResults, ...newsResults].slice(0, 12);
+    const coverageResults = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'MARKET · ' + item.sector, route: 'market' }));
+    return [...companyResults, ...founderResults, ...dealResults, ...newsResults, ...coverageResults].slice(0, 12);
   }, [normalized]);
 
   return (
