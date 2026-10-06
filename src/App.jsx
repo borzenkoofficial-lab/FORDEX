@@ -552,7 +552,7 @@ function Rankings() {
     return { name: item, count: rows.length, leader };
   });
   const topThree = [...startupRankings].sort((a, b) => a.rank - b.rank).slice(0, 3);
-  const averageScore = startupRankings.reduce((sum, item) => sum + item.score, 0) / startupRankings.length;
+  const averageScore = startupRankings.reduce((sum, item) => sum + (Number(item.score) || 0), 0) / Math.max(1, startupRankings.length);
   const fastestMover = [...startupRankings].sort((a, b) => b.momentum - a.momentum)[0];
   const knownFunding = startupRankings.reduce((sum, item) => sum + (item.fundingM || 0), 0);
 
@@ -644,7 +644,7 @@ function Rankings() {
           <button type="button" className="startup-row startup-item" key={item.id} onClick={() => setSelected(item)}>
             <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
             <span className="startup-name"><strong>{item.name}</strong><small>{ruCity(item.city)} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</small></span>
-            <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
+            <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className={Number(item.momentum) >= 0 ? 'positive' : 'negative'}>{item.momentum == null ? '—' : (Number(item.momentum) >= 0 ? '+' : '') + item.momentum + '%'}</strong><strong className="score">{item.score}</strong>
           </button>
         ))}
         {!filtered.length && <div className="ranking-empty"><strong>СОВПАДЕНИЙ НЕТ.</strong><span>Попробуйте изменить поиск или сбросить фильтр категории.</span></div>}
@@ -963,7 +963,7 @@ function Analytics() {
     .map((tag) => ({ tag, count: startupRankings.filter((item) => item.tags.includes(tag)).length }))
     .sort((a, b) => b.count - a.count);
   const averageScore = startupRankings.reduce((sum, item) => sum + item.score, 0) / startupRankings.length;
-  const avgMomentum = startupRankings.reduce((sum, item) => sum + item.momentum, 0) / startupRankings.length;
+  const avgMomentum = startupRankings.reduce((sum, item) => sum + (Number(item.momentum) || 0), 0) / Math.max(1, startupRankings.length);
   const knownFunding = startupRankings.reduce((sum, item) => sum + (item.fundingM || 0), 0);
 
   return (
