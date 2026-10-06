@@ -224,7 +224,6 @@ export const RU = Object.freeze({
     'CO-FOUNDER / SCIENCE': 'СО-ОСНОВАТЕЛЬ / НАУКА',
     CEO: 'CEO',
     'FOUNDER': 'ОСНОВАТЕЛЬ',
-    'FOUNDER / CEO': 'ОСНОВАТЕЛЬ / CEO',
     'CO-FOUNDER / PRODUCT LEAD': 'СО-ОСНОВАТЕЛЬ / PRODUCT LEAD',
   },
   sizeBand: {
