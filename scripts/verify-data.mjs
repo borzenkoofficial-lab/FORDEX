@@ -1,4 +1,4 @@
-import { companyRegistry, companyRegistryStats } from '../src/data/companyRegistry.js;
+import { companyRegistry, companyRegistryStats } from '../src/data/companyRegistry.js';
 import { founderRegistry, founderRegistryStats } from '../src/data/founderRegistry.js;
 import { evidenceRegistry, evidenceRegistryStats } from '../src/data/evidenceRegistry.js;
 import { emergingStartups } from '../src/data/emergingStartups.js';
