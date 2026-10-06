@@ -1,4 +1,6 @@
-import { scoreWeights, startupRankings } from '../data/startups.js';
+import { scoreWeights } from '../data/startups.js';
+import { companyRegistry } from '../data/companyRegistry.js';
+import { youngLeaderRankings } from '../data/youngLeaders.js';
 
 const MODEL_KEYS = [
   'businessTraction',
@@ -43,32 +45,55 @@ const SECTOR_SCORE = {
   'CONVERSATIONAL AI': 83,
   'HEALTHCARE AI': 88,
   'DATA INFRASTRUCTURE': 89,
-  'DOCUMENT AI': 85,
 };
 
 const clamp = (value, min = 0, max = 100) => Math.min(max, Math.max(min, value));
 const round = (value, digits = 1) => Number(value.toFixed(digits));
 
-function tractionScore(item) {
+const youngById = new Map(youngLeaderRankings.map((item) => [item.id, item]));
+
+function tractionScore(item, youngSignal) {
   const stageBase = STAGE_BASE[item.stage] ?? 60;
-  const evidence = String(item.traction || '').toLowerCase();
-  const evidenceBonus =
+  const evidence = String(item.traction || item.evidence || item.description || '').toLowerCase();
+
+  const qualitativeBonus =
     (evidence.includes('deployed') ? 5 : 0) +
     (evidence.includes('employees') ? 4 : 0) +
     (evidence.includes('products') ? 4 : 0) +
     (evidence.includes('transactions') ? 4 : 0) +
     (evidence.includes('international') ? 4 : 0) +
     (evidence.includes('portfolio') ? 3 : 0);
-  return clamp(stageBase + evidenceBonus);
+
+  const usersBonus = youngSignal?.usersK
+    ? Math.min(14, Math.log10(Number(youngSignal.usersK) + 1) * 4)
+    : 0;
+  const mrrBonus = youngSignal?.mrrK
+    ? Math.min(14, Math.log10(Number(youngSignal.mrrK) + 1) * 5)
+    : 0;
+  const payersBonus = youngSignal?.payers
+    ? Math.min(8, Math.log10(Number(youngSignal.payers) + 1) * 2.2)
+    : 0;
+
+  return clamp(stageBase + qualitativeBonus + usersBonus + mrrBonus + payersBonus);
 }
 
-function capitalScore(item) {
-  if (item.fundingM == null) return 38;
-  return clamp(43 + 18 * Math.log10(Number(item.fundingM) + 1));
+function capitalScore(item, youngSignal) {
+  const fundingM = Number(item.fundingM ?? youngSignal?.capitalM ?? 0);
+  const valuationM = Number(youngSignal?.valuationM ?? 0);
+  const disclosed = Math.max(fundingM, valuationM);
+  if (!disclosed) return 38;
+
+  return clamp(43 + 18 * Math.log10(disclosed + 1));
 }
 
-function momentumScore(item) {
-  return clamp(40 + Number(item.momentum || 0) * 2.6);
+function momentumScore(item, youngSignal) {
+  const momentum = Number(item.momentum);
+  if (Number.isFinite(momentum)) return clamp(40 + momentum * 2.6);
+
+  const tractionSignal = Number(youngSignal?.signal);
+  if (Number.isFinite(tractionSignal)) return clamp(45 + tractionSignal * 0.35);
+
+  return 48;
 }
 
 function technologyScore(item) {
@@ -80,7 +105,7 @@ function marketScore(item) {
   return SECTOR_SCORE[item.sector] ?? technologyScore(item);
 }
 
-function teamScore(item) {
+function teamScore(item, youngSignal) {
   const stageBonus = {
     SEED: 2,
     'PRE-SERIES A': 4,
@@ -89,27 +114,27 @@ function teamScore(item) {
     'SERIES C': 11,
     GROWTH: 12,
   }[item.stage] ?? 4;
-  return clamp((item.verified ? 76 : 58) + stageBonus);
+
+  const verificationBase =
+    item.verificationLevel === 'PRIMARY_SOURCE' ? 84 :
+    item.verificationLevel === 'EDITORIAL_SCORED' ? 80 :
+    item.verificationLevel === 'SOURCE_CLAIMED' ? 74 :
+    66;
+
+  const publicSignalBonus = youngSignal?.founderAge != null ? 2 : 0;
+  return clamp(verificationBase + stageBonus + publicSignalBonus);
 }
 
-function getComponentScores(item) {
+function getComponentScores(item, youngSignal) {
   return {
-    businessTraction: round(tractionScore(item), 0),
-    capitalFinancing: round(capitalScore(item), 0),
-    growthMomentum: round(momentumScore(item), 0),
+    businessTraction: round(tractionScore(item, youngSignal), 0),
+    capitalFinancing: round(capitalScore(item, youngSignal), 0),
+    growthMomentum: round(momentumScore(item, youngSignal), 0),
     technologyMoat: round(technologyScore(item), 0),
     marketOpportunity: round(marketScore(item), 0),
-    teamExecution: round(teamScore(item), 0),
+    teamExecution: round(teamScore(item, youngSignal), 0),
   };
 }
-
-export const rankingModel = {
-  version: '0.1',
-  status: 'PROVISIONAL',
-  scale: '0–100',
-  weights: scoreWeights,
-  note: 'Deterministic editorial model built from the public fields currently attached to each FORDEX record. It is a research score, not a valuation or investment recommendation.',
-};
 
 function calculateScore(components) {
   return scoreWeights.reduce((total, weight, index) => {
@@ -131,21 +156,67 @@ function buildBreakdown(components) {
   });
 }
 
-const scored = startupRankings
+const coreCompanies = companyRegistry.filter((item) => item.kind === 'INDEX COMPANY');
+const scoredEmerging = youngLeaderRankings.map((item) => {
+  const canonical = companyRegistry.find((company) => company.id === item.id);
+  return canonical ? { ...canonical, ...item } : null;
+}).filter(Boolean);
+
+const candidates = [
+  ...coreCompanies,
+  ...scoredEmerging.filter((item, index, rows) => rows.findIndex((row) => row.id === item.id) === index),
+];
+
+const scored = candidates
   .map((item) => {
-    const components = getComponentScores(item);
+    const youngSignal = youngById.get(item.id);
+    const components = getComponentScores(item, youngSignal);
+    const isEmerging = item.kind === 'EMERGING STARTUP';
+    const quantitativeSignals = [
+      item.fundingM ?? youngSignal?.capitalM ?? null,
+      youngSignal?.valuationM ?? null,
+      youngSignal?.usersK ?? null,
+      youngSignal?.mrrK ?? null,
+      item.momentum ?? null,
+    ].filter((value) => value != null);
+
     return {
       ...item,
-      sourceRank: item.rank,
+      sourceRank: item.rank ?? null,
+      previousRank: item.previousRank ?? null,
+      isEmerging,
+      indexStatus: isEmerging ? 'PUBLISHED · EMERGING' : 'PUBLISHED · CORE',
+      quantitativeSignals: quantitativeSignals.length,
       score: round(calculateScore(components), 1),
       scoreBreakdown: buildBreakdown(components),
+      confidence: isEmerging
+        ? clamp(58 + quantitativeSignals.length * 8 + (item.source ? 4 : 0), 0, 94)
+        : 92,
     };
   })
-  .sort((a, b) => b.score - a.score || a.name.localeCompare(b.name))
+  .sort((a, b) =>
+    b.score - a.score ||
+    b.confidence - a.confidence ||
+    a.name.localeCompare(b.name)
+  )
   .map((item, index) => ({
     ...item,
     rank: index + 1,
+    rankStatus: item.previousRank == null ? 'NEW' : 'TRACKED',
   }));
 
 export const rankedStartupIndex = scored;
 export const rankingSignals = MODEL_KEYS;
+
+export const rankingModel = {
+  version: '1.0',
+  status: 'PUBLIC BETA',
+  scale: '0–100',
+  weights: scoreWeights,
+  candidatePolicy: {
+    core: 'Все компании опубликованного core-индекса.',
+    emerging: 'Молодые компании попадают в основной индекс только после появления сопоставимых количественных сигналов.',
+    research: 'Остальные молодые компании остаются в research-слое и не получают искусственную оценку.',
+  },
+  note: 'Единая детерминированная модель FORDEX для опубликованного startup index. Молодость, капитализация или возраст основателя сами по себе не создают баллы; они используются только как дополнительные контекстные сигналы.',
+};
