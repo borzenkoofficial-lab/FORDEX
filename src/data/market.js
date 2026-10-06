@@ -1,4 +1,5 @@
 import { startupRankings } from './startups';
+import { emergingStartups, emergingFounderProfiles } from './emergingStartups';
 
 const images = [
   'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1000&q=86',
@@ -75,6 +76,7 @@ const corporatePlayers = [
 ];
 
 const startupImages = startupRankings.map((_, index) => images[index % images.length]);
+const emergingImages = emergingStartups.map((_, index) => images[(index + startupRankings.length) % images.length]);
 
 export const marketCompanies = [
   ...corporatePlayers,
@@ -96,6 +98,21 @@ export const marketCompanies = [
     score: item.score,
     fundingM: item.fundingM,
     funding: item.funding,
+  })),
+  ...emergingStartups.map((item, index) => ({
+    id: item.id,
+    name: item.name,
+    kind: item.kind,
+    sector: item.sector,
+    tags: item.tags,
+    stage: item.stage,
+    city: item.city,
+    description: item.description,
+    source: item.source,
+    website: item.website,
+    image: emergingImages[index],
+    verified: true,
+    lastVerified: item.lastVerified,
   })),
 ];
 
@@ -177,6 +194,10 @@ export const founderProfiles = [
     source: 'https://syntelly.ru/aboutsyntelly',
     verified: true,
   },
+  ...emergingFounderProfiles.map((founder, index) => ({
+    ...founder,
+    image: images[(index + 3) % images.length],
+  })),
   {
     id: 'georgy-belyaev',
     name: 'Georgy Belyaev',
