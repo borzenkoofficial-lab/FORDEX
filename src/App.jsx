@@ -514,16 +514,16 @@ function Rankings() {
       {rankingMode === 'providers' ? <ProviderRanking /> : <>
       <section className="ranking-intro">
         <div><span>FORDEX STARTUP INDEX · 2026</span><h2>THE<br />STARTUP INDEX.</h2></div>
-        <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды.</p><small>RESEARCH BETA · ${startupRankings.length} SCORED COMPANIES · ${marketSummary.trackedCompanies} TRACKED PROFILES · LAST REVIEW OCT 2026</small></div>
+        <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды.</p><small>RESEARCH BETA · {startupRankings.length} SCORED COMPANIES · {marketSummary.trackedCompanies} TRACKED PROFILES · LAST REVIEW OCT 2026</small></div>
       </section>
       <section className="ranking-lead">
         <div className="ranking-lead-head"><span>INDEX AT A GLANCE</span><small>CURRENT RESEARCH SNAPSHOT</small></div>
         <div className="ranking-lead-stats">
-          <div><span>SCORED</span><strong>${startupRankings.length}</strong><small>companies</small></div>
-          <div><span>TOP SCORE</span><strong>${topThree[0]?.score?.toFixed(1) || '—'}</strong><small>${topThree[0]?.name || '—'}</small></div>
-          <div><span>AVG SCORE</span><strong>${averageScore.toFixed(1)}</strong><small>out of 100</small></div>
-          <div><span>FASTEST MOVER</span><strong>+${fastestMover?.momentum?.toFixed(1) || '—'}%</strong><small>${fastestMover?.name || '—'}</small></div>
-          <div><span>KNOWN FUNDING</span><strong>₽${formatMoney(knownFunding)}M</strong><small>visible only</small></div>
+          <div><span>SCORED</span><strong>{startupRankings.length}</strong><small>companies</small></div>
+          <div><span>TOP SCORE</span><strong>{topThree[0]?.score?.toFixed(1) || '—'}</strong><small>{topThree[0]?.name || '—'}</small></div>
+          <div><span>AVG SCORE</span><strong>{averageScore.toFixed(1)}</strong><small>out of 100</small></div>
+          <div><span>FASTEST MOVER</span><strong>+{fastestMover?.momentum?.toFixed(1) || '—'}%</strong><small>{fastestMover?.name || '—'}</small></div>
+          <div><span>KNOWN FUNDING</span><strong>₽{formatMoney(knownFunding)}M</strong><small>visible only</small></div>
         </div>
         <div className="ranking-top-three">
           {topThree.map((item) => (
@@ -546,6 +546,7 @@ function Rankings() {
         </div>
       </section>
       <section className="ranking-controls">
+        <label className="ranking-search"><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Search company, sector, stage..." aria-label="Search startup ranking" /></label>
         <div className="ranking-view-tabs">
           <button type="button" className={view === 'overall' ? 'active' : ''} onClick={() => setView('overall')}>OVERALL</button>
           <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>FASTEST MOVERS</button>
