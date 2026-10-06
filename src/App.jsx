@@ -106,7 +106,7 @@ export function App() {
     });
   };
 
-  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'news', 'analytics', 'watchlist'];
+  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'sources', 'news', 'analytics', 'watchlist'];
 
   return (
     <div className="site">
@@ -118,6 +118,7 @@ export function App() {
       {route === 'deals' && <Deals />}
       {route === 'rankings' && <Rankings />}
       {route === 'market' && <MarketMap />}
+      {route === 'sources' && <Sources />}
       {route === 'news' && <News />}
       {route === 'analytics' && <Analytics />}
       {route === 'watchlist' && <Watchlist names={watchlist} toggleWatch={toggleWatch} />}
@@ -648,6 +649,23 @@ function Analytics() {
   );
 }
 
+function Sources() {
+  return (
+    <main className="inner-page sources-page">
+      <PageHero eyebrow="DATA & PROVENANCE" title="SOURCES" description="The public research streams behind FORDEX. External rankings remain external; primary evidence stays attached to company records." />
+      <section className="source-principles">
+        <div><span>DATA STANDARD</span><h2>EVIDENCE<br />BEFORE<br />OPINION.</h2></div>
+        <div><p>FORDEX is an editorial research product. The interface can rank and compare, but every factual field should be traceable to a public source and a review month.</p><div className="source-rule-grid">{sourceRules.map((rule, index) => <div key={rule}><small>0{index + 1}</small><span>{rule}</span></div>)}</div></div>
+      </section>
+      <section className="source-cards">
+        <div className="section-head"><div><span>SOURCE REGISTRY</span><h2>WHERE THE DATA COMES FROM</h2></div></div>
+        <div className="source-grid">{sourceRegistry.map((source) => <article className="source-card" key={source.id}><div><span>{source.type}</span><strong>{source.name}</strong><small>{source.date} · {source.title}</small></div><p>{source.use}</p><em>{source.note}</em><a href={source.url} target="_blank" rel="noreferrer">OPEN SOURCE <ExternalLink size={13} /></a></article>)}</div>
+      </section>
+      <section className="source-disclaimer"><span>IMPORTANT</span><p>FORDEX scores are editorial research outputs. They are not investment advice, market capitalization, valuation, financial forecasts or a statement of market share. Source rankings are labeled separately.</p></section>
+    </main>
+  );
+}
+
 function Watchlist({ names, toggleWatch }) {
   const items = marketCompanies.filter((company) => isWatched(company, names));
   return (
@@ -677,7 +695,7 @@ function Footer() {
   return (
     <footer>
       <div><div className="logo">FORDEX</div><p>AI BUSINESS INDEX · RUSSIA</p></div>
-      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>COMPANIES</button><button type="button" onClick={() => goto('founders')}>FOUNDERS</button><button type="button" onClick={() => goto('deals')}>DEALS</button><button type="button" onClick={() => goto('analytics')}>METHODOLOGY</button></div>
+      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>COMPANIES</button><button type="button" onClick={() => goto('founders')}>FOUNDERS</button><button type="button" onClick={() => goto('deals')}>DEALS</button><button type="button" onClick={() => goto('analytics')}>METHODOLOGY</button><button type="button" onClick={() => goto('sources')}>SOURCES</button></div>
       <span>© 2026 FORDEX · RESEARCH BETA</span>
     </footer>
   );
