@@ -18,7 +18,7 @@ import {
 
 const NAV = ['COMPANIES', 'FOUNDERS', 'DEALS', 'RANKINGS'];
 const HERO_IMAGE = 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1400&q=88';
-const EDITORIAL_IMAGE = 'https://images.unsplash.com/photo-1521737711867-e3b97375f1a?auto=format&fit=crop&w=1500&q=88';
+const EDITORIAL_IMAGE = 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1500&q=88';
 
 const categories = [
   { title: 'COMPANIES', text: 'The businesses shaping the AI economy.', image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=700&q=85', href: 'companies' },
@@ -83,7 +83,7 @@ export function App() {
   const route = useRoute();
   const [searchOpen, setSearchOpen] = useState(false);
   const [watchlist, setWatchlist] = useState(() => {
-    try { return JSON.parse(localStorage.getItem('fordex-watchlist') || '[]'); }
+    try { const value = JSON.parse(localStorage.getItem('fordex-watchlist') || '[]'); return Array.isArray(value) ? value : []; }
     catch { return []; }
   });
 
