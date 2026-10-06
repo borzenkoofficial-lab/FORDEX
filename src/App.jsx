@@ -566,6 +566,7 @@ function Rankings() {
             <span>{item.sector}</span><span>{item.stage}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
           </button>
         ))}
+        {!filtered.length && <div className="ranking-empty"><strong>NO MATCHES.</strong><span>Попробуйте изменить поиск или сбросить фильтр категории.</span></div>}
       </section>
       <section className="ranking-context">
         <div><span>CURRENT VIEW</span><strong>{view === 'overall' ? 'OVERALL INDEX' : view === 'movers' ? 'FASTEST MOVERS' : 'CAPITAL LEADERS'}</strong></div>
