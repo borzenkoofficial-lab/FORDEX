@@ -1,4 +1,4 @@
-import { editorialArticles } from './articles';
+import { editorialArticles } from './articles.js';
 
 export const articleRegistry = editorialArticles.map((article) => ({
   ...article,
