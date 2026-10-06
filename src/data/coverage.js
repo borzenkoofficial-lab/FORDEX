@@ -30,8 +30,12 @@ const establishedResearchUniverse = [
 ];
 
 export const researchUniverse = [
-  ...establishedResearchUniverse,
-  ...emergingStartups.map((item) => ({
+  ...establishedResearchUniverse.map((item, index) => ({
+    ...item,
+    id: `research-${index + 1}`,
+    priority: 'ESTABLISHED',
+  })),
+  ...emergingStartups.map((item, index) => ({
     name: item.name,
     sector: item.sector,
     source: item.source,
@@ -39,6 +43,7 @@ export const researchUniverse = [
     priority: 'EMERGING',
     founder: item.founder,
     founderAge: item.founderAge ?? null,
+    id: `research-${establishedResearchUniverse.length + index + 1}`,
   })),
 ];
 
