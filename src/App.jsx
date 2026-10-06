@@ -143,21 +143,39 @@ function TopBar() {
 }
 
 function Header({ route, watchCount, onSearch }) {
+  const [mobileOpen, setMobileOpen] = useState(false);
   const watchLabel = watchCount ? 'WATCHLIST (' + watchCount + ')' : 'WATCHLIST';
+  const navigate = (target) => {
+    setMobileOpen(false);
+    goto(target);
+  };
   return (
-    <header className="header">
-      <button className="mobile-menu" type="button" aria-label="Open menu" onClick={() => goto('companies')}><Menu size={17} /></button>
-      <nav className="nav-left" aria-label="Primary">
-        {NAV.map((item) => <button type="button" key={item} className={route === item.toLowerCase() ? 'active' : ''} onClick={() => goto(item.toLowerCase())}>{item}</button>)}
-      </nav>
-      <button className="logo" type="button" onClick={() => goto('home')} aria-label="FORDEX home">FORDEX</button>
-      <div className="nav-right">
-        <button type="button" onClick={onSearch}><Search size={16} /><span>SEARCH</span></button>
-        <button type="button" onClick={() => goto('analytics')}><UserRound size={16} /><span>SIGN IN</span></button>
-        <button type="button" onClick={() => goto('watchlist')}><Heart size={16} /><span>{watchLabel}</span></button>
-        <button type="button" onClick={() => goto('rankings')}><BarChart3 size={16} /><span>INDEX</span></button>
+    <>
+      <header className="header">
+        <button className="mobile-menu" type="button" aria-label="Open navigation" aria-expanded={mobileOpen} onClick={() => setMobileOpen((open) => !open)}>
+          {mobileOpen ? <X size={17} /> : <Menu size={17} />}
+        </button>
+        <nav className="nav-left" aria-label="Primary">
+          {NAV.map((item) => <button type="button" key={item} className={route === item.toLowerCase() ? 'active' : ''} onClick={() => goto(item.toLowerCase())}>{item}</button>)}
+        </nav>
+        <button className="logo" type="button" onClick={() => goto('home')} aria-label="FORDEX home">FORDEX</button>
+        <div className="nav-right">
+          <button type="button" onClick={onSearch}><Search size={16} /><span>SEARCH</span></button>
+          <button type="button" onClick={() => goto('analytics')}><UserRound size={16} /><span>SIGN IN</span></button>
+          <button type="button" onClick={() => goto('watchlist')}><Heart size={16} /><span>{watchLabel}</span></button>
+          <button type="button" onClick={() => goto('rankings')}><BarChart3 size={16} /><span>INDEX</span></button>
+        </div>
+      </header>
+      <div className={mobileOpen ? 'mobile-drawer open' : 'mobile-drawer'} aria-hidden={!mobileOpen}>
+        <div className="mobile-drawer-links">
+          {NAV.map((item) => <button type="button" key={item} onClick={() => navigate(item.toLowerCase())}>{item}</button>)}
+          <button type="button" onClick={() => navigate('news')}>NEWS</button>
+          <button type="button" onClick={() => navigate('analytics')}>ANALYTICS</button>
+          <button type="button" onClick={() => navigate('watchlist')}>WATCHLIST{watchCount ? ' (' + watchCount + ')' : ''}</button>
+        </div>
+        <div className="mobile-drawer-note"><span>FORDEX</span><p>AI BUSINESS INDEX · RUSSIA</p></div>
       </div>
-    </header>
+    </>
   );
 }
 
