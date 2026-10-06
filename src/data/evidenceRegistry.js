@@ -1,4 +1,4 @@
-import { companyRegistry } from './companyRegistry';
+import { companyRegistry } from './companyRegistry.js';
 
 export const evidenceRegistry = companyRegistry.flatMap((company) => {
   const evidenceText = company.evidence || company.traction || company.description;
