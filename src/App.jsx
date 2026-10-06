@@ -316,7 +316,7 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
           <article className="directory-card" key={item.id}>
             <div className="directory-image">
               <img src={item.image} alt="" loading={index < 6 ? 'eager' : 'lazy'} />
-              <button type="button" className="image-open" onClick={() => setSelected(item)} aria-label={'Open ' + item.name + ' profile'} />
+              <button type="button" className="image-open" onClick={() => setSelected(item)} aria-label={'Открыть профиль «' + item.name + '»'} />
               <span>{startupRankById.has(item.id) ? '#' + String(startupRankById.get(item.id).rank).padStart(2, '0') : ruKind(item.kind)}</span>
               {item.verified && <span className="verified-mark"><CheckCircle2 size={13} /></span>}
               <button type="button" className={isWatched(item, watchlist) ? 'watch active' : 'watch'} onClick={() => toggleWatch(item)} aria-label="Добавить в список отслеживания"><Heart size={16} fill={isWatched(item, watchlist) ? 'currentColor' : 'none'} /></button>
@@ -633,7 +633,7 @@ function RankingCollectionPanel({ collectionKey }) {
             <div><span>СТАТУС ПУБЛИКАЦИИ</span><strong>{scoredCount} С ОЦЕНКОЙ / {collection.target} ЦЕЛЬ</strong></div>
             <p>{collection.note}</p>
           </div>
-          <section className="startup-table collection-table" aria-label="Current AI 100 scored coverage">
+          <section className="startup-table collection-table" aria-label="Текущее покрытие AI 100 с оценкой">
             <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>ФИНАНСИРОВАНИЕ</span><span>ДИНАМИКА</span><span>ОЦЕНКА</span></div>
             {topRows.map((item) => (
               <button type="button" className="startup-row startup-item" key={item.id} onClick={() => goto('rankings')}>
