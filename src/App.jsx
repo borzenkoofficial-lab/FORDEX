@@ -514,7 +514,7 @@ function Rankings() {
 
   return (
     <main className="inner-page rankings-page">
-      <PageHero eyebrow="ИНДЕКС FORDEX · 2026" title="RANKINGS" description="FORDEX separates its editorial indices from external source tables. Published scores, coverage-only research and source rankings are never presented as the same signal." action={<ButtonLink route="analytics" className="text-link">МЕТОДОЛОГИЯ <ArrowRight size={13} /></ButtonLink>} />
+      <PageHero eyebrow="ИНДЕКС FORDEX · 2026" title="RANKINGS" description="FORDEX отделяет собственные редакционные индексы от внешних таблиц источников. Опубликованные оценки, исследовательское покрытие и внешние рейтинги никогда не выдаются за один и тот же сигнал." action={<ButtonLink route="analytics" className="text-link">МЕТОДОЛОГИЯ <ArrowRight size={13} /></ButtonLink>} />
       <section className="ranking-mode-switch" aria-label="FORDEX ranking families">
         {rankingCollections.map((collection) => (
           <button type="button" key={collection.key} className={rankingMode === collection.key ? 'active' : ''} onClick={() => setRankingMode(collection.key)}>
@@ -553,22 +553,22 @@ function Rankings() {
         <div className="ranking-series-grid">
           {rankingSeries.map((series) => (
             <button type="button" className="series-card" key={series.name} onClick={() => { setCategory(series.name); setView('overall'); }}>
-              <span>{ruTag(series.name)}</span><strong>{String(series.count).padStart(2, '0')}</strong><small>{series.leader ? 'LEADER · ' + series.leader.name : 'NO С ОЦЕНКОЙ КОМПАНИЯ'}</small><ArrowRight size={14} />
+              <span>{ruTag(series.name)}</span><strong>{String(series.count).padStart(2, '0')}</strong><small>{series.leader ? 'ЛИДЕР · ' + series.leader.name : 'НЕТ КОМПАНИЙ С ОЦЕНКОЙ'}</small><ArrowRight size={14} />
             </button>
           ))}
         </div>
       </section>
       <section className="ranking-controls">
-        <label className="ranking-search"><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Поиск компании, сектора, стадии..." aria-label="Search startup ranking" /></label>
+        <label className="ranking-search"><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Поиск компании, сектора, стадии..." aria-label="Поиск по рейтингу стартапов" /></label>
         <div className="ranking-result-bar">
           <span>{filtered.length} ИЗ {startupRankings.length} КОМПАНИЙ С ОЦЕНКОЙ</span>
           {(query || category !== 'ALL' || view !== 'overall' || sort !== 'rank') && (
-            <button type="button" onClick={() => { setQuery(''); setCategory('ALL'); setView('overall'); setSort('rank'); }}>RESET VIEW <X size={12} /></button>
+            <button type="button" onClick={() => { setQuery(''); setCategory('ALL'); setView('overall'); setSort('rank'); }}>СБРОСИТЬ ВИД <X size={12} /></button>
           )}
         </div>
         <div className="ranking-view-tabs">
           <button type="button" className={view === 'overall' ? 'active' : ''} onClick={() => setView('overall')}>ОБЩИЙ РЕЙТИНГ</button>
-          <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>САМЫЙ БЫСТРЫЙ РОСТS</button>
+          <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>ЛИДЕРЫ РОСТА</button>
           <button type="button" className={view === 'capital' ? 'active' : ''} onClick={() => setView('capital')}>ЛИДЕРЫ ПО КАПИТАЛУ</button>
         </div>
         <div className="ranking-filter-set">
@@ -576,7 +576,7 @@ function Rankings() {
           <label>СОРТИРОВАТЬ <select value={sort} onChange={(e) => setSort(e.target.value)}><option value="rank">РЕЙТИНГ FORDEX</option><option value="score">ОЦЕНКА</option><option value="momentum">ДИНАМИКА</option><option value="funding">ИЗВЕСТНОЕ ФИНАНСИРОВАНИЕ</option></select></label>
         </div>
       </section>
-      <section className="startup-table" aria-label="FORDEX Startup Rankings">
+      <section className="startup-table" aria-label="Рейтинг стартапов FORDEX">
         <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>ФИНАНСИРОВАНИЕ</span><span>ДИНАМИКА</span><span>ОЦЕНКА</span></div>
         {filtered.map((item) => (
           <button type="button" className="startup-row startup-item" key={item.id} onClick={() => setSelected(item)}>
@@ -585,7 +585,7 @@ function Rankings() {
             <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
           </button>
         ))}
-        {!filtered.length && <div className="ranking-empty"><strong>NO MATCHES.</strong><span>Попробуйте изменить поиск или сбросить фильтр категории.</span></div>}
+        {!filtered.length && <div className="ranking-empty"><strong>СОВПАДЕНИЙ НЕТ.</strong><span>Попробуйте изменить поиск или сбросить фильтр категории.</span></div>}
       </section>
       <section className="ranking-context">
         <div><span>ТЕКУЩИЙ ВИД</span><strong>{view === 'overall' ? 'ОБЩИЙ РЕЙТИНГ' : view === 'movers' ? 'ЛИДЕРЫ РОСТА' : 'ЛИДЕРЫ ПО КАПИТАЛУ'}</strong></div>
