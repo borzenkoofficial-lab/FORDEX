@@ -973,6 +973,8 @@ function Analytics() {
         <Metric label="ОСНОВАТЕЛИ" value={founderRegistryStats.total} note={founderRegistryStats.withAge + ' с публично указанным возрастом'} icon={<Users />} />
         <Metric label="ДОКАЗАТЕЛЬСТВА" value={evidenceRegistryStats.total} note={evidenceRegistryStats.linkedCompanies + ' компаний связаны с источниками'} icon={<ShieldCheck />} />
         <Metric label="КОРПОРАТИВНЫЕ" value={companyRegistryStats.corporate} note="отдельный слой рынка" icon={<Building2 />} />
+      </section>
+      <section className="metric-grid analytics-metrics">
         <Metric label="КОМПАНИЙ В ИНДЕКСЕ" value={startupRankings.length} note="выборка рейтинга стартапов" icon={<Building2 />} />
         <Metric label="AVERAGE ЯДРО" value={averageScore.toFixed(1)} note="из 100" icon={<Activity />} />
         <Metric label="СРЕДНЯЯ ДИНАМИКА" value={'+' + avgMomentum.toFixed(1) + '%'} note="редакционный сигнал" icon={<TrendingUp />} />
