@@ -164,21 +164,6 @@ export const startupRankings = [
     verified: true,
     source: 'https://secrets.tbank.ru/razvitie/investicii-v-it-proekty/'
   },
-  {
-    rank: 12,
-    previousRank: 12,
-    name: 'TargetAI · Research Watch',
-    sector: 'AI / AGENTS',
-    stage: 'WATCH',
-    funding: '₽115M',
-    latestRound: '2025',
-    score: 70.9,
-    momentum: '+6.2%',
-    traction: 'LLM agent infrastructure',
-    city: 'Moscow',
-    verified: true,
-    source: 'https://targetai.ai/blog/investments-targetai'
-  }
 ];
 
 export const rankingCategories = ['ALL', 'AI / AGENTS', 'DEEPTECH', 'MEDTECH', 'NEUROTECH', 'INDUSTRIAL', 'CONSUMER'];
