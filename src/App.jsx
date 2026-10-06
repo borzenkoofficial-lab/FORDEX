@@ -1,5 +1,6 @@
 import { useEffect, useMemo, useState } from 'react';
-import { rankingCategories, scoreWeights, startupRankings } from './data/startups';
+import { rankingCategories, scoreWeights } from './data/startups';
+import { rankedStartupIndex, rankingModel } from './lib/rankingEngine';
 import { dealRecords, founderProfiles, marketCompanies, marketSummary, newsFeed } from './data/market';
 import { coverageLabels, researchUniverse } from './data/coverage';
 import {
@@ -35,6 +36,7 @@ const categoryLinks = [
 ];
 
 const sectorFilters = ['ALL', 'AI / AGENTS', 'DEEPTECH', 'MEDTECH', 'NEUROTECH', 'INDUSTRIAL', 'CONSUMER'];
+const startupRankings = rankedStartupIndex;
 
 function getRoute() {
   return window.location.hash.replace('#', '').trim().toLowerCase() || 'home';
@@ -514,7 +516,7 @@ function Rankings() {
       {rankingMode === 'providers' ? <ProviderRanking /> : <>
       <section className="ranking-intro">
         <div><span>FORDEX STARTUP INDEX · 2026</span><h2>THE<br />STARTUP INDEX.</h2></div>
-        <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды.</p><small>RESEARCH BETA · {startupRankings.length} SCORED COMPANIES · {marketSummary.trackedCompanies} TRACKED PROFILES · LAST REVIEW OCT 2026</small></div>
+        <div><p>Один основной индекс для сравнения AI-стартапов по наблюдаемым сигналам бизнеса, капитала, динамики, технологии, рынка и команды. Score рассчитывается детерминированной моделью FORDEX.</p><small>RESEARCH BETA · MODEL {rankingModel.version.toUpperCase()} · {startupRankings.length} SCORED COMPANIES · {marketSummary.trackedCompanies} TRACKED PROFILES · LAST REVIEW OCT 2026</small></div>
       </section>
       <section className="ranking-lead">
         <div className="ranking-lead-head"><span>INDEX AT A GLANCE</span><small>CURRENT RESEARCH SNAPSHOT</small></div>
@@ -579,7 +581,7 @@ function Rankings() {
         <p>{view === 'overall' ? 'Ordered by the published FORDEX score.' : view === 'movers' ? 'Ordered by the editorial momentum signal; this is not a revenue growth rate.' : 'Ordered by disclosed financing amounts; undisclosed funding is kept at the bottom.'}</p>
       </section>
       <section className="ranking-method">
-        <div><span>HOW FORDEX SCORES</span><h2>ONE SCORE.<br />SIX SIGNALS.</h2><p>The model is deliberately weighted toward evidence of a working business. Funding alone cannot win the index.</p></div>
+        <div><span>HOW FORDEX SCORES</span><h2>ONE SCORE.<br />SIX SIGNALS.</h2><p>The provisional v0.1 model converts six observable record signals into one 0–100 research score. Funding alone cannot win the index.</p></div>
         <div className="score-list">{scoreWeights.map((weight) => <div key={weight.label}><span>{weight.label}</span><strong>{weight.value}%</strong><i><b style={{ width: weight.value + '%' }} /></i></div>)}</div>
       </section>
       {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} />}
@@ -656,7 +658,7 @@ function StartupDrawer({ startup, onClose }) {
         <section className="drawer-block drawer-model">
           <div className="drawer-block-head"><span>INDEX MODEL</span><small>WEIGHTED SIGNALS</small></div>
           <div className="drawer-weight-list">
-            {scoreWeights.map((weight) => (
+            {scoreWeights.map((weight, index) => (
               <div key={weight.label}>
                 <span>{weight.label}</span>
                 <strong>{weight.value}%</strong>
@@ -664,7 +666,7 @@ function StartupDrawer({ startup, onClose }) {
               </div>
             ))}
           </div>
-          <p className="drawer-model-note">The published score is a composite editorial signal. Funding is one input, not the ranking itself.</p>
+          <p className="drawer-model-note">The published score is calculated from six normalized signals. Funding is one input, not the ranking itself. Model v0.1 is provisional.</p>
         </section>
 
         <div className="drawer-signal">
