@@ -397,16 +397,34 @@ function Footer() {
 
 function SearchOverlay({ onClose }) {
   const [query, setQuery] = useState('');
-  const results = useMemo(() => companies.filter((item) => item.name.toLowerCase().includes(query.toLowerCase())), [query]);
+  const normalized = query.trim().toLowerCase();
+  const results = useMemo(() => {
+    if (!normalized) return [];
+    const companyResults = companies
+      .filter((item) => (item.name + ' ' + item.type).toLowerCase().includes(normalized))
+      .map((item) => ({ label: item.name, meta: item.type, route: 'companies' }));
+    const founderResults = founders
+      .filter((item) => (item.name + ' ' + item.company).toLowerCase().includes(normalized))
+      .map((item) => ({ label: item.name, meta: 'FOUNDER · ' + item.company, route: 'founders' }));
+    const dealResults = deals
+      .filter((item) => (item.company + ' ' + item.type + ' ' + item.sector).toLowerCase().includes(normalized))
+      .map((item) => ({ label: item.company + ' · ' + item.type, meta: item.value + ' · ' + item.date, route: 'deals' }));
+    return [...companyResults, ...founderResults, ...dealResults].slice(0, 8);
+  }, [normalized]);
+
   return (
     <div className="search-overlay" role="dialog" aria-modal="true" aria-label="Search FORDEX">
       <div className="search-box">
         <div className="search-top"><span>SEARCH FORDEX</span><button type="button" onClick={onClose} aria-label="Close search"><X size={19} /></button></div>
         <label className="search-input"><Search size={20} /><input autoFocus value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Company, founder, deal..." /></label>
         <div className="search-results">
-          {query ? results.map((item) => <button key={item.name} type="button" onClick={() => { onClose(); goto('companies'); }}><span>{item.type}</span><strong>{item.name}</strong><ArrowRight size={14} /></button>) : <p>TYPE TO SEARCH THE FORDEX INDEX.</p>}
+          {query ? (results.length ? results.map((item) => (
+            <button key={item.label + item.meta} type="button" onClick={() => { onClose(); goto(item.route); }}>
+              <span>{item.meta}</span><strong>{item.label}</strong><ArrowRight size={14} />
+            </button>
+          )) : <p>NO MATCHES IN THE FORDEX INDEX.</p>) : <p>TYPE TO SEARCH COMPANIES, FOUNDERS AND DEALS.</p>}
         </div>
-        <div className="search-hint">PRESS <kbd>ESC</kbd> TO CLOSE</div>
+        <div className="search-hint">PRESS <kbd>ESC</kbd> TO CLOSE · PRESS <kbd>/</kbd> TO SEARCH</div>
       </div>
     </div>
   );
