@@ -26,7 +26,6 @@ import {
 } from 'lucide-react';
 
 const NAV = ['COMPANIES', 'FOUNDERS', 'DEALS', 'RANKINGS', 'MARKET'];
-const HERO_IMAGE = 'https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1600&q=88';
 const EDITORIAL_IMAGE = 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1600&q=88';
 
 const categoryLinks = [
@@ -196,7 +195,19 @@ function Home({ watchlist, toggleWatch }) {
       <section className="hero hero-large">
         <div className="hero-copy"><span>THE AI BUSINESS<br />INDEX OF RUSSIA</span><i /></div>
         <div className="hero-word" aria-hidden="true">FORDEX</div>
-        <img className="hero-image" src={HERO_IMAGE} alt="Business leaders in discussion" />
+        <div className="hero-visual" aria-label="FORDEX market visualization">
+          <div className="hero-visual-head"><span>RUSSIAN AI / 2026</span><b>LIVE INDEX</b></div>
+          <div className="hero-visual-score"><small>TOP SCORE</small><strong>92</strong><span>AI 100</span></div>
+          <div className="hero-visual-chart" aria-hidden="true">
+            <i style={{height:'34%'}} /><i style={{height:'46%'}} /><i style={{height:'42%'}} /><i style={{height:'63%'}} /><i style={{height:'56%'}} /><i style={{height:'77%'}} /><i style={{height:'69%'}} /><i style={{height:'92%'}} />
+          </div>
+          <div className="hero-visual-grid">
+            <div><small>COMPANIES</small><b>{marketSummary.trackedCompanies}</b></div>
+            <div><small>FOUNDERS</small><b>{marketSummary.founderProfiles}</b></div>
+            <div><small>DEALS</small><b>{marketSummary.recordedDeals}</b></div>
+          </div>
+          <span className="hero-visual-corner">SOURCE-LINKED DATA</span>
+        </div>
         <div className="hero-kicker"><span>RANKING · CAPITAL · PEOPLE</span><strong>THE MARKET<br />IN ONE FRAME.</strong></div>
         <div className="hero-actions">
           <ButtonLink route="rankings" className="primary">EXPLORE INDEX <ArrowRight size={14} /></ButtonLink>
