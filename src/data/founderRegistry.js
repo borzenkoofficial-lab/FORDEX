@@ -1,4 +1,4 @@
-import { emergingFounderProfiles } from './emergingStartups';
+import { emergingFounderProfiles } from './emergingStartups.js';
 
 const founderImages = [
   'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=86',
