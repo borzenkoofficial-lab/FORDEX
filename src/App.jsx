@@ -8,6 +8,9 @@ import { aiProviderRankings, aiProviderSource } from './data/providerRankings';
 import { sourceRegistry, sourceRules } from './data/sources';
 import { editorialArticles, getEditorialArticle } from './data/articles';
 import { youngLeaderRankings, youngLeaderMethodology } from './data/youngLeaders';
+import { companyRegistry, companyRegistryStats } from './data/companyRegistry';
+import { founderRegistry, founderRegistryStats } from './data/founderRegistry';
+import { evidenceRegistryStats } from './data/evidenceRegistry';
 import { ruText, ruTag, ruSector, ruStage, ruCity, ruKind, ruRole, ruScoreLabel, ruDate, ruSizeBand } from './i18n';
 import {
   Activity,
@@ -299,7 +302,7 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
   const [filter, setFilter] = useState('ALL');
   const [selected, setSelected] = useState(null);
 
-  const filtered = useMemo(() => marketCompanies.filter((item) => {
+  const filtered = useMemo(() => companyRegistry.filter((item) => {
     const haystack = [item.name, item.sector, item.stage, item.city, item.description].join(' ').toLowerCase();
     const matchesQuery = haystack.includes(query.toLowerCase());
     const matchesFilter = filter === 'ALL'
@@ -424,7 +427,7 @@ function MarketMap() {
 function Founders() {
   const [query, setQuery] = useState('');
   const [selected, setSelected] = useState(null);
-  const filtered = founderProfiles.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(query.toLowerCase()));
+  const filtered = founderRegistry.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(query.toLowerCase()));
 
   return (
     <main className="inner-page">
@@ -966,6 +969,10 @@ function Analytics() {
     <main className="inner-page">
       <PageHero eyebrow="РЫНОЧНАЯ АНАЛИТИКА" title="ANALYTICS" description="Производные показатели текущего исследовательского набора FORDEX. Количество записей относится к индексу и не описывает весь российский рынок." />
       <section className="metric-grid analytics-metrics">
+        <Metric label="ЕДИНЫЙ РЕЕСТР" value={companyRegistryStats.total} note={companyRegistryStats.emerging + ' молодых · ' + companyRegistryStats.ranked + ' с оценкой'} icon={<Building2 />} />
+        <Metric label="ОСНОВАТЕЛИ" value={founderRegistryStats.total} note={founderRegistryStats.withAge + ' с публично указанным возрастом'} icon={<Users />} />
+        <Metric label="ДОКАЗАТЕЛЬСТВА" value={evidenceRegistryStats.total} note={evidenceRegistryStats.linkedCompanies + ' компаний связаны с источниками'} icon={<ShieldCheck />} />
+        <Metric label="КОРПОРАТИВНЫЕ" value={companyRegistryStats.corporate} note="отдельный слой рынка" icon={<Building2 />} />
         <Metric label="КОМПАНИЙ В ИНДЕКСЕ" value={startupRankings.length} note="выборка рейтинга стартапов" icon={<Building2 />} />
         <Metric label="AVERAGE ЯДРО" value={averageScore.toFixed(1)} note="из 100" icon={<Activity />} />
         <Metric label="СРЕДНЯЯ ДИНАМИКА" value={'+' + avgMomentum.toFixed(1) + '%'} note="редакционный сигнал" icon={<TrendingUp />} />
@@ -1046,8 +1053,8 @@ function SearchOverlay({ onClose }) {
   const normalized = query.trim().toLowerCase();
   const results = useMemo(() => {
     if (!normalized) return [];
-    const companyResults = marketCompanies.filter((item) => [item.name, item.sector, item.stage].join(' ').toLowerCase().includes(normalized)).slice(0, 6).map((item) => ({ label: item.name, meta: ruSector(item.sector), route: 'companies' }));
-    const founderResults = founderProfiles.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ОСНОВАТЕЛЬ · ' + item.company, route: 'founders' }));
+    const companyResults = companyRegistry.filter((item) => [item.name, item.sector, item.stage].join(' ').toLowerCase().includes(normalized)).slice(0, 6).map((item) => ({ label: item.name, meta: ruSector(item.sector), route: 'companies' }));
+    const founderResults = founderRegistry.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ОСНОВАТЕЛЬ · ' + item.company, route: 'founders' }));
     const dealResults = dealRecords.filter((item) => [item.company, item.type, item.sector, item.lead].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.company + ' · ' + ruText(item.type), meta: item.value + ' · ' + ruDate(item.date), route: 'deals' }));
     const newsResults = newsFeed.filter((item) => [item.title, item.category, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 3).map((item) => ({ label: item.title, meta: 'НОВОСТИ · ' + ruDate(item.date), route: 'news' }));
     const coverageResults = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ДОСЬЕ · ' + ruSector(item.sector), route: item.id }));
