@@ -1,3 +1,4 @@
+import { writeFile } from 'node:fs/promises';
 import { companyRegistry } from '../src/data/companyRegistry.js';
 
 const OUTPUT_PATH = new URL('../src/data/liveMarketSnapshot.js', import.meta.url);
@@ -22,21 +23,22 @@ function decodeXml(value = '') {
     .replace(/&apos;/g, "'")
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
-    .replace(/&#(\d+);/g, (_, code) => String.fromCodePoint(Number(code)))
+    .replace(/&#([0-9]+);/g, (_, code) => String.fromCodePoint(Number(code)))
     .trim();
 }
 
 function tag(block, name) {
-  const match = block.match(new RegExp(`<${name}(?:\\s[^>]*)?>([\\s\\S]*?)</${name}>`, 'i'));
+  const source = '<' + name + '(?: [^>]*)?>(.*?)</' + name + '>';
+  const match = new RegExp(source, 'is').exec(block);
   return decodeXml(match?.[1] || '');
 }
 
 function normalizeTitle(value) {
-  return value.toLowerCase().replace(/[^\\p{L}\\p{N}]+/gu, ' ').trim();
+  return value.toLowerCase().replace(/[^a-zа-яё0-9]+/gi, ' ').trim();
 }
 
 function parseItems(xml) {
-  return [...xml.matchAll(/<item>[\\s\\S]*?<\\/item>/gi)]
+  return [...xml.matchAll(/<item>.*?<\/item>/gis)]
     .map((match) => match[0])
     .map((block) => ({
       title: tag(block, 'title'),
@@ -50,12 +52,16 @@ function parseItems(xml) {
 }
 
 async function fetchCompany(company) {
-  const query = encodeURIComponent(`"${company.name}" ИИ`);
-  const url = `https://news.google.com/rss/search?q=${query}&hl=ru&gl=RU&ceid=RU:ru`;
+  const query = encodeURIComponent('"' + company.name + '" ИИ');
+  const url = 'https://news.google.com/rss/search?q=' + query + '&hl=ru&gl=RU&ceid=RU:ru';
   const response = await fetch(url, {
-    headers: { 'User-Agent': 'FORDEX-Live-Market/1.0 (+https://github.com/borzenkoofficial-lab/FORDEX)' },
+    headers: {
+      'User-Agent': 'FORDEX-Live-Market/1.0 (+https://github.com/borzenkoofficial-lab/FORDEX)',
+    },
   });
-  if (!response.ok) throw new Error(`RSS ${response.status}`);
+
+  if (!response.ok) throw new Error('RSS ' + response.status);
+
   const items = parseItems(await response.text());
   const now = Date.now();
   const cutoff30 = now - WINDOW_DAYS * 24 * 60 * 60 * 1000;
@@ -66,6 +72,7 @@ async function fetchCompany(company) {
   for (const item of items) {
     const publishedMs = Date.parse(item.publishedAt);
     if (!Number.isFinite(publishedMs) || publishedMs < cutoff30) continue;
+
     const key = normalizeTitle(item.title) + '|' + item.url;
     if (seen.has(key)) continue;
     seen.add(key);
@@ -73,22 +80,21 @@ async function fetchCompany(company) {
   }
 
   const ordered = recent.sort((a, b) => b.publishedMs - a.publishedMs);
-  const combined = ordered.map((item) => `${item.title} ${item.description}`).join(' ');
 
   return {
     sourceCount30d: ordered.length,
     sourceCount7d: ordered.filter((item) => item.publishedMs >= cutoff7).length,
-    fundingMentions: ordered.filter((item) => EVENT_PATTERNS.fundingMentions.test(`${item.title} ${item.description}`)).length,
-    dealMentions: ordered.filter((item) => EVENT_PATTERNS.dealMentions.test(`${item.title} ${item.description}`)).length,
-    launchMentions: ordered.filter((item) => EVENT_PATTERNS.launchMentions.test(`${item.title} ${item.description}`)).length,
-    tractionMentions: ordered.filter((item) => EVENT_PATTERNS.tractionMentions.test(`${item.title} ${item.description}`)).length,
+    fundingMentions: ordered.filter((item) => EVENT_PATTERNS.fundingMentions.test(item.title + ' ' + item.description)).length,
+    dealMentions: ordered.filter((item) => EVENT_PATTERNS.dealMentions.test(item.title + ' ' + item.description)).length,
+    launchMentions: ordered.filter((item) => EVENT_PATTERNS.launchMentions.test(item.title + ' ' + item.description)).length,
+    tractionMentions: ordered.filter((item) => EVENT_PATTERNS.tractionMentions.test(item.title + ' ' + item.description)).length,
     latestPublishedAt: ordered[0]?.publishedAt || null,
     latestTitle: ordered[0]?.title || null,
     latestUrl: ordered[0]?.url || null,
     latestSourceName: ordered[0]?.sourceName || null,
-    sources: ordered.slice(0, 5).map(({ title, url, publishedAt, sourceName }) => ({
+    sources: ordered.slice(0, 5).map(({ title, url: sourceUrl, publishedAt, sourceName }) => ({
       title,
-      url,
+      url: sourceUrl,
       publishedAt,
       sourceName: sourceName || null,
     })),
@@ -98,10 +104,12 @@ async function fetchCompany(company) {
 async function mapWithConcurrency(items, worker, concurrency) {
   const results = new Array(items.length);
   let cursor = 0;
+
   async function run() {
     while (true) {
       const index = cursor++;
       if (index >= items.length) return;
+
       try {
         results[index] = await worker(items[index]);
       } catch (error) {
@@ -122,12 +130,21 @@ async function mapWithConcurrency(items, worker, concurrency) {
       }
     }
   }
+
   await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, run));
   return results;
 }
 
 function serialize(snapshot) {
-  return `// Generated by scripts/refresh-market.mjs. Do not edit manually.\nexport const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';\n\nexport const liveMarketSnapshot = ${JSON.stringify(snapshot, null, 2)};\n\nexport function getLiveMarketSignal(companyId) {\n  return liveMarketSnapshot.companies[companyId] ?? null;\n}\n`;
+  return `// Generated by scripts/refresh-market.mjs. Do not edit manually.
+export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
+
+export const liveMarketSnapshot = ${JSON.stringify(snapshot, null, 2)};
+
+export function getLiveMarketSignal(companyId) {
+  return liveMarketSnapshot.companies[companyId] ?? null;
+}
+`;
 }
 
 const rankedCompanies = companyRegistry
@@ -139,16 +156,14 @@ const rankedCompanies = companyRegistry
   })
   .slice(0, 80);
 
-const rows = await mapWithConcurrency(
-  rankedCompanies,
-  async (company) => fetchCompany(company),
-  CONCURRENCY,
-);
+const rows = await mapWithConcurrency(rankedCompanies, fetchCompany, CONCURRENCY);
 
-const companies = Object.fromEntries(rankedCompanies.map((company, index) => [
-  company.id,
-  { companyId: company.id, companyName: company.name, ...rows[index] },
-]));
+const companies = Object.fromEntries(
+  rankedCompanies.map((company, index) => [
+    company.id,
+    { companyId: company.id, companyName: company.name, ...rows[index] },
+  ]),
+);
 
 const snapshot = {
   generatedAt: new Date().toISOString(),
@@ -157,5 +172,5 @@ const snapshot = {
   companies,
 };
 
-const { writeFile } = await import('node:fs/promises');
 await writeFile(OUTPUT_PATH, serialize(snapshot), 'utf8');
+console.log('Live market refresh:', Object.keys(companies).length, 'companies');
