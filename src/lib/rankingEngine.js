@@ -241,7 +241,7 @@ export const rankingSignals = MODEL_KEYS;
 
 export const rankingModel = {
   version: '1.1',
-  status: 'PUBLIC BETA · LIVE SIGNALS',
+  status: 'PUBLIC BETA',
   scale: '0–100',
   weights: scoreWeights,
   candidatePolicy: {
