@@ -65,7 +65,29 @@ export async function runResearchAdapter({
     throw error;
   }
 
-  return payload;
+  return {
+    ...payload,
+    output: normalizeGatewayOutput(payload?.output),
+  };
+}
+
+function normalizeGatewayOutput(value) {
+  if (value == null) return '';
+  if (typeof value === 'string') return value;
+  if (typeof value === 'number' || typeof value === 'boolean') return String(value);
+  if (Array.isArray(value)) {
+    return value.map(normalizeGatewayOutput).filter(Boolean).join('\\n');
+  }
+  if (typeof value === 'object') {
+    for (const key of ['text', 'content', 'value', 'output_text']) {
+      if (value[key] != null) {
+        const text = normalizeGatewayOutput(value[key]);
+        if (text) return text;
+      }
+    }
+    try { return JSON.stringify(value); } catch { return ''; }
+  }
+  return String(value);
 }
 
 async function readJson(response) {
