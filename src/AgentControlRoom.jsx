@@ -197,8 +197,10 @@ export function AgentControlRoom() {
           : null,
         previousResearch: lastRun?.output || null,
         discoveredSources: sourcePacket,
+        researchCandidates: Array.isArray(research?.candidates) ? research.candidates : [],
         evidenceInstruction: operation === 'CREATE_POST'
-          ? 'Используй только факты, которые можно связать с sourcePacket. Не выдумывай названия проектов, суммы, даты, продуктовые характеристики или traction. В sources[] возвращай только URL из sourcePacket. Если подтверждённых фактов недостаточно — верни post с явным статусом BLOCKED и объяснением, а не выдумывай.'
+          ? 'Сопоставь найденные источники с researchCandidates. Публикуй только проекты, для которых есть внешний источник в sourcePacket и подтверждаемые сведения о событии или продукте. researchCandidates — только справочный контекст о компаниях FORDEX, не замена внешнему источнику. Не выдумывай названия проектов, суммы, даты, продуктовые характеристики или traction. В sources[] возвращай только URL из sourcePacket. Если подтверждён только 1 проект — публикуй только его; если нет ни одного — верни post со статусом BLOCKED.'
+          : 'Для существенных фактов укажи источник из sourcePacket.',
           : 'Для существенных фактов укажи источник из sourcePacket.',
         responseFormat: operation === 'CREATE_POST'
           ? 'Return a JSON object with summary, facts[], sources[], and post. For blocked output, use post={status:"BLOCKED",text:"...",source_references:[]}.'
