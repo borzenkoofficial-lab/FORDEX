@@ -1,6 +1,7 @@
 import { scoreWeights } from '../data/startups.js';
 import { companyRegistry } from '../data/companyRegistry.js';
 import { youngLeaderRankings } from '../data/youngLeaders.js';
+import { getLiveMarketSignal } from '../data/liveMarketSnapshot.js';
 
 const MODEL_KEYS = [
   'businessTraction',
@@ -86,14 +87,30 @@ function capitalScore(item, youngSignal) {
   return clamp(43 + 18 * Math.log10(disclosed + 1));
 }
 
-function momentumScore(item, youngSignal) {
+function liveActivityLift(liveSignal) {
+  if (!liveSignal) return 0;
+
+  return clamp(
+    Number(liveSignal.sourceCount7d || 0) * 0.4 +
+    Number(liveSignal.sourceCount30d || 0) * 0.08 +
+    Number(liveSignal.fundingMentions || 0) * 0.6 +
+    Number(liveSignal.dealMentions || 0) * 0.3 +
+    Number(liveSignal.launchMentions || 0) * 0.2 +
+    Number(liveSignal.tractionMentions || 0) * 0.1,
+    0,
+    6,
+  );
+}
+
+function momentumScore(item, youngSignal, liveSignal) {
+  const activityLift = liveActivityLift(liveSignal);
   const momentum = Number(item.momentum);
-  if (Number.isFinite(momentum)) return clamp(40 + momentum * 2.6);
+  if (Number.isFinite(momentum)) return clamp(40 + (momentum + activityLift) * 2.6);
 
   const tractionSignal = Number(youngSignal?.signal);
-  if (Number.isFinite(tractionSignal)) return clamp(45 + tractionSignal * 0.35);
+  if (Number.isFinite(tractionSignal)) return clamp(45 + tractionSignal * 0.35 + activityLift);
 
-  return 48;
+  return clamp(48 + activityLift);
 }
 
 function technologyScore(item) {
@@ -125,11 +142,11 @@ function teamScore(item, youngSignal) {
   return clamp(verificationBase + stageBonus + publicSignalBonus);
 }
 
-function getComponentScores(item, youngSignal) {
+function getComponentScores(item, youngSignal, liveSignal) {
   return {
     businessTraction: round(tractionScore(item, youngSignal), 0),
     capitalFinancing: round(capitalScore(item, youngSignal), 0),
-    growthMomentum: round(momentumScore(item, youngSignal), 0),
+    growthMomentum: round(momentumScore(item, youngSignal, liveSignal), 0),
     technologyMoat: round(technologyScore(item), 0),
     marketOpportunity: round(marketScore(item), 0),
     teamExecution: round(teamScore(item, youngSignal), 0),
@@ -170,7 +187,8 @@ const candidates = [
 const scored = candidates
   .map((item) => {
     const youngSignal = youngById.get(item.id);
-    const components = getComponentScores(item, youngSignal);
+    const liveSignal = getLiveMarketSignal(item.id);
+    const components = getComponentScores(item, youngSignal, liveSignal);
     const isEmerging = item.kind === 'EMERGING STARTUP';
     const quantitativeSignals = [
       item.fundingM ?? youngSignal?.capitalM ?? null,
@@ -187,6 +205,19 @@ const scored = candidates
       isEmerging,
       indexStatus: isEmerging ? 'PUBLISHED · EMERGING' : 'PUBLISHED · CORE',
       quantitativeSignals: quantitativeSignals.length,
+      liveSignals: liveSignal
+        ? {
+            sourceCount7d: Number(liveSignal.sourceCount7d || 0),
+            sourceCount30d: Number(liveSignal.sourceCount30d || 0),
+            fundingMentions: Number(liveSignal.fundingMentions || 0),
+            dealMentions: Number(liveSignal.dealMentions || 0),
+            launchMentions: Number(liveSignal.launchMentions || 0),
+            tractionMentions: Number(liveSignal.tractionMentions || 0),
+            latestPublishedAt: liveSignal.latestPublishedAt || null,
+            latestTitle: liveSignal.latestTitle || null,
+            latestUrl: liveSignal.latestUrl || null,
+          }
+        : null,
       score: round(calculateScore(components), 1),
       scoreBreakdown: buildBreakdown(components),
       confidence: isEmerging
@@ -209,8 +240,8 @@ export const rankedStartupIndex = scored;
 export const rankingSignals = MODEL_KEYS;
 
 export const rankingModel = {
-  version: '1.0',
-  status: 'PUBLIC BETA',
+  version: '1.1',
+  status: 'PUBLIC BETA · LIVE SIGNALS',
   scale: '0–100',
   weights: scoreWeights,
   candidatePolicy: {
@@ -218,5 +249,5 @@ export const rankingModel = {
     emerging: 'Молодые компании попадают в основной индекс только после появления сопоставимых количественных сигналов.',
     research: 'Остальные молодые компании остаются в research-слое и не получают искусственную оценку.',
   },
-  note: 'Единая детерминированная модель FORDEX для опубликованного startup index. Молодость, капитализация или возраст основателя сами по себе не создают баллы; они используются только как дополнительные контекстные сигналы.',
+  note: 'Единая детерминированная модель FORDEX для опубликованного startup index. Базовые оценки остаются источником модели, а live market discovery добавляет ограниченный динамический lift только к компоненту growth / momentum. Live discovery не может напрямую изменить капитал, выручку, пользователей или формулу.',
 };
