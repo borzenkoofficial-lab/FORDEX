@@ -2,10 +2,1461 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  generatedAt: null,
-  windowDays: 30,
-  source: 'Google News RSS discovery',
-  companies: {},
+  "generatedAt": "2026-10-07T22:20:31.937Z",
+  "windowDays": 30,
+  "source": "Google News RSS discovery",
+  "companies": {
+    "botkin-ai": {
+      "companyId": "botkin-ai",
+      "companyName": "Botkin.AI",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "cognitive-pilot": {
+      "companyId": "cognitive-pilot",
+      "companyName": "Cognitive Pilot",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Робо-трактор научили разговаривать с человеком и выполнять команды - Первый Технический",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFZrS1dCa2xTOFBXXzhhSkZyMm9PWUZuZ3FTQ1M1eWpGb2NpWHRtVzJYTGItQXVfUFB2WmY5ckk5Qml4UHVUcExHWjBqaDU2U0ZrUnZHdTc2Vzk0MGZCWEJKaUNGNUt2RTNkTlJDZl9xaXZIT29vdnMybXI5dUtxVEpCckJJNGRQTDM4S19TQWdlT05Kbk5wLXE0eE9FLU1YejlldmVfTHlrNzhVdVHSAbMBQVVfeXFMT0xLcjJuWE1xQzV1c1hRcnpUMDZKLUY3cllDV2k0TjF0NWhHNEVGUUxxXzZHNGs0T3FMaTJ3U3R0OW1Sb1NPV19xU003YTNBUVVZWXI0RUVFRFJjQVA4MmZwVk5LWEkydUJ2SDUxLVVFbGxVUUI3RDB0TmpvTFV1MkFydEN6R2RqUzVTZHJJSzBfS3BILVFySEF1STdRT3F5cWo5NGVJYWt4clVKTW5jZTVhQTQ?oc=5",
+      "latestSourceName": "Первый Технический",
+      "sources": [
+        {
+          "title": "Робо-трактор научили разговаривать с человеком и выполнять команды - Первый Технический",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFZrS1dCa2xTOFBXXzhhSkZyMm9PWUZuZ3FTQ1M1eWpGb2NpWHRtVzJYTGItQXVfUFB2WmY5ckk5Qml4UHVUcExHWjBqaDU2U0ZrUnZHdTc2Vzk0MGZCWEJKaUNGNUt2RTNkTlJDZl9xaXZIT29vdnMybXI5dUtxVEpCckJJNGRQTDM4S19TQWdlT05Kbk5wLXE0eE9FLU1YejlldmVfTHlrNzhVdVHSAbMBQVVfeXFMT0xLcjJuWE1xQzV1c1hRcnpUMDZKLUY3cllDV2k0TjF0NWhHNEVGUUxxXzZHNGs0T3FMaTJ3U3R0OW1Sb1NPV19xU003YTNBUVVZWXI0RUVFRFJjQVA4MmZwVk5LWEkydUJ2SDUxLVVFbGxVUUI3RDB0TmpvTFV1MkFydEN6R2RqUzVTZHJJSzBfS3BILVFySEF1STdRT3F5cWo5NGVJYWt4clVKTW5jZTVhQTQ?oc=5",
+          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
+          "sourceName": "Первый Технический"
+        }
+      ]
+    },
+    "datamola": {
+      "companyId": "datamola",
+      "companyName": "DataMola",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "dbrain": {
+      "companyId": "dbrain",
+      "companyName": "Dbrain",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "dresscode-ai": {
+      "companyId": "dresscode-ai",
+      "companyName": "DRESSCODE",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "expanta": {
+      "companyId": "expanta",
+      "companyName": "Expanta",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "iskra": {
+      "companyId": "iskra",
+      "companyName": "ISKRA",
+      "sourceCount30d": 10,
+      "sourceCount7d": 9,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 07 Oct 2026 09:26:37 GMT",
+      "latestTitle": "АВТОВАЗ выявил ряд проблем Lada Iskra: дилеры получили четыре сервисных предписания - Лада.Онлайн",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcUJZZGVTSFNMX2RsNGM3NW5BRUJzSVk3VU5SUWQ2MjFVdG85UkJRcTZTbXdpcFpnVWt0cFVZSkZlZzFMSXhQNHJDa2xydTlYODVGTVJFNkNFZmpnM010bUM0QmJwczYxaHJfWTBuOGx3bUdPZXhCUHF6SnNRb3BHdTVtaGdkWUx3TWlyZmpmTmg2eTZxUHk0Vzg0TUVjS2RjREF5cVZ4WkZMTGVYS01YZkZCZlBqTk1TZkE2dlVVNXNUTmdQdVFILUQxVmxWVWR2M0ZhRF9ubXBUMHdZT3JSdl9oSQ?oc=5",
+      "latestSourceName": "Лада.Онлайн",
+      "sources": [
+        {
+          "title": "АВТОВАЗ выявил ряд проблем Lada Iskra: дилеры получили четыре сервисных предписания - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcUJZZGVTSFNMX2RsNGM3NW5BRUJzSVk3VU5SUWQ2MjFVdG85UkJRcTZTbXdpcFpnVWt0cFVZSkZlZzFMSXhQNHJDa2xydTlYODVGTVJFNkNFZmpnM010bUM0QmJwczYxaHJfWTBuOGx3bUdPZXhCUHF6SnNRb3BHdTVtaGdkWUx3TWlyZmpmTmg2eTZxUHk0Vzg0TUVjS2RjREF5cVZ4WkZMTGVYS01YZkZCZlBqTk1TZkE2dlVVNXNUTmdQdVFILUQxVmxWVWR2M0ZhRF9ubXBUMHdZT3JSdl9oSQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 09:26:37 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
+        {
+          "title": "Тайные предписания АвтоВАЗа: как дилеры бесплатно доработают новые LADA Iskra для россиян - Автоновости дня",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TTFl3VWhkMUtQSFdfVm52TkwxTVg3b3lQX2VtcXY1c3Z1TEV1TlZXMWREaXRGeURkMklpWEVncTQwZklTR0N4QU10dGRTTF9mVnRWcVNlRVJiR1dQcnRDaUlERVZHQ2g4dUZvOFhYTEd6R3PSAXNBVV95cUxNU0xZd1VoZDFLUEhXX1Zudk5MMU1YN295UF9lbXF2NXN2dUxFdU5WVzFkRGl0RnlEZDJJaVhFZ3E0MGZJU0dDeEFNdHRkU0xfZlZ0VnFTZUVSYkdXUHJ0Q2lJREVWR0NoOHVGbzhYWExHekdz?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:00:11 GMT",
+          "sourceName": "Автоновости дня"
+        },
+        {
+          "title": "Lada Iskra Cup готовится к премьере: новый монокубок представят 10 октября - Autosport.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFhDT0E2NTVOZ09ORS1CTGxyZmFGRVVZNjNlTXlDbm4ycUhCWGNtdFFrYjRtRVNkdDFNM242WVk3aV83M1dvSlZxSkdJMEh0TWdtWTNLVFVqdFpybTJNZVZLNzJYc09BcjdaVXZqZEtiSndIc1lYTzZaalhVdUFhSXE3OGdUMmg4Wm1nT05PU3NhNlF0eEFjTkpJb1NTdzFONDRfc2I4WXp0QWlHSEE?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 16:27:02 GMT",
+          "sourceName": "Autosport.com.ru"
+        },
+        {
+          "title": "Продажи этой «Лады» взлетели в 33,5 раза: какая модель АвтоВАЗа обошла Mazda и Belgee - Автоновости дня",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZZzdTV3U0Zzl6WHZpWVNyZDhEd0oyeFp5UmJRaWh1elhoXzVmbTNwN1JBYlF3SkxhSG1FeWhNYkF2R2RpQWtreF9Jd0VSRUF4MU1iLTkzQVltLUlGWWFUaVVVY07SAWpBVV95cUxPTnFiNmVYd2l3S1l0ZWhRS25aTzA5Mmo2Z1lYTXRtTnBZNHhSSFpqSTEyYnpEOUlxajh5ZEFjSFdKOW1LM3hOaFhxZXpydEZNUXdtT2xnb3I1d3BpcWhhalp2c0xiaG53OHZR?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:36:45 GMT",
+          "sourceName": "Автоновости дня"
+        },
+        {
+          "title": "Lada Iskra: Новая искра или затухающая надежда — сможет ли автомобиль полностью заменить Granta - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRHJ6dWtkRW45Vi00T1hPc3RCaG45bl9meG8wUXNYdHluakg0S0F4U2FfalBNYmZ6Q3d0T0tTQUZxUjdxS3NlVzR3UE5NLUR1NlhfWUFKZ0dQamFvWEtTdDhBLXpFSFUtRW1uVGtnVllFZERuQ0RvYkI3SXZzOWM4TFpyY2RUZzZENWhhQnduQVdORE5FVUJGRVZuMWxnMHA4Sk44?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 17:01:30 GMT",
+          "sourceName": "110km.ru"
+        }
+      ]
+    },
+    "just-ai": {
+      "companyId": "just-ai",
+      "companyName": "Just AI",
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 1,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
+      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Как мы обучили детектор джейлбрейков для русскоязычных AI-агентов - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UbC13U1Y3UnBxdDZueU01UXZuZnZrR1JYXzZodDRGMksyM3M2TDIxQWlSX0ZRWmZvZFpGMmhmZERuTVI2VktKTTd5Y0VSMkV2enJmbV9XSFZBbEJsQW1yeG9NQnYzd9IBWEFVX3lxTE5iZnJpWWF1Q0JiSU9RWTgxNEdSZ1NTdE5yelpLOXRxSkFBSENuUDJkSzlYN3JTRTNnMURCV3VjZ1d1Z3VQRDdCWnJDTmJEUDVId2NrVjV3TFk?oc=5",
+          "publishedAt": "Tue, 22 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый Технический",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
+          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
+          "sourceName": "Первый Технический"
+        }
+      ]
+    },
+    "medical-visual-systems": {
+      "companyId": "medical-visual-systems",
+      "companyName": "Medical Visual Systems",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "neiry": {
+      "companyId": "neiry",
+      "companyName": "Neiry",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "ntechlab": {
+      "companyId": "ntechlab",
+      "companyName": "NtechLab",
+      "sourceCount30d": 8,
+      "sourceCount7d": 7,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
+      "latestTitle": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
+      "latestSourceName": "ITSpeaker",
+      "sources": [
+        {
+          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
+          "sourceName": "ITSpeaker"
+        },
+        {
+          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 11:58:45 GMT",
+          "sourceName": "Ростех"
+        },
+        {
+          "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
+          "sourceName": "RuNews24"
+        },
+        {
+          "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
+          "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
+          "sourceName": "RUБЕЖ"
+        },
+        {
+          "title": "NtechLab и \"Швабе\" планируют создавать совместные ИТ-разработки - MASHNEWS | Новости Промышленности",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0FKWFpadVE5LUowUjZsTXpyNW91OWpWSHZXUjV4QnBsNEN6REN5VWJlWlZ3NHozT2tWOTB3dC1UcFMxXzd6bGVBblJxUEVfZ1ZtMzRfVzdlX1huZy1RQjlBTl9ibm5DQ0VtcGpFRHNwa0ZTS0swMFV0Z2gxazkwaFZDZU1Ra3o2T01tSE5YTTdMdw?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 20:00:03 GMT",
+          "sourceName": "MASHNEWS | Новости Промышленности"
+        }
+      ]
+    },
+    "piklema": {
+      "companyId": "piklema",
+      "companyName": "Piklema",
+      "sourceCount30d": 2,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
+      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
+      "latestSourceName": "Newslab.ru",
+      "sources": [
+        {
+          "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
+          "sourceName": "Newslab.ru"
+        },
+        {
+          "title": "Российские разработчики представили комплексные решения для цифровизации добывающей промышленности - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSHlUeHBaeDN0bGc1TXVKMGdTS012YXYwQXJ4SE5GSXBvX1k4RG9XcENoZ1lhVkUtV0lIQmo5TC13TUVKQW1aWFUxejZtUEoxY0VQcE5zWWZvZkVGTkkyRWN1YUEwRXZidEpvZk5YUWk5MmhGZW9SRS10bVUxY3BVbXo3NlppQlYzZ3c?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        }
+      ]
+    },
+    "platformeco": {
+      "companyId": "platformeco",
+      "companyName": "Platformeco",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "qummy": {
+      "companyId": "qummy",
+      "companyName": "Qummy",
+      "sourceCount30d": 2,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 30 Sep 2026 06:09:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
+      "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 06:09:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+          "publishedAt": "Tue, 29 Sep 2026 13:15:15 GMT",
+          "sourceName": "novostivoronezha.ru"
+        }
+      ]
+    },
+    "rubbles": {
+      "companyId": "rubbles",
+      "companyName": "Rubbles",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "smart-engines": {
+      "companyId": "smart-engines",
+      "companyName": "Smart Engines",
+      "sourceCount30d": 7,
+      "sourceCount7d": 3,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
+      "latestTitle": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajLSAVhBVV95cUxOdWxMSm9sMmRGZllCZ053UmxpTzVzSVNKbDVJQ2lWS1dlZGZRR3VucTZoNHBleUYtdVlMemJlLWV2MFl4Ujd5YTVxZnNpYTZVSUdwaWdSNmoy?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 14:55:18 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Российская Smart Engines разработала портативный 3D-томограф весом 5 кг - Monocle.ru",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
+          "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
+          "sourceName": "Monocle.ru"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
+          "sourceName": "sdelanounas.ru"
+        }
+      ]
+    },
+    "syntelly": {
+      "companyId": "syntelly",
+      "companyName": "Syntelly",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Thu, 17 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
+      "latestSourceName": "Webiomed",
+      "sources": [
+        {
+          "title": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
+          "publishedAt": "Thu, 17 Sep 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        }
+      ]
+    },
+    "targetai": {
+      "companyId": "targetai",
+      "companyName": "targetai",
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+      "latestSourceName": "Profit.kz",
+      "sources": [
+        {
+          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+          "sourceName": "Profit.kz"
+        }
+      ]
+    },
+    "visionlabs": {
+      "companyId": "visionlabs",
+      "companyName": "VisionLabs",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "webiomed": {
+      "companyId": "webiomed",
+      "companyName": "Webiomed",
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 30 Sep 2026 14:01:36 GMT",
+      "latestTitle": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
+      "latestSourceName": "Webiomed",
+      "sources": [
+        {
+          "title": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 14:01:36 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
+          "publishedAt": "Thu, 17 Sep 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Использование открытых больших языковых моделей для быстрого прототипирования систем первичной диагностики: сравнение с традиционными ML-подходами - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNbUxqbGhnZTlMQUFueVR1QmtvVEJ0R1d1aVpjcGk5VWt5TGxTQ0otRmNEdG9WNzBjX041VXVrUmNqX1JhWTY1S3ZLU2t2NmRpOGhSQlNIRkRkcXlQOXdWRmtTRkFBUkdHMThBWXZfU2RzaTJuX3BPa2xoRHQ0ckRYdDdHdjk3THN0R0E?oc=5",
+          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        }
+      ]
+    },
+    "aiesa": {
+      "companyId": "aiesa",
+      "companyName": "Aiesa.ru",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "artgeneration-me": {
+      "companyId": "artgeneration-me",
+      "companyName": "ArtGeneration.me",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
+    },
+    "askhow": {
+      "companyId": "askhow",
+      "companyName": "AskHow",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 1,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Как запустить онлайн-школу с нуля и не потерять деньги: 4 ошибки экспертов - Т-Бизнес секреты",
+      "latestUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zRXduUlhRY3RMRnAyNTJZQUl0U2lZOTU3THh1RGJENExLbVFYVlMwdEV1Y19rMk9MZnZuOUZ4YzdEMTNrdnJxU2FpVHdJalJ6ODhyS2RnbDNWVUthd0gxMzZhMlNYQVR1ZjVGNFZlYw?oc=5",
+      "latestSourceName": "Т-Бизнес секреты",
+      "sources": [
+        {
+          "title": "Как запустить онлайн-школу с нуля и не потерять деньги: 4 ошибки экспертов - Т-Бизнес секреты",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zRXduUlhRY3RMRnAyNTJZQUl0U2lZOTU3THh1RGJENExLbVFYVlMwdEV1Y19rMk9MZnZuOUZ4YzdEMTNrdnJxU2FpVHdJalJ6ODhyS2RnbDNWVUthd0gxMzZhMlNYQVR1ZjVGNFZlYw?oc=5",
+          "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
+          "sourceName": "Т-Бизнес секреты"
+        }
+      ]
+    },
+    "avato-memory": {
+      "companyId": "avato-memory",
+      "companyName": "Avato Memory",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "babyhelper": {
+      "companyId": "babyhelper",
+      "companyName": "BabyHelper",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "decision-matrix-ai": {
+      "companyId": "decision-matrix-ai",
+      "companyName": "Decision Matrix AI",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "delegator-ai": {
+      "companyId": "delegator-ai",
+      "companyName": "DelegatorAI",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "diet-for-me": {
+      "companyId": "diet-for-me",
+      "companyName": "Diet For Me",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "flowin": {
+      "companyId": "flowin",
+      "companyName": "FLOWIN",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "flowsic": {
+      "companyId": "flowsic",
+      "companyName": "Flowsic",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "flyvi": {
+      "companyId": "flyvi",
+      "companyName": "Flyvi",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "freestyling-ai": {
+      "companyId": "freestyling-ai",
+      "companyName": "Freestyling.ai",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "give-me-public": {
+      "companyId": "give-me-public",
+      "companyName": "Give Me Public",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "gogol-chat": {
+      "companyId": "gogol-chat",
+      "companyName": "Gogol Chat",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "gomvp": {
+      "companyId": "gomvp",
+      "companyName": "GoMVP",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "gradius": {
+      "companyId": "gradius",
+      "companyName": "Gradius",
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Mon, 05 Oct 2026 08:49:34 GMT",
+      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+      "latestSourceName": "Retail Life",
+      "sources": [
+        {
+          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 08:49:34 GMT",
+          "sourceName": "Retail Life"
+        }
+      ]
+    },
+    "harmoni-ai": {
+      "companyId": "harmoni-ai",
+      "companyName": "Harmoni AI",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "health-hero": {
+      "companyId": "health-hero",
+      "companyName": "Health Hero",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "innde": {
+      "companyId": "innde",
+      "companyName": "Innde",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "insighter": {
+      "companyId": "insighter",
+      "companyName": "Insighter",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "legiscan": {
+      "companyId": "legiscan",
+      "companyName": "Legiscan",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "lork-dev": {
+      "companyId": "lork-dev",
+      "companyName": "Lork.dev",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Рабочее пространство писателя, no‑code для автоматизации ЭДО и ещё 8 российских стартапов - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1ZkNkRnFxY2l2QmtpNnNZaHplWHRwWFJkNHIySmtRVlp1MUpCS3NQNXh3WDJNV1Y1ZERzQ0lldGl1SzU5Nk1UcnlfejhXTmJtVlNFZi1mMTdjc1UxN1o5U2tQRmN0R3BqZkQ3OdIBWEFVX3lxTE14UWZoOG5Wa19pdVZRMWhPU2diNnRhb1VUWUtLSjgzd003MlB0OVlYQmRDc2xkaDFiM2RNRjZ5Z2dvOW9saTI0dDItUDR2ZW1razdTNFlHV3o?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Рабочее пространство писателя, no‑code для автоматизации ЭДО и ещё 8 российских стартапов - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1ZkNkRnFxY2l2QmtpNnNZaHplWHRwWFJkNHIySmtRVlp1MUpCS3NQNXh3WDJNV1Y1ZERzQ0lldGl1SzU5Nk1UcnlfejhXTmJtVlNFZi1mMTdjc1UxN1o5U2tQRmN0R3BqZkQ3OdIBWEFVX3lxTE14UWZoOG5Wa19pdVZRMWhPU2diNnRhb1VUWUtLSjgzd003MlB0OVlYQmRDc2xkaDFiM2RNRjZ5Z2dvOW9saTI0dDItUDR2ZW1razdTNFlHV3o?oc=5",
+          "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
+    },
+    "milo": {
+      "companyId": "milo",
+      "companyName": "M.I.L.O.",
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Mon, 05 Oct 2026 01:00:19 GMT",
+      "latestTitle": "Milo Mile 5 - EA",
+      "latestUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjR1RHRhVUl6TUdmZU95d1YyZkJzTGZ2RUpjcGFaOTBVay01dHFybHBPRmhSSEdPSGRSQzVKeHI2OHhNNlpSa09SNHVFaWpzcU5iazRJUjVJdGpTM0V1amU3SEJZZHBIaWtfUWpVbEhOQ1gwcWQ3ejZGMmdRWnRhMXY5QTJlTUdmQkZ3eTlZQXE2SEU?oc=5",
+      "latestSourceName": "EA",
+      "sources": [
+        {
+          "title": "Milo Mile 5 - EA",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjR1RHRhVUl6TUdmZU95d1YyZkJzTGZ2RUpjcGFaOTBVay01dHFybHBPRmhSSEdPSGRSQzVKeHI2OHhNNlpSa09SNHVFaWpzcU5iazRJUjVJdGpTM0V1amU3SEJZZHBIaWtfUWpVbEhOQ1gwcWQ3ejZGMmdRWnRhMXY5QTJlTUdmQkZ3eTlZQXE2SEU?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 01:00:19 GMT",
+          "sourceName": "EA"
+        }
+      ]
+    },
+    "mnogoreels": {
+      "companyId": "mnogoreels",
+      "companyName": "MnogoReels",
+      "sourceCount30d": 9,
+      "sourceCount7d": 4,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Sat, 03 Oct 2026 20:53:28 GMT",
+      "latestTitle": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
+      "latestSourceName": "Sostav.ru",
+      "sources": [
+        {
+          "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 20:53:28 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 12:13:26 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 17:13:19 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Генератор превью MnogoReels: три обложки за 30 секунд - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUnVBd0lnR0ZmR2NTQlVuS0t5ZDVRRjFJSWN4bU9lUUVBcXF4X2dFc1FiNUVBSkdkU2MxUTZyRThsdnlsMXItREJMNm56TXRpbkxv?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        }
+      ]
+    },
+    "mymeet-ai": {
+      "companyId": "mymeet-ai",
+      "companyName": "mymeet.ai",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "neuroscribe": {
+      "companyId": "neuroscribe",
+      "companyName": "Neuroscribe",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "nexara": {
+      "companyId": "nexara",
+      "companyName": "Nexara",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "pitchy-pro": {
+      "companyId": "pitchy-pro",
+      "companyName": "Pitchy.pro",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "polza-ai": {
+      "companyId": "polza-ai",
+      "companyName": "Polza AI",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "prezka-ai": {
+      "companyId": "prezka-ai",
+      "companyName": "Prezka.ai",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "qmonitoring": {
+      "companyId": "qmonitoring",
+      "companyName": "QMonitoring",
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 07 Oct 2026 17:33:00 GMT",
+      "latestTitle": "Победителями четвертого сезона конкурса «Знай наших» стали 15 брендов - https://expert.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS1VhY1ZWVktEMXBQM1ViT1M3a1p1V3A3eHhtWlFJQmM0ckJPa2FMRVpCdnpFd0piRmxvMmh1NkpxVm9PcV9jSXh4Z0pTSy1EZ1BTeHFuM09abUxhejlzRUgyRU00UUM3UDhfZHBjOU1YeS02dDd4cjR3SXhScE5WMmFSdXU0dVE1VUFrTUtvc0J4ZWFwc2NTU3p3?oc=5",
+      "latestSourceName": "https://expert.ru",
+      "sources": [
+        {
+          "title": "Победителями четвертого сезона конкурса «Знай наших» стали 15 брендов - https://expert.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS1VhY1ZWVktEMXBQM1ViT1M3a1p1V3A3eHhtWlFJQmM0ckJPa2FMRVpCdnpFd0piRmxvMmh1NkpxVm9PcV9jSXh4Z0pTSy1EZ1BTeHFuM09abUxhejlzRUgyRU00UUM3UDhfZHBjOU1YeS02dDd4cjR3SXhScE5WMmFSdXU0dVE1VUFrTUtvc0J4ZWFwc2NTU3p3?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 17:33:00 GMT",
+          "sourceName": "https://expert.ru"
+        }
+      ]
+    },
+    "readabee": {
+      "companyId": "readabee",
+      "companyName": "Readabee",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "reels-boss": {
+      "companyId": "reels-boss",
+      "companyName": "Reels Boss",
+      "sourceCount30d": 6,
+      "sourceCount7d": 3,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Mon, 05 Oct 2026 04:36:12 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestSourceName": "Sostav.ru",
+      "sources": [
+        {
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 04:36:12 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 01:33:14 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
+          "publishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Бренды перестали гоняться за охватом. Теперь они борются за перетекание внимания — и короткое видео стало точкой входа - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyZXpncGd1bXg4cUNJUGY4S2R1bmZycE1WM3piN1ZzYzQ0bF9KU3FGVUhGZEc5TWRWNk5yZmlZSXJJRWtCUktCdFE3b2Q1Z2phMUE?oc=5",
+          "publishedAt": "Thu, 24 Sep 2026 14:51:21 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "🔥 Как нарезать длинное видео на клипы в Reels Boss - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FNkVqUHBtSWt2QzZ6azZoR3JWQjA2NGRPRXAyQVRmWHpDQU80bEVza0xJR0RBemg4UEE2T29oZC1OODhWdkVZd2tBSFhTOWI4MHA4?oc=5",
+          "publishedAt": "Tue, 22 Sep 2026 07:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        }
+      ]
+    },
+    "seomeow": {
+      "companyId": "seomeow",
+      "companyName": "SeoMeow",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "serpjet": {
+      "companyId": "serpjet",
+      "companyName": "SerpJet",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "shieldmind": {
+      "companyId": "shieldmind",
+      "companyName": "ShieldMind.pro",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "synapex-ai": {
+      "companyId": "synapex-ai",
+      "companyName": "Synapex.ai",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "tghunt": {
+      "companyId": "tghunt",
+      "companyName": "TGHunt",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "trigga": {
+      "companyId": "trigga",
+      "companyName": "Trigga",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Как улучшить доставляемость писем: пошаговый разбор - Т—Ж",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kb0ZZR3pIQ2tLN2dYMGlBc3NWQzNBZjI0Vl9sM055VjNHUmt6V3BZb2VieGJKQnBVOXc4ZGltQVZPUUZBNG5tWkVjd0RoZ2VQVjF0cG5LUGgzeGFmX3NZ?oc=5",
+      "latestSourceName": "Т—Ж",
+      "sources": [
+        {
+          "title": "Как улучшить доставляемость писем: пошаговый разбор - Т—Ж",
+          "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kb0ZZR3pIQ2tLN2dYMGlBc3NWQzNBZjI0Vl9sM055VjNHUmt6V3BZb2VieGJKQnBVOXc4ZGltQVZPUUZBNG5tWkVjd0RoZ2VQVjF0cG5LUGgzeGFmX3NZ?oc=5",
+          "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
+          "sourceName": "Т—Ж"
+        }
+      ]
+    },
+    "veai": {
+      "companyId": "veai",
+      "companyName": "Veai",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "visaver": {
+      "companyId": "visaver",
+      "companyName": "ViSaver",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "wikibot": {
+      "companyId": "wikibot",
+      "companyName": "Wikibot",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "wunjo": {
+      "companyId": "wunjo",
+      "companyName": "Wunjo",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "wwchat": {
+      "companyId": "wwchat",
+      "companyName": "WWChat",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "glabix": {
+      "companyId": "glabix",
+      "companyName": "Глабикс",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "dozhmi-prodazhi": {
+      "companyId": "dozhmi-prodazhi",
+      "companyName": "Дожми Продажи",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "integram-ai": {
+      "companyId": "integram-ai",
+      "companyName": "Интеграм",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "latestTitle": "«Агент тупит» — это диагноз инструкции, а не модели - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WR2Z2VE5NMlBIZ3lPa3pLdEVUeDVPUWJZN0tkUkNFdGlyLUJxUEJySzI1azlmWEUxUjVHVkJOLTM5OFpzOW1BT0s0YzRRQdIBWEFVX3lxTE04cVVDLWZWbTgwZWlkYTJzczNWSFBZZE9EeDlnYUxZQ1VlSklVOGcyY2hFanlwcjFwaVh3ZmRPTUpvTHA0R1VPaUlwelFxLXliOWpxRkxWR2E?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "«Агент тупит» — это диагноз инструкции, а не модели - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WR2Z2VE5NMlBIZ3lPa3pLdEVUeDVPUWJZN0tkUkNFdGlyLUJxUEJySzI1azlmWEUxUjVHVkJOLTM5OFpzOW1BT0s0YzRRQdIBWEFVX3lxTE04cVVDLWZWbTgwZWlkYTJzczNWSFBZZE9EeDlnYUxZQ1VlSklVOGcyY2hFanlwcjFwaVh3ZmRPTUpvTHA0R1VPaUlwelFxLXliOWpxRkxWR2E?oc=5",
+          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
+    },
+    "metranpazh": {
+      "companyId": "metranpazh",
+      "companyName": "Метранпаж",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "navstreche": {
+      "companyId": "navstreche",
+      "companyName": "НаВстрече!",
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть I - IT Channel News",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqTklMVVhRUmQ1U2Z0UG96a2FaMDdsbGlMMVZkQkp5cVA2c1dqaElKaUt3TTJwUVFtT096cktxbnlJekFNNTltYUg4TWFFamdfc0ZjbFNWSmhRMWZCbGNfSEtIcURCM1E?oc=5",
+      "latestSourceName": "IT Channel News",
+      "sources": [
+        {
+          "title": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть I - IT Channel News",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqTklMVVhRUmQ1U2Z0UG96a2FaMDdsbGlMMVZkQkp5cVA2c1dqaElKaUt3TTJwUVFtT096cktxbnlJekFNNTltYUg4TWFFamdfc0ZjbFNWSmhRMWZCbGNfSEtIcURCM1E?oc=5",
+          "publishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
+          "sourceName": "IT Channel News"
+        }
+      ]
+    },
+    "okrest": {
+      "companyId": "okrest",
+      "companyName": "Окрест",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "ohvat": {
+      "companyId": "ohvat",
+      "companyName": "Охват",
+      "sourceCount30d": 10,
+      "sourceCount7d": 6,
+      "fundingMentions": 1,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
+      "latestTitle": "Валентина Матвиенко выступила в ходе второй Международной конференции «Всеобщий охват услугами здравоохранения и цели устойчивого развития - Совет Федерации Федерального Собрания Российской Федерации",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
+      "latestSourceName": "Совет Федерации Федерального Собрания Российской Федерации",
+      "sources": [
+        {
+          "title": "Валентина Матвиенко выступила в ходе второй Международной конференции «Всеобщий охват услугами здравоохранения и цели устойчивого развития - Совет Федерации Федерального Собрания Российской Федерации",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
+          "sourceName": "Совет Федерации Федерального Собрания Российской Федерации"
+        },
+        {
+          "title": "Студенту поступило 16 млн тенге: раскрыта схема с охватом 11 регионов и 2 городов Казахстана - NUR.KZ",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZC1kNkhMVXJoMmwtME5Henh6T0xoSG90a2Y1Qnh2WWdrRkJKUHZXZnlYczFPTmwzLVViUkN4ZWh0RTE0bEVPbkVHa04zQjQzN3pDY0RObHg4OXFVeXJCUXFxTktGaXBsVEo2ZUo5S3l4aEZ2Z3N6akcxcUNPSF9XVlJYV0dHdFVxNU4ta3pKMjN1YWFxT1pPNWIyRmo1Y2hWM2l1LUlWTUJKNHFtaVZzVEFQU1FQRWZkM1NVMnZ6dmlJSEVFem5NRkwyZE9teXc?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 10:24:00 GMT",
+          "sourceName": "NUR.KZ"
+        },
+        {
+          "title": "120 проектов и 90 % охвата: ИИ‑трансформация регионов от Сбера (5 октября 2026 г.) - M O N D I A R A",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Mb1BTVDZrbUhORU1INnVLdExWVkFBZnE1VjhrUXg0cWdZOHd6UF9MQlliNTJ3Z2p3VV9CQlZjZmVaUm5kVmx6clAwR1N5NVNxZDZUMWtyc1RFVVVRRnVCZkFR?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 09:51:06 GMT",
+          "sourceName": "M O N D I A R A"
+        },
+        {
+          "title": "ВС РФ углубляют охват Доброполья и вплотную подходят к Белозерскому - Life.ru",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
+          "sourceName": "Life.ru"
+        },
+        {
+          "title": "YouTube начал ограничивать охваты Shorts-каналов за перезалив чужих роликов - Techora.ru",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRlJ4cGZmdW9BOHZOTVJGNV9VZTN3WGV4V2JjUklVcTZ1bTlCMEV3LXhab09qbjJWYmduTV9rMGpyNnFfcmlOLWhJNEVwWThTLXQtdUc1MlB5VnV2c0VOX0RtbFZIMkE2aldQNFEzYS1BNXhYR2xZRGZEd2FYS0dTRWJXUWhNYmVsQnpRSjJn?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 14:32:56 GMT",
+          "sourceName": "Techora.ru"
+        }
+      ]
+    },
+    "poehali-dev": {
+      "companyId": "poehali-dev",
+      "companyName": "Поехали.dev",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "rekom-plus": {
+      "companyId": "rekom-plus",
+      "companyName": "Реком+",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "sammari-2": {
+      "companyId": "sammari-2",
+      "companyName": "САММАРИ 2.0",
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    }
+  }
 };
 
 export function getLiveMarketSignal(companyId) {
