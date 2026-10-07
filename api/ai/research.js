@@ -2,7 +2,7 @@ import { emergingStartups } from '../../src/data/emergingStartups.js';
 
 const MAX_ITEMS = 12;
 const MAX_RESEARCH_CANDIDATES = 8;
-const MAX_QUERIES = 12;
+const MAX_QUERIES = 16;
 const WINDOW_DAYS = 14;
 
 function json(res, status, body) {
@@ -104,6 +104,7 @@ export default async function handler(req, res) {
     const body = req.body && typeof req.body === 'object' ? req.body : {};
     const objective = String(body.objective || '').trim();
     const company = body.company && typeof body.company === 'object' ? body.company : null;
+    const mode = String(body.mode || 'MARKET_SCAN').toUpperCase();
 
     if (!objective && !company?.name) {
       return json(res, 400, { error: 'RESEARCH_QUERY_REQUIRED' });
@@ -122,12 +123,14 @@ export default async function handler(req, res) {
           '"' + company.name + '" релиз',
           '"' + company.name + '" инвестиции',
         ]
-      : [
-          normalizedObjective,
-          normalizedObjective + ' российский AI стартап',
-          ...registryCandidates.map((item) => '"' + item.name + '" новый продукт 2026'),
-          ...registryCandidates.map((item) => '"' + item.name + '" запуск 2026'),
-        ];
+      : mode === 'CREATE_POST'
+        ? registryCandidates.map((item) => '"' + item.name + '" ("новый продукт" OR запуск OR релиз OR представил OR представила) 2026')
+        : [
+            normalizedObjective,
+            normalizedObjective + ' российский AI стартап',
+            'российские молодые AI стартапы новый продукт',
+            'российский AI стартап запуск продукта инвестиции',
+          ];
 
     const uniqueQueries = [...new Set(queries)].slice(0, MAX_QUERIES);
     const settled = await Promise.allSettled(
