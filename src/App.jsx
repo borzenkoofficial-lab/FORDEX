@@ -271,6 +271,29 @@ function Home({ watchlist, toggleWatch }) {
         </div>
       </section>
 
+      <section className="home-news">
+        <div className="section-head home-news-head">
+          <div><span>РЕДАКЦИЯ FORDEX</span><h2>ПОСЛЕДНИЕ<br />СИГНАЛЫ.</h2></div>
+          <ButtonLink route="news" className="view-all">ВСЕ НОВОСТИ <ArrowRight size={14} /></ButtonLink>
+        </div>
+        <div className="home-news-grid">
+          {editorialArticles.slice(0, 3).map((story, index) => (
+            <button type="button" className="home-news-card" key={story.id} onClick={() => goto('article-' + story.id)}>
+              <div className="home-news-top">
+                <span>{String(index + 1).padStart(2, '0')}</span>
+                <small>{ruDate(story.date)} · {story.readTime}</small>
+              </div>
+              <div className="home-news-copy">
+                <span>{story.category}</span>
+                <h3>{story.title}</h3>
+                <p>{story.dek}</p>
+              </div>
+              <div className="home-news-cta">ЧИТАТЬ <ArrowRight size={13} /></div>
+            </button>
+          ))}
+        </div>
+      </section>
+
       <section className="home-dual">
         <div className="signal-panel">
           <div className="panel-head"><span>КРУПНЕЙШИЕ ЗАФИКСИРОВАННЫЕ СДЕЛКИ</span><WalletCards size={20} /></div>
