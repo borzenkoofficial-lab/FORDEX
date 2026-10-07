@@ -37,21 +37,62 @@ function loadDrafts() {
   }
 }
 
-function extractJson(text) {
-  if (!text) return null;
-  const fenced = text.match(/\`\`\`json\\s*([\\s\\S]*?)\`\`\`/i);
-  const raw = fenced?.[1] || text;
+function displayText(value) {
+  if (value == null) return '';
+  if (typeof value === 'string' || typeof value === 'number' || typeof value === 'boolean') return String(value);
+  if (Array.isArray(value)) return value.map(displayText).filter(Boolean).join('\n');
+  if (typeof value === 'object') {
+    for (const key of ['text', 'content', 'value', 'statement', 'summary', 'post']) {
+      if (value[key] != null) {
+        const text = displayText(value[key]);
+        if (text) return text;
+      }
+    }
+    try { return JSON.stringify(value, null, 2); } catch { return ''; }
+  }
+  return String(value);
+}
+
+function extractJson(value) {
+  if (value == null) return null;
+  if (typeof value === 'object') return value;
+  const source = String(value);
+  if (!source.trim()) return null;
+  const fenced = source.match(/\`\`\`json\s*([\s\S]*?)\`\`\`/i);
+  const raw = fenced?.[1] || source;
   try { return JSON.parse(raw); } catch { return null; }
 }
 
-function normalizeResearch(text) {
-  const parsed = extractJson(text);
-  if (parsed) return parsed;
+function normalizeResearch(value) {
+  const parsed = extractJson(value);
+  if (!parsed || typeof parsed !== 'object') {
+    return { summary: displayText(value), facts: [], sources: [], post: '' };
+  }
+
+  const facts = Array.isArray(parsed.facts)
+    ? parsed.facts.map((fact) => ({
+        ...(fact && typeof fact === 'object' ? fact : {}),
+        title: displayText(fact?.title),
+        statement: displayText(fact?.statement ?? fact?.text),
+      }))
+    : [];
+
+  const sources = Array.isArray(parsed.sources)
+    ? parsed.sources.map((source) => ({
+        ...(source && typeof source === 'object' ? source : {}),
+        name: displayText(source?.name),
+        sourceName: displayText(source?.sourceName),
+        title: displayText(source?.title),
+        url: displayText(source?.url),
+      }))
+    : [];
+
   return {
-    summary: text,
-    facts: [],
-    sources: [],
-    post: '',
+    ...parsed,
+    summary: displayText(parsed.summary),
+    facts,
+    sources,
+    post: displayText(parsed.post),
   };
 }
 
@@ -379,12 +420,12 @@ export function AgentControlRoom() {
               )}
               <details className="agent-raw">
                 <summary>Показать raw output</summary>
-                <pre>{lastRun.output}</pre>
+                <pre>{displayText(lastRun.output)}</pre>
               </details>
             </div>
             <div className="agent-result-side">
               <div className="agent-side-card"><span>RESPONSE ID</span><strong>{lastRun.id}</strong></div>
-              <div className="agent-side-card"><span>USAGE</span><strong>{lastRun.usage ? JSON.stringify(lastRun.usage) : '—'}</strong></div>
+              <div className="agent-side-card"><span>USAGE</span><strong>{lastRun.usage ? displayText(lastRun.usage) : '—'}</strong></div>
               <div className="agent-side-card"><span>SELECTED COMPANY</span><strong>{selectedCompany?.name || 'MARKET'}</strong></div>
               <div className="agent-side-card"><span>RESEARCH SOURCES</span><strong>{lastRun.research?.sourceCount ?? 0}</strong></div>
               <div className="agent-side-card"><span>PUBLICATION</span><strong>WAITING FOR HUMAN APPROVAL</strong></div>
