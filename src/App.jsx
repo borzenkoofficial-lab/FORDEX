@@ -888,10 +888,10 @@ function News() {
       </section>
 
       <section className="news-feed" aria-label="Лента новостей FORDEX">
-        <div className="news-feed-head"><span>ПОСЛЕДНИЕ ПУБЛИКАЦИИ</span><small>{filtered.length + 1} МАТЕРИАЛОВ</small></div>
+        <div className="news-feed-head"><span>ПОСЛЕДНИЕ ПУБЛИКАЦИИ</span><small>{activeCategory === 'ALL' ? Math.min(5, editorialArticles.length) : filtered.length} МАТЕРИАЛОВ</small></div>
         <div className="news-feed-list">
-          {(activeCategory === 'ALL' ? editorialArticles.slice(0, 5) : [latest, ...filtered]).map((story, index) => (
-            <article key={story.id} className={index === 0 && activeCategory !== 'ALL' ? 'news-item news-item-linked' : 'news-item'}>
+          {(activeCategory === 'ALL' ? editorialArticles.slice(0, 5) : filtered).map((story, index) => (
+            <article key={story.id} className="news-item">
               <div className="news-item-index">{String(index + 1).padStart(2, '0')}</div>
               <div className="news-item-main">
                 <div className="news-item-meta"><span>{ruDate(story.date)}</span><b>{story.category}</b><small>{story.readTime}</small></div>
