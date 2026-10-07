@@ -1853,3 +1853,62 @@ footer .footer-links button:hover{color:#8fb0ff}
   .article-number{display:none}
   .article-hero-media{grid-column:auto}
 }
+
+
+/* =========================================================
+   RANKING MOTION + MEDALS — consistent across FORDEX rankings
+   ========================================================= */
+.rank-mark{
+  display:inline-flex;
+  align-items:center;
+  justify-content:center;
+  min-width:40px;
+  height:40px;
+  border:1px solid var(--fx-line);
+  background:#fff;
+  border-radius:11px;
+  font-family:var(--fx-display);
+  font-weight:900;
+  color:var(--fx-ink);
+  box-shadow:0 4px 12px rgba(30,55,90,.06);
+}
+.rank-mark.compact{min-width:34px;height:34px;border-radius:9px}
+.rank-medal{font-size:20px;line-height:1;filter:drop-shadow(0 2px 3px rgba(0,0,0,.12))}
+.rank-number{font-size:12px;letter-spacing:.02em}
+.rank-mark-1{border-color:#e3c75d;background:linear-gradient(145deg,#fffdf1,#fff8d7);color:#9b7816;box-shadow:0 6px 18px rgba(185,145,28,.15)}
+.rank-mark-2{border-color:#bcc8d4;background:linear-gradient(145deg,#ffffff,#eef2f6);color:#667587}
+.rank-mark-3{border-color:#d5ae8b;background:linear-gradient(145deg,#fffaf6,#f5e6d9);color:#985f35}
+.ranking-top-card-head{display:flex;align-items:center;gap:14px}
+.ranking-top-card-head small{margin-left:auto}
+.ranking-top-card .rank-mark{transition:transform .2s ease,box-shadow .2s ease}
+.ranking-top-card:hover .rank-mark{transform:translateY(-3px) rotate(-2deg)}
+.startup-item{
+  position:relative;
+  overflow:hidden;
+  animation:rank-row-in .42s cubic-bezier(.2,.7,.2,1) both;
+  animation-delay:calc(min(var(--rank-index, 0), 14) * 32ms);
+}
+.startup-item::before{
+  content:'';
+  position:absolute;
+  left:0;
+  top:0;
+  bottom:0;
+  width:3px;
+  background:transparent;
+  transition:background .18s ease;
+}
+.startup-item:hover::before{background:var(--fx-blue)}
+.startup-item:nth-child(2)::before{background:#d8b83f}
+.startup-item:nth-child(3)::before{background:#aeb9c4}
+.startup-item:nth-child(4)::before{background:#cc9770}
+.rank-cell .rank-mark{flex:none}
+.rank-cell .rank-up,.rank-cell .rank-down,.rank-cell .rank-flat{display:block}
+@keyframes rank-row-in{
+  from{opacity:0;transform:translateY(10px)}
+  to{opacity:1;transform:translateY(0)}
+}
+@media (prefers-reduced-motion: reduce){
+  .startup-item{animation:none}
+  .ranking-top-card .rank-mark{transition:none}
+}
