@@ -623,9 +623,13 @@ function Rankings() {
   const visibleYoung = useMemo(() => {
     const normalized = query.trim().toLowerCase();
     return [...youngLeaderRankings]
-      .filter((item) => [item.name, item.sector, item.stage, item.city, item.founder || '', item.sourceName || ''].join(' ').toLowerCase().includes(normalized))
+      .filter((item) => {
+        const matchesCategory = category === 'ALL' || item.tags?.includes(category) || item.sector === category;
+        const haystack = [item.name, item.sector, item.stage, item.city, item.founder || '', item.sourceName || ''].join(' ').toLowerCase();
+        return matchesCategory && haystack.includes(normalized);
+      })
       .sort((a, b) => a.rank - b.rank);
-  }, [query]);
+  }, [category, query]);
 
   const handleRankingItemClick = (item) => {
     if (compareQueue.length === 1 && compareQueue[0].id !== item.id) {
