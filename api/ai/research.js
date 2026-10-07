@@ -1,5 +1,8 @@
+import { emergingStartups } from '../../src/data/emergingStartups.js';
+
 const MAX_ITEMS = 12;
-const MAX_COMPANIES = 5;
+const MAX_RESEARCH_CANDIDATES = 8;
+const MAX_QUERIES = 12;
 const WINDOW_DAYS = 14;
 
 function json(res, status, body) {
@@ -107,21 +110,26 @@ export default async function handler(req, res) {
     }
 
     const normalizedObjective = objective.replace(/\s+/g, ' ').slice(0, 220);
+    const registryCandidates = emergingStartups
+      .filter((item) => item.kind === 'EMERGING STARTUP')
+      .filter((item) => item.name && item.lastVerified)
+      .slice(0, MAX_RESEARCH_CANDIDATES);
+
     const queries = company?.name
       ? [
-          '"' + company.name + '" ИИ',
-          '"' + company.name + '" инвестиции',
-          '"' + company.name + '" продукт',
+          '"' + company.name + '" новый продукт',
           '"' + company.name + '" запуск',
+          '"' + company.name + '" релиз',
+          '"' + company.name + '" инвестиции',
         ]
       : [
           normalizedObjective,
           normalizedObjective + ' российский AI стартап',
-          'российские молодые AI стартапы новый продукт',
-          'российский AI стартап запуск продукта инвестиции',
+          ...registryCandidates.map((item) => '"' + item.name + '" новый продукт 2026'),
+          ...registryCandidates.map((item) => '"' + item.name + '" запуск 2026'),
         ];
 
-    const uniqueQueries = [...new Set(queries)].slice(0, MAX_COMPANIES);
+    const uniqueQueries = [...new Set(queries)].slice(0, MAX_QUERIES);
     const settled = await Promise.allSettled(
       uniqueQueries.map(async (query) => ({ query, items: await search(query) })),
     );
@@ -157,7 +165,23 @@ export default async function handler(req, res) {
         }]
       : [];
 
-    const mergedSources = [...sources];
+    const knownCompanyNames = registryCandidates.map((item) => item.name.toLowerCase());
+    const enrichedSources = sources.map((source) => {
+      const haystack = [source.title, source.description, source.sourceName].join(' ').toLowerCase();
+      const matchedCompany = registryCandidates.find((item) => haystack.includes(item.name.toLowerCase()));
+      return {
+        ...source,
+        matchedCompany: matchedCompany
+          ? { id: matchedCompany.id, name: matchedCompany.name, stage: matchedCompany.stage, city: matchedCompany.city, description: matchedCompany.description }
+          : null,
+      };
+    });
+
+    const relevantSources = enrichedSources.filter((source) => source.matchedCompany || company?.name);
+    const finalSources = (company?.name ? enrichedSources : relevantSources.length ? relevantSources : enrichedSources)
+      .sort((a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0));
+
+    const mergedSources = [...finalSources];
     for (const item of fallbackSources) {
       if (!seen.has(item.url)) mergedSources.push(item);
     }
@@ -169,6 +193,16 @@ export default async function handler(req, res) {
       successfulQueries: batches.length,
       failedQueries: errors.length,
       sourceCount: mergedSources.length,
+      candidateCount: registryCandidates.length,
+      candidates: registryCandidates.map((item) => ({
+        id: item.id,
+        name: item.name,
+        stage: item.stage,
+        city: item.city,
+        sector: item.sector,
+        description: item.description,
+        evidence: item.evidence,
+      })),
       warnings: errors,
       sources: mergedSources.slice(0, MAX_ITEMS),
     });
