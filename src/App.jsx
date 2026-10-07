@@ -2,7 +2,7 @@ import { useEffect, useMemo, useState } from 'react';
 import { rankingCategories, scoreWeights } from './data/startups';
 import { rankingCollections } from './data/rankingCollections';
 import { rankedStartupIndex, rankingModel } from './lib/rankingEngine';
-import { founderProfiles, marketCompanies, marketSummary, newsFeed } from './data/market';
+import { founderProfiles, marketCompanies, marketSummary } from './data/market';
 import { dealRecords } from './data/deals.js';
 import { coverageLabels, researchUniverse } from './data/coverage';
 import { aiProviderRankings, aiProviderSource } from './data/providerRankings';
