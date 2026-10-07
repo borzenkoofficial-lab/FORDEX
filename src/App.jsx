@@ -12,6 +12,7 @@ import { editorialArticles, getEditorialArticle } from './data/articles';
 import { youngLeaderRankings, youngLeaderMethodology } from './data/youngLeaders';
 import { companyRegistry, companyRegistryStats } from './data/companyRegistry';
 import { founderRegistry, founderRegistryStats } from './data/founderRegistry';
+import { createBrandMockup } from './lib/visualMockup.js';
 import { evidenceRegistryStats } from './data/evidenceRegistry';
 import { ruText, ruTag, ruSector, ruStage, ruCity, ruKind, ruRole, ruScoreLabel, ruDate, ruSizeBand } from './i18n';
 import {
@@ -37,13 +38,15 @@ import {
   X,
 } from 'lucide-react';
 
-const NAV = ['COMPANIES', 'FOUNDERS', 'DEALS', 'RANKINGS', 'MARKET'];
-const EDITORIAL_IMAGE = 'https://images.unsplash.com/photo-1521737711867-e3b97375f902?auto=format&fit=crop&w=1600&q=88';
+const NAV =const EDITORIAL_IMAGE = createBrandMockup('FORDEX', 'AI BUSINESS INDEX', 'RESEARCH · DATA · RANKING');
 
 const categoryLinks = [
-  { title: 'COMPANIES', text: 'Структурированные профили компаний российской AI-экономики.', href: 'companies', image: 'https://images.unsplash.com/photo-1556761175-b413da4baf72?auto=format&fit=crop&w=720&q=86' },
-  { title: 'FOUNDERS', text: 'Люди, которые строят команды, продукты и рынки.', href: 'founders', image: 'https://images.unsplash.com/photo-1500648767791-00dcc994a43e?auto=format&fit=crop&w=720&q=86' },
-  { title: 'DEALS', text: 'Раунды финансирования и движения капитала с привязанными доказательствами.', href: 'deals', image: 'https://images.unsplash.com/photo-1551836022-d5d88e9218df?auto=format&fit=crop&w=720&q=86' },
+  { title: 'COMPANIES', text: 'Структурированные профили компаний российской AI-экономики.', href: 'companies', image: createBrandMockup('FORDEX COMPANIES', 'COMPANY DATABASE', 'COMPANIES · INDEX') },
+  { title: 'FOUNDERS', text: 'Команды и основатели без случайных стоковых портретов — только фирменная подача.', href: 'founders', image: createBrandMockup('FORDEX FOUNDERS', 'TEAM / LEADERSHIP', 'FOUNDERS · PROFILES') },
+  { title: 'DEALS', text: 'Раунды финансирования и движения капитала с привязанными доказательствами.', href: 'deals', image: createBrandMockup('FORDEX DEALS', 'CAPITAL / FINANCE', 'DEALS · CAPITAL') },
+];
+
+36022-d5d88e9218df?auto=format&fit=crop&w=720&q=86' },
 ];
 
 const sectorFilters = ['ALL', 'EMERGING', 'GROWING', 'AI / AGENTS', 'DEEPTECH', 'MEDTECH', 'NEUROTECH', 'INDUSTRIAL', 'CONSUMER'];
