@@ -1,4 +1,4 @@
-export const AI_CONTRACT_VERSION = '1.0';
+export const AI_CONTRACT_VERSION = '1.1';
 
 export const AI_TOOLS = Object.freeze({
   SEARCH_WEB: 'search_web',
@@ -12,14 +12,14 @@ export const AI_TOOLS = Object.freeze({
 });
 
 export const TOOL_POLICY = Object.freeze({
-  search_web: { roles: ['research', 'evidence', 'editor'], mutates: false },
-  inspect_source: { roles: ['research', 'evidence', 'editor'], mutates: false },
-  create_evidence: { roles: ['evidence', 'editor'], mutates: false, requiresEvidence: false },
+  search_web: { roles: ['research', 'editor'], mutates: false, requiresEvidence: false },
+  inspect_source: { roles: ['research', 'evidence', 'editor'], mutates: false, requiresEvidence: false },
+  create_evidence: { roles: ['evidence', 'editor'], mutates: true, requiresEvidence: false },
   propose_company_update: { roles: ['data', 'editor'], mutates: true, requiresEvidence: true },
   recalculate_ranking: { roles: ['ranking', 'editor'], mutates: false, deterministic: true },
-  create_news_draft: { roles: ['news', 'editor'], mutates: false, requiresEvidence: true },
-  request_visual: { roles: ['visual', 'editor'], mutates: false },
-  run_quality_check: { roles: ['quality', 'editor'], mutates: false },
+  create_news_draft: { roles: ['news', 'editor'], mutates: true, requiresEvidence: true },
+  request_visual: { roles: ['visual', 'editor'], mutates: true, requiresEvidence: false },
+  run_quality_check: { roles: ['quality', 'editor'], mutates: false, requiresEvidence: false },
 });
 
 export const JOB_TYPES = Object.freeze({
@@ -42,7 +42,15 @@ export const JOB_STATES = Object.freeze({
 
 export function createAgentJob({ type, objective, companyId = null }) {
   if (!Object.values(JOB_TYPES).includes(type)) throw new Error('Unknown job type');
-  return { id: `job-${Date.now()}`, type, objective, companyId, state: JOB_STATES.QUEUED, createdAt: new Date().toISOString() };
+  if (!objective) throw new Error('Job objective is required');
+  return {
+    id: `job-${Date.now()}`,
+    type,
+    objective,
+    companyId,
+    state: JOB_STATES.QUEUED,
+    createdAt: new Date().toISOString(),
+  };
 }
 
 export function assertToolAllowed(role, toolName) {
