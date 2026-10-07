@@ -106,16 +106,19 @@ export default async function handler(req, res) {
       return json(res, 400, { error: 'RESEARCH_QUERY_REQUIRED' });
     }
 
+    const normalizedObjective = objective.replace(/\s+/g, ' ').slice(0, 220);
     const queries = company?.name
       ? [
           '"' + company.name + '" ИИ',
           '"' + company.name + '" инвестиции',
           '"' + company.name + '" продукт',
+          '"' + company.name + '" запуск',
         ]
       : [
-          'российские AI стартапы инвестиции',
-          'российский искусственный интеллект сделка',
-          'российский AI новый продукт',
+          normalizedObjective,
+          normalizedObjective + ' российский AI стартап',
+          'российские молодые AI стартапы новый продукт',
+          'российский AI стартап запуск продукта инвестиции',
         ];
 
     const uniqueQueries = [...new Set(queries)].slice(0, MAX_COMPANIES);
