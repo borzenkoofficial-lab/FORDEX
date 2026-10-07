@@ -990,6 +990,7 @@ function News() {
   const [activeCategory, setActiveCategory] = useState('ALL');
   const categories = ['ALL', ...new Set(editorialArticles.map((story) => story.category))];
   const latest = editorialArticles[0];
+  const rest = editorialArticles.slice(1);
   const filtered = activeCategory === 'ALL' ? rest : rest.filter((story) => story.category === activeCategory);
 
   return (
