@@ -1,1 +1,27 @@
-{"name":"fordex","private":true,"version":"0.1.0","type":"module","scripts":{"dev":"vite","build":"vite build","preview":"vite preview","verify:ranking":"node scripts/verify-ranking.mjs","verify:data":"node scripts/verify-data.mjs","verify:agent":"node scripts/verify-agent-foundation.mjs","verify:ai-editor":"node scripts/verify-ai-editor.mjs","verify:model":"node scripts/verify-model-gateway.mjs","verify:runtime":"node scripts/verify-runtime-gateway.mjs"},"dependencies":{"@vitejs/plugin-react":"latest","vite":"latest","react":"latest","react-dom":"latest","lucide-react":"latest"},"devDependencies":{}}
+{
+  "name": "fordex",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "verify:ranking": "node scripts/verify-ranking.mjs",
+    "verify:data": "node scripts/verify-data.mjs",
+    "verify:agent": "node scripts/verify-agent-foundation.mjs",
+    "verify:ai-editor": "node scripts/verify-ai-editor.mjs",
+    "verify:model": "node scripts/verify-model-gateway.mjs",
+    "verify:runtime": "node scripts/verify-runtime-gateway.mjs",
+    "refresh:market": "node scripts/refresh-market.mjs",
+    "verify:live-market": "node scripts/verify-live-market.mjs"
+  },
+  "dependencies": {
+    "@vitejs/plugin-react": "latest",
+    "vite": "latest",
+    "react": "latest",
+    "react-dom": "latest",
+    "lucide-react": "latest"
+  },
+  "devDependencies": {}
+}
