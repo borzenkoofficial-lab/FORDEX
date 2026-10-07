@@ -1379,3 +1379,49 @@ select:focus-visible{
     max-width:190px;
   }
 }
+
+
+/* AI editor / control room */
+.agent-control { padding: 0 32px 80px; max-width: 1440px; margin: 0 auto; }
+.agent-control-hero { display:flex; justify-content:space-between; gap:48px; padding:72px 0 54px; border-bottom:1px solid var(--line, #d8d8d8); }
+.agent-control-hero > div:first-child { max-width:760px; }
+.agent-control-hero span, .agent-panel-head span, .agent-metric > span { font-size:10px; letter-spacing:.14em; text-transform:uppercase; }
+.agent-control-hero h1 { font-size:clamp(46px,7vw,100px); line-height:.88; letter-spacing:-.055em; margin:18px 0 24px; }
+.agent-control-hero p { max-width:650px; font-size:17px; line-height:1.55; color:#666; }
+.agent-status { align-self:flex-start; display:grid; grid-template-columns:auto 1fr; gap:6px 10px; min-width:250px; padding:18px; border:1px solid #111; }
+.agent-status svg { grid-row:1 / span 2; margin-top:2px; }
+.agent-status strong { font-size:12px; letter-spacing:.08em; }
+.agent-status span { font-size:9px; letter-spacing:.1em; color:#777; }
+.agent-kpis { display:grid; grid-template-columns:repeat(4,1fr); border-bottom:1px solid var(--line,#d8d8d8); }
+.agent-metric { min-height:150px; padding:26px 22px; border-right:1px solid var(--line,#d8d8d8); display:flex; flex-direction:column; justify-content:space-between; }
+.agent-metric:last-child { border-right:0; }
+.agent-metric strong { font-size:48px; letter-spacing:-.05em; line-height:1; }
+.agent-metric em { font-size:10px; font-style:normal; color:#777; }
+.agent-control-grid { display:grid; grid-template-columns:1fr 1fr; gap:20px; margin-top:20px; }
+.agent-panel { border:1px solid var(--line,#d8d8d8); background:#fff; }
+.agent-panel-head { min-height:48px; display:flex; align-items:center; justify-content:space-between; padding:0 16px; border-bottom:1px solid var(--line,#d8d8d8); }
+.agent-panel-head strong { font-size:9px; letter-spacing:.1em; }
+.agent-roles { padding:8px 16px; }
+.agent-role { display:grid; grid-template-columns:100px 1fr auto; gap:12px; align-items:center; min-height:42px; border-bottom:1px solid #eee; }
+.agent-role:last-child { border-bottom:0; }
+.agent-role span, .agent-role strong { font-size:11px; }
+.agent-role span { color:#777; font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+.agent-role em { font-size:8px; font-style:normal; letter-spacing:.12em; border:1px solid #bbb; padding:4px 6px; }
+.agent-gates { padding:14px 16px; }
+.agent-gate { display:flex; align-items:center; gap:9px; min-height:40px; border-bottom:1px solid #eee; font-size:12px; }
+.agent-gate svg { flex:0 0 auto; }
+.agent-warning, .agent-safe { display:flex; gap:9px; align-items:flex-start; margin:12px 16px 16px; padding:12px; background:#f5f5f3; font-size:11px; line-height:1.45; }
+.agent-workflow { margin-top:20px; }
+.agent-steps { display:grid; grid-template-columns:repeat(10,1fr); }
+.agent-step { min-height:82px; padding:12px; border-right:1px solid #eee; display:flex; flex-direction:column; justify-content:space-between; }
+.agent-step:last-child { border-right:0; }
+.agent-step b { font-size:9px; color:#888; }
+.agent-step span { font-size:9px; letter-spacing:.08em; }
+.agent-table { padding:8px 16px; }
+.agent-row { display:flex; justify-content:space-between; padding:12px 0; border-bottom:1px solid #eee; font-size:11px; }
+.agent-row:last-child { border-bottom:0; }
+.agent-row strong { font-family:ui-monospace,SFMono-Regular,Menlo,monospace; }
+.agent-contract { padding:18px 16px; font-size:12px; line-height:1.55; }
+.agent-contract p { margin:0 0 18px; }
+@media (max-width: 900px) { .agent-control { padding:0 18px 50px; } .agent-control-hero { display:block; padding:48px 0 36px; } .agent-status { margin-top:28px; } .agent-kpis { grid-template-columns:1fr 1fr; } .agent-metric:nth-child(2) { border-right:0; } .agent-control-grid { grid-template-columns:1fr; } .agent-steps { grid-template-columns:repeat(2,1fr); } .agent-step:nth-child(2n) { border-right:0; } }
+@media (max-width: 520px) { .agent-control-hero h1 { font-size:48px; } .agent-kpis { grid-template-columns:1fr 1fr; } .agent-metric { min-height:120px; padding:18px 14px; } .agent-metric strong { font-size:36px; } .agent-role { grid-template-columns:1fr auto; } .agent-role span { display:none; } }
