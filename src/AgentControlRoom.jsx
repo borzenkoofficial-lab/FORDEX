@@ -109,7 +109,7 @@ export function AgentControlRoom() {
         research = await runResearchAdapter({
           objective: objective.trim(),
           company: selectedCompany
-            ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector }
+            ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector, website: selectedCompany.website || null }
             : null,
         });
       }
