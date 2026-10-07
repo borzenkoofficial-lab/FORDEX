@@ -18,13 +18,18 @@ export async function runEditorModel({
   context = {},
   provider = null,
   model = null,
+  testKey = '',
   signal,
 } = {}) {
   if (!objective?.trim()) throw new Error('MODEL_OBJECTIVE_REQUIRED');
 
   const response = await fetch('/api/ai/editor', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    headers: {
+      'Content-Type': 'application/json',
+      Accept: 'application/json',
+      ...(testKey?.trim() ? { 'X-FORDEX-Test-Key': testKey.trim() } : {}),
+    },
     body: JSON.stringify({ objective, companyId, context, provider, model }),
     signal,
   });
