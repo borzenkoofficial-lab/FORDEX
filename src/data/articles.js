@@ -1,4 +1,6 @@
-export const editorialArticles = [
+import { createEditorialMockup } from '../lib/visualMockup.js';
+
+const editorialArticleSource = [
   {
     id: 'webiomed-sep-2026',
     category: 'ЗДРАВООХРАНЕНИЕ',
@@ -162,6 +164,15 @@ export const editorialArticles = [
     source: 'https://rb.ru/tag/startups/'
   }
 ];
+
+export const editorialArticles = editorialArticleSource.map((article) => ({
+  ...article,
+  media: article.media ?? {
+    kind: 'EDITORIAL_MOCKUP',
+    src: createEditorialMockup(article.sourceName, article.category, article.title),
+    alt: article.title,
+  },
+}));
 
 export function getEditorialArticle(id) {
   return editorialArticles.find((article) => article.id === id) || null;
