@@ -135,6 +135,13 @@ export function AgentControlRoom() {
       });
 
       const normalized = normalizeResearch(result.output);
+      const safeNormalized = operation === 'CREATE_POST' && !normalized.post
+        ? {
+            ...normalized,
+            post: result.output,
+            sources: normalized.sources?.length ? normalized.sources : (lastRun?.research?.sources || []),
+          }
+        : normalized;
       const run = {
         id: result.responseId || 'run-' + Date.now(),
         at: new Date().toISOString(),
@@ -142,21 +149,21 @@ export function AgentControlRoom() {
         provider: result.provider,
         model: result.model,
         output: result.output,
-        normalized,
+        normalized: safeNormalized,
         usage: result.usage || null,
         research,
       };
 
       setLastRun(run);
 
-      if (operation === 'CREATE_POST' && normalized.post) {
+      if (operation === 'CREATE_POST' && safeNormalized.post) {
         setDrafts((current) => [
           {
             id: run.id,
             createdAt: run.at,
-            title: normalized.facts?.[0]?.title || selectedCompany?.name || 'AI draft',
-            post: normalized.post,
-            sources: Array.isArray(normalized.sources) ? normalized.sources : [],
+            title: safeNormalized.facts?.[0]?.title || selectedCompany?.name || 'AI draft',
+            post: safeNormalized.post,
+            sources: Array.isArray(safeNormalized.sources) ? safeNormalized.sources : [],
             status: 'WAITING_APPROVAL',
           },
           ...current.filter((draft) => draft.id !== run.id),
@@ -309,9 +316,20 @@ export function AgentControlRoom() {
                   ))}
                 </div>
               )}
+              {lastRun.research?.sources?.length > 0 && (
+                <div className="agent-result-block">
+                  <span>DISCOVERED SOURCES / RESEARCH ADAPTER</span>
+                  {lastRun.research.sources.map((source, index) => (
+                    <a key={'discovered-' + (source.url || index)} className="agent-source-link" href={source.url} target="_blank" rel="noreferrer">
+                      <strong>{source.sourceName || 'NEWS SOURCE'}</strong>
+                      <span>{source.title || source.url}</span>
+                    </a>
+                  ))}
+                </div>
+              )}
               {Array.isArray(lastRun.normalized.sources) && lastRun.normalized.sources.length > 0 && (
                 <div className="agent-result-block">
-                  <span>SOURCES</span>
+                  <span>MODEL SOURCES</span>
                   {lastRun.normalized.sources.map((source, index) => (
                     <a key={source.url || index} className="agent-source-link" href={source.url} target="_blank" rel="noreferrer">
                       <strong>{source.name || source.sourceName || 'SOURCE'}</strong>
@@ -335,6 +353,7 @@ export function AgentControlRoom() {
               <div className="agent-side-card"><span>RESPONSE ID</span><strong>{lastRun.id}</strong></div>
               <div className="agent-side-card"><span>USAGE</span><strong>{lastRun.usage ? JSON.stringify(lastRun.usage) : '—'}</strong></div>
               <div className="agent-side-card"><span>SELECTED COMPANY</span><strong>{selectedCompany?.name || 'MARKET'}</strong></div>
+              <div className="agent-side-card"><span>RESEARCH SOURCES</span><strong>{lastRun.research?.sourceCount ?? 0}</strong></div>
               <div className="agent-side-card"><span>PUBLICATION</span><strong>WAITING FOR HUMAN APPROVAL</strong></div>
             </div>
           </div>
