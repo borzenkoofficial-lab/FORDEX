@@ -198,7 +198,10 @@ function Header({ route, watchCount, onSearch }) {
 }
 
 function Home({ watchlist, toggleWatch }) {
-  const rising = startupRankings.filter((item) => item.momentum >= 10).slice(0, 4);
+  const rising = [...startupRankings].filter((item) => Number(item.momentum) >= 0).sort((a, b) => (Number(b.momentum) || 0) - (Number(a.momentum) || 0)).slice(0, 4);
+  const fastestMover = rising[0];
+  const youngLeader = youngLeaderRankings[0];
+  const latestSignal = editorialArticles[0];
   const recentDeals = [...dealRecords].sort((a, b) => (b.valueM || 0) - (a.valueM || 0)).slice(0, 4);
   const sectorCounts = [...new Set(startupRankings.flatMap((item) => item.tags))]
     .filter((sector) => sector !== 'CONSUMER')
@@ -230,6 +233,25 @@ function Home({ watchlist, toggleWatch }) {
             <div><h3>{ruText(category.title)}</h3><p>{category.text}</p><span>СМОТРЕТЬ <ArrowRight size={13} /></span></div>
           </button>
         ))}
+      </section>
+
+      <section className="home-pulse" aria-label="Что происходит сейчас">
+        <div className="home-pulse-label">
+          <span>СЕЙЧАС</span>
+          <strong>ЧТО ПРОИСХОДИТ<br />В ИНДЕКСЕ.</strong>
+        </div>
+        <button type="button" className="home-pulse-item" onClick={() => goto('rankings')}>
+          <span>FASTEST GROWING</span><strong>{fastestMover?.name || '—'}</strong>
+          <em>{fastestMover ? '+' + fastestMover.momentum + '%' : '—'}</em><small>ЛИДЕР ДИНАМИКИ</small>
+        </button>
+        <button type="button" className="home-pulse-item" onClick={() => goto('rankings')}>
+          <span>RISING</span><strong>{youngLeader?.name || '—'}</strong>
+          <em>{youngLeader ? youngLeader.signal : '—'}</em><small>МОЛОДОЙ ЛИДЕР · СИГНАЛ</small>
+        </button>
+        <button type="button" className="home-pulse-item" onClick={() => latestSignal && goto('article-' + latestSignal.id)}>
+          <span>NEWS NOW</span><strong>{latestSignal?.title || '—'}</strong>
+          <em>{latestSignal ? ruDate(latestSignal.date) : '—'}</em><small>ПОСЛЕДНИЙ РЕДАКЦИОННЫЙ СИГНАЛ</small>
+        </button>
       </section>
 
       <section className="index-snapshot">
@@ -265,7 +287,7 @@ function Home({ watchlist, toggleWatch }) {
             <button type="button" className="mover-card" key={item.id} onClick={() => goto('rankings')}>
               <span className="mover-rank">#{String(item.rank).padStart(2, '0')}</span>
               <div><strong>{item.name}</strong><span>{ruSector(item.sector)}</span></div>
-              <em>+{item.momentum}%</em>
+              <em>+{item.momentum}%</em><small>{item === fastestMover ? 'FASTEST' : 'RISING'}</small>
             </button>
           ))}
         </div>
@@ -534,13 +556,13 @@ function YoungLeadersPanel() {
         {visible.map((item) => (
           <button
             type="button"
-            className="young-leader-card"
+            className={'young-leader-card' + (item.rank === 1 ? ' featured' : '')}
             key={item.id}
             onClick={() => goto(item.kind === 'EMERGING STARTUP' ? 'research-' + item.id : 'companies')}
           >
             <div className="young-leader-top">
               <span>#{String(item.rank).padStart(2, '0')}</span>
-              <em>{item.signal}</em>
+              <em>{item.rank <= 3 ? 'RISING' : 'RADAR'} · {item.signal}</em>
             </div>
             <strong>{item.name}</strong>
             <span>{ruSector(item.sector)} · {ruStage(item.stage)}</span>
@@ -570,6 +592,7 @@ function Rankings() {
   const [sort, setSort] = useState('rank');
   const [query, setQuery] = useState('');
   const [selected, setSelected] = useState(null);
+  const [compareQueue, setCompareQueue] = useState([]);
   const rankingSeries = rankingCategories.filter((item) => item !== 'ALL').map((item) => {
     const rows = startupRankings.filter((startup) => startup.tags.includes(item));
     const leader = [...rows].sort((a, b) => b.score - a.score)[0];
@@ -596,6 +619,29 @@ function Rankings() {
       return a.rank - b.rank;
     });
   }, [category, query, view, sort]);
+
+  const visibleYoung = useMemo(() => {
+    const normalized = query.trim().toLowerCase();
+    return [...youngLeaderRankings]
+      .filter((item) => [item.name, item.sector, item.stage, item.city, item.founder || '', item.sourceName || ''].join(' ').toLowerCase().includes(normalized))
+      .sort((a, b) => a.rank - b.rank);
+  }, [query]);
+
+  const handleRankingItemClick = (item) => {
+    if (compareQueue.length === 1 && compareQueue[0].id !== item.id) {
+      setCompareQueue([compareQueue[0], item]);
+      setSelected(null);
+      return;
+    }
+    setSelected(item);
+  };
+
+  const beginCompare = (item) => {
+    setCompareQueue([item]);
+    setSelected(null);
+  };
+
+  const clearCompare = () => setCompareQueue([]);
 
   return (
     <main className="inner-page rankings-page">
@@ -656,34 +702,92 @@ function Rankings() {
           <button type="button" className={view === 'overall' ? 'active' : ''} onClick={() => setView('overall')}>ОБЩИЙ РЕЙТИНГ</button>
           <button type="button" className={view === 'movers' ? 'active' : ''} onClick={() => setView('movers')}>ЛИДЕРЫ РОСТА</button>
           <button type="button" className={view === 'capital' ? 'active' : ''} onClick={() => setView('capital')}>ЛИДЕРЫ ПО КАПИТАЛУ</button>
+          <button type="button" className={view === 'young' ? 'active' : ''} onClick={() => setView('young')}>RISING · МОЛОДЫЕ</button>
         </div>
         <div className="ranking-filter-set">
           <div className="ranking-tabs">{rankingCategories.map((item) => <button type="button" key={item} className={category === item ? 'active' : ''} onClick={() => setCategory(item)}>{ruTag(item)}</button>)}</div>
           <label>СОРТИРОВАТЬ <select value={sort} onChange={(e) => setSort(e.target.value)}><option value="rank">РЕЙТИНГ FORDEX</option><option value="score">ОЦЕНКА</option><option value="momentum">ДИНАМИКА</option><option value="funding">ИЗВЕСТНОЕ ФИНАНСИРОВАНИЕ</option></select></label>
         </div>
       </section>
-      <section className="startup-table" aria-label="Рейтинг стартапов FORDEX">
-        <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>ФИНАНСИРОВАНИЕ</span><span>ДИНАМИКА</span><span>ОЦЕНКА</span></div>
-        {filtered.map((item) => (
-          <button type="button" className="startup-row startup-item" key={item.id} onClick={() => setSelected(item)}>
-            <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
-            <span className="startup-name"><strong>{item.name}</strong><small>{ruCity(item.city)} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</small></span>
-            <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className={Number(item.momentum) >= 0 ? 'positive' : 'negative'}>{item.momentum == null ? '—' : (Number(item.momentum) >= 0 ? '+' : '') + item.momentum + '%'}</strong><strong className="score">{item.score}</strong>
-          </button>
-        ))}
-        {!filtered.length && <div className="ranking-empty"><strong>СОВПАДЕНИЙ НЕТ.</strong><span>Попробуйте изменить поиск или сбросить фильтр категории.</span></div>}
-      </section>
+      {compareQueue.length === 1 && (
+        <section className="ranking-compare-bar">
+          <div><span>СРАВНЕНИЕ FORDEX</span><strong>{compareQueue[0].name}</strong><small>Выберите вторую компанию в таблице.</small></div>
+          <button type="button" onClick={clearCompare}>ОТМЕНИТЬ <X size={12} /></button>
+        </section>
+      )}
+
+      {compareQueue.length === 2 && <ComparePanel items={compareQueue} onClose={clearCompare} onOpen={(item) => setSelected(item)} />}
+
+      {view === 'young' ? (
+        <section className="startup-table young-ranking-table" aria-label="Rising и молодые лидеры FORDEX">
+          <div className="startup-row startup-head"><span>#</span><span>КОМАНДА</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>КАПИТАЛ</span><span>ТРАКЦИЯ</span><span>СИГНАЛ</span></div>
+          {visibleYoung.map((item) => (
+            <button type="button" className="startup-row startup-item" key={item.id} onClick={() => goto(item.kind === 'EMERGING STARTUP' ? 'research-' + item.id : 'companies')}>
+              <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.rank <= 3 ? 'rank-up' : 'rank-flat'}>{item.rank <= 3 ? 'RISING' : 'RADAR'}</small></span>
+              <span className="startup-name"><strong>{item.name}</strong><small>{item.founder ? item.founder + ' · ' : ''}{item.sourceName || 'FORDEX'}</small></span>
+              <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.capitalLabel}</span><span>{item.tractionLabel}</span><strong className="score">{item.signal}</strong>
+            </button>
+          ))}
+          {!visibleYoung.length && <div className="ranking-empty"><strong>МОЛОДЫХ ЛИДЕРОВ ПО ЗАПРОСУ НЕТ.</strong><span>Попробуйте изменить поиск.</span></div>}
+        </section>
+      ) : (
+        <section className="startup-table" aria-label="Рейтинг стартапов FORDEX">
+          <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>ФИНАНСИРОВАНИЕ</span><span>ДИНАМИКА</span><span>ОЦЕНКА</span></div>
+          {filtered.map((item) => (
+            <button type="button" className="startup-row startup-item" key={item.id} onClick={() => handleRankingItemClick(item)}>
+              <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
+              <span className="startup-name"><strong>{item.name}</strong><small>{ruCity(item.city)} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}{Number(item.momentum) >= 15 ? ' · FASTEST' : ''}</small></span>
+              <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className={Number(item.momentum) >= 0 ? 'positive' : 'negative'}>{item.momentum == null ? '—' : (Number(item.momentum) >= 0 ? '+' : '') + item.momentum + '%'}</strong><strong className="score">{item.score}</strong>
+            </button>
+          ))}
+          {!filtered.length && <div className="ranking-empty"><strong>СОВПАДЕНИЙ НЕТ.</strong><span>Попробуйте изменить поиск или сбросить фильтр категории.</span></div>}
+        </section>
+      )}
+
       <section className="ranking-context">
-        <div><span>ТЕКУЩИЙ ВИД</span><strong>{view === 'overall' ? 'ОБЩИЙ РЕЙТИНГ' : view === 'movers' ? 'ЛИДЕРЫ РОСТА' : 'ЛИДЕРЫ ПО КАПИТАЛУ'}</strong></div>
-        <p>{view === 'overall' ? 'Сортировка по вычисляемой оценке FORDEX.' : view === 'movers' ? 'Сортировка по редакционному сигналу динамики; это не темп роста выручки.' : 'Сортировка по раскрытым объёмам финансирования; нераскрытое финансирование остаётся внизу.'}</p>
+        <div><span>ТЕКУЩИЙ ВИД</span><strong>{view === 'overall' ? 'ОБЩИЙ РЕЙТИНГ' : view === 'movers' ? 'ЛИДЕРЫ РОСТА' : view === 'capital' ? 'ЛИДЕРЫ ПО КАПИТАЛУ' : 'RISING · МОЛОДЫЕ'}</strong></div>
+        <p>{view === 'overall' ? 'Сортировка по вычисляемой оценке FORDEX.' : view === 'movers' ? 'Сортировка по редакционному сигналу динамики; это не темп роста выручки.' : view === 'capital' ? 'Сортировка по раскрытым объёмам финансирования; нераскрытое финансирование остаётся внизу.' : 'Отдельный discovery-сигнал для молодых AI-команд: капитал/оценка и подтверждённая тяга продукта.'}</p>
       </section>
       <section className="ranking-method">
         <div><span>КАК FORDEX СЧИТАЕТ</span><h2>ОДНА ОЦЕНКА.<br />ШЕСТЬ СИГНАЛОВ.</h2><p>Публичная beta-модель v1.0 преобразует шесть наблюдаемых сигналов в единую исследовательскую оценку от 0 до 100. Одного финансирования недостаточно, чтобы возглавить индекс.</p></div>
         <div className="score-list">{scoreWeights.map((weight) => <div key={ruScoreLabel(weight.label)}><span>{ruScoreLabel(weight.label)}</span><strong>{weight.value}%</strong><i><b style={{ width: weight.value + '%' }} /></i></div>)}</div>
       </section>
-      {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} />}
+      {selected && <StartupDrawer startup={selected} onClose={() => setSelected(null)} onCompare={beginCompare} />}
       </>}
     </main>
+  );
+}
+
+function ComparePanel({ items, onClose, onOpen }) {
+  const [left, right] = items;
+  const metrics = [
+    ['ПОЗИЦИЯ', '#' + String(left.rank).padStart(2, '0'), '#' + String(right.rank).padStart(2, '0')],
+    ['FORDEX SCORE', left.score?.toFixed ? left.score.toFixed(1) : left.score, right.score?.toFixed ? right.score.toFixed(1) : right.score],
+    ['ДИНАМИКА', (left.momentum >= 0 ? '+' : '') + left.momentum + '%', (right.momentum >= 0 ? '+' : '') + right.momentum + '%'],
+    ['ФИНАНСИРОВАНИЕ', left.funding || 'НЕ РАСКРЫТО', right.funding || 'НЕ РАСКРЫТО'],
+    ['СЕКТОР', ruSector(left.sector), ruSector(right.sector)],
+    ['СТАДИЯ', ruStage(left.stage), ruStage(right.stage)],
+  ];
+  return (
+    <section className="ranking-compare-panel" aria-label="Сравнение компаний">
+      <div className="ranking-compare-head">
+        <div><span>FORDEX COMPARE</span><h2>{left.name} <em>VS</em> {right.name}</h2></div>
+        <button type="button" onClick={onClose}>СБРОСИТЬ <X size={12} /></button>
+      </div>
+      <div className="ranking-compare-cards">
+        {[left, right].map((item) => (
+          <button type="button" key={item.id} className="ranking-compare-card" onClick={() => onOpen(item)}>
+            <span>#{String(item.rank).padStart(2, '0')} · {ruSector(item.sector)}</span>
+            <strong>{item.name}</strong>
+            <small>{item.description}</small>
+            <em>ОТКРЫТЬ ПРОФИЛЬ <ArrowRight size={12} /></em>
+          </button>
+        ))}
+      </div>
+      <div className="ranking-compare-table">
+        {metrics.map(([label, a, b]) => <div key={label} className="ranking-compare-row"><span>{label}</span><strong>{a}</strong><strong>{b}</strong></div>)}
+      </div>
+    </section>
   );
 }
 
@@ -785,7 +889,7 @@ function ProviderRanking() {
   );
 }
 
-function StartupDrawer({ startup, onClose }) {
+function StartupDrawer({ startup, onClose, onCompare }) {
   const delta = startup.previousRank ? startup.previousRank - startup.rank : 0;
   const deltaText = delta > 0 ? 'ВВЕРХ ' + delta : delta < 0 ? 'ВНИЗ ' + Math.abs(delta) : 'БЕЗ ИЗМЕНЕНИЙ';
   const company = marketCompanies.find((item) => item.id === startup.id);
@@ -856,8 +960,11 @@ function StartupDrawer({ startup, onClose }) {
           <small>Доказательства прикреплены к записи; нераскрытое финансирование остаётся нераскрытым.</small>
         </div>
 
-        {startup.website && <a className="drawer-source" href={startup.website} target="_blank" rel="noreferrer">ОТКРЫТЬ КОМПАНИЮ <ExternalLink size={14} /></a>}
-        <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">СМОТРЕТЬ ДОКАЗАТЕЛЬСТВА <ExternalLink size={14} /></a>
+        <div className="drawer-actions">
+          {onCompare && <button type="button" className="drawer-compare" onClick={() => onCompare(startup)}>СРАВНИТЬ С ДРУГОЙ <ArrowRight size={13} /></button>}
+          {startup.website && <a className="drawer-source" href={startup.website} target="_blank" rel="noreferrer">ОТКРЫТЬ КОМПАНИЮ <ExternalLink size={14} /></a>}
+          <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">СМОТРЕТЬ ДОКАЗАТЕЛЬСТВА <ExternalLink size={14} /></a>
+        </div>
       </aside>
     </div>
   );
