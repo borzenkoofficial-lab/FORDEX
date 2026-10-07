@@ -4,7 +4,7 @@ import { companyRegistry, companyRegistryStats } from './data/companyRegistry.js
 import { evidenceRegistryStats } from './data/evidenceRegistry.js';
 import { editorialArticles } from './data/articles.js';
 import { rankedStartupIndex, rankingModel } from './lib/rankingEngine.js';
-import { agentRoles, agentWorkflow, agentControlPlane } from './data/agentFoundation.js';
+import { agentRoles, agentWorkflow } from './data/agentFoundation.js';
 import { buildAgentControlSnapshot } from './lib/agentPipeline.js';
 import { getModelGatewayStatus, runEditorModel } from './ai/runtimeClient.js';
 
