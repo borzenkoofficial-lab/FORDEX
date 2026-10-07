@@ -148,13 +148,18 @@ export function AgentControlRoom() {
     setResearchWarning(null);
     try {
       let research = lastRun?.research || null;
-      if (operation === 'MARKET_SCAN' || operation === 'COMPANY_RESEARCH') {
+      const needsFreshResearch = operation === 'MARKET_SCAN'
+        || operation === 'COMPANY_RESEARCH'
+        || operation === 'CREATE_POST';
+
+      if (needsFreshResearch) {
         research = await runResearchAdapter({
           objective: objective.trim(),
           company: selectedCompany
             ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector, website: selectedCompany.website || null }
             : null,
         });
+
         if (research?.status === 'RESEARCH_DEGRADED') {
           setResearchWarning({
             successfulQueries: research.successfulQueries || 0,
@@ -164,6 +169,17 @@ export function AgentControlRoom() {
         }
       }
 
+      const discoveredSources = Array.isArray(research?.sources) ? research.sources : [];
+      const sourcePacket = discoveredSources.map((source, index) => ({
+        id: 'source-' + (index + 1),
+        title: source.title || '',
+        url: source.url || '',
+        sourceName: source.sourceName || '',
+        publishedAt: source.publishedAt || null,
+        description: source.description || '',
+        query: source.query || '',
+      }));
+
       const context = {
         language: 'ru',
         requiresEvidence: true,
@@ -172,9 +188,12 @@ export function AgentControlRoom() {
           ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector }
           : null,
         previousResearch: lastRun?.output || null,
-        discoveredSources: research?.sources || [],
+        discoveredSources: sourcePacket,
+        evidenceInstruction: operation === 'CREATE_POST'
+          ? 'Используй только факты, которые можно связать с sourcePacket. Не выдумывай названия проектов, суммы, даты, продуктовые характеристики или traction. В sources[] возвращай только URL из sourcePacket. Если подтверждённых фактов недостаточно — верни post с явным статусом BLOCKED и объяснением, а не выдумывай.'
+          : 'Для существенных фактов укажи источник из sourcePacket.',
         responseFormat: operation === 'CREATE_POST'
-          ? 'Return a JSON object with summary, facts[], sources[], and post.'
+          ? 'Return a JSON object with summary, facts[], sources[], and post. For blocked output, use post={status:"BLOCKED",text:"...",source_references:[]}.'
           : 'Return a JSON object with summary, facts[], sources[].',
       };
 
