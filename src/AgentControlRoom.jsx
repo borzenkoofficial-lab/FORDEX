@@ -166,6 +166,7 @@ export function AgentControlRoom() {
           company: selectedCompany
             ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector, website: selectedCompany.website || null }
             : null,
+          mode: operation,
         });
 
         if (research?.status === 'RESEARCH_DEGRADED') {
