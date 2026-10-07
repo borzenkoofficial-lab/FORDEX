@@ -6,7 +6,7 @@ import { editorialArticles } from './data/articles.js';
 import { rankedStartupIndex, rankingModel } from './lib/rankingEngine.js';
 import { agentRoles, agentWorkflow } from './data/agentFoundation.js';
 import { buildAgentControlSnapshot } from './lib/agentPipeline.js';
-import { getModelGatewayStatus, runEditorModel } from './ai/runtimeClient.js';
+import { getModelGatewayStatus, runEditorModel, runResearchAdapter } from './ai/runtimeClient.js';
 
 const STORAGE_KEY = 'fordex-ai-control-room-drafts';
 
@@ -102,6 +102,16 @@ export function AgentControlRoom() {
     setLoading(true);
     setError('');
     try {
+      let research = lastRun?.research || null;
+      if (operation === 'MARKET_SCAN' || operation === 'COMPANY_RESEARCH') {
+        research = await runResearchAdapter({
+          objective: objective.trim(),
+          company: selectedCompany
+            ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector }
+            : null,
+        });
+      }
+
       const context = {
         language: 'ru',
         requiresEvidence: true,
@@ -110,6 +120,7 @@ export function AgentControlRoom() {
           ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector }
           : null,
         previousResearch: lastRun?.output || null,
+        discoveredSources: research?.sources || [],
         responseFormat: operation === 'CREATE_POST'
           ? 'Return a JSON object with summary, facts[], sources[], and post.'
           : 'Return a JSON object with summary, facts[], sources[].',
@@ -133,6 +144,7 @@ export function AgentControlRoom() {
         output: result.output,
         normalized,
         usage: result.usage || null,
+        research,
       };
 
       setLastRun(run);
@@ -279,6 +291,7 @@ export function AgentControlRoom() {
               <div className="agent-result-meta">
                 <span>{lastRun.operation}</span>
                 <span>{lastRun.provider} / {lastRun.model}</span>
+                <span>{lastRun.research?.sourceCount ?? 0} SOURCES</span>
               </div>
               <div className="agent-result-block">
                 <span>SUMMARY</span>
