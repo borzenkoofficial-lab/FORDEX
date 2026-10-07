@@ -1,5 +1,6 @@
 import { startupRankings } from './startups.js';
 import { emergingStartups } from './emergingStartups.js';
+import { createBrandMockup } from '../lib/visualMockup.js';
 
 export const corporateCompanies = [
   {
@@ -110,9 +111,9 @@ const baseCompanyRegistry = [
   ...emergingStartups.map(fromEmerging),
 ];
 
-export const companyRegistry = baseCompanyRegistry.map((company, index) => ({
+export const companyRegistry = baseCompanyRegistry.map((company) => ({
   ...company,
-  image: company.image ?? registryImages[index % registryImages.length],
+  image: createBrandMockup(company.name, company.sector, company.kind),
 }));
 
 export const companyById = new Map(companyRegistry.map((company) => [company.id, company]));
