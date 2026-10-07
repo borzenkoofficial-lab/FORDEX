@@ -10,7 +10,7 @@ const required = [
   'canPublish: false',
   'canOverrideScore: false',
   'canChangeFormula: false',
-  "'x-fordex-test-key',"
+  "'x-fordex-test-key'"
 ];
 
 for (const token of required) {
