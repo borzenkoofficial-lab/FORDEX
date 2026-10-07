@@ -108,3 +108,34 @@ export function createFounderMockup(company, founder, sector = 'AI / DATA') {
 
   return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
 }
+
+export function createEditorialMockup(sourceName, category, title = '') {
+  const [accent, soft] = pick(sourceName + category + title);
+  const variants = [
+    '<path d="M190 520 C280 470 315 490 385 420 S520 445 600 360 S730 405 820 315 S935 345 1010 250" fill="none" stroke="' + accent + '" stroke-width="8" stroke-linecap="round"/><path d="M190 520 C280 470 315 490 385 420 S520 445 600 360 S730 405 820 315 S935 345 1010 250 V560 H190 Z" fill="' + accent + '" opacity=".08"/><rect x="190" y="235" width="250" height="18" rx="9" fill="#CAD5E2"/><rect x="190" y="268" width="185" height="10" rx="5" fill="#DFE5EC"/>',
+    '<circle cx="600" cy="385" r="120" fill="' + soft + '"/><circle cx="600" cy="385" r="58" fill="' + accent + '" opacity=".2"/><circle cx="600" cy="385" r="24" fill="' + accent + '"/><path d="M600 265 V205 M600 505 V565 M480 385 H420 M720 385 H780" stroke="' + accent + '" stroke-width="7" stroke-linecap="round"/><rect x="190" y="235" width="200" height="14" rx="7" fill="#CBD6E2"/><rect x="190" y="267" width="155" height="9" rx="4" fill="#DEE5ED"/>',
+    '<rect x="195" y="250" width="220" height="260" rx="20" fill="' + soft + '"/><rect x="460" y="250" width="220" height="260" rx="20" fill="#F8FAFC"/><rect x="725" y="250" width="285" height="260" rx="20" fill="#F8FAFC"/><path d="M245 455 L300 380 L350 410 L395 325" fill="none" stroke="' + accent + '" stroke-width="8" stroke-linecap="round"/><circle cx="245" cy="455" r="10" fill="' + accent + '"/><circle cx="395" cy="325" r="10" fill="' + accent + '"/><rect x="500" y="305" width="135" height="14" rx="7" fill="#D1DBE6"/><rect x="500" y="335" width="100" height="10" rx="5" fill="#DEE5ED"/><rect x="770" y="305" width="160" height="14" rx="7" fill="#D1DBE6"/><rect x="770" y="335" width="195" height="10" rx="5" fill="#DEE5ED"/>',
+    '<path d="M210 485 H990" stroke="#CAD5E2" stroke-width="5"/><path d="M300 485 V350 L380 270 L460 350 V485 M570 485 V320 L650 240 L730 320 V485 M840 485 V360 L910 285 L980 360 V485" fill="none" stroke="' + accent + '" stroke-width="8"/><circle cx="380" cy="350" r="17" fill="' + soft + '"/><circle cx="650" cy="320" r="17" fill="' + soft + '"/><circle cx="910" cy="360" r="17" fill="' + soft + '"/><rect x="210" y="235" width="275" height="14" rx="7" fill="#CBD6E2"/>',
+    '<rect x="210" y="285" width="760" height="215" rx="20" fill="#F8FAFC"/><rect x="245" y="325" width="115" height="140" rx="14" fill="' + soft + '"/><rect x="395" y="355" width="115" height="110" rx="14" fill="#EAF0F7"/><rect x="545" y="305" width="115" height="160" rx="14" fill="' + soft + '"/><rect x="695" y="335" width="115" height="130" rx="14" fill="#EAF0F7"/><rect x="845" y="265" width="90" height="200" rx="14" fill="' + accent + '" opacity=".85"/><path d="M275 540 C390 500 510 520 610 455 S805 430 950 300" fill="none" stroke="' + accent + '" stroke-width="7" stroke-linecap="round"/>',
+  ];
+  const index = [...String(sourceName + category + title)].reduce((sum, char) => sum + char.charCodeAt(0), 0) % variants.length;
+  const brand = esc(sourceName).slice(0, 28);
+  const categoryText = esc(category).slice(0, 30);
+  const headline = esc(title).slice(0, 42);
+  const svg = [
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">',
+    '<defs><linearGradient id="editorialBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EEF3F8"/></linearGradient><filter id="editorialShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="16" stdDeviation="20" flood-color="#122033" flood-opacity=".11"/></filter></defs>',
+    '<rect width="1200" height="800" fill="url(#editorialBg)"/><circle cx="1010" cy="115" r="160" fill="' + soft + '"/><circle cx="1010" cy="115" r="100" fill="' + accent + '" opacity=".1"/>',
+    '<g filter="url(#editorialShadow)"><rect x="125" y="95" width="950" height="610" rx="28" fill="#FFFFFF"/>',
+    '<rect x="125" y="95" width="950" height="82" rx="28" fill="#F8FAFC"/><rect x="125" y="150" width="950" height="27" fill="#F8FAFC"/>',
+    '<circle cx="164" cy="137" r="7" fill="#D8E0EA"/><circle cx="188" cy="137" r="7" fill="#D8E0EA"/><circle cx="212" cy="137" r="7" fill="' + accent + '"/>',
+    '<text x="260" y="145" font-family="Inter,Arial,sans-serif" font-size="22" font-weight="800" fill="#122033" letter-spacing="1">' + brand + '</text>',
+    '<text x="1015" y="142" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#7B8797" letter-spacing="1.4">' + categoryText + '</text>',
+    '<text x="165" y="215" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="800" fill="' + accent + '" letter-spacing="2">FORDEX EDITORIAL SIGNAL</text>',
+    variants[index],
+    '<text x="165" y="605" font-family="Inter,Arial,sans-serif" font-size="18" font-weight="800" fill="#122033">' + headline + '</text>',
+    '<text x="165" y="650" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#7B8797" letter-spacing="1.3">SOURCE · ' + brand + ' · FORDEX NEWS</text>',
+    '</g></svg>'
+  ].join('');
+  return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
+}
