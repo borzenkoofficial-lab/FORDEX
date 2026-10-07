@@ -53,5 +53,58 @@ export function createBrandMockup(name, sector = 'AI / DATA', meta = '') {
 }
 
 export function createFounderMockup(company, founder, sector = 'AI / DATA') {
-  return createBrandMockup(company, sector, 'FOUNDER · ' + founder);
+  const [accent, soft] = pick(company + founder);
+  const seed = [...String(company + founder)].reduce((sum, char) => sum + char.charCodeAt(0), 0);
+  const variant = seed % 5;
+  const brand = esc(company).slice(0, 24);
+  const name = esc(founder).slice(0, 30);
+  const role = esc(sector).slice(0, 28);
+  const specs = [
+    {
+      label: 'FOUNDER DOSSIER',
+      title: 'PRODUCT',
+      shape: '<rect x="165" y="235" width="320" height="290" rx="22" fill="' + soft + '"/><rect x="205" y="275" width="240" height="38" rx="10" fill="#FFFFFF"/><rect x="205" y="337" width="180" height="12" rx="6" fill="#C8D3E2"/><rect x="205" y="365" width="215" height="10" rx="5" fill="#D9E1EB"/><rect x="205" y="410" width="240" height="76" rx="16" fill="#FFFFFF"/><circle cx="245" cy="448" r="17" fill="' + accent + '" opacity=".18"/><rect x="278" y="432" width="115" height="9" rx="4" fill="' + accent + '" opacity=".55"/><rect x="278" y="452" width="88" height="8" rx="4" fill="#C9D4E1"/>'
+    },
+    {
+      label: 'FOUNDER DOSSIER',
+      title: 'ARCHITECTURE',
+      shape: '<rect x="165" y="225" width="865" height="315" rx="24" fill="#F7F9FC"/><circle cx="320" cy="380" r="72" fill="' + soft + '"/><circle cx="320" cy="380" r="32" fill="' + accent + '" opacity=".25"/><rect x="470" y="280" width="180" height="78" rx="16" fill="' + soft + '"/><rect x="720" y="280" width="210" height="78" rx="16" fill="#FFFFFF" stroke="#D8E1EC"/><rect x="470" y="410" width="180" height="78" rx="16" fill="#FFFFFF" stroke="#D8E1EC"/><rect x="720" y="410" width="210" height="78" rx="16" fill="' + soft + '"/><path d="M392 380 H470 M650 319 H720 M650 449 H720 M825 358 V410" fill="none" stroke="' + accent + '" stroke-width="6" stroke-linecap="round" opacity=".8"/>'
+    },
+    {
+      label: 'FOUNDER DOSSIER',
+      title: 'RESEARCH',
+      shape: '<rect x="165" y="220" width="865" height="330" rx="24" fill="#F8FAFC"/><path d="M205 470 C300 420 320 455 390 388 S520 440 600 350 S735 410 820 300 S940 350 995 260" fill="none" stroke="' + accent + '" stroke-width="9" stroke-linecap="round"/><path d="M205 470 C300 420 320 455 390 388 S520 440 600 350 S735 410 820 300 S940 350 995 260 V505 H205 Z" fill="' + accent + '" opacity=".09"/><rect x="210" y="255" width="210" height="14" rx="7" fill="#D5DEE9"/><rect x="210" y="284" width="155" height="10" rx="5" fill="#E0E6EE"/><circle cx="860" cy="350" r="58" fill="' + soft + '"/><circle cx="860" cy="350" r="23" fill="' + accent + '"/>'
+    },
+    {
+      label: 'FOUNDER DOSSIER',
+      title: 'INDUSTRIAL',
+      shape: '<rect x="165" y="225" width="865" height="320" rx="24" fill="#F5F7FA"/><path d="M225 480 H955" stroke="#CBD6E3" stroke-width="5"/><path d="M300 480 V355 L365 290 L430 355 V480 M565 480 V320 L635 255 L705 320 V480 M810 480 V370 L875 315 L940 370 V480" fill="none" stroke="' + accent + '" stroke-width="8"/><circle cx="365" cy="355" r="18" fill="' + soft + '"/><circle cx="635" cy="320" r="18" fill="' + soft + '"/><circle cx="875" cy="370" r="18" fill="' + soft + '"/>'
+    },
+    {
+      label: 'FOUNDER DOSSIER',
+      title: 'GROWTH',
+      shape: '<rect x="165" y="225" width="865" height="320" rx="24" fill="' + soft + '"/><rect x="215" y="430" width="72" height="72" rx="12" fill="#FFFFFF"/><rect x="315" y="380" width="72" height="122" rx="12" fill="#FFFFFF"/><rect x="415" y="330" width="72" height="172" rx="12" fill="#FFFFFF"/><rect x="515" y="275" width="72" height="227" rx="12" fill="' + accent + '"/><path d="M675 485 C730 430 770 450 812 390 S900 350 965 275" fill="none" stroke="' + accent + '" stroke-width="8" stroke-linecap="round"/><circle cx="965" cy="275" r="14" fill="' + accent + '"/><rect x="695" y="260" width="175" height="12" rx="6" fill="#C7D2DF"/><rect x="695" y="288" width="125" height="9" rx="4" fill="#D6DEE8"/>'
+    }
+  ][variant];
+
+  const svg = [
+    '<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">',
+    '<defs><linearGradient id="founderBg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFFFFF"/><stop offset="1" stop-color="#EDF2F7"/></linearGradient><filter id="founderShadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="14" stdDeviation="18" flood-color="#122033" flood-opacity=".12"/></filter></defs>',
+    '<rect width="1200" height="800" fill="url(#founderBg)"/>',
+    '<circle cx="1030" cy="125" r="150" fill="' + soft + '"/><circle cx="1030" cy="125" r="95" fill="' + accent + '" opacity=".1"/>',
+    '<g filter="url(#founderShadow)">',
+    '<rect x="125" y="95" width="950" height="610" rx="28" fill="#FFFFFF"/>',
+    '<rect x="125" y="95" width="950" height="86" rx="28" fill="#F8FAFC"/><rect x="125" y="153" width="950" height="28" fill="#F8FAFC"/>',
+    '<circle cx="164" cy="138" r="7" fill="#D8E0EA"/><circle cx="188" cy="138" r="7" fill="#D8E0EA"/><circle cx="212" cy="138" r="7" fill="' + accent + '"/>',
+    '<text x="260" y="146" font-family="Inter,Arial,sans-serif" font-size="23" font-weight="800" fill="#122033" letter-spacing="1">' + brand + '</text>',
+    '<text x="1018" y="143" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="12" font-weight="800" fill="#7B8797" letter-spacing="1.5">' + specs.label + '</text>',
+    '<text x="165" y="218" font-family="Inter,Arial,sans-serif" font-size="10" font-weight="800" fill="' + accent + '" letter-spacing="2">' + specs.title + '</text>',
+    '<text x="165" y="655" font-family="Inter,Arial,sans-serif" font-size="17" font-weight="800" fill="#122033">' + name + '</text>',
+    '<text x="165" y="680" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#7B8797" letter-spacing="1.2">' + role + '</text>',
+    '<text x="1018" y="675" text-anchor="end" font-family="Inter,Arial,sans-serif" font-size="11" font-weight="700" fill="#7B8797" letter-spacing="1.2">FORDEX · FOUNDER PROFILE</text>',
+    specs.shape,
+    '</g></svg>'
+  ].join('');
+
+  return 'data:image/svg+xml;charset=UTF-8,' + encodeURIComponent(svg);
 }
