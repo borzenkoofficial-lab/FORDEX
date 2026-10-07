@@ -688,3 +688,24 @@ footer .logo{color:#fff}
   .news-item-title{font-size:22px}
   .news-item-main p{font-size:9px}
 }
+
+/* Final Stage 1 polish */
+.nav-left button,.nav-right button,.filter-rail button,.toolbar>button,.news-filters button,
+.ranking-mode-switch button,.ranking-controls button,.search-results button,.watch-grid article,
+.directory-card,.founder-card,.series-card,.sector-map-card,.table-row,.startup-row,.provider-row{
+  -webkit-tap-highlight-color:transparent;
+}
+button{font-family:var(--fx-body)}
+button:hover{transition:all .16s ease}
+.directory-copy h3,.founder-card h3,.startup-name>strong,.provider-row strong:nth-child(2){
+  letter-spacing:-.035em;
+}
+.table-row,.startup-row,.provider-row{min-height:62px}
+.section-kicker,.section-head>div>span,.editorial-copy>span,.page-hero span,.metric-card>span,
+.deal-summary span,.panel-head>span,.drawer-sector,.drawer-top>span,.methodology>span,
+.source-board>div>span{font-weight:800}
+.page-hero p{max-width:720px;line-height:1.55}
+@media(max-width:720px){
+  .page-hero h1{letter-spacing:-.065em}
+  .table-row,.startup-row,.provider-row{min-height:56px}
+}
