@@ -40,6 +40,29 @@ export async function runEditorModel({
   return payload;
 }
 
+
+export async function runResearchAdapter({
+  objective = '',
+  company = null,
+  signal,
+} = {}) {
+  const response = await fetch('/api/ai/research', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: JSON.stringify({ objective, company }),
+    signal,
+  });
+
+  const payload = await readJson(response);
+  if (!response.ok) {
+    const error = new Error(payload?.error || 'RESEARCH_REQUEST_FAILED');
+    error.status = response.status;
+    throw error;
+  }
+
+  return payload;
+}
+
 async function readJson(response) {
   const text = await response.text();
   try {
