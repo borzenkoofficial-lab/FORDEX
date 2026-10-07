@@ -38,15 +38,13 @@ import {
   X,
 } from 'lucide-react';
 
-const NAV =const EDITORIAL_IMAGE = createBrandMockup('FORDEX', 'AI BUSINESS INDEX', 'RESEARCH · DATA · RANKING');
+const NAV = ['COMPANIES', 'FOUNDERS', 'DEALS', 'RANKINGS', 'MARKET'];
+const EDITORIAL_IMAGE = createBrandMockup('FORDEX', 'AI BUSINESS INDEX', 'RESEARCH · DATA · RANKING');
 
 const categoryLinks = [
   { title: 'COMPANIES', text: 'Структурированные профили компаний российской AI-экономики.', href: 'companies', image: createBrandMockup('FORDEX COMPANIES', 'COMPANY DATABASE', 'COMPANIES · INDEX') },
   { title: 'FOUNDERS', text: 'Команды и основатели без случайных стоковых портретов — только фирменная подача.', href: 'founders', image: createBrandMockup('FORDEX FOUNDERS', 'TEAM / LEADERSHIP', 'FOUNDERS · PROFILES') },
   { title: 'DEALS', text: 'Раунды финансирования и движения капитала с привязанными доказательствами.', href: 'deals', image: createBrandMockup('FORDEX DEALS', 'CAPITAL / FINANCE', 'DEALS · CAPITAL') },
-];
-
-36022-d5d88e9218df?auto=format&fit=crop&w=720&q=86' },
 ];
 
 const sectorFilters = ['ALL', 'EMERGING', 'GROWING', 'AI / AGENTS', 'DEEPTECH', 'MEDTECH', 'NEUROTECH', 'INDUSTRIAL', 'CONSUMER'];
