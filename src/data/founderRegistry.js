@@ -1,4 +1,5 @@
 import { emergingFounderProfiles } from './emergingStartups.js';
+import { createFounderMockup } from '../lib/visualMockup.js';
 
 const founderImages = [
   'https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=900&q=86',
@@ -110,9 +111,9 @@ const deduped = new Map();
   if (!deduped.has(key)) deduped.set(key, founder);
 });
 
-export const founderRegistry = [...deduped.values()].map((founder, index) => ({
+export const founderRegistry = [...deduped.values()].map((founder) => ({
   ...founder,
-  image: founder.image ?? founderImages[index % founderImages.length],
+  image: createFounderMockup(founder.company, founder.name, founder.role),
 }));
 
 export const founderById = new Map(founderRegistry.map((founder) => [founder.id, founder]));
