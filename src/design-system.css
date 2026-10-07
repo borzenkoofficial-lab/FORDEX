@@ -1330,3 +1330,52 @@ select:focus-visible{
     margin-top:14px;
   }
 }
+
+
+/* Ranking evidence / confidence */
+.drawer-confidence{
+  margin:14px 0 0;
+  padding:12px 0;
+  display:grid;
+  grid-template-columns:auto auto;
+  gap:5px 12px;
+  border-top:1px solid var(--fx-line);
+  border-bottom:1px solid var(--fx-line);
+}
+.drawer-confidence span{
+  font-size:7px;
+  letter-spacing:.14em;
+  font-weight:800;
+  color:#77746d;
+}
+.drawer-confidence strong{
+  justify-self:end;
+  font:800 18px/1 var(--fx-display);
+  letter-spacing:-.03em;
+}
+.drawer-confidence small{
+  grid-column:1/-1;
+  font-size:7px;
+  line-height:1.45;
+  color:#8a8882;
+  text-transform:uppercase;
+  letter-spacing:.06em;
+}
+.drawer-model .drawer-weight-list strong{
+  font-size:8px;
+  line-height:1.25;
+  text-align:right;
+}
+.drawer-ranking-explanation{
+  background:#eeece7;
+  padding:12px;
+}
+.drawer-ranking-explanation p{
+  margin-top:7px;
+  line-height:1.55;
+}
+@media(max-width:720px){
+  .drawer-model .drawer-weight-list strong{
+    max-width:190px;
+  }
+}
