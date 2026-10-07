@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import { AgentControlRoom } from './AgentControlRoom.jsx';
 import { rankingCategories, scoreWeights } from './data/startups';
 import { rankingCollections } from './data/rankingCollections';
 import { rankedStartupIndex, rankingModel } from './lib/rankingEngine';
@@ -118,7 +119,7 @@ export function App() {
     });
   };
 
-  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'sources', 'news', 'analytics', 'watchlist'];
+  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'sources', 'news', 'analytics', 'watchlist', 'control'];
 
   return (
     <div className="site">
@@ -134,6 +135,7 @@ export function App() {
       {route === 'news' && <News />}
       {route === 'analytics' && <Analytics />}
       {route === 'watchlist' && <Watchlist names={watchlist} toggleWatch={toggleWatch} />}
+      {route === 'control' && <AgentControlRoom />}
       {route.startsWith('article-') && <ArticlePage articleId={route.replace('article-', '')} />}
       {route.startsWith('research-') && <ResearchArticlePage researchId={route} />}
       {!knownRoutes.includes(route) && !route.startsWith('article-') && !route.startsWith('research-') && <NotFound route={route} />}
