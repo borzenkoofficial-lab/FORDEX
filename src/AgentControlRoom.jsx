@@ -59,6 +59,7 @@ export function AgentControlRoom() {
   const snapshot = buildAgentControlSnapshot();
   const [provider, setProvider] = useState('anymodel');
   const [model, setModel] = useState('');
+  const [testKey, setTestKey] = useState('');
   const [operation, setOperation] = useState('MARKET_SCAN');
   const [companyId, setCompanyId] = useState('');
   const [objective, setObjective] = useState(TEST_OBJECTIVES.MARKET_SCAN);
@@ -97,6 +98,7 @@ export function AgentControlRoom() {
   }, [operation]);
 
   const configured = gateway.providers?.find((item) => item.provider === provider)?.configured ?? false;
+  const testKeyActive = Boolean(testKey.trim());
 
   async function runAI() {
     setLoading(true);
@@ -132,6 +134,7 @@ export function AgentControlRoom() {
         context,
         provider,
         model: model.trim() || null,
+        testKey,
       });
 
       const normalized = normalizeResearch(result.output);
@@ -222,6 +225,21 @@ export function AgentControlRoom() {
                 ))}
               </select>
             </label>
+            <label className="agent-key-field">
+              <span>ВРЕМЕННЫЙ API KEY / ТОЛЬКО ДЛЯ ТЕСТА</span>
+              <div className="agent-key-wrap">
+                <input
+                  type="password"
+                  value={testKey}
+                  onChange={(event) => setTestKey(event.target.value)}
+                  placeholder="Вставь ключ здесь"
+                  autoComplete="off"
+                  spellCheck="false"
+                />
+                {testKey && <button type="button" onClick={() => setTestKey('')} aria-label="Очистить временный ключ">×</button>}
+              </div>
+              <small>Ключ не сохраняется в localStorage и не показывается в интерфейсе после ввода.</small>
+            </label>
             <label>
               <span>МОДЕЛЬ / ОПЦИОНАЛЬНО</span>
               <input value={model} onChange={(event) => setModel(event.target.value)} placeholder="Использовать модель провайдера по умолчанию" />
@@ -254,7 +272,7 @@ export function AgentControlRoom() {
             <div className="agent-runtime-row"><span>Gateway</span><b>{gateway.status || '—'}</b></div>
             <div className="agent-runtime-row"><span>Provider</span><b>{provider}</b></div>
             <div className="agent-runtime-row"><span>Model</span><b>{model || gateway.providers?.find((item) => item.provider === provider)?.model || 'default'}</b></div>
-            <div className="agent-runtime-row"><span>Server secret</span><b className="agent-green-text">PROTECTED</b></div>
+            <div className="agent-runtime-row"><span>Credential</span><b className="agent-green-text">{testKeyActive ? 'TEMPORARY / MEMORY ONLY' : configured ? 'SERVER ENV' : 'MISSING'}</b></div>
             <div className="agent-runtime-row"><span>Publish permission</span><b>DENIED</b></div>
             <div className="agent-runtime-row"><span>Score override</span><b>DENIED</b></div>
             <div className="agent-runtime-row"><span>Formula change</span><b>DENIED</b></div>
