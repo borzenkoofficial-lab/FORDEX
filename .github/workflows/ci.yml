@@ -22,4 +22,5 @@ jobs:
       - run: npm run verify:model
       - run: npm run verify:runtime
       - run: npm run verify:live-market
+      - run: npm run verify:ai-research
       - run: npm run build
