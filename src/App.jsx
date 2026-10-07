@@ -28,6 +28,7 @@ import {
   LineChart,
   LockKeyhole,
   Menu,
+  Medal,
   Search,
   ShieldCheck,
   SlidersHorizontal,
@@ -51,6 +52,15 @@ const sectorFilters = ['ALL', 'EMERGING', 'GROWING', 'AI / AGENTS', 'DEEPTECH', 
 const startupRankings = rankedStartupIndex;
 const startupRankById = new Map(startupRankings.map((item) => [item.id, item]));
 
+
+function RankMark({ rank, compact = false }) {
+  const medal = { 1: '🥇', 2: '🥈', 3: '🥉' }[Number(rank)] || null;
+  return (
+    <span className={'rank-mark rank-mark-' + (Number(rank) <= 3 ? rank : 'regular') + (compact ? ' compact' : '')}>
+      {medal ? <span className="rank-medal" aria-hidden="true">{medal}</span> : <span className="rank-number">{String(rank).padStart(2, '0')}</span>}
+    </span>
+  );
+}
 function getRoute() {
   return window.location.hash.replace('#', '').trim().toLowerCase() || 'home';
 }
@@ -680,7 +690,7 @@ function Rankings() {
         <div className="ranking-top-three">
           {topThree.map((item) => (
             <button type="button" className={'ranking-top-card rank-' + item.rank} key={item.id} onClick={() => setSelected(item)}>
-              <div><span>#{String(item.rank).padStart(2, '0')}</span><small>{ruSector(item.sector)}</small></div>
+              <div className="ranking-top-card-head"><RankMark rank={item.rank} /><small>{ruSector(item.sector)}</small></div>
               <strong>{item.name}</strong>
               <div className="ranking-top-score"><b>{item.score.toFixed(1)}</b><em>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</em></div>
             </button>
@@ -729,8 +739,8 @@ function Rankings() {
         <section className="startup-table young-ranking-table" aria-label="Rising и молодые лидеры FORDEX">
           <div className="startup-row startup-head"><span>#</span><span>КОМАНДА</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>КАПИТАЛ</span><span>ТРАКЦИЯ</span><span>СИГНАЛ</span></div>
           {visibleYoung.map((item) => (
-            <button type="button" className="startup-row startup-item" key={item.id} onClick={() => goto(item.kind === 'EMERGING STARTUP' ? 'research-' + item.id : 'companies')}>
-              <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.rank <= 3 ? 'rank-up' : 'rank-flat'}>{item.rank <= 3 ? 'RISING' : 'RADAR'}</small></span>
+            <button type="button" className="startup-row startup-item" key={item.id} style={{ '--rank-index': index }} onClick={() => goto(item.kind === 'EMERGING STARTUP' ? 'research-' + item.id : 'companies')}>
+              <span className="rank-cell"><RankMark rank={item.rank} compact /><small className={item.rank <= 3 ? 'rank-up' : 'rank-flat'}>{item.rank <= 3 ? 'RISING' : 'RADAR'}</small></span>
               <span className="startup-name"><strong>{item.name}</strong><small>{item.founder ? item.founder + ' · ' : ''}{item.sourceName || 'FORDEX'}</small></span>
               <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.capitalLabel}</span><span>{item.tractionLabel}</span><strong className="score">{item.signal}</strong>
             </button>
@@ -741,8 +751,8 @@ function Rankings() {
         <section className="startup-table" aria-label="Рейтинг стартапов FORDEX">
           <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>ФИНАНСИРОВАНИЕ</span><span>ДИНАМИКА</span><span>ОЦЕНКА</span></div>
           {filtered.map((item) => (
-            <button type="button" className="startup-row startup-item" key={item.id} onClick={() => handleRankingItemClick(item)}>
-              <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
+            <button type="button" className="startup-row startup-item" key={item.id} style={{ '--rank-index': index }} onClick={() => handleRankingItemClick(item)}>
+              <span className="rank-cell"><RankMark rank={item.rank} compact /><small className={item.previousRank > item.rank ? 'rank-up' : item.previousRank < item.rank ? 'rank-down' : 'rank-flat'}>{item.rankStatus === 'NEW' ? 'NEW' : item.previousRank > item.rank ? '↑ ' + (item.previousRank - item.rank) : item.previousRank < item.rank ? '↓ ' + (item.rank - item.previousRank) : '—'}</small></span>
               <span className="startup-name"><strong>{item.name}</strong><small>{ruCity(item.city)} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}{Number(item.momentum) >= 15 ? ' · FASTEST' : ''}</small></span>
               <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className={Number(item.momentum) >= 0 ? 'positive' : 'negative'}>{item.momentum == null ? '—' : (Number(item.momentum) >= 0 ? '+' : '') + item.momentum + '%'}</strong><strong className="score">{item.score}</strong>
             </button>
@@ -833,8 +843,8 @@ function RankingCollectionPanel({ collectionKey }) {
           <section className="startup-table collection-table" aria-label="Текущее покрытие AI 100 с оценкой">
             <div className="startup-row startup-head"><span>#</span><span>КОМПАНИЯ</span><span>СЕКТОР</span><span>СТАДИЯ</span><span>ФИНАНСИРОВАНИЕ</span><span>ДИНАМИКА</span><span>ОЦЕНКА</span></div>
             {topRows.map((item) => (
-              <button type="button" className="startup-row startup-item" key={item.id} onClick={() => goto('rankings')}>
-                <span className="rank-cell"><strong>{String(item.rank).padStart(2, '0')}</strong><small className="rank-flat">ЯДРО</small></span>
+              <button type="button" className="startup-row startup-item" key={item.id} style={{ '--rank-index': index }} onClick={() => goto('rankings')}>
+                <span className="rank-cell"><RankMark rank={item.rank} compact /><small className="rank-flat">ЯДРО</small></span>
                 <span className="startup-name"><strong>{item.name}</strong><small>{ruCity(item.city)} · {item.verified ? 'ПРОВЕРЕНО' : 'ИССЛЕДОВАНИЕ'}</small></span>
                 <span>{ruSector(item.sector)}</span><span>{ruStage(item.stage)}</span><span>{item.funding}</span><strong className="positive">+{item.momentum}%</strong><strong className="score">{item.score}</strong>
               </button>
