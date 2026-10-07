@@ -67,6 +67,7 @@ export function AgentControlRoom() {
   const [loading, setLoading] = useState(false);
   const [lastRun, setLastRun] = useState(null);
   const [error, setError] = useState('');
+  const [researchWarning, setResearchWarning] = useState(null);
   const [drafts, setDrafts] = useState(loadDrafts);
 
   const selectedCompany = useMemo(
@@ -103,6 +104,7 @@ export function AgentControlRoom() {
   async function runAI() {
     setLoading(true);
     setError('');
+    setResearchWarning(null);
     try {
       let research = lastRun?.research || null;
       if (operation === 'MARKET_SCAN' || operation === 'COMPANY_RESEARCH') {
@@ -112,6 +114,13 @@ export function AgentControlRoom() {
             ? { id: selectedCompany.id, name: selectedCompany.name, sector: selectedCompany.sector, website: selectedCompany.website || null }
             : null,
         });
+        if (research?.status === 'RESEARCH_DEGRADED') {
+          setResearchWarning({
+            successfulQueries: research.successfulQueries || 0,
+            failedQueries: research.failedQueries || 0,
+            message: research.warnings?.[0]?.error || 'Источники исследования временно недоступны.',
+          });
+        }
       }
 
       const context = {
@@ -261,6 +270,12 @@ export function AgentControlRoom() {
               {loading ? <RefreshCw size={16} className="spin" /> : <Play size={16} />}
               {loading ? 'ВЫПОЛНЯЕТСЯ…' : 'ЗАПУСТИТЬ ИИ'}
             </button>
+            {researchWarning && (
+              <div className="agent-research-warning">
+                <span>RESEARCH / DEGRADED</span>
+                <p>Поиск источников временно работает в degraded-режиме: успешных запросов {researchWarning.successfulQueries}, ошибок {researchWarning.failedQueries}. ИИ продолжит работу, но без неподтверждённых источников. {researchWarning.message}</p>
+              </div>
+            )}
             {error && <div className="agent-error"><XCircle size={15} /><span>{error}</span></div>}
           </div>
 
