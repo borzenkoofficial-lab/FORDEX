@@ -44,7 +44,7 @@ for (const action of requiredForbidden) {
 }
 
 if (rankingModel.status !== 'PUBLIC BETA') fail('unexpected ranking model status');
-if (rankingModel.version !== '1.0') fail('unexpected ranking model version');
+if (rankingModel.version !== '1.1') fail('unexpected ranking model version');
 
 for (const evidence of evidenceRegistry) {
   if (!companyRegistry.some((company) => company.id === evidence.companyId)) {
