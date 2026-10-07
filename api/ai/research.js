@@ -111,9 +111,17 @@ export default async function handler(req, res) {
         ];
 
     const uniqueQueries = [...new Set(queries)].slice(0, MAX_COMPANIES);
-    const batches = await Promise.all(
+    const settled = await Promise.allSettled(
       uniqueQueries.map(async (query) => ({ query, items: await search(query) })),
     );
+
+    const batches = [];
+    const errors = [];
+    for (let index = 0; index < settled.length; index += 1) {
+      const result = settled[index];
+      if (result.status === 'fulfilled') batches.push(result.value);
+      else errors.push({ query: uniqueQueries[index], error: result.reason instanceof Error ? result.reason.message : 'SEARCH_FAILED' });
+    }
 
     const seen = new Set();
     const sources = [];
@@ -127,12 +135,31 @@ export default async function handler(req, res) {
 
     sources.sort((a, b) => Date.parse(b.publishedAt) - Date.parse(a.publishedAt));
 
+    const fallbackSources = company?.name && company?.website
+      ? [{
+          title: company.name + ' — официальный сайт',
+          url: company.website,
+          publishedAt: null,
+          sourceName: company.name,
+          description: 'Fallback discovery source. Требует отдельной проверки перед публикацией.',
+          query: 'company-official-site',
+        }]
+      : [];
+
+    const mergedSources = [...sources];
+    for (const item of fallbackSources) {
+      if (!seen.has(item.url)) mergedSources.push(item);
+    }
+
     return json(res, 200, {
-      status: 'RESEARCH_READY',
+      status: mergedSources.length ? 'RESEARCH_READY' : 'RESEARCH_DEGRADED',
       adapter: 'google-news-rss',
       queryCount: uniqueQueries.length,
-      sourceCount: sources.length,
-      sources: sources.slice(0, MAX_ITEMS),
+      successfulQueries: batches.length,
+      failedQueries: errors.length,
+      sourceCount: mergedSources.length,
+      warnings: errors,
+      sources: mergedSources.slice(0, MAX_ITEMS),
     });
   } catch (error) {
     return json(res, 502, {
