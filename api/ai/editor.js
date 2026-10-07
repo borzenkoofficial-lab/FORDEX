@@ -25,10 +25,15 @@ function json(res, status, body) {
   res.end(JSON.stringify(body));
 }
 
-function getProvider(name) {
+function getProvider(name, testKey = '') {
   const normalized = String(name || process.env.FORDEX_AI_PROVIDER || 'anymodel').toLowerCase();
   if (!PROVIDERS[normalized]) throw new Error('UNSUPPORTED_AI_PROVIDER');
-  return { name: normalized, ...PROVIDERS[normalized] };
+  const safeTestKey = String(testKey || '').trim();
+  return {
+    name: normalized,
+    ...PROVIDERS[normalized],
+    apiKey: safeTestKey || PROVIDERS[normalized].apiKey,
+  };
 }
 
 function extractOutputText(data) {
@@ -67,7 +72,8 @@ export default async function handler(req, res) {
     const objective = String(body.objective || '').trim();
     if (!objective) return json(res, 400, { error: 'MODEL_OBJECTIVE_REQUIRED' });
 
-    const provider = getProvider(body.provider);
+    const testKey = req.headers?.['x-fordex-test-key'] || '';
+    const provider = getProvider(body.provider, testKey);
     if (!provider.apiKey) {
       return json(res, 503, {
         error: 'AI_PROVIDER_NOT_CONFIGURED',
