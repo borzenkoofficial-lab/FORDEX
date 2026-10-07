@@ -906,15 +906,20 @@ function StartupDrawer({ startup, onClose, onCompare }) {
 
         <div className="drawer-score">
           <div>
-            <small>FORDEX ЯДРО</small>
+            <small>FORDEX SCORE</small>
             <strong>{startup.score}</strong>
-            <span>+{startup.momentum}% ДИНАМИКА</span>
+            <span>{startup.momentum >= 0 ? '+' : ''}{startup.momentum}% ДИНАМИКА</span>
           </div>
           <div className="drawer-score-rank">
             <span>ТЕКУЩАЯ ПОЗИЦИЯ</span>
             <strong>#{String(startup.rank).padStart(2, '0')}</strong>
             <em>{deltaText}</em>
           </div>
+        </div>
+        <div className="drawer-confidence">
+          <span>УВЕРЕННОСТЬ ИНДЕКСА</span>
+          <strong>{startup.confidence ?? '—'}%</strong>
+          <small>{startup.indexStatus || 'PUBLISHED'} · {startup.quantitativeSignals ?? 0} количественных сигналов</small>
         </div>
 
         <span className="drawer-sector">{ruSector(startup.sector)}</span>
@@ -945,7 +950,7 @@ function StartupDrawer({ startup, onClose, onCompare }) {
               return (
                 <div key={ruScoreLabel(weight.label)}>
                   <span>{ruScoreLabel(weight.label)}</span>
-                  <strong>{signal?.score ?? '—'} / 100 · {weight.value}%</strong>
+                  <strong>{signal?.score ?? '—'} / 100 · вес {weight.value}% · вклад {signal?.contribution ?? '—'}</strong>
                   <i><b style={{ width: (signal?.score ?? 0) + '%' }} /></i>
                 </div>
               );
@@ -957,6 +962,10 @@ function StartupDrawer({ startup, onClose, onCompare }) {
         <div className="drawer-signal">
           <span>ДВИЖЕНИЕ В РЕЙТИНГЕ</span>
           <p><strong>{deltaText}</strong> · текущее место #{startup.rank}, предыдущее #{startup.previousRank || '—'}. Последняя проверка: {startup.lastVerified}.</p>
+        </div>
+        <div className="drawer-signal drawer-ranking-explanation">
+          <span>КАК ЧИТАТЬ SCORE</span>
+          <p>Score — это взвешенная сумма шести сигналов. Самый большой вес у бизнес-тракции (30%), затем капитал и динамика (по 20%). Это не инвестиционная рекомендация и не оценка стоимости компании.</p>
         </div>
 
         <div className="drawer-evidence">
