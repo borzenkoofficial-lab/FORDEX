@@ -52,12 +52,13 @@ export async function runEditorModel({
 export async function runResearchAdapter({
   objective = '',
   company = null,
+  mode = 'MARKET_SCAN',
   signal,
 } = {}) {
   const response = await fetch('/api/ai/research', {
     method: 'POST',
     headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
-    body: JSON.stringify({ objective, company }),
+    body: JSON.stringify({ objective, company, mode }),
     signal,
   });
 
