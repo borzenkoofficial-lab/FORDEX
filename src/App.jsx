@@ -319,7 +319,7 @@ function CompanyDirectory({ watchlist, toggleWatch }) {
       <PageHero eyebrow="КАТАЛОГ КОМПАНИЙ" title="COMPANIES" description="Структурированный каталог публичных AI-компаний, технологических групп и независимых компаний, отслеживаемых FORDEX." />
       <section className="toolbar">
         <label><Search size={15} /><input value={query} onChange={(e) => setQuery(e.target.value)} placeholder="Поиск компании, сектора, города..." /></label>
-        <button type="button" onClick={() => setFilter(filter === 'ALL' ? 'AI / AGENTS' : 'ALL')}><SlidersHorizontal size={15} />{filter === 'ALL' ? 'ФИЛЬТР' : 'СБРОСИТЬ'}</button>
+        <button type="button" onClick={() => setFilter(filter === 'ALL' ? 'EMERGING' : 'ALL')} aria-pressed={filter === 'EMERGING'}><SlidersHorizontal size={15} />{filter === 'ALL' ? 'МОЛОДЫЕ' : 'СБРОСИТЬ'}</button>
         <span className="result-count">{filtered.length} ПРОФИЛЕЙ</span>
       </section>
       <div className="filter-rail">{sectorFilters.map((item) => <button type="button" key={item} className={filter === item ? 'active' : ''} onClick={() => setFilter(item)}>{ruTag(item)}</button>)}</div>
@@ -844,7 +844,6 @@ function News() {
   const [activeCategory, setActiveCategory] = useState('ALL');
   const categories = ['ALL', ...new Set(editorialArticles.map((story) => story.category))];
   const latest = editorialArticles[0];
-  const rest = editorialArticles.slice(1);
   const filtered = activeCategory === 'ALL' ? rest : rest.filter((story) => story.category === activeCategory);
 
   return (
@@ -1071,6 +1070,7 @@ function Sources() {
 }
 
 function Watchlist({ names, toggleWatch }) {
+  const [selected, setSelected] = useState(null);
   const items = marketCompanies.filter((company) => isWatched(company, names));
   return (
     <main className="inner-page">
@@ -1079,10 +1079,11 @@ function Watchlist({ names, toggleWatch }) {
         {items.length ? items.map((company) => (
           <article key={company.id}>
             <div className="card-image"><img src={company.image} alt="" loading="lazy" /><button type="button" className="watch active" onClick={() => toggleWatch(company)}><Heart size={16} fill="currentColor" /></button></div>
-            <div className="card-meta"><span>{ruSector(company.sector)}</span><h3>{company.name}</h3><small>{company.stage}</small></div>
+            <div className="card-meta"><span>{ruSector(company.sector)}</span><h3>{company.name}</h3><small>{company.stage}</small><button type="button" className="card-cta" onClick={() => setSelected(company)}>ОТКРЫТЬ ПРОФИЛЬ <ArrowRight size={13} /></button></div>
           </article>
         )) : <div className="empty"><Heart size={18} /> СПИСОК ОТСЛЕЖИВАНИЯ ПУСТ.</div>}
       </section>
+      {selected && <CompanyDrawer company={selected} onClose={() => setSelected(null)} />}
     </main>
   );
 }
@@ -1099,7 +1100,7 @@ function Footer() {
   return (
     <footer>
       <div><div className="logo">FORDEX</div><p>ИНДЕКС AI-БИЗНЕСА · РОССИЯ</p></div>
-      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>КОМПАНИИ</button><button type="button" onClick={() => goto('founders')}>ОСНОВАТЕЛИ</button><button type="button" onClick={() => goto('deals')}>СДЕЛКИ</button><button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><button type="button" onClick={() => goto('sources')}>ИСТОЧНИКИ</button></div>
+      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>КОМПАНИИ</button><button type="button" onClick={() => goto('founders')}>ОСНОВАТЕЛИ</button><button type="button" onClick={() => goto('deals')}>СДЕЛКИ</button><button type="button" onClick={() => goto('rankings')}>РЕЙТИНГ</button><button type="button" onClick={() => goto('news')}>НОВОСТИ</button><button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><button type="button" onClick={() => goto('sources')}>ИСТОЧНИКИ</button></div>
       <span>© 2026 FORDEX · ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span>
     </footer>
   );
@@ -1113,7 +1114,7 @@ function SearchOverlay({ onClose }) {
     const companyResults = companyRegistry.filter((item) => [item.name, item.sector, item.stage].join(' ').toLowerCase().includes(normalized)).slice(0, 6).map((item) => ({ label: item.name, meta: ruSector(item.sector), route: 'companies' }));
     const founderResults = founderRegistry.filter((item) => [item.name, item.company, item.role].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ОСНОВАТЕЛЬ · ' + item.company, route: 'founders' }));
     const dealResults = dealRecords.filter((item) => [item.company, item.type, item.sector, item.lead].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.company + ' · ' + ruText(item.type), meta: item.value + ' · ' + ruDate(item.date), route: 'deals' }));
-    const newsResults = newsFeed.filter((item) => [item.title, item.category, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 3).map((item) => ({ label: item.title, meta: 'НОВОСТИ · ' + ruDate(item.date), route: 'news' }));
+    const newsResults = editorialArticles.filter((item) => [item.title, item.category, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 3).map((item) => ({ label: item.title, meta: 'НОВОСТИ · ' + ruDate(item.date), route: 'article-' + item.id }));
     const coverageResults = researchUniverse.filter((item) => [item.name, item.sector, item.sourceName].join(' ').toLowerCase().includes(normalized)).slice(0, 4).map((item) => ({ label: item.name, meta: 'ДОСЬЕ · ' + ruSector(item.sector), route: item.id }));
     return [...companyResults, ...founderResults, ...dealResults, ...newsResults, ...coverageResults].slice(0, 12);
   }, [normalized]);
