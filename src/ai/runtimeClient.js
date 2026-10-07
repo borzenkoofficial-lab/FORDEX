@@ -42,7 +42,10 @@ export async function runEditorModel({
     throw error;
   }
 
-  return payload;
+  return {
+    ...payload,
+    output: normalizeGatewayOutput(payload?.output),
+  };
 }
 
 
@@ -65,10 +68,7 @@ export async function runResearchAdapter({
     throw error;
   }
 
-  return {
-    ...payload,
-    output: normalizeGatewayOutput(payload?.output),
-  };
+  return payload;
 }
 
 function normalizeGatewayOutput(value) {
