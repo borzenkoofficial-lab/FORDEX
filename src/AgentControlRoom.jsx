@@ -201,7 +201,6 @@ export function AgentControlRoom() {
         evidenceInstruction: operation === 'CREATE_POST'
           ? 'Сопоставь найденные источники с researchCandidates. Публикуй только проекты, для которых есть внешний источник в sourcePacket и подтверждаемые сведения о событии или продукте. researchCandidates — только справочный контекст о компаниях FORDEX, не замена внешнему источнику. Не выдумывай названия проектов, суммы, даты, продуктовые характеристики или traction. В sources[] возвращай только URL из sourcePacket. Если подтверждён только 1 проект — публикуй только его; если нет ни одного — верни post со статусом BLOCKED.'
           : 'Для существенных фактов укажи источник из sourcePacket.',
-          : 'Для существенных фактов укажи источник из sourcePacket.',
         responseFormat: operation === 'CREATE_POST'
           ? 'Return a JSON object with summary, facts[], sources[], and post. For blocked output, use post={status:"BLOCKED",text:"...",source_references:[]}.'
           : 'Return a JSON object with summary, facts[], sources[].',
