@@ -13,6 +13,10 @@ Set these variables in the Vercel project:
 
 Never put provider keys into `VITE_*` variables.
 
+## Temporary test key
+
+The `#control` cabinet has a temporary API key field for first tests. The key is held only in page memory and sent to `/api/ai/editor` in the `X-FORDEX-Test-Key` header for the current request. It is not written to `localStorage` or returned by the gateway. For production, move the key to Vercel server environment variables and clear the temporary field.
+
 ## 2. Open the test cabinet
 
 Use the FORDEX route:
