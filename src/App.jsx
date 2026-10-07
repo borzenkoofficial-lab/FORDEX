@@ -178,6 +178,7 @@ function Header({ route, watchCount, onSearch }) {
         <button className="logo" type="button" onClick={() => goto('home')} aria-label="Главная FORDEX">FORDEX</button>
         <div className="nav-right">
           <button type="button" onClick={onSearch}><Search size={15} /><span>ПОИСК</span></button>
+          <button type="button" className="news-cta" onClick={() => goto('news')}><span>NEWS</span><b>НОВОЕ</b></button>
           <button type="button" onClick={() => goto('analytics')}><LineChart size={15} /><span>АНАЛИТИКА</span></button>
           <button type="button" onClick={() => goto('watchlist')}><Heart size={15} /><span>{watchLabel}</span></button>
           <button type="button" onClick={() => goto('rankings')}><BarChart3 size={15} /><span>ИНДЕКС</span></button>
@@ -840,17 +841,70 @@ function StartupDrawer({ startup, onClose }) {
 }
 
 function News() {
+  const [activeCategory, setActiveCategory] = useState('ALL');
+  const categories = ['ALL', ...new Set(editorialArticles.map((story) => story.category))];
+  const latest = editorialArticles[0];
+  const rest = editorialArticles.slice(1);
+  const filtered = activeCategory === 'ALL' ? rest : rest.filter((story) => story.category === activeCategory);
+
   return (
-    <main className="inner-page">
-      <PageHero eyebrow="РЕДАКЦИЯ FORDEX" title="СТАТЬИ" description="Редакционные материалы FORDEX о российских AI-компаниях, командах, технологиях и рыночных сигналах. Материал читается внутри FORDEX; первоисточник всегда указан отдельно." action={<ButtonLink route="market" className="text-link">ВЕРНУТЬСЯ НА КАРТУ РЫНКА <ArrowRight size={13} /></ButtonLink>} />
-      <section className="news-list">
-        {editorialArticles.map((story, index) => (
-          <article key={story.id}>
-            <div className="news-index">{String(index + 1).padStart(2, '0')}</div>
-            <div><span>{ruDate(story.date)} · {story.category}</span><h2>{story.title}</h2><small>{story.readTime} · {story.sourceName}</small></div>
-            <button type="button" className="news-read" onClick={() => goto('article-' + story.id)}>ЧИТАТЬ В FORDEX <ArrowRight size={14} /></button>
-          </article>
-        ))}
+    <main className="inner-page news-page">
+      <PageHero
+        eyebrow="РЕДАКЦИЯ FORDEX"
+        title="NEWS"
+        description="Короткие разборы и рыночные сигналы FORDEX. Сначала — главное событие, затем лента материалов по отраслям. В каждом тексте отделены факты от редакционных выводов."
+        action={<ButtonLink route="market" className="text-link">КАРТА РЫНКА <ArrowRight size={13} /></ButtonLink>}
+      />
+
+      <section className="news-entry">
+        <div className="news-entry-mark"><span>FORDEX</span><strong>NEWS</strong><i /></div>
+        <div className="news-entry-copy">
+          <span>ПОСЛЕДНИЙ МАТЕРИАЛ · {ruDate(latest.date)} · {latest.readTime}</span>
+          <h2>{latest.title}</h2>
+          <p>{latest.dek}</p>
+          <button type="button" className="news-feature-cta" onClick={() => goto('article-' + latest.id)}>
+            <b>ЧИТАТЬ РАЗБОР</b><ArrowRight size={16} />
+          </button>
+        </div>
+        <div className="news-entry-meta">
+          <strong>01</strong>
+          <span>{latest.category}</span>
+          <small>{latest.sourceName}</small>
+        </div>
+      </section>
+
+      <section className="news-toolbar">
+        <div>
+          <span>ЛЕНТА FORDEX</span>
+          <strong>ЧИТАЙТЕ ПО СИГНАЛУ, А НЕ ПО ШУМУ.</strong>
+        </div>
+        <div className="news-filters">
+          {categories.map((category) => (
+            <button type="button" key={category} className={activeCategory === category ? 'active' : ''} onClick={() => setActiveCategory(category)}>
+              {category === 'ALL' ? 'ВСЕ' : category}
+            </button>
+          ))}
+        </div>
+      </section>
+
+      <section className="news-feed" aria-label="Лента новостей FORDEX">
+        <div className="news-feed-head"><span>ПОСЛЕДНИЕ ПУБЛИКАЦИИ</span><small>{filtered.length + 1} МАТЕРИАЛОВ</small></div>
+        <div className="news-feed-list">
+          {(activeCategory === 'ALL' ? editorialArticles.slice(0, 5) : [latest, ...filtered]).map((story, index) => (
+            <article key={story.id} className={index === 0 && activeCategory !== 'ALL' ? 'news-item news-item-linked' : 'news-item'}>
+              <div className="news-item-index">{String(index + 1).padStart(2, '0')}</div>
+              <div className="news-item-main">
+                <div className="news-item-meta"><span>{ruDate(story.date)}</span><b>{story.category}</b><small>{story.readTime}</small></div>
+                <button type="button" className="news-item-title" onClick={() => goto('article-' + story.id)}>{story.title}</button>
+                <p>{story.dek}</p>
+              </div>
+              <button type="button" className="news-item-action" onClick={() => goto('article-' + story.id)} aria-label={'Читать: ' + story.title}>
+                <span>ЧИТАТЬ</span><ArrowRight size={15} />
+              </button>
+            </article>
+          ))}
+          {!filtered.length && activeCategory !== 'ALL' && <div className="news-empty">В ЭТОЙ КАТЕГОРИИ ПОКА НЕТ МАТЕРИАЛОВ.</div>}
+        </div>
       </section>
     </main>
   );
