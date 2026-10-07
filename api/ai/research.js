@@ -162,8 +162,22 @@ export default async function handler(req, res) {
       sources: mergedSources.slice(0, MAX_ITEMS),
     });
   } catch (error) {
-    return json(res, 502, {
-      error: error instanceof Error ? error.message : 'RESEARCH_ADAPTER_FAILED',
+    // Research is an enrichment stage, not a hard availability dependency.
+    // Never turn a temporary upstream/search failure into RESEARCH_REQUEST_FAILED
+    // for the whole control-room run. Return an explicit degraded result so the
+    // caller can decide whether to continue without discovered sources.
+    return json(res, 200, {
+      status: 'RESEARCH_DEGRADED',
+      adapter: 'google-news-rss',
+      queryCount: 0,
+      successfulQueries: 0,
+      failedQueries: 0,
+      sourceCount: 0,
+      warnings: [{
+        query: null,
+        error: error instanceof Error ? error.message : 'RESEARCH_ADAPTER_FAILED',
+      }],
+      sources: [],
     });
   }
 }
