@@ -15,7 +15,7 @@ export const TOOL_POLICY = Object.freeze({
   search_web: { roles: ['research', 'evidence', 'editor'], mutates: false },
   inspect_source: { roles: ['research', 'evidence', 'editor'], mutates: false },
   create_evidence: { roles: ['evidence', 'editor'], mutates: false, requiresEvidence: false },
-  propose_company_update: { roles: ['data', 'editor'], mutates: true, requiresEvidence: true },
+  propose_company_update: { roles: ['data', 'editor'], mutates: false, proposalOnly: true, requiresEvidence: true },
   recalculate_ranking: { roles: ['ranking', 'editor'], mutates: false, deterministic: true },
   create_news_draft: { roles: ['news', 'editor'], mutates: false, requiresEvidence: true },
   request_visual: { roles: ['visual', 'editor'], mutates: false },
