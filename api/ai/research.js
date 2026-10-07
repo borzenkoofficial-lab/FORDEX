@@ -44,9 +44,17 @@ async function search(query) {
   const url = 'https://news.google.com/rss/search?q='
     + encodeURIComponent(query)
     + '&hl=ru&gl=RU&ceid=RU:ru';
-  const response = await fetch(url, {
-    headers: { 'User-Agent': 'FORDEX-AI-Research/1.0' },
-  });
+  const controller = new AbortController();
+  const timeout = setTimeout(() => controller.abort(), 8000);
+  let response;
+  try {
+    response = await fetch(url, {
+      headers: { 'User-Agent': 'FORDEX-AI-Research/1.0' },
+      signal: controller.signal,
+    });
+  } finally {
+    clearTimeout(timeout);
+  }
   if (!response.ok) throw new Error('NEWS_RSS_' + response.status);
 
   const cutoff = Date.now() - WINDOW_DAYS * 24 * 60 * 60 * 1000;
