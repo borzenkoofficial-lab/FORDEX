@@ -1,0 +1,35 @@
+name: FORDEX Live Market Refresh
+
+on:
+  schedule:
+    - cron: '0 */3 * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  refresh:
+    if: github.event_name != 'push' || !startsWith(github.event.head_commit.message, 'chore: refresh live market signals')
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 1
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 22
+      - run: node scripts/refresh-market.mjs
+      - name: Commit live snapshot
+        run: |
+          if git diff --quiet -- src/data/liveMarketSnapshot.js; then
+            echo "No live market changes."
+            exit 0
+          fi
+          git config user.name "fordex-market-bot"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add src/data/liveMarketSnapshot.js
+          git commit -m "chore: refresh live market signals"
+          git push
