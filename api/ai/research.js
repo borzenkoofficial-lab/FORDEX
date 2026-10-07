@@ -165,7 +165,6 @@ export default async function handler(req, res) {
         }]
       : [];
 
-    const knownCompanyNames = registryCandidates.map((item) => item.name.toLowerCase());
     const enrichedSources = sources.map((source) => {
       const haystack = [source.title, source.description, source.sourceName].join(' ').toLowerCase();
       const matchedCompany = registryCandidates.find((item) => haystack.includes(item.name.toLowerCase()));
@@ -178,7 +177,7 @@ export default async function handler(req, res) {
     });
 
     const relevantSources = enrichedSources.filter((source) => source.matchedCompany || company?.name);
-    const finalSources = (company?.name ? enrichedSources : relevantSources.length ? relevantSources : enrichedSources)
+    const finalSources = relevantSources
       .sort((a, b) => Date.parse(b.publishedAt || 0) - Date.parse(a.publishedAt || 0));
 
     const mergedSources = [...finalSources];
