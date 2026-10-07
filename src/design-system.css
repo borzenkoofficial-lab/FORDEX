@@ -1,0 +1,282 @@
+/* FORDEX — Design Stage 1
+   Canonical product language:
+   monochrome, editorial, data-first, restrained motion.
+   This layer intentionally overrides legacy visual passes without changing product logic.
+*/
+:root{
+  --fx-paper:#f3f2ee;
+  --fx-paper-2:#e9e8e3;
+  --fx-surface:#f8f7f3;
+  --fx-ink:#0b0b0b;
+  --fx-muted:#686762;
+  --fx-subtle:#8b8983;
+  --fx-line:#c9c8c2;
+  --fx-line-strong:#a7a59f;
+  --fx-black:#090909;
+  --fx-white:#fff;
+  --fx-radius:0px;
+  --fx-max:1280px;
+  --fx-gutter:6.5vw;
+  --fx-display:Manrope,Inter,Arial,sans-serif;
+  --fx-body:Inter,Arial,sans-serif;
+}
+html{background:var(--fx-paper)}
+body{font-family:var(--fx-body);background:var(--fx-paper);color:var(--fx-ink)}
+body,button,input,select{font-family:var(--fx-body)}
+.site{background:var(--fx-paper);color:var(--fx-ink)}
+button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{outline:1px solid #000;outline-offset:3px}
+
+/* Typography */
+h1,h2,h3,strong,.logo,.hero-word,.page-hero h1,.ranking-intro h2,.ranking-series-head h2,
+.ranking-method h2,.market-intro h2,.methodology h2,.source-board h2,.source-principles h2,
+.not-found>span,.not-found h1,.search-input input,.directory-copy h3,.founder-card h3,
+.table-row strong,.provider-meta strong,.startup-name>strong,.score,.metric-card>strong{
+  font-family:var(--fx-display);
+}
+p{color:var(--fx-muted)}
+.section-kicker,.section-head>div>span,.editorial-copy>span,.page-hero span,.metric-card>span,
+.deal-summary span,.panel-head>span,.drawer-sector,.drawer-top>span,.methodology>span,
+.source-board>div>span{color:var(--fx-muted);letter-spacing:.18em}
+
+/* Chrome */
+.announcement{
+  height:28px;
+  background:var(--fx-black);
+  color:#fff;
+  letter-spacing:.14em;
+  font-size:8px;
+  border:0;
+}
+.announcement strong{color:#a5a5a5}
+.announcement-links button{color:#bdbdbd}
+.header{
+  height:78px;
+  padding:0 var(--fx-gutter);
+  background:var(--fx-paper);
+  border-bottom:1px solid var(--fx-line);
+  box-shadow:none;
+}
+.nav-left{gap:28px}
+.nav-right{gap:22px}
+.nav-left button,.nav-right button{
+  color:#20201f;
+  font-size:8px;
+  letter-spacing:.12em;
+  font-weight:700;
+}
+.nav-left button::after{border-color:#000}
+.nav-left button.active,.nav-right button:hover{color:#000}
+.logo{
+  font-size:30px;
+  font-weight:800;
+  letter-spacing:.075em;
+  color:#000;
+}
+.mobile-menu{color:#000}
+.mobile-drawer{background:#0a0a0a}
+
+/* Hero */
+.hero{
+  height:min(79svh,800px);
+  min-height:600px;
+  margin:0 var(--fx-gutter);
+  background:#deddd8;
+  border:0;
+  border-radius:0;
+}
+.hero::before{
+  inset:15px;
+  border:1px solid rgba(0,0,0,.14);
+}
+.hero::after{
+  right:-4%;
+  top:7%;
+  width:48%;
+  height:78%;
+  border:1px solid rgba(0,0,0,.12);
+  border-radius:50%;
+  transform:rotate(-9deg);
+}
+.hero-word{
+  color:#050505;
+  opacity:.10;
+  right:2%;
+  width:76%;
+  font-size:clamp(150px,22vw,350px);
+}
+.hero-copy{color:#111}
+.hero-copy i,.hero-stamp i{border-color:#111}
+.hero-kicker span,.hero-stamp span{color:#66645e}
+.hero-kicker strong{color:#090909}
+.hero-stamp strong{color:#090909}
+.hero-actions{bottom:48px}
+.primary{
+  background:#080808;
+  color:#fff;
+  border-radius:0;
+  min-height:43px;
+  padding:13px 18px;
+}
+.primary:hover{background:#242424}
+.underlined,.text-link{color:#111;border-color:#111}
+.hero-foot{
+  border-color:rgba(0,0,0,.22);
+  color:#66645e;
+}
+
+/* Shared section rhythm */
+.index-snapshot,.best{padding-left:var(--fx-gutter);padding-right:var(--fx-gutter)}
+.index-snapshot{padding-top:38px;padding-bottom:42px}
+.snapshot-grid{border-color:var(--fx-line);background:var(--fx-line)}
+.metric-card{background:var(--fx-paper);border:0}
+.metric-card:nth-child(n){background:var(--fx-paper)}
+.metric-card>strong{color:#0b0b0b;font-size:40px}
+.metric-icon{color:#6b6963}
+
+/* Category strip */
+.category-strip{
+  background:#0a0a0a;
+  padding:30px var(--fx-gutter);
+  min-height:150px;
+}
+.category{border-color:#343434}
+.category img{filter:grayscale(1);border-radius:0;opacity:.88}
+.category p{color:#a5a5a5}
+.category span{color:#fff}
+
+/* Editorial / trust */
+.editorial{background:#d9d8d3}
+.editorial-copy{background:transparent}
+.editorial>img{filter:grayscale(1);mix-blend-mode:multiply;opacity:.72}
+.trust{background:var(--fx-paper)}
+.trust>div:nth-child(n) svg{color:#111}
+.trust>div{border-color:var(--fx-line)}
+.mover-card:hover{background:#e9e8e3}
+.mover-card em{color:#111}
+.signal-panel{background:var(--fx-paper)}
+.coverage-line i,.analytics-bar-row i{background:#111}
+.coverage-line>div,.analytics-bar-row>div{background:#d4d3cd}
+
+/* Page hero */
+.page-hero{
+  min-height:310px;
+  padding:52px var(--fx-gutter) 43px;
+  background:#deddd8;
+  border-bottom:1px solid var(--fx-line);
+}
+.page-hero h1{
+  color:#0b0b0b;
+  font-size:clamp(62px,8vw,112px);
+  letter-spacing:-.075em;
+}
+.page-hero p{color:#5e5d58}
+.page-hero-word{display:none}
+
+/* Controls */
+.toolbar,.filter-rail{background:var(--fx-paper)}
+.toolbar{
+  padding-left:var(--fx-gutter);
+  padding-right:var(--fx-gutter);
+  border-bottom:1px solid var(--fx-line);
+}
+.toolbar label{border-color:#77756f}
+.toolbar>button{
+  border:1px solid #77756f;
+  background:transparent;
+  color:#111;
+}
+.toolbar>button:hover{background:#111;color:#fff;border-color:#111}
+.filter-rail{padding-left:var(--fx-gutter);padding-right:var(--fx-gutter)}
+.filter-rail button{border-color:transparent;color:#77746d;border-radius:0}
+.filter-rail button.active,.filter-rail button:hover{background:#111;border-color:#111;color:#fff}
+
+/* Cards */
+.directory-grid{padding-left:var(--fx-gutter);padding-right:var(--fx-gutter);background:var(--fx-paper)}
+.directory-card{
+  background:transparent;
+  border:1px solid var(--fx-line);
+  border-radius:0;
+  box-shadow:none;
+}
+.directory-card:hover{transform:translateY(-2px);box-shadow:none}
+.directory-image{background:#d8d7d2}
+.directory-image>img{filter:grayscale(1);mix-blend-mode:multiply}
+.directory-image>span:first-of-type,.directory-image .verified-mark,.watch{
+  background:rgba(243,242,238,.94);
+  border-radius:0;
+}
+.watch:hover,.watch.active{background:#111;color:#fff}
+.directory-copy h3{color:#0b0b0b}
+.card-cta{color:#111!important}
+
+/* Data tables */
+.deals-table,.news-list{margin-left:var(--fx-gutter);margin-right:var(--fx-gutter)}
+.table-row,.startup-row,.provider-row,.universe-row{border-color:var(--fx-line)}
+.table-head,.startup-head,.provider-head,.universe-head-row{
+  color:#77746d;
+  background:transparent;
+}
+.table-row strong,.startup-name>strong,.provider-row strong:nth-child(2){color:#0b0b0b}
+.table-row:hover,.provider-row:hover,.startup-item:hover{background:#e9e8e3}
+.startup-table{margin-left:var(--fx-gutter);margin-right:var(--fx-gutter);background:transparent;border:0}
+.startup-row{padding-left:0;padding-right:0}
+.startup-head{background:transparent}
+.score{color:#111!important}
+.positive,.negative{color:#111}
+.rank-up,.rank-down,.rank-flat{color:#666}
+
+/* Ranking shell */
+.ranking-intro,.ranking-controls,.ranking-series,.ranking-context{background:var(--fx-paper)}
+.ranking-mode-switch{background:#e9e8e3}
+.ranking-mode-switch button.active{background:#111}
+.ranking-series-grid{background:var(--fx-line);border-color:var(--fx-line)}
+.series-card{background:var(--fx-paper)}
+.series-card:hover{background:#e9e8e3}
+.ranking-method{background:#111}
+.score-list i{background:#3b3b3b}
+.score-list b{background:#fff}
+
+/* Market / analytics */
+.market-overview,.analytics-metrics{background:var(--fx-paper)}
+.market-intro{background:#111}
+.market-sectors,.market-universe{background:var(--fx-paper)}
+.sector-map-card,.market-overview>div{border-color:var(--fx-line)}
+.sector-map-card>div{background:#d5d4ce}
+.sector-map-card i{background:#111}
+.analytics-panel{background:#ecebe6;border-color:var(--fx-line)}
+.methodology{background:var(--fx-paper)}
+.source-board,.source-principles{background:#111}
+
+/* Overlays */
+.startup-overlay,.search-overlay{background:rgba(0,0,0,.62)}
+.startup-drawer,.search-box{background:var(--fx-paper);border-radius:0;box-shadow:-24px 0 70px rgba(0,0,0,.18)}
+.drawer-top button,.search-top button{border-color:var(--fx-line)}
+.drawer-signal{background:#e8e7e2!important}
+.verified-mark{color:#111!important}
+.watch.active{color:#fff!important}
+
+/* Footer */
+footer{background:#080808}
+footer .logo{color:#fff}
+
+/* Mobile */
+@media(max-width:1000px){
+  .header{padding:0 20px}
+}
+@media(max-width:720px){
+  :root{--fx-gutter:6%}
+  .announcement{height:25px}
+  .header{height:70px}
+  .hero{margin:0 var(--fx-gutter);min-height:450px;height:72svh}
+  .hero::before{inset:10px}
+  .hero-word{font-size:23vw;opacity:.09}
+  .hero-actions{bottom:68px}
+  .category-strip{padding:0}
+  .index-snapshot,.best{padding-left:var(--fx-gutter);padding-right:var(--fx-gutter)}
+  .page-hero{padding-left:var(--fx-gutter);padding-right:var(--fx-gutter);min-height:225px}
+  .toolbar,.filter-rail{padding-left:var(--fx-gutter);padding-right:var(--fx-gutter)}
+  .directory-grid{padding-left:var(--fx-gutter);padding-right:var(--fx-gutter)}
+  .deals-table,.news-list{margin-left:var(--fx-gutter);margin-right:var(--fx-gutter)}
+  .startup-table{margin-left:var(--fx-gutter);margin-right:var(--fx-gutter)}
+  .analytics-panel{margin-left:var(--fx-gutter);margin-right:var(--fx-gutter)}
+}
