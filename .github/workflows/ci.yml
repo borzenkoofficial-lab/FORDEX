@@ -18,4 +18,5 @@ jobs:
       - run: npm run verify:ranking
       - run: npm run verify:data
       - run: npm run verify:agent
+      - run: npm run verify:model
       - run: npm run build
