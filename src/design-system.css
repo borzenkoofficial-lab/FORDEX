@@ -2007,3 +2007,15 @@ footer .footer-links button:hover{color:#8fb0ff}
   .agent-result-meta{flex-direction:column}
   .agent-side-card strong{font-size:9px}
 }
+
+
+/* Temporary AI test credential */
+.agent-key-field{grid-column:1 / -1!important}
+.agent-key-wrap{display:flex;align-items:stretch}
+.agent-key-wrap input{border-right:0!important;flex:1}
+.agent-key-wrap button{
+  width:44px;border:1px solid var(--fx-line);background:#fff;color:var(--fx-muted);
+  font-size:20px;line-height:1;cursor:pointer;
+}
+.agent-key-wrap button:hover{background:var(--fx-red-soft);color:var(--fx-red)}
+.agent-key-field small{font-size:9px;line-height:1.4;color:var(--fx-subtle)}
