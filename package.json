@@ -14,7 +14,8 @@
     "verify:model": "node scripts/verify-model-gateway.mjs",
     "verify:runtime": "node scripts/verify-runtime-gateway.mjs",
     "refresh:market": "node scripts/refresh-market.mjs",
-    "verify:live-market": "node scripts/verify-live-market.mjs"
+    "verify:live-market": "node scripts/verify-live-market.mjs",
+    "verify:ai-research": "node scripts/verify-ai-research.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
