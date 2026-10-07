@@ -1003,7 +1003,8 @@ function News() {
       />
 
       <section className="news-entry">
-        <div className="news-entry-mark"><span>FORDEX</span><strong>NEWS</strong><i /></div>
+        <div className="news-entry-mark"><span>FORDEX</span><strong>NEWS</strong><i /><small>FEATURED</small></div>
+        <div className="news-entry-media"><img src={latest.media.src} alt={latest.media.alt} /></div>
         <div className="news-entry-copy">
           <span>ПОСЛЕДНИЙ МАТЕРИАЛ · {ruDate(latest.date)} · {latest.readTime}</span>
           <h2>{latest.title}</h2>
@@ -1039,10 +1040,12 @@ function News() {
           {(activeCategory === 'ALL' ? editorialArticles.slice(0, 5) : filtered).map((story, index) => (
             <article key={story.id} className="news-item">
               <div className="news-item-index">{String(index + 1).padStart(2, '0')}</div>
+              <div className="news-item-media"><img src={story.media.src} alt="" loading="lazy" /></div>
               <div className="news-item-main">
                 <div className="news-item-meta"><span>{ruDate(story.date)}</span><b>{story.category}</b><small>{story.readTime}</small></div>
                 <button type="button" className="news-item-title" onClick={() => goto('article-' + story.id)}>{story.title}</button>
                 <p>{story.dek}</p>
+                <div className="news-item-source"><span>SOURCE</span><strong>{story.sourceName}</strong></div>
               </div>
               <button type="button" className="news-item-action" onClick={() => goto('article-' + story.id)} aria-label={'Читать: ' + story.title}>
                 <span>ЧИТАТЬ</span><ArrowRight size={15} />
@@ -1070,6 +1073,7 @@ function ArticlePage({ articleId }) {
         <div className="article-hero-grid">
           <span className="article-number">{String(index + 1).padStart(2, '0')}</span>
           <div><h1>{article.title}</h1><p>{article.dek}</p></div>
+          <div className="article-hero-media"><img src={article.media.src} alt={article.media.alt} /></div>
         </div>
       </section>
 
