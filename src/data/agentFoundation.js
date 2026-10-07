@@ -137,7 +137,7 @@ export const agentWorkflow = [
 ];
 
 export const rankingSnapshot = {
-  modelVersion: '1.0',
+  modelVersion: '1.1',
   source: 'rankingEngine',
   immutable: true,
   generatedBy: 'SYSTEM',
