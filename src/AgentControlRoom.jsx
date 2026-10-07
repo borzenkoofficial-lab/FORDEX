@@ -66,7 +66,7 @@ function extractJson(value) {
 function normalizeResearch(value) {
   const parsed = extractJson(value);
   if (!parsed || typeof parsed !== 'object') {
-    return { summary: displayText(value), facts: [], sources: [], post: '' };
+    return { summary: displayText(value), facts: [], sources: [], post: '', postStatus: null, postSourceReferences: [] };
   }
 
   const facts = Array.isArray(parsed.facts)
@@ -87,12 +87,20 @@ function normalizeResearch(value) {
       }))
     : [];
 
+  const rawPost = parsed.post;
+  const postStatus = rawPost && typeof rawPost === 'object' ? displayText(rawPost.status).toUpperCase() || null : null;
+  const postSourceReferences = rawPost && typeof rawPost === 'object' && Array.isArray(rawPost.source_references)
+    ? rawPost.source_references.map(displayText).filter(Boolean)
+    : [];
+
   return {
     ...parsed,
     summary: displayText(parsed.summary),
     facts,
     sources,
-    post: displayText(parsed.post),
+    post: displayText(rawPost),
+    postStatus,
+    postSourceReferences,
   };
 }
 
@@ -207,11 +215,12 @@ export function AgentControlRoom() {
       });
 
       const normalized = normalizeResearch(result.output);
+      const blockedPost = operation === 'CREATE_POST' && normalized.postStatus === 'BLOCKED';
       const safeNormalized = operation === 'CREATE_POST' && !normalized.post
         ? {
             ...normalized,
             post: result.output,
-            sources: normalized.sources?.length ? normalized.sources : (lastRun?.research?.sources || []),
+            sources: normalized.sources?.length ? normalized.sources : (research?.sources || []),
           }
         : normalized;
       const run = {
@@ -228,7 +237,7 @@ export function AgentControlRoom() {
 
       setLastRun(run);
 
-      if (operation === 'CREATE_POST' && safeNormalized.post) {
+      if (operation === 'CREATE_POST' && safeNormalized.post && !blockedPost) {
         setDrafts((current) => [
           {
             id: run.id,
@@ -432,9 +441,14 @@ export function AgentControlRoom() {
                 </div>
               )}
               {lastRun.normalized.post && (
-                <div className="agent-result-block agent-post-preview">
-                  <span>POST DRAFT</span>
+                <div className={`agent-result-block agent-post-preview${lastRun.normalized.postStatus === 'BLOCKED' ? ' agent-post-blocked' : ''}`}>
+                  <span>{lastRun.normalized.postStatus === 'BLOCKED' ? 'POST BLOCKED' : 'POST DRAFT'}</span>
                   <p>{lastRun.normalized.post}</p>
+                  {lastRun.normalized.postStatus === 'BLOCKED' && lastRun.normalized.postSourceReferences.length > 0 && (
+                    <div className="agent-draft-sources">
+                      {lastRun.normalized.postSourceReferences.map((source, index) => <span key={source + index}>{source}</span>)}
+                    </div>
+                  )}
                 </div>
               )}
               <details className="agent-raw">
