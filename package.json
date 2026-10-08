@@ -16,7 +16,8 @@
     "refresh:market": "node scripts/refresh-market.mjs",
     "verify:live-market": "node scripts/verify-live-market.mjs",
     "verify:ai-research": "node scripts/verify-ai-research.mjs",
-    "dev:client": "vite"
+    "dev:client": "vite",
+    "verify:proposal-gate": "node scripts/verify-proposal-gate.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
