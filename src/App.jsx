@@ -1044,7 +1044,7 @@ function News() {
         <div className="news-entry-meta">
           <strong>01</strong>
           <span>{latest.category}</span>
-          <small>{latest.sourceName}</small>
+          <small>РЕДАКЦИЯ FORDEX</small>
         </div>
       </section>
 
@@ -1073,7 +1073,7 @@ function News() {
                 <div className="news-item-meta"><span>{ruDate(story.date)}</span><b>{story.category}</b><small>{story.readTime}</small></div>
                 <button type="button" className="news-item-title" onClick={() => goto('article-' + story.id)}>{story.title}</button>
                 <p>{story.dek}</p>
-                <div className="news-item-source"><span>SOURCE</span><strong>{story.sourceName}</strong></div>
+                <div className="news-item-source"><span>СТАТУС</span><strong>ПРОВЕРЕНО FORDEX</strong></div>
               </div>
               <button type="button" className="news-item-action" onClick={() => goto('article-' + story.id)} aria-label={'Читать: ' + story.title}>
                 <span>ЧИТАТЬ</span><ArrowRight size={15} />
@@ -1122,7 +1122,7 @@ function ArticlePage({ articleId }) {
         </article>
 
         <aside className="article-aside">
-          <div><span>FORDEX</span><strong>РЕДАКЦИОННЫЙ<br />СЛОЙ</strong><p>Материалы находятся внутри индекса. Внешние сайты используются только как источники доказательств.</p></div>
+          <div><span>FORDEX</span><strong>РЕДАКЦИОННЫЙ<br />СЛОЙ</strong><p>Материалы находятся внутри индекса. Публикация написана и структурирована FORDEX; доказательства используются внутри исследовательского контура.</p></div>
           <div><span>ДРУГИЕ МАТЕРИАЛЫ</span>{related.map((item) => <button type="button" key={item.id} onClick={() => goto('article-' + item.id)}><small>{ruDate(item.date)}</small><strong>{item.title}</strong><ArrowRight size={13} /></button>)}</div>
         </aside>
       </section>
