@@ -72,6 +72,31 @@ export async function runResearchAdapter({
   return payload;
 }
 
+
+export async function validateEditorProposal({
+  operation,
+  output,
+  discoveredSources = [],
+  signal,
+} = {}) {
+  const response = await fetch('/api/ai/proposal', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    body: JSON.stringify({ operation, output, discoveredSources }),
+    signal,
+  });
+
+  const payload = await readJson(response);
+  if (!response.ok) {
+    const error = new Error(payload?.errors?.[0] || payload?.error || 'PROPOSAL_REJECTED');
+    error.status = response.status;
+    error.validation = payload;
+    throw error;
+  }
+
+  return payload;
+}
+
 function normalizeGatewayOutput(value) {
   if (value == null) return '';
   if (typeof value === 'string') return value;
