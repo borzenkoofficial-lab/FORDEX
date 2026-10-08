@@ -2458,3 +2458,14 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   }
 }
 
+.special-builder-hero {
+  border-top: 3px solid var(--ink);
+}
+.special-builder-hero .article-number {
+  font-size: 11px;
+  letter-spacing: .16em;
+  font-weight: 800;
+}
+.special-builder-hero .article-number::before {
+  content: '№ ';
+}
