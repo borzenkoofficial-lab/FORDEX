@@ -1115,10 +1115,9 @@ function ArticlePage({ articleId }) {
             </section>
           ))}
           <div className="article-source">
-            <span>ПЕРВОИСТОЧНИК</span>
-            <strong>{article.sourceName}</strong>
-            <p>Фактическая основа материала проверена по публичной публикации. Редакционные выводы и формулировки выше принадлежат FORDEX.</p>
-            <a href={article.source} target="_blank" rel="noreferrer">ОТКРЫТЬ ПЕРВОИСТОЧНИК <ExternalLink size={13} /></a>
+            <span>РЕДАКЦИОННАЯ ПРОВЕРКА FORDEX</span>
+            <strong>МАТЕРИАЛ ПОДГОТОВЛЕН ВНУТРИ FORDEX</strong>
+            <p>Фактические утверждения проверены по публичным материалам и сохранены во внутреннем контуре доказательств. Текст, структура и редакционные выводы принадлежат FORDEX.</p>
           </div>
         </article>
 
@@ -1168,10 +1167,9 @@ function ResearchArticlePage({ researchId }) {
           </section>
 
           <div className="article-source">
-            <span>ИСТОЧНИК ДАННЫХ</span>
-            <strong>{entry.sourceName}</strong>
-            <p>Публичный источник, на котором основана текущая запись. FORDEX хранит ссылку внутри досье, поэтому пользователь не покидает сайт ради просмотра карточки.</p>
-            <a href={entry.source} target="_blank" rel="noreferrer">ОТКРЫТЬ ПЕРВОИСТОЧНИК <ExternalLink size={13} /></a>
+            <span>РЕДАКЦИОННЫЙ СТАТУС</span>
+            <strong>ДОСЬЕ FORDEX · ИСТОЧНИКИ ВНУТРИ КОНТУРА</strong>
+            <p>Карточка собрана из публично проверяемых данных. Внешние ссылки не являются частью публикации; доказательства сохраняются внутри исследовательского слоя FORDEX.</p>
           </div>
         </article>
 
