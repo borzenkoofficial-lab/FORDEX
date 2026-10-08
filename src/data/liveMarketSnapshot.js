@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-07T22:20:31.937Z",
+  "generatedAt": "2026-10-08T03:11:46.536Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -132,7 +132,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Lada Iskra Cup готовится к премьере: новый монокубок представят 10 октября - Autosport.com.ru",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFhDT0E2NTVOZ09ORS1CTGxyZmFGRVVZNjNlTXlDbm4ycUhCWGNtdFFrYjRtRVNkdDFNM242WVk3aV83M1dvSlZxSkdJMEh0TWdtWTNLVFVqdFpybTJNZVZLNzJYc09BcjdaVXZqZEtiSndIc1lYTzZaalhVdUFhSXE3OGdUMmg4Wm1nT05PU3NhNlF0eEFjTkpJb1NTdzFONDRfc2I4WXp0QWlHSEE?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 16:27:02 GMT",
+          "publishedAt": "Tue, 06 Oct 2026 22:22:19 GMT",
           "sourceName": "Autosport.com.ru"
         },
         {
@@ -182,10 +182,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый Технический",
+          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
           "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
           "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
-          "sourceName": "Первый Технический"
+          "sourceName": "Первый технический"
         }
       ]
     },
@@ -1009,24 +1009,17 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 17:33:00 GMT",
-      "latestTitle": "Победителями четвертого сезона конкурса «Знай наших» стали 15 брендов - https://expert.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS1VhY1ZWVktEMXBQM1ViT1M3a1p1V3A3eHhtWlFJQmM0ckJPa2FMRVpCdnpFd0piRmxvMmh1NkpxVm9PcV9jSXh4Z0pTSy1EZ1BTeHFuM09abUxhejlzRUgyRU00UUM3UDhfZHBjOU1YeS02dDd4cjR3SXhScE5WMmFSdXU0dVE1VUFrTUtvc0J4ZWFwc2NTU3p3?oc=5",
-      "latestSourceName": "https://expert.ru",
-      "sources": [
-        {
-          "title": "Победителями четвертого сезона конкурса «Знай наших» стали 15 брендов - https://expert.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS1VhY1ZWVktEMXBQM1ViT1M3a1p1V3A3eHhtWlFJQmM0ckJPa2FMRVpCdnpFd0piRmxvMmh1NkpxVm9PcV9jSXh4Z0pTSy1EZ1BTeHFuM09abUxhejlzRUgyRU00UUM3UDhfZHBjOU1YeS02dDd4cjR3SXhScE5WMmFSdXU0dVE1VUFrTUtvc0J4ZWFwc2NTU3p3?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 17:33:00 GMT",
-          "sourceName": "https://expert.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "readabee": {
       "companyId": "readabee",
