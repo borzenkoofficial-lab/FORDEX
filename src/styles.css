@@ -2266,189 +2266,99 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 }
 
 
-/* FORDEX BREAKING NEWS — homepage editorial bridge */
-.home-breaking{
-  margin:0;
-  padding:34px 6% 36px;
+/* FORDEX NEWS TICKER — compact homepage breaking-news rail */
+.home-news-ticker{
+  height:42px;
+  display:flex;
+  align-items:stretch;
   background:var(--black);
   color:#f4fbfd;
   border-top:1px solid rgba(255,255,255,.08);
-  border-bottom:1px solid rgba(255,255,255,.08);
+  border-bottom:1px solid rgba(255,255,255,.12);
+  overflow:hidden;
 }
-.home-breaking-head{
+.home-news-ticker-label{
+  flex:0 0 auto;
   display:flex;
-  align-items:flex-end;
-  justify-content:space-between;
-  gap:24px;
-  margin-bottom:26px;
-}
-.home-breaking-head>div{
-  display:flex;
-  align-items:flex-end;
-  gap:24px;
-}
-.home-breaking-head span{
-  font-size:11px;
-  letter-spacing:.16em;
-  text-transform:uppercase;
-  color:#8fb6c2;
-}
-.home-breaking-head strong{
-  font-size:30px;
-  line-height:.94;
-  letter-spacing:-.04em;
-}
-.home-breaking-all{
-  display:inline-flex;
   align-items:center;
-  gap:8px;
-  border:1px solid rgba(255,255,255,.22);
-  padding:11px 14px;
+  padding:0 16px;
+  background:var(--blue);
   color:#fff;
-  font-size:11px;
-  letter-spacing:.1em;
-  background:transparent;
+  font-size:9px;
+  font-weight:700;
+  letter-spacing:.16em;
 }
-.home-breaking-all:hover{border-color:#fff}
-.home-breaking-grid{
-  display:grid;
-  grid-template-columns:minmax(0,1.2fr) minmax(360px,.8fr);
-  border-top:1px solid rgba(255,255,255,.18);
-  border-bottom:1px solid rgba(255,255,255,.18);
+.home-news-ticker-viewport{
+  flex:1 1 auto;
+  min-width:0;
+  overflow:hidden;
 }
-.home-breaking-feature{
-  min-height:330px;
-  padding:28px 30px 30px 0;
-  border:0;
-  border-right:1px solid rgba(255,255,255,.18);
-  background:transparent;
-  color:inherit;
-  text-align:left;
-  cursor:pointer;
-  display:flex;
-  flex-direction:column;
-  justify-content:space-between;
-}
-.home-breaking-index{
+.home-news-ticker-track{
+  width:max-content;
+  min-width:max-content;
+  height:100%;
   display:flex;
   align-items:center;
-  gap:14px;
+  animation:fordexNewsTicker 55s linear infinite;
 }
-.home-breaking-index span{
-  font-size:12px;
-  letter-spacing:.15em;
-  color:#8fb6c2;
-}
-.home-breaking-index small{
-  font-size:10px;
-  letter-spacing:.12em;
-  text-transform:uppercase;
-  color:#7f98a1;
-}
-.home-breaking-copy span{
-  display:inline-block;
-  margin-bottom:14px;
-  font-size:10px;
-  letter-spacing:.18em;
-  color:#80b7c7;
-}
-.home-breaking-copy h2{
-  max-width:900px;
-  margin:0 0 14px;
-  font-size:clamp(34px,4vw,62px);
-  line-height:.93;
-  letter-spacing:-.055em;
-}
-.home-breaking-copy p{
-  max-width:760px;
-  margin:0;
-  color:#b7c7cc;
-  font-size:15px;
-  line-height:1.55;
-}
-.home-breaking-copy>strong{
-  display:inline-flex;
-  align-items:center;
-  gap:7px;
-  margin-top:24px;
-  font-size:10px;
-  letter-spacing:.13em;
-}
-.home-breaking-side{
+.home-news-ticker-track:hover{animation-play-state:paused}
+.home-news-ticker-track button{
+  height:100%;
   display:flex;
-  flex-direction:column;
-}
-.home-breaking-story{
-  flex:1;
-  display:grid;
-  grid-template-columns:42px 1fr 18px;
-  gap:14px;
-  align-items:start;
-  padding:23px 0 21px 24px;
+  align-items:center;
+  gap:10px;
+  padding:0 22px;
   border:0;
-  border-bottom:1px solid rgba(255,255,255,.13);
+  border-right:1px solid rgba(255,255,255,.10);
   background:transparent;
   color:inherit;
-  text-align:left;
   cursor:pointer;
+  white-space:nowrap;
+  text-align:left;
 }
-.home-breaking-story:last-child{border-bottom:0}
-.home-breaking-story:hover{background:rgba(255,255,255,.035)}
-.home-breaking-story-top{
-  display:flex;
-  flex-direction:column;
-  gap:8px;
-}
-.home-breaking-story-top span{
-  font-size:11px;
-  color:#8fb6c2;
-  letter-spacing:.12em;
-}
-.home-breaking-story-top small{
-  font-size:9px;
-  line-height:1.2;
-  color:#667e86;
-  letter-spacing:.08em;
-}
-.home-breaking-story b{
-  display:block;
-  margin-bottom:8px;
-  color:#80b7c7;
-  font-size:9px;
+.home-news-ticker-track button:hover{background:rgba(255,255,255,.045)}
+.home-news-ticker-track span{
+  color:#87b7c8;
+  font-size:8px;
+  font-weight:700;
   letter-spacing:.14em;
 }
-.home-breaking-story h3{
-  margin:0 0 8px;
-  font-size:21px;
-  line-height:1.02;
-  letter-spacing:-.025em;
-}
-.home-breaking-story p{
-  margin:0;
-  color:#8fa4aa;
+.home-news-ticker-track strong{
+  max-width:580px;
+  overflow:hidden;
+  text-overflow:ellipsis;
   font-size:12px;
-  line-height:1.45;
+  font-weight:600;
+  letter-spacing:-.01em;
 }
-.home-breaking-story>svg{
-  margin-top:3px;
-  color:#8fb6c2;
+.home-news-ticker-track small{
+  color:#718b94;
+  font-size:9px;
+  letter-spacing:.08em;
 }
-@media(max-width:900px){
-  .home-breaking-grid{grid-template-columns:1fr}
-  .home-breaking-feature{border-right:0;border-bottom:1px solid rgba(255,255,255,.18);padding:26px 0 30px}
-  .home-breaking-side{display:grid;grid-template-columns:1fr 1fr}
-  .home-breaking-story{border-right:1px solid rgba(255,255,255,.13)}
-  .home-breaking-story:nth-child(2){border-right:0}
-  .home-breaking-story:last-child{border-top:1px solid rgba(255,255,255,.13);border-bottom:0}
+.home-news-ticker-all{
+  flex:0 0 44px;
+  display:grid;
+  place-items:center;
+  border:0;
+  border-left:1px solid rgba(255,255,255,.14);
+  background:var(--black);
+  color:#fff;
+  cursor:pointer;
+}
+.home-news-ticker-all:hover{background:#163746}
+@keyframes fordexNewsTicker{
+  from{transform:translateX(0)}
+  to{transform:translateX(-50%)}
 }
 @media(max-width:640px){
-  .home-breaking{padding:28px 6% 30px}
-  .home-breaking-head{align-items:flex-start;flex-direction:column}
-  .home-breaking-head>div{align-items:flex-start;flex-direction:column;gap:10px}
-  .home-breaking-head strong{font-size:25px}
-  .home-breaking-all{align-self:stretch;justify-content:space-between}
-  .home-breaking-copy h2{font-size:36px}
-  .home-breaking-side{display:block}
-  .home-breaking-story{grid-template-columns:36px 1fr 15px;padding-left:0;padding-right:0;border-right:0!important}
-  .home-breaking-story:last-child{border-top:1px solid rgba(255,255,255,.13)}
+  .home-news-ticker{height:38px}
+  .home-news-ticker-label{padding:0 11px}
+  .home-news-ticker-track button{padding:0 16px;gap:8px}
+  .home-news-ticker-track strong{max-width:320px;font-size:11px}
+  .home-news-ticker-track small{display:none}
+  .home-news-ticker-all{flex-basis:38px}
+}
+@media(prefers-reduced-motion:reduce){
+  .home-news-ticker-track{animation:none}
 }
