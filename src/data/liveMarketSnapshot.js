@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-08T03:11:46.536Z",
+  "generatedAt": "2026-10-08T12:20:02.245Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,11 +112,29 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 09:26:37 GMT",
-      "latestTitle": "АВТОВАЗ выявил ряд проблем Lada Iskra: дилеры получили четыре сервисных предписания - Лада.Онлайн",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcUJZZGVTSFNMX2RsNGM3NW5BRUJzSVk3VU5SUWQ2MjFVdG85UkJRcTZTbXdpcFpnVWt0cFVZSkZlZzFMSXhQNHJDa2xydTlYODVGTVJFNkNFZmpnM010bUM0QmJwczYxaHJfWTBuOGx3bUdPZXhCUHF6SnNRb3BHdTVtaGdkWUx3TWlyZmpmTmg2eTZxUHk0Vzg0TUVjS2RjREF5cVZ4WkZMTGVYS01YZkZCZlBqTk1TZkE2dlVVNXNUTmdQdVFILUQxVmxWVWR2M0ZhRF9ubXBUMHdZT3JSdl9oSQ?oc=5",
-      "latestSourceName": "Лада.Онлайн",
+      "latestPublishedAt": "Thu, 08 Oct 2026 12:10:00 GMT",
+      "latestTitle": "Продажи Lada Vesta и Lada Iskra c новыми моторами начнутся в конце года - Авто Mail",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObGVkazBGMTVzMFZoZnpkTTJnS1Q1My11OFg2X2hYUlFZS3o5RkJlX1dibGJtUWFWZVRRR25XbkR5Q3RmbUduYmtTTEhCZjBMYVE2V3NkaHhieDlsUF84eVF3akNuSmJBbjFQNllqelVrMHZwelVUMGdiQ1BIMFFEbXFJZ1J4RC1JLXhMQVRoVFdKSVAtZVFERFd6d3ZMMmNZOFRnRGpVSTAyRHhiVTZpTkJ4QQ?oc=5",
+      "latestSourceName": "Авто Mail",
       "sources": [
+        {
+          "title": "Продажи Lada Vesta и Lada Iskra c новыми моторами начнутся в конце года - Авто Mail",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObGVkazBGMTVzMFZoZnpkTTJnS1Q1My11OFg2X2hYUlFZS3o5RkJlX1dibGJtUWFWZVRRR25XbkR5Q3RmbUduYmtTTEhCZjBMYVE2V3NkaHhieDlsUF84eVF3akNuSmJBbjFQNllqelVrMHZwelVUMGdiQ1BIMFFEbXFJZ1J4RC1JLXhMQVRoVFdKSVAtZVFERFd6d3ZMMmNZOFRnRGpVSTAyRHhiVTZpTkJ4QQ?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 12:10:00 GMT",
+          "sourceName": "Авто Mail"
+        },
+        {
+          "title": "Lada Vesta и Iskra с новыми моторами поступят в продажу в IV квартале - carexpo.ru",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjhQeUpyOVdONF9TelFKTC1WUW1XMmVjWktqWjkyZ2RMd1NVZWlfUzR5RXo2eHRJc3hYWXpBZWJoSVFTbmdscThmQ2JET1lwMzlLUkxxS2FEU00wMmJtZGlpSjVBU2tpTDJ6SzNqaWc5bkYyR1dNYk01SWJqYnptS2oyblctN3hET1B4bjhFU0xWZEctVDBpTTFLRDJCa0wxbGZ6aQ?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:40:56 GMT",
+          "sourceName": "carexpo.ru"
+        },
+        {
+          "title": "Lada Iskra: четыре бесплатных сервисных осмотра и улучшения - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3hwWUFabjEyVzA0YlkwU0tTQ1ZqU180ZDRKWGl6VHpXVlA3NWtXME9TT3BKOXVuR2VPUWJPeWhORHAtYVJ2bFpUR1FxaXFUWHRrVF9YTGhIN2FjOE1ucDUtVzlaZEVFd2todTU3eTl5b1J3Tl85UThiUTh3VVFlb19fU0RxT2JkOGFCMHlfc2ktaDh5TzdEbw?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 20:40:58 GMT",
+          "sourceName": "ВТамбове"
+        },
         {
           "title": "АВТОВАЗ выявил ряд проблем Lada Iskra: дилеры получили четыре сервисных предписания - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcUJZZGVTSFNMX2RsNGM3NW5BRUJzSVk3VU5SUWQ2MjFVdG85UkJRcTZTbXdpcFpnVWt0cFVZSkZlZzFMSXhQNHJDa2xydTlYODVGTVJFNkNFZmpnM010bUM0QmJwczYxaHJfWTBuOGx3bUdPZXhCUHF6SnNRb3BHdTVtaGdkWUx3TWlyZmpmTmg2eTZxUHk0Vzg0TUVjS2RjREF5cVZ4WkZMTGVYS01YZkZCZlBqTk1TZkE2dlVVNXNUTmdQdVFILUQxVmxWVWR2M0ZhRF9ubXBUMHdZT3JSdl9oSQ?oc=5",
@@ -124,51 +142,27 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Тайные предписания АвтоВАЗа: как дилеры бесплатно доработают новые LADA Iskra для россиян - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1TTFl3VWhkMUtQSFdfVm52TkwxTVg3b3lQX2VtcXY1c3Z1TEV1TlZXMWREaXRGeURkMklpWEVncTQwZklTR0N4QU10dGRTTF9mVnRWcVNlRVJiR1dQcnRDaUlERVZHQ2g4dUZvOFhYTEd6R3PSAXNBVV95cUxNU0xZd1VoZDFLUEhXX1Zudk5MMU1YN295UF9lbXF2NXN2dUxFdU5WVzFkRGl0RnlEZDJJaVhFZ3E0MGZJU0dDeEFNdHRkU0xfZlZ0VnFTZUVSYkdXUHJ0Q2lJREVWR0NoOHVGbzhYWExHekdz?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 07:00:11 GMT",
-          "sourceName": "Автоновости дня"
-        },
-        {
           "title": "Lada Iskra Cup готовится к премьере: новый монокубок представят 10 октября - Autosport.com.ru",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFhDT0E2NTVOZ09ORS1CTGxyZmFGRVVZNjNlTXlDbm4ycUhCWGNtdFFrYjRtRVNkdDFNM242WVk3aV83M1dvSlZxSkdJMEh0TWdtWTNLVFVqdFpybTJNZVZLNzJYc09BcjdaVXZqZEtiSndIc1lYTzZaalhVdUFhSXE3OGdUMmg4Wm1nT05PU3NhNlF0eEFjTkpJb1NTdzFONDRfc2I4WXp0QWlHSEE?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 22:22:19 GMT",
+          "publishedAt": "Wed, 07 Oct 2026 04:23:50 GMT",
           "sourceName": "Autosport.com.ru"
-        },
-        {
-          "title": "Продажи этой «Лады» взлетели в 33,5 раза: какая модель АвтоВАЗа обошла Mazda и Belgee - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE9ZZzdTV3U0Zzl6WHZpWVNyZDhEd0oyeFp5UmJRaWh1elhoXzVmbTNwN1JBYlF3SkxhSG1FeWhNYkF2R2RpQWtreF9Jd0VSRUF4MU1iLTkzQVltLUlGWWFUaVVVY07SAWpBVV95cUxPTnFiNmVYd2l3S1l0ZWhRS25aTzA5Mmo2Z1lYTXRtTnBZNHhSSFpqSTEyYnpEOUlxajh5ZEFjSFdKOW1LM3hOaFhxZXpydEZNUXdtT2xnb3I1d3BpcWhhalp2c0xiaG53OHZR?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:36:45 GMT",
-          "sourceName": "Автоновости дня"
-        },
-        {
-          "title": "Lada Iskra: Новая искра или затухающая надежда — сможет ли автомобиль полностью заменить Granta - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPRHJ6dWtkRW45Vi00T1hPc3RCaG45bl9meG8wUXNYdHluakg0S0F4U2FfalBNYmZ6Q3d0T0tTQUZxUjdxS3NlVzR3UE5NLUR1NlhfWUFKZ0dQamFvWEtTdDhBLXpFSFUtRW1uVGtnVllFZERuQ0RvYkI3SXZzOWM4TFpyY2RUZzZENWhhQnduQVdORE5FVUJGRVZuMWxnMHA4Sk44?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 17:01:30 GMT",
-          "sourceName": "110km.ru"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 4,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
-      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+      "latestPublishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
-        {
-          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
@@ -222,17 +216,23 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
-      "sourceCount7d": 7,
+      "sourceCount30d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
-      "latestTitle": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
-      "latestSourceName": "ITSpeaker",
+      "latestPublishedAt": "Thu, 08 Oct 2026 11:45:00 GMT",
+      "latestTitle": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
+      "latestSourceName": "RTVI",
       "sources": [
+        {
+          "title": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:45:00 GMT",
+          "sourceName": "RTVI"
+        },
         {
           "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
@@ -256,12 +256,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
           "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
           "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "NtechLab и \"Швабе\" планируют создавать совместные ИТ-разработки - MASHNEWS | Новости Промышленности",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0FKWFpadVE5LUowUjZsTXpyNW91OWpWSHZXUjV4QnBsNEN6REN5VWJlWlZ3NHozT2tWOTB3dC1UcFMxXzd6bGVBblJxUEVfZ1ZtMzRfVzdlX1huZy1RQjlBTl9ibm5DQ0VtcGpFRHNwa0ZTS0swMFV0Z2gxazkwaFZDZU1Ra3o2T01tSE5YTTdMdw?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 20:00:03 GMT",
-          "sourceName": "MASHNEWS | Новости Промышленности"
         }
       ]
     },
@@ -354,17 +348,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
-      "sourceCount7d": 3,
+      "sourceCount30d": 8,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
-      "latestTitle": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Thu, 08 Oct 2026 08:35:57 GMT",
+      "latestTitle": "ИИ для оформления иностранцев: Smart Document Engine 3.6 сократит ручной ввод при трудоустройстве граждан СНГ и Азии - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0RkdQSlVhLWRHNG9NUlU4TFpPcWxNcTNTR2djMUZLVnQ2eWRNNUV1Nm1ZR2Z4UmgzTjB6SHVCRjlNVmNocG5RbWdGYXo2Z1VKSTQ4TEpEcHh2WHdmQmgwMnBlTUpRaFdfRUhYci1rajlsMmZfVWFFUDJobXpsREU?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "ИИ для оформления иностранцев: Smart Document Engine 3.6 сократит ручной ввод при трудоустройстве граждан СНГ и Азии - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0RkdQSlVhLWRHNG9NUlU4TFpPcWxNcTNTR2djMUZLVnQ2eWRNNUV1Nm1ZR2Z4UmgzTjB6SHVCRjlNVmNocG5RbWdGYXo2Z1VKSTQ4TEpEcHh2WHdmQmgwMnBlTUpRaFdfRUhYci1rajlsMmZfVWFFUDJobXpsREU?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 08:35:57 GMT",
+          "sourceName": "CNews.ru"
+        },
         {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
@@ -388,12 +388,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
           "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
           "sourceName": "Monocle.ru"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
-          "sourceName": "sdelanounas.ru"
         }
       ]
     },
@@ -459,17 +453,23 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 14:01:36 GMT",
-      "latestTitle": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YSW5KSGdvTkpiWDRFM2lRNW1pY2k2M1ZTbzlhV3FJVXQ2YUVhU3ZuQ3lkOFJRcm4yQlBQVExBd1lOR01uRlRnRU5RX2dMVnAxcWI2SkdacUpobUZZTVJuRWkyQ2R4UGxjRnlXU2xDUURfblRYU2VTQXIxTQ?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
+        {
+          "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YSW5KSGdvTkpiWDRFM2lRNW1pY2k2M1ZTbzlhV3FJVXQ2YUVhU3ZuQ3lkOFJRcm4yQlBQVExBd1lOR01uRlRnRU5RX2dMVnAxcWI2SkdacUpobUZZTVJuRWkyQ2R4UGxjRnlXU2xDUURfblRYU2VTQXIxTQ?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
         {
           "title": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
@@ -829,39 +829,38 @@ export const liveMarketSnapshot = {
     "lork-dev": {
       "companyId": "lork-dev",
       "companyName": "Lork.dev",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Рабочее пространство писателя, no‑code для автоматизации ЭДО и ещё 8 российских стартапов - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1ZkNkRnFxY2l2QmtpNnNZaHplWHRwWFJkNHIySmtRVlp1MUpCS3NQNXh3WDJNV1Y1ZERzQ0lldGl1SzU5Nk1UcnlfejhXTmJtVlNFZi1mMTdjc1UxN1o5U2tQRmN0R3BqZkQ3OdIBWEFVX3lxTE14UWZoOG5Wa19pdVZRMWhPU2diNnRhb1VUWUtLSjgzd003MlB0OVlYQmRDc2xkaDFiM2RNRjZ5Z2dvOW9saTI0dDItUDR2ZW1razdTNFlHV3o?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Рабочее пространство писателя, no‑code для автоматизации ЭДО и ещё 8 российских стартапов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFB1ZkNkRnFxY2l2QmtpNnNZaHplWHRwWFJkNHIySmtRVlp1MUpCS3NQNXh3WDJNV1Y1ZERzQ0lldGl1SzU5Nk1UcnlfejhXTmJtVlNFZi1mMTdjc1UxN1o5U2tQRmN0R3BqZkQ3OdIBWEFVX3lxTE14UWZoOG5Wa19pdVZRMWhPU2diNnRhb1VUWUtLSjgzd003MlB0OVlYQmRDc2xkaDFiM2RNRjZ5Z2dvOW9saTI0dDItUDR2ZW1razdTNFlHV3o?oc=5",
-          "publishedAt": "Tue, 08 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 01:00:19 GMT",
-      "latestTitle": "Milo Mile 5 - EA",
-      "latestUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjR1RHRhVUl6TUdmZU95d1YyZkJzTGZ2RUpjcGFaOTBVay01dHFybHBPRmhSSEdPSGRSQzVKeHI2OHhNNlpSa09SNHVFaWpzcU5iazRJUjVJdGpTM0V1amU3SEJZZHBIaWtfUWpVbEhOQ1gwcWQ3ejZGMmdRWnRhMXY5QTJlTUdmQkZ3eTlZQXE2SEU?oc=5",
-      "latestSourceName": "EA",
+      "latestPublishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
+      "latestTitle": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
+          "sourceName": "Vietnam.vn"
+        },
         {
           "title": "Milo Mile 5 - EA",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjR1RHRhVUl6TUdmZU95d1YyZkJzTGZ2RUpjcGFaOTBVay01dHFybHBPRmhSSEdPSGRSQzVKeHI2OHhNNlpSa09SNHVFaWpzcU5iazRJUjVJdGpTM0V1amU3SEJZZHBIaWtfUWpVbEhOQ1gwcWQ3ejZGMmdRWnRhMXY5QTJlTUdmQkZ3eTlZQXE2SEU?oc=5",
@@ -1362,27 +1361,27 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 6,
-      "fundingMentions": 1,
+      "sourceCount7d": 5,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
-      "latestTitle": "Валентина Матвиенко выступила в ходе второй Международной конференции «Всеобщий охват услугами здравоохранения и цели устойчивого развития - Совет Федерации Федерального Собрания Российской Федерации",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
-      "latestSourceName": "Совет Федерации Федерального Собрания Российской Федерации",
+      "latestPublishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
+      "latestTitle": "Ежедневный охват маркетплейсов: Wildberries −10%, Ozon +26% - Retail Life",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
+      "latestSourceName": "Retail Life",
       "sources": [
         {
-          "title": "Валентина Матвиенко выступила в ходе второй Международной конференции «Всеобщий охват услугами здравоохранения и цели устойчивого развития - Совет Федерации Федерального Собрания Российской Федерации",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
-          "sourceName": "Совет Федерации Федерального Собрания Российской Федерации"
+          "title": "Ежедневный охват маркетплейсов: Wildberries −10%, Ozon +26% - Retail Life",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
+          "sourceName": "Retail Life"
         },
         {
-          "title": "Студенту поступило 16 млн тенге: раскрыта схема с охватом 11 регионов и 2 городов Казахстана - NUR.KZ",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNZC1kNkhMVXJoMmwtME5Henh6T0xoSG90a2Y1Qnh2WWdrRkJKUHZXZnlYczFPTmwzLVViUkN4ZWh0RTE0bEVPbkVHa04zQjQzN3pDY0RObHg4OXFVeXJCUXFxTktGaXBsVEo2ZUo5S3l4aEZ2Z3N6akcxcUNPSF9XVlJYV0dHdFVxNU4ta3pKMjN1YWFxT1pPNWIyRmo1Y2hWM2l1LUlWTUJKNHFtaVZzVEFQU1FQRWZkM1NVMnZ6dmlJSEVFem5NRkwyZE9teXc?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 10:24:00 GMT",
-          "sourceName": "NUR.KZ"
+          "title": "Атаки на склады обрушили охваты одних маркетплейсов в РФ и подняли других - dp.ru",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5vdDJCMFJUb1NDVWZGNzBieDVBM2hFNUhCdVNYbUcwcll4SWhLVkQ0cUFUTnlVN2QwbEpLVGNZTnVKdUFHeXNYb3g5VjlxRUZKM2lkOU1YWVoyYXlwa0M4ZG00VmtRRk5vblRQS1Z1dlFxbmw2ZkhoOUNia9IBe0FVX3lxTE5vdDJCMFJUb1NDVWZGNzBieDVBM2hFNUhCdVNYbUcwcll4SWhLVkQ0cUFUTnlVN2QwbEpLVGNZTnVKdUFHeXNYb3g5VjlxRUZKM2lkOU1YWVoyYXlwa0M4ZG00VmtRRk5vblRQS1Z1dlFxbmw2ZkhoOUNiaw?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:55:11 GMT",
+          "sourceName": "dp.ru"
         },
         {
           "title": "120 проектов и 90 % охвата: ИИ‑трансформация регионов от Сбера (5 октября 2026 г.) - M O N D I A R A",
