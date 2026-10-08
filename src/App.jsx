@@ -239,36 +239,22 @@ function Home({ watchlist, toggleWatch }) {
         </div>
       </section>
 
-      <section className="home-breaking" aria-label="Главное событие FORDEX">
-        <div className="home-breaking-head">
-          <div>
-            <span>FORDEX NEWS / BREAKING</span>
-            <strong>ГЛАВНОЕ СОБЫТИЕ<br />СЕЙЧАС.</strong>
+      <section className="home-news-ticker" aria-label="Главные новости FORDEX">
+        <div className="home-news-ticker-label">BREAKING</div>
+        <div className="home-news-ticker-viewport">
+          <div className="home-news-ticker-track">
+            {[...editorialArticles.slice(0, 6), ...editorialArticles.slice(0, 6)].map((story, index) => (
+              <button type="button" key={story.id + '-' + index} onClick={() => goto('article-' + story.id)}>
+                <span>{story.category}</span>
+                <strong>{story.title}</strong>
+                <small>{ruDate(story.date)}</small>
+              </button>
+            ))}
           </div>
-          <ButtonLink route="news" className="home-breaking-all">ВСЕ НОВОСТИ <ArrowRight size={13} /></ButtonLink>
         </div>
-        {editorialArticles.length > 0 && (
-          <div className="home-breaking-grid">
-            <button type="button" className="home-breaking-feature" onClick={() => goto('article-' + editorialArticles[0].id)}>
-              <div className="home-breaking-index"><span>01</span><small>{ruDate(editorialArticles[0].date)} · {editorialArticles[0].category}</small></div>
-              <div className="home-breaking-copy">
-                <span>BREAKING</span>
-                <h2>{editorialArticles[0].title}</h2>
-                <p>{editorialArticles[0].dek}</p>
-                <strong>ЧИТАТЬ НОВОСТЬ <ArrowRight size={15} /></strong>
-              </div>
-            </button>
-            <div className="home-breaking-side">
-              {editorialArticles.slice(1, 4).map((story, index) => (
-                <button type="button" key={story.id} className="home-breaking-story" onClick={() => goto('article-' + story.id)}>
-                  <div className="home-breaking-story-top"><span>{String(index + 2).padStart(2, '0')}</span><small>{ruDate(story.date)}</small></div>
-                  <div><b>{story.category}</b><h3>{story.title}</h3><p>{story.dek}</p></div>
-                  <ArrowRight size={15} />
-                </button>
-              ))}
-            </div>
-          </div>
-        )}
+        <button type="button" className="home-news-ticker-all" onClick={() => goto('news')} aria-label="Открыть все новости">
+          <ArrowRight size={14} />
+        </button>
       </section>
 
       <section className="category-strip">
