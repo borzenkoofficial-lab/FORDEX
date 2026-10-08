@@ -1030,6 +1030,19 @@ function News() {
         action={<ButtonLink route="market" className="text-link">КАРТА РЫНКА <ArrowRight size={13} /></ButtonLink>}
       />
 
+      <section className="builder-story-rail" aria-label="Builder Stories FORDEX">
+        <div className="builder-story-rail-copy">
+          <span>FORDEX BUILDER STORIES</span>
+          <strong>ЛЮДИ, КОТОРЫЕ СОБИРАЮТ ПРОДУКТЫ САМИ.</strong>
+          <p>{editorialArticles.filter((story) => story.builderStory).length} профилей · solo builders, indie founders и маленькие AI-команды.</p>
+        </div>
+        <div className="builder-story-rail-meta">
+          <div><small>SOLO / INDIE</small><strong>{editorialArticles.filter((story) => story.builderStory && /SOLO|INDIE/.test(story.builderStatus || '')).length}</strong></div>
+          <div><small>ВСЕ BUILDER STORIES</small><strong>{editorialArticles.filter((story) => story.builderStory).length}</strong></div>
+          <button type="button" onClick={() => setActiveCategory('BUILDER STORIES')}>ОТКРЫТЬ СЕРИЮ <ArrowRight size={14} /></button>
+        </div>
+      </section>
+
       <section className="news-entry">
         <div className="news-entry-mark"><span>FORDEX</span><strong>NEWS</strong><i /><small>FEATURED</small></div>
         <div className="news-entry-media"><img src={latest.media.src} alt={latest.media.alt} /></div>
@@ -1070,7 +1083,7 @@ function News() {
               <div className="news-item-index">{String(index + 1).padStart(2, '0')}</div>
               <div className="news-item-media"><img src={story.media.src} alt="" loading="lazy" /></div>
               <div className="news-item-main">
-                <div className="news-item-meta"><span>{ruDate(story.date)}</span><b>{story.category}</b><small>{story.readTime}</small></div>
+                <div className="news-item-meta"><span>{ruDate(story.date)}</span><b>{story.category}</b><small>{story.builderStory ? story.builderStatus : story.readTime}</small></div>
                 <button type="button" className="news-item-title" onClick={() => goto('article-' + story.id)}>{story.title}</button>
                 <p>{story.dek}</p>
                 <div className="news-item-source"><span>СТАТУС</span><strong>ПРОВЕРЕНО FORDEX</strong></div>
@@ -1109,7 +1122,7 @@ function ArticlePage({ articleId }) {
         <article className="article-main">
           {article.person && (
             <div className="article-source article-builder-card">
-              <span>FORDEX BUILDER PROFILE</span>
+              <span>FORDEX BUILDER STORY · {article.builderStatus}</span>
               <strong>{article.person} · {article.project}</strong>
               <p>{article.builderType}</p>
             </div>
