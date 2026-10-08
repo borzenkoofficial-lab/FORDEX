@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-08T12:20:02.245Z",
+  "generatedAt": "2026-10-08T20:17:55.759Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,45 +107,45 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 10,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 12:10:00 GMT",
-      "latestTitle": "Продажи Lada Vesta и Lada Iskra c новыми моторами начнутся в конце года - Авто Mail",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObGVkazBGMTVzMFZoZnpkTTJnS1Q1My11OFg2X2hYUlFZS3o5RkJlX1dibGJtUWFWZVRRR25XbkR5Q3RmbUduYmtTTEhCZjBMYVE2V3NkaHhieDlsUF84eVF3akNuSmJBbjFQNllqelVrMHZwelVUMGdiQ1BIMFFEbXFJZ1J4RC1JLXhMQVRoVFdKSVAtZVFERFd6d3ZMMmNZOFRnRGpVSTAyRHhiVTZpTkJ4QQ?oc=5",
-      "latestSourceName": "Авто Mail",
+      "latestPublishedAt": "Thu, 08 Oct 2026 16:12:00 GMT",
+      "latestTitle": "Новые моторы уже готовы, но достанутся не всем: что изменится в LADA Vesta и Iskra до конца года - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFhGbTloX29tRm9hWXNqOF9HckpEeTY3dnNlcFltQ0J3ejI5ZjVXNWdneU9qVmZYRU9EQ3BDUUl4MjhZR3U3b2d0bnByZlE5Rk5YaTdLOFhtX0d0dWp4YzhJc2VQbldUaVlNMWNZd0k2dGNzVjhMVjlvYW93RVlEbXRaekJjYlgyV1FqYlBBSUZDbVU?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
         {
-          "title": "Продажи Lada Vesta и Lada Iskra c новыми моторами начнутся в конце года - Авто Mail",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxObGVkazBGMTVzMFZoZnpkTTJnS1Q1My11OFg2X2hYUlFZS3o5RkJlX1dibGJtUWFWZVRRR25XbkR5Q3RmbUduYmtTTEhCZjBMYVE2V3NkaHhieDlsUF84eVF3akNuSmJBbjFQNllqelVrMHZwelVUMGdiQ1BIMFFEbXFJZ1J4RC1JLXhMQVRoVFdKSVAtZVFERFd6d3ZMMmNZOFRnRGpVSTAyRHhiVTZpTkJ4QQ?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 12:10:00 GMT",
-          "sourceName": "Авто Mail"
+          "title": "Новые моторы уже готовы, но достанутся не всем: что изменится в LADA Vesta и Iskra до конца года - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFhGbTloX29tRm9hWXNqOF9HckpEeTY3dnNlcFltQ0J3ejI5ZjVXNWdneU9qVmZYRU9EQ3BDUUl4MjhZR3U3b2d0bnByZlE5Rk5YaTdLOFhtX0d0dWp4YzhJc2VQbldUaVlNMWNZd0k2dGNzVjhMVjlvYW93RVlEbXRaekJjYlgyV1FqYlBBSUZDbVU?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 16:12:00 GMT",
+          "sourceName": "Правда.Ру"
         },
         {
-          "title": "Lada Vesta и Iskra с новыми моторами поступят в продажу в IV квартале - carexpo.ru",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNUjhQeUpyOVdONF9TelFKTC1WUW1XMmVjWktqWjkyZ2RMd1NVZWlfUzR5RXo2eHRJc3hYWXpBZWJoSVFTbmdscThmQ2JET1lwMzlLUkxxS2FEU00wMmJtZGlpSjVBU2tpTDJ6SzNqaWc5bkYyR1dNYk01SWJqYnptS2oyblctN3hET1B4bjhFU0xWZEctVDBpTTFLRDJCa0wxbGZ6aQ?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 11:40:56 GMT",
-          "sourceName": "carexpo.ru"
+          "title": "Новые Lada Vesta и Iskra выйдут до конца 2026 года: Vesta получит 1.8, а Iskra — новый 1.6 на 120 л.с. - Южный автомобиль",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTVloNzlIcm0tQ09FOXFlQThCRzBlekk2NFl4bzJNRXAtdVBmcWhrd2hYMTg5SjVGdUdwRjk5YlJ5ZFlVWXdfX2doZEJZZ1JYLXZVblYwd0puWlRNWS1RUllCemM4SmVaTk1BcjZjM2ptZk92SUU5XzJpRExEMHAyRHpMVldfRU9DbzRUYUc5eUdSbGdzZXZIbTdxWXQ0TFNWN3dzZGZ3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 14:56:26 GMT",
+          "sourceName": "Южный автомобиль"
         },
         {
-          "title": "Lada Iskra: четыре бесплатных сервисных осмотра и улучшения - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxQQ3hwWUFabjEyVzA0YlkwU0tTQ1ZqU180ZDRKWGl6VHpXVlA3NWtXME9TT3BKOXVuR2VPUWJPeWhORHAtYVJ2bFpUR1FxaXFUWHRrVF9YTGhIN2FjOE1ucDUtVzlaZEVFd2todTU3eTl5b1J3Tl85UThiUTh3VVFlb19fU0RxT2JkOGFCMHlfc2ktaDh5TzdEbw?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 20:40:58 GMT",
-          "sourceName": "ВТамбове"
+          "title": "Что будет с Vesta и Iskra, когда они получат новые двигатели от кроссовера Azimut - REGIONS.ru",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN3hPYi1wVkM4aHBpLVQ0TXFGWlhlaTNzWmppTkNnemVWQ1k4RUhoMGczMFlGaXNSbDhfbHNyazBNYlk0a3p5bmEtX2NSY3ZkOS0xQ1J6aEdqdFg0MDJoaWI0ZjRsMy1oMy1HLWVHMGtRRFM3VjV3d1JkeWRUMGFWOVJBM1ROX0IzV3M1bnJrczVmdFQ3V182SkRLUnpadmpaMkNPY0E4QWxlMTRjaDdWQg?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 14:23:00 GMT",
+          "sourceName": "REGIONS.ru"
         },
         {
-          "title": "АВТОВАЗ выявил ряд проблем Lada Iskra: дилеры получили четыре сервисных предписания - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi4wFBVV95cUxNcUJZZGVTSFNMX2RsNGM3NW5BRUJzSVk3VU5SUWQ2MjFVdG85UkJRcTZTbXdpcFpnVWt0cFVZSkZlZzFMSXhQNHJDa2xydTlYODVGTVJFNkNFZmpnM010bUM0QmJwczYxaHJfWTBuOGx3bUdPZXhCUHF6SnNRb3BHdTVtaGdkWUx3TWlyZmpmTmg2eTZxUHk0Vzg0TUVjS2RjREF5cVZ4WkZMTGVYS01YZkZCZlBqTk1TZkE2dlVVNXNUTmdQdVFILUQxVmxWVWR2M0ZhRF9ubXBUMHdZT3JSdl9oSQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 09:26:37 GMT",
-          "sourceName": "Лада.Онлайн"
+          "title": "АвтоВАЗ начнёт продажи обновлённых Lada Vesta и Iskra до конца года. Они станут мощнее - av.by",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NODZPM3gyTEhvRmFRd3ZjcmpzcWlyVlpkZTlZRnY3RjVqdzV5dEZVOUdtdVBja3o0X0NCMEhQNy1tTUpiZmF0VVRFLW9DUWIyX0xkTzNFMXJ3S1dMOXpQSkhibzhyYlh0VERkWDJ0cWI0LUM5bUE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 13:00:00 GMT",
+          "sourceName": "av.by"
         },
         {
-          "title": "Lada Iskra Cup готовится к премьере: новый монокубок представят 10 октября - Autosport.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNSFhDT0E2NTVOZ09ORS1CTGxyZmFGRVVZNjNlTXlDbm4ycUhCWGNtdFFrYjRtRVNkdDFNM242WVk3aV83M1dvSlZxSkdJMEh0TWdtWTNLVFVqdFpybTJNZVZLNzJYc09BcjdaVXZqZEtiSndIc1lYTzZaalhVdUFhSXE3OGdUMmg4Wm1nT05PU3NhNlF0eEFjTkpJb1NTdzFONDRfc2I4WXp0QWlHSEE?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 04:23:50 GMT",
-          "sourceName": "Autosport.com.ru"
+          "title": "Lada Vesta и Iskra получат «неубиваемые» моторы: раскрыта дата старта продаж - Первый технический",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYWsxRFhWQ2ZvUE5YWDdPYWVLc3FpcDhwR3FRVlhHNGljYzJHRjJsT3ZxMHd0V2xyUjZTLUdIQzBtTUt1aVJFQkdKUjlZUnNxU2M2WF9ORmlZNmxFc1dDbFBhaHJ0SF9TTURlZjdBV0FQZjEyYzE5TmRhOVhMbURBVUc0YjNsZEUwb3dpTmZMYVdTVTVqWFBOeVZBbE9QbEE5VEpORzN6N3NSVmZVaWZN0gG0AUFVX3lxTFBPdUF3MEJpZmhIYmFpVVZYclc4SU5jQ2hBQTBESnprUFczczN0UEFweG5Ic1hreG9Ub2hLTTJvYnJibFJITlhxTGJzWVltVFJDUlEwUGlmb3RWMlFfcTlpNXN2TDRETmhRc0hLTVB0V0w4ajRJTmlZbHJmQjd3NWtyanAtZ25ZWm5ldHlHN0VxZWRPVFhEbXotSVZ3UjJ0UW1ncjRob0pTUnNVS0d4VERRSUw2Vw?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 12:23:50 GMT",
+          "sourceName": "Первый технический"
         }
       ]
     },
@@ -216,8 +216,8 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount30d": 9,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -348,28 +348,22 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 8,
-      "sourceCount7d": 4,
+      "sourceCount30d": 7,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 08:35:57 GMT",
+      "latestPublishedAt": "Thu, 08 Oct 2026 08:18:24 GMT",
       "latestTitle": "ИИ для оформления иностранцев: Smart Document Engine 3.6 сократит ручной ввод при трудоустройстве граждан СНГ и Азии - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0RkdQSlVhLWRHNG9NUlU4TFpPcWxNcTNTR2djMUZLVnQ2eWRNNUV1Nm1ZR2Z4UmgzTjB6SHVCRjlNVmNocG5RbWdGYXo2Z1VKSTQ4TEpEcHh2WHdmQmgwMnBlTUpRaFdfRUhYci1rajlsMmZfVWFFUDJobXpsREU?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUHVsSDl4MjVfYXJmV3M4eEthUmZaU2M2eFBnSlcxQWhLa3RPYU9rTHl6T05hcWFyY3BnRXdfS24tOEZJTjdaTjBZMnI4MEYxUWFsRm1YNWRzclpsRDNtVXJqVlY3czR2M01MdEVOdjFBalFtTTQxcVo5YThfUEFaXw?oc=5",
       "latestSourceName": "CNews.ru",
       "sources": [
         {
           "title": "ИИ для оформления иностранцев: Smart Document Engine 3.6 сократит ручной ввод при трудоустройстве граждан СНГ и Азии - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFA0RkdQSlVhLWRHNG9NUlU4TFpPcWxNcTNTR2djMUZLVnQ2eWRNNUV1Nm1ZR2Z4UmgzTjB6SHVCRjlNVmNocG5RbWdGYXo2Z1VKSTQ4TEpEcHh2WHdmQmgwMnBlTUpRaFdfRUhYci1rajlsMmZfVWFFUDJobXpsREU?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 08:35:57 GMT",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUHVsSDl4MjVfYXJmV3M4eEthUmZaU2M2eFBnSlcxQWhLa3RPYU9rTHl6T05hcWFyY3BnRXdfS24tOEZJTjdaTjBZMnI4MEYxUWFsRm1YNWRzclpsRDNtVXJqVlY3czR2M01MdEVOdjFBalFtTTQxcVo5YThfUEFaXw?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 08:18:24 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
-          "sourceName": "Хабр"
         },
         {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
@@ -388,6 +382,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
           "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
           "sourceName": "Monocle.ru"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
+          "sourceName": "sdelanounas.ru"
         }
       ]
     },
@@ -878,17 +878,11 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 03 Oct 2026 20:53:28 GMT",
-      "latestTitle": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
+      "latestPublishedAt": "Sat, 03 Oct 2026 12:13:26 GMT",
+      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
-        {
-          "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
-          "publishedAt": "Sat, 03 Oct 2026 20:53:28 GMT",
-          "sourceName": "Sostav.ru"
-        },
         {
           "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
@@ -905,6 +899,12 @@ export const liveMarketSnapshot = {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 17:13:19 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1384,6 +1384,12 @@ export const liveMarketSnapshot = {
           "sourceName": "dp.ru"
         },
         {
+          "title": "Валентина Матвиенко выступила в ходе второй Международной конференции «Всеобщий охват услугами здравоохранения и цели устойчивого развития - Совет Федерации Федерального Собрания Российской Федерации",
+          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
+          "sourceName": "Совет Федерации Федерального Собрания Российской Федерации"
+        },
+        {
           "title": "120 проектов и 90 % охвата: ИИ‑трансформация регионов от Сбера (5 октября 2026 г.) - M O N D I A R A",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Mb1BTVDZrbUhORU1INnVLdExWVkFBZnE1VjhrUXg0cWdZOHd6UF9MQlliNTJ3Z2p3VV9CQlZjZmVaUm5kVmx6clAwR1N5NVNxZDZUMWtyc1RFVVVRRnVCZkFR?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 09:51:06 GMT",
@@ -1394,12 +1400,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
           "sourceName": "Life.ru"
-        },
-        {
-          "title": "YouTube начал ограничивать охваты Shorts-каналов за перезалив чужих роликов - Techora.ru",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxQRlJ4cGZmdW9BOHZOTVJGNV9VZTN3WGV4V2JjUklVcTZ1bTlCMEV3LXhab09qbjJWYmduTV9rMGpyNnFfcmlOLWhJNEVwWThTLXQtdUc1MlB5VnV2c0VOX0RtbFZIMkE2aldQNFEzYS1BNXhYR2xZRGZEd2FYS0dTRWJXUWhNYmVsQnpRSjJn?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 14:32:56 GMT",
-          "sourceName": "Techora.ru"
         }
       ]
     },
