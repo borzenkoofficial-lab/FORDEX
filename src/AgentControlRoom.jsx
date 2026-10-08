@@ -6,7 +6,7 @@ import { editorialArticles } from './data/articles.js';
 import { rankedStartupIndex, rankingModel } from './lib/rankingEngine.js';
 import { agentRoles, agentWorkflow } from './data/agentFoundation.js';
 import { buildAgentControlSnapshot } from './lib/agentPipeline.js';
-import { getModelGatewayStatus, runEditorModel, runResearchAdapter } from './ai/runtimeClient.js';
+import { getModelGatewayStatus, runEditorModel, runResearchAdapter, validateEditorProposal } from './ai/runtimeClient.js';
 
 const STORAGE_KEY = 'fordex-ai-control-room-drafts';
 
@@ -216,6 +216,12 @@ export function AgentControlRoom() {
         testKey,
       });
 
+      const proposalGate = await validateEditorProposal({
+        operation,
+        output: result.output,
+        discoveredSources: sourcePacket,
+      });
+
       const normalized = normalizeResearch(result.output);
       const blockedPost = operation === 'CREATE_POST' && normalized.postStatus === 'BLOCKED';
       const safeNormalized = operation === 'CREATE_POST' && !normalized.post
@@ -235,6 +241,7 @@ export function AgentControlRoom() {
         normalized: safeNormalized,
         usage: result.usage || null,
         research,
+        proposalGate,
       };
 
       setLastRun(run);
