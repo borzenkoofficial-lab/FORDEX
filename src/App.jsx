@@ -1097,7 +1097,7 @@ function ArticlePage({ articleId }) {
   return (
     <main className="inner-page article-page">
       <section className="article-hero">
-        <div className="article-hero-top"><span>{article.category} · {ruDate(article.date)} · {article.readTime}</span><ButtonLink route="news" className="article-back"><ArrowLeft size={13} /> ВСЕ СТАТЬИ</ButtonLink></div>
+        <div className="article-hero-top"><span>{article.category} · {ruDate(article.date)} · {article.readTime}{article.person ? ' · ' + article.person : ''}</span><ButtonLink route="news" className="article-back"><ArrowLeft size={13} /> ВСЕ СТАТЬИ</ButtonLink></div>
         <div className="article-hero-grid">
           <span className="article-number">{String(index + 1).padStart(2, '0')}</span>
           <div><h1>{article.title}</h1><p>{article.dek}</p></div>
@@ -1107,6 +1107,13 @@ function ArticlePage({ articleId }) {
 
       <section className="article-body">
         <article className="article-main">
+          {article.person && (
+            <div className="article-source article-builder-card">
+              <span>FORDEX BUILDER PROFILE</span>
+              <strong>{article.person} · {article.project}</strong>
+              <p>{article.builderType}</p>
+            </div>
+          )}
           <p className="article-lead">{article.lead}</p>
           {article.sections.map((section) => (
             <section className="article-section" key={section.heading}>
