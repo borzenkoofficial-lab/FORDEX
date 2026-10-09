@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-09T18:53:15.018Z",
+  "generatedAt": "2026-10-09T18:58:20.623Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -348,7 +348,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
+      "sourceCount30d": 7,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -378,16 +378,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
+          "title": "Российская Smart Engines разработала портативный 3D-томограф весом 5 кг - Monocle.ru",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
+          "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
+          "sourceName": "Monocle.ru"
+        },
+        {
           "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
           "sourceName": "sdelanounas.ru"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
-          "sourceName": "Первый Технический"
         }
       ]
     },
