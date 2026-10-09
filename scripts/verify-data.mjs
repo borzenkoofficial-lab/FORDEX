@@ -68,6 +68,13 @@ for (const leader of youngLeaderRankings) {
   if (!hasComparableSignal || !(Number(leader.signal) > 0)) {
     fail(label + ': youth ranking must not include a record without comparable quantitative signals');
   }
+  if (leader.website) {
+    const sourceUrl = normalizeEvidenceUrl(leader.source, label + ' youth ranking source');
+    const websiteUrl = normalizeEvidenceUrl(leader.website, label + ' website');
+    if (sourceUrl === websiteUrl) {
+      fail(label + ': quantitative signals require a specific source page, not the company homepage');
+    }
+  }
 }
 
 const founderKeys = founderRegistry.map((item) => item.company.toLowerCase() + '::' + item.name.toLowerCase());
