@@ -20,7 +20,7 @@ function assertHttpUrl(value, label) {
 for (const record of startupRankings) {
   if (!record.name || !record.source) fail((record.id || 'unknown') + ': company name or primary source missing');
   assertHttpUrl(record.source, record.id + ' primary source');
-  if (!/^20\\d{2}-(0[1-9]|1[0-2])$/.test(String(record.lastVerified || ''))) {
+  if (!/^20\d{2}-(0[1-9]|1[0-2])$/.test(String(record.lastVerified || ''))) {
     fail(record.id + ': lastVerified must use YYYY-MM');
   }
 
@@ -31,7 +31,7 @@ for (const record of startupRankings) {
     if (!record.fundingSource) fail(record.id + ': exact funding requires a dedicated fundingSource');
   }
   if (record.fundingSource) assertHttpUrl(record.fundingSource, record.id + ' funding source');
-  if (/^(?:ДО\\b|UP TO\\b)/i.test(String(record.funding || '')) && record.fundingM != null) {
+  if (/^(?:ДО\b|UP TO\b)/i.test(String(record.funding || '')) && record.fundingM != null) {
     fail(record.id + ': a funding ceiling must not be scored as an exact funding amount');
   }
 }
