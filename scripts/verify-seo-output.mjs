@@ -15,6 +15,11 @@ assert.match(sitemap, new RegExp(siteUrl.replace(/[.*+?^$()|[\]\\]/g, '\\$&') + 
 assert.doesNotMatch(sitemap, /\/control\/|\/watchlist\//, 'private routes must not be submitted for indexing');
 assert.match(robots, new RegExp('Sitemap: ' + siteUrl.replace(/[.*+?^$()|[\]\\]/g, '\\$&') + '/sitemap\\.xml'), 'robots.txt must point to the exact sitemap');
 
+const about = await readFile(new URL('about/index.html', dist), 'utf8');
+assert.match(about, /<h2>Три слоя данных<\/h2>/, 'about page must explain the data layers in static HTML');
+assert.match(about, /не инвестиционная рекомендация/, 'about page must include the rating limitation in static HTML');
+assert.ok(sitemap.includes('<loc>' + siteUrl + '/about/</loc>'), 'about page must be in sitemap');
+
 const home = await readFile(new URL('index.html', dist), 'utf8');
 assert.match(home, /<title>FORDEX — индекс AI-бизнеса России<\/title>/, 'home page title must be rendered into HTML');
 assert.match(home, new RegExp(siteUrl.replace(/[.*+?^$()|[\]\\]/g, '\\$&') + '/'), 'home page canonical must use the production URL');
