@@ -1,5 +1,5 @@
 import { validateEditorProposal } from '../../src/ai/proposalGate.js';
-import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../_lib/adminAuth.js';
+import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../../src/server/adminAuth.js';
 
 function json(res, status, body) {
   res.status(status).setHeader('Content-Type', 'application/json; charset=utf-8');
