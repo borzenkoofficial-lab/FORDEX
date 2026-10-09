@@ -1,6 +1,18 @@
 name: FORDEX Live Market Refresh
 
 on:
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/live-market.yml'
+      - 'scripts/refresh-market.mjs'
+      - 'scripts/verify-live-market.mjs'
+      - 'scripts/verify-data.mjs'
+      - 'src/data/startups.js'
+      - 'src/data/emergingStartups.js'
+      - 'src/data/companyRegistry.js'
+      - 'package.json'
+      - 'package-lock.json'
   schedule:
     - cron: '0 */3 * * *'
   workflow_dispatch:
