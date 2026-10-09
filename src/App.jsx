@@ -9,6 +9,7 @@ import { coverageLabels, researchUniverse } from './data/coverage';
 import { aiProviderRankings, aiProviderSource } from './data/providerRankings';
 import { sourceRegistry, sourceRules } from './data/sources';
 import { editorialArticles, getEditorialArticle } from './data/articles';
+import { SEO_PAGES } from './data/seo.js';
 import { youngLeaderRankings, youngLeaderMethodology } from './data/youngLeaders';
 import { companyRegistry, companyRegistryStats } from './data/companyRegistry';
 import { founderRegistry, founderRegistryStats } from './data/founderRegistry';
@@ -113,23 +114,6 @@ function handleNavigationClick(event, route) {
   goto(route);
 }
 
-const SEO_PAGES = {
-  home: {
-    title: 'FORDEX — индекс AI-бизнеса России',
-    description: 'FORDEX — исследовательский индекс российского AI-бизнеса: компании, основатели, сделки, отраслевые рейтинги, новости и рыночная аналитика.',
-    type: 'WebSite',
-  },
-  companies: { title: 'Компании российского AI-рынка — FORDEX', description: 'Каталог компаний и продуктов российского рынка искусственного интеллекта. Профили, специализации, динамика и подтверждаемые рыночные сигналы.', type: 'CollectionPage' },
-  founders: { title: 'Основатели и команды AI-компаний — FORDEX', description: 'Основатели, команды и независимые создатели AI-продуктов в России. Истории, проекты и подтверждённые данные.', type: 'CollectionPage' },
-  deals: { title: 'Инвестиции и сделки российского AI-рынка — FORDEX', description: 'Инвестиционные раунды, сделки и движение капитала в российской AI-экономике с привязкой к доступным доказательствам.', type: 'CollectionPage' },
-  rankings: { title: 'Рейтинги AI-компаний России — FORDEX', description: 'Рейтинги и индексы российских AI-компаний с открытой методологией, системой сигналов и проверкой доступных источников.', type: 'CollectionPage' },
-  market: { title: 'Карта и динамика AI-рынка России — FORDEX', description: 'Рыночные сигналы, продуктовые запуски и динамика компаний российского AI-сектора.', type: 'CollectionPage' },
-  sources: { title: 'Источники данных и проверка — FORDEX', description: 'Источники, правила проверки данных и принципы работы исследовательского индекса FORDEX.', type: 'WebPage' },
-  news: { title: 'Новости и исследования российского AI-бизнеса — FORDEX', description: 'Редакционные материалы о российских AI-компаниях, новых продуктах, сделках, основателях и независимых создателях.', type: 'CollectionPage' },
-  analytics: { title: 'Аналитика и методология — FORDEX', description: 'Как FORDEX оценивает российские AI-компании: методология рейтингов, источники, ограничения данных и принципы проверки.', type: 'WebPage' },
-  watchlist: { title: 'Мой список наблюдения — FORDEX', description: 'Локальный список компаний, за которыми вы следите в FORDEX.', type: 'WebPage', noindex: true },
-  control: { title: 'AI-редакция — закрытая зона FORDEX', description: 'Закрытая рабочая зона редакции FORDEX.', type: 'WebPage', noindex: true },
-};
 
 function setMeta(attribute, key, content) {
   let element = document.head.querySelector('meta[' + attribute + '="' + key + '"]');
