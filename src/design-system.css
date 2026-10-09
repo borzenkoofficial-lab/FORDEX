@@ -661,7 +661,7 @@ footer .logo{color:#fff}
 .article-body{background:var(--fx-paper)}
 .article-source{border-top-color:#111}
 .article-source>a{border-bottom-color:#111}
-.article-aside button:hover{background:#e9e8e3}
+.article-aside button:hover,.article-aside a:hover{background:#e9e8e3}
 .research-facts{background:transparent}
 
 /* Final responsive rhythm */
