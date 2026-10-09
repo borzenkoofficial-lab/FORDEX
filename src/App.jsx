@@ -61,21 +61,165 @@ function RankMark({ rank, compact = false }) {
     </span>
   );
 }
+const ROUTE_PATHS = Object.freeze({
+  '/': 'home',
+  '/companies': 'companies',
+  '/founders': 'founders',
+  '/deals': 'deals',
+  '/rankings': 'rankings',
+  '/market': 'market',
+  '/sources': 'sources',
+  '/news': 'news',
+  '/analytics': 'analytics',
+  '/watchlist': 'watchlist',
+  '/control': 'control',
+});
+
+function routeToPath(route) {
+  const value = String(route || 'home').replace(/^#/, '').trim().toLowerCase() || 'home';
+  if (value.startsWith('article-')) return '/articles/' + encodeURIComponent(value.slice('article-'.length)) + '/';
+  if (value.startsWith('research-')) return '/research/' + encodeURIComponent(value.slice('research-'.length)) + '/';
+  if (value === 'home') return '/';
+  return '/' + encodeURIComponent(value) + '/';
+}
+
 function getRoute() {
-  return window.location.hash.replace('#', '').trim().toLowerCase() || 'home';
+  const hashRoute = window.location.hash.replace('#', '').trim().toLowerCase();
+  if (hashRoute) return hashRoute;
+
+  const pathname = decodeURIComponent(window.location.pathname).replace(/\\/+$/, '') || '/';
+  const articleMatch = pathname.match(/^\\/articles\\/([^/]+)$/);
+  if (articleMatch) return 'article-' + articleMatch[1].toLowerCase();
+  const researchMatch = pathname.match(/^\\/research\\/([^/]+)$/);
+  if (researchMatch) return 'research-' + researchMatch[1].toLowerCase();
+
+  const normalizedPath = pathname.toLowerCase();
+  if (ROUTE_PATHS[normalizedPath]) return ROUTE_PATHS[normalizedPath];
+  return normalizedPath === '/' ? 'home' : normalizedPath.slice(1);
 }
 
 function goto(route) {
-  window.location.hash = route;
+  const target = routeToPath(route);
+  if (window.location.pathname + window.location.search + window.location.hash !== target) {
+    window.history.pushState({}, '', target);
+  }
+  window.dispatchEvent(new PopStateEvent('popstate'));
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+const SEO_PAGES = {
+  home: {
+    title: 'FORDEX — индекс AI-бизнеса России',
+    description: 'FORDEX — исследовательский индекс российского AI-бизнеса: компании, основатели, сделки, отраслевые рейтинги, новости и рыночная аналитика.',
+    type: 'WebSite',
+  },
+  companies: { title: 'Компании российского AI-рынка — FORDEX', description: 'Каталог компаний и продуктов российского рынка искусственного интеллекта. Профили, специализации, динамика и подтверждаемые рыночные сигналы.', type: 'CollectionPage' },
+  founders: { title: 'Основатели и команды AI-компаний — FORDEX', description: 'Основатели, команды и независимые создатели AI-продуктов в России. Истории, проекты и подтверждённые данные.', type: 'CollectionPage' },
+  deals: { title: 'Инвестиции и сделки российского AI-рынка — FORDEX', description: 'Инвестиционные раунды, сделки и движение капитала в российской AI-экономике с привязкой к доступным доказательствам.', type: 'CollectionPage' },
+  rankings: { title: 'Рейтинги AI-компаний России — FORDEX', description: 'Рейтинги и индексы российских AI-компаний с открытой методологией, системой сигналов и проверкой доступных источников.', type: 'CollectionPage' },
+  market: { title: 'Карта и динамика AI-рынка России — FORDEX', description: 'Рыночные сигналы, продуктовые запуски и динамика компаний российского AI-сектора.', type: 'CollectionPage' },
+  sources: { title: 'Источники данных и проверка — FORDEX', description: 'Источники, правила проверки данных и принципы работы исследовательского индекса FORDEX.', type: 'WebPage' },
+  news: { title: 'Новости и исследования российского AI-бизнеса — FORDEX', description: 'Редакционные материалы о российских AI-компаниях, новых продуктах, сделках, основателях и независимых создателях.', type: 'CollectionPage' },
+  analytics: { title: 'Аналитика и методология — FORDEX', description: 'Как FORDEX оценивает российские AI-компании: методология рейтингов, источники, ограничения данных и принципы проверки.', type: 'WebPage' },
+  watchlist: { title: 'Мой список наблюдения — FORDEX', description: 'Локальный список компаний, за которыми вы следите в FORDEX.', type: 'WebPage', noindex: true },
+  control: { title: 'AI-редакция — закрытая зона FORDEX', description: 'Закрытая рабочая зона редакции FORDEX.', type: 'WebPage', noindex: true },
+};
+
+function setMeta(attribute, key, content) {
+  let element = document.head.querySelector('meta[' + attribute + '="' + key + '"]');
+  if (!element) {
+    element = document.createElement('meta');
+    element.setAttribute(attribute, key);
+    document.head.appendChild(element);
+  }
+  element.setAttribute('content', content);
+}
+
+function useSeoMetadata(route) {
+  useEffect(() => {
+    const articleId = route.startsWith('article-') ? route.slice('article-'.length) : '';
+    const article = articleId ? getEditorialArticle(articleId) : null;
+    const fallback = route.startsWith('research-')
+      ? { title: 'Исследование AI-рынка России — FORDEX', description: 'Исследовательский материал о российском рынке искусственного интеллекта.', type: 'Article' }
+      : (SEO_PAGES[route] || { title: 'FORDEX — индекс AI-бизнеса России', description: SEO_PAGES.home.description, type: 'WebPage' });
+    const title = article?.title ? article.title + ' — FORDEX' : fallback.title;
+    const rawDescription = article?.dek || article?.lead || fallback.description;
+    const description = String(rawDescription).replace(/\\s+/g, ' ').trim().slice(0, 300);
+    const canonicalUrl = new URL(routeToPath(route), window.location.origin).href;
+
+    document.title = title;
+    setMeta('name', 'description', description);
+    setMeta('name', 'robots', fallback.noindex || route.startsWith('research-') ? 'noindex, nofollow' : 'index, follow');
+    setMeta('property', 'og:type', article ? 'article' : 'website');
+    setMeta('property', 'og:site_name', 'FORDEX');
+    setMeta('property', 'og:locale', 'ru_RU');
+    setMeta('property', 'og:title', title);
+    setMeta('property', 'og:description', description);
+    setMeta('property', 'og:url', canonicalUrl);
+    setMeta('name', 'twitter:card', 'summary');
+    setMeta('name', 'twitter:title', title);
+    setMeta('name', 'twitter:description', description);
+
+    let canonical = document.head.querySelector('link[rel="canonical"]');
+    if (!canonical) {
+      canonical = document.createElement('link');
+      canonical.rel = 'canonical';
+      document.head.appendChild(canonical);
+    }
+    canonical.href = canonicalUrl;
+
+    const siteUrl = window.location.origin;
+    let structuredData;
+    if (article) {
+      const parsedDate = article.date ? new Date(article.date) : null;
+      const schema = {
+        '@context': 'https://schema.org',
+        '@type': 'Article',
+        headline: article.title,
+        description,
+        mainEntityOfPage: canonicalUrl,
+        publisher: { '@type': 'Organization', name: 'FORDEX', url: siteUrl },
+        author: article.person
+          ? { '@type': 'Person', name: article.person }
+          : { '@type': 'Organization', name: 'Редакция FORDEX' },
+        articleSection: article.category || 'AI Business',
+        inLanguage: 'ru-RU',
+      };
+      if (parsedDate && Number.isFinite(parsedDate.getTime())) schema.datePublished = parsedDate.toISOString();
+      structuredData = schema;
+    } else {
+      structuredData = {
+        '@context': 'https://schema.org',
+        '@type': 'WebSite',
+        name: 'FORDEX',
+        alternateName: 'Индекс AI-бизнеса России',
+        url: siteUrl,
+        inLanguage: 'ru-RU',
+        description: SEO_PAGES.home.description,
+        publisher: { '@type': 'Organization', name: 'FORDEX', url: siteUrl },
+      };
+    }
+    let script = document.getElementById('fordex-structured-data');
+    if (!script) {
+      script = document.createElement('script');
+      script.id = 'fordex-structured-data';
+      script.type = 'application/ld+json';
+      document.head.appendChild(script);
+    }
+    script.textContent = JSON.stringify(structuredData).replace(/</g, '\\u003c');
+  }, [route]);
 }
 
 function useRoute() {
   const [route, setRoute] = useState(getRoute);
   useEffect(() => {
-    const onHash = () => setRoute(getRoute());
-    window.addEventListener('hashchange', onHash);
-    return () => window.removeEventListener('hashchange', onHash);
+    const onLocation = () => setRoute(getRoute());
+    window.addEventListener('hashchange', onLocation);
+    window.addEventListener('popstate', onLocation);
+    return () => {
+      window.removeEventListener('hashchange', onLocation);
+      window.removeEventListener('popstate', onLocation);
+    };
   }, []);
   return route;
 }
@@ -94,6 +238,7 @@ function moneyM(items) {
 
 export function App() {
   const route = useRoute();
+  useSeoMetadata(route);
   const [searchOpen, setSearchOpen] = useState(false);
   const [watchlist, setWatchlist] = useState(() => {
     try {
