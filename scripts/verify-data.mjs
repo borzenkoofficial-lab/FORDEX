@@ -2,6 +2,7 @@ import { companyRegistry, companyRegistryStats } from '../src/data/companyRegist
 import { founderRegistry, founderRegistryStats } from '../src/data/founderRegistry.js';
 import { evidenceRegistry, evidenceRegistryStats } from '../src/data/evidenceRegistry.js';
 import { emergingStartups } from '../src/data/emergingStartups.js';
+import { youngLeaderRankings } from '../src/data/youngLeaders.js';
 import { editorialArticles } from '../src/data/articles.js';
 import { dealRegistry } from '../src/data/dealRegistry.js';
 import { articleRegistry } from '../src/data/articleRegistry.js';
@@ -54,6 +55,18 @@ for (const startup of emergingStartups) {
     if (evidenceUrl === websiteUrl) {
       fail(label + ': quantitative evidence must link to a specific source, not only the company homepage');
     }
+  }
+}
+
+for (const leader of youngLeaderRankings) {
+  const label = leader.name || leader.id || 'unnamed leader';
+  if (!leader.source) fail(label + ': quantitative youth ranking requires a source');
+  normalizeEvidenceUrl(leader.source, label + ' youth ranking source');
+
+  const hasComparableSignal = [leader.capitalM, leader.valuationM, leader.usersK, leader.mrrK]
+    .some((value) => value != null && Number.isFinite(Number(value)) && Number(value) > 0);
+  if (!hasComparableSignal || !(Number(leader.signal) > 0)) {
+    fail(label + ': youth ranking must not include a record without comparable quantitative signals');
   }
 }
 
