@@ -87,10 +87,10 @@ function getRoute() {
   const hashRoute = window.location.hash.replace('#', '').trim().toLowerCase();
   if (hashRoute) return hashRoute;
 
-  const pathname = decodeURIComponent(window.location.pathname).replace(/\\/+$/, '') || '/';
-  const articleMatch = pathname.match(/^\\/articles\\/([^/]+)$/);
+  const pathname = decodeURIComponent(window.location.pathname).replace(/\/+$/, '') || '/';
+  const articleMatch = pathname.match(/^\/articles\/([^/]+)$/);
   if (articleMatch) return 'article-' + articleMatch[1].toLowerCase();
-  const researchMatch = pathname.match(/^\\/research\\/([^/]+)$/);
+  const researchMatch = pathname.match(/^\/research\/([^/]+)$/);
   if (researchMatch) return 'research-' + researchMatch[1].toLowerCase();
 
   const normalizedPath = pathname.toLowerCase();
@@ -144,7 +144,7 @@ function useSeoMetadata(route) {
       : (SEO_PAGES[route] || { title: 'FORDEX — индекс AI-бизнеса России', description: SEO_PAGES.home.description, type: 'WebPage' });
     const title = article?.title ? article.title + ' — FORDEX' : fallback.title;
     const rawDescription = article?.dek || article?.lead || fallback.description;
-    const description = String(rawDescription).replace(/\\s+/g, ' ').trim().slice(0, 300);
+    const description = String(rawDescription).replace(/\s+/g, ' ').trim().slice(0, 300);
     const canonicalUrl = new URL(routeToPath(route), window.location.origin).href;
 
     document.title = title;
