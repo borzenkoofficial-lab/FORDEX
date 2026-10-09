@@ -1,5 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
+import { spawnSync } from 'node:child_process';
 
 const html = await readFile(new URL('../index.html', import.meta.url), 'utf8');
 const app = await readFile(new URL('../src/App.jsx', import.meta.url), 'utf8');
@@ -22,3 +23,13 @@ assert.match(robots, /User-agent: \*/, 'robots.txt must declare crawler rules');
 assert.match(robots, /Disallow: \/api\//, 'robots.txt must keep API endpoints out of crawl discovery');
 assert.match(favicon, /<svg/, 'favicon SVG must exist');
 console.log('SEO verification passed: Russian metadata, canonical paths, structured data, sitemap generation, robots, favicon.');
+
+
+const productionGuard = spawnSync(process.execPath, ['scripts/generate-seo.mjs'], {
+  cwd: process.cwd(),
+  encoding: 'utf8',
+  env: { ...process.env, SITE_URL: '', VERCEL_ENV: 'production' },
+});
+assert.notEqual(productionGuard.status, 0, 'production build must fail when SITE_URL is missing');
+assert.match(productionGuard.stderr, /SITE_URL is required for a production deployment/, 'missing production SITE_URL must explain how to fix it');
+console.log('Production deployment guard verified: a missing SITE_URL cannot silently disable SEO output.');
