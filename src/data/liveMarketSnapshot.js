@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-09T18:58:20.623Z",
+  "generatedAt": "2026-10-09T21:55:37.154Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -152,7 +152,7 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 4,
+      "sourceCount30d": 2,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -167,18 +167,6 @@ export const liveMarketSnapshot = {
           "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
           "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Как мы обучили детектор джейлбрейков для русскоязычных AI-агентов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UbC13U1Y3UnBxdDZueU01UXZuZnZrR1JYXzZodDRGMksyM3M2TDIxQWlSX0ZRWmZvZFpGMmhmZERuTVI2VktKTTd5Y0VSMkV2enJmbV9XSFZBbEJsQW1yeG9NQnYzd9IBWEFVX3lxTE5iZnJpWWF1Q0JiSU9RWTgxNEdSZ1NTdE5yelpLOXRxSkFBSENuUDJkSzlYN3JTRTNnMURCV3VjZ1d1Z3VQRDdCWnJDTmJEUDVId2NrVjV3TFk?oc=5",
-          "publishedAt": "Tue, 22 Sep 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -222,8 +210,8 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount30d": 8,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -258,10 +246,10 @@ export const liveMarketSnapshot = {
           "sourceName": "RuNews24"
         },
         {
-          "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
-          "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
-          "sourceName": "RUБЕЖ"
+          "title": "NtechLab и \"Швабе\" планируют создавать совместные ИТ-разработки - MASHNEWS | Новости Промышленности",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0FKWFpadVE5LUowUjZsTXpyNW91OWpWSHZXUjV4QnBsNEN6REN5VWJlWlZ3NHozT2tWOTB3dC1UcFMxXzd6bGVBblJxUEVfZ1ZtMzRfVzdlX1huZy1RQjlBTl9ibm5DQ0VtcGpFRHNwa0ZTS0swMFV0Z2gxazkwaFZDZU1Ra3o2T01tSE5YTTdMdw?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 20:00:03 GMT",
+          "sourceName": "MASHNEWS | Новости Промышленности"
         }
       ]
     },
@@ -348,7 +336,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -378,16 +366,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Российская Smart Engines разработала портативный 3D-томограф весом 5 кг - Monocle.ru",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
-          "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
-          "sourceName": "Monocle.ru"
-        },
-        {
           "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
           "sourceName": "sdelanounas.ru"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
+          "sourceName": "Первый Технический"
         }
       ]
     },
@@ -1063,7 +1051,7 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 5,
+      "sourceCount30d": 6,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1393,7 +1381,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 8,
-      "sourceCount7d": 4,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1416,6 +1404,12 @@ export const liveMarketSnapshot = {
           "sourceName": "dp.ru"
         },
         {
+          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 20:32:36 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
           "title": "Валентина Матвиенко выступила в ходе второй Международной конференции «Всеобщий охват услугами здравоохранения и цели устойчивого развития - Совет Федерации Федерального Собрания Российской Федерации",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
           "publishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
@@ -1426,12 +1420,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
           "sourceName": "Life.ru"
-        },
-        {
-          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
-          "publishedAt": "Sat, 26 Sep 2026 07:46:06 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
