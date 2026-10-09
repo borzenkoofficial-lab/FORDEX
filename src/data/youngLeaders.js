@@ -9,7 +9,7 @@ const records = [
   { id: 'gradius', valuationM: 150, usersK: 3000, mrrK: 1200, foundedYear: 2025, source: 'https://productradar.ru/blog/kak-gradius-privlek-investitsii-150mln/', sourceName: 'PRODUCT RADAR' },
   { id: 'health-hero', capitalM: 15, usersK: 200, source: 'https://health-hero.pro/about', sourceName: 'HEALTH HERO' },
   { id: 'lork-dev', usersK: 1.447, payers: 119, mrrK: 184, source: 'https://lork.dev/blog/lork-dev-184k-mrr-partnerskaya-programma', sourceName: 'LORK' },
-  { id: 'poehali-dev', usersK: 50, source: 'https://poehali.dev/', sourceName: 'ПОЕХАЛИ.DEV' },
+  { id: 'poehali-dev', source: 'https://poehali.dev/', sourceName: 'ПОЕХАЛИ.DEV' },
   { id: 'innde', capitalM: 5, source: 'https://productradar.ru/blog/innde-pervyj-raund-investiczij-5-mln-rubley/', sourceName: 'PRODUCT RADAR' },
   { id: 'mymeet-ai', capitalM: 5, source: 'https://productradar.ru/product/mymeet-ai/', sourceName: 'PRODUCT RADAR' },
   { id: 'freestyling-ai', source: 'https://productradar.ru/product/freestyling-ai/', sourceName: 'PRODUCT RADAR' },
@@ -45,8 +45,8 @@ export const youngLeaderRankings = records
     const core = coreById.get(record.id);
     if (!emerging && !core) return null;
     return {
-      ...record,
       ...emerging,
+      ...record,
       ...(core ? { sector: core.sector, stage: core.stage, city: core.city, description: core.description, website: core.website } : {}),
       signal: buildSignal(record),
       capitalLabel: record.valuationM
@@ -61,12 +61,12 @@ export const youngLeaderRankings = records
           : 'ТЯГА ПРОДУКТА НЕ НОРМАЛИЗОВАНА',
     };
   })
-  .filter(Boolean)
+  .filter((item) => Boolean(item) && item.signal > 0 && Boolean(item.source))
   .sort((a, b) => b.signal - a.signal || a.name.localeCompare(b.name))
   .map((item, index) => ({ ...item, rank: index + 1 }));
 
 export const youngLeaderMethodology = {
   title: 'ГЛАВНЫЙ РЕЙТИНГ МОЛОДЫХ ЛИДЕРОВ',
-  description: 'Прозрачный discovery-сигнал для молодых AI-команд. 55% — капитал или раскрытая оценка, 45% — подтверждённая тяга продукта через пользователей или MRR. Это не инвестиционная оценка и не заменяет FORDEX Score.',
+  description: 'Прозрачный discovery-сигнал для молодых AI-команд. 55% — капитал или раскрытая оценка, 45% — публично заявленная тяга продукта через пользователей или MRR. Показатели привязаны к источникам, но могут быть самоотчётами и не являются независимым аудитом. Это не инвестиционная оценка и не заменяет FORDEX Score.',
   lastVerified: '06 OCT 2026',
 };

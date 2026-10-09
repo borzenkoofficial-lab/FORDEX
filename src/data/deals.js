@@ -99,7 +99,7 @@ export const dealRecords = [
     id: 'piklema-2025',
     company: 'Piklema',
     type: 'INVESTMENT',
-    value: '₽1.0B',
+    value: '₽1,0 МЛРД',
     valueM: 1000,
     date: 'JUL 2025',
     sector: 'ПРОМЫШЛЕННЫЕ ТЕХНОЛОГИИ',

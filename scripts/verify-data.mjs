@@ -2,6 +2,7 @@ import { companyRegistry, companyRegistryStats } from '../src/data/companyRegist
 import { founderRegistry, founderRegistryStats } from '../src/data/founderRegistry.js';
 import { evidenceRegistry, evidenceRegistryStats } from '../src/data/evidenceRegistry.js';
 import { emergingStartups } from '../src/data/emergingStartups.js';
+import { youngLeaderRankings } from '../src/data/youngLeaders.js';
 import { editorialArticles } from '../src/data/articles.js';
 import { dealRegistry } from '../src/data/dealRegistry.js';
 import { articleRegistry } from '../src/data/articleRegistry.js';
@@ -57,6 +58,25 @@ for (const startup of emergingStartups) {
   }
 }
 
+for (const leader of youngLeaderRankings) {
+  const label = leader.name || leader.id || 'unnamed leader';
+  if (!leader.source) fail(label + ': quantitative youth ranking requires a source');
+  normalizeEvidenceUrl(leader.source, label + ' youth ranking source');
+
+  const hasComparableSignal = [leader.capitalM, leader.valuationM, leader.usersK, leader.mrrK]
+    .some((value) => value != null && Number.isFinite(Number(value)) && Number(value) > 0);
+  if (!hasComparableSignal || !(Number(leader.signal) > 0)) {
+    fail(label + ': youth ranking must not include a record without comparable quantitative signals');
+  }
+  if (leader.website) {
+    const sourceUrl = normalizeEvidenceUrl(leader.source, label + ' youth ranking source');
+    const websiteUrl = normalizeEvidenceUrl(leader.website, label + ' website');
+    if (sourceUrl === websiteUrl) {
+      fail(label + ': quantitative signals require a specific source page, not the company homepage');
+    }
+  }
+}
+
 const founderKeys = founderRegistry.map((item) => item.company.toLowerCase() + '::' + item.name.toLowerCase());
 if (new Set(founderKeys).size !== founderKeys.length) fail('duplicate founder-company entity');
 
@@ -80,8 +100,25 @@ for (const deal of dealRegistry) {
     fail(deal.id + ': date must use year, month-year, or day-month-year precision');
   }
   if (!deal.lead) fail(deal.id + ': investor/lead attribution missing');
-  if (!Number.isFinite(Number(deal.valueM)) || Number(deal.valueM) <= 0) {
-    fail(deal.id + ': numeric deal value missing or invalid');
+  const hasExactValue = deal.valueM != null;
+  const hasCapValue = deal.valueCapM != null;
+  if (hasExactValue && (!Number.isFinite(Number(deal.valueM)) || Number(deal.valueM) <= 0)) {
+    fail(deal.id + ': exact numeric deal value is invalid');
+  }
+  if (hasCapValue && (!Number.isFinite(Number(deal.valueCapM)) || Number(deal.valueCapM) <= 0)) {
+    fail(deal.id + ': numeric deal value cap is invalid');
+  }
+  if (!hasExactValue && !hasCapValue) {
+    fail(deal.id + ': exact deal value or explicit value cap is required');
+  }
+  if (hasExactValue && hasCapValue) {
+    fail(deal.id + ': exact deal value and value cap must not be set together');
+  }
+  if (hasCapValue && !/^(?:ДО\b|UP TO\b)/i.test(String(deal.value || ''))) {
+    fail(deal.id + ': upper-bound numeric value must be labelled as a cap');
+  }
+  if (/^(?:ДО\b|UP TO\b)/i.test(String(deal.value || '')) && hasExactValue) {
+    fail(deal.id + ': upper-bound amount must not be counted as exact disclosed capital');
   }
 }
 
