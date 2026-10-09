@@ -41,7 +41,7 @@ export const startupRankings = [
     verified: true,
     lastVerified: '2026-10',
     source: 'https://kamaflow.com/ru/post/mvs-a-portfolio-company-of-kama-flow-raises-1-billion-rubles-from-rdif-and-uk-pervaya-in-new-investment-round/',
-    tractionSource: 'https://kamaflow.com/ru/post/mvs-a-portfolio-company-of-kama-flow-raises-1-billion-rubles-from-rdif-and-uk-pervaya-in-new-investment-round/'
+    tractionSource: 'https://kamaflow.com/ru/post/mvs-a-portfolio-company-of-kama-flow-raises-1-billion-rubles-from-rdif-and-uk-pervaya-in-new-investment-round/',
     fundingSource: 'https://kamaflow.com/ru/post/mvs-a-portfolio-company-of-kama-flow-raises-1-billion-rubles-from-rdif-and-uk-pervaya-in-new-investment-round/'
   },
   {
@@ -64,7 +64,7 @@ export const startupRankings = [
     verified: true,
     lastVerified: '2026-10',
     source: 'https://neiry.ru/strategy',
-    tractionSource: 'https://neiry.ru/strategy'
+    tractionSource: 'https://neiry.ru/strategy',
     fundingSource: 'https://neiry.ru/news/tpost/0d8civnm91-neiry-obyavila-o-zakritii-raunda-na-500'
   },
   {
@@ -130,7 +130,7 @@ export const startupRankings = [
     website: 'https://syntelly.ru/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://syntelly.ru/aboutsyntelly'
+    source: 'https://syntelly.ru/aboutsyntelly',
     tractionSource: 'https://syntelly.ru/aboutsyntelly'
   },
   {
@@ -153,7 +153,7 @@ export const startupRankings = [
     verified: true,
     lastVerified: '2026-10',
     source: 'https://platformeco.ru/about',
-    tractionSource: 'https://platformeco.ru/about'
+    tractionSource: 'https://platformeco.ru/about',
     fundingSource: 'https://kamaflow.com/ru/post/kama-flow-has-invested-100-million-rubles-in-platformeco/'
   },
   {
