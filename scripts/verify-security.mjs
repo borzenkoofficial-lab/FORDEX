@@ -29,6 +29,24 @@ assert.equal(rejectedResponse.statusCode, 401);
 if (previousToken === undefined) delete process.env.FORDEX_ADMIN_TOKEN;
 else process.env.FORDEX_ADMIN_TOKEN = previousToken;
 
+const missingTokenResponse = fakeResponse();
+delete process.env.FORDEX_ADMIN_TOKEN;
+assert.equal(authorizeAdmin({ headers: { authorization: 'Bearer ' + token }, socket: { remoteAddress: 'missing-secret-test-ip' } }, missingTokenResponse), false);
+assert.equal(missingTokenResponse.statusCode, 503, 'admin API must fail closed without configured secret');
+if (previousToken !== undefined) process.env.FORDEX_ADMIN_TOKEN = previousToken;
+
+const bruteForceRequest = {
+  headers: { authorization: 'Bearer incorrect-token', 'x-real-ip': 'security-brute-force-test-ip' },
+  socket: { remoteAddress: 'security-brute-force-test-ip' },
+};
+for (let attempt = 0; attempt < 50; attempt += 1) {
+  const attemptResponse = fakeResponse();
+  authorizeAdmin(bruteForceRequest, attemptResponse);
+}
+const throttledAuthResponse = fakeResponse();
+assert.equal(authorizeAdmin(bruteForceRequest, throttledAuthResponse), false);
+assert.equal(throttledAuthResponse.statusCode, 429, 'admin login attempts must be throttled');
+
 const limitResponse = fakeResponse();
 const limitedReq = { headers: {}, socket: { remoteAddress: 'verify-security-limit-ip' } };
 assert.equal(enforceRateLimit(limitedReq, limitResponse, { scope: 'verify-security', limit: 1, windowMs: 60000 }), true);
