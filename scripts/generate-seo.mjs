@@ -35,18 +35,14 @@ function htmlEscape(value) {
 }
 
 function setHtmlMeta(html, attribute, key, content) {
-  const escapedKey = key.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-  const pattern = new RegExp('<meta\\s+[^>]*' + attribute + '="' + escapedKey + '"[^>]*>', 'i');
+  const pattern = new RegExp('<meta\\s+[^>]*' + attribute + '="' + key + '"[^>]*>', 'i');
   const existing = html.match(pattern);
   const safeContent = htmlEscape(content);
   if (existing) {
-    const tag = existing[0];
-    const replaced = /content="[^"]*"/i.test(tag)
-      ? tag.replace(/content="[^"]*"/i, 'content="' + safeContent + '"')
-      : tag.replace(/\\s*\\/?>(?=$)/, ' content="' + safeContent + '" />');
+    const replaced = existing[0].replace(/content="[^"]*"/i, 'content="' + safeContent + '"');
     return html.replace(pattern, replaced);
   }
-  return html.replace('</head>', '    <meta ' + attribute + '="' + htmlEscape(key) + '" content="' + safeContent + '" />\\n  </head>');
+  return html.replace('</head>', '    <meta ' + attribute + '="' + htmlEscape(key) + '" content="' + safeContent + '" />\n  </head>');
 }
 
 const siteUrl = normalizeSiteUrl(configuredUrl);
@@ -96,9 +92,9 @@ for (const article of uniqueArticles) {
   }
   const slug = encodeURIComponent(article.id);
   const canonicalUrl = siteUrl + '/articles/' + slug + '/';
-  const description = String(article.dek || article.lead || article.title).replace(/\\s+/g, ' ').trim().slice(0, 300);
+  const description = String(article.dek || article.lead || article.title).replace(/\s+/g, ' ').trim().slice(0, 300);
   const title = article.title + ' — FORDEX';
-  let html = baseHtml.replace(/<title>[^<]*<\\/title>/i, '<title>' + htmlEscape(title) + '</title>');
+  let html = baseHtml.replace(/<title>[^<]*<\/title>/i, '<title>' + htmlEscape(title) + '</title>');
   html = setHtmlMeta(html, 'name', 'description', description);
   html = setHtmlMeta(html, 'name', 'robots', 'index, follow');
   html = setHtmlMeta(html, 'property', 'og:type', 'article');
@@ -110,7 +106,7 @@ for (const article of uniqueArticles) {
   html = setHtmlMeta(html, 'name', 'twitter:card', 'summary');
   html = setHtmlMeta(html, 'name', 'twitter:title', title);
   html = setHtmlMeta(html, 'name', 'twitter:description', description);
-  html = html.replace('</head>', '    <link rel="canonical" href="' + htmlEscape(canonicalUrl) + '" />\\n  </head>');
+  html = html.replace('</head>', '    <link rel="canonical" href="' + htmlEscape(canonicalUrl) + '" />\n  </head>');
 
   const articleSchema = {
     '@context': 'https://schema.org',
@@ -131,7 +127,7 @@ for (const article of uniqueArticles) {
     '</head>',
     '    <script id="fordex-structured-data" type="application/ld+json">' +
       JSON.stringify(articleSchema).replace(/</g, '\\u003c') +
-      '</script>\\n  </head>',
+      '</script>\n  </head>',
   );
 
   const articleDirectory = new URL('articles/' + slug + '/', outputDirectory);
