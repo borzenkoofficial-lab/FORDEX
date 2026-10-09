@@ -107,6 +107,12 @@ function goto(route) {
   window.scrollTo({ top: 0, behavior: 'smooth' });
 }
 
+function handleNavigationClick(event, route) {
+  if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+  event.preventDefault();
+  goto(route);
+}
+
 const SEO_PAGES = {
   home: {
     title: 'FORDEX — индекс AI-бизнеса России',
@@ -230,11 +236,7 @@ function ButtonLink({ children, route, className = '' }) {
     <a
       className={className}
       href={routeToPath(route)}
-      onClick={(event) => {
-        if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
-        event.preventDefault();
-        goto(route);
-      }}
+      onClick={(event) => handleNavigationClick(event, route)}
     >
       {children}
     </a>
@@ -1456,13 +1458,13 @@ function Footer() {
     <footer>
       <div><div className="logo">FORDEX</div><p>ИНДЕКС AI-БИЗНЕСА · РОССИЯ</p></div>
       <nav className="footer-links" aria-label="Навигация в подвале">
-        <a href={routeToPath('companies')} onClick={(event) => { event.preventDefault(); goto('companies'); }}>КОМПАНИИ</a>
-        <a href={routeToPath('founders')} onClick={(event) => { event.preventDefault(); goto('founders'); }}>ОСНОВАТЕЛИ</a>
-        <a href={routeToPath('deals')} onClick={(event) => { event.preventDefault(); goto('deals'); }}>СДЕЛКИ</a>
-        <a href={routeToPath('rankings')} onClick={(event) => { event.preventDefault(); goto('rankings'); }}>РЕЙТИНГ</a>
-        <a href={routeToPath('news')} onClick={(event) => { event.preventDefault(); goto('news'); }}>НОВОСТИ</a>
-        <a href={routeToPath('analytics')} onClick={(event) => { event.preventDefault(); goto('analytics'); }}>МЕТОДОЛОГИЯ</a>
-        <a href={routeToPath('sources')} onClick={(event) => { event.preventDefault(); goto('sources'); }}>ИСТОЧНИКИ</a>
+        <a href={routeToPath('companies')} onClick={(event) => handleNavigationClick(event, 'companies')}>КОМПАНИИ</a>
+        <a href={routeToPath('founders')} onClick={(event) => handleNavigationClick(event, 'founders')}>ОСНОВАТЕЛИ</a>
+        <a href={routeToPath('deals')} onClick={(event) => handleNavigationClick(event, 'deals')}>СДЕЛКИ</a>
+        <a href={routeToPath('rankings')} onClick={(event) => handleNavigationClick(event, 'rankings')}>РЕЙТИНГ</a>
+        <a href={routeToPath('news')} onClick={(event) => handleNavigationClick(event, 'news')}>НОВОСТИ</a>
+        <a href={routeToPath('analytics')} onClick={(event) => handleNavigationClick(event, 'analytics')}>МЕТОДОЛОГИЯ</a>
+        <a href={routeToPath('sources')} onClick={(event) => handleNavigationClick(event, 'sources')}>ИСТОЧНИКИ</a>
       </nav>
       <span>© 2026 FORDEX · ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span>
     </footer>
