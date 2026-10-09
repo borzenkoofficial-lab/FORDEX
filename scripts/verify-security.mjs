@@ -1,6 +1,6 @@
 import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
-import { authorizeAdmin, enforceBodySize, enforceRateLimit, isValidAdminToken } from '../api/_lib/adminAuth.js';
+import { authorizeAdmin, enforceBodySize, enforceRateLimit, isValidAdminToken } from '../src/server/adminAuth.js';
 
 const token = 't'.repeat(48);
 assert.equal(isValidAdminToken(token, token), true, 'valid long admin token must pass');
