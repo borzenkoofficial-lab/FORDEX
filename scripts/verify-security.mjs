@@ -2,6 +2,10 @@ import assert from 'node:assert/strict';
 import { readFile } from 'node:fs/promises';
 import { authorizeAdmin, enforceBodySize, enforceRateLimit, isValidAdminToken } from '../src/server/adminAuth.js';
 
+const environmentExample = await readFile(new URL('../.env.example', import.meta.url), 'utf8');
+const exampleToken = environmentExample.match(/^FORDEX_ADMIN_TOKEN=(.*)$/m)?.[1] || '';
+assert.ok(exampleToken.length < 32, 'public example token must remain too short to authenticate if copied unchanged');
+
 const token = 't'.repeat(48);
 assert.equal(isValidAdminToken(token, token), true, 'valid long admin token must pass');
 assert.equal(isValidAdminToken('x'.repeat(48), token), false, 'wrong admin token must fail');
