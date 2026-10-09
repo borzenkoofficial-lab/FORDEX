@@ -421,8 +421,9 @@ footer .logo{font-size:28px}
 footer p{font-size:7px;letter-spacing:.16em;color:#858585;margin:8px 0 0}
 footer>span{font-size:7px;letter-spacing:.12em;color:#777;align-self:end}
 .footer-links{display:flex;gap:22px;align-items:flex-start}
-.footer-links button{font-size:7px;letter-spacing:.12em;font-weight:700;color:#bebebe}
-.footer-links button:hover{color:#fff}
+.footer-links button,.footer-links a{font-size:7px;letter-spacing:.12em;font-weight:700;color:#bebebe}
+.footer-links button:hover,.footer-links a:hover{color:#fff}
+.footer-links a{text-decoration:none}
 
 @media(max-width:1100px){
   .nav-left{gap:18px}.nav-right{gap:13px}.nav-right span{display:none}.logo{font-size:27px}
@@ -618,7 +619,7 @@ body{background:var(--paper);color:var(--ink)}
 footer{background:#102d3b}
 footer .logo{color:#fff}
 footer p,footer>span{color:#9bb2bb}
-.footer-links button{color:#bed0d7}
+.footer-links button,.footer-links a{color:#bed0d7}
 
 
 @media(max-width:720px){
