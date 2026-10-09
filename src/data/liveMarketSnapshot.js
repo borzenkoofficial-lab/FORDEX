@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-09T00:44:38.032Z",
+  "generatedAt": "2026-10-09T09:42:36.234Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,11 +112,29 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 22:16:21 GMT",
-      "latestTitle": "Lada Iskra серьезно обновят до конца 2026 года: новый мотор на 120 сил, «автомат», климат-контроль и дистанционный автозапуск - iXBT.com",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORUNOMW5HODItc2xqYzZWZWx2Qm5VdENXcUVwUER0YkJDU29vd0JlVkNMVjZNZ1o3Uk4tVVk3UHVIMjFLaDZsaVdQbEsxbnhMbk1SOUVha0tHaFdYOVd5YmRvQjY5cF9JRGdQTWxXZklhcmVoT0xzT0IwSFEtTXpCa2tHRDJlNGY2YTMxTm9IZ25FNnUtdGRkOXJ4WkpnTFA1NUxKcGhqUTB2YXhEU1ZtdnBzQTdFdVI5eXNteWtUWUhFbzVNWm1mWEVkVWtBSF9jZDBBZlhuTTlnMmdQU2E3MS00S0t4VElKVTdIOHY5VzRCM1nSAfgBQVVfeXFMTm1MY3FCZWFHWWVmRENtY0xtQXJ4WUlHRGtLbkp4UHNJSXdweW1SQ1U3bVl6bU92WjAzTUZZUXhJa1RFZHdFNnNIMGg5QkRJSFppb2dYNGRHRlNXLW5xdVZ5ek0yd3RCbFdiMy1HeHVJcUFTVkhuOGtVUHRXUW4wTzhZNkpTX0hjQkUxbFdIVWNoVVZsTi1BWUVlUHZyNC1hTzBmdGhWMElOeXg5S0hnRFIyQXFPQzhaMWNzVEtic0ZscmhObVU5XzVOQlhaVGJRcVhOSjRIUkNNUXQzNWJRMVhodkRKT0ctN0VpMlpvYUxOdi1rWnozUkU?oc=5",
-      "latestSourceName": "iXBT.com",
+      "latestPublishedAt": "Fri, 09 Oct 2026 07:42:00 GMT",
+      "latestTitle": "Lada Iskra с новым мотором и расширенным списком опций появится до конца года - Авто.ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmFFSThHNDBTWThoOEw0ck14a2M0aGFYTHNpYWpqTjZ2YnRoSE5hWEF2ZmhzVWxNa2Mwb2NUS0MtMW9GMHdrcmh6bjNyVTRCcm9qQkdkQXViTTNoTDhySGZoam9CYkV3SGtQdWFFdXhXd0VVSnRhSFVwT3ZHVm0xRHFfUlo0WDJGN25GVy00U1ZPcjVFS0JKYzc2SEVJUHVkVVNjY1F6ZFAyamIwQ0E?oc=5",
+      "latestSourceName": "Авто.ру",
       "sources": [
+        {
+          "title": "Lada Iskra с новым мотором и расширенным списком опций появится до конца года - Авто.ру",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmFFSThHNDBTWThoOEw0ck14a2M0aGFYTHNpYWpqTjZ2YnRoSE5hWEF2ZmhzVWxNa2Mwb2NUS0MtMW9GMHdrcmh6bjNyVTRCcm9qQkdkQXViTTNoTDhySGZoam9CYkV3SGtQdWFFdXhXd0VVSnRhSFVwT3ZHVm0xRHFfUlo0WDJGN25GVy00U1ZPcjVFS0JKYzc2SEVJUHVkVVNjY1F6ZFAyamIwQ0E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:42:00 GMT",
+          "sourceName": "Авто.ру"
+        },
+        {
+          "title": "Прайс-лист АВТОВАЗа: сколько стоят Granta, Vesta, Niva и Iskra без скидок - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbXZENVFLNjJOQ1phZmk4ZmJRdVpvLXdYcVhQMlFXYVlMRTN6OXdNVXFteTJKUXpJM0VXZ0prS21PaTYxbS1DOGlQX0VLa21vVmtEWmk3N3ZCdFNQU3RSWktNNzk0aXJQYU9fRjRJdDRtOVlQN1pUZy1MN09wVDJzZEFoTVZ1OXpzOXpXcF9Wdkl1YzVXdlhsQg?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 06:33:46 GMT",
+          "sourceName": "Новости Тольятти"
+        },
+        {
+          "title": "АвтоВАЗ начнёт продажи LADA Vesta и Iskra с новыми моторами и опциями в IV квартале 2026 года - Overclockers.ru",
+          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOF9BMGRMWmRVNzRndGZUdmVhOWRVdEMyWFA1M25jbUVCRlhzaDEzbXBneElUX3Y4WEVDZWJ1X0VxS3RhU00taGxlelFaR2NZdGNmcnhacGltNGNsalNVa0czWjNSbDR4Nmw2TU80dl9uUVpCS1lsU3ppV3RubEZ5bDBNYXA3cjZrdmNudTRlYTZCeTY5U1A2eWtaczV0eFNPdk1QVVRBWjBjeV9rWDhIV1pWNUhrdmY4NjlrbkJES2NBMTFhd3BSUDFmUGVwR3hlVTNMOGFQWklnTTNPZGtR0gHfAUFVX3lxTFA4X0EwZExaZFU3NGd0ZlR2ZWE5ZFV0QzJYUDUzbmNtRUJGWHNoMTNtcGd4SVRfdjhYRUNlYnVfRXFLdGFTTS1obGV6UVpHY1l0Y2ZyeFpwaW00Y2xqU1VrRzNaM1JsNHg2bDZNTzR2X25RWkJLWWxTemlXdG5sRnlsME1hcDdyNmt2Y251NGVhNkJ5NjlTUDZ5a1pzNXR4U092TVBVVEFaMGN5X2tYOEhXWlY1SGt2Zjg2OWtuQkRLY0ExMWF3cFJQMWZQZXBHeGVVM0w4YVBaSWdNM09ka1E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 05:09:00 GMT",
+          "sourceName": "Overclockers.ru"
+        },
         {
           "title": "Lada Iskra серьезно обновят до конца 2026 года: новый мотор на 120 сил, «автомат», климат-контроль и дистанционный автозапуск - iXBT.com",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORUNOMW5HODItc2xqYzZWZWx2Qm5VdENXcUVwUER0YkJDU29vd0JlVkNMVjZNZ1o3Uk4tVVk3UHVIMjFLaDZsaVdQbEsxbnhMbk1SOUVha0tHaFdYOVd5YmRvQjY5cF9JRGdQTWxXZklhcmVoT0xzT0IwSFEtTXpCa2tHRDJlNGY2YTMxTm9IZ25FNnUtdGRkOXJ4WkpnTFA1NUxKcGhqUTB2YXhEU1ZtdnBzQTdFdVI5eXNteWtUWUhFbzVNWm1mWEVkVWtBSF9jZDBBZlhuTTlnMmdQU2E3MS00S0t4VElKVTdIOHY5VzRCM1nSAfgBQVVfeXFMTm1MY3FCZWFHWWVmRENtY0xtQXJ4WUlHRGtLbkp4UHNJSXdweW1SQ1U3bVl6bU92WjAzTUZZUXhJa1RFZHdFNnNIMGg5QkRJSFppb2dYNGRHRlNXLW5xdVZ5ek0yd3RCbFdiMy1HeHVJcUFTVkhuOGtVUHRXUW4wTzhZNkpTX0hjQkUxbFdIVWNoVVZsTi1BWUVlUHZyNC1hTzBmdGhWMElOeXg5S0hnRFIyQXFPQzhaMWNzVEtic0ZscmhObVU5XzVOQlhaVGJRcVhOSjRIUkNNUXQzNWJRMVhodkRKT0ctN0VpMlpvYUxOdi1rWnozUkU?oc=5",
@@ -128,41 +146,29 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTVloNzlIcm0tQ09FOXFlQThCRzBlekk2NFl4bzJNRXAtdVBmcWhrd2hYMTg5SjVGdUdwRjk5YlJ5ZFlVWXdfX2doZEJZZ1JYLXZVblYwd0puWlRNWS1RUllCemM4SmVaTk1BcjZjM2ptZk92SUU5XzJpRExEMHAyRHpMVldfRU9DbzRUYUc5eUdSbGdzZXZIbTdxWXQ0TFNWN3dzZGZ3?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 17:27:04 GMT",
           "sourceName": "Южный автомобиль"
-        },
-        {
-          "title": "Новые моторы уже готовы, но достанутся не всем: что изменится в LADA Vesta и Iskra до конца года - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFhGbTloX29tRm9hWXNqOF9HckpEeTY3dnNlcFltQ0J3ejI5ZjVXNWdneU9qVmZYRU9EQ3BDUUl4MjhZR3U3b2d0bnByZlE5Rk5YaTdLOFhtX0d0dWp4YzhJc2VQbldUaVlNMWNZd0k2dGNzVjhMVjlvYW93RVlEbXRaekJjYlgyV1FqYlBBSUZDbVU?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 16:12:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "Что будет с Vesta и Iskra, когда они получат новые двигатели от кроссовера Azimut - REGIONS.ru",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQN3hPYi1wVkM4aHBpLVQ0TXFGWlhlaTNzWmppTkNnemVWQ1k4RUhoMGczMFlGaXNSbDhfbHNyazBNYlk0a3p5bmEtX2NSY3ZkOS0xQ1J6aEdqdFg0MDJoaWI0ZjRsMy1oMy1HLWVHMGtRRFM3VjV3d1JkeWRUMGFWOVJBM1ROX0IzV3M1bnJrczVmdFQ3V182SkRLUnpadmpaMkNPY0E4QWxlMTRjaDdWQg?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 14:23:00 GMT",
-          "sourceName": "REGIONS.ru"
-        },
-        {
-          "title": "Lada Vesta и Iskra получат «неубиваемые» моторы: раскрыта дата старта продаж - Первый Технический",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYWsxRFhWQ2ZvUE5YWDdPYWVLc3FpcDhwR3FRVlhHNGljYzJHRjJsT3ZxMHd0V2xyUjZTLUdIQzBtTUt1aVJFQkdKUjlZUnNxU2M2WF9ORmlZNmxFc1dDbFBhaHJ0SF9TTURlZjdBV0FQZjEyYzE5TmRhOVhMbURBVUc0YjNsZEUwb3dpTmZMYVdTVTVqWFBOeVZBbE9QbEE5VEpORzN6N3NSVmZVaWZN0gG0AUFVX3lxTFBPdUF3MEJpZmhIYmFpVVZYclc4SU5jQ2hBQTBESnprUFczczN0UEFweG5Ic1hreG9Ub2hLTTJvYnJibFJITlhxTGJzWVltVFJDUlEwUGlmb3RWMlFfcTlpNXN2TDRETmhRc0hLTVB0V0w4ajRJTmlZbHJmQjd3NWtyanAtZ25ZWm5ldHlHN0VxZWRPVFhEbXotSVZ3UjJ0UW1ncjRob0pTUnNVS0d4VERRSUw2Vw?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 12:23:50 GMT",
-          "sourceName": "Первый Технический"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
+      "latestPublishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
+      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
@@ -216,7 +222,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 10,
+      "sourceCount30d": 9,
       "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -372,9 +378,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajLSAVhBVV95cUxOdWxMSm9sMmRGZllCZ053UmxpTzVzSVNKbDVJQ2lWS1dlZGZRR3VucTZoNHBleUYtdVlMemJlLWV2MFl4Ujd5YTVxZnNpYTZVSUdwaWdSNmoy?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
+          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 14:55:18 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -453,17 +459,23 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 4,
-      "sourceCount7d": 1,
+      "sourceCount30d": 5,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
-      "latestSourceName": "Webiomed",
+      "latestPublishedAt": "Fri, 09 Oct 2026 04:10:12 GMT",
+      "latestTitle": "Карельского специалиста наградили за вклад в цифровое здравоохранение - Интернет-журнал",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSEt2aGpDTGlEeEJ1NjNqM2FvTW9NZUp0Q2tQbVR2UXhTeGszWHpZMzFRNXFNM3BsRVpmRUFCaFRmUzJndU5fRXRqN1NlemFMVEZtdjdHQ2ZTemVKdGVQQ1JYQ1QyenBmTTB4Nl84ZkhUT1RISGF3R2UxRzdTOEtpYzBOR2NEYlVWNlpEWlZaWVh0TzdIbjZ1YUU2Zy1wU1dVOXBVNWU2bmIzTXRfOFNURkxYcnNVOEU?oc=5",
+      "latestSourceName": "Интернет-журнал",
       "sources": [
+        {
+          "title": "Карельского специалиста наградили за вклад в цифровое здравоохранение - Интернет-журнал",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSEt2aGpDTGlEeEJ1NjNqM2FvTW9NZUp0Q2tQbVR2UXhTeGszWHpZMzFRNXFNM3BsRVpmRUFCaFRmUzJndU5fRXRqN1NlemFMVEZtdjdHQ2ZTemVKdGVQQ1JYQ1QyenBmTTB4Nl84ZkhUT1RISGF3R2UxRzdTOEtpYzBOR2NEYlVWNlpEWlZaWVh0TzdIbjZ1YUU2Zy1wU1dVOXBVNWU2bmIzTXRfOFNURkxYcnNVOEU?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 04:10:12 GMT",
+          "sourceName": "Интернет-журнал"
+        },
         {
           "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
@@ -844,17 +856,29 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 4,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
-      "latestTitle": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+      "latestPublishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
+      "latestTitle": "Компания Nestlé и НБА объявляют о партнерстве, направленном на распространение среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1VYanRNVzZtWGtMNHFjRWk3TDVPUHFkTXl5YjZmdTNhSVUySWJDSnZkTXU5VXhLWDB1ci1nT2xVbHZEanpTNTZNbDJJSFBHYmtKNXZjbHMxMFhPVkFXUFBrYTJ5am1SVFA3c0V0MTJkaVQzX3lWUnJIaTRxdnNVSjVCYmhydzVMWkI0cEcyRDA1b1ZTRWdleUZ5bHE0cW5xZFVHdmt0UzJCTXdrQURB?oc=5",
       "latestSourceName": "Vietnam.vn",
       "sources": [
+        {
+          "title": "Компания Nestlé и НБА объявляют о партнерстве, направленном на распространение среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1VYanRNVzZtWGtMNHFjRWk3TDVPUHFkTXl5YjZmdTNhSVUySWJDSnZkTXU5VXhLWDB1ci1nT2xVbHZEanpTNTZNbDJJSFBHYmtKNXZjbHMxMFhPVkFXUFBrYTJ5am1SVFA3c0V0MTJkaVQzX3lWUnJIaTRxdnNVSjVCYmhydzVMWkI0cEcyRDA1b1ZTRWdleUZ5bHE0cW5xZFVHdmt0UzJCTXdrQURB?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
+          "sourceName": "Vietnam.vn"
+        },
         {
           "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
@@ -873,7 +897,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 10,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1008,17 +1032,24 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
+      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
+      "latestSourceName": "CNews.ru",
+      "sources": [
+        {
+          "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
+          "sourceName": "CNews.ru"
+        }
+      ]
     },
     "readabee": {
       "companyId": "readabee",
@@ -1226,17 +1257,24 @@ export const liveMarketSnapshot = {
     "wunjo": {
       "companyId": "wunjo",
       "companyName": "Wunjo",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 09 Oct 2026 08:30:56 GMT",
+      "latestTitle": "Вайбкодим плагины для open-source видеоредактора - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VS0wwQ1lna05fbEJSZkRMYWZ0SzBMWTk2OS1QMU1WTGhfaXN1bFItaHJrVVNWS1VoQkhDUXdIMmZ3Y3Zjajlzb1NxME9aY0dqVTVjM2g1eXHSAVhBVV95cUxOVUtMMENZZ2tOX2xCUmZETGFmdEswTFk5NjktUDFNVkxoX2lzdWxSLWhya1VTVktVaEJIQ1F3SDJmd2N2Y2o5c29TcTBPWmNHalU1YzNoNXlx?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Вайбкодим плагины для open-source видеоредактора - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5VS0wwQ1lna05fbEJSZkRMYWZ0SzBMWTk2OS1QMU1WTGhfaXN1bFItaHJrVVNWS1VoQkhDUXdIMmZ3Y3Zjajlzb1NxME9aY0dqVTVjM2g1eXHSAVhBVV95cUxOVUtMMENZZ2tOX2xCUmZETGFmdEswTFk5NjktUDFNVkxoX2lzdWxSLWhya1VTVktVaEJIQ1F3SDJmd2N2Y2o5c29TcTBPWmNHalU1YzNoNXlx?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 08:30:56 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "wwchat": {
       "companyId": "wwchat",
@@ -1361,7 +1399,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 9,
-      "sourceCount7d": 4,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1384,6 +1422,12 @@ export const liveMarketSnapshot = {
           "sourceName": "dp.ru"
         },
         {
+          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 20:32:36 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
           "title": "Валентина Матвиенко выступила в ходе второй Международной конференции «Всеобщий охват услугами здравоохранения и цели устойчивого развития - Совет Федерации Федерального Собрания Российской Федерации",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
           "publishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
@@ -1394,12 +1438,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
           "sourceName": "Life.ru"
-        },
-        {
-          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
-          "publishedAt": "Sat, 26 Sep 2026 07:46:06 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
