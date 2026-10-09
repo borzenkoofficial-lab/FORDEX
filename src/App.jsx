@@ -149,7 +149,8 @@ function useSeoMetadata(route) {
 
     document.title = title;
     setMeta('name', 'description', description);
-    setMeta('name', 'robots', fallback.noindex || route.startsWith('research-') ? 'noindex, nofollow' : 'index, follow');
+    const isUnknownRoute = !SEO_PAGES[route] && !article && !route.startsWith('research-');
+    setMeta('name', 'robots', fallback.noindex || route.startsWith('research-') || isUnknownRoute ? 'noindex, nofollow' : 'index, follow');
     setMeta('property', 'og:type', article ? 'article' : 'website');
     setMeta('property', 'og:site_name', 'FORDEX');
     setMeta('property', 'og:locale', 'ru_RU');
@@ -225,7 +226,19 @@ function useRoute() {
 }
 
 function ButtonLink({ children, route, className = '' }) {
-  return <button className={className} onClick={() => goto(route)} type="button">{children}</button>;
+  return (
+    <a
+      className={className}
+      href={routeToPath(route)}
+      onClick={(event) => {
+        if (event.defaultPrevented || event.button !== 0 || event.metaKey || event.ctrlKey || event.shiftKey || event.altKey) return;
+        event.preventDefault();
+        goto(route);
+      }}
+    >
+      {children}
+    </a>
+  );
 }
 
 function isWatched(item, watchlist) {
