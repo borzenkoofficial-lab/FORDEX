@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-08T20:17:55.759Z",
+  "generatedAt": "2026-10-09T00:44:38.032Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,22 +112,28 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 16:12:00 GMT",
-      "latestTitle": "Новые моторы уже готовы, но достанутся не всем: что изменится в LADA Vesta и Iskra до конца года - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFhGbTloX29tRm9hWXNqOF9HckpEeTY3dnNlcFltQ0J3ejI5ZjVXNWdneU9qVmZYRU9EQ3BDUUl4MjhZR3U3b2d0bnByZlE5Rk5YaTdLOFhtX0d0dWp4YzhJc2VQbldUaVlNMWNZd0k2dGNzVjhMVjlvYW93RVlEbXRaekJjYlgyV1FqYlBBSUZDbVU?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Thu, 08 Oct 2026 22:16:21 GMT",
+      "latestTitle": "Lada Iskra серьезно обновят до конца 2026 года: новый мотор на 120 сил, «автомат», климат-контроль и дистанционный автозапуск - iXBT.com",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORUNOMW5HODItc2xqYzZWZWx2Qm5VdENXcUVwUER0YkJDU29vd0JlVkNMVjZNZ1o3Uk4tVVk3UHVIMjFLaDZsaVdQbEsxbnhMbk1SOUVha0tHaFdYOVd5YmRvQjY5cF9JRGdQTWxXZklhcmVoT0xzT0IwSFEtTXpCa2tHRDJlNGY2YTMxTm9IZ25FNnUtdGRkOXJ4WkpnTFA1NUxKcGhqUTB2YXhEU1ZtdnBzQTdFdVI5eXNteWtUWUhFbzVNWm1mWEVkVWtBSF9jZDBBZlhuTTlnMmdQU2E3MS00S0t4VElKVTdIOHY5VzRCM1nSAfgBQVVfeXFMTm1MY3FCZWFHWWVmRENtY0xtQXJ4WUlHRGtLbkp4UHNJSXdweW1SQ1U3bVl6bU92WjAzTUZZUXhJa1RFZHdFNnNIMGg5QkRJSFppb2dYNGRHRlNXLW5xdVZ5ek0yd3RCbFdiMy1HeHVJcUFTVkhuOGtVUHRXUW4wTzhZNkpTX0hjQkUxbFdIVWNoVVZsTi1BWUVlUHZyNC1hTzBmdGhWMElOeXg5S0hnRFIyQXFPQzhaMWNzVEtic0ZscmhObVU5XzVOQlhaVGJRcVhOSjRIUkNNUXQzNWJRMVhodkRKT0ctN0VpMlpvYUxOdi1rWnozUkU?oc=5",
+      "latestSourceName": "iXBT.com",
       "sources": [
+        {
+          "title": "Lada Iskra серьезно обновят до конца 2026 года: новый мотор на 120 сил, «автомат», климат-контроль и дистанционный автозапуск - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORUNOMW5HODItc2xqYzZWZWx2Qm5VdENXcUVwUER0YkJDU29vd0JlVkNMVjZNZ1o3Uk4tVVk3UHVIMjFLaDZsaVdQbEsxbnhMbk1SOUVha0tHaFdYOVd5YmRvQjY5cF9JRGdQTWxXZklhcmVoT0xzT0IwSFEtTXpCa2tHRDJlNGY2YTMxTm9IZ25FNnUtdGRkOXJ4WkpnTFA1NUxKcGhqUTB2YXhEU1ZtdnBzQTdFdVI5eXNteWtUWUhFbzVNWm1mWEVkVWtBSF9jZDBBZlhuTTlnMmdQU2E3MS00S0t4VElKVTdIOHY5VzRCM1nSAfgBQVVfeXFMTm1MY3FCZWFHWWVmRENtY0xtQXJ4WUlHRGtLbkp4UHNJSXdweW1SQ1U3bVl6bU92WjAzTUZZUXhJa1RFZHdFNnNIMGg5QkRJSFppb2dYNGRHRlNXLW5xdVZ5ek0yd3RCbFdiMy1HeHVJcUFTVkhuOGtVUHRXUW4wTzhZNkpTX0hjQkUxbFdIVWNoVVZsTi1BWUVlUHZyNC1hTzBmdGhWMElOeXg5S0hnRFIyQXFPQzhaMWNzVEtic0ZscmhObVU5XzVOQlhaVGJRcVhOSjRIUkNNUXQzNWJRMVhodkRKT0ctN0VpMlpvYUxOdi1rWnozUkU?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 22:16:21 GMT",
+          "sourceName": "iXBT.com"
+        },
+        {
+          "title": "Новые Lada Vesta и Iskra выйдут до конца 2026 года: Vesta получит 1.8, а Iskra — новый 1.6 на 120 л.с. - Южный автомобиль",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTVloNzlIcm0tQ09FOXFlQThCRzBlekk2NFl4bzJNRXAtdVBmcWhrd2hYMTg5SjVGdUdwRjk5YlJ5ZFlVWXdfX2doZEJZZ1JYLXZVblYwd0puWlRNWS1RUllCemM4SmVaTk1BcjZjM2ptZk92SUU5XzJpRExEMHAyRHpMVldfRU9DbzRUYUc5eUdSbGdzZXZIbTdxWXQ0TFNWN3dzZGZ3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 17:27:04 GMT",
+          "sourceName": "Южный автомобиль"
+        },
         {
           "title": "Новые моторы уже готовы, но достанутся не всем: что изменится в LADA Vesta и Iskra до конца года - Правда.Ру",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZFhGbTloX29tRm9hWXNqOF9HckpEeTY3dnNlcFltQ0J3ejI5ZjVXNWdneU9qVmZYRU9EQ3BDUUl4MjhZR3U3b2d0bnByZlE5Rk5YaTdLOFhtX0d0dWp4YzhJc2VQbldUaVlNMWNZd0k2dGNzVjhMVjlvYW93RVlEbXRaekJjYlgyV1FqYlBBSUZDbVU?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 16:12:00 GMT",
           "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "Новые Lada Vesta и Iskra выйдут до конца 2026 года: Vesta получит 1.8, а Iskra — новый 1.6 на 120 л.с. - Южный автомобиль",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTVloNzlIcm0tQ09FOXFlQThCRzBlekk2NFl4bzJNRXAtdVBmcWhrd2hYMTg5SjVGdUdwRjk5YlJ5ZFlVWXdfX2doZEJZZ1JYLXZVblYwd0puWlRNWS1RUllCemM4SmVaTk1BcjZjM2ptZk92SUU5XzJpRExEMHAyRHpMVldfRU9DbzRUYUc5eUdSbGdzZXZIbTdxWXQ0TFNWN3dzZGZ3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 14:56:26 GMT",
-          "sourceName": "Южный автомобиль"
         },
         {
           "title": "Что будет с Vesta и Iskra, когда они получат новые двигатели от кроссовера Azimut - REGIONS.ru",
@@ -136,16 +142,10 @@ export const liveMarketSnapshot = {
           "sourceName": "REGIONS.ru"
         },
         {
-          "title": "АвтоВАЗ начнёт продажи обновлённых Lada Vesta и Iskra до конца года. Они станут мощнее - av.by",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1NODZPM3gyTEhvRmFRd3ZjcmpzcWlyVlpkZTlZRnY3RjVqdzV5dEZVOUdtdVBja3o0X0NCMEhQNy1tTUpiZmF0VVRFLW9DUWIyX0xkTzNFMXJ3S1dMOXpQSkhibzhyYlh0VERkWDJ0cWI0LUM5bUE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 13:00:00 GMT",
-          "sourceName": "av.by"
-        },
-        {
-          "title": "Lada Vesta и Iskra получат «неубиваемые» моторы: раскрыта дата старта продаж - Первый технический",
+          "title": "Lada Vesta и Iskra получат «неубиваемые» моторы: раскрыта дата старта продаж - Первый Технический",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNYWsxRFhWQ2ZvUE5YWDdPYWVLc3FpcDhwR3FRVlhHNGljYzJHRjJsT3ZxMHd0V2xyUjZTLUdIQzBtTUt1aVJFQkdKUjlZUnNxU2M2WF9ORmlZNmxFc1dDbFBhaHJ0SF9TTURlZjdBV0FQZjEyYzE5TmRhOVhMbURBVUc0YjNsZEUwb3dpTmZMYVdTVTVqWFBOeVZBbE9QbEE5VEpORzN6N3NSVmZVaWZN0gG0AUFVX3lxTFBPdUF3MEJpZmhIYmFpVVZYclc4SU5jQ2hBQTBESnprUFczczN0UEFweG5Ic1hreG9Ub2hLTTJvYnJibFJITlhxTGJzWVltVFJDUlEwUGlmb3RWMlFfcTlpNXN2TDRETmhRc0hLTVB0V0w4ajRJTmlZbHJmQjd3NWtyanAtZ25ZWm5ldHlHN0VxZWRPVFhEbXotSVZ3UjJ0UW1ncjRob0pTUnNVS0d4VERRSUw2Vw?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 12:23:50 GMT",
-          "sourceName": "Первый технический"
+          "sourceName": "Первый Технический"
         }
       ]
     },
@@ -216,7 +216,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 9,
+      "sourceCount30d": 10,
       "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -367,14 +367,14 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajLSAVhBVV95cUxOdWxMSm9sMmRGZllCZ053UmxpTzVzSVNKbDVJQ2lWS1dlZGZRR3VucTZoNHBleUYtdVlMemJlLWV2MFl4Ujd5YTVxZnNpYTZVSUdwaWdSNmoy?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
           "sourceName": "Хабр"
         },
         {
-          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 14:55:18 GMT",
+          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajLSAVhBVV95cUxOdWxMSm9sMmRGZllCZ053UmxpTzVzSVNKbDVJQ2lWS1dlZGZRR3VucTZoNHBleUYtdVlMemJlLWV2MFl4Ujd5YTVxZnNpYTZVSUdwaWdSNmoy?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -461,12 +461,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 0,
       "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
       "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YSW5KSGdvTkpiWDRFM2lRNW1pY2k2M1ZTbzlhV3FJVXQ2YUVhU3ZuQ3lkOFJRcm4yQlBQVExBd1lOR01uRlRnRU5RX2dMVnAxcWI2SkdacUpobUZZTVJuRWkyQ2R4UGxjRnlXU2xDUURfblRYU2VTQXIxTQ?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
         {
           "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1YSW5KSGdvTkpiWDRFM2lRNW1pY2k2M1ZTbzlhV3FJVXQ2YUVhU3ZuQ3lkOFJRcm4yQlBQVExBd1lOR01uRlRnRU5RX2dMVnAxcWI2SkdacUpobUZZTVJuRWkyQ2R4UGxjRnlXU2xDUURfblRYU2VTQXIxTQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
           "sourceName": "Webiomed"
         },
@@ -872,7 +872,7 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 9,
+      "sourceCount30d": 10,
       "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1360,8 +1360,8 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
-      "sourceCount7d": 5,
+      "sourceCount30d": 9,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1390,16 +1390,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Совет Федерации Федерального Собрания Российской Федерации"
         },
         {
-          "title": "120 проектов и 90 % охвата: ИИ‑трансформация регионов от Сбера (5 октября 2026 г.) - M O N D I A R A",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE5Mb1BTVDZrbUhORU1INnVLdExWVkFBZnE1VjhrUXg0cWdZOHd6UF9MQlliNTJ3Z2p3VV9CQlZjZmVaUm5kVmx6clAwR1N5NVNxZDZUMWtyc1RFVVVRRnVCZkFR?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 09:51:06 GMT",
-          "sourceName": "M O N D I A R A"
-        },
-        {
           "title": "ВС РФ углубляют охват Доброполья и вплотную подходят к Белозерскому - Life.ru",
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
           "sourceName": "Life.ru"
+        },
+        {
+          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
+          "publishedAt": "Sat, 26 Sep 2026 07:46:06 GMT",
+          "sourceName": "Sostav.ru"
         }
       ]
     },
