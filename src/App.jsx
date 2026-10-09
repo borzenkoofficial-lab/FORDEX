@@ -1155,6 +1155,7 @@ function StartupDrawer({ startup, onClose, onCompare }) {
           {onCompare && <button type="button" className="drawer-compare" onClick={() => onCompare(startup)}>СРАВНИТЬ С ДРУГОЙ <ArrowRight size={13} /></button>}
           {startup.website && <a className="drawer-source" href={startup.website} target="_blank" rel="noreferrer">ОТКРЫТЬ КОМПАНИЮ <ExternalLink size={14} /></a>}
           <a className="drawer-source" href={startup.source} target="_blank" rel="noreferrer">СМОТРЕТЬ ДОКАЗАТЕЛЬСТВА <ExternalLink size={14} /></a>
+          {startup.fundingSource && startup.fundingSource !== startup.source && <a className="drawer-source" href={startup.fundingSource} target="_blank" rel="noreferrer">ИСТОЧНИК ФИНАНСИРОВАНИЯ <ExternalLink size={14} /></a>}
         </div>
       </aside>
     </div>
