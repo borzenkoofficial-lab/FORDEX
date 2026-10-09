@@ -26,7 +26,7 @@ npm run dev
 - `OPENAI_API_KEY` — ключ провайдера Astra/OpenAI, если он доступен.
 - `SITE_URL` — окончательный публичный origin, например `https://ваш-домен.example`. Значение должно быть абсолютным URL без пути, query и hash; сборка использует его для sitemap и robots.txt.
 
-Опциональные параметры модели: `FORDEX_ANYMODEL_BASE_URL`, `FORDEX_ANYMODEL_MODEL`, `FORDEX_ASTRA_BASE_URL`, `FORDEX_ASTRA_MODEL`, `FORDEX_AI_PROVIDER`.
+Опциональные параметры модели: `FORDEX_ANYMODEL_BASE_URL`, `FORDEX_ANYMODEL_MODEL`, `FORDEX_ASTRA_BASE_URL`, `FORDEX_ASTRA_MODEL`, `FORDEX_AI_PROVIDER`. Запрос к AI-провайдеру ограничен 25 секундами по умолчанию; `FORDEX_AI_PROVIDER_TIMEOUT_MS` можно увеличить до 60000 мс.
 
 Для подключения к AI Control Room вводится именно `FORDEX_ADMIN_TOKEN`, а не ключ модели. Токен сохраняется только в sessionStorage текущей вкладки. Ключ модели остаётся серверным либо вводится временно для отдельного теста после авторизации.
 
