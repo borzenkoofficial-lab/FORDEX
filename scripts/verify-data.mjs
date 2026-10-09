@@ -80,8 +80,25 @@ for (const deal of dealRegistry) {
     fail(deal.id + ': date must use year, month-year, or day-month-year precision');
   }
   if (!deal.lead) fail(deal.id + ': investor/lead attribution missing');
-  if (!Number.isFinite(Number(deal.valueM)) || Number(deal.valueM) <= 0) {
-    fail(deal.id + ': numeric deal value missing or invalid');
+  const hasExactValue = deal.valueM != null;
+  const hasCapValue = deal.valueCapM != null;
+  if (hasExactValue && (!Number.isFinite(Number(deal.valueM)) || Number(deal.valueM) <= 0)) {
+    fail(deal.id + ': exact numeric deal value is invalid');
+  }
+  if (hasCapValue && (!Number.isFinite(Number(deal.valueCapM)) || Number(deal.valueCapM) <= 0)) {
+    fail(deal.id + ': numeric deal value cap is invalid');
+  }
+  if (!hasExactValue && !hasCapValue) {
+    fail(deal.id + ': exact deal value or explicit value cap is required');
+  }
+  if (hasExactValue && hasCapValue) {
+    fail(deal.id + ': exact deal value and value cap must not be set together');
+  }
+  if (hasCapValue && !/^(?:ДО\\b|UP TO\\b)/i.test(String(deal.value || ''))) {
+    fail(deal.id + ': upper-bound numeric value must be labelled as a cap');
+  }
+  if (/^(?:ДО\\b|UP TO\\b)/i.test(String(deal.value || '')) && hasExactValue) {
+    fail(deal.id + ': upper-bound amount must not be counted as exact disclosed capital');
   }
 }
 
