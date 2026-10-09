@@ -618,7 +618,7 @@ footer .logo{color:#fff}
 .news-item-meta span{color:#55534f}
 .news-item-meta b{color:#111}
 .news-item-meta small{color:#8a8882}
-.news-item-title{
+ .news-item-title{
   display:block;
   text-align:left;
   padding:0;
@@ -661,7 +661,7 @@ footer .logo{color:#fff}
 .article-body{background:var(--fx-paper)}
 .article-source{border-top-color:#111}
 .article-source>a{border-bottom-color:#111}
-.article-aside button:hover{background:#e9e8e3}
+.article-aside button:hover,.article-aside a:hover{background:#e9e8e3}
 .research-facts{background:transparent}
 
 /* Final responsive rhythm */
