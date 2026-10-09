@@ -19,7 +19,8 @@
     "dev:client": "vite",
     "verify:proposal-gate": "node scripts/verify-proposal-gate.mjs",
     "verify:security": "node scripts/verify-security.mjs",
-    "verify:seo": "node scripts/verify-seo.mjs"
+    "verify:seo": "node scripts/verify-seo.mjs",
+    "verify:seo:output": "node scripts/verify-seo-output.mjs"
   },
   "dependencies": {
     "@vitejs/plugin-react": "latest",
