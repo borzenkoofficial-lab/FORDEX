@@ -24,7 +24,7 @@ npm run dev
 - `FORDEX_ADMIN_TOKEN` — случайный секрет администратора, не короче 32 символов. Без него AI API закрыто по умолчанию.
 - `ANYMODEL_API_KEY` — ключ AnyModel, если используется этот провайдер.
 - `OPENAI_API_KEY` — ключ провайдера Astra/OpenAI, если он доступен.
-- `SITE_URL` — окончательный публичный origin, например `https://ваш-домен.example`. Значение должно быть абсолютным URL без пути, query и hash; сборка использует его для sitemap и robots.txt.
+- `SITE_URL` — окончательный публичный HTTPS origin фактического домена. Значение должно быть абсолютным URL без пути, query и hash; production-сборка отклоняет пустой адрес, HTTP, локальные адреса и зарезервированные placeholder-домены. Переменная используется для canonical, sitemap и robots.txt.
 
 Опциональные параметры модели: `FORDEX_ANYMODEL_BASE_URL`, `FORDEX_ANYMODEL_MODEL`, `FORDEX_ASTRA_BASE_URL`, `FORDEX_ASTRA_MODEL`, `FORDEX_AI_PROVIDER`. Запрос к AI-провайдеру ограничен 25 секундами по умолчанию; `FORDEX_AI_PROVIDER_TIMEOUT_MS` можно увеличить до 60000 мс.
 

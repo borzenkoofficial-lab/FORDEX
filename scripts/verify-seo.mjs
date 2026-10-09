@@ -31,11 +31,24 @@ assert.match(favicon, /<svg/, 'favicon SVG must exist');
 console.log('SEO verification passed: Russian metadata, canonical paths, structured data, sitemap generation, robots, favicon.');
 
 
-const productionGuard = spawnSync(process.execPath, ['scripts/generate-seo.mjs'], {
-  cwd: process.cwd(),
-  encoding: 'utf8',
-  env: { ...process.env, SITE_URL: '', VERCEL_ENV: 'production' },
-});
-assert.notEqual(productionGuard.status, 0, 'production build must fail when SITE_URL is missing');
-assert.match(productionGuard.stderr, /SITE_URL is required for a production deployment/, 'missing production SITE_URL must explain how to fix it');
-console.log('Production deployment guard verified: a missing SITE_URL cannot silently disable SEO output.');
+function runProductionSeoBuild(siteUrl) {
+  return spawnSync(process.execPath, ['scripts/generate-seo.mjs'], {
+    cwd: process.cwd(),
+    encoding: 'utf8',
+    env: { ...process.env, SITE_URL: siteUrl, VERCEL_ENV: 'production' },
+  });
+}
+
+const missingSiteUrl = runProductionSeoBuild('');
+assert.notEqual(missingSiteUrl.status, 0, 'production build must fail when SITE_URL is missing');
+assert.match(missingSiteUrl.stderr, /SITE_URL is required for a production deployment/, 'missing production SITE_URL must explain how to fix it');
+
+const placeholderSiteUrl = runProductionSeoBuild('https://fordex.example.invalid');
+assert.notEqual(placeholderSiteUrl.status, 0, 'production build must reject placeholder hostnames');
+assert.match(placeholderSiteUrl.stderr, /real public hostname, not a placeholder or local address/, 'placeholder hostname failure must be explicit');
+
+const insecureSiteUrl = runProductionSeoBuild('http://fordex.ai');
+assert.notEqual(insecureSiteUrl.status, 0, 'production build must reject non-HTTPS SITE_URL');
+assert.match(insecureSiteUrl.stderr, /SITE_URL must use HTTPS in a production deployment/, 'HTTPS failure must be explicit');
+
+console.log('Production SEO guard verified: missing, placeholder, and non-HTTPS SITE_URL values are rejected.');
