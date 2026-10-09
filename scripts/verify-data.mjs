@@ -94,10 +94,10 @@ for (const deal of dealRegistry) {
   if (hasExactValue && hasCapValue) {
     fail(deal.id + ': exact deal value and value cap must not be set together');
   }
-  if (hasCapValue && !/^(?:ДО\\b|UP TO\\b)/i.test(String(deal.value || ''))) {
+  if (hasCapValue && !/^(?:ДО\b|UP TO\b)/i.test(String(deal.value || ''))) {
     fail(deal.id + ': upper-bound numeric value must be labelled as a cap');
   }
-  if (/^(?:ДО\\b|UP TO\\b)/i.test(String(deal.value || '')) && hasExactValue) {
+  if (/^(?:ДО\b|UP TO\b)/i.test(String(deal.value || '')) && hasExactValue) {
     fail(deal.id + ': upper-bound amount must not be counted as exact disclosed capital');
   }
 }
