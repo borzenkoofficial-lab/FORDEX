@@ -65,6 +65,10 @@ function setStructuredData(html, schema) {
 }
 
 const siteUrl = normalizeSiteUrl(configuredUrl);
+if (!siteUrl && process.env.VERCEL_ENV === 'production') {
+  throw new Error('[seo] SITE_URL is required for a production deployment. Set it to the final public HTTPS origin before building.');
+}
+
 const robotsLines = [
   'User-agent: *',
   'Allow: /',
