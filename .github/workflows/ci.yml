@@ -24,4 +24,6 @@ jobs:
       - run: npm run verify:runtime
       - run: npm run verify:live-market
       - run: npm run verify:ai-research
-      - run: npm run build
+      - run: npm run verify:security
+      - run: npm run verify:seo
+      - run: SITE_URL=https://fordex.example.invalid npm run build
