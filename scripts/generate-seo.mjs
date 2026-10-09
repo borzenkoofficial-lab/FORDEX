@@ -162,6 +162,47 @@ for (const route of routes) {
   pageSnapshots += 1;
 }
 
+function renderArticleMarkup(article) {
+  const position = editorialArticles.indexOf(article) + 1;
+  const dateLabel = htmlEscape(article.date || '');
+  const category = htmlEscape(article.category || 'AI Business');
+  const issue = article.issue ? htmlEscape(article.issue) + ' · ' : '';
+  const person = article.person ? ' · ' + htmlEscape(article.person) : '';
+  const title = htmlEscape(article.title);
+  const dek = htmlEscape(article.dek || '');
+  const image = article.media?.src
+    ? '<div class="article-hero-media"><img src="' + htmlEscape(article.media.src) + '" alt="' + htmlEscape(article.media.alt || article.title) + '" /></div>'
+    : '';
+  const builderCard = article.person
+    ? '<div class="article-source article-builder-card"><span>FORDEX BUILDER STORY · ' + htmlEscape(article.builderStatus || '') +
+      '</span><strong>' + htmlEscape(article.person) + ' · ' + htmlEscape(article.project || '') +
+      '</strong><p>' + htmlEscape(article.builderType || '') + '</p></div>'
+    : '';
+  const sections = (Array.isArray(article.sections) ? article.sections : []).map((section) =>
+    '<section class="article-section"><h2>' + htmlEscape(section.heading || '') + '</h2>' +
+    (Array.isArray(section.paragraphs) ? section.paragraphs : [])
+      .map((paragraph) => '<p>' + htmlEscape(paragraph) + '</p>').join('') +
+    '</section>'
+  ).join('');
+
+  return '<main class="inner-page article-page">' +
+    '<section class="article-hero' + (article.specialBuilderStory ? ' special-builder-hero' : '') + '">' +
+      '<div class="article-hero-top"><span>' + issue + category + ' · ' + dateLabel + ' · ' +
+        htmlEscape(article.readTime || '') + person + '</span>' +
+        '<a class="article-back" href="/news/">ВСЕ СТАТЬИ</a></div>' +
+      '<div class="article-hero-grid">' +
+        '<span class="article-number">' + String(position).padStart(2, '0') + '</span>' +
+        '<div><h1>' + title + '</h1><p>' + dek + '</p></div>' + image +
+      '</div>' +
+    '</section>' +
+    '<section class="article-body"><article class="article-main">' +
+      builderCard +
+      '<p class="article-lead">' + htmlEscape(article.lead || '') + '</p>' +
+      sections +
+    '</article></section>' +
+  '</main>';
+}
+
 let articlePagesWritten = 0;
 for (const article of uniqueArticles) {
   if (!/^[a-z0-9-]+$/i.test(article.id)) {
@@ -186,13 +227,18 @@ for (const article of uniqueArticles) {
   };
   const publishedAt = article.date ? Date.parse(article.date) : NaN;
   if (Number.isFinite(publishedAt)) schema.datePublished = new Date(publishedAt).toISOString();
-  const html = withPageMetadata(baseHtml, {
+  let html = withPageMetadata(baseHtml, {
     title,
     description,
     canonicalUrl,
     schema,
     type: 'article',
   });
+  const staticMarkup = renderArticleMarkup(article);
+  if (!html.includes('<div id="root"></div>')) {
+    throw new Error('VITE_ROOT_CONTAINER_NOT_FOUND: ' + article.id);
+  }
+  html = html.replace('<div id="root"></div>', '<div id="root">' + staticMarkup + '</div>');
 
   const articleDirectory = new URL('articles/' + slug + '/', outputDirectory);
   await mkdir(articleDirectory, { recursive: true });
