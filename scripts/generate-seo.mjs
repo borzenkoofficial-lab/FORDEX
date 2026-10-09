@@ -165,6 +165,19 @@ function renderRouteMarkup(route, allRoutes, articles) {
     featured = articles.slice(0, 5);
   }
 
+  const aboutSections = route.key === 'about'
+    ? [
+      '<section class="seo-static-section"><h2>Три слоя данных</h2><ul>',
+      '<li><strong>Публичный индекс.</strong> Компании, прошедшие отбор для сопоставимой оценки по модели FORDEX.</li>',
+      '<li><strong>Исследовательское покрытие.</strong> Молодые команды и проекты, которые исследуются, но не получают рейтинг автоматически.</li>',
+      '<li><strong>Внешние источники.</strong> Публикации и сторонние рейтинги остаются отдельными сигналами, а не оценками FORDEX.</li>',
+      '</ul></section>',
+      '<section class="seo-static-section"><h2>Как читать оценки</h2>',
+      '<p>Рейтинг рассчитывается по шести взвешенным сигналам, раскрытым в методологии. Балл нужен для сравнения внутри модели FORDEX; это не оценка бизнеса, не рыночная капитализация, не финансовый прогноз и не инвестиционная рекомендация.</p>',
+      '<p>Если публичная сумма финансирования не раскрыта, она не заменяется приблизительной оценкой. Сведения могут быть неполными или устаревать; отсутствие компании или показателя в индексе не доказывает отсутствия деятельности.</p></section>',
+    ].join('')
+    : '';
+
   const articleList = featured.length
     ? '<section class="seo-static-section"><h2>' +
       (route.key === 'founders' ? 'Builder Stories — люди и продукты' : route.key === 'news' ? 'Редакционные материалы FORDEX' : 'Последние редакционные сигналы') +
@@ -183,6 +196,7 @@ function renderRouteMarkup(route, allRoutes, articles) {
       (route.noindex ? 'ЗАКРЫТАЯ ЗОНА FORDEX' : 'FORDEX · ИНДЕКС AI-БИЗНЕСА РОССИИ') +
       '</p><h1>' + title + '</h1><p>' + description + '</p></header>' +
     (route.noindex ? '' : '<nav class="seo-static-nav" aria-label="Разделы FORDEX">' + navigation + '</nav>') +
+    (route.noindex ? '' : aboutSections) +
     (route.noindex ? '' : articleList) +
     '</main>';
 }
