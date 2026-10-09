@@ -1,23 +1,77 @@
 # FORDEX
 
-FORDEX is a premium editorial business index for the Russian AI economy.
+FORDEX — исследовательский индекс российского AI-бизнеса: компании, основатели, инвестиционные сделки, рейтинги, рыночные сигналы и редакционные материалы.
 
-## Current phase
+## Стек
 
-The project is being rebuilt from a clean repository. The visual direction is intentionally based on the supplied GAZU reference: the same composition, rhythm, typography scale, monochrome palette, hero treatment, category strip, editorial section, trust row and product-grid rhythm — reinterpreted only with FORDEX content.
+- React + Vite
+- Serverless API в каталоге `api/`
+- Node.js 22 для CI, сборки и исследовательских скриптов
 
-## Stack
-
-- React
-- Vite
-- CSS
-- Lucide React
-
-## Run
+## Локальный запуск
 
 ```bash
 npm install
 npm run dev
 ```
 
-The current implementation is frontend-first. Data infrastructure, search, rankings, companies, founders and deals will be connected after the visual system is locked.
+Локальный dev-скрипт запускает Vite и API. Для полного AI-сценария нужны секреты окружения, перечисленные ниже.
+
+## Обязательные переменные окружения
+
+Задайте их в секретах выбранного хостинга — никогда не в `VITE_*`, исходниках или публичных файлах.
+
+- `FORDEX_ADMIN_TOKEN` — случайный секрет администратора, не короче 32 символов. Без него AI API закрыто по умолчанию.
+- `ANYMODEL_API_KEY` — ключ AnyModel, если используется этот провайдер.
+- `OPENAI_API_KEY` — ключ провайдера Astra/OpenAI, если он доступен.
+- `SITE_URL` — окончательный публичный origin, например `https://ваш-домен.example`. Значение должно быть абсолютным URL без пути, query и hash; сборка использует его для sitemap и robots.txt.
+
+Опциональные параметры модели: `FORDEX_ANYMODEL_BASE_URL`, `FORDEX_ANYMODEL_MODEL`, `FORDEX_ASTRA_BASE_URL`, `FORDEX_ASTRA_MODEL`, `FORDEX_AI_PROVIDER`.
+
+Для подключения к AI Control Room вводится именно `FORDEX_ADMIN_TOKEN`, а не ключ модели. Токен сохраняется только в sessionStorage текущей вкладки. Ключ модели остаётся серверным либо вводится временно для отдельного теста после авторизации.
+
+## Сборка и проверки
+
+```bash
+npm run verify:security
+npm run verify:seo
+npm run verify:ranking
+npm run verify:data
+npm run verify:agent
+npm run verify:ai-editor
+npm run verify:model
+npm run verify:proposal-gate
+npm run verify:runtime
+npm run verify:live-market
+npm run verify:ai-research
+npm run build
+```
+
+При сборке с заданным `SITE_URL` генерируются `dist/sitemap.xml` и `dist/robots.txt` с абсолютным адресом sitemap. Без `SITE_URL` сборка не падает, но sitemap намеренно не создаётся: не публикуйте сайт, пока не зададите фактический домен.
+
+## Деплой
+
+Репозиторий подготовлен под Vercel: `vercel.json` задаёт сборку Vite, маршрутизацию клиентских страниц, базовые security headers и отдачу API-обработчиков из `api/`.
+
+Перед публикацией:
+1. Создайте проект хостинга из репозитория и задайте переменные окружения.
+2. Задайте `SITE_URL` только после выбора реального домена.
+3. Убедитесь, что `FORDEX_ADMIN_TOKEN` случайный, длинный и отличается от ключей провайдера.
+4. Проверьте публичные страницы, прямое открытие статьи по адресу `/articles/<id>/`, sitemap и API.
+5. Подключите домен, проверьте HTTPS и только затем откройте публичный запуск.
+
+## Известные ограничения до полноценной редакционной эксплуатации
+
+- Каталоги, рейтинги и публикации в основном хранятся в файлах репозитория; это удобно для первой публичной версии, но требует редакционного процесса и обзора качества данных.
+- Черновики AI Control Room хранятся в браузере и не являются общим хранилищем редакции.
+- Текущий rate limiting работает в памяти экземпляра функции. Для масштабной публичной эксплуатации его следует дополнить лимитами на уровне платформы или общим хранилищем.
+- SEO-сборка генерирует уникальные HTML-заголовки/метаданные, canonical, JSON-LD и sitemap. Содержимое статей включено в первоначальный HTML для поисковых роботов и пользователей без JavaScript; при запуске приложения React пересобирает интерактивную страницу. Каталоги, рейтинги и рыночные разделы пока рендерятся на клиенте. Полноценная SSR/hydration-архитектура и автоматическая подача sitemap поисковым системам остаются отдельным этапом.
+
+## Что остаётся перед публичным запуском
+
+- Выбрать и подключить фактический домен, затем установить его точный origin в `SITE_URL` на хостинге и пересобрать production.
+- Сгенерировать уникальный `FORDEX_ADMIN_TOKEN` длиной минимум 32 символа; добавить его как secret на хостинге. Не переиспользовать ключ модели.
+- Добавить реальные ключи только тех AI-провайдеров, которые будут включены.
+- Проверить размещённый preview по прямым URL, отсутствие секретов в клиентских запросах, работу авторизации, HTTPS и заголовков CSP.
+- До открытия регистрации/редакционной работы определить юридического оператора проекта, контакт редакции и проверить применимые документы о персональных данных и правила использования контента.
+- Репозиторий пока не содержит `package-lock.json`; для воспроизводимых production-сборок нужен lockfile, созданный и проверенный на целевом Node.js runtime.

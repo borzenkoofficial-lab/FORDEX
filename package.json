@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "node scripts/dev.mjs",
-    "build": "vite build",
+    "build": "vite build && node scripts/generate-seo.mjs",
     "preview": "vite preview",
     "verify:ranking": "node scripts/verify-ranking.mjs",
     "verify:data": "node scripts/verify-data.mjs",
@@ -17,14 +17,20 @@
     "verify:live-market": "node scripts/verify-live-market.mjs",
     "verify:ai-research": "node scripts/verify-ai-research.mjs",
     "dev:client": "vite",
-    "verify:proposal-gate": "node scripts/verify-proposal-gate.mjs"
+    "verify:proposal-gate": "node scripts/verify-proposal-gate.mjs",
+    "verify:security": "node scripts/verify-security.mjs",
+    "verify:seo": "node scripts/verify-seo.mjs",
+    "verify:seo:output": "node scripts/verify-seo-output.mjs"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest"
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "lucide-react": "1.54.0"
   },
-  "devDependencies": {}
+  "devDependencies": {},
+  "engines": {
+    "node": ">=22.12.0"
+  }
 }

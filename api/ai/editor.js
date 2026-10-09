@@ -1,3 +1,5 @@
+import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../../src/server/adminAuth.js';
+
 const PROVIDERS = Object.freeze({
   anymodel: {
     baseUrl: process.env.FORDEX_ANYMODEL_BASE_URL || 'https://anymodel.org/v1',
@@ -48,6 +50,12 @@ function extractOutputText(data) {
 }
 
 export default async function handler(req, res) {
+  if (!['GET', 'POST'].includes(req.method)) {
+    res.setHeader('Allow', 'GET, POST');
+    return json(res, 405, { error: 'METHOD_NOT_ALLOWED' });
+  }
+  if (!authorizeAdmin(req, res)) return;
+
   if (req.method === 'GET') {
     const providers = Object.entries(PROVIDERS).map(([name, config]) => ({
       provider: name,
@@ -62,15 +70,14 @@ export default async function handler(req, res) {
     });
   }
 
-  if (req.method !== 'POST') {
-    res.setHeader('Allow', 'GET, POST');
-    return json(res, 405, { error: 'METHOD_NOT_ALLOWED' });
-  }
+  if (!enforceRateLimit(req, res, { scope: 'ai-editor', limit: 30, windowMs: 10 * 60 * 1000 })) return;
+  if (!enforceBodySize(req, res, 80 * 1024)) return;
 
   try {
     const body = req.body && typeof req.body === 'object' ? req.body : {};
     const objective = String(body.objective || '').trim();
     if (!objective) return json(res, 400, { error: 'MODEL_OBJECTIVE_REQUIRED' });
+    if (objective.length > 1200) return json(res, 413, { error: 'MODEL_OBJECTIVE_TOO_LONG' });
 
     const testKey = req.headers?.['x-fordex-test-key'] || '';
     const provider = getProvider(body.provider, testKey);

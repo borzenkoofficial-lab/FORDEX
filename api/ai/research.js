@@ -1,4 +1,5 @@
 import { emergingStartups } from '../../src/data/emergingStartups.js';
+import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../../src/server/adminAuth.js';
 
 const MAX_ITEMS = 12;
 const MAX_RESEARCH_CANDIDATES = 8;
@@ -86,6 +87,12 @@ async function search(query) {
 }
 
 export default async function handler(req, res) {
+  if (!['GET', 'POST'].includes(req.method)) {
+    res.setHeader('Allow', 'GET, POST');
+    return json(res, 405, { error: 'METHOD_NOT_ALLOWED' });
+  }
+  if (!authorizeAdmin(req, res)) return;
+
   if (req.method === 'GET') {
     return json(res, 200, {
       status: 'READY',
@@ -95,10 +102,8 @@ export default async function handler(req, res) {
     });
   }
 
-  if (req.method !== 'POST') {
-    res.setHeader('Allow', 'GET, POST');
-    return json(res, 405, { error: 'METHOD_NOT_ALLOWED' });
-  }
+  if (!enforceRateLimit(req, res, { scope: 'ai-research', limit: 12, windowMs: 10 * 60 * 1000 })) return;
+  if (!enforceBodySize(req, res, 12 * 1024)) return;
 
   try {
     const body = req.body && typeof req.body === 'object' ? req.body : {};
@@ -110,6 +115,8 @@ export default async function handler(req, res) {
       return json(res, 400, { error: 'RESEARCH_QUERY_REQUIRED' });
     }
 
+    if (objective.length > 1000) return json(res, 413, { error: 'RESEARCH_OBJECTIVE_TOO_LONG' });
+    if (company?.name && String(company.name).length > 180) return json(res, 413, { error: 'COMPANY_NAME_TOO_LONG' });
     const normalizedObjective = objective.replace(/\s+/g, ' ').slice(0, 220);
     const registryCandidates = emergingStartups
       .filter((item) => item.kind === 'EMERGING STARTUP')
