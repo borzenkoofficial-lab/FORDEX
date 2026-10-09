@@ -17,6 +17,8 @@ function assertHttpUrl(value, label) {
   if (!['http:', 'https:'].includes(url.protocol)) fail(label + ': source must use HTTP(S)');
 }
 
+const quantitativeTractionPattern = /\b\d[\d\s,.]*\+?\s*(?:%|₽|руб(?:лей|ля|ль)?|млрд|млн|тыс(?:\.|яч)?|пользоват|плательщик|MRR|ARR|клиент|сотрудник|проект|продукт|договор|заказ|клиник|раунд|финансирован|активн|скачиван|транзакц|соединен|публикац)/i;
+
 for (const record of startupRankings) {
   if (!record.name || !record.source) fail((record.id || 'unknown') + ': company name or primary source missing');
   assertHttpUrl(record.source, record.id + ' primary source');
@@ -31,6 +33,23 @@ for (const record of startupRankings) {
     if (!record.fundingSource) fail(record.id + ': exact funding requires a dedicated fundingSource');
   }
   if (record.fundingSource) assertHttpUrl(record.fundingSource, record.id + ' funding source');
+
+  if (quantitativeTractionPattern.test(String(record.traction || ''))) {
+    if (!record.tractionSource) {
+      fail(record.id + ': quantitative traction claims require a dedicated tractionSource');
+    }
+    assertHttpUrl(record.tractionSource, record.id + ' traction source');
+    if (record.website) {
+      const tractionUrl = new URL(record.tractionSource).href.replace(/\/$/, '');
+      const websiteUrl = new URL(record.website).href.replace(/\/$/, '');
+      if (tractionUrl === websiteUrl) {
+        fail(record.id + ': quantitative traction claims must not rely only on the company homepage');
+      }
+    }
+  } else if (record.tractionSource) {
+    assertHttpUrl(record.tractionSource, record.id + ' traction source');
+  }
+
   if (/^(?:ДО\b|UP TO\b)/i.test(String(record.funding || '')) && record.fundingM != null) {
     fail(record.id + ': a funding ceiling must not be scored as an exact funding amount');
   }
