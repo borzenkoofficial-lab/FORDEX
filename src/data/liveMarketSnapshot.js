@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-09T09:42:36.234Z",
+  "generatedAt": "2026-10-09T17:36:34.308Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,47 +112,47 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 07:42:00 GMT",
-      "latestTitle": "Lada Iskra с новым мотором и расширенным списком опций появится до конца года - Авто.ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmFFSThHNDBTWThoOEw0ck14a2M0aGFYTHNpYWpqTjZ2YnRoSE5hWEF2ZmhzVWxNa2Mwb2NUS0MtMW9GMHdrcmh6bjNyVTRCcm9qQkdkQXViTTNoTDhySGZoam9CYkV3SGtQdWFFdXhXd0VVSnRhSFVwT3ZHVm0xRHFfUlo0WDJGN25GVy00U1ZPcjVFS0JKYzc2SEVJUHVkVVNjY1F6ZFAyamIwQ0E?oc=5",
-      "latestSourceName": "Авто.ру",
+      "latestPublishedAt": "Fri, 09 Oct 2026 16:55:32 GMT",
+      "latestTitle": "Стало известно, когда стартуют продажи Lada Vesta и Iskra c новыми моторами - За рулем",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iQnN0MW05VFFoQ1ZtMC1mSnRXX1RQN0FiRUpfS0dxZmpPamMxemMxMHgxZFR3cUxLaUgtTGY0eHZleWIxN0huTUctVldXb2VfQ1MtQjAtUHVscThJOE1uZ1lzbXVTdEJWMGxEYzlxMDMycWxaWm5LOWo4Z9IBgAFBVV95cUxNVzZpRlB6am9SbWJveWF4aFlXMUlMVjRXRHpwUy1ub3U3NjFYY3BWcm5MSWlsbHBBbzhaOGdfWkZ3YmZFLVhXdmpUV2gtOXREN3NDSzlXbmNteE1aODFMX0lfOEZBTlpwdzVHWDZCeGJoUlJwN2ZVNHFLbTNlbzRoQw?oc=5",
+      "latestSourceName": "За рулем",
       "sources": [
         {
-          "title": "Lada Iskra с новым мотором и расширенным списком опций появится до конца года - Авто.ру",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmFFSThHNDBTWThoOEw0ck14a2M0aGFYTHNpYWpqTjZ2YnRoSE5hWEF2ZmhzVWxNa2Mwb2NUS0MtMW9GMHdrcmh6bjNyVTRCcm9qQkdkQXViTTNoTDhySGZoam9CYkV3SGtQdWFFdXhXd0VVSnRhSFVwT3ZHVm0xRHFfUlo0WDJGN25GVy00U1ZPcjVFS0JKYzc2SEVJUHVkVVNjY1F6ZFAyamIwQ0E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:42:00 GMT",
-          "sourceName": "Авто.ру"
+          "title": "Стало известно, когда стартуют продажи Lada Vesta и Iskra c новыми моторами - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iQnN0MW05VFFoQ1ZtMC1mSnRXX1RQN0FiRUpfS0dxZmpPamMxemMxMHgxZFR3cUxLaUgtTGY0eHZleWIxN0huTUctVldXb2VfQ1MtQjAtUHVscThJOE1uZ1lzbXVTdEJWMGxEYzlxMDMycWxaWm5LOWo4Z9IBgAFBVV95cUxNVzZpRlB6am9SbWJveWF4aFlXMUlMVjRXRHpwUy1ub3U3NjFYY3BWcm5MSWlsbHBBbzhaOGdfWkZ3YmZFLVhXdmpUV2gtOXREN3NDSzlXbmNteE1aODFMX0lfOEZBTlpwdzVHWDZCeGJoUlJwN2ZVNHFLbTNlbzRoQw?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 16:55:32 GMT",
+          "sourceName": "За рулем"
         },
         {
-          "title": "Прайс-лист АВТОВАЗа: сколько стоят Granta, Vesta, Niva и Iskra без скидок - Новости Тольятти",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNbXZENVFLNjJOQ1phZmk4ZmJRdVpvLXdYcVhQMlFXYVlMRTN6OXdNVXFteTJKUXpJM0VXZ0prS21PaTYxbS1DOGlQX0VLa21vVmtEWmk3N3ZCdFNQU3RSWktNNzk0aXJQYU9fRjRJdDRtOVlQN1pUZy1MN09wVDJzZEFoTVZ1OXpzOXpXcF9Wdkl1YzVXdlhsQg?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 06:33:46 GMT",
-          "sourceName": "Новости Тольятти"
+          "title": "AvtoVAZ представит обновленную Lada Iskra с новым 1,6-литровым двигателем в IV квартале 2026 года - Gosrf.ru",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYU9CT3QtZHp3X0Z2SkI5ZS14TF92TFl5VFhqWTVpeHZlMnlORFMwdEJlZmNUMXJmRlI0QmV5d0I3RGpWc01sWW9GTmkwUjNqbFFsMldIRzFEX2ltY3YwWDNqWUxib3hZWVl6SU9NcUJrVVpXZm5jTnh4elJrUThIZ2dmY0U4NEpxODJrdjRlTVVjcmNGcFNKelk1YVVyWnJVeGhoX2RIcHU0UGNUUWM0WTlIMjk4Ym5qdE1R?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 12:42:14 GMT",
+          "sourceName": "Gosrf.ru"
         },
         {
-          "title": "АвтоВАЗ начнёт продажи LADA Vesta и Iskra с новыми моторами и опциями в IV квартале 2026 года - Overclockers.ru",
-          "url": "https://news.google.com/rss/articles/CBMi3wFBVV95cUxQOF9BMGRMWmRVNzRndGZUdmVhOWRVdEMyWFA1M25jbUVCRlhzaDEzbXBneElUX3Y4WEVDZWJ1X0VxS3RhU00taGxlelFaR2NZdGNmcnhacGltNGNsalNVa0czWjNSbDR4Nmw2TU80dl9uUVpCS1lsU3ppV3RubEZ5bDBNYXA3cjZrdmNudTRlYTZCeTY5U1A2eWtaczV0eFNPdk1QVVRBWjBjeV9rWDhIV1pWNUhrdmY4NjlrbkJES2NBMTFhd3BSUDFmUGVwR3hlVTNMOGFQWklnTTNPZGtR0gHfAUFVX3lxTFA4X0EwZExaZFU3NGd0ZlR2ZWE5ZFV0QzJYUDUzbmNtRUJGWHNoMTNtcGd4SVRfdjhYRUNlYnVfRXFLdGFTTS1obGV6UVpHY1l0Y2ZyeFpwaW00Y2xqU1VrRzNaM1JsNHg2bDZNTzR2X25RWkJLWWxTemlXdG5sRnlsME1hcDdyNmt2Y251NGVhNkJ5NjlTUDZ5a1pzNXR4U092TVBVVEFaMGN5X2tYOEhXWlY1SGt2Zjg2OWtuQkRLY0ExMWF3cFJQMWZQZXBHeGVVM0w4YVBaSWdNM09ka1E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 05:09:00 GMT",
+          "title": "Обновлённые Lada Vesta и Lada Iskra поступят в продажу в конце 2026 года - rb.ru",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU3V3SzJZdGVwS21iTHpXYmQtYnpBRTBiazBObjZ2R0hmbDktaU9qSmxRSUIxNW1mWjJScmhkaHFYZ0NVNkF5UHpla3otWTA0NzBzVjRNMmRLc2VLdkF6djdNRlVuOFJvWmJXZTB0UldIaEhYLVBaRHl4d3NyalhQZUFHYmRoajNuOXA1NXIzRHFiNE9FTGNaMXJjRHY3VkJmNUtxZnRPTnFyb1ZDRWpZdzBOQUxSZjQ5anVkNXpNdU1IWFhJMHlZ?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 12:15:00 GMT",
+          "sourceName": "rb.ru"
+        },
+        {
+          "title": "АВТОВАЗ обновит LADA Iskra в 2026 году: новый двигатель, климат-контроль - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemV4eE1aZDRZRGZYcjE4bmhpQjlYeUVPTzVlNU94N0VKdHN2RVhzalIwcDRINWV6dFF3N3NNcEUwTU9Va2dJSE5lLThuTWtzdGJKUmpFaHJSeUVrQzdvRDlfSTJ2d1hJUTh0T05LRF9KNmJYY0F4TWUxWWRaRHpzUTJ6S00tS2otVUZiMXVadHE3dlVMRUdOd1pIZXJkZzJveFBoQVp6ZUhWVk1FLXBWU0Ztc2hIRllEZm9aQnVHU0k5VVJ2UEkyclhB?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 09:36:08 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
+        {
+          "title": "Продажи Lada Vesta и Iskra с новыми моторами стартуют в четвёртом квартале 2026 - Overclockers.ru",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQamVzTVd5UjlSaFFxUFZsTUZVZ1dtU3YzSTZ4Y0Fjbmwzdzh1SGRER1h1ZEtUN2dEekEtX1d5NDBmd2hxdndSSEpET3FKN0NPYkV4dERKMjVpNEw3SXdXSjJEcDV4OG1FM0p6RjAzRHFCRXNKLWZXNU9mdWd4X05ESEpSU055bWdsMWN1SWdBUUxJUW0zWDI0ZFBVX1lOTjBEbWZfSzZLNUtVRGktV0laTTBySVRBSTlOZGJBMmZEbzlONnlJM3NNVzUwTWJBLTdPSG0telVR0gHUAUFVX3lxTE5JU3NXN0lkaFZKN2VXME51VEx6d2VRMkNvOHJFa3FHbXRxTVhMNVNJTmZWaGNwaE83NnZrTnpTN1oteGhLS2JSVUxfanhJeDVlY0ZUZzN5N2tJaEg5dVFzVmZ6aktrOV90S1ZEb2MtenZzbHZDb1FTc054NjZlMGNITWdXNDRjRFFRdV81YU90ZmkzcjloTldVQTh4ckctaTVkTU9STzhxQ012aVRxSnZuNEktaGtudElIZUdCa2QyYktFTWVkSmUyNkdUWlg3OTRKV3Qx?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:57:00 GMT",
           "sourceName": "Overclockers.ru"
-        },
-        {
-          "title": "Lada Iskra серьезно обновят до конца 2026 года: новый мотор на 120 сил, «автомат», климат-контроль и дистанционный автозапуск - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxORUNOMW5HODItc2xqYzZWZWx2Qm5VdENXcUVwUER0YkJDU29vd0JlVkNMVjZNZ1o3Uk4tVVk3UHVIMjFLaDZsaVdQbEsxbnhMbk1SOUVha0tHaFdYOVd5YmRvQjY5cF9JRGdQTWxXZklhcmVoT0xzT0IwSFEtTXpCa2tHRDJlNGY2YTMxTm9IZ25FNnUtdGRkOXJ4WkpnTFA1NUxKcGhqUTB2YXhEU1ZtdnBzQTdFdVI5eXNteWtUWUhFbzVNWm1mWEVkVWtBSF9jZDBBZlhuTTlnMmdQU2E3MS00S0t4VElKVTdIOHY5VzRCM1nSAfgBQVVfeXFMTm1MY3FCZWFHWWVmRENtY0xtQXJ4WUlHRGtLbkp4UHNJSXdweW1SQ1U3bVl6bU92WjAzTUZZUXhJa1RFZHdFNnNIMGg5QkRJSFppb2dYNGRHRlNXLW5xdVZ5ek0yd3RCbFdiMy1HeHVJcUFTVkhuOGtVUHRXUW4wTzhZNkpTX0hjQkUxbFdIVWNoVVZsTi1BWUVlUHZyNC1hTzBmdGhWMElOeXg5S0hnRFIyQXFPQzhaMWNzVEtic0ZscmhObVU5XzVOQlhaVGJRcVhOSjRIUkNNUXQzNWJRMVhodkRKT0ctN0VpMlpvYUxOdi1rWnozUkU?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 22:16:21 GMT",
-          "sourceName": "iXBT.com"
-        },
-        {
-          "title": "Новые Lada Vesta и Iskra выйдут до конца 2026 года: Vesta получит 1.8, а Iskra — новый 1.6 на 120 л.с. - Южный автомобиль",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTVloNzlIcm0tQ09FOXFlQThCRzBlekk2NFl4bzJNRXAtdVBmcWhrd2hYMTg5SjVGdUdwRjk5YlJ5ZFlVWXdfX2doZEJZZ1JYLXZVblYwd0puWlRNWS1RUllCemM4SmVaTk1BcjZjM2ptZk92SUU5XzJpRExEMHAyRHpMVldfRU9DbzRUYUc5eUdSbGdzZXZIbTdxWXQ0TFNWN3dzZGZ3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 17:27:04 GMT",
-          "sourceName": "Южный автомобиль"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -173,12 +173,6 @@ export const liveMarketSnapshot = {
           "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Как мы обучили детектор джейлбрейков для русскоязычных AI-агентов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UbC13U1Y3UnBxdDZueU01UXZuZnZrR1JYXzZodDRGMksyM3M2TDIxQWlSX0ZRWmZvZFpGMmhmZERuTVI2VktKTTd5Y0VSMkV2enJmbV9XSFZBbEJsQW1yeG9NQnYzd9IBWEFVX3lxTE5iZnJpWWF1Q0JiSU9RWTgxNEdSZ1NTdE5yelpLOXRxSkFBSENuUDJkSzlYN3JTRTNnMURCV3VjZ1d1Z3VQRDdCWnJDTmJEUDVId2NrVjV3TFk?oc=5",
-          "publishedAt": "Tue, 22 Sep 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -223,7 +217,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -258,10 +252,10 @@ export const liveMarketSnapshot = {
           "sourceName": "RuNews24"
         },
         {
-          "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
-          "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
-          "sourceName": "RUБЕЖ"
+          "title": "NtechLab и \"Швабе\" планируют создавать совместные ИТ-разработки - MASHNEWS | Новости Промышленности",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0FKWFpadVE5LUowUjZsTXpyNW91OWpWSHZXUjV4QnBsNEN6REN5VWJlWlZ3NHozT2tWOTB3dC1UcFMxXzd6bGVBblJxUEVfZ1ZtMzRfVzdlX1huZy1RQjlBTl9ibm5DQ0VtcGpFRHNwa0ZTS0swMFV0Z2gxazkwaFZDZU1Ra3o2T01tSE5YTTdMdw?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 20:00:03 GMT",
+          "sourceName": "MASHNEWS | Новости Промышленности"
         }
       ]
     },
@@ -274,16 +268,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
-      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-      "latestSourceName": "Newslab.ru",
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "ИТ–холдинг и Piklema будут развивать цифровые решения для промышленности - ЯСИА",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHhpSzZzdVhWN0lMTFpMT3AxZktmOHdPMDR3NWhybk1sRjU5MVNBR2ZKZHlhNWlvVS1HS2R4QWdXZXQwNVgyMkFka0J5ckI1NHozeWNlVXBRQzE3anNhSnlmSzBCLWQyUHJPNHhSbnJGTU9YSHlfZXc5U3A5dUpyTGszZDlzOEF6LWN4VjRnTW16NzdTYUdFcA?oc=5",
+      "latestSourceName": "ЯСИА",
       "sources": [
         {
-          "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
-          "sourceName": "Newslab.ru"
+          "title": "ИТ–холдинг и Piklema будут развивать цифровые решения для промышленности - ЯСИА",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHhpSzZzdVhWN0lMTFpMT3AxZktmOHdPMDR3NWhybk1sRjU5MVNBR2ZKZHlhNWlvVS1HS2R4QWdXZXQwNVgyMkFka0J5ckI1NHozeWNlVXBRQzE3anNhSnlmSzBCLWQyUHJPNHhSbnJGTU9YSHlfZXc5U3A5dUpyTGszZDlzOEF6LWN4VjRnTW16NzdTYUdFcA?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "ЯСИА"
         },
         {
           "title": "Российские разработчики представили комплексные решения для цифровизации добывающей промышленности - Правда.Ру",
@@ -311,7 +305,7 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -327,12 +321,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
           "publishedAt": "Wed, 30 Sep 2026 06:09:00 GMT",
           "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
-          "publishedAt": "Tue, 29 Sep 2026 13:15:15 GMT",
-          "sourceName": "novostivoronezha.ru"
         }
       ]
     },
@@ -355,7 +343,7 @@ export const liveMarketSnapshot = {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
       "sourceCount30d": 7,
-      "sourceCount7d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -859,7 +847,7 @@ export const liveMarketSnapshot = {
       "sourceCount30d": 4,
       "sourceCount7d": 4,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 3,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
@@ -880,16 +868,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
           "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
           "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Milo Mile 5 - EA",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjR1RHRhVUl6TUdmZU95d1YyZkJzTGZ2RUpjcGFaOTBVay01dHFybHBPRmhSSEdPSGRSQzVKeHI2OHhNNlpSa09SNHVFaWpzcU5iazRJUjVJdGpTM0V1amU3SEJZZHBIaWtfUWpVbEhOQ1gwcWQ3ejZGMmdRWnRhMXY5QTJlTUdmQkZ3eTlZQXE2SEU?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 01:00:19 GMT",
-          "sourceName": "EA"
         }
       ]
     },
@@ -897,7 +885,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 10,
-      "sourceCount7d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -932,9 +920,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Генератор превью MnogoReels: три обложки за 30 секунд - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUnVBd0lnR0ZmR2NTQlVuS0t5ZDVRRjFJSWN4bU9lUUVBcXF4X2dFc1FiNUVBSkdkU2MxUTZyRThsdnlsMXItREJMNm56TXRpbkxv?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1069,7 +1057,7 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 6,
+      "sourceCount30d": 5,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1398,7 +1386,7 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
+      "sourceCount30d": 8,
       "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1417,8 +1405,8 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "Атаки на склады обрушили охваты одних маркетплейсов в РФ и подняли других - dp.ru",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5vdDJCMFJUb1NDVWZGNzBieDVBM2hFNUhCdVNYbUcwcll4SWhLVkQ0cUFUTnlVN2QwbEpLVGNZTnVKdUFHeXNYb3g5VjlxRUZKM2lkOU1YWVoyYXlwa0M4ZG00VmtRRk5vblRQS1Z1dlFxbmw2ZkhoOUNia9IBe0FVX3lxTE5vdDJCMFJUb1NDVWZGNzBieDVBM2hFNUhCdVNYbUcwcll4SWhLVkQ0cUFUTnlVN2QwbEpLVGNZTnVKdUFHeXNYb3g5VjlxRUZKM2lkOU1YWVoyYXlwa0M4ZG00VmtRRk5vblRQS1Z1dlFxbmw2ZkhoOUNiaw?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:55:11 GMT",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0JnS1h5ZVQ1d2ZGakdmU2JlSTdfbnN1VnJKaXRfaWZBekNaclItc1o0d20waE1pVXpoOGF6VjBlM1lzc0JHVlRNOGhuaXYwWDlpU3FNUjQzWU5kTFVyTEpWZHlMWmxIZGl3M2RnQjDSAXtBVV95cUxOb3QyQjBSVG9TQ1VmRjcwYng1QTNoRTVIQnVTWG1HMHJZeEloS1ZENHFBVE55VTdkMGxKS1RjWU51SnVBR3lzWG94OVY5cUVGSjNpZDlNWFlaMmF5cGtDOGRtNFZrUUZOb25UUEtWdXZRcW5sNmZIaDlDYms?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:55:00 GMT",
           "sourceName": "dp.ru"
         },
         {
