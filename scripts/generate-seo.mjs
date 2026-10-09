@@ -1,4 +1,4 @@
-import { mkdir, writeFile, readFile } from 'node:fs/promises';
+import { writeFile } from 'node:fs/promises';
 import { editorialArticles } from '../src/data/articles.js';
 
 const outputDirectory = new URL('../dist/', import.meta.url);
@@ -10,7 +10,7 @@ function normalizeSiteUrl(value) {
   if (!['http:', 'https:'].includes(url.protocol)) {
     throw new Error('SITE_URL must use http:// or https://');
   }
-  if (url.username || url.password || url.search || url.hash) {
+  if (url.pathname !== '/' || url.username || url.password || url.search || url.hash) {
     throw new Error('SITE_URL must be a public origin without credentials, query, or hash');
   }
   return url.origin;
