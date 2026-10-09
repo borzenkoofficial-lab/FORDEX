@@ -13,6 +13,11 @@ const PROVIDERS = Object.freeze({
   },
 });
 
+const configuredTimeout = Number(process.env.FORDEX_AI_PROVIDER_TIMEOUT_MS);
+const PROVIDER_TIMEOUT_MS = Number.isFinite(configuredTimeout) && configuredTimeout >= 50
+  ? Math.min(60_000, Math.floor(configuredTimeout))
+  : 25_000;
+
 const SYSTEM_PROMPT = [
   'You are the FORDEX editorial research model.',
   'FORDEX is a data-first business index.',
@@ -80,7 +85,12 @@ export default async function handler(req, res) {
     if (objective.length > 1200) return json(res, 413, { error: 'MODEL_OBJECTIVE_TOO_LONG' });
 
     const testKey = req.headers?.['x-fordex-test-key'] || '';
-    const provider = getProvider(body.provider, testKey);
+    let provider;
+    try {
+      provider = getProvider(body.provider, testKey);
+    } catch {
+      return json(res, 400, { error: 'UNSUPPORTED_AI_PROVIDER' });
+    }
     if (!provider.apiKey) {
       return json(res, 503, {
         error: 'AI_PROVIDER_NOT_CONFIGURED',
@@ -110,16 +120,38 @@ export default async function handler(req, res) {
       ],
     };
 
-    const response = await fetch(provider.baseUrl.replace(/\/$/, '') + '/responses', {
-      method: 'POST',
-      headers: {
-        Authorization: 'Bearer ' + provider.apiKey,
-        'Content-Type': 'application/json',
-      },
-      body: JSON.stringify(requestBody),
-    });
-
-    const raw = await response.text();
+    const controller = new AbortController();
+    const timeoutId = setTimeout(() => controller.abort(), PROVIDER_TIMEOUT_MS);
+    let response;
+    let raw;
+    try {
+      response = await fetch(provider.baseUrl.replace(/\/$/, '') + '/responses', {
+        method: 'POST',
+        headers: {
+          Authorization: 'Bearer ' + provider.apiKey,
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(requestBody),
+        signal: controller.signal,
+      });
+      raw = await response.text();
+    } catch (error) {
+      if (controller.signal.aborted) {
+        return json(res, 504, {
+          error: 'MODEL_PROVIDER_TIMEOUT',
+          provider: provider.name,
+          model,
+          timeoutMs: PROVIDER_TIMEOUT_MS,
+        });
+      }
+      return json(res, 502, {
+        error: 'MODEL_GATEWAY_REQUEST_FAILED',
+        provider: provider.name,
+        model,
+      });
+    } finally {
+      clearTimeout(timeoutId);
+    }
     let data = null;
     try { data = JSON.parse(raw); } catch { data = { raw }; }
 
@@ -154,9 +186,7 @@ export default async function handler(req, res) {
       canOverrideScore: false,
       canChangeFormula: false,
     });
-  } catch (error) {
-    return json(res, 500, {
-      error: error instanceof Error ? error.message : 'MODEL_GATEWAY_ERROR',
-    });
+  } catch {
+    return json(res, 502, { error: 'MODEL_GATEWAY_REQUEST_FAILED' });
   }
 }

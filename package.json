@@ -13,6 +13,7 @@
     "verify:ai-editor": "node scripts/verify-ai-editor.mjs",
     "verify:model": "node scripts/verify-model-gateway.mjs",
     "verify:runtime": "node scripts/verify-runtime-gateway.mjs",
+    "verify:provider-timeout": "node scripts/verify-provider-timeout.mjs",
     "refresh:market": "node scripts/refresh-market.mjs",
     "verify:live-market": "node scripts/verify-live-market.mjs",
     "verify:ai-research": "node scripts/verify-ai-research.mjs",
