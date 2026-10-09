@@ -1,5 +1,5 @@
 import { emergingStartups } from '../../src/data/emergingStartups.js';
-import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../_lib/adminAuth.js';
+import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../../src/server/adminAuth.js';
 
 const MAX_ITEMS = 12;
 const MAX_RESEARCH_CANDIDATES = 8;
