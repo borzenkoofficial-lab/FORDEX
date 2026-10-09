@@ -143,17 +143,61 @@ function withPageMetadata(html, { title, description, canonicalUrl, noindex = fa
   return setStructuredData(html, schema);
 }
 
+function renderRouteMarkup(route, allRoutes, articles) {
+  const title = htmlEscape(route.page.title || 'FORDEX');
+  const description = htmlEscape(route.page.description || '');
+  const navigation = allRoutes
+    .filter((item) => !item.noindex && item.key !== route.key)
+    .map((item) => '<a href="' + htmlEscape(item.path) + '">' + htmlEscape(item.page.title.replace(/ — FORDEX$/, '')) + '</a>')
+    .join('');
+  let featured;
+  if (route.key === 'news') {
+    featured = articles;
+  } else if (route.key === 'founders') {
+    featured = articles.filter((article) => article.builderStory);
+  } else if (route.key === 'home') {
+    featured = articles.slice(0, 8);
+  } else {
+    featured = articles.slice(0, 5);
+  }
+
+  const articleList = featured.length
+    ? '<section class="seo-static-fallback-list"><h2>' +
+      (route.key === 'founders' ? 'Builder Stories — люди и продукты' : route.key === 'news' ? 'Редакционные материалы FORDEX' : 'Последние редакционные сигналы') +
+      '</h2>' +
+      featured.map((article) => {
+        const href = '/articles/' + encodeURIComponent(article.id) + '/';
+        return '<article><span>' + htmlEscape(article.category || 'AI BUSINESS') + ' · ' + htmlEscape(article.date || '') +
+          '</span><div><h3><a href="' + href + '">' + htmlEscape(article.title) + '</a></h3></div>' +
+          '<a href="' + href + '">ЧИТАТЬ →</a><p>' + htmlEscape(article.dek || article.lead || '') + '</p></article>';
+      }).join('') +
+      '</section>'
+    : '';
+
+  return '<main class="seo-static-fallback">' +
+    '<span class="seo-static-fallback-kicker">' + (route.noindex ? 'ЗАКРЫТАЯ ЗОНА FORDEX' : 'FORDEX · ИНДЕКС AI-БИЗНЕСА РОССИИ') + '</span>' +
+    '<h1>' + title + '</h1>' +
+    '<p class="seo-static-fallback-intro">' + description + '</p>' +
+    (route.noindex ? '' : '<nav class="seo-static-fallback-nav" aria-label="Разделы FORDEX">' + navigation + '</nav>') +
+    (route.noindex ? '' : articleList) +
+    '</main>';
+}
+
 let pageSnapshots = 0;
 for (const route of routes) {
   const canonicalUrl = siteUrl + route.path;
   const schema = schemaForPage(route.page, canonicalUrl);
-  const html = withPageMetadata(baseHtml, {
+  let html = withPageMetadata(baseHtml, {
     title: route.page.title,
     description: route.page.description,
     canonicalUrl,
     noindex: route.noindex,
     schema,
   });
+  if (!html.includes('<div id="root"></div>')) {
+    throw new Error('VITE_ROOT_CONTAINER_NOT_FOUND: ' + route.path);
+  }
+  html = html.replace('<div id="root"></div>', '<div id="root">' + renderRouteMarkup(route, routes, uniqueArticles) + '</div>');
   const targetDirectory = route.path === '/'
     ? outputDirectory
     : new URL(route.path.slice(1), outputDirectory);
