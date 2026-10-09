@@ -226,8 +226,8 @@ export const startupRankings = [
     sector: 'INDUSTRIAL TECH',
     tags: ['INDUSTRIAL', 'DEEPTECH'],
     stage: 'GROWTH',
-    fundingM: null,
-    funding: 'ДО ₽1,0 МЛРД',
+    fundingM: 1000,
+    funding: '₽1,0 МЛРД',
     latestRound: '2025',
     score: 72.7,
     momentum: 1.8,
@@ -238,7 +238,7 @@ export const startupRankings = [
     verified: true,
     lastVerified: '2026-10',
     source: 'https://www.piklema.ru/about',
-    fundingSource: 'https://www.kamaflow.ru/ru/post/kama-flow-has-been-named-the-winner-of-the-moscow-startup-summit-technology-award-in-the-most-active-venture-fund-category/'
+    fundingSource: 'https://www.vedomosti.ru/technology/news/2025/07/09/1123056-piklema-privlek'
   },
   {
     id: 'visionlabs',
