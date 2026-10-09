@@ -388,11 +388,11 @@ function Home({ watchlist, toggleWatch }) {
         <div className="home-news-ticker-viewport">
           <div className="home-news-ticker-track">
             {[...editorialArticles.slice(0, 6), ...editorialArticles.slice(0, 6)].map((story, index) => (
-              <button type="button" key={story.id + '-' + index} onClick={() => goto('article-' + story.id)}>
+              <a href={routeToPath('article-' + story.id)} key={story.id + '-' + index} onClick={(event) => handleNavigationClick(event, 'article-' + story.id)}>
                 <span>{story.category}</span>
                 <strong>{story.title}</strong>
                 <small>{ruDate(story.date)}</small>
-              </button>
+              </a>
             ))}
           </div>
         </div>
@@ -475,7 +475,7 @@ function Home({ watchlist, toggleWatch }) {
         </div>
         <div className="home-news-grid">
           {editorialArticles.slice(0, 3).map((story, index) => (
-            <button type="button" className="home-news-card" key={story.id} onClick={() => goto('article-' + story.id)}>
+            <a href={routeToPath('article-' + story.id)} className="home-news-card" key={story.id} onClick={(event) => handleNavigationClick(event, 'article-' + story.id)}>
               <div className="home-news-top">
                 <span>{String(index + 1).padStart(2, '0')}</span>
                 <small>{ruDate(story.date)} · {story.readTime}</small>
@@ -486,7 +486,7 @@ function Home({ watchlist, toggleWatch }) {
                 <p>{story.dek}</p>
               </div>
               <div className="home-news-cta">ЧИТАТЬ <ArrowRight size={13} /></div>
-            </button>
+            </a>
           ))}
         </div>
       </section>
@@ -1194,9 +1194,9 @@ function News() {
           <span>ПОСЛЕДНИЙ МАТЕРИАЛ · {ruDate(latest.date)} · {latest.readTime}</span>
           <h2>{latest.title}</h2>
           <p>{latest.dek}</p>
-          <button type="button" className="news-feature-cta" onClick={() => goto('article-' + latest.id)}>
+          <a href={routeToPath('article-' + latest.id)} className="news-feature-cta" onClick={(event) => handleNavigationClick(event, 'article-' + latest.id)}>
             <b>ЧИТАТЬ РАЗБОР</b><ArrowRight size={16} />
-          </button>
+          </a>
         </div>
         <div className="news-entry-meta">
           <strong>01</strong>
@@ -1228,13 +1228,13 @@ function News() {
               <div className="news-item-media"><img src={story.media.src} alt="" loading="lazy" /></div>
               <div className="news-item-main">
                 <div className="news-item-meta"><span>{ruDate(story.date)}</span><b>{story.category}</b><small>{story.builderStory ? story.builderStatus : story.readTime}</small></div>
-                <button type="button" className="news-item-title" onClick={() => goto('article-' + story.id)}>{story.title}</button>
+                <a href={routeToPath('article-' + story.id)} className="news-item-title" onClick={(event) => handleNavigationClick(event, 'article-' + story.id)}>{story.title}</a>
                 <p>{story.dek}</p>
                 <div className="news-item-source"><span>СТАТУС</span><strong>ПРОВЕРЕНО FORDEX</strong></div>
               </div>
-              <button type="button" className="news-item-action" onClick={() => goto('article-' + story.id)} aria-label={'Читать: ' + story.title}>
+              <a href={routeToPath('article-' + story.id)} className="news-item-action" onClick={(event) => handleNavigationClick(event, 'article-' + story.id)} aria-label={'Читать: ' + story.title}>
                 <span>ЧИТАТЬ</span><ArrowRight size={15} />
-              </button>
+              </a>
             </article>
           ))}
           {!filtered.length && activeCategory !== 'ALL' && <div className="news-empty">В ЭТОЙ КАТЕГОРИИ ПОКА НЕТ МАТЕРИАЛОВ.</div>}
@@ -1287,7 +1287,7 @@ function ArticlePage({ articleId }) {
 
         <aside className="article-aside">
           <div><span>FORDEX</span><strong>РЕДАКЦИОННЫЙ<br />СЛОЙ</strong><p>Материалы находятся внутри индекса. Публикация написана и структурирована FORDEX; доказательства используются внутри исследовательского контура.</p></div>
-          <div><span>ДРУГИЕ МАТЕРИАЛЫ</span>{related.map((item) => <button type="button" key={item.id} onClick={() => goto('article-' + item.id)}><small>{ruDate(item.date)}</small><strong>{item.title}</strong><ArrowRight size={13} /></button>)}</div>
+          <div><span>ДРУГИЕ МАТЕРИАЛЫ</span>{related.map((item) => <a href={routeToPath('article-' + item.id)} key={item.id} onClick={(event) => handleNavigationClick(event, 'article-' + item.id)}><small>{ruDate(item.date)}</small><strong>{item.title}</strong><ArrowRight size={13} /></a>)}</div>
         </aside>
       </section>
     </main>

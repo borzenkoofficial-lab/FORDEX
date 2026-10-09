@@ -2,7 +2,7 @@ name: FORDEX CI
 
 on:
   push:
-    branches: [main]
+    branches: [main, "launch/**"]
   pull_request:
     branches: [main]
 

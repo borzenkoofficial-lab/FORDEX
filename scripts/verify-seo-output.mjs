@@ -25,6 +25,12 @@ for (const [route, page] of Object.entries(SEO_PAGES)) {
   const html = await readFile(new URL(path, dist), 'utf8');
   assert.ok(html.includes('<title>' + page.title), route + ' must have a route-specific title');
   assert.match(html, /rel="canonical"/, route + ' must have canonical URL');
+  if (!page.noindex) {
+    assert.match(html, /<main class="seo-static-content">/, route + ' must contain a semantic static fallback');
+    assert.ok(html.includes('<h1>' + page.title + '</h1>'), route + ' must have its own static heading');
+    assert.match(html, /class="seo-static-nav"/, route + ' must expose crawlable internal navigation');
+    assert.match(html, /href="\/articles\//, route + ' must link to indexed editorial articles');
+  }
   if (page.noindex) assert.match(html, /name="robots" content="noindex, nofollow"/, route + ' must be noindex');
   else {
     const routeUrl = route === 'home' ? siteUrl + '/' : siteUrl + '/' + route + '/';
@@ -40,5 +46,7 @@ for (const article of editorialArticles.filter((item) => item?.id && item?.title
   assert.ok(html.includes(article.lead ? '<p class="article-lead">' + article.lead.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</p>' : '<article class="article-main">'), 'article lead must be present in static HTML: ' + article.id);
   assert.ok(html.includes('<link rel="canonical" href="' + siteUrl + '/articles/' + slug + '/"'), 'article canonical must be absolute: ' + article.id);
   assert.ok(html.includes('"@type":"Article"'), 'article page must contain Article JSON-LD: ' + article.id);
+  assert.match(html, /class="article-aside"/, 'article page must include related editorial links: ' + article.id);
+  assert.match(html, /href="\/articles\//, 'article page must expose crawlable internal article links: ' + article.id);
 }
 console.log('SEO output verification passed: sitemap (' + (sitemap.match(/<loc>/g) || []).length + ' URLs), ' + Object.keys(SEO_PAGES).length + ' route snapshots, ' + editorialArticles.length + ' editorial records checked.');
