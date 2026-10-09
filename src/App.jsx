@@ -72,6 +72,7 @@ const ROUTE_PATHS = Object.freeze({
   '/sources': 'sources',
   '/news': 'news',
   '/analytics': 'analytics',
+  '/about': 'about',
   '/watchlist': 'watchlist',
   '/control': 'control',
 });
@@ -274,7 +275,7 @@ export function App() {
     });
   };
 
-  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'sources', 'news', 'analytics', 'watchlist', 'control'];
+  const knownRoutes = ['home', 'companies', 'founders', 'deals', 'rankings', 'market', 'sources', 'news', 'analytics', 'about', 'watchlist', 'control'];
 
   return (
     <div className="site">
@@ -289,6 +290,7 @@ export function App() {
       {route === 'sources' && <Sources />}
       {route === 'news' && <News />}
       {route === 'analytics' && <Analytics />}
+      {route === 'about' && <About />}
       {route === 'watchlist' && <Watchlist names={watchlist} toggleWatch={toggleWatch} />}
       {route === 'control' && <AgentControlRoom />}
       {route.startsWith('article-') && <ArticlePage articleId={route.replace('article-', '')} />}
@@ -307,7 +309,8 @@ function TopBar() {
       <div className="announcement-links">
         <button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><span>|</span>
         <button type="button" onClick={() => goto('news')}>ПОСЛЕДНЕЕ</button><span>|</span>
-        <button type="button" onClick={() => goto('home')}>ГЛАВНАЯ</button>
+        <button type="button" onClick={() => goto('home')}>ГЛАВНАЯ</button><span>|</span>
+        <button type="button" onClick={() => goto('about')}>О FORDEX</button>
       </div>
     </div>
   );
@@ -1393,6 +1396,42 @@ function Analytics() {
   );
 }
 
+function About() {
+  const layers = [
+    { number: '01', title: 'ПУБЛИЧНЫЙ ИНДЕКС', text: 'Компании, прошедшие отбор для сопоставимой оценки по модели FORDEX.' },
+    { number: '02', title: 'ИССЛЕДОВАТЕЛЬСКОЕ ПОКРЫТИЕ', text: 'Молодые команды и проекты, которые исследуются, но не получают рейтинг автоматически.' },
+    { number: '03', title: 'ВНЕШНИЕ ИСТОЧНИКИ', text: 'Публикации и сторонние рейтинги, которые остаются отдельными сигналами, а не оценками FORDEX.' },
+  ];
+
+  return (
+    <main className="inner-page about-page">
+      <PageHero
+        eyebrow="О ПРОЕКТЕ"
+        title="FORDEX"
+        description="FORDEX — редакционный исследовательский индекс российского AI-бизнеса. Он собирает в одном месте сведения о компаниях, основателях, сделках и продуктах и помогает проследить, на каких публичных данных основаны выводы."
+        action={<ButtonLink route="analytics" className="text-link">КАК УСТРОЕН ИНДЕКС <ArrowRight size={13} /></ButtonLink>}
+      />
+      <section className="source-principles">
+        <div><span>КАК УСТРОЕН FORDEX</span><h2>РАЗДЕЛЯТЬ<br />ФАКТЫ И<br />ОЦЕНКИ.</h2></div>
+        <div>
+          <p>FORDEX не смешивает три разных вещи: опубликованный индекс, исследовательское покрытие и внешние рейтинги. Запись в каталоге сама по себе не означает, что компания получила место в рейтинге.</p>
+          <div className="source-rule-grid">{layers.map((layer) => <div key={layer.number}><small>{layer.number}</small><span><strong>{layer.title}</strong><br />{layer.text}</span></div>)}</div>
+        </div>
+      </section>
+      <section className="source-board">
+        <div><span>КАК ЧИТАТЬ ОЦЕНКИ</span><h2>СИГНАЛ — НЕ СТОИМОСТЬ.</h2></div>
+        <div>
+          <p>Рейтинг рассчитывается по шести взвешенным сигналам, которые раскрыты в методологии. Балл нужен для сравнения компаний в рамках модели FORDEX; это не оценка бизнеса, не рыночная капитализация, не финансовый прогноз и не инвестиционная рекомендация.</p>
+          <p>Если публичная сумма финансирования не раскрыта, она не заменяется приблизительной оценкой. Для записей индекса доступны источник и месяц последней проверки; сведения могут быть неполными или устаревать.</p>
+          <ButtonLink route="rankings" className="text-link">ОТКРЫТЬ РЕЙТИНГ <ArrowRight size={13} /></ButtonLink>
+          <ButtonLink route="sources" className="text-link">ИСТОЧНИКИ ДАННЫХ <ArrowRight size={13} /></ButtonLink>
+        </div>
+      </section>
+      <section className="source-disclaimer"><span>ОГРАНИЧЕНИЯ ДАННЫХ</span><p>FORDEX — исследовательская выборка, а не полная перепись российского AI-рынка. Отсутствие компании или показателя в индексе не доказывает отсутствия деятельности. Позиции отражают редакционную модель и доступные публичные сведения на дату проверки.</p></section>
+    </main>
+  );
+}
+
 function Sources() {
   return (
     <main className="inner-page sources-page">
@@ -1449,6 +1488,7 @@ function Footer() {
         <a href={routeToPath('news')} onClick={(event) => handleNavigationClick(event, 'news')}>НОВОСТИ</a>
         <a href={routeToPath('analytics')} onClick={(event) => handleNavigationClick(event, 'analytics')}>МЕТОДОЛОГИЯ</a>
         <a href={routeToPath('sources')} onClick={(event) => handleNavigationClick(event, 'sources')}>ИСТОЧНИКИ</a>
+        <a href={routeToPath('about')} onClick={(event) => handleNavigationClick(event, 'about')}>О FORDEX</a>
       </nav>
       <span>© 2026 FORDEX · ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span>
     </footer>
