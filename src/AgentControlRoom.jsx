@@ -1,4 +1,5 @@
 import { useEffect, useMemo, useState } from 'react';
+import './ai/controlRoomGate.css';
 import { Activity, CheckCircle2, LockKeyhole, Play, RefreshCw, ShieldCheck, Sparkles, XCircle } from 'lucide-react';
 import { companyRegistry, companyRegistryStats } from './data/companyRegistry.js';
 import { evidenceRegistryStats } from './data/evidenceRegistry.js';
@@ -104,7 +105,7 @@ function normalizeResearch(value) {
   };
 }
 
-export function AgentControlRoom() {
+function AgentControlRoomWorkspace() {
   const snapshot = buildAgentControlSnapshot();
   const [provider, setProvider] = useState('anymodel');
   const [model, setModel] = useState('');
@@ -536,4 +537,127 @@ function Gate({ label }) {
 }
 function Row({ label, value }) {
   return <div className="agent-row"><span>{label}</span><strong>{value}</strong></div>;
+}
+
+
+const ADMIN_SESSION_KEY = 'fordex-admin-session-token';
+
+async function checkAdminToken(token) {
+  const response = await fetch('/api/ai/editor', {
+    method: 'GET',
+    headers: { Accept: 'application/json', Authorization: 'Bearer ' + token },
+  });
+  const payload = await response.json().catch(() => ({}));
+  return { ok: response.ok, error: payload?.error || null };
+}
+
+export function AgentControlRoom() {
+  const [authState, setAuthState] = useState('checking');
+  const [token, setToken] = useState('');
+  const [error, setError] = useState('');
+  const [busy, setBusy] = useState(false);
+
+  useEffect(() => {
+    let active = true;
+    let saved = '';
+    try { saved = sessionStorage.getItem(ADMIN_SESSION_KEY) || ''; } catch { /* storage can be unavailable */ }
+    if (!saved) {
+      setAuthState('locked');
+      return () => { active = false; };
+    }
+    checkAdminToken(saved).then((result) => {
+      if (!active) return;
+      if (result.ok) {
+        setAuthState('unlocked');
+      } else {
+        try { sessionStorage.removeItem(ADMIN_SESSION_KEY); } catch { /* storage can be unavailable */ }
+        setAuthState('locked');
+        setError(result.error === 'ADMIN_ACCESS_NOT_CONFIGURED'
+          ? 'На сервере не настроен FORDEX_ADMIN_TOKEN. Добавьте секрет в настройки хостинга.'
+          : 'Сессия истекла или ключ доступа не подходит. Введите ключ повторно.');
+      }
+    }).catch(() => {
+      if (!active) return;
+      setAuthState('locked');
+      setError('Не удалось проверить доступ. Проверьте соединение и настройки API.');
+    });
+    return () => { active = false; };
+  }, []);
+
+  async function unlock(event) {
+    event.preventDefault();
+    const supplied = token.trim();
+    if (supplied.length < 32) {
+      setError('Ключ должен содержать не менее 32 символов.');
+      return;
+    }
+    setBusy(true);
+    setError('');
+    try {
+      const result = await checkAdminToken(supplied);
+      if (!result.ok) {
+        setError(result.error === 'ADMIN_ACCESS_NOT_CONFIGURED'
+          ? 'Серверный доступ ещё не настроен: добавьте FORDEX_ADMIN_TOKEN в секреты хостинга.'
+          : 'Ключ доступа отклонён.');
+        return;
+      }
+      try { sessionStorage.setItem(ADMIN_SESSION_KEY, supplied); } catch {
+        setError('Браузер заблокировал sessionStorage. Разрешите хранение данных для этого сайта.');
+        return;
+      }
+      setAuthState('unlocked');
+      setToken('');
+    } catch {
+      setError('Не удалось проверить доступ. Проверьте соединение и настройки API.');
+    } finally {
+      setBusy(false);
+    }
+  }
+
+  function logout() {
+    try { sessionStorage.removeItem(ADMIN_SESSION_KEY); } catch { /* storage can be unavailable */ }
+    setToken('');
+    setError('');
+    setAuthState('locked');
+  }
+
+  if (authState !== 'unlocked') {
+    return (
+      <main className="fordex-admin-gate">
+        <div className="fordex-admin-gate-mark"><LockKeyhole size={20} /> FORDEX / PRIVATE AREA</div>
+        <h1>ДОСТУП К AI-РЕДАКЦИИ</h1>
+        <p>Эта зона доступна только администратору. Введите серверный ключ доступа FORDEX. Он проверяется API и хранится только в сессии текущей вкладки.</p>
+        {authState === 'checking' ? (
+          <div className="fordex-admin-gate-status" role="status">Проверяем текущую сессию…</div>
+        ) : (
+          <form onSubmit={unlock} className="fordex-admin-gate-form">
+            <label htmlFor="fordex-admin-token">Ключ доступа</label>
+            <input
+              id="fordex-admin-token"
+              type="password"
+              autoComplete="current-password"
+              value={token}
+              onChange={(event) => setToken(event.target.value)}
+              placeholder="Введите FORDEX_ADMIN_TOKEN"
+              minLength={32}
+              required
+            />
+            {error && <p className="fordex-admin-gate-error" role="alert">{error}</p>}
+            <button type="submit" disabled={busy}>{busy ? 'ПРОВЕРКА…' : 'ОТКРЫТЬ AI-РЕДАКЦИЮ'}</button>
+          </form>
+        )}
+        <small>Ключ провайдера модели — отдельный секрет. Не используйте его как ключ доступа к панели.</small>
+      </main>
+    );
+  }
+
+  return (
+    <div className="fordex-admin-session">
+      <div className="fordex-admin-session-bar">
+        <span><LockKeyhole size={13} /> ЗАЩИЩЁННАЯ СЕССИЯ</span>
+        <button type="button" onClick={logout}>ЗАВЕРШИТЬ СЕАНС</button>
+      </div>
+      <AgentControlRoomWorkspace key="fordex-admin-workspace" />
+    </div>
+  );
 }
