@@ -14,12 +14,7 @@ jobs:
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: npm install --no-audit --no-fund
-      - name: Export generated lockfile for bootstrap
-        run: |
-          printf '\nLOCKFILE_EXPORT_BEGIN\n'
-          cat package-lock.json
-          printf '\nLOCKFILE_EXPORT_END\n'
+      - run: npm ci --no-audit --no-fund
       - run: npm run verify:ranking
       - run: npm run verify:data
       - run: npm run verify:agent
