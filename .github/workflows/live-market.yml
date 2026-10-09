@@ -4,28 +4,44 @@ on:
   schedule:
     - cron: '0 */3 * * *'
   workflow_dispatch:
+
 permissions:
   contents: write
 
+concurrency:
+  group: fordex-live-market-refresh
+  cancel-in-progress: false
+
 jobs:
   refresh:
+    if: github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
         with:
-          fetch-depth: 1
+          fetch-depth: 0
       - uses: actions/setup-node@v4
         with:
           node-version: 22
-      - run: node scripts/refresh-market.mjs
-      - name: Commit live snapshot
+      - run: npm ci --no-audit --no-fund
+      - run: npm run verify:data
+      - run: npm run refresh:market
+      - run: npm run verify:live-market
+      - name: Commit changed live snapshot
         run: |
           if git diff --quiet -- src/data/liveMarketSnapshot.js; then
-            echo "No live market changes."
+            echo "No live market signal changes; skipping commit."
             exit 0
           fi
           git config user.name "fordex-market-bot"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
           git add src/data/liveMarketSnapshot.js
+          if git diff --cached --quiet; then
+            echo "No staged live market changes; skipping commit."
+            exit 0
+          fi
           git commit -m "chore: refresh live market signals"
-          git push
+          git fetch origin main
+          git rebase origin/main
+          git push origin HEAD:main
