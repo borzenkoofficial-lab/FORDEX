@@ -26,6 +26,37 @@ const uniqueEmergingFounders = new Set(emergingFounders);
 if (emergingStartups.length < 50) fail('emerging startup universe below 50');
 if (uniqueEmergingFounders.size < 50) fail('unique emerging founders below 50');
 
+function normalizeEvidenceUrl(value, label) {
+  try {
+    const url = new URL(String(value || ''));
+    if (!['http:', 'https:'].includes(url.protocol)) fail(label + ': source must use HTTP(S)');
+    return url.href.replace(/\\/$/, '');
+  } catch (error) {
+    fail(label + ': invalid source URL');
+  }
+}
+
+const quantitativeClaimPattern = /\\b\\d[\\d\\s.,]*(?:%|₽|руб(?:лей|ля|ль)?|млн|тыс(?:\\.|яч)?|пользоват|плательщик|MRR|ARR|клиент|сотрудник|проект|договор|заказ|клиник|раунд|финансирован|активн|скачиван)/i;
+
+for (const startup of emergingStartups) {
+  const label = startup.name || startup.id || 'unnamed startup';
+  normalizeEvidenceUrl(startup.source, label);
+  if (!/^20\\d{2}-(0[1-9]|1[0-2])$/.test(String(startup.lastVerified || ''))) {
+    fail(label + ': lastVerified must use YYYY-MM');
+  }
+  if (startup.founderAge != null) {
+    if (!startup.founderAgeSource) fail(label + ': founderAge requires a separate source');
+    normalizeEvidenceUrl(startup.founderAgeSource, label + ' founder age');
+  }
+  if (quantitativeClaimPattern.test(String(startup.evidence || '')) && startup.website) {
+    const evidenceUrl = normalizeEvidenceUrl(startup.source, label);
+    const websiteUrl = normalizeEvidenceUrl(startup.website, label + ' website');
+    if (evidenceUrl === websiteUrl) {
+      fail(label + ': quantitative evidence must link to a specific source, not only the company homepage');
+    }
+  }
+}
+
 const founderKeys = founderRegistry.map((item) => item.company.toLowerCase() + '::' + item.name.toLowerCase());
 if (new Set(founderKeys).size !== founderKeys.length) fail('duplicate founder-company entity');
 
