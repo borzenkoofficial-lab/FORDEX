@@ -243,7 +243,12 @@ function renderArticleMarkup(article) {
       builderCard +
       '<p class="article-lead">' + htmlEscape(article.lead || '') + '</p>' +
       sections +
-    '</article></section>' +
+    '</article><aside class="article-aside"><div><span>ДРУГИЕ МАТЕРИАЛЫ</span>' +
+      editorialArticles.filter((item) => item.id !== article.id).slice(0, 3).map((item) =>
+        '<a href="/articles/' + encodeURIComponent(item.id) + '/"><small>' + htmlEscape(item.date || '') +
+        '</small><strong>' + htmlEscape(item.title) + '</strong><span aria-hidden="true">→</span></a>'
+      ).join('') +
+    '</div></aside></section>' +
   '</main>';
 }
 
