@@ -2059,7 +2059,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   color:#697477;
   margin:12px 0 0;
 }
-.article-aside button{
+.article-aside button,.article-aside a{
   width:100%;
   display:grid;
   grid-template-columns:1fr 15px;
@@ -2068,20 +2068,20 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   padding:13px 0;
   border-bottom:1px solid var(--line);
 }
-.article-aside button small{
+.article-aside button small,.article-aside a small{
   grid-column:1/-1;
   font-size:7px;
   letter-spacing:.12em;
   color:#838b8e;
 }
-.article-aside button strong{
+.article-aside button strong,.article-aside a strong{
   font-family:Manrope,Inter,sans-serif;
   font-size:13px;
   line-height:1.15;
   letter-spacing:-.02em;
 }
-.article-aside button svg{align-self:end;width:13px}
-.article-aside button:hover strong{text-decoration:underline;text-underline-offset:4px}
+.article-aside button svg,.article-aside a svg{align-self:end;width:13px}
+.article-aside button:hover strong,.article-aside a:hover strong{text-decoration:underline;text-underline-offset:4px}
 .research-facts{display:grid!important;gap:0}
 .research-facts>span{margin-bottom:3px!important}
 .research-facts>div{
@@ -2303,7 +2303,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   animation:fordexNewsTicker 55s linear infinite;
 }
 .home-news-ticker-track:hover{animation-play-state:paused}
-.home-news-ticker-track button{
+.home-news-ticker-track button,.home-news-ticker-track a{
   height:100%;
   display:flex;
   align-items:center;
@@ -2317,7 +2317,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
   white-space:nowrap;
   text-align:left;
 }
-.home-news-ticker-track button:hover{background:rgba(255,255,255,.045)}
+.home-news-ticker-track button:hover,.home-news-ticker-track a:hover{background:rgba(255,255,255,.045)}
 .home-news-ticker-track span{
   color:#87b7c8;
   font-size:8px;
@@ -2355,7 +2355,7 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible{ou
 @media(max-width:640px){
   .home-news-ticker{height:38px}
   .home-news-ticker-label{padding:0 11px}
-  .home-news-ticker-track button{padding:0 16px;gap:8px}
+  .home-news-ticker-track button,.home-news-ticker-track a{padding:0 16px;gap:8px}
   .home-news-ticker-track strong{max-width:320px;font-size:11px}
   .home-news-ticker-track small{display:none}
   .home-news-ticker-all{flex-basis:38px}
