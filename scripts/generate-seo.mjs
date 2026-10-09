@@ -143,17 +143,62 @@ function withPageMetadata(html, { title, description, canonicalUrl, noindex = fa
   return setStructuredData(html, schema);
 }
 
+function renderRouteMarkup(route, allRoutes, articles) {
+  const title = htmlEscape(route.page.title || 'FORDEX');
+  const description = htmlEscape(route.page.description || '');
+  const navigation = allRoutes
+    .filter((item) => !item.noindex && item.key !== route.key)
+    .map((item) => '<a href="' + htmlEscape(item.path) + '">' + htmlEscape(item.page.title.replace(/ — FORDEX$/, '')) + '</a>')
+    .join('');
+  let featured;
+  if (route.key === 'news') {
+    featured = articles;
+  } else if (route.key === 'founders') {
+    featured = articles.filter((article) => article.builderStory);
+  } else if (route.key === 'home') {
+    featured = articles.slice(0, 8);
+  } else {
+    featured = articles.slice(0, 5);
+  }
+
+  const articleList = featured.length
+    ? '<section class="seo-static-section"><h2>' +
+      (route.key === 'founders' ? 'Builder Stories — люди и продукты' : route.key === 'news' ? 'Редакционные материалы FORDEX' : 'Последние редакционные сигналы') +
+      '</h2><ul class="seo-static-articles">' +
+      featured.map((article) => {
+        const href = '/articles/' + encodeURIComponent(article.id) + '/';
+        return '<li><span class="seo-static-kicker">' + htmlEscape(article.category || 'AI BUSINESS') + ' · ' +
+          htmlEscape(article.date || '') + '</span><a href="' + href + '">' + htmlEscape(article.title) +
+          '</a><p>' + htmlEscape(article.dek || article.lead || '') + '</p></li>';
+      }).join('') +
+      '</ul></section>'
+    : '';
+
+  return '<main class="seo-static-content">' +
+    '<header class="seo-static-intro"><p class="seo-static-kicker">' +
+      (route.noindex ? 'ЗАКРЫТАЯ ЗОНА FORDEX' : 'FORDEX · ИНДЕКС AI-БИЗНЕСА РОССИИ') +
+      '</p><h1>' + title + '</h1><p>' + description + '</p></header>' +
+    (route.noindex ? '' : '<nav class="seo-static-nav" aria-label="Разделы FORDEX">' + navigation + '</nav>') +
+    (route.noindex ? '' : articleList) +
+    '</main>';
+}
+
+
 let pageSnapshots = 0;
 for (const route of routes) {
   const canonicalUrl = siteUrl + route.path;
   const schema = schemaForPage(route.page, canonicalUrl);
-  const html = withPageMetadata(baseHtml, {
+  let html = withPageMetadata(baseHtml, {
     title: route.page.title,
     description: route.page.description,
     canonicalUrl,
     noindex: route.noindex,
     schema,
   });
+  if (!html.includes('<div id="root"></div>')) {
+    throw new Error('VITE_ROOT_CONTAINER_NOT_FOUND: ' + route.path);
+  }
+  html = html.replace('<div id="root"></div>', '<div id="root">' + renderRouteMarkup(route, routes, uniqueArticles) + '</div>');
   const targetDirectory = route.path === '/'
     ? outputDirectory
     : new URL(route.path.slice(1), outputDirectory);
@@ -199,7 +244,12 @@ function renderArticleMarkup(article) {
       builderCard +
       '<p class="article-lead">' + htmlEscape(article.lead || '') + '</p>' +
       sections +
-    '</article></section>' +
+    '</article><aside class="article-aside"><div><span>ДРУГИЕ МАТЕРИАЛЫ</span>' +
+      editorialArticles.filter((item) => item.id !== article.id).slice(0, 3).map((item) =>
+        '<a href="/articles/' + encodeURIComponent(item.id) + '/"><small>' + htmlEscape(item.date || '') +
+        '</small><strong>' + htmlEscape(item.title) + '</strong><span aria-hidden="true">→</span></a>'
+      ).join('') +
+    '</div></aside></section>' +
   '</main>';
 }
 
