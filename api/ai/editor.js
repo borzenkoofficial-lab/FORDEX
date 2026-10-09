@@ -1,4 +1,4 @@
-import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../_lib/adminAuth.js';
+import { authorizeAdmin, enforceBodySize, enforceRateLimit } from '../../src/server/adminAuth.js';
 
 const PROVIDERS = Object.freeze({
   anymodel: {
