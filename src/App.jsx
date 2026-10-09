@@ -1455,7 +1455,15 @@ function Footer() {
   return (
     <footer>
       <div><div className="logo">FORDEX</div><p>ИНДЕКС AI-БИЗНЕСА · РОССИЯ</p></div>
-      <div className="footer-links"><button type="button" onClick={() => goto('companies')}>КОМПАНИИ</button><button type="button" onClick={() => goto('founders')}>ОСНОВАТЕЛИ</button><button type="button" onClick={() => goto('deals')}>СДЕЛКИ</button><button type="button" onClick={() => goto('rankings')}>РЕЙТИНГ</button><button type="button" onClick={() => goto('news')}>НОВОСТИ</button><button type="button" onClick={() => goto('analytics')}>МЕТОДОЛОГИЯ</button><button type="button" onClick={() => goto('sources')}>ИСТОЧНИКИ</button><button type="button" onClick={() => goto('control')}>CONTROL ROOM</button></div>
+      <nav className="footer-links" aria-label="Навигация в подвале">
+        <a href={routeToPath('companies')} onClick={(event) => { event.preventDefault(); goto('companies'); }}>КОМПАНИИ</a>
+        <a href={routeToPath('founders')} onClick={(event) => { event.preventDefault(); goto('founders'); }}>ОСНОВАТЕЛИ</a>
+        <a href={routeToPath('deals')} onClick={(event) => { event.preventDefault(); goto('deals'); }}>СДЕЛКИ</a>
+        <a href={routeToPath('rankings')} onClick={(event) => { event.preventDefault(); goto('rankings'); }}>РЕЙТИНГ</a>
+        <a href={routeToPath('news')} onClick={(event) => { event.preventDefault(); goto('news'); }}>НОВОСТИ</a>
+        <a href={routeToPath('analytics')} onClick={(event) => { event.preventDefault(); goto('analytics'); }}>МЕТОДОЛОГИЯ</a>
+        <a href={routeToPath('sources')} onClick={(event) => { event.preventDefault(); goto('sources'); }}>ИСТОЧНИКИ</a>
+      </nav>
       <span>© 2026 FORDEX · ИССЛЕДОВАТЕЛЬСКАЯ БЕТА</span>
     </footer>
   );
