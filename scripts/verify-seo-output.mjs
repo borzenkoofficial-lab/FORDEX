@@ -1,5 +1,5 @@
 import assert from 'node:assert/strict';
-import { access, readFile } from 'node:fs/promises';
+import { readFile } from 'node:fs/promises';
 import { editorialArticles } from '../src/data/articles.js';
 import { SEO_PAGES } from '../src/data/seo.js';
 
@@ -36,6 +36,8 @@ for (const article of editorialArticles.filter((item) => item?.id && item?.title
   const slug = encodeURIComponent(article.id);
   const html = await readFile(new URL('articles/' + slug + '/index.html', dist), 'utf8');
   assert.ok(html.includes('<title>' + article.title + ' — FORDEX</title>'), 'article page must have unique title: ' + article.id);
+  assert.ok(html.includes('<h1>' + article.title + '</h1>'), 'article body must be prerendered into static HTML: ' + article.id);
+  assert.ok(html.includes(article.lead ? '<p class="article-lead">' + article.lead.replace(/&/g, '&amp;').replace(/</g, '&lt;').replace(/>/g, '&gt;') + '</p>' : '<article class="article-main">'), 'article lead must be present in static HTML: ' + article.id);
   assert.ok(html.includes('<link rel="canonical" href="' + siteUrl + '/articles/' + slug + '/"'), 'article canonical must be absolute: ' + article.id);
   assert.ok(html.includes('"@type":"Article"'), 'article page must contain Article JSON-LD: ' + article.id);
 }
