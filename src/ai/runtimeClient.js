@@ -1,9 +1,18 @@
-export const AI_RUNTIME_CLIENT_VERSION = '1.0';
+export const AI_RUNTIME_CLIENT_VERSION = '1.1';
+
+function adminHeaders(headers = {}) {
+  let token = '';
+  try { token = sessionStorage.getItem('fordex-admin-session-token') || ''; } catch { /* storage can be unavailable */ }
+  return {
+    ...headers,
+    ...(token ? { Authorization: 'Bearer ' + token } : {}),
+  };
+}
 
 export async function getModelGatewayStatus({ signal } = {}) {
   const response = await fetch('/api/ai/editor', {
     method: 'GET',
-    headers: { Accept: 'application/json' },
+    headers: adminHeaders({ Accept: 'application/json' }),
     signal,
   });
 
@@ -25,11 +34,11 @@ export async function runEditorModel({
 
   const response = await fetch('/api/ai/editor', {
     method: 'POST',
-    headers: {
+    headers: adminHeaders({
       'Content-Type': 'application/json',
       Accept: 'application/json',
       ...(testKey?.trim() ? { 'X-FORDEX-Test-Key': testKey.trim() } : {}),
-    },
+    }),
     body: JSON.stringify({ objective, companyId, context, provider, model }),
     signal,
   });
@@ -57,7 +66,7 @@ export async function runResearchAdapter({
 } = {}) {
   const response = await fetch('/api/ai/research', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    headers: adminHeaders({ 'Content-Type': 'application/json', Accept: 'application/json' }),
     body: JSON.stringify({ objective, company, mode }),
     signal,
   });
@@ -81,7 +90,7 @@ export async function validateEditorProposal({
 } = {}) {
   const response = await fetch('/api/ai/proposal', {
     method: 'POST',
-    headers: { 'Content-Type': 'application/json', Accept: 'application/json' },
+    headers: adminHeaders({ 'Content-Type': 'application/json', Accept: 'application/json' }),
     body: JSON.stringify({ operation, output, discoveredSources }),
     signal,
   });
