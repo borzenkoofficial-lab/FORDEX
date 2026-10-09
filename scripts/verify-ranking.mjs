@@ -66,6 +66,17 @@ const expectedRanks = rows.map((_, index) => index + 1);
 
 if (JSON.stringify(ranks) !== JSON.stringify(expectedRanks)) fail('ranks are not sequential');
 if (new Set(rows.map((item) => item.id)).size !== rows.length) fail('duplicate company ids detected');
+
+const sourceById = new Map(startupRankings.map((item) => [item.id, item]));
+for (const row of rows) {
+  const sourceRecord = sourceById.get(row.id);
+  if (sourceRecord?.tractionSource && row.tractionSource !== sourceRecord.tractionSource) {
+    fail(row.id + ': tractionSource must survive ranking calculation');
+  }
+  if (sourceRecord?.fundingSource && row.fundingSource !== sourceRecord.fundingSource) {
+    fail(row.id + ': fundingSource must survive ranking calculation');
+  }
+}
 if (rows.some((item) => !item.source)) fail('every ranked company must have a source');
 if (rows.some((item) => !Number.isFinite(item.score) || item.score < 0 || item.score > 100)) fail('score outside 0–100');
 if (rows.some((item) => item.scoreBreakdown.length !== rankingModel.weights.length)) fail('score breakdown is incomplete');
