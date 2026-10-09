@@ -66,10 +66,23 @@ for (const evidence of evidenceRegistry) {
   if (!evidence.lastVerified) fail(evidence.id + ': missing evidence review date');
 }
 
+const dealIds = dealRegistry.map((deal) => deal.id);
+if (dealIds.some((id) => !id)) fail('deal entity missing id');
+if (new Set(dealIds).size !== dealIds.length) fail('duplicate deal id');
+
+const dealDatePattern = /^(?:20\d{2}|(?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC) 20\d{2}|\d{2} (?:JAN|FEB|MAR|APR|MAY|JUN|JUL|AUG|SEP|OCT|NOV|DEC) 20\d{2})$/;
+
 for (const deal of dealRegistry) {
-  if (!deal.id || !deal.company) fail('deal entity missing id/company');
+  if (!deal.company) fail(deal.id + ': company missing');
   if (!deal.source) fail(deal.id + ': deal source missing');
-  if (!deal.date) fail(deal.id + ': deal date missing');
+  normalizeEvidenceUrl(deal.source, deal.id + ' deal');
+  if (!dealDatePattern.test(String(deal.date || ''))) {
+    fail(deal.id + ': date must use year, month-year, or day-month-year precision');
+  }
+  if (!deal.lead) fail(deal.id + ': investor/lead attribution missing');
+  if (!Number.isFinite(Number(deal.valueM)) || Number(deal.valueM) <= 0) {
+    fail(deal.id + ': numeric deal value missing or invalid');
+  }
 }
 
 for (const article of articleRegistry) {
