@@ -45,8 +45,8 @@ export const youngLeaderRankings = records
     const core = coreById.get(record.id);
     if (!emerging && !core) return null;
     return {
-      ...record,
       ...emerging,
+      ...record,
       ...(core ? { sector: core.sector, stage: core.stage, city: core.city, description: core.description, website: core.website } : {}),
       signal: buildSignal(record),
       capitalLabel: record.valuationM
@@ -67,6 +67,6 @@ export const youngLeaderRankings = records
 
 export const youngLeaderMethodology = {
   title: 'ГЛАВНЫЙ РЕЙТИНГ МОЛОДЫХ ЛИДЕРОВ',
-  description: 'Прозрачный discovery-сигнал для молодых AI-команд. 55% — капитал или раскрытая оценка, 45% — подтверждённая тяга продукта через пользователей или MRR. Это не инвестиционная оценка и не заменяет FORDEX Score.',
+  description: 'Прозрачный discovery-сигнал для молодых AI-команд. 55% — капитал или раскрытая оценка, 45% — публично заявленная тяга продукта через пользователей или MRR. Показатели привязаны к источникам, но могут быть самоотчётами и не являются независимым аудитом. Это не инвестиционная оценка и не заменяет FORDEX Score.',
   lastVerified: '06 OCT 2026',
 };
