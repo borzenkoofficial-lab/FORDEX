@@ -17,6 +17,16 @@ function normalizeSiteUrl(value) {
   return url.origin;
 }
 
+function isPlaceholderOrLocalHost(hostname) {
+  const host = String(hostname || '').toLowerCase().replace(/^\[|\]$/g, '');
+  const reservedTlds = ['.invalid', '.test', '.localhost', '.local', '.example'];
+  const sampleDomains = ['example.com', 'example.org', 'example.net'];
+  if (sampleDomains.some((domain) => host === domain || host.endsWith('.' + domain))) return true;
+  if (reservedTlds.some((suffix) => host === suffix.slice(1) || host.endsWith(suffix))) return true;
+  if (host === 'localhost' || host === '::1' || host === '0.0.0.0' || /^127\./.test(host)) return true;
+  return false;
+}
+
 function xmlEscape(value) {
   return String(value)
     .replace(/&/g, '&amp;')
@@ -65,8 +75,17 @@ function setStructuredData(html, schema) {
 }
 
 const siteUrl = normalizeSiteUrl(configuredUrl);
-if (!siteUrl && process.env.VERCEL_ENV === 'production') {
-  throw new Error('[seo] SITE_URL is required for a production deployment. Set it to the final public HTTPS origin before building.');
+if (process.env.VERCEL_ENV === 'production') {
+  if (!siteUrl) {
+    throw new Error('[seo] SITE_URL is required for a production deployment. Set it to the final public HTTPS origin before building.');
+  }
+  const publicUrl = new URL(siteUrl);
+  if (publicUrl.protocol !== 'https:') {
+    throw new Error('[seo] SITE_URL must use HTTPS in a production deployment.');
+  }
+  if (isPlaceholderOrLocalHost(publicUrl.hostname)) {
+    throw new Error('[seo] SITE_URL must be a real public hostname, not a placeholder or local address.');
+  }
 }
 
 const robotsLines = [
