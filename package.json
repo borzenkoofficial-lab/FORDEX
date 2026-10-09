@@ -23,14 +23,14 @@
     "verify:seo:output": "node scripts/verify-seo-output.mjs"
   },
   "dependencies": {
-    "@vitejs/plugin-react": "latest",
-    "vite": "latest",
-    "react": "latest",
-    "react-dom": "latest",
-    "lucide-react": "latest"
+    "@vitejs/plugin-react": "6.1.2",
+    "vite": "8.3.4",
+    "react": "19.3.0",
+    "react-dom": "19.3.0",
+    "lucide-react": "1.54.0"
   },
   "devDependencies": {},
   "engines": {
-    "node": ">=22.0.0"
+    "node": ">=22.12.0"
   }
 }
