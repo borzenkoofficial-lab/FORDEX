@@ -19,6 +19,8 @@ export function isValidAdminToken(candidate, configuredToken = process.env.FORDE
 }
 
 export function authorizeAdmin(req, res) {
+  if (!enforceRateLimit(req, res, { scope: 'admin-auth', limit: 50, windowMs: 10 * 60 * 1000 })) return false;
+
   const configured = String(process.env.FORDEX_ADMIN_TOKEN || '');
   if (configured.length < 32) {
     respond(res, 503, { error: 'ADMIN_ACCESS_NOT_CONFIGURED' });
@@ -36,8 +38,9 @@ export function authorizeAdmin(req, res) {
 
 export function enforceRateLimit(req, res, { scope, limit, windowMs }) {
   const now = Date.now();
-  const forwardedFor = String(req.headers?.['x-forwarded-for'] || '').split(',')[0].trim();
-  const address = forwardedFor || req.socket?.remoteAddress || 'unknown';
+  const platformAddress = String(req.headers?.['x-vercel-forwarded-for'] || req.headers?.['x-real-ip'] || '').split(',')[0].trim();
+  const forwardedChain = String(req.headers?.['x-forwarded-for'] || '').split(',').map((item) => item.trim()).filter(Boolean);
+  const address = platformAddress || forwardedChain.at(-1) || req.socket?.remoteAddress || 'unknown';
   const key = String(scope) + ':' + address;
   const current = rateBuckets.get(key);
 
