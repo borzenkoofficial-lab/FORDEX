@@ -17,8 +17,29 @@ assert.match(robots, new RegExp('Sitemap: ' + siteUrl.replace(/[.*+?^$()|[\]\\]/
 
 const home = await readFile(new URL('index.html', dist), 'utf8');
 assert.match(home, /<title>FORDEX — индекс AI-бизнеса России<\/title>/, 'home page title must be rendered into HTML');
+assert.match(home, new RegExp(siteUrl.replace(/[.*+?^$()|[\]\\]/g, '\\const home = await readFile(new URL('index.html', dist), 'utf8');
+assert.match(home, /<title>FORDEX — индекс AI-бизнеса России<\/title>/, 'home page title must be rendered into HTML');
 assert.match(home, new RegExp(siteUrl.replace(/[.*+?^$()|[\]\\]/g, '\\$&') + '/'), 'home page canonical must use the production URL');
 assert.match(home, /fordex-structured-data/, 'home page must contain JSON-LD');
+') + '/'), 'home page canonical must use the production URL');
+assert.match(home, /fordex-structured-data/, 'home page must contain JSON-LD');
+assert.match(home, /Свежие материалы/, 'home page must contain meaningful static body content');
+assert.match(home, /<h1>FORDEX/, 'home page must expose its main heading in initial HTML');
+
+const expectedStaticText = {
+  companies: 'Каталог компаний',
+  founders: 'Основатели и команды',
+  deals: 'Записи о сделках',
+  rankings: 'Компании в основном индексе',
+  market: 'Наблюдаемые рыночные сигналы',
+  news: 'Редакционные материалы',
+  analytics: 'Как читать индекс',
+  sources: 'Принципы работы с данными',
+};
+for (const [route, heading] of Object.entries(expectedStaticText)) {
+  const html = await readFile(new URL(route + '/index.html', dist), 'utf8');
+  assert.ok(html.includes(heading), route + ' must contain meaningful static content');
+}
 
 for (const [route, page] of Object.entries(SEO_PAGES)) {
   const path = route === 'home' ? 'index.html' : route + '/index.html';
