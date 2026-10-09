@@ -26,7 +26,10 @@ for (const [route, page] of Object.entries(SEO_PAGES)) {
   assert.ok(html.includes('<title>' + page.title), route + ' must have a route-specific title');
   assert.match(html, /rel="canonical"/, route + ' must have canonical URL');
   if (page.noindex) assert.match(html, /name="robots" content="noindex, nofollow"/, route + ' must be noindex');
-  else assert.match(sitemap, new RegExp('/' + (route === 'home' ? '$' : route + '/')), route + ' must be in sitemap');
+  else {
+    const routeUrl = route === 'home' ? siteUrl + '/' : siteUrl + '/' + route + '/';
+    assert.ok(sitemap.includes('<loc>' + routeUrl + '</loc>'), route + ' must be in sitemap');
+  }
 }
 
 for (const article of editorialArticles.filter((item) => item?.id && item?.title)) {
