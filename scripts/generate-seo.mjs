@@ -1,6 +1,12 @@
 import { mkdir, readFile, writeFile } from 'node:fs/promises';
 import { editorialArticles } from '../src/data/articles.js';
 import { SEO_PAGES } from '../src/data/seo.js';
+import { companyRegistry, companyRegistryStats } from '../src/data/companyRegistry.js';
+import { founderRegistry, founderRegistryStats } from '../src/data/founderRegistry.js';
+import { dealRecords } from '../src/data/deals.js';
+import { startupRankings } from '../src/data/startups.js';
+import { rankingCollections } from '../src/data/rankingCollections.js';
+import { liveMarketSnapshot } from '../src/data/liveMarketSnapshot.js';
 
 const outputDirectory = new URL('../dist/', import.meta.url);
 const configuredUrl = String(process.env.SITE_URL || '').trim();
@@ -147,19 +153,149 @@ let pageSnapshots = 0;
 for (const route of routes) {
   const canonicalUrl = siteUrl + route.path;
   const schema = schemaForPage(route.page, canonicalUrl);
-  const html = withPageMetadata(baseHtml, {
+  let html = withPageMetadata(baseHtml, {
     title: route.page.title,
     description: route.page.description,
     canonicalUrl,
     noindex: route.noindex,
     schema,
   });
+  const staticMarkup = renderRouteMarkup(route.key);
+  if (!html.includes('<div id="root"></div>')) {
+    throw new Error('VITE_ROOT_CONTAINER_NOT_FOUND: ' + route.key);
+  }
+  html = html.replace('<div id="root"></div>', '<div id="root">' + staticMarkup + '</div>');
   const targetDirectory = route.path === '/'
     ? outputDirectory
     : new URL(route.path.slice(1), outputDirectory);
   await mkdir(targetDirectory, { recursive: true });
   await writeFile(route.path === '/' ? new URL('index.html', outputDirectory) : new URL('index.html', targetDirectory), html, 'utf8');
   pageSnapshots += 1;
+}
+
+
+function internalLink(path, label, className = '') {
+  return '<a' + (className ? ' class="' + className + '"' : '') + ' href="' + htmlEscape(path) + '">' + htmlEscape(label) + '</a>';
+}
+
+function staticList(items, renderItem, className = 'seo-static-list') {
+  if (!items.length) return '<p>Публичные материалы пока готовятся к публикации.</p>';
+  return '<ul class="' + className + '">' + items.map((item) => '<li>' + renderItem(item) + '</li>').join('') + '</ul>';
+}
+
+function renderRouteMarkup(routeKey) {
+  const page = SEO_PAGES[routeKey];
+  if (!page) return '';
+
+  const intro = '<header class="seo-static-intro"><p class="seo-static-kicker">FORDEX · ИНДЕКС AI-БИЗНЕСА РОССИИ</p>' +
+    '<h1>' + htmlEscape(page.title.replace(/ — FORDEX$/, '')) + '</h1>' +
+    '<p>' + htmlEscape(page.description) + '</p></header>';
+  const section = (title, content) => '<section class="seo-static-section"><h2>' + htmlEscape(title) + '</h2>' + content + '</section>';
+
+  if (routeKey === 'home') {
+    const latest = editorialArticles.slice(0, 8);
+    const metrics = '<dl class="seo-static-metrics">' +
+      '<div><dt>Компании</dt><dd>' + companyRegistryStats.total + '</dd></div>' +
+      '<div><dt>Основатели</dt><dd>' + founderRegistryStats.total + '</dd></div>' +
+      '<div><dt>Сделки</dt><dd>' + dealRecords.length + '</dd></div>' +
+      '<div><dt>Редакционные материалы</dt><dd>' + editorialArticles.length + '</dd></div></dl>';
+    const links = '<nav class="seo-static-nav" aria-label="Разделы FORDEX">' +
+      ['companies','founders','deals','rankings','market','news','analytics','sources'].map((key) => internalLink('/' + key + '/', SEO_PAGES[key].title.replace(/ — FORDEX$/, ''))).join('') +
+      '</nav>';
+    const latestList = staticList(latest, (article) => internalLink('/articles/' + encodeURIComponent(article.id) + '/', article.title) +
+      '<p>' + htmlEscape(article.dek || article.lead || '') + '</p>', 'seo-static-articles');
+    return '<div class="seo-static-content">' + intro + metrics + links + section('Свежие материалы', latestList) + '</div>';
+  }
+
+  if (routeKey === 'companies') {
+    const items = companyRegistry.slice(0, 60);
+    const list = staticList(items, (item) => '<h3>' + htmlEscape(item.name) + '</h3><p>' +
+      htmlEscape([item.sector, item.stage, item.city].filter(Boolean).join(' · ')) + '</p><p>' +
+      htmlEscape(item.description || '') + '</p>');
+    return '<div class="seo-static-content">' + intro +
+      section('Каталог компаний', '<p>В реестре FORDEX — ' + companyRegistryStats.total + ' профилей. Из них ' +
+        companyRegistryStats.ranked + ' относятся к оценённым индексным компаниям, а ' +
+        companyRegistryStats.emerging + ' — к исследуемым молодым проектам.</p>' + list) + '</div>';
+  }
+
+  if (routeKey === 'founders') {
+    const items = founderRegistry.slice(0, 50);
+    return '<div class="seo-static-content">' + intro +
+      section('Основатели и команды', '<p>В реестре FORDEX — ' + founderRegistryStats.total +
+        ' профилей. Указанные роли и описания относятся к данным реестра и требуют проверки по первоисточникам перед использованием в инвестиционных решениях.</p>' +
+        staticList(items, (item) => '<h3>' + htmlEscape(item.name) + '</h3><p>' +
+          htmlEscape([item.role, item.company, item.city].filter(Boolean).join(' · ')) + '</p><p>' +
+          htmlEscape(item.description || '') + '</p>')) + '</div>';
+  }
+
+  if (routeKey === 'deals') {
+    const items = [...dealRecords].sort((a,b) => (Number(b.valueM)||0) - (Number(a.valueM)||0));
+    return '<div class="seo-static-content">' + intro +
+      section('Записи о сделках', staticList(items, (item) => '<h3>' + htmlEscape(item.company) + ' — ' +
+        htmlEscape(item.value || 'Сумма не раскрыта') + '</h3><p>' +
+        htmlEscape([item.type, item.date, item.sector, item.lead].filter(Boolean).join(' · ')) +
+        '</p><p>' + (item.verified ? 'В реестре отмечено как проверенная запись; это не заменяет повторную проверку условий сделки.' : 'Запись требует дополнительной проверки.') + '</p>')) + '</div>';
+  }
+
+  if (routeKey === 'rankings') {
+    const items = [...startupRankings].sort((a,b) => (Number(a.rank)||9999) - (Number(b.rank)||9999)).slice(0, 35);
+    const collections = staticList(rankingCollections, (item) => '<h3>' + htmlEscape(item.title || item.label || item.key) +
+      '</h3><p>' + htmlEscape(item.description || '') + '</p><p>' + htmlEscape(item.status || '') + '</p>');
+    const ranked = staticList(items, (item) => '<h3>№ ' + htmlEscape(item.rank) + ' · ' + htmlEscape(item.name) +
+      ' — ' + htmlEscape(item.score) + '/100</h3><p>' + htmlEscape([item.sector, item.stage, item.city].filter(Boolean).join(' · ')) +
+      '</p><p>' + htmlEscape(item.description || item.traction || '') + '</p>');
+    return '<div class="seo-static-content">' + intro + section('Публичные серии индекса', collections) +
+      section('Компании в основном индексе', ranked) +
+      '<p class="seo-static-note">Рейтинг — редакционная оценка в рамках опубликованной методологии FORDEX. Он не является инвестиционной рекомендацией и может изменяться после проверки новых данных.</p></div>';
+  }
+
+  if (routeKey === 'market') {
+    const rows = Object.values(liveMarketSnapshot.companies || {})
+      .filter((item) => item.latestTitle && item.latestPublishedAt)
+      .sort((a,b) => Date.parse(b.latestPublishedAt) - Date.parse(a.latestPublishedAt))
+      .slice(0, 18);
+    return '<div class="seo-static-content">' + intro +
+      section('Наблюдаемые рыночные сигналы', '<p>Срез сформирован ' +
+        htmlEscape(liveMarketSnapshot.generatedAt || 'без отметки времени') + ' по результатам автоматического обнаружения публичных упоминаний за окно до ' +
+        htmlEscape(liveMarketSnapshot.windowDays || 30) + ' дней. Совпадение в новостной ленте — сигнал для проверки, а не подтверждение роста, выручки или инвестиционной сделки.</p>' +
+        staticList(rows, (item) => '<h3>' + htmlEscape(item.companyName) + '</h3><p>' +
+          htmlEscape(item.latestTitle) + '</p><p>' + htmlEscape(item.latestSourceName || '') +
+          (item.latestPublishedAt ? ' · ' + htmlEscape(item.latestPublishedAt) : '') + '</p>')) + '</div>';
+  }
+
+  if (routeKey === 'news') {
+    const items = editorialArticles.slice(0, 50);
+    return '<div class="seo-static-content">' + intro +
+      section('Редакционные материалы', staticList(items, (article) => internalLink('/articles/' + encodeURIComponent(article.id) + '/', article.title) +
+        '<p>' + htmlEscape([article.category, article.date, article.readTime].filter(Boolean).join(' · ')) + '</p>' +
+        '<p>' + htmlEscape(article.dek || article.lead || '') + '</p>', 'seo-static-articles')) + '</div>';
+  }
+
+  if (routeKey === 'analytics') {
+    return '<div class="seo-static-content">' + intro +
+      section('Как читать индекс', '<p>FORDEX разделяет подтверждённые факты, данные со слов компании и редакционную интерпретацию. Наличие упоминаний, сложность технологии или размер раунда сами по себе не гарантируют высокий рейтинг.</p>' +
+        '<p>Оценки действуют в рамках собственной методологии, а источники и ограничения фиксируются отдельно. Разные бизнес-модели и стадии развития требуют сопоставимых, но не идентичных показателей.</p>' +
+        internalLink('/sources/', 'Правила источников и проверки данных') + ' · ' +
+        internalLink('/rankings/', 'Посмотреть рейтинги')) + '</div>';
+  }
+
+  if (routeKey === 'sources') {
+    return '<div class="seo-static-content">' + intro +
+      section('Принципы работы с данными', '<p>Приоритет отдается первоисточникам: официальным сообщениям компаний, публикациям инвесторов, реестрам и документам. Вторичные публикации используются как навигационный сигнал и требуют проверки.</p>' +
+        '<p>FORDEX разделяет источник, проверяемое утверждение и редакционный вывод. Отсутствие открытых данных не должно автоматически трактоваться как отсутствие бизнеса, выручки или traction.</p>' +
+        internalLink('/analytics/', 'Открыть методологию рейтингов')) + '</div>';
+  }
+
+  if (routeKey === 'watchlist') {
+    return '<div class="seo-static-content">' + intro + '<p>Список наблюдения хранится локально в браузере и не публикуется в индексе FORDEX.</p>' +
+      internalLink('/companies/', 'Перейти к каталогу компаний') + '</div>';
+  }
+
+  if (routeKey === 'control') {
+    return '<div class="seo-static-content">' + intro + '<p>Закрытая рабочая зона редакции. Доступ к операциям AI проверяется серверным ключом.</p></div>';
+  }
+
+  return '<div class="seo-static-content">' + intro + '</div>';
 }
 
 function renderArticleMarkup(article) {
