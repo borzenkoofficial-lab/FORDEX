@@ -18,7 +18,8 @@ export const startupRankings = [
     website: 'https://cognitivepilot.com/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://cognitivepilot.com/cognitive-news/news/cognitive-pilot-privlek-0-9-mlrd-rubley-dlya-masshtabirovaniya-avtonomnykh-resheniy-na-baze-ii/'
+    source: 'https://cognitivepilot.com/cognitive-news/news/cognitive-pilot-privlek-0-9-mlrd-rubley-dlya-masshtabirovaniya-avtonomnykh-resheniy-na-baze-ii/',
+    fundingSource: 'https://cognitivepilot.com/cognitive-news/news/cognitive-pilot-privlek-0-9-mlrd-rubley-dlya-masshtabirovaniya-avtonomnykh-resheniy-na-baze-ii/'
   },
   {
     id: 'medical-visual-systems',
@@ -39,7 +40,8 @@ export const startupRankings = [
     website: 'https://mvs.ai/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://kamaflow.com/ru/post/mvs-a-portfolio-company-of-kama-flow-raises-1-billion-rubles-from-rdif-and-uk-pervaya-in-new-investment-round/'
+    source: 'https://kamaflow.com/ru/post/mvs-a-portfolio-company-of-kama-flow-raises-1-billion-rubles-from-rdif-and-uk-pervaya-in-new-investment-round/',
+    fundingSource: 'https://kamaflow.com/ru/post/mvs-a-portfolio-company-of-kama-flow-raises-1-billion-rubles-from-rdif-and-uk-pervaya-in-new-investment-round/'
   },
   {
     id: 'neiry',
@@ -60,7 +62,8 @@ export const startupRankings = [
     website: 'https://neiry.ru/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://neiry.ru/strategy'
+    source: 'https://neiry.ru/strategy',
+    fundingSource: 'https://neiry.ru/news/tpost/0d8civnm91-neiry-obyavila-o-zakritii-raunda-na-500'
   },
   {
     id: 'dresscode-ai',
@@ -81,7 +84,8 @@ export const startupRankings = [
     website: 'https://dresscode.ai/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://www.dresscode.ai/news/dresscode-i-cum-zaklyuchili-strategicheskoe-partnerstvo.html'
+    source: 'https://www.dresscode.ai/news/dresscode-i-cum-zaklyuchili-strategicheskoe-partnerstvo.html',
+    fundingSource: 'https://www.cnews.ru/news/top/2025-10-29_investory_vlozhili_300_millionov'
   },
   {
     id: 'targetai',
@@ -102,7 +106,8 @@ export const startupRankings = [
     website: 'https://targetai.ai/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://targetai.ai/blog/investments-targetai'
+    source: 'https://targetai.ai/blog/investments-targetai',
+    fundingSource: 'https://targetai.ai/blog/investments-targetai'
   },
   {
     id: 'syntelly',
@@ -135,7 +140,7 @@ export const startupRankings = [
     stage: 'GROWTH',
     fundingM: 100,
     funding: '₽100M',
-    latestRound: '2025',
+    latestRound: 'OCT 2025',
     score: 79.8,
     momentum: 7.4,
     traction: '300+ продуктов на платформе · 500+ млрд транзакций в год.',
@@ -144,7 +149,8 @@ export const startupRankings = [
     website: 'https://platformeco.ru/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://platformeco.ru/about'
+    source: 'https://platformeco.ru/about',
+    fundingSource: 'https://kamaflow.com/ru/post/kama-flow-has-invested-100-million-rubles-in-platformeco/'
   },
   {
     id: 'qummy',
@@ -154,9 +160,9 @@ export const startupRankings = [
     sector: 'FOODTECH / AI',
     tags: ['CONSUMER', 'INDUSTRIAL'],
     stage: 'GROWTH',
-    fundingM: 430,
-    funding: '₽430M',
-    latestRound: '2025',
+    fundingM: 440,
+    funding: '₽440M',
+    latestRound: 'JUN 2025',
     score: 77.9,
     momentum: 4.6,
     traction: 'Роботизированный food-ритейл и автоматизированное производство.',
@@ -165,7 +171,8 @@ export const startupRankings = [
     website: 'https://qummy.ru/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://secrets.tbank.ru/razvitie/investicii-v-it-proekty/'
+    source: 'https://rb.ru/news/vypem-kogda-perevalim-kapitalizaciy/',
+    fundingSource: 'https://rb.ru/news/vypem-kogda-perevalim-kapitalizaciy/'
   },
   {
     id: 'iskra',
@@ -177,7 +184,7 @@ export const startupRankings = [
     stage: 'SEED',
     fundingM: 10,
     funding: '₽10M',
-    latestRound: '2026',
+    latestRound: 'MAR 2026',
     score: 76.8,
     momentum: 21.9,
     traction: 'Автоматизация производства маркетингового контента для бизнеса с контролем согласований.',
@@ -186,7 +193,8 @@ export const startupRankings = [
     website: 'https://iskra-ai.ru/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://www.livebusiness.ru/tags/ii_startapy/'
+    source: 'https://www.cnews.ru/news/line/2026-03-16_ii-platforma_iskra_privlekla',
+    fundingSource: 'https://www.cnews.ru/news/line/2026-03-16_ii-platforma_iskra_privlekla'
   },
   {
     id: 'expanta',
@@ -198,7 +206,7 @@ export const startupRankings = [
     stage: 'GROWTH',
     fundingM: 300,
     funding: '₽300M',
-    latestRound: '2025',
+    latestRound: 'OCT 2025',
     score: 74.3,
     momentum: 3.1,
     traction: 'Портфель промышленных решений: планирование, DSS, APS, APC и CMMS.',
@@ -207,7 +215,8 @@ export const startupRankings = [
     website: 'https://expanta.ru/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://expanta.ru/'
+    source: 'https://expanta.ru/news/model-gibkih-partnerstv-rabotaet-ekspanta-privlekla-300-mln/',
+    fundingSource: 'https://expanta.ru/news/model-gibkih-partnerstv-rabotaet-ekspanta-privlekla-300-mln/'
   },
   {
     id: 'piklema',
@@ -217,7 +226,7 @@ export const startupRankings = [
     sector: 'INDUSTRIAL TECH',
     tags: ['INDUSTRIAL', 'DEEPTECH'],
     stage: 'GROWTH',
-    fundingM: 1000,
+    fundingM: null,
     funding: 'ДО ₽1,0 МЛРД',
     latestRound: '2025',
     score: 72.7,
@@ -228,7 +237,8 @@ export const startupRankings = [
     website: 'https://www.piklema.ru/',
     verified: true,
     lastVerified: '2026-10',
-    source: 'https://www.piklema.ru/about'
+    source: 'https://www.piklema.ru/about',
+    fundingSource: 'https://www.kamaflow.ru/ru/post/kama-flow-has-been-named-the-winner-of-the-moscow-startup-summit-technology-award-in-the-most-active-venture-fund-category/'
   },
   {
     id: 'visionlabs',
