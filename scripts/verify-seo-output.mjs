@@ -26,9 +26,9 @@ for (const [route, page] of Object.entries(SEO_PAGES)) {
   assert.ok(html.includes('<title>' + page.title), route + ' must have a route-specific title');
   assert.match(html, /rel="canonical"/, route + ' must have canonical URL');
   if (!page.noindex) {
-    assert.match(html, /<main class="seo-static-fallback">/, route + ' must contain a semantic static fallback');
+    assert.match(html, /<main class="seo-static-content">/, route + ' must contain a semantic static fallback');
     assert.ok(html.includes('<h1>' + page.title + '</h1>'), route + ' must have its own static heading');
-    assert.match(html, /class="seo-static-fallback-nav"/, route + ' must expose crawlable internal navigation');
+    assert.match(html, /class="seo-static-nav"/, route + ' must expose crawlable internal navigation');
     assert.match(html, /href="\/articles\//, route + ' must link to indexed editorial articles');
   }
   if (page.noindex) assert.match(html, /name="robots" content="noindex, nofollow"/, route + ' must be noindex');
