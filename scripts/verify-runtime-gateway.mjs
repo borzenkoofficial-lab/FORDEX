@@ -10,7 +10,10 @@ const required = [
   'canPublish: false',
   'canOverrideScore: false',
   'canChangeFormula: false',
-  "'x-fordex-test-key'"
+  "'x-fordex-test-key'",
+  'FORDEX_AI_PROVIDER_TIMEOUT_MS',
+  'MODEL_PROVIDER_TIMEOUT',
+  'signal: controller.signal'
 ];
 
 for (const token of required) {
