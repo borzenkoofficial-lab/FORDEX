@@ -27,3 +27,4 @@ jobs:
       - run: npm run verify:security
       - run: npm run verify:seo
       - run: SITE_URL=https://fordex.example.invalid npm run build
+      - run: SITE_URL=https://fordex.example.invalid npm run verify:seo:output
