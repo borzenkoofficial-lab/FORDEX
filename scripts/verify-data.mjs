@@ -30,18 +30,18 @@ function normalizeEvidenceUrl(value, label) {
   try {
     const url = new URL(String(value || ''));
     if (!['http:', 'https:'].includes(url.protocol)) fail(label + ': source must use HTTP(S)');
-    return url.href.replace(/\\/$/, '');
+    return url.href.replace(/\/$/, '');
   } catch (error) {
     fail(label + ': invalid source URL');
   }
 }
 
-const quantitativeClaimPattern = /\\b\\d[\\d\\s.,]*(?:%|₽|руб(?:лей|ля|ль)?|млн|тыс(?:\\.|яч)?|пользоват|плательщик|MRR|ARR|клиент|сотрудник|проект|договор|заказ|клиник|раунд|финансирован|активн|скачиван)/i;
+const quantitativeClaimPattern = /\b\d[\d\s.,]*(?:%|₽|руб(?:лей|ля|ль)?|млн|тыс(?:\.|яч)?|пользоват|плательщик|MRR|ARR|клиент|сотрудник|проект|договор|заказ|клиник|раунд|финансирован|активн|скачиван)/i;
 
 for (const startup of emergingStartups) {
   const label = startup.name || startup.id || 'unnamed startup';
   normalizeEvidenceUrl(startup.source, label);
-  if (!/^20\\d{2}-(0[1-9]|1[0-2])$/.test(String(startup.lastVerified || ''))) {
+  if (!/^20\d{2}-(0[1-9]|1[0-2])$/.test(String(startup.lastVerified || ''))) {
     fail(label + ': lastVerified must use YYYY-MM');
   }
   if (startup.founderAge != null) {
