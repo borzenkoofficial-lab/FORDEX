@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-10T16:27:12.838Z",
+  "generatedAt": "2026-10-10T20:46:58.472Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,11 +112,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 14:21:00 GMT",
-      "latestTitle": "Шестиступка против вариатора: какой мотор и коробку лучше выбрать в Lada Iskra - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uMDU4Qm9iQlk4d0gzNWloUnJLc1ZZYUdpaFhxUHhyQWxyM0VaM1R5UDJPM3BMZkQ0OFd3ZzFxcklmODdXa3M2V2t4X2tRbVQ3dTYzUmlIUDhYNFBZZVgwV29HcHl5ZDBLSEhtVEdCQ0toY1ZnQ1FNRE1wUQ?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Sat, 10 Oct 2026 17:32:08 GMT",
+      "latestTitle": "АвтоВАЗ выявил недочёты в Lada Iskra — дилеры бесплатно доработают подвеску, салон и электронику - iXBT.com",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYms4SzBGMVFXMkhEckVLRV9VNkZtMVFmRHVqakdRSFFjZ0JET0hiOTVzTUptaWhpYTJvVThOc1BoSHhLUTh1REM0SWxIakVlemZkRU1pMGliVXhCT3BlQzZKNktMMEE5cHBodGFOQk9YcEZEaWM3dUhJQURPUFlrbm9jTFNJcDN0am5DTnBLM1doTjhIbklXeHBFdFdGWjNMVGtjNWY3TlFDV3p4OUtfVDlNMWhkLTkycHBkU0d4VEViS0dsXy1vSFZmWVhEQXZ1WnNzZS1JRdIB3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ3?oc=5",
+      "latestSourceName": "iXBT.com",
       "sources": [
+        {
+          "title": "АвтоВАЗ выявил недочёты в Lada Iskra — дилеры бесплатно доработают подвеску, салон и электронику - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYms4SzBGMVFXMkhEckVLRV9VNkZtMVFmRHVqakdRSFFjZ0JET0hiOTVzTUptaWhpYTJvVThOc1BoSHhLUTh1REM0SWxIakVlemZkRU1pMGliVXhCT3BlQzZKNktMMEE5cHBodGFOQk9YcEZEaWM3dUhJQURPUFlrbm9jTFNJcDN0am5DTnBLM1doTjhIbklXeHBFdFdGWjNMVGtjNWY3TlFDV3p4OUtfVDlNMWhkLTkycHBkU0d4VEViS0dsXy1vSFZmWVhEQXZ1WnNzZS1JRdIB3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ3?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 17:32:08 GMT",
+          "sourceName": "iXBT.com"
+        },
         {
           "title": "Шестиступка против вариатора: какой мотор и коробку лучше выбрать в Lada Iskra - Правда.Ру",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uMDU4Qm9iQlk4d0gzNWloUnJLc1ZZYUdpaFhxUHhyQWxyM0VaM1R5UDJPM3BMZkQ0OFd3ZzFxcklmODdXa3M2V2t4X2tRbVQ3dTYzUmlIUDhYNFBZZVgwV29HcHl5ZDBLSEhtVEdCQ0toY1ZnQ1FNRE1wUQ?oc=5",
@@ -140,35 +146,23 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN1RTRjNpTGQ2VU9lNkhXdFFxWDZEM1Zsa0ZNdmo4QVZ0RWJTSE5tV2tnT0xiai1jalctalFWWTJLLVJEdFFZMlhIZTY2ck51bFkySUxTNWVWRVNjYlRmY3VYeVdoMklwWE5yNml2MlcxZVIzaWJVZ2UwZDFBaW1URHktaHFtU29mcDJYeF9NeUxjRnZIX196WUVNWGVtM2FGeDZ4Xw?oc=5",
           "publishedAt": "Sat, 10 Oct 2026 02:18:12 GMT",
           "sourceName": "110km.ru"
-        },
-        {
-          "title": "Стало известно, когда стартуют продажи Lada Vesta и Iskra c новыми моторами - За рулем",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iQnN0MW05VFFoQ1ZtMC1mSnRXX1RQN0FiRUpfS0dxZmpPamMxemMxMHgxZFR3cUxLaUgtTGY0eHZleWIxN0huTUctVldXb2VfQ1MtQjAtUHVscThJOE1uZ1lzbXVTdEJWMGxEYzlxMDMycWxaWm5LOWo4Z9IBgAFBVV95cUxNVzZpRlB6am9SbWJveWF4aFlXMUlMVjRXRHpwUy1ub3U3NjFYY3BWcm5MSWlsbHBBbzhaOGdfWkZ3YmZFLVhXdmpUV2gtOXREN3NDSzlXbmNteE1aODFMX0lfOEZBTlpwdzVHWDZCeGJoUlJwN2ZVNHFLbTNlbzRoQw?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 16:55:32 GMT",
-          "sourceName": "За рулем"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 4,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
-      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+      "latestPublishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
-        {
-          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
@@ -222,7 +216,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 9,
+      "sourceCount30d": 8,
       "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -884,16 +878,22 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 10,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 03 Oct 2026 12:13:26 GMT",
-      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
+      "latestTitle": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlrSAVhBVV95cUxNMXdkZlV1WEdIR3J0THZieEdGRXZuYllDLXY3WlZ5cGs2WnpHZjMzLXhUVDloYkhyRy1mLWlxUWZmdnRqS1Zzd1lMVm42OFhtaHdDUV90R3Za?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlrSAVhBVV95cUxNMXdkZlV1WEdIR3J0THZieEdGRXZuYllDLXY3WlZ5cGs2WnpHZjMzLXhUVDloYkhyRy1mLWlxUWZmdnRqS1Zzd1lMVm42OFhtaHdDUV90R3Za?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
@@ -916,12 +916,6 @@ export const liveMarketSnapshot = {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -989,17 +983,24 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
+      "latestTitle": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1019,17 +1020,23 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
-      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Sat, 10 Oct 2026 19:34:18 GMT",
+      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 19:34:18 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
@@ -1056,7 +1063,7 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1083,12 +1090,6 @@ export const liveMarketSnapshot = {
           "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
           "publishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Бренды перестали гоняться за охватом. Теперь они борются за перетекание внимания — и короткое видео стало точкой входа - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyZXpncGd1bXg4cUNJUGY4S2R1bmZycE1WM3piN1ZzYzQ0bF9KU3FGVUhGZEc5TWRWNk5yZmlZSXJJRWtCUktCdFE3b2Q1Z2phMUE?oc=5",
-          "publishedAt": "Thu, 24 Sep 2026 14:51:21 GMT",
           "sourceName": "Sostav.ru"
         },
         {
