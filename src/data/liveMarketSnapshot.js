@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-09T21:55:37.154Z",
+  "generatedAt": "2026-10-10T02:57:45.246Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -136,23 +136,23 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
+          "title": "55 лет «Серебряному кубку» ВАЗ-2101: фестиваль Lada Iskra Cup Fest соберёт исторические и гоночные автомобили - E-osetia",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSlFkbjZ3SExnVkt4T3BnSHlWeks5ZUlVb0JNNWRXRzQyNU1jOUUwcHpRLVEwaUkwY2h6WFp4YzA1TU9lZUphRV9DXzhyRDhuY2FFNDYwRW1PYkFScTlpeG1LcER0QmpRZVpVLVBUXzFvaTVTZXFvdlRkQUIxNHNNWTI1cU1NRGVtQzNxWmNSR1JieFhNaHc5NUg4ZWE1aVdzNV9XSjBxenZNT1lxS1JocE01Q0swbW5GcFpBYm5YX2U0SWdJV19WMTZSMHBub1VrQnZKLTl2S1BJUQ?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 08:45:26 GMT",
+          "sourceName": "E-osetia"
+        },
+        {
           "title": "Продажи Lada Vesta и Iskra с новыми моторами стартуют в четвёртом квартале 2026 - Overclockers.ru",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQamVzTVd5UjlSaFFxUFZsTUZVZ1dtU3YzSTZ4Y0Fjbmwzdzh1SGRER1h1ZEtUN2dEekEtX1d5NDBmd2hxdndSSEpET3FKN0NPYkV4dERKMjVpNEw3SXdXSjJEcDV4OG1FM0p6RjAzRHFCRXNKLWZXNU9mdWd4X05ESEpSU055bWdsMWN1SWdBUUxJUW0zWDI0ZFBVX1lOTjBEbWZfSzZLNUtVRGktV0laTTBySVRBSTlOZGJBMmZEbzlONnlJM3NNVzUwTWJBLTdPSG0telVR0gHUAUFVX3lxTE5JU3NXN0lkaFZKN2VXME51VEx6d2VRMkNvOHJFa3FHbXRxTVhMNVNJTmZWaGNwaE83NnZrTnpTN1oteGhLS2JSVUxfanhJeDVlY0ZUZzN5N2tJaEg5dVFzVmZ6aktrOV90S1ZEb2MtenZzbHZDb1FTc054NjZlMGNITWdXNDRjRFFRdV81YU90ZmkzcjloTldVQTh4ckctaTVkTU9STzhxQ012aVRxSnZuNEktaGtudElIZUdCa2QyYktFTWVkSmUyNkdUWlg3OTRKV3Qx?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 07:57:00 GMT",
           "sourceName": "Overclockers.ru"
-        },
-        {
-          "title": "Lada Iskra с новым мотором и расширенным списком опций появится до конца года - Авто.ру",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOMmFFSThHNDBTWThoOEw0ck14a2M0aGFYTHNpYWpqTjZ2YnRoSE5hWEF2ZmhzVWxNa2Mwb2NUS0MtMW9GMHdrcmh6bjNyVTRCcm9qQkdkQXViTTNoTDhySGZoam9CYkV3SGtQdWFFdXhXd0VVSnRhSFVwT3ZHVm0xRHFfUlo0WDJGN25GVy00U1ZPcjVFS0JKYzc2SEVJUHVkVVNjY1F6ZFAyamIwQ0E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:42:00 GMT",
-          "sourceName": "Авто.ру"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 2,
+      "sourceCount30d": 4,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -167,6 +167,18 @@ export const liveMarketSnapshot = {
           "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
           "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Как мы обучили детектор джейлбрейков для русскоязычных AI-агентов - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UbC13U1Y3UnBxdDZueU01UXZuZnZrR1JYXzZodDRGMksyM3M2TDIxQWlSX0ZRWmZvZFpGMmhmZERuTVI2VktKTTd5Y0VSMkV2enJmbV9XSFZBbEJsQW1yeG9NQnYzd9IBWEFVX3lxTE5iZnJpWWF1Q0JiSU9RWTgxNEdSZ1NTdE5yelpLOXRxSkFBSENuUDJkSzlYN3JTRTNnMURCV3VjZ1d1Z3VQRDdCWnJDTmJEUDVId2NrVjV3TFk?oc=5",
+          "publishedAt": "Tue, 22 Sep 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -262,16 +274,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "ИТ–холдинг и Piklema будут развивать цифровые решения для промышленности - ЯСИА",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHhpSzZzdVhWN0lMTFpMT3AxZktmOHdPMDR3NWhybk1sRjU5MVNBR2ZKZHlhNWlvVS1HS2R4QWdXZXQwNVgyMkFka0J5ckI1NHozeWNlVXBRQzE3anNhSnlmSzBCLWQyUHJPNHhSbnJGTU9YSHlfZXc5U3A5dUpyTGszZDlzOEF6LWN4VjRnTW16NzdTYUdFcA?oc=5",
-      "latestSourceName": "ЯСИА",
+      "latestPublishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
+      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
+      "latestSourceName": "Newslab.ru",
       "sources": [
         {
-          "title": "ИТ–холдинг и Piklema будут развивать цифровые решения для промышленности - ЯСИА",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHhpSzZzdVhWN0lMTFpMT3AxZktmOHdPMDR3NWhybk1sRjU5MVNBR2ZKZHlhNWlvVS1HS2R4QWdXZXQwNVgyMkFka0J5ckI1NHozeWNlVXBRQzE3anNhSnlmSzBCLWQyUHJPNHhSbnJGTU9YSHlfZXc5U3A5dUpyTGszZDlzOEF6LWN4VjRnTW16NzdTYUdFcA?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "ЯСИА"
+          "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
+          "sourceName": "Newslab.ru"
         },
         {
           "title": "Российские разработчики представили комплексные решения для цифровизации добывающей промышленности - Правда.Ру",
@@ -336,7 +348,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
+      "sourceCount30d": 7,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -366,16 +378,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
+          "title": "Российская Smart Engines разработала портативный 3D-томограф весом 5 кг - Monocle.ru",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
+          "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
+          "sourceName": "Monocle.ru"
+        },
+        {
           "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
           "sourceName": "sdelanounas.ru"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
-          "sourceName": "Первый Технический"
         }
       ]
     },
@@ -1051,8 +1063,8 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 6,
-      "sourceCount7d": 3,
+      "sourceCount30d": 4,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1066,12 +1078,6 @@ export const liveMarketSnapshot = {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 04:36:12 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 01:33:14 GMT",
           "sourceName": "Sostav.ru"
         },
         {
