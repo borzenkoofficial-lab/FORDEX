@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-10T20:46:58.472Z",
+  "generatedAt": "2026-10-10T23:56:00.456Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -114,12 +114,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 0,
       "latestPublishedAt": "Sat, 10 Oct 2026 17:32:08 GMT",
       "latestTitle": "АвтоВАЗ выявил недочёты в Lada Iskra — дилеры бесплатно доработают подвеску, салон и электронику - iXBT.com",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYms4SzBGMVFXMkhEckVLRV9VNkZtMVFmRHVqakdRSFFjZ0JET0hiOTVzTUptaWhpYTJvVThOc1BoSHhLUTh1REM0SWxIakVlemZkRU1pMGliVXhCT3BlQzZKNktMMEE5cHBodGFOQk9YcEZEaWM3dUhJQURPUFlrbm9jTFNJcDN0am5DTnBLM1doTjhIbklXeHBFdFdGWjNMVGtjNWY3TlFDV3p4OUtfVDlNMWhkLTkycHBkU0d4VEViS0dsXy1vSFZmWVhEQXZ1WnNzZS1JRdIB3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ3?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ30gHcAUFVX3lxTFB5czJacnd5Y084VmpCa1ZBVGFaSjZtM0RFSWZjTWFHN3pyNEMzTE5hb1EtRGhNY2FJWjBfaUNyV3Z1eWY1R0tnZUlsZVg4dks1TWJwc2xPMDljT0tuUk5TY0s3eTNwYVppdk1QalNqeUhhMWdLaXdIZ2R5eVhTeFlBcWxBdTh5ZTlrbXYzRHlwazVIc2VPaGtTV0w1U2d0aHNxMUhyT1Vpeklpbm9uWExCRjA5cVpDbUc1dnpsMkVHLS1uX2FfbVVWS3RJbk1PdER2M1gwOFJ3cWp1Nnc?oc=5",
       "latestSourceName": "iXBT.com",
       "sources": [
         {
           "title": "АвтоВАЗ выявил недочёты в Lada Iskra — дилеры бесплатно доработают подвеску, салон и электронику - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYms4SzBGMVFXMkhEckVLRV9VNkZtMVFmRHVqakdRSFFjZ0JET0hiOTVzTUptaWhpYTJvVThOc1BoSHhLUTh1REM0SWxIakVlemZkRU1pMGliVXhCT3BlQzZKNktMMEE5cHBodGFOQk9YcEZEaWM3dUhJQURPUFlrbm9jTFNJcDN0am5DTnBLM1doTjhIbklXeHBFdFdGWjNMVGtjNWY3TlFDV3p4OUtfVDlNMWhkLTkycHBkU0d4VEViS0dsXy1vSFZmWVhEQXZ1WnNzZS1JRdIB3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ3?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ30gHcAUFVX3lxTFB5czJacnd5Y084VmpCa1ZBVGFaSjZtM0RFSWZjTWFHN3pyNEMzTE5hb1EtRGhNY2FJWjBfaUNyV3Z1eWY1R0tnZUlsZVg4dks1TWJwc2xPMDljT0tuUk5TY0s3eTNwYVppdk1QalNqeUhhMWdLaXdIZ2R5eVhTeFlBcWxBdTh5ZTlrbXYzRHlwazVIc2VPaGtTV0w1U2d0aHNxMUhyT1Vpeklpbm9uWExCRjA5cVpDbUc1dnpsMkVHLS1uX2FfbVVWS3RJbk1PdER2M1gwOFJ3cWp1Nnc?oc=5",
           "publishedAt": "Sat, 10 Oct 2026 17:32:08 GMT",
           "sourceName": "iXBT.com"
         },
@@ -368,7 +368,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 14:55:18 GMT",
+          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -837,10 +837,10 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
-      "dealMentions": 3,
+      "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
@@ -858,12 +858,6 @@ export const liveMarketSnapshot = {
           "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
           "sourceName": "Vietnam.vn"
         },
         {
@@ -923,17 +917,24 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
+      "latestSourceName": "thecode.media",
+      "sources": [
+        {
+          "title": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "thecode.media"
+        }
+      ]
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -983,24 +984,17 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
-      "latestTitle": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1394,7 +1388,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 8,
-      "sourceCount7d": 4,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1409,6 +1403,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
           "sourceName": "Retail Life"
+        },
+        {
+          "title": "Атаки на склады обрушили охваты одних маркетплейсов в РФ и подняли других - dp.ru",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0JnS1h5ZVQ1d2ZGakdmU2JlSTdfbnN1VnJKaXRfaWZBekNaclItc1o0d20waE1pVXpoOGF6VjBlM1lzc0JHVlRNOGhuaXYwWDlpU3FNUjQzWU5kTFVyTEpWZHlMWmxIZGl3M2RnQjDSAXtBVV95cUxOb3QyQjBSVG9TQ1VmRjcwYng1QTNoRTVIQnVTWG1HMHJZeEloS1ZENHFBVE55VTdkMGxKS1RjWU51SnVBR3lzWG94OVY5cUVGSjNpZDlNWFlaMmF5cGtDOGRtNFZrUUZOb25UUEtWdXZRcW5sNmZIaDlDYms?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:55:00 GMT",
+          "sourceName": "dp.ru"
         },
         {
           "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
@@ -1427,12 +1427,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
           "sourceName": "Life.ru"
-        },
-        {
-          "title": "Трансграничные QR-платежи: задача не ограничивается охватом - Thông tấn xã Việt Nam (TTXVN)",
-          "url": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxQYkhGZUFTYVN6NkI4SURIRVc0enYxUkp6dGs2UWJIQU5tZlNhaHFwWkIteHZULUUzeHRRU2tQUVZpbmYyVkJaYmE1WVQ4NkxSS01xNWtSY3VzcldlX3gzeEhkRGxhVU1ZRkZlbHRxQlh1ZEtTWmZlSEE5dVhmaXpsTlp2R2NBYXVBS2dKOVBUUkc2bUM2amh3U0hCdUw5Tkx1OHlxT3R2RTFSaHgtNEVwb3dzcmR2Y2dVWjhCUDljSlBvakl0ODBTWDRQdGpIN2VKa3owUHJqYzBtUGxlakVIMDVDUnEzQllUWjVqVXotdWlrNFA1SWtmbTRZTVcyeHlERkpCXzFiZG52dEEzU3V1LVFaeDY2ZVhQVGZfdVd2YTg4QjludzZmZHBHTmczaThkT0pFbU1aX1I5Y2xPU3ZPUjV5T1hiV3ZocjhpLWwyZlRmRGFOdzFmelVMQ2pjRUNfNFJnT0lQY2ZtSlVEU2YyTllCMVVYem5ldC10ZzJCQms3c21Oanc0REgzU20tNXRwcUFNUDQ2VmFIT3ZsUlpnYXQ0MVBtTERTdmZoTTRKMHRlN1Vfa1dOY1RPN2J3Uks2YldNaGhuTUlEQnRHODQ0bDRRVXpQQXRVaWJYYmFVQmtUY09mTzEwLXM4ZlVPM2JxS1VkaG93ZElETUN6ejFj?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 20:49:42 GMT",
-          "sourceName": "Thông tấn xã Việt Nam (TTXVN)"
         }
       ]
     },
