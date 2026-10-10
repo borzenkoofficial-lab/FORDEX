@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-10T09:18:28.642Z",
+  "generatedAt": "2026-10-10T16:27:12.838Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,11 +112,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 06:45:26 GMT",
-      "latestTitle": "АВТОВАЗ обновит LADA Iskra в 2026 году: новый двигатель, климат-контроль - Лада.Онлайн",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemV4eE1aZDRZRGZYcjE4bmhpQjlYeUVPTzVlNU94N0VKdHN2RVhzalIwcDRINWV6dFF3N3NNcEUwTU9Va2dJSE5lLThuTWtzdGJKUmpFaHJSeUVrQzdvRDlfSTJ2d1hJUTh0T05LRF9KNmJYY0F4TWUxWWRaRHpzUTJ6S00tS2otVUZiMXVadHE3dlVMRUdOd1pIZXJkZzJveFBoQVp6ZUhWVk1FLXBWU0Ztc2hIRllEZm9aQnVHU0k5VVJ2UEkyclhB?oc=5",
-      "latestSourceName": "Лада.Онлайн",
+      "latestPublishedAt": "Sat, 10 Oct 2026 14:21:00 GMT",
+      "latestTitle": "Шестиступка против вариатора: какой мотор и коробку лучше выбрать в Lada Iskra - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uMDU4Qm9iQlk4d0gzNWloUnJLc1ZZYUdpaFhxUHhyQWxyM0VaM1R5UDJPM3BMZkQ0OFd3ZzFxcklmODdXa3M2V2t4X2tRbVQ3dTYzUmlIUDhYNFBZZVgwV29HcHl5ZDBLSEhtVEdCQ0toY1ZnQ1FNRE1wUQ?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Шестиступка против вариатора: какой мотор и коробку лучше выбрать в Lada Iskra - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uMDU4Qm9iQlk4d0gzNWloUnJLc1ZZYUdpaFhxUHhyQWxyM0VaM1R5UDJPM3BMZkQ0OFd3ZzFxcklmODdXa3M2V2t4X2tRbVQ3dTYzUmlIUDhYNFBZZVgwV29HcHl5ZDBLSEhtVEdCQ0toY1ZnQ1FNRE1wUQ?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 14:21:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "АВТОВАЗ обновит LADA Iskra в 2026 году: новый двигатель, климат-контроль - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemV4eE1aZDRZRGZYcjE4bmhpQjlYeUVPTzVlNU94N0VKdHN2RVhzalIwcDRINWV6dFF3N3NNcEUwTU9Va2dJSE5lLThuTWtzdGJKUmpFaHJSeUVrQzdvRDlfSTJ2d1hJUTh0T05LRF9KNmJYY0F4TWUxWWRaRHpzUTJ6S00tS2otVUZiMXVadHE3dlVMRUdOd1pIZXJkZzJveFBoQVp6ZUhWVk1FLXBWU0Ztc2hIRllEZm9aQnVHU0k5VVJ2UEkyclhB?oc=5",
@@ -126,7 +132,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Lada Iskra или Lada Vesta: выбор между компактностью и мощностью - ВТамбове",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaXlzVDdpU1FQdVdMYUFXa1hiT21qTUxVWFJOMTMzV3pUSGxhTDUtN3I2WHp0d3RKYmlBRGNHSXVWM0hXMDU3ZGF0VU5lYmM4Q01rTjdHNmtFdzV6SmU4MTFqWTRHVnRrRHJSNUU4Rm9GODAzZVo4bmtNcmNIZ3dnT0h3bDRrX05Ib09FYjVJOWhsRUZtQlB4M1JKbVpTUQ?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 02:33:13 GMT",
+          "publishedAt": "Sat, 10 Oct 2026 04:48:06 GMT",
           "sourceName": "ВТамбове"
         },
         {
@@ -140,12 +146,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iQnN0MW05VFFoQ1ZtMC1mSnRXX1RQN0FiRUpfS0dxZmpPamMxemMxMHgxZFR3cUxLaUgtTGY0eHZleWIxN0huTUctVldXb2VfQ1MtQjAtUHVscThJOE1uZ1lzbXVTdEJWMGxEYzlxMDMycWxaWm5LOWo4Z9IBgAFBVV95cUxNVzZpRlB6am9SbWJveWF4aFlXMUlMVjRXRHpwUy1ub3U3NjFYY3BWcm5MSWlsbHBBbzhaOGdfWkZ3YmZFLVhXdmpUV2gtOXREN3NDSzlXbmNteE1aODFMX0lfOEZBTlpwdzVHWDZCeGJoUlJwN2ZVNHFLbTNlbzRoQw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 16:55:32 GMT",
           "sourceName": "За рулем"
-        },
-        {
-          "title": "Обновлённые Lada Vesta и Lada Iskra поступят в продажу в конце 2026 года - rb.ru",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU3V3SzJZdGVwS21iTHpXYmQtYnpBRTBiazBObjZ2R0hmbDktaU9qSmxRSUIxNW1mWjJScmhkaHFYZ0NVNkF5UHpla3otWTA0NzBzVjRNMmRLc2VLdkF6djdNRlVuOFJvWmJXZTB0UldIaEhYLVBaRHl4d3NyalhQZUFHYmRoajNuOXA1NXIzRHFiNE9FTGNaMXJjRHY3VkJmNUtxZnRPTnFyb1ZDRWpZdzBOQUxSZjQ5anVkNXpNdU1IWFhJMHlZ?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 12:15:00 GMT",
-          "sourceName": "rb.ru"
         }
       ]
     },
@@ -222,7 +222,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
+      "sourceCount30d": 9,
       "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -254,7 +254,7 @@ export const liveMarketSnapshot = {
         {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
+          "publishedAt": "Tue, 06 Oct 2026 06:57:24 GMT",
           "sourceName": "RuNews24"
         },
         {
@@ -348,7 +348,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -378,16 +378,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Российская Smart Engines разработала портативный 3D-томограф весом 5 кг - Monocle.ru",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
-          "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
-          "sourceName": "Monocle.ru"
-        },
-        {
           "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
           "sourceName": "sdelanounas.ru"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
+          "sourceName": "Первый Технический"
         }
       ]
     },
@@ -884,7 +884,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 10,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1056,17 +1056,23 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount30d": 5,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 04:36:12 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Thu, 08 Oct 2026 22:30:25 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 22:30:25 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
@@ -1077,6 +1083,12 @@ export const liveMarketSnapshot = {
           "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
           "publishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Бренды перестали гоняться за охватом. Теперь они борются за перетекание внимания — и короткое видео стало точкой входа - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyZXpncGd1bXg4cUNJUGY4S2R1bmZycE1WM3piN1ZzYzQ0bF9KU3FGVUhGZEc5TWRWNk5yZmlZSXJJRWtCUktCdFE3b2Q1Z2phMUE?oc=5",
+          "publishedAt": "Thu, 24 Sep 2026 14:51:21 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1381,7 +1393,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1396,12 +1408,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
           "sourceName": "Retail Life"
-        },
-        {
-          "title": "Атаки на склады обрушили охваты одних маркетплейсов в РФ и подняли других - dp.ru",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0JnS1h5ZVQ1d2ZGakdmU2JlSTdfbnN1VnJKaXRfaWZBekNaclItc1o0d20waE1pVXpoOGF6VjBlM1lzc0JHVlRNOGhuaXYwWDlpU3FNUjQzWU5kTFVyTEpWZHlMWmxIZGl3M2RnQjDSAXtBVV95cUxOb3QyQjBSVG9TQ1VmRjcwYng1QTNoRTVIQnVTWG1HMHJZeEloS1ZENHFBVE55VTdkMGxKS1RjWU51SnVBR3lzWG94OVY5cUVGSjNpZDlNWFlaMmF5cGtDOGRtNFZrUUZOb25UUEtWdXZRcW5sNmZIaDlDYms?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:55:00 GMT",
-          "sourceName": "dp.ru"
         },
         {
           "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
@@ -1420,6 +1426,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
           "sourceName": "Life.ru"
+        },
+        {
+          "title": "Трансграничные QR-платежи: задача не ограничивается охватом - Thông tấn xã Việt Nam (TTXVN)",
+          "url": "https://news.google.com/rss/articles/CBMi_wNBVV95cUxQYkhGZUFTYVN6NkI4SURIRVc0enYxUkp6dGs2UWJIQU5tZlNhaHFwWkIteHZULUUzeHRRU2tQUVZpbmYyVkJaYmE1WVQ4NkxSS01xNWtSY3VzcldlX3gzeEhkRGxhVU1ZRkZlbHRxQlh1ZEtTWmZlSEE5dVhmaXpsTlp2R2NBYXVBS2dKOVBUUkc2bUM2amh3U0hCdUw5Tkx1OHlxT3R2RTFSaHgtNEVwb3dzcmR2Y2dVWjhCUDljSlBvakl0ODBTWDRQdGpIN2VKa3owUHJqYzBtUGxlakVIMDVDUnEzQllUWjVqVXotdWlrNFA1SWtmbTRZTVcyeHlERkpCXzFiZG52dEEzU3V1LVFaeDY2ZVhQVGZfdVd2YTg4QjludzZmZHBHTmczaThkT0pFbU1aX1I5Y2xPU3ZPUjV5T1hiV3ZocjhpLWwyZlRmRGFOdzFmelVMQ2pjRUNfNFJnT0lQY2ZtSlVEU2YyTllCMVVYem5ldC10ZzJCQms3c21Oanc0REgzU20tNXRwcUFNUDQ2VmFIT3ZsUlpnYXQ0MVBtTERTdmZoTTRKMHRlN1Vfa1dOY1RPN2J3Uks2YldNaGhuTUlEQnRHODQ0bDRRVXpQQXRVaWJYYmFVQmtUY09mTzEwLXM4ZlVPM2JxS1VkaG93ZElETUN6ejFj?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 20:49:42 GMT",
+          "sourceName": "Thông tấn xã Việt Nam (TTXVN)"
         }
       ]
     },
