@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-10T02:57:45.246Z",
+  "generatedAt": "2026-10-10T09:18:28.642Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,11 +112,29 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 16:55:32 GMT",
-      "latestTitle": "Стало известно, когда стартуют продажи Lada Vesta и Iskra c новыми моторами - За рулем",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iQnN0MW05VFFoQ1ZtMC1mSnRXX1RQN0FiRUpfS0dxZmpPamMxemMxMHgxZFR3cUxLaUgtTGY0eHZleWIxN0huTUctVldXb2VfQ1MtQjAtUHVscThJOE1uZ1lzbXVTdEJWMGxEYzlxMDMycWxaWm5LOWo4Z9IBgAFBVV95cUxNVzZpRlB6am9SbWJveWF4aFlXMUlMVjRXRHpwUy1ub3U3NjFYY3BWcm5MSWlsbHBBbzhaOGdfWkZ3YmZFLVhXdmpUV2gtOXREN3NDSzlXbmNteE1aODFMX0lfOEZBTlpwdzVHWDZCeGJoUlJwN2ZVNHFLbTNlbzRoQw?oc=5",
-      "latestSourceName": "За рулем",
+      "latestPublishedAt": "Sat, 10 Oct 2026 06:45:26 GMT",
+      "latestTitle": "АВТОВАЗ обновит LADA Iskra в 2026 году: новый двигатель, климат-контроль - Лада.Онлайн",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemV4eE1aZDRZRGZYcjE4bmhpQjlYeUVPTzVlNU94N0VKdHN2RVhzalIwcDRINWV6dFF3N3NNcEUwTU9Va2dJSE5lLThuTWtzdGJKUmpFaHJSeUVrQzdvRDlfSTJ2d1hJUTh0T05LRF9KNmJYY0F4TWUxWWRaRHpzUTJ6S00tS2otVUZiMXVadHE3dlVMRUdOd1pIZXJkZzJveFBoQVp6ZUhWVk1FLXBWU0Ztc2hIRllEZm9aQnVHU0k5VVJ2UEkyclhB?oc=5",
+      "latestSourceName": "Лада.Онлайн",
       "sources": [
+        {
+          "title": "АВТОВАЗ обновит LADA Iskra в 2026 году: новый двигатель, климат-контроль - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemV4eE1aZDRZRGZYcjE4bmhpQjlYeUVPTzVlNU94N0VKdHN2RVhzalIwcDRINWV6dFF3N3NNcEUwTU9Va2dJSE5lLThuTWtzdGJKUmpFaHJSeUVrQzdvRDlfSTJ2d1hJUTh0T05LRF9KNmJYY0F4TWUxWWRaRHpzUTJ6S00tS2otVUZiMXVadHE3dlVMRUdOd1pIZXJkZzJveFBoQVp6ZUhWVk1FLXBWU0Ztc2hIRllEZm9aQnVHU0k5VVJ2UEkyclhB?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 06:45:26 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
+        {
+          "title": "Lada Iskra или Lada Vesta: выбор между компактностью и мощностью - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaXlzVDdpU1FQdVdMYUFXa1hiT21qTUxVWFJOMTMzV3pUSGxhTDUtN3I2WHp0d3RKYmlBRGNHSXVWM0hXMDU3ZGF0VU5lYmM4Q01rTjdHNmtFdzV6SmU4MTFqWTRHVnRrRHJSNUU4Rm9GODAzZVo4bmtNcmNIZ3dnT0h3bDRrX05Ib09FYjVJOWhsRUZtQlB4M1JKbVpTUQ?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 02:33:13 GMT",
+          "sourceName": "ВТамбове"
+        },
+        {
+          "title": "Lada Iskra против Vesta: что выгоднее, кто выигрывает по габаритам, моторам и оснащению - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNN1RTRjNpTGQ2VU9lNkhXdFFxWDZEM1Zsa0ZNdmo4QVZ0RWJTSE5tV2tnT0xiai1jalctalFWWTJLLVJEdFFZMlhIZTY2ck51bFkySUxTNWVWRVNjYlRmY3VYeVdoMklwWE5yNml2MlcxZVIzaWJVZ2UwZDFBaW1URHktaHFtU29mcDJYeF9NeUxjRnZIX196WUVNWGVtM2FGeDZ4Xw?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 02:18:12 GMT",
+          "sourceName": "110km.ru"
+        },
         {
           "title": "Стало известно, когда стартуют продажи Lada Vesta и Iskra c новыми моторами - За рулем",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1iQnN0MW05VFFoQ1ZtMC1mSnRXX1RQN0FiRUpfS0dxZmpPamMxemMxMHgxZFR3cUxLaUgtTGY0eHZleWIxN0huTUctVldXb2VfQ1MtQjAtUHVscThJOE1uZ1lzbXVTdEJWMGxEYzlxMDMycWxaWm5LOWo4Z9IBgAFBVV95cUxNVzZpRlB6am9SbWJveWF4aFlXMUlMVjRXRHpwUy1ub3U3NjFYY3BWcm5MSWlsbHBBbzhaOGdfWkZ3YmZFLVhXdmpUV2gtOXREN3NDSzlXbmNteE1aODFMX0lfOEZBTlpwdzVHWDZCeGJoUlJwN2ZVNHFLbTNlbzRoQw?oc=5",
@@ -128,24 +146,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxNU3V3SzJZdGVwS21iTHpXYmQtYnpBRTBiazBObjZ2R0hmbDktaU9qSmxRSUIxNW1mWjJScmhkaHFYZ0NVNkF5UHpla3otWTA0NzBzVjRNMmRLc2VLdkF6djdNRlVuOFJvWmJXZTB0UldIaEhYLVBaRHl4d3NyalhQZUFHYmRoajNuOXA1NXIzRHFiNE9FTGNaMXJjRHY3VkJmNUtxZnRPTnFyb1ZDRWpZdzBOQUxSZjQ5anVkNXpNdU1IWFhJMHlZ?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 12:15:00 GMT",
           "sourceName": "rb.ru"
-        },
-        {
-          "title": "АВТОВАЗ обновит LADA Iskra в 2026 году: новый двигатель, климат-контроль - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemV4eE1aZDRZRGZYcjE4bmhpQjlYeUVPTzVlNU94N0VKdHN2RVhzalIwcDRINWV6dFF3N3NNcEUwTU9Va2dJSE5lLThuTWtzdGJKUmpFaHJSeUVrQzdvRDlfSTJ2d1hJUTh0T05LRF9KNmJYY0F4TWUxWWRaRHpzUTJ6S00tS2otVUZiMXVadHE3dlVMRUdOd1pIZXJkZzJveFBoQVp6ZUhWVk1FLXBWU0Ztc2hIRllEZm9aQnVHU0k5VVJ2UEkyclhB?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 09:36:08 GMT",
-          "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "55 лет «Серебряному кубку» ВАЗ-2101: фестиваль Lada Iskra Cup Fest соберёт исторические и гоночные автомобили - E-osetia",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPSlFkbjZ3SExnVkt4T3BnSHlWeks5ZUlVb0JNNWRXRzQyNU1jOUUwcHpRLVEwaUkwY2h6WFp4YzA1TU9lZUphRV9DXzhyRDhuY2FFNDYwRW1PYkFScTlpeG1LcER0QmpRZVpVLVBUXzFvaTVTZXFvdlRkQUIxNHNNWTI1cU1NRGVtQzNxWmNSR1JieFhNaHc5NUg4ZWE1aVdzNV9XSjBxenZNT1lxS1JocE01Q0swbW5GcFpBYm5YX2U0SWdJV19WMTZSMHBub1VrQnZKLTl2S1BJUQ?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 08:45:26 GMT",
-          "sourceName": "E-osetia"
-        },
-        {
-          "title": "Продажи Lada Vesta и Iskra с новыми моторами стартуют в четвёртом квартале 2026 - Overclockers.ru",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxQamVzTVd5UjlSaFFxUFZsTUZVZ1dtU3YzSTZ4Y0Fjbmwzdzh1SGRER1h1ZEtUN2dEekEtX1d5NDBmd2hxdndSSEpET3FKN0NPYkV4dERKMjVpNEw3SXdXSjJEcDV4OG1FM0p6RjAzRHFCRXNKLWZXNU9mdWd4X05ESEpSU055bWdsMWN1SWdBUUxJUW0zWDI0ZFBVX1lOTjBEbWZfSzZLNUtVRGktV0laTTBySVRBSTlOZGJBMmZEbzlONnlJM3NNVzUwTWJBLTdPSG0telVR0gHUAUFVX3lxTE5JU3NXN0lkaFZKN2VXME51VEx6d2VRMkNvOHJFa3FHbXRxTVhMNVNJTmZWaGNwaE83NnZrTnpTN1oteGhLS2JSVUxfanhJeDVlY0ZUZzN5N2tJaEg5dVFzVmZ6aktrOV90S1ZEb2MtenZzbHZDb1FTc054NjZlMGNITWdXNDRjRFFRdV81YU90ZmkzcjloTldVQTh4ckctaTVkTU9STzhxQ012aVRxSnZuNEktaGtudElIZUdCa2QyYktFTWVkSmUyNkdUWlg3OTRKV3Qx?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:57:00 GMT",
-          "sourceName": "Overclockers.ru"
         }
       ]
     },
@@ -274,16 +274,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
-      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-      "latestSourceName": "Newslab.ru",
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "ИТ–холдинг и Piklema будут развивать цифровые решения для промышленности - ЯСИА",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHhpSzZzdVhWN0lMTFpMT3AxZktmOHdPMDR3NWhybk1sRjU5MVNBR2ZKZHlhNWlvVS1HS2R4QWdXZXQwNVgyMkFka0J5ckI1NHozeWNlVXBRQzE3anNhSnlmSzBCLWQyUHJPNHhSbnJGTU9YSHlfZXc5U3A5dUpyTGszZDlzOEF6LWN4VjRnTW16NzdTYUdFcA?oc=5",
+      "latestSourceName": "ЯСИА",
       "sources": [
         {
-          "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab.ru",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
-          "sourceName": "Newslab.ru"
+          "title": "ИТ–холдинг и Piklema будут развивать цифровые решения для промышленности - ЯСИА",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOOHhpSzZzdVhWN0lMTFpMT3AxZktmOHdPMDR3NWhybk1sRjU5MVNBR2ZKZHlhNWlvVS1HS2R4QWdXZXQwNVgyMkFka0J5ckI1NHozeWNlVXBRQzE3anNhSnlmSzBCLWQyUHJPNHhSbnJGTU9YSHlfZXc5U3A5dUpyTGszZDlzOEF6LWN4VjRnTW16NzdTYUdFcA?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "ЯСИА"
         },
         {
           "title": "Российские разработчики представили комплексные решения для цифровизации добывающей промышленности - Правда.Ру",
@@ -536,24 +536,17 @@ export const liveMarketSnapshot = {
     "askhow": {
       "companyId": "askhow",
       "companyName": "AskHow",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Как запустить онлайн-школу с нуля и не потерять деньги: 4 ошибки экспертов - Т-Бизнес секреты",
-      "latestUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zRXduUlhRY3RMRnAyNTJZQUl0U2lZOTU3THh1RGJENExLbVFYVlMwdEV1Y19rMk9MZnZuOUZ4YzdEMTNrdnJxU2FpVHdJalJ6ODhyS2RnbDNWVUthd0gxMzZhMlNYQVR1ZjVGNFZlYw?oc=5",
-      "latestSourceName": "Т-Бизнес секреты",
-      "sources": [
-        {
-          "title": "Как запустить онлайн-школу с нуля и не потерять деньги: 4 ошибки экспертов - Т-Бизнес секреты",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE8zRXduUlhRY3RMRnAyNTJZQUl0U2lZOTU3THh1RGJENExLbVFYVlMwdEV1Y19rMk9MZnZuOUZ4YzdEMTNrdnJxU2FpVHdJalJ6ODhyS2RnbDNWVUthd0gxMzZhMlNYQVR1ZjVGNFZlYw?oc=5",
-          "publishedAt": "Thu, 10 Sep 2026 07:00:00 GMT",
-          "sourceName": "Т-Бизнес секреты"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "avato-memory": {
       "companyId": "avato-memory",
@@ -891,7 +884,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 10,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1063,7 +1056,7 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1084,12 +1077,6 @@ export const liveMarketSnapshot = {
           "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
           "publishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Бренды перестали гоняться за охватом. Теперь они борются за перетекание внимания — и короткое видео стало точкой входа - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyZXpncGd1bXg4cUNJUGY4S2R1bmZycE1WM3piN1ZzYzQ0bF9KU3FGVUhGZEc5TWRWNk5yZmlZSXJJRWtCUktCdFE3b2Q1Z2phMUE?oc=5",
-          "publishedAt": "Thu, 24 Sep 2026 14:51:21 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1230,17 +1217,24 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 25 Sep 2026 00:25:09 GMT",
+      "latestTitle": "Искусственный интеллект - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PdFR0YWFmc2hROVdTOHI1STROR0RscVdXLWNBNEh0eTltamJXbkEtUFpsbVoxUmtfdDN1TUhaajQxTHVrcmJPdFBadExTQ2dBZGZFM29MZUNsWkx6THFndWVqZThIbGJsblBFS2d5MTk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Искусственный интеллект - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PdFR0YWFmc2hROVdTOHI1STROR0RscVdXLWNBNEh0eTltamJXbkEtUFpsbVoxUmtfdDN1TUhaajQxTHVrcmJPdFBadExTQ2dBZGZFM29MZUNsWkx6THFndWVqZThIbGJsblBFS2d5MTk?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 00:25:09 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "wunjo": {
       "companyId": "wunjo",
