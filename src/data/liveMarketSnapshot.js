@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-11T02:46:57.346Z",
+  "generatedAt": "2026-10-11T09:22:33.326Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,14 +112,26 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 17:32:08 GMT",
-      "latestTitle": "АвтоВАЗ выявил недочёты в Lada Iskra — дилеры бесплатно доработают подвеску, салон и электронику - iXBT.com",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ30gHcAUFVX3lxTFB5czJacnd5Y084VmpCa1ZBVGFaSjZtM0RFSWZjTWFHN3pyNEMzTE5hb1EtRGhNY2FJWjBfaUNyV3Z1eWY1R0tnZUlsZVg4dks1TWJwc2xPMDljT0tuUk5TY0s3eTNwYVppdk1QalNqeUhhMWdLaXdIZ2R5eVhTeFlBcWxBdTh5ZTlrbXYzRHlwazVIc2VPaGtTV0w1U2d0aHNxMUhyT1Vpeklpbm9uWExCRjA5cVpDbUc1dnpsMkVHLS1uX2FfbVVWS3RJbk1PdER2M1gwOFJ3cWp1Nnc?oc=5",
-      "latestSourceName": "iXBT.com",
+      "latestPublishedAt": "Sun, 11 Oct 2026 07:56:15 GMT",
+      "latestTitle": "АВТОВАЗ сделал LADA доступнее и готовит новые моторы для Vesta и Iskra - Новости Тольятти",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOWhycUtFT2tPcm1yZ2RSaVgwaDZMdi1fNnFQc1pCclFNT3VGb01yUEJ4Zko4cW5XVnVGQjd0RVZzNkJhc21GOHJPeEI5NHA1SzVhZ1pvTVM5NEU3SHNxWXRXWjFVMERkUFhhOHlPN2hSbi1VdHRiV0JmdnVYUVlWQmxfSjlZb2NLVi15M0UtSTlzTDhEWjF1bTln?oc=5",
+      "latestSourceName": "Новости Тольятти",
       "sources": [
         {
+          "title": "АВТОВАЗ сделал LADA доступнее и готовит новые моторы для Vesta и Iskra - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOWhycUtFT2tPcm1yZ2RSaVgwaDZMdi1fNnFQc1pCclFNT3VGb01yUEJ4Zko4cW5XVnVGQjd0RVZzNkJhc21GOHJPeEI5NHA1SzVhZ1pvTVM5NEU3SHNxWXRXWjFVMERkUFhhOHlPN2hSbi1VdHRiV0JmdnVYUVlWQmxfSjlZb2NLVi15M0UtSTlzTDhEWjF1bTln?oc=5",
+          "publishedAt": "Sun, 11 Oct 2026 07:56:15 GMT",
+          "sourceName": "Новости Тольятти"
+        },
+        {
+          "title": "Lada Granta, Iskra или подержанная Vesta: какой автомобиль будет выгоднее купить в 2026 году - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1VFTlhWQUdxODU0Y1F6LWJoTGdYV1czRkZfWUk1c2kxVl9rdGZaRDRCTll0emFsdWdLOXJjVWk3TlQzUUJJOVJDVXZuNS03YnduT3pObmNDeGJIancyT0lYWldrZXdKbnNLNFZhaU1iOGxacVFWT1ZkY1NBbnFSTGNTXzlLdnNqUFFvYXdVbHFhV19hMDdSa0NqaUo0QUExZ1ZCZjlQZVprVHpIYjFsRFplM01rNEt1WjVEY0hR?oc=5",
+          "publishedAt": "Sun, 11 Oct 2026 04:46:28 GMT",
+          "sourceName": "ВТамбове"
+        },
+        {
           "title": "АвтоВАЗ выявил недочёты в Lada Iskra — дилеры бесплатно доработают подвеску, салон и электронику - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ30gHcAUFVX3lxTFB5czJacnd5Y084VmpCa1ZBVGFaSjZtM0RFSWZjTWFHN3pyNEMzTE5hb1EtRGhNY2FJWjBfaUNyV3Z1eWY1R0tnZUlsZVg4dks1TWJwc2xPMDljT0tuUk5TY0s3eTNwYVppdk1QalNqeUhhMWdLaXdIZ2R5eVhTeFlBcWxBdTh5ZTlrbXYzRHlwazVIc2VPaGtTV0w1U2d0aHNxMUhyT1Vpeklpbm9uWExCRjA5cVpDbUc1dnpsMkVHLS1uX2FfbVVWS3RJbk1PdER2M1gwOFJ3cWp1Nnc?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMi1wFBVV95cUxOYms4SzBGMVFXMkhEckVLRV9VNkZtMVFmRHVqakdRSFFjZ0JET0hiOTVzTUptaWhpYTJvVThOc1BoSHhLUTh1REM0SWxIakVlemZkRU1pMGliVXhCT3BlQzZKNktMMEE5cHBodGFOQk9YcEZEaWM3dUhJQURPUFlrbm9jTFNJcDN0am5DTnBLM1doTjhIbklXeHBFdFdGWjNMVGtjNWY3TlFDV3p4OUtfVDlNMWhkLTkycHBkU0d4VEViS0dsXy1vSFZmWVhEQXZ1WnNzZS1JRdIB3AFBVV95cUxQeXMyWnJ3eWNPOFZqQmtWQVRhWko2bTNERUlmY01hRzd6cjRDM0xOYW9RLURoTWNhSVowX2lDcld2dXlmNUdLZ2VJbGVYOHZLNU1icHNsTzA5Y09LblJOU2NLN3kzcGFaaXZNUGpTanlIYTFnS2l3SGdkeXlYU3hZQXFsQXU4eWU5a212M0R5cGs1SHNlT2hrU1dMNVNndGhzcTFIck9VaXpJaW5vblhMQkYwOXFaQ21HNXZ6bDJFRy0tbl9hX21VVkt0SW5NT3REdjNYMDhSd3FqdTZ3?oc=5",
           "publishedAt": "Sat, 10 Oct 2026 17:32:08 GMT",
           "sourceName": "iXBT.com"
         },
@@ -128,18 +140,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uMDU4Qm9iQlk4d0gzNWloUnJLc1ZZYUdpaFhxUHhyQWxyM0VaM1R5UDJPM3BMZkQ0OFd3ZzFxcklmODdXa3M2V2t4X2tRbVQ3dTYzUmlIUDhYNFBZZVgwV29HcHl5ZDBLSEhtVEdCQ0toY1ZnQ1FNRE1wUQ?oc=5",
           "publishedAt": "Sat, 10 Oct 2026 14:21:00 GMT",
           "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "АВТОВАЗ обновит LADA Iskra в 2026 году: новый двигатель, климат-контроль - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNemV4eE1aZDRZRGZYcjE4bmhpQjlYeUVPTzVlNU94N0VKdHN2RVhzalIwcDRINWV6dFF3N3NNcEUwTU9Va2dJSE5lLThuTWtzdGJKUmpFaHJSeUVrQzdvRDlfSTJ2d1hJUTh0T05LRF9KNmJYY0F4TWUxWWRaRHpzUTJ6S00tS2otVUZiMXVadHE3dlVMRUdOd1pIZXJkZzJveFBoQVp6ZUhWVk1FLXBWU0Ztc2hIRllEZm9aQnVHU0k5VVJ2UEkyclhB?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 06:45:26 GMT",
-          "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "Lada Iskra или Lada Vesta: выбор между компактностью и мощностью - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOaXlzVDdpU1FQdVdMYUFXa1hiT21qTUxVWFJOMTMzV3pUSGxhTDUtN3I2WHp0d3RKYmlBRGNHSXVWM0hXMDU3ZGF0VU5lYmM4Q01rTjdHNmtFdzV6SmU4MTFqWTRHVnRrRHJSNUU4Rm9GODAzZVo4bmtNcmNIZ3dnT0h3bDRrX05Ib09FYjVJOWhsRUZtQlB4M1JKbVpTUQ?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 04:48:06 GMT",
-          "sourceName": "ВТамбове"
         },
         {
           "title": "Lada Iskra против Vesta: что выгоднее, кто выигрывает по габаритам, моторам и оснащению - 110km.ru",
@@ -216,8 +216,8 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 9,
-      "sourceCount7d": 4,
+      "sourceCount30d": 8,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -240,12 +240,6 @@ export const liveMarketSnapshot = {
           "sourceName": "ITSpeaker"
         },
         {
-          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 11:58:45 GMT",
-          "sourceName": "Ростех"
-        },
-        {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 06:57:24 GMT",
@@ -256,6 +250,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0FKWFpadVE5LUowUjZsTXpyNW91OWpWSHZXUjV4QnBsNEN6REN5VWJlWlZ3NHozT2tWOTB3dC1UcFMxXzd6bGVBblJxUEVfZ1ZtMzRfVzdlX1huZy1RQjlBTl9ibm5DQ0VtcGpFRHNwa0ZTS0swMFV0Z2gxazkwaFZDZU1Ra3o2T01tSE5YTTdMdw?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 20:00:03 GMT",
           "sourceName": "MASHNEWS | Новости Промышленности"
+        },
+        {
+          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Общественная служба новостей"
         }
       ]
     },
@@ -311,7 +311,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 06:09:00 GMT",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
       "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
       "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
       "latestSourceName": "Правда.Ру",
@@ -319,7 +319,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 06:09:00 GMT",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
           "sourceName": "Правда.Ру"
         }
       ]
@@ -372,16 +372,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
+          "title": "Российская Smart Engines разработала портативный 3D-томограф весом 5 кг - Monocle.ru",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
+          "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
+          "sourceName": "Monocle.ru"
+        },
+        {
           "title": "Первый в мире носимый томограф создала российская Smart Engines - sdelanounas.ru",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
           "sourceName": "sdelanounas.ru"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
-          "sourceName": "Первый Технический"
         }
       ]
     },
@@ -416,16 +416,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
@@ -447,23 +447,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 5,
-      "sourceCount7d": 2,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 04:10:12 GMT",
-      "latestTitle": "Карельского специалиста наградили за вклад в цифровое здравоохранение - Интернет-журнал",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSEt2aGpDTGlEeEJ1NjNqM2FvTW9NZUp0Q2tQbVR2UXhTeGszWHpZMzFRNXFNM3BsRVpmRUFCaFRmUzJndU5fRXRqN1NlemFMVEZtdjdHQ2ZTemVKdGVQQ1JYQ1QyenBmTTB4Nl84ZkhUT1RISGF3R2UxRzdTOEtpYzBOR2NEYlVWNlpEWlZaWVh0TzdIbjZ1YUU2Zy1wU1dVOXBVNWU2bmIzTXRfOFNURkxYcnNVOEU?oc=5",
-      "latestSourceName": "Интернет-журнал",
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
+      "latestSourceName": "Webiomed",
       "sources": [
-        {
-          "title": "Карельского специалиста наградили за вклад в цифровое здравоохранение - Интернет-журнал",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSEt2aGpDTGlEeEJ1NjNqM2FvTW9NZUp0Q2tQbVR2UXhTeGszWHpZMzFRNXFNM3BsRVpmRUFCaFRmUzJndU5fRXRqN1NlemFMVEZtdjdHQ2ZTemVKdGVQQ1JYQ1QyenBmTTB4Nl84ZkhUT1RISGF3R2UxRzdTOEtpYzBOR2NEYlVWNlpEWlZaWVh0TzdIbjZ1YUU2Zy1wU1dVOXBVNWU2bmIzTXRfOFNURkxYcnNVOEU?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 04:10:12 GMT",
-          "sourceName": "Интернет-журнал"
-        },
         {
           "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
@@ -917,17 +911,24 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
+      "latestSourceName": "thecode.media",
+      "sources": [
+        {
+          "title": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "thecode.media"
+        }
+      ]
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -1045,7 +1046,7 @@ export const liveMarketSnapshot = {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
       "sourceCount30d": 4,
-      "sourceCount7d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
