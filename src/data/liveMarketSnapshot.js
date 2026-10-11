@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-11T16:51:49.026Z",
+  "generatedAt": "2026-10-11T21:08:09.505Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -152,24 +152,17 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
-      "latestTitle": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
-      "latestUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
-      "latestSourceName": "Первый технический",
-      "sources": [
-        {
-          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
-          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
-          "sourceName": "Первый технический"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
@@ -205,7 +198,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 8,
-      "sourceCount7d": 3,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -228,6 +221,12 @@ export const liveMarketSnapshot = {
           "sourceName": "ITSpeaker"
         },
         {
+          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 11:58:45 GMT",
+          "sourceName": "Ростех"
+        },
+        {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 06:57:24 GMT",
@@ -238,12 +237,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0FKWFpadVE5LUowUjZsTXpyNW91OWpWSHZXUjV4QnBsNEN6REN5VWJlWlZ3NHozT2tWOTB3dC1UcFMxXzd6bGVBblJxUEVfZ1ZtMzRfVzdlX1huZy1RQjlBTl9ibm5DQ0VtcGpFRHNwa0ZTS0swMFV0Z2gxazkwaFZDZU1Ra3o2T01tSE5YTTdMdw?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 20:00:03 GMT",
           "sourceName": "MASHNEWS | Новости Промышленности"
-        },
-        {
-          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-          "sourceName": "Общественная служба новостей"
         }
       ]
     },
@@ -299,7 +292,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 06:09:00 GMT",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
       "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
       "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
       "latestSourceName": "Правда.Ру",
@@ -307,7 +300,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 06:09:00 GMT",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
           "sourceName": "Правда.Ру"
         }
       ]
@@ -360,16 +353,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Российская Smart Engines разработала портативный 3D-томограф весом 5 кг - Monocle.ru",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPdlU2MklnenhTemFNWTZhNXplRGZwUkgtMW9yZG5RRmdlRFR0eENBc1dTQ0szRGRYWVVwVXFJM0ROU3Rnbkk0VTFFVUE4aWRaWkxMbHF6Z2trNTdIQWVtRFZKelVrWnVNZ0tTdGc5RlFpSFNTYlFNeDZLQ3BITHAydU9UMVhzX1ZQdzlJVDdtRkxiZHBlS1NSdms5WmRUZTUwbTBpTUpB0gGrAUFVX3lxTE56eVFpaHdDOXBRblVmV3dNUFNla3cxS3doZzdTUlR1ODZiMEhGQUxDejA1SXZsUTRLaTFzbGhQUGwycVVadGV3U1RSQ3MxSFNzU3R2dTQ5QW1ycWdTZ1p2VlZGczY0Yy1TY1BHRjAtQTRCSXBveW9zZng0dXFtV1I1MV9VcEhOUlhTYkJRT2FuaDNyeGctSHhMOTBQUXFYYkI4ZU1tUkNock9jWQ?oc=5",
-          "publishedAt": "Sat, 26 Sep 2026 10:34:13 GMT",
-          "sourceName": "Monocle.ru"
-        },
-        {
           "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
           "sourceName": "Сделано у нас"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
+          "sourceName": "Первый Технический"
         }
       ]
     },
@@ -819,8 +812,8 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -841,6 +834,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
           "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Milo Mile 5 - EA",
+          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjR1RHRhVUl6TUdmZU95d1YyZkJzTGZ2RUpjcGFaOTBVay01dHFybHBPRmhSSEdPSGRSQzVKeHI2OHhNNlpSa09SNHVFaWpzcU5iazRJUjVJdGpTM0V1amU3SEJZZHBIaWtfUWpVbEhOQ1gwcWQ3ejZGMmdRWnRhMXY5QTJlTUdmQkZ3eTlZQXE2SEU?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 01:00:19 GMT",
+          "sourceName": "EA"
         }
       ]
     },
