@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-10T23:56:00.456Z",
+  "generatedAt": "2026-10-11T02:46:57.346Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -216,7 +216,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
+      "sourceCount30d": 9,
       "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -917,24 +917,17 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
-      "latestSourceName": "thecode.media",
-      "sources": [
-        {
-          "title": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "thecode.media"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -1014,23 +1007,17 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 19:34:18 GMT",
-      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
+      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 19:34:18 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
@@ -1063,21 +1050,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 22:30:25 GMT",
-      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+      "latestPublishedAt": "Fri, 09 Oct 2026 17:42:10 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 17:42:10 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 22:30:25 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 04:36:12 GMT",
           "sourceName": "Sostav.ru"
         },
         {
