@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-11T21:08:09.505Z",
+  "generatedAt": "2026-10-12T02:51:35.175Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -24,24 +24,17 @@ export const liveMarketSnapshot = {
     "cognitive-pilot": {
       "companyId": "cognitive-pilot",
       "companyName": "Cognitive Pilot",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Робо-трактор научили разговаривать с человеком и выполнять команды - Первый Технический",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFZrS1dCa2xTOFBXXzhhSkZyMm9PWUZuZ3FTQ1M1eWpGb2NpWHRtVzJYTGItQXVfUFB2WmY5ckk5Qml4UHVUcExHWjBqaDU2U0ZrUnZHdTc2Vzk0MGZCWEJKaUNGNUt2RTNkTlJDZl9xaXZIT29vdnMybXI5dUtxVEpCckJJNGRQTDM4S19TQWdlT05Kbk5wLXE0eE9FLU1YejlldmVfTHlrNzhVdVHSAbMBQVVfeXFMT0xLcjJuWE1xQzV1c1hRcnpUMDZKLUY3cllDV2k0TjF0NWhHNEVGUUxxXzZHNGs0T3FMaTJ3U3R0OW1Sb1NPV19xU003YTNBUVVZWXI0RUVFRFJjQVA4MmZwVk5LWEkydUJ2SDUxLVVFbGxVUUI3RDB0TmpvTFV1MkFydEN6R2RqUzVTZHJJSzBfS3BILVFySEF1STdRT3F5cWo5NGVJYWt4clVKTW5jZTVhQTQ?oc=5",
-      "latestSourceName": "Первый Технический",
-      "sources": [
-        {
-          "title": "Робо-трактор научили разговаривать с человеком и выполнять команды - Первый Технический",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOUFZrS1dCa2xTOFBXXzhhSkZyMm9PWUZuZ3FTQ1M1eWpGb2NpWHRtVzJYTGItQXVfUFB2WmY5ckk5Qml4UHVUcExHWjBqaDU2U0ZrUnZHdTc2Vzk0MGZCWEJKaUNGNUt2RTNkTlJDZl9xaXZIT29vdnMybXI5dUtxVEpCckJJNGRQTDM4S19TQWdlT05Kbk5wLXE0eE9FLU1YejlldmVfTHlrNzhVdVHSAbMBQVVfeXFMT0xLcjJuWE1xQzV1c1hRcnpUMDZKLUY3cllDV2k0TjF0NWhHNEVGUUxxXzZHNGs0T3FMaTJ3U3R0OW1Sb1NPV19xU003YTNBUVVZWXI0RUVFRFJjQVA4MmZwVk5LWEkydUJ2SDUxLVVFbGxVUUI3RDB0TmpvTFV1MkFydEN6R2RqUzVTZHJJSzBfS3BILVFySEF1STdRT3F5cWo5NGVJYWt4clVKTW5jZTVhQTQ?oc=5",
-          "publishedAt": "Tue, 15 Sep 2026 07:00:00 GMT",
-          "sourceName": "Первый Технический"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "datamola": {
       "companyId": "datamola",
@@ -112,11 +105,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 11 Oct 2026 07:56:15 GMT",
-      "latestTitle": "АВТОВАЗ сделал LADA доступнее и готовит новые моторы для Vesta и Iskra - Новости Тольятти",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOWhycUtFT2tPcm1yZ2RSaVgwaDZMdi1fNnFQc1pCclFNT3VGb01yUEJ4Zko4cW5XVnVGQjd0RVZzNkJhc21GOHJPeEI5NHA1SzVhZ1pvTVM5NEU3SHNxWXRXWjFVMERkUFhhOHlPN2hSbi1VdHRiV0JmdnVYUVlWQmxfSjlZb2NLVi15M0UtSTlzTDhEWjF1bTln?oc=5",
-      "latestSourceName": "Новости Тольятти",
+      "latestPublishedAt": "Sun, 11 Oct 2026 13:22:00 GMT",
+      "latestTitle": "У Lada Iskra нашлась обратная сторона новизны: АвтоВАЗ начал исправлять огрехи первых машин - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQU80WFk2VnQ4U0RZWlRyT1ZUUG8xQkFYQlZLellZN3hJSUxxR2dwLUFCNEdDZEYwVVVlb1ZNZ3RWVXBZUVNJdlI5dUdRZk80OFQ5bEtsV0Y5N19jWGwtUjIyV2dZckF1Y1lCVFh0R3EyV1JfekRSZ205MU82cmxCU1lGTQ?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "У Lada Iskra нашлась обратная сторона новизны: АвтоВАЗ начал исправлять огрехи первых машин - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQQU80WFk2VnQ4U0RZWlRyT1ZUUG8xQkFYQlZLellZN3hJSUxxR2dwLUFCNEdDZEYwVVVlb1ZNZ3RWVXBZUVNJdlI5dUdRZk80OFQ5bEtsV0Y5N19jWGwtUjIyV2dZckF1Y1lCVFh0R3EyV1JfekRSZ205MU82cmxCU1lGTQ?oc=5",
+          "publishedAt": "Sun, 11 Oct 2026 13:22:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "АВТОВАЗ сделал LADA доступнее и готовит новые моторы для Vesta и Iskra - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNOWhycUtFT2tPcm1yZ2RSaVgwaDZMdi1fNnFQc1pCclFNT3VGb01yUEJ4Zko4cW5XVnVGQjd0RVZzNkJhc21GOHJPeEI5NHA1SzVhZ1pvTVM5NEU3SHNxWXRXWjFVMERkUFhhOHlPN2hSbi1VdHRiV0JmdnVYUVlWQmxfSjlZb2NLVi15M0UtSTlzTDhEWjF1bTln?oc=5",
@@ -128,12 +127,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1VFTlhWQUdxODU0Y1F6LWJoTGdYV1czRkZfWUk1c2kxVl9rdGZaRDRCTll0emFsdWdLOXJjVWk3TlQzUUJJOVJDVXZuNS03YnduT3pObmNDeGJIancyT0lYWldrZXdKbnNLNFZhaU1iOGxacVFWT1ZkY1NBbnFSTGNTXzlLdnNqUFFvYXdVbHFhV19hMDdSa0NqaUo0QUExZ1ZCZjlQZVprVHpIYjFsRFplM01rNEt1WjVEY0hR?oc=5",
           "publishedAt": "Sun, 11 Oct 2026 04:46:28 GMT",
           "sourceName": "ВТамбове"
-        },
-        {
-          "title": "Шестиступка против вариатора: какой мотор и коробку лучше выбрать в Lada Iskra - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9uMDU4Qm9iQlk4d0gzNWloUnJLc1ZZYUdpaFhxUHhyQWxyM0VaM1R5UDJPM3BMZkQ0OFd3ZzFxcklmODdXa3M2V2t4X2tRbVQ3dTYzUmlIUDhYNFBZZVgwV29HcHl5ZDBLSEhtVEdCQ0toY1ZnQ1FNRE1wUQ?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 14:21:00 GMT",
-          "sourceName": "Правда.Ру"
         },
         {
           "title": "Lada Iskra против Vesta: что выгоднее, кто выигрывает по габаритам, моторам и оснащению - 110km.ru",
@@ -152,17 +145,24 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
+      "latestTitle": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
+      "latestUrl": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
+      "latestSourceName": "Первый технический",
+      "sources": [
+        {
+          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
+          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
+          "sourceName": "Первый технический"
+        }
+      ]
     },
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
@@ -233,10 +233,10 @@ export const liveMarketSnapshot = {
           "sourceName": "RuNews24"
         },
         {
-          "title": "NtechLab и \"Швабе\" планируют создавать совместные ИТ-разработки - MASHNEWS | Новости Промышленности",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNa0FKWFpadVE5LUowUjZsTXpyNW91OWpWSHZXUjV4QnBsNEN6REN5VWJlWlZ3NHozT2tWOTB3dC1UcFMxXzd6bGVBblJxUEVfZ1ZtMzRfVzdlX1huZy1RQjlBTl9ibm5DQ0VtcGpFRHNwa0ZTS0swMFV0Z2gxazkwaFZDZU1Ra3o2T01tSE5YTTdMdw?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 20:00:03 GMT",
-          "sourceName": "MASHNEWS | Новости Промышленности"
+          "title": "NtechLab и «Швабе» договорились о создании совместных ИИ-разработок - Re-port.ru",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQOVRzaS1iT2h0ZFQ0LUtOSmhzckxLbXBhSTlITjJVM0l4X2E3RmxIbGc2MkZXZ2JKV3dWQWZSaEYtU05EaG1DWlplUnczVF8xSGFDeDBKRFVLWEVHR3E5bG5ESXFRYkR5SzJ5Q0dCVXdNUGVFdFlsbDlMWjVENW5NZ29JOGdMX2VzbjJFd3pNZ1FXQnpILUZxV1FjdVV3c09l?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 15:31:28 GMT",
+          "sourceName": "Re-port.ru"
         }
       ]
     },
@@ -812,8 +812,8 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -834,12 +834,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
           "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Milo Mile 5 - EA",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOZjR1RHRhVUl6TUdmZU95d1YyZkJzTGZ2RUpjcGFaOTBVay01dHFybHBPRmhSSEdPSGRSQzVKeHI2OHhNNlpSa09SNHVFaWpzcU5iazRJUjVJdGpTM0V1amU3SEJZZHBIaWtfUWpVbEhOQ1gwcWQ3ejZGMmdRWnRhMXY5QTJlTUdmQkZ3eTlZQXE2SEU?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 01:00:19 GMT",
-          "sourceName": "EA"
         }
       ]
     },
@@ -1356,17 +1350,23 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 9,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
-      "latestTitle": "Ежедневный охват маркетплейсов: Wildberries −10%, Ozon +26% - Retail Life",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
-      "latestSourceName": "Retail Life",
+      "tractionMentions": 1,
+      "latestPublishedAt": "Thu, 08 Oct 2026 21:15:57 GMT",
+      "latestTitle": "Как ИИ сериалы и мультики превращают охваты в клиентов, а не просто в лайки - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mVjg3dHZBZDNNbUozc3MzQjl1UXdTS2c3WXlnTlhUTl9KUThOSUU4NUU2WWlaaHNtM2ZUVXp2MXFoMnFwNEIxQlFRREFqVGRudkE?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Как ИИ сериалы и мультики превращают охваты в клиентов, а не просто в лайки - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mVjg3dHZBZDNNbUozc3MzQjl1UXdTS2c3WXlnTlhUTl9KUThOSUU4NUU2WWlaaHNtM2ZUVXp2MXFoMnFwNEIxQlFRREFqVGRudkE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 21:15:57 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Ежедневный охват маркетплейсов: Wildberries −10%, Ozon +26% - Retail Life",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
@@ -1390,12 +1390,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTE5WcV96TW5LS2JoN01jNzRjb3FRXy0yaEM4aEF0MlltcGZmYTgxeDFYWkMzX0VYbk45UklxbmZoNEQ0NGt4UDl6Rk4xX2RlOGZFd1JnNko5bG94QXdwbVdvMFozNA?oc=5",
           "publishedAt": "Wed, 07 Oct 2026 07:10:00 GMT",
           "sourceName": "Совет Федерации Федерального Собрания Российской Федерации"
-        },
-        {
-          "title": "ВС РФ углубляют охват Доброполья и вплотную подходят к Белозерскому - Life.ru",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNRUZYWVc3ZFRhYjlJcWhvYlh1QjF6N0RacFBZUEZ2bEZTRk80eEZ4QVk5Qzg0RkVxWkkyQUl6bTU4dzZUUEt6SUdTRnVzakVBZ2c0c2tmUXR2VWs2bjZGZi1oRTdQam5YX2VBNGFFS1F5bTB6SDBnYWMtM3BLVUJWVWMyckd6N0FCR0hjYm5aTGxLdXc?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 07:08:03 GMT",
-          "sourceName": "Life.ru"
         }
       ]
     },
