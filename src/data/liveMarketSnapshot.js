@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-12T20:29:23.815Z",
+  "generatedAt": "2026-10-13T02:17:09.902Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -117,16 +117,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Автоновости дня"
         },
         {
-          "title": "АвтоВАЗ представил гоночную Lada Iskra - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1MtRjFBSU5wbUtqVFVRcVN5QlpRTl8yUTZncXhQWVYtU1JKdTZxaGJIRWw2emNwRUtfeUR0aEp6UUVRRHVYejRnUFdBVzRHSy1sTzJiaHJITm1FbnN5T2h6YUk3MkJpTkhLdWtoV1UtRjNUNEJvRmpVTTQwMURMTzF5ZDJQRkJq0gGOAUFVX3lxTE9nOHhGQlRfdmh0MC1uVWMzcWhHUjQtdlhRaHNuZ2dIaWI1TWtjSXNOZWprR19EaVBSaDdQRXlSU09QT1pxc1VZZll5MmFRcWhLRVBTZTUxQkdoYzF2MjdqVGpPZHVRdjdjYzJrNk1BM1pfWTNFdDZFdG9HYWlfWFpxOGpOVlVBdGh3Z0NGUlE?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 13:04:50 GMT",
-          "sourceName": "iXBT.com"
-        },
-        {
           "title": "АвтоВАЗ представил гоночную версию Lada Iskra: цена — почти 7 млн ₽ - RB.RU",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaThwcXpTdmxHUmkzb1lKaWhKVk9YaUdwVkxMOGNHQkRRWFltR0ZaNVAwYTl3NkhoUnVPREtfMzNNeGpUM3lRQmhMOUxiVGF3dTZuNDZoLWgyU1pIZFV2bUZzWTloUzVzdV9PT2JoLWhOWFVZNXRDVm92THJMSV9TbFpZR2t2ZnhFaGh3cy13TQ?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 12:40:00 GMT",
           "sourceName": "RB.RU"
+        },
+        {
+          "title": "Lada Iskra SW Cross: скрытые плюсы и главный минус, о котором стоит знать до покупки - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVms2WGlHNDlwSUF4UWg5RWdjZWRPVHI4anlhRFZrbW5tRnRUU3JOWGkyYVVoVWV3ekxaOC1nUTM5b2RxM2FZRFd1TmpCbjJxUWFOZU9nN2pOM2tjaFk4eEJaMmxhZm9fOW1hTFBnOVZSX3B0QWJDUmhKUGk2R3ZPYjRzWk9ldmtJWmo2cFFYM2pkMGJjekRxTEtRdUZualVwVzluZC1IenRKNm9XLTBiVw?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 12:04:44 GMT",
+          "sourceName": "110km.ru"
         },
         {
           "title": "ЦСКА и АВТОВАЗ разыграют автомобиль LADA Iskra среди болельщиков - Лада.Онлайн",
@@ -209,8 +209,8 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
-      "sourceCount7d": 4,
+      "sourceCount30d": 7,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -227,12 +227,6 @@ export const liveMarketSnapshot = {
           "sourceName": "RTVI"
         },
         {
-          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
-          "sourceName": "ITSpeaker"
-        },
-        {
           "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 11:58:45 GMT",
@@ -241,7 +235,7 @@ export const liveMarketSnapshot = {
         {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 06:57:24 GMT",
+          "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
           "sourceName": "RuNews24"
         },
         {
@@ -249,6 +243,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Общественная служба новостей"
+        },
+        {
+          "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlk1bGNGMk1aNXphWEotdEpyeS0zRFBVOXpXVEhOeGppYkJ3RzRJbW5HODB1X0Z1SUxDYWk3aEJSeVA1S01EQTNHY1djRVpuZ0JnYXhkM2hDRnY4bFcxNVZOWEp2R1FjdC1oTEhXLXB3bUEyekdOQmRscnZUaTNCYTR3c19OSHJkZllLbm5MREg?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "RTVI"
         }
       ]
     },
@@ -409,16 +409,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
-      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-      "latestSourceName": "Kursiv Media",
+      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+      "latestSourceName": "Profit.kz",
       "sources": [
         {
-          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
-          "sourceName": "Kursiv Media"
+          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+          "sourceName": "Profit.kz"
         }
       ]
     },
@@ -489,24 +489,17 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "askhow": {
       "companyId": "askhow",
@@ -898,24 +891,17 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
-      "latestSourceName": "thecode.media",
-      "sources": [
-        {
-          "title": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "thecode.media"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -965,17 +951,24 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Jev: модель, которая ничего не пишет - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1369,16 +1362,22 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 2,
-      "latestPublishedAt": "Fri, 09 Oct 2026 16:20:32 GMT",
-      "latestTitle": "«Муся, что ты наделала»: почему пользователи Instagram* уверены, что ИИ-агент Muse «убил» им охваты рилсов - Т—Ж",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5odkdaVldsSUJuTEg0LXBBelA2bExtUVp2UGV2WWRROTFKMTB2NlBsUWduQXlsc1UzUHRNaF9haXZDRDJYa0E?oc=5",
-      "latestSourceName": "Т—Ж",
+      "latestPublishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ВС РФ окружают Славянск и Краматорск: новости СВО на 12 октября, заявление Пушилина - URA.RU",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
+      "latestSourceName": "URA.RU",
       "sources": [
+        {
+          "title": "ВС РФ окружают Славянск и Краматорск: новости СВО на 12 октября, заявление Пушилина - URA.RU",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+          "sourceName": "URA.RU"
+        },
         {
           "title": "«Муся, что ты наделала»: почему пользователи Instagram* уверены, что ИИ-агент Muse «убил» им охваты рилсов - Т—Ж",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5odkdaVldsSUJuTEg0LXBBelA2bExtUVp2UGV2WWRROTFKMTB2NlBsUWduQXlsc1UzUHRNaF9haXZDRDJYa0E?oc=5",
@@ -1402,12 +1401,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0JnS1h5ZVQ1d2ZGakdmU2JlSTdfbnN1VnJKaXRfaWZBekNaclItc1o0d20waE1pVXpoOGF6VjBlM1lzc0JHVlRNOGhuaXYwWDlpU3FNUjQzWU5kTFVyTEpWZHlMWmxIZGl3M2RnQjDSAXtBVV95cUxOb3QyQjBSVG9TQ1VmRjcwYng1QTNoRTVIQnVTWG1HMHJZeEloS1ZENHFBVE55VTdkMGxKS1RjWU51SnVBR3lzWG94OVY5cUVGSjNpZDlNWFlaMmF5cGtDOGRtNFZrUUZOb25UUEtWdXZRcW5sNmZIaDlDYms?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 07:55:00 GMT",
           "sourceName": "dp.ru"
-        },
-        {
-          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 20:32:36 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
