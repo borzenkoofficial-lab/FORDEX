@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-13T02:17:09.902Z",
+  "generatedAt": "2026-10-13T09:48:31.435Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -117,16 +117,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Автоновости дня"
         },
         {
+          "title": "АвтоВАЗ представил гоночную Lada Iskra - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1MtRjFBSU5wbUtqVFVRcVN5QlpRTl8yUTZncXhQWVYtU1JKdTZxaGJIRWw2emNwRUtfeUR0aEp6UUVRRHVYejRnUFdBVzRHSy1sTzJiaHJITm1FbnN5T2h6YUk3MkJpTkhLdWtoV1UtRjNUNEJvRmpVTTQwMURMTzF5ZDJQRkJq0gGOAUFVX3lxTE9nOHhGQlRfdmh0MC1uVWMzcWhHUjQtdlhRaHNuZ2dIaWI1TWtjSXNOZWprR19EaVBSaDdQRXlSU09QT1pxc1VZZll5MmFRcWhLRVBTZTUxQkdoYzF2MjdqVGpPZHVRdjdjYzJrNk1BM1pfWTNFdDZFdG9HYWlfWFpxOGpOVlVBdGh3Z0NGUlE?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 13:04:50 GMT",
+          "sourceName": "iXBT.com"
+        },
+        {
           "title": "АвтоВАЗ представил гоночную версию Lada Iskra: цена — почти 7 млн ₽ - RB.RU",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaThwcXpTdmxHUmkzb1lKaWhKVk9YaUdwVkxMOGNHQkRRWFltR0ZaNVAwYTl3NkhoUnVPREtfMzNNeGpUM3lRQmhMOUxiVGF3dTZuNDZoLWgyU1pIZFV2bUZzWTloUzVzdV9PT2JoLWhOWFVZNXRDVm92THJMSV9TbFpZR2t2ZnhFaGh3cy13TQ?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 12:40:00 GMT",
           "sourceName": "RB.RU"
-        },
-        {
-          "title": "Lada Iskra SW Cross: скрытые плюсы и главный минус, о котором стоит знать до покупки - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNVms2WGlHNDlwSUF4UWg5RWdjZWRPVHI4anlhRFZrbW5tRnRUU3JOWGkyYVVoVWV3ekxaOC1nUTM5b2RxM2FZRFd1TmpCbjJxUWFOZU9nN2pOM2tjaFk4eEJaMmxhZm9fOW1hTFBnOVZSX3B0QWJDUmhKUGk2R3ZPYjRzWk9ldmtJWmo2cFFYM2pkMGJjekRxTEtRdUZualVwVzluZC1IenRKNm9XLTBiVw?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 12:04:44 GMT",
-          "sourceName": "110km.ru"
         },
         {
           "title": "ЦСКА и АВТОВАЗ разыграют автомобиль LADA Iskra среди болельщиков - Лада.Онлайн",
@@ -146,26 +146,26 @@ export const liveMarketSnapshot = {
       "companyId": "just-ai",
       "companyName": "Just AI",
       "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
+      "latestPublishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
+      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Как мы обучили детектор джейлбрейков для русскоязычных AI-агентов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1UbC13U1Y3UnBxdDZueU01UXZuZnZrR1JYXzZodDRGMksyM3M2TDIxQWlSX0ZRWmZvZFpGMmhmZERuTVI2VktKTTd5Y0VSMkV2enJmbV9XSFZBbEJsQW1yeG9NQnYzd9IBWEFVX3lxTE5iZnJpWWF1Q0JiSU9RWTgxNEdSZ1NTdE5yelpLOXRxSkFBSENuUDJkSzlYN3JTRTNnMURCV3VjZ1d1Z3VQRDdCWnJDTmJEUDVId2NrVjV3TFk?oc=5",
-          "publishedAt": "Tue, 22 Sep 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -210,7 +210,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 7,
-      "sourceCount7d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -425,17 +425,24 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 13 Oct 2026 08:15:30 GMT",
+      "latestTitle": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
+      "latestSourceName": "CNews.ru",
+      "sources": [
+        {
+          "title": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 08:15:30 GMT",
+          "sourceName": "CNews.ru"
+        }
+      ]
     },
     "webiomed": {
       "companyId": "webiomed",
@@ -489,17 +496,24 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "askhow": {
       "companyId": "askhow",
@@ -811,10 +825,10 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount30d": 4,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
@@ -839,6 +853,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
           "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
+          "sourceName": "Vietnam.vn"
         }
       ]
     },
@@ -852,13 +872,13 @@ export const liveMarketSnapshot = {
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
-      "latestTitle": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlrSAVhBVV95cUxNMXdkZlV1WEdIR3J0THZieEdGRXZuYllDLXY3WlZ5cGs2WnpHZjMzLXhUVDloYkhyRy1mLWlxUWZmdnRqS1Zzd1lMVm42OFhtaHdDUV90R3Za?oc=5",
+      "latestTitle": "8 ИИ‑сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
         {
-          "title": "8 ИИ-сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlrSAVhBVV95cUxNMXdkZlV1WEdIR3J0THZieEdGRXZuYllDLXY3WlZ5cGs2WnpHZjMzLXhUVDloYkhyRy1mLWlxUWZmdnRqS1Zzd1lMVm42OFhtaHdDUV90R3Za?oc=5",
+          "title": "8 ИИ‑сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
           "publishedAt": "Sat, 10 Oct 2026 15:39:38 GMT",
           "sourceName": "Хабр"
         },
@@ -988,17 +1008,23 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
-      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
@@ -1198,24 +1224,17 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 25 Sep 2026 00:25:09 GMT",
-      "latestTitle": "Искусственный интеллект - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PdFR0YWFmc2hROVdTOHI1STROR0RscVdXLWNBNEh0eTltamJXbkEtUFpsbVoxUmtfdDN1TUhaajQxTHVrcmJPdFBadExTQ2dBZGZFM29MZUNsWkx6THFndWVqZThIbGJsblBFS2d5MTk?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Искусственный интеллект - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1PdFR0YWFmc2hROVdTOHI1STROR0RscVdXLWNBNEh0eTltamJXbkEtUFpsbVoxUmtfdDN1TUhaajQxTHVrcmJPdFBadExTQ2dBZGZFM29MZUNsWkx6THFndWVqZThIbGJsblBFS2d5MTk?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 00:25:09 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "wunjo": {
       "companyId": "wunjo",
@@ -1362,16 +1381,22 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 9,
-      "sourceCount7d": 7,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 2,
-      "latestPublishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ВС РФ окружают Славянск и Краматорск: новости СВО на 12 октября, заявление Пушилина - URA.RU",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
-      "latestSourceName": "URA.RU",
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
+      "latestTitle": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "ВС РФ окружают Славянск и Краматорск: новости СВО на 12 октября, заявление Пушилина - URA.RU",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
@@ -1395,12 +1420,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
           "sourceName": "Retail Life"
-        },
-        {
-          "title": "Атаки на склады обрушили охваты одних маркетплейсов в РФ и подняли других - dp.ru",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0JnS1h5ZVQ1d2ZGakdmU2JlSTdfbnN1VnJKaXRfaWZBekNaclItc1o0d20waE1pVXpoOGF6VjBlM1lzc0JHVlRNOGhuaXYwWDlpU3FNUjQzWU5kTFVyTEpWZHlMWmxIZGl3M2RnQjDSAXtBVV95cUxOb3QyQjBSVG9TQ1VmRjcwYng1QTNoRTVIQnVTWG1HMHJZeEloS1ZENHFBVE55VTdkMGxKS1RjWU51SnVBR3lzWG94OVY5cUVGSjNpZDlNWFlaMmF5cGtDOGRtNFZrUUZOb25UUEtWdXZRcW5sNmZIaDlDYms?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:55:00 GMT",
-          "sourceName": "dp.ru"
         }
       ]
     },
