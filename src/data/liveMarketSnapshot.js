@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-13T09:48:31.435Z",
+  "generatedAt": "2026-10-13T18:34:47.186Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,11 +105,23 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 17:36:04 GMT",
-      "latestTitle": "Новая модель Lada метит в бестселлеры: глава АвтоВАЗа раскрыл, какое место займет автомобиль на рынке России - Автоновости дня",
-      "latestUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YS0E3MUk2R1FJUjVkcnZrS3ozUXpnS2NJLUNkeDBDbHQ1SXloLUpJZGNhSENwb2MtVGdRRnAwYld4TmtyeWtGeHg0U2hrM1RRT3B4aGFuZmJoOWZHYzZoY1NWY2JPWGxtdWhrcDF5NNIBdEFVX3lxTE45ZUl3a0lScERoX1pIcDZfRVdWZ0lKYTh4OTBYd05JMHlsQXIzanFkeEplellhcWZqZVlWRjZHQ1pJQUZWRHVCcFZKNVFhWE5BeVZJRDFjblNyTGVzUmNNTjJEOFdQVko1SVNhbUgySGNydFEz?oc=5",
-      "latestSourceName": "Автоновости дня",
+      "latestPublishedAt": "Tue, 13 Oct 2026 14:23:58 GMT",
+      "latestTitle": "TMS представила новую гоночную Lada Iskra TMS - Autosport.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMTVqYVgtZ3VTQjdIeXNPMG4xUWw5eW54VjAxS0hlZHozZHR6TWJvWm9SOEpDeWlwcmRJZ3ktWkxoVEcwRGFUT1lIMHdhUVZKWktUSnlMV2h3RWpJTXJRU25oMUN6bFFTdHRmS3RFN1BDRkM2a3ZSeHNpQ1JFQW5OeDhwc2xDaG9YUTE2ZTNR?oc=5",
+      "latestSourceName": "Autosport.com.ru",
       "sources": [
+        {
+          "title": "TMS представила новую гоночную Lada Iskra TMS - Autosport.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMTVqYVgtZ3VTQjdIeXNPMG4xUWw5eW54VjAxS0hlZHozZHR6TWJvWm9SOEpDeWlwcmRJZ3ktWkxoVEcwRGFUT1lIMHdhUVZKWktUSnlMV2h3RWpJTXJRU25oMUN6bFFTdHRmS3RFN1BDRkM2a3ZSeHNpQ1JFQW5OeDhwc2xDaG9YUTE2ZTNR?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 14:23:58 GMT",
+          "sourceName": "Autosport.com.ru"
+        },
+        {
+          "title": "Гоночная Lada Iskra: чем она отличается от серийной и где её можно увидеть - 1777.Ru",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEw0Mkpqc3JvOS1VVWxPd3F1b1pkRjFMSkZpTWZkaDM4aG5MX0tfb1htR3F0M2FyaGpVZnVDSk85cG0wRXFIUzd3X29EaXNpQkxyVG8tRnI3WWl4UTVVWjEwUm5POEFiV19ZWGM2WUJhZ21xdEVRMWtOZUtWT3UyMTY2SUhoV0tLMzFTbWt5REhkZnVNcVRYTk9yQjFtZ3dwc2NBWWxwRUpHZw?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 12:01:36 GMT",
+          "sourceName": "1777.Ru"
+        },
         {
           "title": "Новая модель Lada метит в бестселлеры: глава АвтоВАЗа раскрыл, какое место займет автомобиль на рынке России - Автоновости дня",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YS0E3MUk2R1FJUjVkcnZrS3ozUXpnS2NJLUNkeDBDbHQ1SXloLUpJZGNhSENwb2MtVGdRRnAwYld4TmtyeWtGeHg0U2hrM1RRT3B4aGFuZmJoOWZHYzZoY1NWY2JPWGxtdWhrcDF5NNIBdEFVX3lxTE45ZUl3a0lScERoX1pIcDZfRVdWZ0lKYTh4OTBYd05JMHlsQXIzanFkeEplellhcWZqZVlWRjZHQ1pJQUZWRHVCcFZKNVFhWE5BeVZJRDFjblNyTGVzUmNNTjJEOFdQVko1SVNhbUgySGNydFEz?oc=5",
@@ -127,29 +139,17 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaThwcXpTdmxHUmkzb1lKaWhKVk9YaUdwVkxMOGNHQkRRWFltR0ZaNVAwYTl3NkhoUnVPREtfMzNNeGpUM3lRQmhMOUxiVGF3dTZuNDZoLWgyU1pIZFV2bUZzWTloUzVzdV9PT2JoLWhOWFVZNXRDVm92THJMSV9TbFpZR2t2ZnhFaGh3cy13TQ?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 12:40:00 GMT",
           "sourceName": "RB.RU"
-        },
-        {
-          "title": "ЦСКА и АВТОВАЗ разыграют автомобиль LADA Iskra среди болельщиков - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVRITEdHS1FGaWxDM25yZDd3NDdvb1pydGtCRndka2dhT093N2J4V29FMHJVcDJpZTlZZThSUFVreWp5ZzhfbWhoSzV2dWdvX0lhdml2YU9jTVp0cTVydkdDbnVRWkFUdEk0VDIxTjZ1b3F3OE8zZmQ4LXhYLVpvc3hRaUozSzF5YzBzWXRiUi1BbkU0RExfT3NTN3o0N1BEUG5scmFZbTJrME41S25mM0tSMUhteG5RRWk3T2ZlSDQ5VTZldFE?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 09:31:58 GMT",
-          "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "Названа стоимость гоночной Lada Iskra с 218-сильным турбомотором - Авто.ру",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxNRGdJb1d4OHNfZTdiWGpuTlhScjdaQkM3b1JmVmpUSGpSNlpHT2N2RlhMb3ZGNkRpQ3dpSzVnek83b3JQQy1WWEMwcTI0Z1hZSjB2VWdYVkVmNEMxWkdyQTE0ZTdudlB5Q1VXVW4zMk9NTEFRX0MwMmQ0d2xJRm1ZV0hSampjOHlkbkVFQnVWOGxHd2V6Wmc?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 09:19:00 GMT",
-          "sourceName": "Авто.ру"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 3,
+      "sourceCount30d": 1,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
       "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
@@ -161,18 +161,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
           "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
-          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
-          "sourceName": "Первый технический"
         }
       ]
     },
@@ -210,7 +198,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 7,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -336,26 +324,26 @@ export const liveMarketSnapshot = {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
       "sourceCount30d": 6,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 14:58:27 GMT",
-      "latestTitle": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGHSAVhBVV95cUxQclZSdjVlNlJoNjM4di0ybWt3NTYzWWRaT2dxY0lVQkVJMHJnd241TDkxR2kxOVBBYjg5Y1F1UkdEVk5hN3YtS0QyS2xPa3NnNFVBRzh0aDBh?oc=5",
+      "latestPublishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
+      "latestTitle": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV_SAVhBVV95cUxNTmRaODQ0UkpSblZYM2xFVmgwWG94WlE5Z0dtMmRCZDEwQ3IzdTJkdlFKQUNQMjE2T2xKQTNBdU40d2djZGdmVGgtZXNUdnk5MGZBb1JjSFFf?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV_SAVhBVV95cUxNTmRaODQ0UkpSblZYM2xFVmgwWG94WlE5Z0dtMmRCZDEwQ3IzdTJkdlFKQUNQMjE2T2xKQTNBdU40d2djZGdmVGgtZXNUdnk5MGZBb1JjSFFf?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGHSAVhBVV95cUxQclZSdjVlNlJoNjM4di0ybWt3NTYzWWRaT2dxY0lVQkVJMHJnd241TDkxR2kxOVBBYjg5Y1F1UkdEVk5hN3YtS0QyS2xPa3NnNFVBRzh0aDBh?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 14:58:27 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "В России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9YTFp5eVRPR0J1Umw3SmpzaUVMMDVHX1NMdDVtVXphZ2ZmQ2lOdTVvZEFSejJZNVFaOVVTYjcyYVp2bk9vX3paZ2VpcEJvcXcxZE16VXF3R3jSAVhBVV95cUxPWExaeXlUT0dCdVJsN0pqc2lFTDA1R19TTHQ1bVV6YWdmZkNpTnU1b2RBUnoyWTVRWjlVU2I3MmFadm5Pb196WmdlaXBCb3F3MWRNelVxd0d4?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 12:52:06 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -404,29 +392,29 @@ export const liveMarketSnapshot = {
       "companyId": "targetai",
       "companyName": "targetai",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -441,6 +429,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 08:15:30 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
+          "sourceName": "Телеспутник"
         }
       ]
     },
@@ -496,24 +490,17 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "askhow": {
       "companyId": "askhow",
@@ -855,9 +842,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
