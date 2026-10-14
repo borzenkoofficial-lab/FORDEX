@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-14T00:00:09.451Z",
+  "generatedAt": "2026-10-14T03:49:04.047Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -145,24 +145,17 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
-      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 08:47:46 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
@@ -631,7 +624,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 11:41:03 GMT",
+      "latestPublishedAt": "Tue, 13 Oct 2026 20:56:01 GMT",
       "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
       "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
       "latestSourceName": "Компьютерра",
@@ -639,7 +632,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 11:41:03 GMT",
+          "publishedAt": "Tue, 13 Oct 2026 20:56:01 GMT",
           "sourceName": "Компьютерра"
         }
       ]
@@ -819,10 +812,10 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
@@ -846,12 +839,6 @@ export const liveMarketSnapshot = {
           "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -965,24 +952,17 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Jev: модель, которая ничего не пишет - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
-          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
