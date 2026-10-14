@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-14T10:43:20.110Z",
+  "generatedAt": "2026-10-14T16:02:41.281Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,22 +105,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 14 Oct 2026 09:40:07 GMT",
-      "latestTitle": "С каркасом безопасности: чем еще удивила гоночная Lada Iskra на трассе в Подмосковье - REGIONS.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVE9nOTE2TU5HaXBNSXAySG92X3pxZ2w2cHlJMnJVdnhFMXlrbW9NT1ltTnM2cXdwWDlyT2t5ZHl0am94SVhDc1V2LWxpMFh2Q24wWFo0X2RLZHRNcDhScGpreVdQS0lxREJhVnZuOC05c2tHZVJfV3N6cEF4V1hVRlRtN3lRRXg1MkhvS2hWUEtjckpsWnM2Z3JyNHdjWjNaZEhuSlhjbUZRT3FodG9tNXFKX2daWHc?oc=5",
-      "latestSourceName": "REGIONS.ru",
+      "latestPublishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
+      "latestTitle": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
+      "latestSourceName": "Лада.Онлайн",
       "sources": [
+        {
+          "title": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
         {
           "title": "С каркасом безопасности: чем еще удивила гоночная Lada Iskra на трассе в Подмосковье - REGIONS.ru",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVE9nOTE2TU5HaXBNSXAySG92X3pxZ2w2cHlJMnJVdnhFMXlrbW9NT1ltTnM2cXdwWDlyT2t5ZHl0am94SVhDc1V2LWxpMFh2Q24wWFo0X2RLZHRNcDhScGpreVdQS0lxREJhVnZuOC05c2tHZVJfV3N6cEF4V1hVRlRtN3lRRXg1MkhvS2hWUEtjckpsWnM2Z3JyNHdjWjNaZEhuSlhjbUZRT3FodG9tNXFKX2daWHc?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 09:40:07 GMT",
           "sourceName": "REGIONS.ru"
-        },
-        {
-          "title": "Названа стоимость 218-сильной гоночной LADA Iskra TMS - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc2w2SGdFbUZ0UmtEM191RkhFVHVkb3Vha2QzQnUzckxlcTQyclNxRDFtMmZsRlRXSWJFNHZ0NFdnSFpndEpoanlpOUdDR3BHdWx3RENWUW1uQm5iWVdHS3hvS0kzb2dKengyTGtNN1lCalZBV1ViM1h6bWJTczkyamtqcWFsVHk1RGx2Rk5kRG9NUGtkZUhlbW8yUmRMOExjd2RPMjkzTlFsOFVRQS1yM2p1Ujg?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 09:20:04 GMT",
-          "sourceName": "Лада.Онлайн"
         },
         {
           "title": "АВТОВАЗ готовит новые LADA Vesta и LADA Iskra с более мощными двигателями - Новости Тольятти",
@@ -316,17 +316,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
-      "sourceCount7d": 3,
+      "sourceCount30d": 7,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
-      "latestTitle": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV_SAVhBVV95cUxNTmRaODQ0UkpSblZYM2xFVmgwWG94WlE5Z0dtMmRCZDEwQ3IzdTJkdlFKQUNQMjE2T2xKQTNBdU40d2djZGdmVGgtZXNUdnk5MGZBb1JjSFFf?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
+      "latestTitle": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
+          "sourceName": "CNews.ru"
+        },
         {
           "title": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV_SAVhBVV95cUxNTmRaODQ0UkpSblZYM2xFVmgwWG94WlE5Z0dtMmRCZDEwQ3IzdTJkdlFKQUNQMjE2T2xKQTNBdU40d2djZGdmVGgtZXNUdnk5MGZBb1JjSFFf?oc=5",
@@ -346,16 +352,10 @@ export const liveMarketSnapshot = {
           "sourceName": "CNews.ru"
         },
         {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
-          "sourceName": "Сделано у нас"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
-          "sourceName": "Первый Технический"
+          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
+          "sourceName": "Хабр"
         }
       ]
     },
@@ -385,21 +385,21 @@ export const liveMarketSnapshot = {
       "companyId": "targetai",
       "companyName": "targetai",
       "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
-      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-      "latestSourceName": "Kursiv Media",
+      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+      "latestSourceName": "Profit.kz",
       "sources": [
         {
-          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
-          "sourceName": "Kursiv Media"
+          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+          "sourceName": "Profit.kz"
         }
       ]
     },
@@ -483,17 +483,24 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "askhow": {
       "companyId": "askhow",
@@ -805,10 +812,10 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
@@ -832,12 +839,6 @@ export const liveMarketSnapshot = {
           "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1346,28 +1347,28 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount30d": 8,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 2,
       "launchMentions": 0,
-      "tractionMentions": 2,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
-      "latestTitle": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
-      "latestSourceName": "Хабр",
+      "tractionMentions": 3,
+      "latestPublishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
+      "latestTitle": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
+      "latestSourceName": "tribune.kz",
       "sources": [
+        {
+          "title": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
+          "sourceName": "tribune.kz"
+        },
         {
           "title": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "ВС РФ окружают Славянск и Краматорск: новости СВО на 12 октября, заявление Пушилина - URA.RU",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-          "sourceName": "URA.RU"
         },
         {
           "title": "«Муся, что ты наделала»: почему пользователи Instagram* уверены, что ИИ-агент Muse «убил» им охваты рилсов - Т—Ж",
