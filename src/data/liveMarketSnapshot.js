@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-13T18:34:47.186Z",
+  "generatedAt": "2026-10-14T00:00:09.451Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,17 +105,11 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 14:23:58 GMT",
-      "latestTitle": "TMS представила новую гоночную Lada Iskra TMS - Autosport.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMTVqYVgtZ3VTQjdIeXNPMG4xUWw5eW54VjAxS0hlZHozZHR6TWJvWm9SOEpDeWlwcmRJZ3ktWkxoVEcwRGFUT1lIMHdhUVZKWktUSnlMV2h3RWpJTXJRU25oMUN6bFFTdHRmS3RFN1BDRkM2a3ZSeHNpQ1JFQW5OeDhwc2xDaG9YUTE2ZTNR?oc=5",
-      "latestSourceName": "Autosport.com.ru",
+      "latestPublishedAt": "Tue, 13 Oct 2026 12:01:36 GMT",
+      "latestTitle": "Гоночная Lada Iskra: чем она отличается от серийной и где её можно увидеть - 1777.Ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEw0Mkpqc3JvOS1VVWxPd3F1b1pkRjFMSkZpTWZkaDM4aG5MX0tfb1htR3F0M2FyaGpVZnVDSk85cG0wRXFIUzd3X29EaXNpQkxyVG8tRnI3WWl4UTVVWjEwUm5POEFiV19ZWGM2WUJhZ21xdEVRMWtOZUtWT3UyMTY2SUhoV0tLMzFTbWt5REhkZnVNcVRYTk9yQjFtZ3dwc2NBWWxwRUpHZw?oc=5",
+      "latestSourceName": "1777.Ru",
       "sources": [
-        {
-          "title": "TMS представила новую гоночную Lada Iskra TMS - Autosport.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxNMTVqYVgtZ3VTQjdIeXNPMG4xUWw5eW54VjAxS0hlZHozZHR6TWJvWm9SOEpDeWlwcmRJZ3ktWkxoVEcwRGFUT1lIMHdhUVZKWktUSnlMV2h3RWpJTXJRU25oMUN6bFFTdHRmS3RFN1BDRkM2a3ZSeHNpQ1JFQW5OeDhwc2xDaG9YUTE2ZTNR?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 14:23:58 GMT",
-          "sourceName": "Autosport.com.ru"
-        },
         {
           "title": "Гоночная Lada Iskra: чем она отличается от серийной и где её можно увидеть - 1777.Ru",
           "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEw0Mkpqc3JvOS1VVWxPd3F1b1pkRjFMSkZpTWZkaDM4aG5MX0tfb1htR3F0M2FyaGpVZnVDSk85cG0wRXFIUzd3X29EaXNpQkxyVG8tRnI3WWl4UTVVWjEwUm5POEFiV19ZWGM2WUJhZ21xdEVRMWtOZUtWT3UyMTY2SUhoV0tLMzFTbWt5REhkZnVNcVRYTk9yQjFtZ3dwc2NBWWxwRUpHZw?oc=5",
@@ -139,6 +133,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaThwcXpTdmxHUmkzb1lKaWhKVk9YaUdwVkxMOGNHQkRRWFltR0ZaNVAwYTl3NkhoUnVPREtfMzNNeGpUM3lRQmhMOUxiVGF3dTZuNDZoLWgyU1pIZFV2bUZzWTloUzVzdV9PT2JoLWhOWFVZNXRDVm92THJMSV9TbFpZR2t2ZnhFaGh3cy13TQ?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 12:40:00 GMT",
           "sourceName": "RB.RU"
+        },
+        {
+          "title": "ЦСКА и АВТОВАЗ разыграют автомобиль LADA Iskra среди болельщиков - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVRITEdHS1FGaWxDM25yZDd3NDdvb1pydGtCRndka2dhT093N2J4V29FMHJVcDJpZTlZZThSUFVreWp5ZzhfbWhoSzV2dWdvX0lhdml2YU9jTVp0cTVydkdDbnVRWkFUdEk0VDIxTjZ1b3F3OE8zZmQ4LXhYLVpvc3hRaUozSzF5YzBzWXRiUi1BbkU0RExfT3NTN3o0N1BEUG5scmFZbTJrME41S25mM0tSMUhteG5RRWk3T2ZlSDQ5VTZldFE?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 09:31:58 GMT",
+          "sourceName": "Лада.Онлайн"
         }
       ]
     },
@@ -625,17 +625,24 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 13 Oct 2026 11:41:03 GMT",
+      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
+      "latestSourceName": "Компьютерра",
+      "sources": [
+        {
+          "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 11:41:03 GMT",
+          "sourceName": "Компьютерра"
+        }
+      ]
     },
     "freestyling-ai": {
       "companyId": "freestyling-ai",
@@ -842,9 +849,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1368,11 +1375,11 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 9,
-      "sourceCount7d": 8,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 2,
+      "tractionMentions": 1,
       "latestPublishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
       "latestTitle": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
       "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
@@ -1397,16 +1404,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Т—Ж"
         },
         {
-          "title": "Как ИИ сериалы и мультики превращают охваты в клиентов, а не просто в лайки - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mVjg3dHZBZDNNbUozc3MzQjl1UXdTS2c3WXlnTlhUTl9KUThOSUU4NUU2WWlaaHNtM2ZUVXp2MXFoMnFwNEIxQlFRREFqVGRudkE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 21:15:57 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
           "title": "Ежедневный охват маркетплейсов: Wildberries −10%, Ozon +26% - Retail Life",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
           "sourceName": "Retail Life"
+        },
+        {
+          "title": "Атаки на склады обрушили охваты одних маркетплейсов в РФ и подняли других - dp.ru",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0JnS1h5ZVQ1d2ZGakdmU2JlSTdfbnN1VnJKaXRfaWZBekNaclItc1o0d20waE1pVXpoOGF6VjBlM1lzc0JHVlRNOGhuaXYwWDlpU3FNUjQzWU5kTFVyTEpWZHlMWmxIZGl3M2RnQjDSAXtBVV95cUxOb3QyQjBSVG9TQ1VmRjcwYng1QTNoRTVIQnVTWG1HMHJZeEloS1ZENHFBVE55VTdkMGxKS1RjWU51SnVBR3lzWG94OVY5cUVGSjNpZDlNWFlaMmF5cGtDOGRtNFZrUUZOb25UUEtWdXZRcW5sNmZIaDlDYms?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:55:00 GMT",
+          "sourceName": "dp.ru"
         }
       ]
     },
