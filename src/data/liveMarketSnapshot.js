@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-14T16:02:41.281Z",
+  "generatedAt": "2026-10-14T21:01:53.755Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -341,7 +341,7 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGHSAVhBVV95cUxQclZSdjVlNlJoNjM4di0ybWt3NTYzWWRaT2dxY0lVQkVJMHJnd241TDkxR2kxOVBBYjg5Y1F1UkdEVk5hN3YtS0QyS2xPa3NnNFVBRzh0aDBh?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 14:58:27 GMT",
           "sourceName": "Хабр"
         },
@@ -385,21 +385,21 @@ export const liveMarketSnapshot = {
       "companyId": "targetai",
       "companyName": "targetai",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
@@ -483,24 +483,17 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "askhow": {
       "companyId": "askhow",
@@ -1347,17 +1340,23 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 9,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 3,
-      "latestPublishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
-      "latestTitle": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
-      "latestSourceName": "tribune.kz",
+      "latestPublishedAt": "Wed, 14 Oct 2026 13:40:00 GMT",
+      "latestTitle": "Блогер МЭННИ: белорусам и русским душат охваты! Смотрите «СЛОВО ЗА СЛОВО» на «СБТВ» - СБ. Беларусь сегодня",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLWhWeFNLbXRjQUtJOU5pMW1XZHRwTWRhMDktNkJwWW0zSG9IcDhwNFNzU0todFNoMkc1TFEwUWUwM0NmVlhhY0xzd0IxRV9hVW9SQmMxZExDNWtYbW8wQlNoZlZiZ3ZpbkdTeWtveDBDbURETXBMak03cjNNVmwxMW95UlZURGQtREU0QU1oVEotNEtNdmxxb2hjdWtqMVduQ0M5X2Ryc3hydmUySDcw0gG4AUFVX3lxTE9kaUhzRVlkcDlRWll5cUlQcHluaXhlYXlCNzhOcnNtcGNEYVBpNXJUS3NOTU9FWWMxbGJPTzhCQ1JJRE4xMmVZWEk3M0xBTkxXdFJnZkMyUUI2Qm9BX3l0RkRXbE1UTFF5cjlSQlNjMldueTRwV2JYekxaNV9hMjFhZjRmTHNKUGxMUnNIc0pMd1NOaHpCbGVHMDZzM0lKWFl4OEpRQjgtaWNSbXdGTk16dERXR0p6enA?oc=5",
+      "latestSourceName": "СБ. Беларусь сегодня",
       "sources": [
+        {
+          "title": "Блогер МЭННИ: белорусам и русским душат охваты! Смотрите «СЛОВО ЗА СЛОВО» на «СБТВ» - СБ. Беларусь сегодня",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLWhWeFNLbXRjQUtJOU5pMW1XZHRwTWRhMDktNkJwWW0zSG9IcDhwNFNzU0todFNoMkc1TFEwUWUwM0NmVlhhY0xzd0IxRV9hVW9SQmMxZExDNWtYbW8wQlNoZlZiZ3ZpbkdTeWtveDBDbURETXBMak03cjNNVmwxMW95UlZURGQtREU0QU1oVEotNEtNdmxxb2hjdWtqMVduQ0M5X2Ryc3hydmUySDcw0gG4AUFVX3lxTE9kaUhzRVlkcDlRWll5cUlQcHluaXhlYXlCNzhOcnNtcGNEYVBpNXJUS3NOTU9FWWMxbGJPTzhCQ1JJRE4xMmVZWEk3M0xBTkxXdFJnZkMyUUI2Qm9BX3l0RkRXbE1UTFF5cjlSQlNjMldueTRwV2JYekxaNV9hMjFhZjRmTHNKUGxMUnNIc0pMd1NOaHpCbGVHMDZzM0lKWFl4OEpRQjgtaWNSbXdGTk16dERXR0p6enA?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 13:40:00 GMT",
+          "sourceName": "СБ. Беларусь сегодня"
+        },
         {
           "title": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
@@ -1371,22 +1370,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
+          "title": "ВС РФ окружают Славянск и Краматорск: новости СВО на 12 октября, заявление Пушилина - URA.RU",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+          "sourceName": "URA.RU"
+        },
+        {
           "title": "«Муся, что ты наделала»: почему пользователи Instagram* уверены, что ИИ-агент Muse «убил» им охваты рилсов - Т—Ж",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5odkdaVldsSUJuTEg0LXBBelA2bExtUVp2UGV2WWRROTFKMTB2NlBsUWduQXlsc1UzUHRNaF9haXZDRDJYa0E?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 16:20:32 GMT",
           "sourceName": "Т—Ж"
-        },
-        {
-          "title": "Как ИИ сериалы и мультики превращают охваты в клиентов, а не просто в лайки - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mVjg3dHZBZDNNbUozc3MzQjl1UXdTS2c3WXlnTlhUTl9KUThOSUU4NUU2WWlaaHNtM2ZUVXp2MXFoMnFwNEIxQlFRREFqVGRudkE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 21:15:57 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Ежедневный охват маркетплейсов: Wildberries −10%, Ozon +26% - Retail Life",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
-          "sourceName": "Retail Life"
         }
       ]
     },
