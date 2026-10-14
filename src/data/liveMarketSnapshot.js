@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-14T03:49:04.047Z",
+  "generatedAt": "2026-10-14T10:43:20.110Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,40 +105,40 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 12:01:36 GMT",
-      "latestTitle": "Гоночная Lada Iskra: чем она отличается от серийной и где её можно увидеть - 1777.Ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEw0Mkpqc3JvOS1VVWxPd3F1b1pkRjFMSkZpTWZkaDM4aG5MX0tfb1htR3F0M2FyaGpVZnVDSk85cG0wRXFIUzd3X29EaXNpQkxyVG8tRnI3WWl4UTVVWjEwUm5POEFiV19ZWGM2WUJhZ21xdEVRMWtOZUtWT3UyMTY2SUhoV0tLMzFTbWt5REhkZnVNcVRYTk9yQjFtZ3dwc2NBWWxwRUpHZw?oc=5",
-      "latestSourceName": "1777.Ru",
+      "latestPublishedAt": "Wed, 14 Oct 2026 09:40:07 GMT",
+      "latestTitle": "С каркасом безопасности: чем еще удивила гоночная Lada Iskra на трассе в Подмосковье - REGIONS.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVE9nOTE2TU5HaXBNSXAySG92X3pxZ2w2cHlJMnJVdnhFMXlrbW9NT1ltTnM2cXdwWDlyT2t5ZHl0am94SVhDc1V2LWxpMFh2Q24wWFo0X2RLZHRNcDhScGpreVdQS0lxREJhVnZuOC05c2tHZVJfV3N6cEF4V1hVRlRtN3lRRXg1MkhvS2hWUEtjckpsWnM2Z3JyNHdjWjNaZEhuSlhjbUZRT3FodG9tNXFKX2daWHc?oc=5",
+      "latestSourceName": "REGIONS.ru",
       "sources": [
         {
-          "title": "Гоночная Lada Iskra: чем она отличается от серийной и где её можно увидеть - 1777.Ru",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEw0Mkpqc3JvOS1VVWxPd3F1b1pkRjFMSkZpTWZkaDM4aG5MX0tfb1htR3F0M2FyaGpVZnVDSk85cG0wRXFIUzd3X29EaXNpQkxyVG8tRnI3WWl4UTVVWjEwUm5POEFiV19ZWGM2WUJhZ21xdEVRMWtOZUtWT3UyMTY2SUhoV0tLMzFTbWt5REhkZnVNcVRYTk9yQjFtZ3dwc2NBWWxwRUpHZw?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 12:01:36 GMT",
-          "sourceName": "1777.Ru"
+          "title": "С каркасом безопасности: чем еще удивила гоночная Lada Iskra на трассе в Подмосковье - REGIONS.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVE9nOTE2TU5HaXBNSXAySG92X3pxZ2w2cHlJMnJVdnhFMXlrbW9NT1ltTnM2cXdwWDlyT2t5ZHl0am94SVhDc1V2LWxpMFh2Q24wWFo0X2RLZHRNcDhScGpreVdQS0lxREJhVnZuOC05c2tHZVJfV3N6cEF4V1hVRlRtN3lRRXg1MkhvS2hWUEtjckpsWnM2Z3JyNHdjWjNaZEhuSlhjbUZRT3FodG9tNXFKX2daWHc?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 09:40:07 GMT",
+          "sourceName": "REGIONS.ru"
         },
         {
-          "title": "Новая модель Lada метит в бестселлеры: глава АвтоВАЗа раскрыл, какое место займет автомобиль на рынке России - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE9YS0E3MUk2R1FJUjVkcnZrS3ozUXpnS2NJLUNkeDBDbHQ1SXloLUpJZGNhSENwb2MtVGdRRnAwYld4TmtyeWtGeHg0U2hrM1RRT3B4aGFuZmJoOWZHYzZoY1NWY2JPWGxtdWhrcDF5NNIBdEFVX3lxTE45ZUl3a0lScERoX1pIcDZfRVdWZ0lKYTh4OTBYd05JMHlsQXIzanFkeEplellhcWZqZVlWRjZHQ1pJQUZWRHVCcFZKNVFhWE5BeVZJRDFjblNyTGVzUmNNTjJEOFdQVko1SVNhbUgySGNydFEz?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 17:36:04 GMT",
-          "sourceName": "Автоновости дня"
-        },
-        {
-          "title": "АвтоВАЗ представил гоночную Lada Iskra - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMiiAFBVV95cUxNT1MtRjFBSU5wbUtqVFVRcVN5QlpRTl8yUTZncXhQWVYtU1JKdTZxaGJIRWw2emNwRUtfeUR0aEp6UUVRRHVYejRnUFdBVzRHSy1sTzJiaHJITm1FbnN5T2h6YUk3MkJpTkhLdWtoV1UtRjNUNEJvRmpVTTQwMURMTzF5ZDJQRkJq0gGOAUFVX3lxTE9nOHhGQlRfdmh0MC1uVWMzcWhHUjQtdlhRaHNuZ2dIaWI1TWtjSXNOZWprR19EaVBSaDdQRXlSU09QT1pxc1VZZll5MmFRcWhLRVBTZTUxQkdoYzF2MjdqVGpPZHVRdjdjYzJrNk1BM1pfWTNFdDZFdG9HYWlfWFpxOGpOVlVBdGh3Z0NGUlE?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 13:04:50 GMT",
-          "sourceName": "iXBT.com"
-        },
-        {
-          "title": "АвтоВАЗ представил гоночную версию Lada Iskra: цена — почти 7 млн ₽ - RB.RU",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQaThwcXpTdmxHUmkzb1lKaWhKVk9YaUdwVkxMOGNHQkRRWFltR0ZaNVAwYTl3NkhoUnVPREtfMzNNeGpUM3lRQmhMOUxiVGF3dTZuNDZoLWgyU1pIZFV2bUZzWTloUzVzdV9PT2JoLWhOWFVZNXRDVm92THJMSV9TbFpZR2t2ZnhFaGh3cy13TQ?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 12:40:00 GMT",
-          "sourceName": "RB.RU"
-        },
-        {
-          "title": "ЦСКА и АВТОВАЗ разыграют автомобиль LADA Iskra среди болельщиков - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxPUVRITEdHS1FGaWxDM25yZDd3NDdvb1pydGtCRndka2dhT093N2J4V29FMHJVcDJpZTlZZThSUFVreWp5ZzhfbWhoSzV2dWdvX0lhdml2YU9jTVp0cTVydkdDbnVRWkFUdEk0VDIxTjZ1b3F3OE8zZmQ4LXhYLVpvc3hRaUozSzF5YzBzWXRiUi1BbkU0RExfT3NTN3o0N1BEUG5scmFZbTJrME41S25mM0tSMUhteG5RRWk3T2ZlSDQ5VTZldFE?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 09:31:58 GMT",
+          "title": "Названа стоимость 218-сильной гоночной LADA Iskra TMS - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOc2w2SGdFbUZ0UmtEM191RkhFVHVkb3Vha2QzQnUzckxlcTQyclNxRDFtMmZsRlRXSWJFNHZ0NFdnSFpndEpoanlpOUdDR3BHdWx3RENWUW1uQm5iWVdHS3hvS0kzb2dKengyTGtNN1lCalZBV1ViM1h6bWJTczkyamtqcWFsVHk1RGx2Rk5kRG9NUGtkZUhlbW8yUmRMOExjd2RPMjkzTlFsOFVRQS1yM2p1Ujg?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 09:20:04 GMT",
           "sourceName": "Лада.Онлайн"
+        },
+        {
+          "title": "АВТОВАЗ готовит новые LADA Vesta и LADA Iskra с более мощными двигателями - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1RNa0ZjSnhyUkNCMXV0T2NqeXhIaFctR3NXUlpYWVhlSXZsT1JuZk1vSXFnMWZaYlllamh0VXhpeUIyUXU5MEdoTnUzbU1jU2l2RldqTmctLTRKTGtBVUN3VzVZX2hQYjNHRWN3bExoak5TV1lpc3p1c2hXRXlQR2x5dV9oTXo2ZHBHQ1hONDdlb09WRWdjemxRYU9wV2ZG?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 06:39:25 GMT",
+          "sourceName": "Новости Тольятти"
+        },
+        {
+          "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wczlnSkFNTkY2emM3bl9UV1c2cjYxQkNiSHFkWXZlWk1oMkJzRTZuRnJRN1NhLWZIWmRsNHltUEZySjVKWXh1SHFlREdjRVoy0gFWQVVfeXFMTmtQdFZrYVB5ZHFpQ0lxS3Qyem9ONHNqRmcwdTZRTlM4MWRONVZuTzRqUjV2RGotLVdhOWZWU1FmSnY4ZjdhT1RMamM2dTlYdU55dy0xR1E?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 06:10:41 GMT",
+          "sourceName": "Авто Юга.ру"
+        },
+        {
+          "title": "Убийца Весты или дешевый компромисс? Честный отзыв после перехода на Iskra SW Cross - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wT2RvQ0hiZ1E1Q3ppY29pc0ozbjgxUEZsRDI2aGxTZ0dhMTFmMlg5aXR6d25DYm84Y0VqVkVKcEtPMFd1Qjk4VmQ1bnljV1Q1a2JtQ2RJTDQ4Ti1uTDNtV3I0NGgxZGlyOXd6eFBGdFZjR3M3aXZIcDZJSQ?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 04:12:00 GMT",
+          "sourceName": "Правда.Ру"
         }
       ]
     },
@@ -316,7 +316,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
+      "sourceCount30d": 5,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -346,16 +346,16 @@ export const liveMarketSnapshot = {
           "sourceName": "CNews.ru"
         },
         {
-          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
-          "sourceName": "Хабр"
-        },
-        {
           "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
           "sourceName": "Сделано у нас"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - Первый Технический",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 06:59:32 GMT",
+          "sourceName": "Первый Технический"
         }
       ]
     },
@@ -700,24 +700,17 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 08:49:34 GMT",
-      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-      "latestSourceName": "Retail Life",
-      "sources": [
-        {
-          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 08:49:34 GMT",
-          "sourceName": "Retail Life"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -812,10 +805,10 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount30d": 4,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
@@ -839,6 +832,12 @@ export const liveMarketSnapshot = {
           "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1317,24 +1316,17 @@ export const liveMarketSnapshot = {
     "navstreche": {
       "companyId": "navstreche",
       "companyName": "НаВстрече!",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть I - IT Channel News",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqTklMVVhRUmQ1U2Z0UG96a2FaMDdsbGlMMVZkQkp5cVA2c1dqaElKaUt3TTJwUVFtT096cktxbnlJekFNNTltYUg4TWFFamdfc0ZjbFNWSmhRMWZCbGNfSEtIcURCM1E?oc=5",
-      "latestSourceName": "IT Channel News",
-      "sources": [
-        {
-          "title": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть I - IT Channel News",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFBqTklMVVhRUmQ1U2Z0UG96a2FaMDdsbGlMMVZkQkp5cVA2c1dqaElKaUt3TTJwUVFtT096cktxbnlJekFNNTltYUg4TWFFamdfc0ZjbFNWSmhRMWZCbGNfSEtIcURCM1E?oc=5",
-          "publishedAt": "Mon, 14 Sep 2026 07:00:00 GMT",
-          "sourceName": "IT Channel News"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "okrest": {
       "companyId": "okrest",
@@ -1355,11 +1347,11 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 9,
-      "sourceCount7d": 7,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
-      "tractionMentions": 1,
+      "tractionMentions": 2,
       "latestPublishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
       "latestTitle": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
       "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
@@ -1384,16 +1376,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Т—Ж"
         },
         {
+          "title": "Как ИИ сериалы и мультики превращают охваты в клиентов, а не просто в лайки - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1mVjg3dHZBZDNNbUozc3MzQjl1UXdTS2c3WXlnTlhUTl9KUThOSUU4NUU2WWlaaHNtM2ZUVXp2MXFoMnFwNEIxQlFRREFqVGRudkE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 21:15:57 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
           "title": "Ежедневный охват маркетплейсов: Wildberries −10%, Ozon +26% - Retail Life",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE9qN05xWWxqWlN1OU1jbWtYYWRoVFgxOGR3VzlCU3JQdEFfbm82cXdBOS1COVlHaVlOVzJTT3lvbk9rWHg2ZEE?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 11:50:36 GMT",
           "sourceName": "Retail Life"
-        },
-        {
-          "title": "Атаки на склады обрушили охваты одних маркетплейсов в РФ и подняли других - dp.ru",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE94c0JnS1h5ZVQ1d2ZGakdmU2JlSTdfbnN1VnJKaXRfaWZBekNaclItc1o0d20waE1pVXpoOGF6VjBlM1lzc0JHVlRNOGhuaXYwWDlpU3FNUjQzWU5kTFVyTEpWZHlMWmxIZGl3M2RnQjDSAXtBVV95cUxOb3QyQjBSVG9TQ1VmRjcwYng1QTNoRTVIQnVTWG1HMHJZeEloS1ZENHFBVE55VTdkMGxKS1RjWU51SnVBR3lzWG94OVY5cUVGSjNpZDlNWFlaMmF5cGtDOGRtNFZrUUZOb25UUEtWdXZRcW5sNmZIaDlDYms?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:55:00 GMT",
-          "sourceName": "dp.ru"
         }
       ]
     },
