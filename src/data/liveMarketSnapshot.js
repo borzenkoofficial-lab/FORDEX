@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-14T21:01:53.755Z",
+  "generatedAt": "2026-10-15T02:02:10.481Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -123,12 +123,6 @@ export const liveMarketSnapshot = {
           "sourceName": "REGIONS.ru"
         },
         {
-          "title": "АВТОВАЗ готовит новые LADA Vesta и LADA Iskra с более мощными двигателями - Новости Тольятти",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNc1RNa0ZjSnhyUkNCMXV0T2NqeXhIaFctR3NXUlpYWVhlSXZsT1JuZk1vSXFnMWZaYlllamh0VXhpeUIyUXU5MEdoTnUzbU1jU2l2RldqTmctLTRKTGtBVUN3VzVZX2hQYjNHRWN3bExoak5TV1lpc3p1c2hXRXlQR2x5dV9oTXo2ZHBHQ1hONDdlb09WRWdjemxRYU9wV2ZG?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 06:39:25 GMT",
-          "sourceName": "Новости Тольятти"
-        },
-        {
           "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
           "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wczlnSkFNTkY2emM3bl9UV1c2cjYxQkNiSHFkWXZlWk1oMkJzRTZuRnJRN1NhLWZIWmRsNHltUEZySjVKWXh1SHFlREdjRVoy0gFWQVVfeXFMTmtQdFZrYVB5ZHFpQ0lxS3Qyem9ONHNqRmcwdTZRTlM4MWRONVZuTzRqUjV2RGotLVdhOWZWU1FmSnY4ZjdhT1RMamM2dTlYdU55dy0xR1E?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 06:10:41 GMT",
@@ -139,6 +133,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wT2RvQ0hiZ1E1Q3ppY29pc0ozbjgxUEZsRDI2aGxTZ0dhMTFmMlg5aXR6d25DYm84Y0VqVkVKcEtPMFd1Qjk4VmQ1bnljV1Q1a2JtQ2RJTDQ4Ti1uTDNtV3I0NGgxZGlyOXd6eFBGdFZjR3M3aXZIcDZJSQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 04:12:00 GMT",
           "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "Гоночная Lada Iskra: чем она отличается от серийной и где её можно увидеть - 1777.Ru",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEw0Mkpqc3JvOS1VVWxPd3F1b1pkRjFMSkZpTWZkaDM4aG5MX0tfb1htR3F0M2FyaGpVZnVDSk85cG0wRXFIUzd3X29EaXNpQkxyVG8tRnI3WWl4UTVVWjEwUm5POEFiV19ZWGM2WUJhZ21xdEVRMWtOZUtWT3UyMTY2SUhoV0tLMzFTbWt5REhkZnVNcVRYTk9yQjFtZ3dwc2NBWWxwRUpHZw?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 12:01:36 GMT",
+          "sourceName": "1777.Ru"
         }
       ]
     },
@@ -220,16 +220,16 @@ export const liveMarketSnapshot = {
           "sourceName": "RuNews24"
         },
         {
-          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-          "sourceName": "Общественная служба новостей"
-        },
-        {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlk1bGNGMk1aNXphWEotdEpyeS0zRFBVOXpXVEhOeGppYkJ3RzRJbW5HODB1X0Z1SUxDYWk3aEJSeVA1S01EQTNHY1djRVpuZ0JnYXhkM2hDRnY4bFcxNVZOWEp2R1FjdC1oTEhXLXB3bUEyekdOQmRscnZUaTNCYTR3c19OSHJkZllLbm5MREg?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
+        },
+        {
+          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Общественная служба новостей"
         }
       ]
     },
@@ -483,17 +483,24 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "askhow": {
       "companyId": "askhow",
@@ -863,12 +870,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
-          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
@@ -877,6 +878,12 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
@@ -1346,22 +1353,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 3,
-      "latestPublishedAt": "Wed, 14 Oct 2026 13:40:00 GMT",
-      "latestTitle": "Блогер МЭННИ: белорусам и русским душат охваты! Смотрите «СЛОВО ЗА СЛОВО» на «СБТВ» - СБ. Беларусь сегодня",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLWhWeFNLbXRjQUtJOU5pMW1XZHRwTWRhMDktNkJwWW0zSG9IcDhwNFNzU0todFNoMkc1TFEwUWUwM0NmVlhhY0xzd0IxRV9hVW9SQmMxZExDNWtYbW8wQlNoZlZiZ3ZpbkdTeWtveDBDbURETXBMak03cjNNVmwxMW95UlZURGQtREU0QU1oVEotNEtNdmxxb2hjdWtqMVduQ0M5X2Ryc3hydmUySDcw0gG4AUFVX3lxTE9kaUhzRVlkcDlRWll5cUlQcHluaXhlYXlCNzhOcnNtcGNEYVBpNXJUS3NOTU9FWWMxbGJPTzhCQ1JJRE4xMmVZWEk3M0xBTkxXdFJnZkMyUUI2Qm9BX3l0RkRXbE1UTFF5cjlSQlNjMldueTRwV2JYekxaNV9hMjFhZjRmTHNKUGxMUnNIc0pMd1NOaHpCbGVHMDZzM0lKWFl4OEpRQjgtaWNSbXdGTk16dERXR0p6enA?oc=5",
-      "latestSourceName": "СБ. Беларусь сегодня",
+      "latestPublishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
+      "latestTitle": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
+      "latestSourceName": "tribune.kz",
       "sources": [
-        {
-          "title": "Блогер МЭННИ: белорусам и русским душат охваты! Смотрите «СЛОВО ЗА СЛОВО» на «СБТВ» - СБ. Беларусь сегодня",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQLWhWeFNLbXRjQUtJOU5pMW1XZHRwTWRhMDktNkJwWW0zSG9IcDhwNFNzU0todFNoMkc1TFEwUWUwM0NmVlhhY0xzd0IxRV9hVW9SQmMxZExDNWtYbW8wQlNoZlZiZ3ZpbkdTeWtveDBDbURETXBMak03cjNNVmwxMW95UlZURGQtREU0QU1oVEotNEtNdmxxb2hjdWtqMVduQ0M5X2Ryc3hydmUySDcw0gG4AUFVX3lxTE9kaUhzRVlkcDlRWll5cUlQcHluaXhlYXlCNzhOcnNtcGNEYVBpNXJUS3NOTU9FWWMxbGJPTzhCQ1JJRE4xMmVZWEk3M0xBTkxXdFJnZkMyUUI2Qm9BX3l0RkRXbE1UTFF5cjlSQlNjMldueTRwV2JYekxaNV9hMjFhZjRmTHNKUGxMUnNIc0pMd1NOaHpCbGVHMDZzM0lKWFl4OEpRQjgtaWNSbXdGTk16dERXR0p6enA?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 13:40:00 GMT",
-          "sourceName": "СБ. Беларусь сегодня"
-        },
         {
           "title": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
           "sourceName": "tribune.kz"
+        },
+        {
+          "title": "МЭННИ: белорусам и русским душат охваты! Интервью с блогером-миллионником - СБ. Беларусь сегодня",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRExGbm1jbEVEOTA5UkhXZnNmbHV2MVh1WHpzWl9EN1c4SGlCdnVLeHJoYVo5b3dyMm1BZVNNYWN3RktfLXRwQmxoYWp3TDVvUENxczFuQUx6SDI0VWVKOWw0T3RHQm1PcFVvREQwYWdFSTItQWR3RG9qU1pnclowS0xCaEpjUUV5XzJieUlnUWExTU9jTnEtQXNiLUpvLVdJUkZhVg?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
+          "sourceName": "СБ. Беларусь сегодня"
         },
         {
           "title": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
