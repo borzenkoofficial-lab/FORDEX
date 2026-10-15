@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-15T02:02:10.481Z",
+  "generatedAt": "2026-10-15T07:46:45.433Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,22 +105,28 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
-      "latestTitle": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
-      "latestSourceName": "Лада.Онлайн",
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:13:31 GMT",
+      "latestTitle": "Турбомотор, секвентальная КПП и 259 сил: чем удивила гоночная Lada Iskra TMS - Южный автомобиль",
+      "latestUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTENHYTZPXzIxbjlDZUVDREF0b2p0OUExMjI1ZlFQZGdId2JfdXFLMFUzeXNISi12emt2d1VGWGJjdUxTVEN6ZTFFRVJ5MmF3WFVBTVRQRGVzX2Ewd1VGVF9ubjYwZ2I3SlB3QmNoZ1YtQlY5TERMRG45d0x5amtUTVFxNnVmdlJLdTdlTXdfLWNWZw?oc=5",
+      "latestSourceName": "Южный автомобиль",
       "sources": [
+        {
+          "title": "Турбомотор, секвентальная КПП и 259 сил: чем удивила гоночная Lada Iskra TMS - Южный автомобиль",
+          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTENHYTZPXzIxbjlDZUVDREF0b2p0OUExMjI1ZlFQZGdId2JfdXFLMFUzeXNISi12emt2d1VGWGJjdUxTVEN6ZTFFRVJ5MmF3WFVBTVRQRGVzX2Ewd1VGVF9ubjYwZ2I3SlB3QmNoZ1YtQlY5TERMRG45d0x5amtUTVFxNnVmdlJLdTdlTXdfLWNWZw?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 07:13:31 GMT",
+          "sourceName": "Южный автомобиль"
+        },
+        {
+          "title": "АвтоВАЗ показал гоночную Lada Iskra TMS мощностью до 259 л. с. - carexpo.ru",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbU0zbVk5NEJrSUtGSVpNdUdYcmEyMW90ZDZFaWVkTVp0dzdCQkx5SjV4b213d0JVQU1TUTJtNXJkWXBvdi1TUi1aelZtUFBhaHZQZUVaV1JqamtkZXVjRVpBZEpvUGt2cDMwQjEzM0RPZTM3dEp6dXZUMUR3b1NHU3BOOWR3MXhPMXVreGtLTUc0UG1obUZlV0N4d3pJSDVPR051Vg?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 07:08:00 GMT",
+          "sourceName": "carexpo.ru"
+        },
         {
           "title": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
           "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "С каркасом безопасности: чем еще удивила гоночная Lada Iskra на трассе в Подмосковье - REGIONS.ru",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQVE9nOTE2TU5HaXBNSXAySG92X3pxZ2w2cHlJMnJVdnhFMXlrbW9NT1ltTnM2cXdwWDlyT2t5ZHl0am94SVhDc1V2LWxpMFh2Q24wWFo0X2RLZHRNcDhScGpreVdQS0lxREJhVnZuOC05c2tHZVJfV3N6cEF4V1hVRlRtN3lRRXg1MkhvS2hWUEtjckpsWnM2Z3JyNHdjWjNaZEhuSlhjbUZRT3FodG9tNXFKX2daWHc?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 09:40:07 GMT",
-          "sourceName": "REGIONS.ru"
         },
         {
           "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
@@ -133,12 +139,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wT2RvQ0hiZ1E1Q3ppY29pc0ozbjgxUEZsRDI2aGxTZ0dhMTFmMlg5aXR6d25DYm84Y0VqVkVKcEtPMFd1Qjk4VmQ1bnljV1Q1a2JtQ2RJTDQ4Ti1uTDNtV3I0NGgxZGlyOXd6eFBGdFZjR3M3aXZIcDZJSQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 04:12:00 GMT",
           "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "Гоночная Lada Iskra: чем она отличается от серийной и где её можно увидеть - 1777.Ru",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxQeEw0Mkpqc3JvOS1VVWxPd3F1b1pkRjFMSkZpTWZkaDM4aG5MX0tfb1htR3F0M2FyaGpVZnVDSk85cG0wRXFIUzd3X29EaXNpQkxyVG8tRnI3WWl4UTVVWjEwUm5POEFiV19ZWGM2WUJhZ21xdEVRMWtOZUtWT3UyMTY2SUhoV0tLMzFTbWt5REhkZnVNcVRYTk9yQjFtZ3dwc2NBWWxwRUpHZw?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 12:01:36 GMT",
-          "sourceName": "1777.Ru"
         }
       ]
     },
@@ -316,8 +316,8 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
-      "sourceCount7d": 4,
+      "sourceCount30d": 6,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -346,16 +346,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "ИИ для оформления иностранцев: Smart Document Engine 3.6 сократит ручной ввод при трудоустройстве граждан СНГ и Азии - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxNUHVsSDl4MjVfYXJmV3M4eEthUmZaU2M2eFBnSlcxQWhLa3RPYU9rTHl6T05hcWFyY3BnRXdfS24tOEZJTjdaTjBZMnI4MEYxUWFsRm1YNWRzclpsRDNtVXJqVlY3czR2M01MdEVOdjFBalFtTTQxcVo5YThfUEFaXw?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 08:18:24 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
           "sourceName": "Хабр"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
+          "sourceName": "Сделано у нас"
         }
       ]
     },
@@ -454,7 +454,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 14:01:36 GMT",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
           "sourceName": "Webiomed"
         },
         {
@@ -870,6 +870,12 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
+          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
@@ -878,12 +884,6 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
@@ -952,17 +952,24 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Jev: модель, которая ничего не пишет - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1347,28 +1354,34 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 7,
+      "sourceCount30d": 10,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 3,
-      "latestPublishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
-      "latestTitle": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
-      "latestSourceName": "tribune.kz",
+      "tractionMentions": 2,
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:16:35 GMT",
+      "latestTitle": "Охват вакцинацией детей не снизил заболеваемость гемофильной инфекцией в России - Medvestnik",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0lEYk5iNHQwVzZudGtVX2IxdnR4WVFFakZVaG5RdTNROVY2N2ZPTmQ1U2h1YVYydERRSWQ3V1EzTEhuS2dXM01YaXNmd1pIWW9RUkZiN1RiZkpFSEc0TFJZU2liTld3RUpKMGJBNWVrYTVqWGhxckh4VkFBOFpYMHNSaXlEeU54Z2dydmJfRXpqUzdjekM5Q3JqWG1qVTg4Zk1wWHdOMUoxMHdMZ2Q2UldDQTJvMF8t?oc=5",
+      "latestSourceName": "Medvestnik",
       "sources": [
+        {
+          "title": "Охват вакцинацией детей не снизил заболеваемость гемофильной инфекцией в России - Medvestnik",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0lEYk5iNHQwVzZudGtVX2IxdnR4WVFFakZVaG5RdTNROVY2N2ZPTmQ1U2h1YVYydERRSWQ3V1EzTEhuS2dXM01YaXNmd1pIWW9RUkZiN1RiZkpFSEc0TFJZU2liTld3RUpKMGJBNWVrYTVqWGhxckh4VkFBOFpYMHNSaXlEeU54Z2dydmJfRXpqUzdjekM5Q3JqWG1qVTg4Zk1wWHdOMUoxMHdMZ2Q2UldDQTJvMF8t?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 07:16:35 GMT",
+          "sourceName": "Medvestnik"
+        },
+        {
+          "title": "Аудитория телевидения на глазах меняется и сокращается - Культура ВРН",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9GZ3hQb3BhaEg3UHZVMDJENkdmLWtWVUhSRW1CWDNwelAxNnRJVERuS3I4V2JWQkhHR1NDckR6Z2hRNEZIZFdnbEhMcU8?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 15:54:00 GMT",
+          "sourceName": "Культура ВРН"
+        },
         {
           "title": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
           "sourceName": "tribune.kz"
-        },
-        {
-          "title": "МЭННИ: белорусам и русским душат охваты! Интервью с блогером-миллионником - СБ. Беларусь сегодня",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRExGbm1jbEVEOTA5UkhXZnNmbHV2MVh1WHpzWl9EN1c4SGlCdnVLeHJoYVo5b3dyMm1BZVNNYWN3RktfLXRwQmxoYWp3TDVvUENxczFuQUx6SDI0VWVKOWw0T3RHQm1PcFVvREQwYWdFSTItQWR3RG9qU1pnclowS0xCaEpjUUV5XzJieUlnUWExTU9jTnEtQXNiLUpvLVdJUkZhVg?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
-          "sourceName": "СБ. Беларусь сегодня"
         },
         {
           "title": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
@@ -1381,12 +1394,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
           "sourceName": "URA.RU"
-        },
-        {
-          "title": "«Муся, что ты наделала»: почему пользователи Instagram* уверены, что ИИ-агент Muse «убил» им охваты рилсов - Т—Ж",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE5odkdaVldsSUJuTEg0LXBBelA2bExtUVp2UGV2WWRROTFKMTB2NlBsUWduQXlsc1UzUHRNaF9haXZDRDJYa0E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 16:20:32 GMT",
-          "sourceName": "Т—Ж"
         }
       ]
     },
