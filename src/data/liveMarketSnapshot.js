@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-15T07:46:45.433Z",
+  "generatedAt": "2026-10-15T13:45:03.229Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,7 +105,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 07:13:31 GMT",
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:13:07 GMT",
       "latestTitle": "Турбомотор, секвентальная КПП и 259 сил: чем удивила гоночная Lada Iskra TMS - Южный автомобиль",
       "latestUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTENHYTZPXzIxbjlDZUVDREF0b2p0OUExMjI1ZlFQZGdId2JfdXFLMFUzeXNISi12emt2d1VGWGJjdUxTVEN6ZTFFRVJ5MmF3WFVBTVRQRGVzX2Ewd1VGVF9ubjYwZ2I3SlB3QmNoZ1YtQlY5TERMRG45d0x5amtUTVFxNnVmdlJLdTdlTXdfLWNWZw?oc=5",
       "latestSourceName": "Южный автомобиль",
@@ -113,14 +113,14 @@ export const liveMarketSnapshot = {
         {
           "title": "Турбомотор, секвентальная КПП и 259 сил: чем удивила гоночная Lada Iskra TMS - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTENHYTZPXzIxbjlDZUVDREF0b2p0OUExMjI1ZlFQZGdId2JfdXFLMFUzeXNISi12emt2d1VGWGJjdUxTVEN6ZTFFRVJ5MmF3WFVBTVRQRGVzX2Ewd1VGVF9ubjYwZ2I3SlB3QmNoZ1YtQlY5TERMRG45d0x5amtUTVFxNnVmdlJLdTdlTXdfLWNWZw?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:13:31 GMT",
+          "publishedAt": "Thu, 15 Oct 2026 07:13:07 GMT",
           "sourceName": "Южный автомобиль"
         },
         {
-          "title": "АвтоВАЗ показал гоночную Lada Iskra TMS мощностью до 259 л. с. - carexpo.ru",
+          "title": "АвтоВАЗ показал гоночную Lada Iskra TMS мощностью до 259 л. с. - Carexpo.ru_ все авто на одном сайте",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbU0zbVk5NEJrSUtGSVpNdUdYcmEyMW90ZDZFaWVkTVp0dzdCQkx5SjV4b213d0JVQU1TUTJtNXJkWXBvdi1TUi1aelZtUFBhaHZQZUVaV1JqamtkZXVjRVpBZEpvUGt2cDMwQjEzM0RPZTM3dEp6dXZUMUR3b1NHU3BOOWR3MXhPMXVreGtLTUc0UG1obUZlV0N4d3pJSDVPR051Vg?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 07:08:00 GMT",
-          "sourceName": "carexpo.ru"
+          "sourceName": "Carexpo.ru_ все авто на одном сайте"
         },
         {
           "title": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
@@ -191,7 +191,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 7,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -483,24 +483,17 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "askhow": {
       "companyId": "askhow",
@@ -870,12 +863,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
-          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
@@ -884,6 +871,12 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
@@ -989,17 +982,29 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 4,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
-      "latestTitle": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
+      "latestTitle": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
+      "latestSourceName": "Restate.ru",
       "sources": [
+        {
+          "title": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
+          "sourceName": "Restate.ru"
+        },
+        {
+          "title": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
+          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
+          "sourceName": "Всеостройке.рф"
+        },
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
@@ -1354,8 +1359,8 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
-      "sourceCount7d": 8,
+      "sourceCount30d": 9,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -1384,16 +1389,16 @@ export const liveMarketSnapshot = {
           "sourceName": "tribune.kz"
         },
         {
+          "title": "МЭННИ: белорусам и русским душат охваты! Интервью с блогером-миллионником - СБ. Беларусь сегодня",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRExGbm1jbEVEOTA5UkhXZnNmbHV2MVh1WHpzWl9EN1c4SGlCdnVLeHJoYVo5b3dyMm1BZVNNYWN3RktfLXRwQmxoYWp3TDVvUENxczFuQUx6SDI0VWVKOWw0T3RHQm1PcFVvREQwYWdFSTItQWR3RG9qU1pnclowS0xCaEpjUUV5XzJieUlnUWExTU9jTnEtQXNiLUpvLVdJUkZhVg?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
+          "sourceName": "СБ. Беларусь сегодня"
+        },
+        {
           "title": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "ВС РФ окружают Славянск и Краматорск: новости СВО на 12 октября, заявление Пушилина - URA.RU",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5CMHNiLVpmUnNnazBqRXl0Y2lMUDVGLUotNm5KN3BSUGwycV9oLTY4cG5pclZYa1NmSFZFblk3VEFxSnplZms4?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-          "sourceName": "URA.RU"
         }
       ]
     },
