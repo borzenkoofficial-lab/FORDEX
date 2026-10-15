@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-15T18:44:24.418Z",
+  "generatedAt": "2026-10-15T23:21:50.069Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,11 +105,23 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 07:13:07 GMT",
-      "latestTitle": "Турбомотор, секвентальная КПП и 259 сил: чем удивила гоночная Lada Iskra TMS - Южный автомобиль",
-      "latestUrl": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTENHYTZPXzIxbjlDZUVDREF0b2p0OUExMjI1ZlFQZGdId2JfdXFLMFUzeXNISi12emt2d1VGWGJjdUxTVEN6ZTFFRVJ5MmF3WFVBTVRQRGVzX2Ewd1VGVF9ubjYwZ2I3SlB3QmNoZ1YtQlY5TERMRG45d0x5amtUTVFxNnVmdlJLdTdlTXdfLWNWZw?oc=5",
-      "latestSourceName": "Южный автомобиль",
+      "latestPublishedAt": "Thu, 15 Oct 2026 19:13:04 GMT",
+      "latestTitle": "LADA Iskra, HAVAL H9 и VOLGA K50 вошли в число победителей автомобильной премии «Точка зажигания» - Вечерние ведомости",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
+      "latestSourceName": "Вечерние ведомости",
       "sources": [
+        {
+          "title": "LADA Iskra, HAVAL H9 и VOLGA K50 вошли в число победителей автомобильной премии «Точка зажигания» - Вечерние ведомости",
+          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 19:13:04 GMT",
+          "sourceName": "Вечерние ведомости"
+        },
+        {
+          "title": "Lada Iskra обещают войти в топ-10 самых продаваемых автомобилей России к 2026 году — что это значит для рынка - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOTJYazZKR01IZjhrM0pCN3laU0JPLVZnZGNWbEVEUWFxSlhWMkdjRC1GRE5CckpOR3ZUblFqMzROeHVFZGctZzBFZVpxeWZrSWE3cmZYUlRLWkoxTmV3UmhCTmtiRTUtXzB0VGU0MHlrWGtEZ0YwTVN2RVlZVFZZVnNSenpVeHFubS1oc2hDeWZ0SkE3eDgwbGRGd0FDNTVQUTVReFFzQXE2ak1UZ1FpNW1yWC1xaHF5aDZmYjVTMTNQclp0LXEydDlQMnJTWDlpOENGV0t5X3NDLWVO?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 17:35:01 GMT",
+          "sourceName": "ВТамбове"
+        },
         {
           "title": "Турбомотор, секвентальная КПП и 259 сил: чем удивила гоночная Lada Iskra TMS - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTENHYTZPXzIxbjlDZUVDREF0b2p0OUExMjI1ZlFQZGdId2JfdXFLMFUzeXNISi12emt2d1VGWGJjdUxTVEN6ZTFFRVJ5MmF3WFVBTVRQRGVzX2Ewd1VGVF9ubjYwZ2I3SlB3QmNoZ1YtQlY5TERMRG45d0x5amtUTVFxNnVmdlJLdTdlTXdfLWNWZw?oc=5",
@@ -127,35 +139,30 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
           "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wczlnSkFNTkY2emM3bl9UV1c2cjYxQkNiSHFkWXZlWk1oMkJzRTZuRnJRN1NhLWZIWmRsNHltUEZySjVKWXh1SHFlREdjRVoy0gFWQVVfeXFMTmtQdFZrYVB5ZHFpQ0lxS3Qyem9ONHNqRmcwdTZRTlM4MWRONVZuTzRqUjV2RGotLVdhOWZWU1FmSnY4ZjdhT1RMamM2dTlYdU55dy0xR1E?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 06:10:41 GMT",
-          "sourceName": "Авто Юга.ру"
-        },
-        {
-          "title": "Убийца Весты или дешевый компромисс? Честный отзыв после перехода на Iskra SW Cross - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wT2RvQ0hiZ1E1Q3ppY29pc0ozbjgxUEZsRDI2aGxTZ0dhMTFmMlg5aXR6d25DYm84Y0VqVkVKcEtPMFd1Qjk4VmQ1bnljV1Q1a2JtQ2RJTDQ4Ti1uTDNtV3I0NGgxZGlyOXd6eFBGdFZjR3M3aXZIcDZJSQ?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 04:12:00 GMT",
-          "sourceName": "Правда.Ру"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
+      "latestSourceName": "Business FM Санкт-Петербург",
+      "sources": [
+        {
+          "title": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
+          "sourceName": "Business FM Санкт-Петербург"
+        }
+      ]
     },
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
@@ -1032,7 +1039,7 @@ export const liveMarketSnapshot = {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
       "sourceCount30d": 5,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1353,22 +1360,34 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount30d": 10,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 2,
-      "latestPublishedAt": "Thu, 15 Oct 2026 07:16:35 GMT",
-      "latestTitle": "Охват вакцинацией детей не снизил заболеваемость гемофильной инфекцией в России - Medvestnik",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0lEYk5iNHQwVzZudGtVX2IxdnR4WVFFakZVaG5RdTNROVY2N2ZPTmQ1U2h1YVYydERRSWQ3V1EzTEhuS2dXM01YaXNmd1pIWW9RUkZiN1RiZkpFSEc0TFJZU2liTld3RUpKMGJBNWVrYTVqWGhxckh4VkFBOFpYMHNSaXlEeU54Z2dydmJfRXpqUzdjekM5Q3JqWG1qVTg4Zk1wWHdOMUoxMHdMZ2Q2UldDQTJvMF8t?oc=5",
-      "latestSourceName": "Medvestnik",
+      "latestPublishedAt": "Thu, 15 Oct 2026 22:41:52 GMT",
+      "latestTitle": "Расширение охвата и обеспечение социального обеспечения. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zMmpvNHJYaXg0VkVvWEVXdncyYjN1ZEF1X1p1QnlRWnR2ejhaVWdmQjRRZnptWjFEZkNEZThEQzBvVXRJOExkZG1ZdXhnNklOU3k1S215d0x6YlBnUGpzc1Q5TXpwWlBuc3NNb0JTLUF0YjEydkp1TA?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
+        {
+          "title": "Расширение охвата и обеспечение социального обеспечения. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zMmpvNHJYaXg0VkVvWEVXdncyYjN1ZEF1X1p1QnlRWnR2ejhaVWdmQjRRZnptWjFEZkNEZThEQzBvVXRJOExkZG1ZdXhnNklOU3k1S215d0x6YlBnUGpzc1Q5TXpwWlBuc3NNb0JTLUF0YjEydkp1TA?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 22:41:52 GMT",
+          "sourceName": "Vietnam.vn"
+        },
         {
           "title": "Охват вакцинацией детей не снизил заболеваемость гемофильной инфекцией в России - Medvestnik",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0lEYk5iNHQwVzZudGtVX2IxdnR4WVFFakZVaG5RdTNROVY2N2ZPTmQ1U2h1YVYydERRSWQ3V1EzTEhuS2dXM01YaXNmd1pIWW9RUkZiN1RiZkpFSEc0TFJZU2liTld3RUpKMGJBNWVrYTVqWGhxckh4VkFBOFpYMHNSaXlEeU54Z2dydmJfRXpqUzdjekM5Q3JqWG1qVTg4Zk1wWHdOMUoxMHdMZ2Q2UldDQTJvMF8t?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 07:16:35 GMT",
           "sourceName": "Medvestnik"
+        },
+        {
+          "title": "МТС лидирует по охвату сетей 5G в России » Новости Уфы и Республики Башкортостан - UfaTime.ru",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYlFERFZQSDhxN3pxdGlMMjBsUnlUX0lmRDV5VUlKbGY4S3dCRjNXTFhzeWhwZGtKZXJRMmNxVXBqMGJYclZMM21sTUlocExvYUVlSjNpSEhvb2x0OVRERVZQa1ZtUk1Ua0lVQ3dSSnM0eUYydVVxVjlZd19zaTVnb0UyZw?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 18:20:28 GMT",
+          "sourceName": "UfaTime.ru"
         },
         {
           "title": "Аудитория телевидения на глазах меняется и сокращается - Культура ВРН",
@@ -1381,18 +1400,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
           "sourceName": "tribune.kz"
-        },
-        {
-          "title": "МЭННИ: белорусам и русским душат охваты! Интервью с блогером-миллионником - СБ. Беларусь сегодня",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRExGbm1jbEVEOTA5UkhXZnNmbHV2MVh1WHpzWl9EN1c4SGlCdnVLeHJoYVo5b3dyMm1BZVNNYWN3RktfLXRwQmxoYWp3TDVvUENxczFuQUx6SDI0VWVKOWw0T3RHQm1PcFVvREQwYWdFSTItQWR3RG9qU1pnclowS0xCaEpjUUV5XzJieUlnUWExTU9jTnEtQXNiLUpvLVdJUkZhVg?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
-          "sourceName": "СБ. Беларусь сегодня"
-        },
-        {
-          "title": "105 кейсов B2B ИТ-маркетинга: почему рынок переходит от охватов к сделкам - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBqTTNhckVSc2phWWJYNS0ydkd3cUhDQUs2bWhSa1Nnc3lTX2tLVkVBRlRTd3Vzb0NnZ0dVRld4S2xHUzQ0MTNKUXRiYkx3R0trVDY0M3hfcm3SAVhBVV95cUxQak0zYXJFUnNqYVliWDUtMnZHd3FIQ0FLNm1oUmtTZ3N5U19rS1ZFQUZUU3d1c29DZ2dHVUZXeEtsR1M0NDEzSlF0YmJMd0dLa1Q2NDN4X3Jt?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:23:26 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
