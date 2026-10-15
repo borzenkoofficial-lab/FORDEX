@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-15T13:45:03.229Z",
+  "generatedAt": "2026-10-15T18:44:24.418Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -242,16 +242,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
-      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-      "latestSourceName": "Newslab",
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "ИТ-холдинг и Piklema будут развивать цифровые решения для промышленности - Progorod43",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BOUx3Yy1XTGp4NjhHa1NkRTBOZWFWZElTNDRmWFRfQUdCdFpYX3dJRDJmNTF0Yi1UaUF5NUdmUERTVVZ6UV8zRA?oc=5",
+      "latestSourceName": "Progorod43",
       "sources": [
         {
-          "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
-          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
-          "sourceName": "Newslab"
+          "title": "ИТ-холдинг и Piklema будут развивать цифровые решения для промышленности - Progorod43",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BOUx3Yy1XTGp4NjhHa1NkRTBOZWFWZElTNDRmWFRfQUdCdFpYX3dJRDJmNTF0Yi1UaUF5NUdmUERTVVZ6UV8zRA?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Progorod43"
         },
         {
           "title": "Российские разработчики представили комплексные решения для цифровизации добывающей промышленности - Правда.Ру",
@@ -348,7 +348,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 14:39:25 GMT",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -982,8 +982,8 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1004,12 +1004,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
           "sourceName": "Всеостройке.рф"
-        },
-        {
-          "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
-          "sourceName": "prospect.com.ru"
         },
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
@@ -1043,7 +1037,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 17:42:10 GMT",
+      "latestPublishedAt": "Wed, 14 Oct 2026 12:44:44 GMT",
       "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
@@ -1051,7 +1045,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 17:42:10 GMT",
+          "publishedAt": "Wed, 14 Oct 2026 12:44:44 GMT",
           "sourceName": "Sostav.ru"
         },
         {
