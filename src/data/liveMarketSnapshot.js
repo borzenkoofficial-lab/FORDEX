@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-16T13:35:15.133Z",
+  "generatedAt": "2026-10-16T18:28:49.735Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,11 +105,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 10:04:46 GMT",
-      "latestTitle": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
-      "latestSourceName": "Лада.Онлайн",
+      "latestPublishedAt": "Fri, 16 Oct 2026 13:46:00 GMT",
+      "latestTitle": "Цена как у квартиры, а вместо дивана каркас безопасности: гоночная Lada Iskra ошарашила ценником - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTi1jZUZfbTFKUkpsa1NqbGN1RGZjY1ZTRmVRaDRXZ1MxV0hJX0JONkxYYW5rdEdSWFBwWlhXZHpZRFBRWTBRRHA5WHZLSGNMU2tCTjc0dFVyTldiWWJxZGhScnA3ZFVMcWNlb2Z0QXRrWUpVUFZkUUd3TjczdW8?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Цена как у квартиры, а вместо дивана каркас безопасности: гоночная Lada Iskra ошарашила ценником - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTi1jZUZfbTFKUkpsa1NqbGN1RGZjY1ZTRmVRaDRXZ1MxV0hJX0JONkxYYW5rdEdSWFBwWlhXZHpZRFBRWTBRRHA5WHZLSGNMU2tCTjc0dFVyTldiWWJxZGhScnA3ZFVMcWNlb2Z0QXRrWUpVUFZkUUd3TjczdW8?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 13:46:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
@@ -133,12 +139,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 19:13:04 GMT",
           "sourceName": "Вечерние ведомости"
-        },
-        {
-          "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wczlnSkFNTkY2emM3bl9UV1c2cjYxQkNiSHFkWXZlWk1oMkJzRTZuRnJRN1NhLWZIWmRsNHltUEZySjVKWXh1SHFlREdjRVoy0gFWQVVfeXFMTmtQdFZrYVB5ZHFpQ0lxS3Qyem9ONHNqRmcwdTZRTlM4MWRONVZuTzRqUjV2RGotLVdhOWZWU1FmSnY4ZjdhT1RMamM2dTlYdU55dy0xR1E?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 06:10:41 GMT",
-          "sourceName": "Авто Юга.ру"
         }
       ]
     },
@@ -215,7 +215,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
+      "sourceCount30d": 7,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -281,7 +281,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
           "sourceName": "Newslab"
         },
         {
@@ -731,24 +731,17 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-      "latestSourceName": "Retail Life",
-      "sources": [
-        {
-          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "sourceName": "Retail Life"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -861,15 +854,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
+          "title": "Компания Nestlé и НБА объявляют о партнерстве, направленном на распространение среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1VYanRNVzZtWGtMNHFjRWk3TDVPUHFkTXl5YjZmdTNhSVUySWJDSnZkTXU5VXhLWDB1ci1nT2xVbHZEanpTNTZNbDJJSFBHYmtKNXZjbHMxMFhPVkFXUFBrYTJ5am1SVFA3c0V0MTJkaVQzX3lWUnJIaTRxdnNVSjVCYmhydzVMWkI0cEcyRDA1b1ZTRWdleUZ5bHE0cW5xZFVHdmt0UzJCTXdrQURB?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
+          "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -901,12 +894,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
-          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
@@ -915,6 +902,12 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
@@ -1020,8 +1013,8 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount30d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1042,6 +1035,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
           "sourceName": "Всеостройке.рф"
+        },
+        {
+          "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi0gFBVV95cUxOMGhOazVpeVRvU05xUkNvanZDdWtCd1FYMnJZZHpfNEpFVWpsd1IzRWktQ3dSZ09TT2Z6emVfZVlNUTdTVWlkcHpHd25IWGtwRGZzUHh1MHNEUWJ1b1dJbHotMFRTZG5nOUlibEk5cFpyN2Frc1VYYUN5VnlxV0xMOWQwRW1sdHBKZi10bzNHczVHandIaFFRQS1IMmhfWThmQ09NaHlFcVZRemoyYk5WYS1KWTFVemxDYVNmZHk3Z1llYVJYSXBlN01raXAxTjZQdHc?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+          "sourceName": "prospect.com.ru"
         },
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
@@ -1391,21 +1390,39 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 7,
+      "sourceCount30d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 2,
-      "latestPublishedAt": "Fri, 16 Oct 2026 11:13:02 GMT",
-      "latestTitle": "Кейс Demis Group и «Редмонд»: как обновление контент-стратегии вернуло охваты в соцсетях - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZdUVUVUctOEJoX25TRWFLei1WUGJVb09La1ZBZlpib3FrWXN0TzhJUVBONHVZbHNvaV8wMm5wdjBiWVdVSWhWRjhjR0JDdVRreUZfMkZsbTBQU0U1N3JpZmtyODI1aFR3dE1qRkFQSGdqUnEwM1NXMU9Bcw?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Fri, 16 Oct 2026 17:00:00 GMT",
+      "latestTitle": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
+      "latestSourceName": "RB.RU",
       "sources": [
+        {
+          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 17:00:00 GMT",
+          "sourceName": "RB.RU"
+        },
+        {
+          "title": "Стопроцентный охват: все разработчики Сбера начали ежедневно использовать ИИ - www1.ru",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEVucmpqXzZvenkxWnNPcEgtWDc0V1o1a1pQQ193WnVIMzUzLWtSMWt3Zmc5cTV5cVZxSXNHSEZuYjBjRDQ1cHlhN1ZaVmZfU1p3Y25VQldUNkZtVlhzR2NaLUZxeE53aTV6Wm4tWDZkcUE1aWltWG9hZzhlVEJHSG56ay13ckIzeHBCSEdmY3ZTRXMyRFhOMFhBWjhaUzh1c0xtc3Y1R3VfcDl0Sjdr0gG0AUFVX3lxTFBZV2cyNTFlUXc3OVMycEFVc1JlZGVZV0hkQlBfSEVhdVIwejZ6TENmZkJ1MnhrNzc4dHQzSU0yWmp2VEFtbmVUTEtlaDJqV0lheGVPS2hoOXVOT2VtRXNMYkhGRmh1Z0lnOUkyVzF6dlJkT195aUR3a3dSNVJ4a0NyVWlJbFVpZTlYR1FUcVp3eGZLT0xIVklhZDEzbHZ3TGRXVGQ4eXVTS3NOaTFSY2lIUjRXSw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 16:07:09 GMT",
+          "sourceName": "www1.ru"
+        },
+        {
+          "title": "Аудитория нейросетей в России выросла вдвое, до 55% - Techora.ru",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX1BMaHJwVG40OEZMeHFSbmVac1JpVTFFT1p4cGYwdWo2WUw5NlpCTEZYNTZ0dUJ6NVB5WGotMEtoanoxM2VOdmxQckNxWmlBOGlOQ0YtQ0VHMVh2ZE9RbTUzSEV4dThrUTNQbTBGWW56QXBfRUJBUnZyVlhPYWFPRWRadHR1dw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 14:57:44 GMT",
+          "sourceName": "Techora.ru"
+        },
         {
           "title": "Кейс Demis Group и «Редмонд»: как обновление контент-стратегии вернуло охваты в соцсетях - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZdUVUVUctOEJoX25TRWFLei1WUGJVb09La1ZBZlpib3FrWXN0TzhJUVBONHVZbHNvaV8wMm5wdjBiWVdVSWhWRjhjR0JDdVRreUZfMkZsbTBQU0U1N3JpZmtyODI1aFR3dE1qRkFQSGdqUnEwM1NXMU9Bcw?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 11:13:02 GMT",
+          "publishedAt": "Fri, 16 Oct 2026 11:12:52 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1413,24 +1430,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUlQbWtITl96VWtOTDJPTmxfaHBIT2pWZDdONE5wTk5kRXpBd3pyNkFINEowbWl0UTl1ZUducDFqdGNCWThCdGg1SS03MzhuSFMybW5WRC1HX2QwSW9DZnltMV9VbXRsem5tSmhwMFpuNkxsYUdSd3J5TVgxbjZuQzFPUEVyd25SQ282NVdIdnhabXNoaWEtQnRPZW8?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 04:50:53 GMT",
           "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Охват вакцинацией детей не снизил заболеваемость гемофильной инфекцией в России - Medvestnik",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNc0lEYk5iNHQwVzZudGtVX2IxdnR4WVFFakZVaG5RdTNROVY2N2ZPTmQ1U2h1YVYydERRSWQ3V1EzTEhuS2dXM01YaXNmd1pIWW9RUkZiN1RiZkpFSEc0TFJZU2liTld3RUpKMGJBNWVrYTVqWGhxckh4VkFBOFpYMHNSaXlEeU54Z2dydmJfRXpqUzdjekM5Q3JqWG1qVTg4Zk1wWHdOMUoxMHdMZ2Q2UldDQTJvMF8t?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:16:35 GMT",
-          "sourceName": "Medvestnik"
-        },
-        {
-          "title": "МТС лидирует по охвату сетей 5G в России » Новости Уфы и Республики Башкортостан - UfaTime.ru",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPYlFERFZQSDhxN3pxdGlMMjBsUnlUX0lmRDV5VUlKbGY4S3dCRjNXTFhzeWhwZGtKZXJRMmNxVXBqMGJYclZMM21sTUlocExvYUVlSjNpSEhvb2x0OVRERVZQa1ZtUk1Ua0lVQ3dSSnM0eUYydVVxVjlZd19zaTVnb0UyZw?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 18:20:28 GMT",
-          "sourceName": "UfaTime.ru"
-        },
-        {
-          "title": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
-          "sourceName": "tribune.kz"
         }
       ]
     },
