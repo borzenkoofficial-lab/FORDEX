@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-16T18:28:49.735Z",
+  "generatedAt": "2026-10-16T23:05:04.911Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,11 +105,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 13:46:00 GMT",
-      "latestTitle": "Цена как у квартиры, а вместо дивана каркас безопасности: гоночная Lada Iskra ошарашила ценником - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTi1jZUZfbTFKUkpsa1NqbGN1RGZjY1ZTRmVRaDRXZ1MxV0hJX0JONkxYYW5rdEdSWFBwWlhXZHpZRFBRWTBRRHA5WHZLSGNMU2tCTjc0dFVyTldiWWJxZGhScnA3ZFVMcWNlb2Z0QXRrWUpVUFZkUUd3TjczdW8?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Fri, 16 Oct 2026 20:21:36 GMT",
+      "latestTitle": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
+      "latestSourceName": "ВТамбове",
       "sources": [
+        {
+          "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 20:21:36 GMT",
+          "sourceName": "ВТамбове"
+        },
         {
           "title": "Цена как у квартиры, а вместо дивана каркас безопасности: гоночная Lada Iskra ошарашила ценником - Правда.Ру",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTi1jZUZfbTFKUkpsa1NqbGN1RGZjY1ZTRmVRaDRXZ1MxV0hJX0JONkxYYW5rdEdSWFBwWlhXZHpZRFBRWTBRRHA5WHZLSGNMU2tCTjc0dFVyTldiWWJxZGhScnA3ZFVMcWNlb2Z0QXRrWUpVUFZkUUd3TjczdW8?oc=5",
@@ -129,12 +135,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Южный автомобиль"
         },
         {
-          "title": "Эксперты оценили стоимость Lada Iskra TMS почти в 7 миллионов рублей — что это значит для рынка - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjRHQkZmREd6aWlHT253dW1Ndjl5OUlJekxCVGNJWEU5bGFBWHJoU0pERTVDOE5sR1F1N04tZUFoeVF1NEVhZ0RSZ1JJUll5OWl1Zm5LbE5WV3o0X09OX3dzdmFQc0txLUVyWUpfNi1BeUxHUWlzMFhnRVNxMWlzMlJ2Q3pyX093bE9iZ0NnUDE0eHdqdGR5R0hhYVBGdGVBV0VQeEFSS19jbzllRkU2NTA1RnZRdXBNTzZ1czFJdldjUDBJeUxV?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 04:33:36 GMT",
-          "sourceName": "ВТамбове"
-        },
-        {
           "title": "LADA Iskra, HAVAL H9 и VOLGA K50 вошли в число победителей автомобильной премии «Точка зажигания» - Вечерние ведомости",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 19:13:04 GMT",
@@ -145,40 +145,22 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 4,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
+      "latestSourceName": "Business FM Санкт-Петербург",
       "sources": [
-        {
-          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
           "publishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
           "sourceName": "Business FM Санкт-Петербург"
-        },
-        {
-          "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
-          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
-          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
-          "sourceName": "Первый технический"
         }
       ]
     },
@@ -215,7 +197,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 7,
+      "sourceCount30d": 8,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -347,7 +329,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
+      "sourceCount30d": 7,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -366,7 +348,7 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV_SAVhBVV95cUxNTmRaODQ0UkpSblZYM2xFVmgwWG94WlE5Z0dtMmRCZDEwQ3IzdTJkdlFKQUNQMjE2T2xKQTNBdU40d2djZGdmVGgtZXNUdnk5MGZBb1JjSFFf?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80Ym1rQmM0SHV3ZEtZMEpyMktjY2VoZnJjYUhGamREcEw0b2hRNzZFSVEzNEF4cDQ3ZC15bG5KUzBfT0lKWWFWM3RneThBamJUclNfTWVtSGl0eDhxcDlHMUg5cjY3ZDRmLW5MatIBWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV8?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
           "sourceName": "Хабр"
         },
@@ -383,10 +365,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
-          "sourceName": "Сделано у нас"
+          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
         }
       ]
     },
@@ -731,17 +713,24 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+      "latestSourceName": "Retail Life",
+      "sources": [
+        {
+          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+          "sourceName": "Retail Life"
+        }
+      ]
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -894,6 +883,12 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
+          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
@@ -902,12 +897,6 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
@@ -1391,16 +1380,22 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 10,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 2,
-      "latestPublishedAt": "Fri, 16 Oct 2026 17:00:00 GMT",
-      "latestTitle": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
-      "latestSourceName": "RB.RU",
+      "tractionMentions": 1,
+      "latestPublishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
+      "latestTitle": "Более половины россиян стали пользоваться нейросетями - Росбалт",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
+      "latestSourceName": "Росбалт",
       "sources": [
+        {
+          "title": "Более половины россиян стали пользоваться нейросетями - Росбалт",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
+          "sourceName": "Росбалт"
+        },
         {
           "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
@@ -1424,12 +1419,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZdUVUVUctOEJoX25TRWFLei1WUGJVb09La1ZBZlpib3FrWXN0TzhJUVBONHVZbHNvaV8wMm5wdjBiWVdVSWhWRjhjR0JDdVRreUZfMkZsbTBQU0U1N3JpZmtyODI1aFR3dE1qRkFQSGdqUnEwM1NXMU9Bcw?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 11:12:52 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Google корректирует результаты поиска, созданные с помощью ИИ, расширяя охват журналистики. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUlQbWtITl96VWtOTDJPTmxfaHBIT2pWZDdONE5wTk5kRXpBd3pyNkFINEowbWl0UTl1ZUducDFqdGNCWThCdGg1SS03MzhuSFMybW5WRC1HX2QwSW9DZnltMV9VbXRsem5tSmhwMFpuNkxsYUdSd3J5TVgxbjZuQzFPUEVyd25SQ282NVdIdnhabXNoaWEtQnRPZW8?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 04:50:53 GMT",
-          "sourceName": "Vietnam.vn"
         }
       ]
     },
