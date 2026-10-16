@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-15T23:21:50.069Z",
+  "generatedAt": "2026-10-16T01:52:16.707Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -145,24 +145,17 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
-      "latestSourceName": "Business FM Санкт-Петербург",
-      "sources": [
-        {
-          "title": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
-          "publishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
-          "sourceName": "Business FM Санкт-Петербург"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
