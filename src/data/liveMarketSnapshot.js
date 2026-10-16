@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-16T07:34:59.170Z",
+  "generatedAt": "2026-10-16T13:35:15.133Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,11 +105,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
-      "latestTitle": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
-      "latestSourceName": "Южный автомобиль",
+      "latestPublishedAt": "Fri, 16 Oct 2026 10:04:46 GMT",
+      "latestTitle": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
+      "latestSourceName": "Лада.Онлайн",
       "sources": [
+        {
+          "title": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 10:04:46 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
         {
           "title": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
@@ -117,15 +123,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Южный автомобиль"
         },
         {
-          "title": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 05:14:40 GMT",
-          "sourceName": "Лада.Онлайн"
-        },
-        {
           "title": "Эксперты оценили стоимость Lada Iskra TMS почти в 7 миллионов рублей — что это значит для рынка - ВТамбове",
           "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjRHQkZmREd6aWlHT253dW1Ndjl5OUlJekxCVGNJWEU5bGFBWHJoU0pERTVDOE5sR1F1N04tZUFoeVF1NEVhZ0RSZ1JJUll5OWl1Zm5LbE5WV3o0X09OX3dzdmFQc0txLUVyWUpfNi1BeUxHUWlzMFhnRVNxMWlzMlJ2Q3pyX093bE9iZ0NnUDE0eHdqdGR5R0hhYVBGdGVBV0VQeEFSS19jbzllRkU2NTA1RnZRdXBNTzZ1czFJdldjUDBJeUxV?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 01:33:24 GMT",
+          "publishedAt": "Fri, 16 Oct 2026 04:33:36 GMT",
           "sourceName": "ВТамбове"
         },
         {
@@ -286,7 +286,7 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "Piklema и Т1 объединяют усилия для внедрения ИТ-решений в промышленность - Рамблер",
-          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORGNQdU5OMFEyNTRtR0UxSjhtYy1sVUlDOF9FLTE5QVI2VTk4dG9ELV9IeGNZZ09CMzVNX0NZVXIwbW1TazNobENtbkxoM3lzQjJjcFdMRm8zRjNxSEdWbW53SDVTTFQtUWg0NGoxVFkzTXA1YnY1TWt6aHo1WjNEZm93Q1A5QlB4QmNJTnNyd1NPMXhzRjRfazc5enJwWEtmOUVHNWJGdWMzMnZNaDlOMVNUUDQxMEZpd1AycdIBwgFBVV95cUxOTG8xaTE4WkU4ZVJsYWlsMzZSZnV4QXp0RFhTVkNHWmpGWDVCcEpZYnU4LWlKMnlDOGNUV1p4THlKaGRTTk90WUpTbGhQd3pNZ1U1SkN5NmF5ZFA3SXhMWVV6S3pWcUlfNGhGNzJPNGl6LWpSTGd3bW1JOXphSHhJRlRoOF9MY1JQanZ2VGZDMkVPSTNiLW45bHcybXdveGRaZGpBWGhtRU5HMEJqSXF3UEZSSWpfRkgxVEJJcjI0MVV3QQ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOTG8xaTE4WkU4ZVJsYWlsMzZSZnV4QXp0RFhTVkNHWmpGWDVCcEpZYnU4LWlKMnlDOGNUV1p4THlKaGRTTk90WUpTbGhQd3pNZ1U1SkN5NmF5ZFA3SXhMWVV6S3pWcUlfNGhGNzJPNGl6LWpSTGd3bW1JOXphSHhJRlRoOF9MY1JQanZ2VGZDMkVPSTNiLW45bHcybXdveGRaZGpBWGhtRU5HMEJqSXF3UEZSSWpfRkgxVEJJcjI0MVV3QdIBwgFBVV95cUxOTG8xaTE4WkU4ZVJsYWlsMzZSZnV4QXp0RFhTVkNHWmpGWDVCcEpZYnU4LWlKMnlDOGNUV1p4THlKaGRTTk90WUpTbGhQd3pNZ1U1SkN5NmF5ZFA3SXhMWVV6S3pWcUlfNGhGNzJPNGl6LWpSTGd3bW1JOXphSHhJRlRoOF9MY1JQanZ2VGZDMkVPSTNiLW45bHcybXdveGRaZGpBWGhtRU5HMEJqSXF3UEZSSWpfRkgxVEJJcjI0MVV3QQ?oc=5",
           "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
           "sourceName": "Рамблер"
         }
@@ -731,17 +731,24 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+      "latestSourceName": "Retail Life",
+      "sources": [
+        {
+          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+          "sourceName": "Retail Life"
+        }
+      ]
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -1390,11 +1397,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 2,
-      "latestPublishedAt": "Fri, 16 Oct 2026 04:50:53 GMT",
-      "latestTitle": "Google корректирует результаты поиска, созданные с помощью ИИ, расширяя охват журналистики. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUlQbWtITl96VWtOTDJPTmxfaHBIT2pWZDdONE5wTk5kRXpBd3pyNkFINEowbWl0UTl1ZUducDFqdGNCWThCdGg1SS03MzhuSFMybW5WRC1HX2QwSW9DZnltMV9VbXRsem5tSmhwMFpuNkxsYUdSd3J5TVgxbjZuQzFPUEVyd25SQ282NVdIdnhabXNoaWEtQnRPZW8?oc=5",
-      "latestSourceName": "Vietnam.vn",
+      "latestPublishedAt": "Fri, 16 Oct 2026 11:13:02 GMT",
+      "latestTitle": "Кейс Demis Group и «Редмонд»: как обновление контент-стратегии вернуло охваты в соцсетях - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZdUVUVUctOEJoX25TRWFLei1WUGJVb09La1ZBZlpib3FrWXN0TzhJUVBONHVZbHNvaV8wMm5wdjBiWVdVSWhWRjhjR0JDdVRreUZfMkZsbTBQU0U1N3JpZmtyODI1aFR3dE1qRkFQSGdqUnEwM1NXMU9Bcw?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Кейс Demis Group и «Редмонд»: как обновление контент-стратегии вернуло охваты в соцсетях - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZdUVUVUctOEJoX25TRWFLei1WUGJVb09La1ZBZlpib3FrWXN0TzhJUVBONHVZbHNvaV8wMm5wdjBiWVdVSWhWRjhjR0JDdVRreUZfMkZsbTBQU0U1N3JpZmtyODI1aFR3dE1qRkFQSGdqUnEwM1NXMU9Bcw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 11:13:02 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Google корректирует результаты поиска, созданные с помощью ИИ, расширяя охват журналистики. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUlQbWtITl96VWtOTDJPTmxfaHBIT2pWZDdONE5wTk5kRXpBd3pyNkFINEowbWl0UTl1ZUducDFqdGNCWThCdGg1SS03MzhuSFMybW5WRC1HX2QwSW9DZnltMV9VbXRsem5tSmhwMFpuNkxsYUdSd3J5TVgxbjZuQzFPUEVyd25SQ282NVdIdnhabXNoaWEtQnRPZW8?oc=5",
@@ -1418,12 +1431,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
           "sourceName": "tribune.kz"
-        },
-        {
-          "title": "МЭННИ: белорусам и русским душат охваты! Интервью с блогером-миллионником - СБ. Беларусь сегодня",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRExGbm1jbEVEOTA5UkhXZnNmbHV2MVh1WHpzWl9EN1c4SGlCdnVLeHJoYVo5b3dyMm1BZVNNYWN3RktfLXRwQmxoYWp3TDVvUENxczFuQUx6SDI0VWVKOWw0T3RHQm1PcFVvREQwYWdFSTItQWR3RG9qU1pnclowS0xCaEpjUUV5XzJieUlnUWExTU9jTnEtQXNiLUpvLVdJUkZhVg?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
-          "sourceName": "СБ. Беларусь сегодня"
         }
       ]
     },
