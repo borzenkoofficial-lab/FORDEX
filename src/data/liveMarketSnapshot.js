@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-16T01:52:16.707Z",
+  "generatedAt": "2026-10-16T07:34:59.170Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -101,15 +101,33 @@ export const liveMarketSnapshot = {
       "companyName": "ISKRA",
       "sourceCount30d": 10,
       "sourceCount7d": 10,
-      "fundingMentions": 1,
+      "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 19:13:04 GMT",
-      "latestTitle": "LADA Iskra, HAVAL H9 и VOLGA K50 вошли в число победителей автомобильной премии «Точка зажигания» - Вечерние ведомости",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
-      "latestSourceName": "Вечерние ведомости",
+      "latestPublishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
+      "latestTitle": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
+      "latestSourceName": "Южный автомобиль",
       "sources": [
+        {
+          "title": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
+          "sourceName": "Южный автомобиль"
+        },
+        {
+          "title": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 05:14:40 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
+        {
+          "title": "Эксперты оценили стоимость Lada Iskra TMS почти в 7 миллионов рублей — что это значит для рынка - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPcjRHQkZmREd6aWlHT253dW1Ndjl5OUlJekxCVGNJWEU5bGFBWHJoU0pERTVDOE5sR1F1N04tZUFoeVF1NEVhZ0RSZ1JJUll5OWl1Zm5LbE5WV3o0X09OX3dzdmFQc0txLUVyWUpfNi1BeUxHUWlzMFhnRVNxMWlzMlJ2Q3pyX093bE9iZ0NnUDE0eHdqdGR5R0hhYVBGdGVBV0VQeEFSS19jbzllRkU2NTA1RnZRdXBNTzZ1czFJdldjUDBJeUxV?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 01:33:24 GMT",
+          "sourceName": "ВТамбове"
+        },
         {
           "title": "LADA Iskra, HAVAL H9 и VOLGA K50 вошли в число победителей автомобильной премии «Точка зажигания» - Вечерние ведомости",
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
@@ -117,45 +135,52 @@ export const liveMarketSnapshot = {
           "sourceName": "Вечерние ведомости"
         },
         {
-          "title": "Lada Iskra обещают войти в топ-10 самых продаваемых автомобилей России к 2026 году — что это значит для рынка - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNOTJYazZKR01IZjhrM0pCN3laU0JPLVZnZGNWbEVEUWFxSlhWMkdjRC1GRE5CckpOR3ZUblFqMzROeHVFZGctZzBFZVpxeWZrSWE3cmZYUlRLWkoxTmV3UmhCTmtiRTUtXzB0VGU0MHlrWGtEZ0YwTVN2RVlZVFZZVnNSenpVeHFubS1oc2hDeWZ0SkE3eDgwbGRGd0FDNTVQUTVReFFzQXE2ak1UZ1FpNW1yWC1xaHF5aDZmYjVTMTNQclp0LXEydDlQMnJTWDlpOENGV0t5X3NDLWVO?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 17:35:01 GMT",
-          "sourceName": "ВТамбове"
-        },
-        {
-          "title": "Турбомотор, секвентальная КПП и 259 сил: чем удивила гоночная Lada Iskra TMS - Южный автомобиль",
-          "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxQTENHYTZPXzIxbjlDZUVDREF0b2p0OUExMjI1ZlFQZGdId2JfdXFLMFUzeXNISi12emt2d1VGWGJjdUxTVEN6ZTFFRVJ5MmF3WFVBTVRQRGVzX2Ewd1VGVF9ubjYwZ2I3SlB3QmNoZ1YtQlY5TERMRG45d0x5amtUTVFxNnVmdlJLdTdlTXdfLWNWZw?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:13:07 GMT",
-          "sourceName": "Южный автомобиль"
-        },
-        {
-          "title": "АвтоВАЗ показал гоночную Lada Iskra TMS мощностью до 259 л. с. - Carexpo.ru_ все авто на одном сайте",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQbU0zbVk5NEJrSUtGSVpNdUdYcmEyMW90ZDZFaWVkTVp0dzdCQkx5SjV4b213d0JVQU1TUTJtNXJkWXBvdi1TUi1aelZtUFBhaHZQZUVaV1JqamtkZXVjRVpBZEpvUGt2cDMwQjEzM0RPZTM3dEp6dXZUMUR3b1NHU3BOOWR3MXhPMXVreGtLTUc0UG1obUZlV0N4d3pJSDVPR051Vg?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:08:00 GMT",
-          "sourceName": "Carexpo.ru_ все авто на одном сайте"
-        },
-        {
-          "title": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
-          "sourceName": "Лада.Онлайн"
+          "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wczlnSkFNTkY2emM3bl9UV1c2cjYxQkNiSHFkWXZlWk1oMkJzRTZuRnJRN1NhLWZIWmRsNHltUEZySjVKWXh1SHFlREdjRVoy0gFWQVVfeXFMTmtQdFZrYVB5ZHFpQ0lxS3Qyem9ONHNqRmcwdTZRTlM4MWRONVZuTzRqUjV2RGotLVdhOWZWU1FmSnY4ZjdhT1RMamM2dTlYdU55dy0xR1E?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 06:10:41 GMT",
+          "sourceName": "Авто Юга.ру"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
+          "sourceName": "Business FM Санкт-Петербург"
+        },
+        {
+          "title": "Ищем спикеров на зимнюю Conversations: опен‑колл до 10 октября - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFB2TGlCVEpjZmtSRGxmcDJWM0QzUzZ3djNDdVlKY3l4R1Q1NGxPeXFfS2Y3OC1HaVNrSlF6cFJmeUFkcGo0cDljcVRzZE9sSHlLd2ltaXBvemYwUWt3Y0l1eNIBWEFVX3lxTFBRWUJNeEN6UWlENVJwbUlLZnFZbkNSd2JtZHNPZm54MzY1cmxLOXJBMkJhQXdVeDJ3VDBQc25JYUN3NUQzMGRWQVVPUkR5aGhGSTdZWUV3NEQ?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "«Группа Астра» запустила ИИ, который сам разбирает технические сбои и анализирует данные в бизнесе - Первый технический",
+          "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxNMmt2dGF3S2paenZJN2NaSVBLcVkyZ2RpRXdaN0xmcGJmeFhkejc2aVVvRzdXbVcwRWVGaDE3NG52Z1h0Q3VuMjVjZEY1Vk9jYWxFZW1Dalpxd1hwUWRhVzQ4TE5mNWFOcmN6TGt0NFRPaVFEcmZBNTVDbVh6c3Jvb1g0akR5OFUzS0w4R2hKVW1FbGlHMEFqV2Z6QnB3RVNTX1Y4bDh6c1hveUZCMF9tSdIBtgFBVV95cUxOYlA2MnA5cTdEY01pRVZWTDJ6TzBHVWpRYkRtWExTYkh1ODF0LU14ckFIRUppbm1HNHR4NWU1ZjQwcm9TbmRWb0pQSWxaR3BqMGpnYlBIVEZTT3JhVU1fanhMT094ZmFIRUhqdVlDNW91TXVyNUVlR3FIdjFmS0dhTF9OWmF1SjJlMmkySzRLWkZBQl9kODR4MkJVdUxfN25MRndXUHI4OFNDR0ZBc2hVU2QyUmdfQQ?oc=5",
+          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
+          "sourceName": "Первый технический"
+        }
+      ]
     },
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
@@ -190,7 +215,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 7,
+      "sourceCount30d": 8,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -236,28 +261,34 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "ИТ-холдинг и Piklema будут развивать цифровые решения для промышленности - Progorod43",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BOUx3Yy1XTGp4NjhHa1NkRTBOZWFWZElTNDRmWFRfQUdCdFpYX3dJRDJmNTF0Yi1UaUF5NUdmUERTVVZ6UV8zRA?oc=5",
-      "latestSourceName": "Progorod43",
+      "latestPublishedAt": "Wed, 07 Oct 2026 22:20:44 GMT",
+      "latestTitle": "Билайн и YADRO будут совместно развивать решения Private LTE/5G для промышленности - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObm9PS1VIUkF0UHhhSUhMZEh3UHVJYzNFYkhIcUZCekZxN1FzeE9DSVFNX0RrYkF2WmNYMWV4aE5EeVBnRVNkUGt5QjFiZ1NGcHFFcHdiYzEwTjBieHJpellIR0tNS3ExdjJ6TTdKTUVaX1hZSHQ2cGF4cEVtelpYYUt2RVp5SWl0SU1CcWVmY21YMVdmRW9ZMjAwZjJScEFTenNKdU5JU0tPQ3dnc0V4dnFjS1RzaEJ2RXU2RGRGX2JTczJ0?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
         {
-          "title": "ИТ-холдинг и Piklema будут развивать цифровые решения для промышленности - Progorod43",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE9BOUx3Yy1XTGp4NjhHa1NkRTBOZWFWZElTNDRmWFRfQUdCdFpYX3dJRDJmNTF0Yi1UaUF5NUdmUERTVVZ6UV8zRA?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Progorod43"
+          "title": "Билайн и YADRO будут совместно развивать решения Private LTE/5G для промышленности - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObm9PS1VIUkF0UHhhSUhMZEh3UHVJYzNFYkhIcUZCekZxN1FzeE9DSVFNX0RrYkF2WmNYMWV4aE5EeVBnRVNkUGt5QjFiZ1NGcHFFcHdiYzEwTjBieHJpellIR0tNS3ExdjJ6TTdKTUVaX1hZSHQ2cGF4cEVtelpYYUt2RVp5SWl0SU1CcWVmY21YMVdmRW9ZMjAwZjJScEFTenNKdU5JU0tPQ3dnc0V4dnFjS1RzaEJ2RXU2RGRGX2JTczJ0?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 22:20:44 GMT",
+          "sourceName": "prospect.com.ru"
         },
         {
-          "title": "Российские разработчики представили комплексные решения для цифровизации добывающей промышленности - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSHlUeHBaeDN0bGc1TXVKMGdTS012YXYwQXJ4SE5GSXBvX1k4RG9XcENoZ1lhVkUtV0lIQmo5TC13TUVKQW1aWFUxejZtUEoxY0VQcE5zWWZvZkVGTkkyRWN1YUEwRXZidEpvZk5YUWk5MmhGZW9SRS10bVUxY3BVbXo3NlppQlYzZ3c?oc=5",
+          "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 09:42:00 GMT",
+          "sourceName": "Newslab"
+        },
+        {
+          "title": "Piklema и Т1 объединяют усилия для внедрения ИТ-решений в промышленность - Рамблер",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxORGNQdU5OMFEyNTRtR0UxSjhtYy1sVUlDOF9FLTE5QVI2VTk4dG9ELV9IeGNZZ09CMzVNX0NZVXIwbW1TazNobENtbkxoM3lzQjJjcFdMRm8zRjNxSEdWbW53SDVTTFQtUWg0NGoxVFkzTXA1YnY1TWt6aHo1WjNEZm93Q1A5QlB4QmNJTnNyd1NPMXhzRjRfazc5enJwWEtmOUVHNWJGdWMzMnZNaDlOMVNUUDQxMEZpd1AycdIBwgFBVV95cUxOTG8xaTE4WkU4ZVJsYWlsMzZSZnV4QXp0RFhTVkNHWmpGWDVCcEpZYnU4LWlKMnlDOGNUV1p4THlKaGRTTk90WUpTbGhQd3pNZ1U1SkN5NmF5ZFA3SXhMWVV6S3pWcUlfNGhGNzJPNGl6LWpSTGd3bW1JOXphSHhJRlRoOF9MY1JQanZ2VGZDMkVPSTNiLW45bHcybXdveGRaZGpBWGhtRU5HMEJqSXF3UEZSSWpfRkgxVEJJcjI0MVV3QQ?oc=5",
           "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Правда.Ру"
+          "sourceName": "Рамблер"
         }
       ]
     },
@@ -390,7 +421,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
       "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
       "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
       "latestSourceName": "Kursiv Media",
@@ -398,7 +429,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 06:45:09 GMT",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "Kursiv Media"
         }
       ]
@@ -806,7 +837,7 @@ export const liveMarketSnapshot = {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
       "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -823,15 +854,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о партнерстве, направленном на распространение среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1VYanRNVzZtWGtMNHFjRWk3TDVPUHFkTXl5YjZmdTNhSVUySWJDSnZkTXU5VXhLWDB1ci1nT2xVbHZEanpTNTZNbDJJSFBHYmtKNXZjbHMxMFhPVkFXUFBrYTJ5am1SVFA3c0V0MTJkaVQzX3lWUnJIaTRxdnNVSjVCYmhydzVMWkI0cEcyRDA1b1ZTRWdleUZ5bHE0cW5xZFVHdmt0UzJCTXdrQURB?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
           "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -863,6 +894,12 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
+          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
@@ -871,12 +908,6 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Как из трёх стендапов получилось 98 коротких клипов - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9TMUVUcmFraVpUdWdnWkFlNzFDWjhCMUZydFRPOVo0TUtQb0pjVHVvZjVSRC1OaWlGSEktMkhRdF9yV2pFLWx4b1g5bVp5YlRvNi1N?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
@@ -983,7 +1014,7 @@ export const liveMarketSnapshot = {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
       "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1032,26 +1063,26 @@ export const liveMarketSnapshot = {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
       "sourceCount30d": 5,
-      "sourceCount7d": 1,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 14 Oct 2026 12:44:44 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Thu, 15 Oct 2026 04:59:22 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 04:59:22 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 12:44:44 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 22:30:25 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1353,21 +1384,21 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
+      "sourceCount30d": 9,
       "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 2,
-      "latestPublishedAt": "Thu, 15 Oct 2026 22:41:52 GMT",
-      "latestTitle": "Расширение охвата и обеспечение социального обеспечения. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zMmpvNHJYaXg0VkVvWEVXdncyYjN1ZEF1X1p1QnlRWnR2ejhaVWdmQjRRZnptWjFEZkNEZThEQzBvVXRJOExkZG1ZdXhnNklOU3k1S215d0x6YlBnUGpzc1Q5TXpwWlBuc3NNb0JTLUF0YjEydkp1TA?oc=5",
+      "latestPublishedAt": "Fri, 16 Oct 2026 04:50:53 GMT",
+      "latestTitle": "Google корректирует результаты поиска, созданные с помощью ИИ, расширяя охват журналистики. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUlQbWtITl96VWtOTDJPTmxfaHBIT2pWZDdONE5wTk5kRXpBd3pyNkFINEowbWl0UTl1ZUducDFqdGNCWThCdGg1SS03MzhuSFMybW5WRC1HX2QwSW9DZnltMV9VbXRsem5tSmhwMFpuNkxsYUdSd3J5TVgxbjZuQzFPUEVyd25SQ282NVdIdnhabXNoaWEtQnRPZW8?oc=5",
       "latestSourceName": "Vietnam.vn",
       "sources": [
         {
-          "title": "Расширение охвата и обеспечение социального обеспечения. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9zMmpvNHJYaXg0VkVvWEVXdncyYjN1ZEF1X1p1QnlRWnR2ejhaVWdmQjRRZnptWjFEZkNEZThEQzBvVXRJOExkZG1ZdXhnNklOU3k1S215d0x6YlBnUGpzc1Q5TXpwWlBuc3NNb0JTLUF0YjEydkp1TA?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 22:41:52 GMT",
+          "title": "Google корректирует результаты поиска, созданные с помощью ИИ, расширяя охват журналистики. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQYUlQbWtITl96VWtOTDJPTmxfaHBIT2pWZDdONE5wTk5kRXpBd3pyNkFINEowbWl0UTl1ZUducDFqdGNCWThCdGg1SS03MzhuSFMybW5WRC1HX2QwSW9DZnltMV9VbXRsem5tSmhwMFpuNkxsYUdSd3J5TVgxbjZuQzFPUEVyd25SQ282NVdIdnhabXNoaWEtQnRPZW8?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 04:50:53 GMT",
           "sourceName": "Vietnam.vn"
         },
         {
@@ -1383,16 +1414,16 @@ export const liveMarketSnapshot = {
           "sourceName": "UfaTime.ru"
         },
         {
-          "title": "Аудитория телевидения на глазах меняется и сокращается - Культура ВРН",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9GZ3hQb3BhaEg3UHZVMDJENkdmLWtWVUhSRW1CWDNwelAxNnRJVERuS3I4V2JWQkhHR1NDckR6Z2hRNEZIZFdnbEhMcU8?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 15:54:00 GMT",
-          "sourceName": "Культура ВРН"
-        },
-        {
           "title": "Google может обогнать OpenAI по охвату пользователей - tribune.kz",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5wbERvbmxWNGxsMzJFUTJmZHJNeEV6VmpibXVXVTN2ZjloLVV6UnhfdTB5d2hfclBQb1p4WHFSQ0F1U1dMSy0yQXRZYU1xMVFNbHlQclAtb3JjM1RJaUduQUtMTy1GbEoyWUVUc3c0S3lGOWd0NFFpb183VQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 12:46:23 GMT",
           "sourceName": "tribune.kz"
+        },
+        {
+          "title": "МЭННИ: белорусам и русским душат охваты! Интервью с блогером-миллионником - СБ. Беларусь сегодня",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQRExGbm1jbEVEOTA5UkhXZnNmbHV2MVh1WHpzWl9EN1c4SGlCdnVLeHJoYVo5b3dyMm1BZVNNYWN3RktfLXRwQmxoYWp3TDVvUENxczFuQUx6SDI0VWVKOWw0T3RHQm1PcFVvREQwYWdFSTItQWR3RG9qU1pnclowS0xCaEpjUUV5XzJieUlnUWExTU9jTnEtQXNiLUpvLVdJUkZhVg?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 00:00:00 GMT",
+          "sourceName": "СБ. Беларусь сегодня"
         }
       ]
     },
