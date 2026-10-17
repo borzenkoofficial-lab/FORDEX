@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-17T19:45:18.976Z",
+  "generatedAt": "2026-10-17T22:44:22.934Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -244,7 +244,7 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 3,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -842,9 +842,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -995,23 +995,17 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 4,
-      "sourceCount7d": 3,
+      "sourceCount30d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
-      "latestTitle": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
-      "latestSourceName": "Restate.ru",
+      "latestPublishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
+      "latestTitle": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
+      "latestSourceName": "Всеостройке.рф",
       "sources": [
-        {
-          "title": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
-          "sourceName": "Restate.ru"
-        },
         {
           "title": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
@@ -1372,7 +1366,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
