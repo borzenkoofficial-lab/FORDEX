@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-17T07:14:17.685Z",
+  "generatedAt": "2026-10-17T12:31:35.581Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -123,12 +123,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Правда.Ру"
         },
         {
-          "title": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 10:04:46 GMT",
-          "sourceName": "Лада.Онлайн"
-        },
-        {
           "title": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
@@ -139,6 +133,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 19:13:04 GMT",
           "sourceName": "Вечерние ведомости"
+        },
+        {
+          "title": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
+          "sourceName": "Лада.Онлайн"
         }
       ]
     },
@@ -412,11 +412,11 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 2,
       "tractionMentions": 0,
       "latestPublishedAt": "Tue, 13 Oct 2026 08:15:30 GMT",
       "latestTitle": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
@@ -434,6 +434,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
           "sourceName": "Телеспутник"
+        },
+        {
+          "title": "ИИТ запустила биометрическую систему TrustCBS на базе технологий VisionLabs - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNOVRMS1RITEE5Q0NocHBlTlgxUGtUVUR1Z2VBMHpFNi1kNTQtMHpLMHNBVlFpTGo1YkU3akFLTGRPaWRYa3ZkMk9VUFRjWnllYUZHQXVSRmlxZkloY29Fa2t6bTEwQjRWdUxUTEhOSXBLQi02V0t6ZElGdEdMMjBvWFNJVHRZWGRjbGJCQTlEUC1lWjFpVFlXclpIdDBoVDZPMEQzS1ZzemxpdVhMVWl2X1plNUVPMWRrOVo2OEg3b1NHVV9aSlBfN2ZYeGF3bkVaRW03NXhucWtMaWJDMURjQ2U4OXlQTDhWX2w5ajdOYk5JZTdseHY2OWk2XzVBOTMtWXU5SzZPQlhyaWthVVV2Zk1idmNLRENqeWllaUM4dzI1NGFlbjBxX1NLRmlmWmdRZmtiQXo2VkpLa2o2V1E?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
         }
       ]
     },
@@ -483,17 +489,24 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "askhow": {
       "companyId": "askhow",
@@ -700,24 +713,17 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-      "latestSourceName": "Retail Life",
-      "sources": [
-        {
-          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "sourceName": "Retail Life"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -1336,17 +1342,24 @@ export const liveMarketSnapshot = {
     "navstreche": {
       "companyId": "navstreche",
       "companyName": "НаВстрече!",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
+      "latestTitle": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
+      "latestSourceName": "IT Channel News",
+      "sources": [
+        {
+          "title": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
+          "publishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
+          "sourceName": "IT Channel News"
+        }
+      ]
     },
     "okrest": {
       "companyId": "okrest",
@@ -1367,11 +1380,11 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 10,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 1,
+      "tractionMentions": 0,
       "latestPublishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
       "latestTitle": "Более половины россиян стали пользоваться нейросетями - Росбалт",
       "latestUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
@@ -1382,6 +1395,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
           "sourceName": "Росбалт"
+        },
+        {
+          "title": "Kaleido 4 удвоила цветовой охват, но это не значит точные цвета - itzine.ru",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaFJUNDUtX2FaSDdBd25sX3NpLVpaTHJ4SjBVM1pjWEE5UlpMTzFSTEoxbTRQeVBLTDA3SHlxZVEzMFU1eVk0Z2xoNXkxeVFzZGxUV0p5eVZaZm5odl9NQk9TYzUxM2syTXU1ZHQ5Z0M5bXBGTzlHSWxBWTQ5aExMdXNiZUVLdmNOX0F0TTFOMGxYZUZ3ZlV2ZEZyONIBowFBVV95cUxOZU9QYTkyZjk1R0FHT0hWcFlaZ0wwV2x4a2NSVk9xb3JxODhuLXlzS2tIQjJVd1YtajZBWXhUWEg1M2RSckt2YUN0VFNNN1RlQjQzUjI0Uk1ETDFNZm9reFlLZ3ZTeTdxSkdkTk5NcEotRklERm1lanpHNHp6bjAzMGFPWWVRd1VxbDhQTjN0R1BnZzBEa1lSV0JNYUZOR1hHODVV?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 19:40:41 GMT",
+          "sourceName": "itzine.ru"
         },
         {
           "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
@@ -1400,12 +1419,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX1BMaHJwVG40OEZMeHFSbmVac1JpVTFFT1p4cGYwdWo2WUw5NlpCTEZYNTZ0dUJ6NVB5WGotMEtoanoxM2VOdmxQckNxWmlBOGlOQ0YtQ0VHMVh2ZE9RbTUzSEV4dThrUTNQbTBGWW56QXBfRUJBUnZyVlhPYWFPRWRadHR1dw?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 14:57:44 GMT",
           "sourceName": "Techora.ru"
-        },
-        {
-          "title": "Кейс Demis Group и «Редмонд»: как обновление контент-стратегии вернуло охваты в соцсетях - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE5ZdUVUVUctOEJoX25TRWFLei1WUGJVb09La1ZBZlpib3FrWXN0TzhJUVBONHVZbHNvaV8wMm5wdjBiWVdVSWhWRjhjR0JDdVRreUZfMkZsbTBQU0U1N3JpZmtyODI1aFR3dE1qRkFQSGdqUnEwM1NXMU9Bcw?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 11:12:52 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
