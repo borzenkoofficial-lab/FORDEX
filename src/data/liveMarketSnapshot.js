@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-17T12:31:35.581Z",
+  "generatedAt": "2026-10-17T17:34:31.841Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -101,15 +101,33 @@ export const liveMarketSnapshot = {
       "companyName": "ISKRA",
       "sourceCount30d": 10,
       "sourceCount7d": 10,
-      "fundingMentions": 2,
+      "fundingMentions": 3,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
-      "latestTitle": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
-      "latestSourceName": "ВТамбове",
+      "latestPublishedAt": "Sat, 17 Oct 2026 16:00:05 GMT",
+      "latestTitle": "В русских гонках — новая любопытная серия: авто за 7 млн, «буст» и смена пилотов по ходу - https://www.championat.ru/",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
+      "latestSourceName": "https://www.championat.ru/",
       "sources": [
+        {
+          "title": "В русских гонках — новая любопытная серия: авто за 7 млн, «буст» и смена пилотов по ходу - https://www.championat.ru/",
+          "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
+          "publishedAt": "Sat, 17 Oct 2026 16:00:05 GMT",
+          "sourceName": "https://www.championat.ru/"
+        },
+        {
+          "title": "Новая LADA Iskra: сравнение двигателей на 106 и 120 л.с. - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQQkFmWUdOcEpaOW95aXhKbVMtWlV4X0R2Y2dKVEdlZ09JTWhBcWFlY3NHRVJhNHMtUUh6WXlRZy1ZQ1F2S0pzZU9kbFk3SEU5TG5UNDhoTE1yVk5JVWpyXzhpdE9BaUF0akVEa1NScV9HdFowVWlleFdPdlY0UXQ3VG56cmg4V2RmQTR2VDdwak5FQWNlU09RZThnTjNPQThVTXU2V1pKODRld09ZV0xOXzBMSGdJZWs?oc=5",
+          "publishedAt": "Sat, 17 Oct 2026 05:14:44 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
+        {
+          "title": "Lada Iskra метит в народные любимцы: новинка АвтоВАЗа замахнулась на место Granta - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzFSQWh6M1pOV3FkSVhhNVliWkNVc3hjNkpMTm1FbUJkeXR1NVg3OXJVOXIxY1NsNFh1MF9OMnpfLWJScXdkWUNpd19Qai1scVZ0OVNwaGNzU2M1QW52cUF5cFJXSVJoeFNTUmhvOHZzU0VYTHQxNjB0UmNBYkVWbA?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 21:27:52 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
@@ -117,28 +135,10 @@ export const liveMarketSnapshot = {
           "sourceName": "ВТамбове"
         },
         {
-          "title": "Цена как у квартиры, а вместо дивана каркас безопасности: гоночная Lada Iskra ошарашила ценником - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTFBaTi1jZUZfbTFKUkpsa1NqbGN1RGZjY1ZTRmVRaDRXZ1MxV0hJX0JONkxYYW5rdEdSWFBwWlhXZHpZRFBRWTBRRHA5WHZLSGNMU2tCTjc0dFVyTldiWWJxZGhScnA3ZFVMcWNlb2Z0QXRrWUpVUFZkUUd3TjczdW8?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 13:46:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
-        {
           "title": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
           "sourceName": "Южный автомобиль"
-        },
-        {
-          "title": "LADA Iskra, HAVAL H9 и VOLGA K50 вошли в число победителей автомобильной премии «Точка зажигания» - Вечерние ведомости",
-          "url": "https://news.google.com/rss/articles/CBMi4gFBVV95cUxOZTZOM3ZidzViQ0ZkUGhfZzY2dndVNHl3bnJINEh3dER5bzVVVkc0bUMtSTdYV2ltTHYyTUw0OHJGd19sWUwyenlrRGFHZk5QMl80TWpveEtUeXlmUW00RlJTWXhXRGpfR29lQTY2UDh2T18yNlNLajBiVnZHSVpORlZRN2hCSmtucXJjZnZtOEFGUVVaWEhieW9iWGk5NlFCX2ZoMDVwRFFyLS1IdG5TcjBWejVobG5SenN1Si0xM3FuNjl3N2FzSGVIdHR1bG8tX001cnBVR3EwUFMwVDdfdl930gHnAUFVX3lxTE5IODNfa0k1WV96ZTlNcENkeW16WDNBUUF3bi1uWEhoRjVweFAxZk1BdHpFeEVsLUduMVRvNnRFV0VjNGpadUxQOS14YUdfWWMxQXJlVFZXOWQ1RjJ1dmgwd0NaZ2Q1VDlyTkNxTzZXb0RSU1Nla2I0ZmJ4dWxhZkMweXNreHhIUGdRWUpBekh6ZmtNY29XdWlJVWNTcjBQdGlraXZLR2dldmhUNTdpUllhcnRXU0wyWTNnQVZnUEF4SU9OWmZUV1cwbEVhN0hCV0tlb1ZJYVFFNmhRWnpxdngyQzdZOEdTZw?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 19:13:04 GMT",
-          "sourceName": "Вечерние ведомости"
-        },
-        {
-          "title": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 11:29:27 GMT",
-          "sourceName": "Лада.Онлайн"
         }
       ]
     },
@@ -203,7 +203,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 11:45:00 GMT",
+      "latestPublishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
       "latestTitle": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
       "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
       "latestSourceName": "RTVI",
@@ -211,7 +211,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 11:45:00 GMT",
+          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
         },
         {
@@ -853,7 +853,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 9,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1320,24 +1320,17 @@ export const liveMarketSnapshot = {
     "metranpazh": {
       "companyId": "metranpazh",
       "companyName": "Метранпаж",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 17 Sep 2026 16:00:00 GMT",
-      "latestTitle": "Спектакль \"Провинциальные анекдоты\" - Piter.tv",
-      "latestUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sb1JWdG1NVjdqQlI5TWRuUjk3V0t3WkoxZWlrak8yNV9QcHI5bzA3Y19Wc1lLSHRQRml6eTJOVHRwYnJ6SzdYanNTajA0NVRaODJkRV9UY2dyM1Z2d1U2b1hWTnhSb1ZkOTBN?oc=5",
-      "latestSourceName": "Piter.tv",
-      "sources": [
-        {
-          "title": "Спектакль \"Провинциальные анекдоты\" - Piter.tv",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sb1JWdG1NVjdqQlI5TWRuUjk3V0t3WkoxZWlrak8yNV9QcHI5bzA3Y19Wc1lLSHRQRml6eTJOVHRwYnJ6SzdYanNTajA0NVRaODJkRV9UY2dyM1Z2d1U2b1hWTnhSb1ZkOTBN?oc=5",
-          "publishedAt": "Thu, 17 Sep 2026 16:00:00 GMT",
-          "sourceName": "Piter.tv"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "navstreche": {
       "companyId": "navstreche",
