@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-16T23:05:04.911Z",
+  "generatedAt": "2026-10-17T07:14:17.685Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,7 +105,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 20:21:36 GMT",
+      "latestPublishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
       "latestTitle": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
       "latestUrl": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
       "latestSourceName": "ВТамбове",
@@ -113,7 +113,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 20:21:36 GMT",
+          "publishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
           "sourceName": "ВТамбове"
         },
         {
@@ -244,20 +244,20 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 22:20:44 GMT",
-      "latestTitle": "Билайн и YADRO будут совместно развивать решения Private LTE/5G для промышленности - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObm9PS1VIUkF0UHhhSUhMZEh3UHVJYzNFYkhIcUZCekZxN1FzeE9DSVFNX0RrYkF2WmNYMWV4aE5EeVBnRVNkUGt5QjFiZ1NGcHFFcHdiYzEwTjBieHJpellIR0tNS3ExdjJ6TTdKTUVaX1hZSHQ2cGF4cEVtelpYYUt2RVp5SWl0SU1CcWVmY21YMVdmRW9ZMjAwZjJScEFTenNKdU5JU0tPQ3dnc0V4dnFjS1RzaEJ2RXU2RGRGX2JTczJ0?oc=5",
+      "latestPublishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+      "latestTitle": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
         {
-          "title": "Билайн и YADRO будут совместно развивать решения Private LTE/5G для промышленности - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxObm9PS1VIUkF0UHhhSUhMZEh3UHVJYzNFYkhIcUZCekZxN1FzeE9DSVFNX0RrYkF2WmNYMWV4aE5EeVBnRVNkUGt5QjFiZ1NGcHFFcHdiYzEwTjBieHJpellIR0tNS3ExdjJ6TTdKTUVaX1hZSHQ2cGF4cEVtelpYYUt2RVp5SWl0SU1CcWVmY21YMVdmRW9ZMjAwZjJScEFTenNKdU5JU0tPQ3dnc0V4dnFjS1RzaEJ2RXU2RGRGX2JTczJ0?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 22:20:44 GMT",
+          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -375,24 +375,17 @@ export const liveMarketSnapshot = {
     "syntelly": {
       "companyId": "syntelly",
       "companyName": "Syntelly",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 17 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
-      "latestSourceName": "Webiomed",
-      "sources": [
-        {
-          "title": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
-          "publishedAt": "Thu, 17 Sep 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "targetai": {
       "companyId": "targetai",
@@ -447,7 +440,7 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -468,12 +461,6 @@ export const liveMarketSnapshot = {
           "title": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
           "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
-          "publishedAt": "Thu, 17 Sep 2026 07:00:00 GMT",
           "sourceName": "Webiomed"
         }
       ]
@@ -843,15 +830,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о партнерстве, направленном на распространение среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1VYanRNVzZtWGtMNHFjRWk3TDVPUHFkTXl5YjZmdTNhSVUySWJDSnZkTXU5VXhLWDB1ci1nT2xVbHZEanpTNTZNbDJJSFBHYmtKNXZjbHMxMFhPVkFXUFBrYTJ5am1SVFA3c0V0MTJkaVQzX3lWUnJIaTRxdnNVSjVCYmhydzVMWkI0cEcyRDA1b1ZTRWdleUZ5bHE0cW5xZFVHdmt0UzJCTXdrQURB?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
           "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 09:25:52 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -859,7 +846,7 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 10,
+      "sourceCount30d": 9,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1380,7 +1367,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
