@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-17T17:34:31.841Z",
+  "generatedAt": "2026-10-17T19:45:18.976Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -1171,7 +1171,7 @@ export const liveMarketSnapshot = {
     "trigga": {
       "companyId": "trigga",
       "companyName": "Trigga",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1187,6 +1187,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kb0ZZR3pIQ2tLN2dYMGlBc3NWQzNBZjI0Vl9sM055VjNHUmt6V3BZb2VieGJKQnBVOXc4ZGltQVZPUUZBNG5tWkVjd0RoZ2VQVjF0cG5LUGgzeGFmX3NZ?oc=5",
           "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
           "sourceName": "Т—Ж"
+        },
+        {
+          "title": "Kurupt, Masta Killa и Rakim объединили побережья на The Godbody LP - Rap.ru",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KMWlTdDB5NVBXaDdacS0yWmNOODJvSTV4eko3QUtKQlN6R3JtSV9zZGR4SlZwN1BTMm9PT2JnRmhpX3RfNGtrWXdic0IxTEpQdXBGemJ3SEluSklScWtsRnZ3MnZ2UzVkRUNz?oc=5",
+          "publishedAt": "Fri, 18 Sep 2026 13:49:35 GMT",
+          "sourceName": "Rap.ru"
         }
       ]
     },
@@ -1335,24 +1341,17 @@ export const liveMarketSnapshot = {
     "navstreche": {
       "companyId": "navstreche",
       "companyName": "НаВстрече!",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
-      "latestTitle": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
-      "latestSourceName": "IT Channel News",
-      "sources": [
-        {
-          "title": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
-          "publishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
-          "sourceName": "IT Channel News"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "okrest": {
       "companyId": "okrest",
