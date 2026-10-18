@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-18T17:37:26.094Z",
+  "generatedAt": "2026-10-18T19:45:43.320Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -348,7 +348,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -384,10 +384,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 10:09:07 GMT",
+          "sourceName": "Сделано у нас"
         }
       ]
     },
@@ -409,7 +409,7 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -425,12 +425,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "Kursiv Media"
-        },
-        {
-          "title": "Tutu внедрил голосового ИИ-агента targetai - TAdviser",
-          "url": "https://news.google.com/rss/articles/CBMisgVBVV95cUxNVV9ydWtsX3NaQlNpTTMyVm9rSTRCaEROZDJQV3NBdDEwanpZcFZwbFB4RWhqQlBETkswd21zQ0VRSG5hYVFRczVpNWVlY1BJdmJWZTJHbm1pQk5yMEh2UF9wTG5KLWdOZ0JRaG9SSVVOaUp5U3ZFTnpKNm14UWtRVjY1Z1dGT3l2YU1TNFh5RGl4UWRYOHNldTN5MDlEQmIzQnNkRjBMdnpLRDFyY0I0Y1I1OWpKcFJDdnNMZmpnUThDanNGa1BkRkl6VFQ0ekM3a1NzbjV6ZnFGRWN5ZUZiU0FvUGhpNWo5bUNDUnVCQ3lDak1ORlhHblI3LWp4UF93YlIzYUZqaWg2bGEwOW5ndW5qLWY3RkVXY3dpbkduLXk2dThGTmtySllhWWVvOVlyaE1RTVJwUzM4blN1UzFDamlvVHV4bUx3SWJhbm5GQ1ZIUE1CbkhNQUJtV2NWU0xJSFBNYVoyU3dqNTFJME4yMzVieW1QQlhKTnhJT0QzNW5JdVpuLTRPaUFZUm9JXzczcnlGdElCellZX0tJMnVEZlpMNTV3V0VGM0o4WkNIb0g4bjJ5Z2NRd1VVOXZPQmQtRjJEVlVCNFNvY2ZpWG5uYVZydjRHa3cxay1nal9LSkg4aW1Fek1QbHQtdHpuNWNsOWdiXzE4X1ZHOUJvSFVFOVNwbFc1QlZWRlBEUUZOaURIRGhsbW0tdTF1WTUyVEpJRWE3QXVRSXllYWstVkRqN0FISl9ORTNvT3RyTmJ4Y28wUmlhdlo4UVpNRnFjV1FpT0xQNnQyeWZXa3JVemxqcVNUSzZtdF9Bd3l2YXdLdkJuUkE1dVV6M3RTQnF6STZqN0hGVW1MLUlWTVVfYjl4dmk2RTM0c3pjYVZSczV1VWlQdEFkcnloVDctajVsM1Z3SXc?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "TAdviser"
         }
       ]
     },
