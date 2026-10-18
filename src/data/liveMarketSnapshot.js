@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-17T22:44:22.934Z",
+  "generatedAt": "2026-10-18T01:44:46.302Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -123,10 +123,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Lada Iskra метит в народные любимцы: новинка АвтоВАЗа замахнулась на место Granta - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzFSQWh6M1pOV3FkSVhhNVliWkNVc3hjNkpMTm1FbUJkeXR1NVg3OXJVOXIxY1NsNFh1MF9OMnpfLWJScXdkWUNpd19Qai1scVZ0OVNwaGNzU2M1QW52cUF5cFJXSVJoeFNTUmhvOHZzU0VYTHQxNjB0UmNBYkVWbA?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 21:27:52 GMT",
-          "sourceName": "Правда.Ру"
+          "title": "Что готовит 2026 год: неожиданные изменения цен на Lada Iskra и их влияние на покупателей - Свободный взгляд",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWmZ4STlPNUJMb2JTaTh1Y3lsek9RaDdFNEs5UEliZFhvTHFObnZaVy1OOU9QdS05QXAyTk1XSEhVUktfY1JXMVh4SE9TdjlQWEFjX2ZXRGFjMXZuMTVqcGx3UGNPZmg0X015c3I4VW54NEZzNDNJcHcxd0VaWUF0QWp5VUhEVW5ocnJYb3VfdzlBanVVYWJ4Q1hQOUhzUFpvUEdFaVNBSFY3Y3lXVGIydW1fNWtIUXBKalZQLU1Ca0JVaDFQ?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 21:18:21 GMT",
+          "sourceName": "Свободный взгляд"
         },
         {
           "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
@@ -215,28 +215,28 @@ export const liveMarketSnapshot = {
           "sourceName": "RTVI"
         },
         {
-          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 11:58:45 GMT",
-          "sourceName": "Ростех"
-        },
-        {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
           "sourceName": "RuNews24"
         },
         {
+          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Ростех"
+        },
+        {
+          "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
+          "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
+          "sourceName": "RUБЕЖ"
+        },
+        {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlk1bGNGMk1aNXphWEotdEpyeS0zRFBVOXpXVEhOeGppYkJ3RzRJbW5HODB1X0Z1SUxDYWk3aEJSeVA1S01EQTNHY1djRVpuZ0JnYXhkM2hDRnY4bFcxNVZOWEp2R1FjdC1oTEhXLXB3bUEyekdOQmRscnZUaTNCYTR3c19OSHJkZllLbm5MREg?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
-        },
-        {
-          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-          "sourceName": "Общественная служба новостей"
         }
       ]
     },
@@ -821,7 +821,7 @@ export const liveMarketSnapshot = {
       "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
@@ -836,15 +836,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
           "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1335,17 +1335,24 @@ export const liveMarketSnapshot = {
     "navstreche": {
       "companyId": "navstreche",
       "companyName": "НаВстрече!",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
+      "latestTitle": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
+      "latestSourceName": "IT Channel News",
+      "sources": [
+        {
+          "title": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
+          "publishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
+          "sourceName": "IT Channel News"
+        }
+      ]
     },
     "okrest": {
       "companyId": "okrest",
