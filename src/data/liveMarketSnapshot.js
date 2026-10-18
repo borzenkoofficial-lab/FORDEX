@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-18T01:44:46.302Z",
+  "generatedAt": "2026-10-18T07:28:15.185Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -123,10 +123,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Что готовит 2026 год: неожиданные изменения цен на Lada Iskra и их влияние на покупателей - Свободный взгляд",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQWmZ4STlPNUJMb2JTaTh1Y3lsek9RaDdFNEs5UEliZFhvTHFObnZaVy1OOU9QdS05QXAyTk1XSEhVUktfY1JXMVh4SE9TdjlQWEFjX2ZXRGFjMXZuMTVqcGx3UGNPZmg0X015c3I4VW54NEZzNDNJcHcxd0VaWUF0QWp5VUhEVW5ocnJYb3VfdzlBanVVYWJ4Q1hQOUhzUFpvUEdFaVNBSFY3Y3lXVGIydW1fNWtIUXBKalZQLU1Ca0JVaDFQ?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 21:18:21 GMT",
-          "sourceName": "Свободный взгляд"
+          "title": "Lada Iskra метит в народные любимцы: новинка АвтоВАЗа замахнулась на место Granta - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzFSQWh6M1pOV3FkSVhhNVliWkNVc3hjNkpMTm1FbUJkeXR1NVg3OXJVOXIxY1NsNFh1MF9OMnpfLWJScXdkWUNpd19Qai1scVZ0OVNwaGNzU2M1QW52cUF5cFJXSVJoeFNTUmhvOHZzU0VYTHQxNjB0UmNBYkVWbA?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 21:27:52 GMT",
+          "sourceName": "Правда.Ру"
         },
         {
           "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
@@ -227,16 +227,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Ростех"
         },
         {
-          "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
-          "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
-          "sourceName": "RUБЕЖ"
-        },
-        {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlk1bGNGMk1aNXphWEotdEpyeS0zRFBVOXpXVEhOeGppYkJ3RzRJbW5HODB1X0Z1SUxDYWk3aEJSeVA1S01EQTNHY1djRVpuZ0JnYXhkM2hDRnY4bFcxNVZOWEp2R1FjdC1oTEhXLXB3bUEyekdOQmRscnZUaTNCYTR3c19OSHJkZllLbm5MREg?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
+        },
+        {
+          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Общественная служба новостей"
         }
       ]
     },
@@ -244,20 +244,20 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
-      "latestTitle": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
+      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
         {
-          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -329,7 +329,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -365,10 +365,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
+          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 09:19:32 GMT",
+          "sourceName": "Сделано у нас"
         }
       ]
     },
@@ -821,7 +821,7 @@ export const liveMarketSnapshot = {
       "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
@@ -836,15 +836,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
+          "title": "Компания Nestlé и НБА прививают молодежи страсть к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOT1YxNnZmbHVQUi0xNnlkV0Z2QnB3UFdiMXZoTXVmVnItZWtsQTZrVHY0ZlB5V0FpNDNJY2N6am1YT0NrRDRxV1dSSjdObHBjcnZGLXlWTUFCdE1ndTVKX1dETS1hMnZ0dTBkUjU0d0RxcFJrTzZuMDdXTmNpTldkWlZqMXZGZ2dRYmc0Ti1WdVNKeGRpQ0ppa3h4X1RLZw?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 05:12:15 GMT",
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 11:34:27 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -852,7 +852,7 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 9,
+      "sourceCount30d": 8,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1298,24 +1298,17 @@ export const liveMarketSnapshot = {
     "integram-ai": {
       "companyId": "integram-ai",
       "companyName": "Интеграм",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
-      "latestTitle": "«Агент тупит» — это диагноз инструкции, а не модели - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WR2Z2VE5NMlBIZ3lPa3pLdEVUeDVPUWJZN0tkUkNFdGlyLUJxUEJySzI1azlmWEUxUjVHVkJOLTM5OFpzOW1BT0s0YzRRQdIBWEFVX3lxTE04cVVDLWZWbTgwZWlkYTJzczNWSFBZZE9EeDlnYUxZQ1VlSklVOGcyY2hFanlwcjFwaVh3ZmRPTUpvTHA0R1VPaUlwelFxLXliOWpxRkxWR2E?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "«Агент тупит» — это диагноз инструкции, а не модели - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1WR2Z2VE5NMlBIZ3lPa3pLdEVUeDVPUWJZN0tkUkNFdGlyLUJxUEJySzI1azlmWEUxUjVHVkJOLTM5OFpzOW1BT0s0YzRRQdIBWEFVX3lxTE04cVVDLWZWbTgwZWlkYTJzczNWSFBZZE9EeDlnYUxZQ1VlSklVOGcyY2hFanlwcjFwaVh3ZmRPTUpvTHA0R1VPaUlwelFxLXliOWpxRkxWR2E?oc=5",
-          "publishedAt": "Fri, 18 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "metranpazh": {
       "companyId": "metranpazh",
