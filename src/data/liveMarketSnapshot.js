@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-18T12:50:07.427Z",
+  "generatedAt": "2026-10-18T17:37:26.094Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,11 +105,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 17 Oct 2026 16:00:05 GMT",
-      "latestTitle": "В русских гонках — новая любопытная серия: авто за 7 млн, «буст» и смена пилотов по ходу - https://www.championat.ru/",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
-      "latestSourceName": "https://www.championat.ru/",
+      "latestPublishedAt": "Sun, 18 Oct 2026 03:00:00 GMT",
+      "latestTitle": "Лада Искра после 20 000 км пробега: оцениваем износ компонентов подвески и тормозов - За рулем",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UM1JVVXFjWHFLaXFTeFdlQnFnOFc1TndVMjJxcU9hOTFnQ0FnQ1BmUHg3dlpEaXVvRllPdkNGVVBJWlRiWTByOHkzaDZ2a2xkUllHcF9haHd6WWhOTnREX2tpTWlLeDRJODdVZnln0gFzQVVfeXFMTzg5MS1NbW1zXzlnZVltM2h0Y3RSRkJCbEpNN1ZDV2t2M0dKU0Zra19TU1pxMkM2ZE1VSTNBcXlmX0J0NFpzSWdrTmcyeFdad1hHRHowVTZlblJVNWJsVllBdGZRTmE4QlQ3ODQ0QTktZ0ZyNA?oc=5",
+      "latestSourceName": "За рулем",
       "sources": [
+        {
+          "title": "Лада Искра после 20 000 км пробега: оцениваем износ компонентов подвески и тормозов - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UM1JVVXFjWHFLaXFTeFdlQnFnOFc1TndVMjJxcU9hOTFnQ0FnQ1BmUHg3dlpEaXVvRllPdkNGVVBJWlRiWTByOHkzaDZ2a2xkUllHcF9haHd6WWhOTnREX2tpTWlLeDRJODdVZnln0gFzQVVfeXFMTzg5MS1NbW1zXzlnZVltM2h0Y3RSRkJCbEpNN1ZDV2t2M0dKU0Zra19TU1pxMkM2ZE1VSTNBcXlmX0J0NFpzSWdrTmcyeFdad1hHRHowVTZlblJVNWJsVllBdGZRTmE4QlQ3ODQ0QTktZ0ZyNA?oc=5",
+          "publishedAt": "Sun, 18 Oct 2026 03:00:00 GMT",
+          "sourceName": "За рулем"
+        },
         {
           "title": "В русских гонках — новая любопытная серия: авто за 7 млн, «буст» и смена пилотов по ходу - https://www.championat.ru/",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
@@ -133,12 +139,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
           "sourceName": "ВТамбове"
-        },
-        {
-          "title": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
-          "sourceName": "Южный автомобиль"
         }
       ]
     },
@@ -167,17 +167,24 @@ export const liveMarketSnapshot = {
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
       "companyName": "Medical Visual Systems",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
+      "latestSourceName": "TAdviser",
+      "sources": [
+        {
+          "title": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
+        }
+      ]
     },
     "neiry": {
       "companyId": "neiry",
@@ -243,7 +250,7 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
+      "sourceCount30d": 4,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -258,6 +265,12 @@ export const liveMarketSnapshot = {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -310,10 +323,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Правда.Ру"
         },
         {
-          "title": "Средний возраст основателя бизнеса в 2026 году снизился до 25 лет - PrimaMedia.ru",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tc3BITHhUdkM3ekNlZmFnZUs1ODdQRnZMX3NyTzV5MVdLSGZrcGhtSzZnSDRYMGJEVDlBVUl3Y18yOXVNdnIzR1RDYw?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "PrimaMedia.ru"
+          "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - Новости Воронежа интернет-газета",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+          "publishedAt": "Tue, 29 Sep 2026 13:15:15 GMT",
+          "sourceName": "Новости Воронежа интернет-газета"
         }
       ]
     },
@@ -396,7 +409,7 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -412,6 +425,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "Kursiv Media"
+        },
+        {
+          "title": "Tutu внедрил голосового ИИ-агента targetai - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMisgVBVV95cUxNVV9ydWtsX3NaQlNpTTMyVm9rSTRCaEROZDJQV3NBdDEwanpZcFZwbFB4RWhqQlBETkswd21zQ0VRSG5hYVFRczVpNWVlY1BJdmJWZTJHbm1pQk5yMEh2UF9wTG5KLWdOZ0JRaG9SSVVOaUp5U3ZFTnpKNm14UWtRVjY1Z1dGT3l2YU1TNFh5RGl4UWRYOHNldTN5MDlEQmIzQnNkRjBMdnpLRDFyY0I0Y1I1OWpKcFJDdnNMZmpnUThDanNGa1BkRkl6VFQ0ekM3a1NzbjV6ZnFGRWN5ZUZiU0FvUGhpNWo5bUNDUnVCQ3lDak1ORlhHblI3LWp4UF93YlIzYUZqaWg2bGEwOW5ndW5qLWY3RkVXY3dpbkduLXk2dThGTmtySllhWWVvOVlyaE1RTVJwUzM4blN1UzFDamlvVHV4bUx3SWJhbm5GQ1ZIUE1CbkhNQUJtV2NWU0xJSFBNYVoyU3dqNTFJME4yMzVieW1QQlhKTnhJT0QzNW5JdVpuLTRPaUFZUm9JXzczcnlGdElCellZX0tJMnVEZlpMNTV3V0VGM0o4WkNIb0g4bjJ5Z2NRd1VVOXZPQmQtRjJEVlVCNFNvY2ZpWG5uYVZydjRHa3cxay1nal9LSkg4aW1Fek1QbHQtdHpuNWNsOWdiXzE4X1ZHOUJvSFVFOVNwbFc1QlZWRlBEUUZOaURIRGhsbW0tdTF1WTUyVEpJRWE3QXVRSXllYWstVkRqN0FISl9ORTNvT3RyTmJ4Y28wUmlhdlo4UVpNRnFjV1FpT0xQNnQyeWZXa3JVemxqcVNUSzZtdF9Bd3l2YXdLdkJuUkE1dVV6M3RTQnF6STZqN0hGVW1MLUlWTVVfYjl4dmk2RTM0c3pjYVZSczV1VWlQdEFkcnloVDctajVsM1Z3SXc?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
         }
       ]
     },
@@ -1001,7 +1020,7 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1023,6 +1042,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Победителями четвертого сезона конкурса «Знай наших» стали 15 брендов - Эксперт",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS1VhY1ZWVktEMXBQM1ViT1M3a1p1V3A3eHhtWlFJQmM0ckJPa2FMRVpCdnpFd0piRmxvMmh1NkpxVm9PcV9jSXh4Z0pTSy1EZ1BTeHFuM09abUxhejlzRUgyRU00UUM3UDhfZHBjOU1YeS02dDd4cjR3SXhScE5WMmFSdXU0dVE1VUFrTUtvc0J4ZWFwc2NTU3p3?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+          "sourceName": "Эксперт"
         }
       ]
     },
@@ -1050,21 +1075,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 04:59:22 GMT",
-      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+      "latestPublishedAt": "Sat, 17 Oct 2026 14:59:14 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Sat, 17 Oct 2026 14:59:14 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 04:59:22 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 12:44:44 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1165,7 +1190,7 @@ export const liveMarketSnapshot = {
     "trigga": {
       "companyId": "trigga",
       "companyName": "Trigga",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1181,12 +1206,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiX0FVX3lxTE9kb0ZZR3pIQ2tLN2dYMGlBc3NWQzNBZjI0Vl9sM055VjNHUmt6V3BZb2VieGJKQnBVOXc4ZGltQVZPUUZBNG5tWkVjd0RoZ2VQVjF0cG5LUGgzeGFmX3NZ?oc=5",
           "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
           "sourceName": "Т—Ж"
-        },
-        {
-          "title": "Kurupt, Masta Killa и Rakim объединили побережья на The Godbody LP - Rap.ru",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE1KMWlTdDB5NVBXaDdacS0yWmNOODJvSTV4eko3QUtKQlN6R3JtSV9zZGR4SlZwN1BTMm9PT2JnRmhpX3RfNGtrWXdic0IxTEpQdXBGemJ3SEluSklScWtsRnZ3MnZ2UzVkRUNz?oc=5",
-          "publishedAt": "Fri, 18 Sep 2026 13:49:35 GMT",
-          "sourceName": "Rap.ru"
         }
       ]
     },
