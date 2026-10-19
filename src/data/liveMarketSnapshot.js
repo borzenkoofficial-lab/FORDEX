@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-19T02:01:53.286Z",
+  "generatedAt": "2026-10-19T08:09:18.552Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -167,17 +167,24 @@ export const liveMarketSnapshot = {
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
       "companyName": "Medical Visual Systems",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
+      "latestSourceName": "TAdviser",
+      "sources": [
+        {
+          "title": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
+        }
+      ]
     },
     "neiry": {
       "companyId": "neiry",
@@ -870,22 +877,22 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 8,
+      "sourceCount30d": 7,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 07:00:00 GMT",
-      "latestTitle": "8 ИИ‑сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
         {
-          "title": "8 ИИ‑сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
+          "title": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+          "sourceName": "Sostav.ru"
         },
         {
           "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
@@ -1374,25 +1381,31 @@ export const liveMarketSnapshot = {
       "sourceCount30d": 10,
       "sourceCount7d": 10,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
-      "latestTitle": "Более половины россиян стали пользоваться нейросетями - Росбалт",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
-      "latestSourceName": "Росбалт",
+      "latestPublishedAt": "Mon, 19 Oct 2026 07:35:29 GMT",
+      "latestTitle": "Mediascope оценил аудиторию нейросетей в России в 55% населения - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85eVRZaG9tOFpEVktsYVdsZVBjblN3VlFiTVE4R3RtaE80WWU5U0VmVEp3TExaemtjWTZaa3FCNDl3a09CXzBQZ9IBWEFVX3lxTE52SVNzYkdKd0t2TlVfMmpRSzRkbVhHOVF2SVp6MkIwcVV0ajZKNUVxVDB3THZLNE9rbktNNFdDZWdaMWk4UXdWbzhjRXRfVG83bUZTbTZiQkI?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Mediascope оценил аудиторию нейросетей в России в 55% населения - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85eVRZaG9tOFpEVktsYVdsZVBjblN3VlFiTVE4R3RtaE80WWU5U0VmVEp3TExaemtjWTZaa3FCNDl3a09CXzBQZ9IBWEFVX3lxTE52SVNzYkdKd0t2TlVfMmpRSzRkbVhHOVF2SVp6MkIwcVV0ajZKNUVxVDB3THZLNE9rbktNNFdDZWdaMWk4UXdWbzhjRXRfVG83bUZTbTZiQkI?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 07:35:29 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "В России назвали способ расширить охват льготных автокредитов: Evolute и Voyah рассказали, что стоит изменить - Автоновости дня",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE43Y0FpTlRqTVhaNXBPNGFFM1dUOTlMTjVyT281SjBMUnJVTHZZcW5aemVzd1FhNC1ST3JXWHJmUmpWM0hVbG5zdVN2MzBsNXhmQUh3NENvNHY3V1JLLUNmWERVUWgzSkpyelhqRENB0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 06:15:48 GMT",
+          "sourceName": "Автоновости дня"
+        },
         {
           "title": "Более половины россиян стали пользоваться нейросетями - Росбалт",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
           "sourceName": "Росбалт"
-        },
-        {
-          "title": "Kaleido 4 удвоила цветовой охват, но это не значит точные цвета - itzine.ru",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxPaFJUNDUtX2FaSDdBd25sX3NpLVpaTHJ4SjBVM1pjWEE5UlpMTzFSTEoxbTRQeVBLTDA3SHlxZVEzMFU1eVk0Z2xoNXkxeVFzZGxUV0p5eVZaZm5odl9NQk9TYzUxM2syTXU1ZHQ5Z0M5bXBGTzlHSWxBWTQ5aExMdXNiZUVLdmNOX0F0TTFOMGxYZUZ3ZlV2ZEZyONIBowFBVV95cUxOZU9QYTkyZjk1R0FHT0hWcFlaZ0wwV2x4a2NSVk9xb3JxODhuLXlzS2tIQjJVd1YtajZBWXhUWEg1M2RSckt2YUN0VFNNN1RlQjQzUjI0Uk1ETDFNZm9reFlLZ3ZTeTdxSkdkTk5NcEotRklERm1lanpHNHp6bjAzMGFPWWVRd1VxbDhQTjN0R1BnZzBEa1lSV0JNYUZOR1hHODVV?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 19:40:41 GMT",
-          "sourceName": "itzine.ru"
         },
         {
           "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.ru",
@@ -1405,12 +1418,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOWEVucmpqXzZvenkxWnNPcEgtWDc0V1o1a1pQQ193WnVIMzUzLWtSMWt3Zmc5cTV5cVZxSXNHSEZuYjBjRDQ1cHlhN1ZaVmZfU1p3Y25VQldUNkZtVlhzR2NaLUZxeE53aTV6Wm4tWDZkcUE1aWltWG9hZzhlVEJHSG56ay13ckIzeHBCSEdmY3ZTRXMyRFhOMFhBWjhaUzh1c0xtc3Y1R3VfcDl0Sjdr0gG0AUFVX3lxTFBZV2cyNTFlUXc3OVMycEFVc1JlZGVZV0hkQlBfSEVhdVIwejZ6TENmZkJ1MnhrNzc4dHQzSU0yWmp2VEFtbmVUTEtlaDJqV0lheGVPS2hoOXVOT2VtRXNMYkhGRmh1Z0lnOUkyVzF6dlJkT195aUR3a3dSNVJ4a0NyVWlJbFVpZTlYR1FUcVp3eGZLT0xIVklhZDEzbHZ3TGRXVGQ4eXVTS3NOaTFSY2lIUjRXSw?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 16:07:09 GMT",
           "sourceName": "www1.ru"
-        },
-        {
-          "title": "Аудитория нейросетей в России выросла вдвое, до 55% - Techora.ru",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNX1BMaHJwVG40OEZMeHFSbmVac1JpVTFFT1p4cGYwdWo2WUw5NlpCTEZYNTZ0dUJ6NVB5WGotMEtoanoxM2VOdmxQckNxWmlBOGlOQ0YtQ0VHMVh2ZE9RbTUzSEV4dThrUTNQbTBGWW56QXBfRUJBUnZyVlhPYWFPRWRadHR1dw?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 14:57:44 GMT",
-          "sourceName": "Techora.ru"
         }
       ]
     },
