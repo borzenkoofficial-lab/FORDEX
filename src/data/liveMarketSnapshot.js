@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-19T15:56:09.018Z",
+  "generatedAt": "2026-10-19T21:47:12.072Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -69,17 +69,24 @@ export const liveMarketSnapshot = {
     "dresscode-ai": {
       "companyId": "dresscode-ai",
       "companyName": "DRESSCODE",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
+      "latestTitle": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+      "latestSourceName": "Клуб DNS",
+      "sources": [
+        {
+          "title": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
+          "sourceName": "Клуб DNS"
+        }
+      ]
     },
     "expanta": {
       "companyId": "expanta",
@@ -123,12 +130,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Лада Искра после 20 000 км пробега: оцениваем износ компонентов подвески и тормозов - За рулем",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UM1JVVXFjWHFLaXFTeFdlQnFnOFc1TndVMjJxcU9hOTFnQ0FnQ1BmUHg3dlpEaXVvRllPdkNGVVBJWlRiWTByOHkzaDZ2a2xkUllHcF9haHd6WWhOTnREX2tpTWlLeDRJODdVZnln0gFzQVVfeXFMTzg5MS1NbW1zXzlnZVltM2h0Y3RSRkJCbEpNN1ZDV2t2M0dKU0Zra19TU1pxMkM2ZE1VSTNBcXlmX0J0NFpzSWdrTmcyeFdad1hHRHowVTZlblJVNWJsVllBdGZRTmE4QlQ3ODQ0QTktZ0ZyNA?oc=5",
-          "publishedAt": "Sun, 18 Oct 2026 03:00:00 GMT",
-          "sourceName": "За рулем"
-        },
-        {
           "title": "В русских гонках — новая любопытная серия: авто за 7 млн, «буст» и смена пилотов по ходу - https://www.championat.ru/",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
           "publishedAt": "Sat, 17 Oct 2026 16:00:05 GMT",
@@ -139,6 +140,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzFSQWh6M1pOV3FkSVhhNVliWkNVc3hjNkpMTm1FbUJkeXR1NVg3OXJVOXIxY1NsNFh1MF9OMnpfLWJScXdkWUNpd19Qai1scVZ0OVNwaGNzU2M1QW52cUF5cFJXSVJoeFNTUmhvOHZzU0VYTHQxNjB0UmNBYkVWbA?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 21:27:52 GMT",
           "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
+          "sourceName": "ВТамбове"
         }
       ]
     },
@@ -250,23 +257,17 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
-      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
+      "latestSourceName": "Newslab",
       "sources": [
-        {
-          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
@@ -348,16 +349,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
-      "latestTitle": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
+      "latestTitle": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80Ym1rQmM0SHV3ZEtZMEpyMktjY2VoZnJjYUhGamREcEw0b2hRNzZFSVEzNEF4cDQ3ZC15bG5KUzBfT0lKWWFWM3RneThBamJUclNfTWVtSGl0eDhxcDlHMUg5cjY3ZDRmLW5MatIBWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV8?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
         {
-          "title": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
-          "sourceName": "CNews.ru"
+          "title": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80Ym1rQmM0SHV3ZEtZMEpyMktjY2VoZnJjYUhGamREcEw0b2hRNzZFSVEzNEF4cDQ3ZC15bG5KUzBfT0lKWWFWM3RneThBamJUclNfTWVtSGl0eDhxcDlHMUg5cjY3ZDRmLW5MatIBWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV8?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
+          "sourceName": "Хабр"
         },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
@@ -838,7 +839,7 @@ export const liveMarketSnapshot = {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
       "sourceCount30d": 3,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 2,
       "launchMentions": 0,
@@ -872,16 +873,22 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 7,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
+      "latestPublishedAt": "Sat, 17 Oct 2026 22:04:08 GMT",
+      "latestTitle": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+          "publishedAt": "Sat, 17 Oct 2026 22:04:08 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
@@ -892,12 +899,6 @@ export const liveMarketSnapshot = {
           "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
           "publishedAt": "Sat, 03 Oct 2026 12:13:26 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
-          "publishedAt": "Sat, 03 Oct 2026 05:01:57 GMT",
           "sourceName": "Sostav.ru"
         },
         {
