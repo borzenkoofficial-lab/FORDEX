@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-18T22:39:27.975Z",
+  "generatedAt": "2026-10-19T02:01:53.286Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -167,24 +167,17 @@ export const liveMarketSnapshot = {
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
       "companyName": "Medical Visual Systems",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
-      "latestSourceName": "TAdviser",
-      "sources": [
-        {
-          "title": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "sourceName": "TAdviser"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "neiry": {
       "companyId": "neiry",
@@ -409,22 +402,28 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
+        },
+        {
+          "title": "Tutu внедрил голосового ИИ-агента targetai - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMisgVBVV95cUxNVV9ydWtsX3NaQlNpTTMyVm9rSTRCaEROZDJQV3NBdDEwanpZcFZwbFB4RWhqQlBETkswd21zQ0VRSG5hYVFRczVpNWVlY1BJdmJWZTJHbm1pQk5yMEh2UF9wTG5KLWdOZ0JRaG9SSVVOaUp5U3ZFTnpKNm14UWtRVjY1Z1dGT3l2YU1TNFh5RGl4UWRYOHNldTN5MDlEQmIzQnNkRjBMdnpLRDFyY0I0Y1I1OWpKcFJDdnNMZmpnUThDanNGa1BkRkl6VFQ0ekM3a1NzbjV6ZnFGRWN5ZUZiU0FvUGhpNWo5bUNDUnVCQ3lDak1ORlhHblI3LWp4UF93YlIzYUZqaWg2bGEwOW5ndW5qLWY3RkVXY3dpbkduLXk2dThGTmtySllhWWVvOVlyaE1RTVJwUzM4blN1UzFDamlvVHV4bUx3SWJhbm5GQ1ZIUE1CbkhNQUJtV2NWU0xJSFBNYVoyU3dqNTFJME4yMzVieW1QQlhKTnhJT0QzNW5JdVpuLTRPaUFZUm9JXzczcnlGdElCellZX0tJMnVEZlpMNTV3V0VGM0o4WkNIb0g4bjJ5Z2NRd1VVOXZPQmQtRjJEVlVCNFNvY2ZpWG5uYVZydjRHa3cxay1nal9LSkg4aW1Fek1QbHQtdHpuNWNsOWdiXzE4X1ZHOUJvSFVFOVNwbFc1QlZWRlBEUUZOaURIRGhsbW0tdTF1WTUyVEpJRWE3QXVRSXllYWstVkRqN0FISl9ORTNvT3RyTmJ4Y28wUmlhdlo4UVpNRnFjV1FpT0xQNnQyeWZXa3JVemxqcVNUSzZtdF9Bd3l2YXdLdkJuUkE1dVV6M3RTQnF6STZqN0hGVW1MLUlWTVVfYjl4dmk2RTM0c3pjYVZSczV1VWlQdEFkcnloVDctajVsM1Z3SXc?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
         }
       ]
     },
@@ -977,17 +976,24 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Jev: модель, которая ничего не пишет - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1056,7 +1062,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 17 Oct 2026 14:59:14 GMT",
+      "latestPublishedAt": "Sun, 18 Oct 2026 00:29:11 GMT",
       "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
@@ -1064,7 +1070,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Sat, 17 Oct 2026 14:59:14 GMT",
+          "publishedAt": "Sun, 18 Oct 2026 00:29:11 GMT",
           "sourceName": "Sostav.ru"
         },
         {
