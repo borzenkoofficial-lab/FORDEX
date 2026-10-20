@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-20T18:47:37.983Z",
+  "generatedAt": "2026-10-20T23:30:59.190Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -76,24 +76,17 @@ export const liveMarketSnapshot = {
     "dresscode-ai": {
       "companyId": "dresscode-ai",
       "companyName": "DRESSCODE",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
-      "latestTitle": "Обзор швейной машины Janome Dresscode - Клуб DNS",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
-      "latestSourceName": "Клуб DNS",
-      "sources": [
-        {
-          "title": "Обзор швейной машины Janome Dresscode - Клуб DNS",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
-          "sourceName": "Клуб DNS"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "expanta": {
       "companyId": "expanta",
@@ -104,7 +97,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 12:54:03 GMT",
+      "latestPublishedAt": "Tue, 20 Oct 2026 15:36:49 GMT",
       "latestTitle": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
       "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
       "latestSourceName": "spbIT",
@@ -112,7 +105,7 @@ export const liveMarketSnapshot = {
         {
           "title": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 12:54:03 GMT",
+          "publishedAt": "Tue, 20 Oct 2026 15:36:49 GMT",
           "sourceName": "spbIT"
         }
       ]
@@ -126,17 +119,11 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 13:31:00 GMT",
-      "latestTitle": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
-      "latestSourceName": "TengriNews",
+      "latestPublishedAt": "Tue, 20 Oct 2026 06:36:03 GMT",
+      "latestTitle": "LADA Iskra прошла 20 000 км: какие заводские детали потребовали внимания - Лада.Онлайн",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaGpMX0EyWjJoU0JVRW05X1Bfa3BzR0FvemxsNWFtZFR4bjRKbDNnWTRfNFM3alZ1TE1ySzNrVnlaLUpDSUxHVEdXM2FVbzFrNE8xdjRNVVdJTEpQWG9sbFFEOFZPTG5UNHBaM20zOFBVY0VhOGRzOVhzenY2ak95YTZLbWxLOUJyN0pqbGRWbWNnaHVMYlo5UFBjdDh0cENmWHd5b2pwN1kxOHp1NTl5NXZ5LTRNZHEyTkJ1VTZ2MUwtMWFibC1GcXJjaDFWa1ZFSERJU3R0enVBelE?oc=5",
+      "latestSourceName": "Лада.Онлайн",
       "sources": [
-        {
-          "title": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 13:31:00 GMT",
-          "sourceName": "TengriNews"
-        },
         {
           "title": "LADA Iskra прошла 20 000 км: какие заводские детали потребовали внимания - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaGpMX0EyWjJoU0JVRW05X1Bfa3BzR0FvemxsNWFtZFR4bjRKbDNnWTRfNFM3alZ1TE1ySzNrVnlaLUpDSUxHVEdXM2FVbzFrNE8xdjRNVVdJTEpQWG9sbFFEOFZPTG5UNHBaM20zOFBVY0VhOGRzOVhzenY2ak95YTZLbWxLOUJyN0pqbGRWbWNnaHVMYlo5UFBjdDh0cENmWHd5b2pwN1kxOHp1NTl5NXZ5LTRNZHEyTkJ1VTZ2MUwtMWFibC1GcXJjaDFWa1ZFSERJU3R0enVBelE?oc=5",
@@ -160,6 +147,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
           "publishedAt": "Sat, 17 Oct 2026 16:00:00 GMT",
           "sourceName": "https://www.championat.ru/"
+        },
+        {
+          "title": "Lada Iskra метит в народные любимцы: новинка АвтоВАЗа замахнулась на место Granta - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzFSQWh6M1pOV3FkSVhhNVliWkNVc3hjNkpMTm1FbUJkeXR1NVg3OXJVOXIxY1NsNFh1MF9OMnpfLWJScXdkWUNpd19Qai1scVZ0OVNwaGNzU2M1QW52cUF5cFJXSVJoeFNTUmhvOHZzU0VYTHQxNjB0UmNBYkVWbA?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 21:27:52 GMT",
+          "sourceName": "Правда.Ру"
         }
       ]
     },
@@ -678,7 +671,7 @@ export const liveMarketSnapshot = {
       "companyId": "flyvi",
       "companyName": "Flyvi",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
