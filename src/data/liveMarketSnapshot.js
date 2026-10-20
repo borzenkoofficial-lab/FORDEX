@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-20T02:18:52.070Z",
+  "generatedAt": "2026-10-20T07:58:34.539Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -54,17 +54,24 @@ export const liveMarketSnapshot = {
     "dbrain": {
       "companyId": "dbrain",
       "companyName": "Dbrain",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
+      "latestTitle": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "dresscode-ai": {
       "companyId": "dresscode-ai",
@@ -132,7 +139,7 @@ export const liveMarketSnapshot = {
         {
           "title": "В русских гонках — новая любопытная серия: авто за 7 млн, «буст» и смена пилотов по ходу - https://www.championat.ru/",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
-          "publishedAt": "Sat, 17 Oct 2026 16:00:05 GMT",
+          "publishedAt": "Sat, 17 Oct 2026 16:00:00 GMT",
           "sourceName": "https://www.championat.ru/"
         },
         {
@@ -142,10 +149,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Правда.Ру"
         },
         {
-          "title": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
-          "sourceName": "Южный автомобиль"
+          "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
+          "sourceName": "ВТамбове"
         }
       ]
     },
@@ -175,7 +182,7 @@ export const liveMarketSnapshot = {
       "companyId": "medical-visual-systems",
       "companyName": "Medical Visual Systems",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -343,23 +350,17 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
-      "sourceCount7d": 1,
+      "sourceCount30d": 5,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
-      "latestTitle": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80Ym1rQmM0SHV3ZEtZMEpyMktjY2VoZnJjYUhGamREcEw0b2hRNzZFSVEzNEF4cDQ3ZC15bG5KUzBfT0lKWWFWM3RneThBamJUclNfTWVtSGl0eDhxcDlHMUg5cjY3ZDRmLW5MatIBWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV8?oc=5",
+      "latestPublishedAt": "Mon, 12 Oct 2026 14:58:27 GMT",
+      "latestTitle": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
-        {
-          "title": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80Ym1rQmM0SHV3ZEtZMEpyMktjY2VoZnJjYUhGamREcEw0b2hRNzZFSVEzNEF4cDQ3ZC15bG5KUzBfT0lKWWFWM3RneThBamJUclNfTWVtSGl0eDhxcDlHMUg5cjY3ZDRmLW5MatIBWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV8?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 14:30:48 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
@@ -383,6 +384,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 10:09:07 GMT",
           "sourceName": "Сделано у нас"
+        },
+        {
+          "title": "Первый в мире носимый томограф создала российская Smart Engines - www1.ru",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
+          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
+          "sourceName": "www1.ru"
         }
       ]
     },
@@ -466,23 +473,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
-        {
-          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
         {
           "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
@@ -1064,8 +1065,8 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 5,
-      "sourceCount7d": 2,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1079,12 +1080,6 @@ export const liveMarketSnapshot = {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Sun, 18 Oct 2026 00:29:11 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 04:59:22 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1409,16 +1404,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Автоновости дня"
         },
         {
+          "title": "Месячник по профилактике туберкулеза: результаты и охват населения - GOV.KZ",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMzVNX1ljekpIS2hxTFlzTVdkS1NoWW1xSTdUMFEyblYwVU5KLThWd09za0g1aC1lQXVXc1k5THpoS2F4TlR5R0o2cXVCN1NtQjdRZ215eWprN1dndVUzd0lFd3hjVXlldlFqZEJMUFphWVhlVUh4ZHRYeW9jQ3NNQ09R?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 03:14:57 GMT",
+          "sourceName": "GOV.KZ"
+        },
+        {
           "title": "Более половины россиян стали пользоваться нейросетями - Росбалт",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
           "sourceName": "Росбалт"
-        },
-        {
-          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.ru",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 17:00:00 GMT",
-          "sourceName": "RB.ru"
         }
       ]
     },
