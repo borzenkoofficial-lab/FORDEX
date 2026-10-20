@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-20T07:58:34.539Z",
+  "generatedAt": "2026-10-20T13:55:10.485Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -98,32 +98,51 @@ export const liveMarketSnapshot = {
     "expanta": {
       "companyId": "expanta",
       "companyName": "Expanta",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 20 Oct 2026 12:54:03 GMT",
+      "latestTitle": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
+      "latestSourceName": "spbIT",
+      "sources": [
+        {
+          "title": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 12:54:03 GMT",
+          "sourceName": "spbIT"
+        }
+      ]
     },
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
-      "fundingMentions": 3,
+      "sourceCount7d": 10,
+      "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 19 Oct 2026 14:01:03 GMT",
-      "latestTitle": "LADA Iskra 120: механика или вариатор — что выбрать - Новости Тольятти",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVQWtKZi1ETnBuaTVGMWp4aHVVQTVkVVJYSExDYkF1M05rNVR3QzFRdWVkNXF1ZC14bFZMZEo1Nmt1Y1AxbV9Pd3hyUHVOT1F2YklWaGwtVXFtTXJxTkN5SXB4S2R4ek5RR3dFbWR3TjlqZVFBS1B3b0ttcw?oc=5",
-      "latestSourceName": "Новости Тольятти",
+      "latestPublishedAt": "Tue, 20 Oct 2026 13:31:00 GMT",
+      "latestTitle": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
+      "latestSourceName": "TengriNews",
       "sources": [
+        {
+          "title": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 13:31:00 GMT",
+          "sourceName": "TengriNews"
+        },
+        {
+          "title": "LADA Iskra прошла 20 000 км: какие заводские детали потребовали внимания - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaGpMX0EyWjJoU0JVRW05X1Bfa3BzR0FvemxsNWFtZFR4bjRKbDNnWTRfNFM3alZ1TE1ySzNrVnlaLUpDSUxHVEdXM2FVbzFrNE8xdjRNVVdJTEpQWG9sbFFEOFZPTG5UNHBaM20zOFBVY0VhOGRzOVhzenY2ak95YTZLbWxLOUJyN0pqbGRWbWNnaHVMYlo5UFBjdDh0cENmWHd5b2pwN1kxOHp1NTl5NXZ5LTRNZHEyTkJ1VTZ2MUwtMWFibC1GcXJjaDFWa1ZFSERJU3R0enVBelE?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 06:36:03 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
         {
           "title": "LADA Iskra 120: механика или вариатор — что выбрать - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVQWtKZi1ETnBuaTVGMWp4aHVVQTVkVVJYSExDYkF1M05rNVR3QzFRdWVkNXF1ZC14bFZMZEo1Nmt1Y1AxbV9Pd3hyUHVOT1F2YklWaGwtVXFtTXJxTkN5SXB4S2R4ek5RR3dFbWR3TjlqZVFBS1B3b0ttcw?oc=5",
@@ -131,28 +150,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Новости Тольятти"
         },
         {
-          "title": "LADA Iskra SW Cross стала призером премии Russian Traveler Awards - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaTV5bWcyR1Nsb0lKVTRnVG9lSms2bzFnV3lHQlVSVEp3dGpaTEp3VEs2WkhtTFdmSG02RU8tTnFiY24zU3hubjZNRVNOVXZmTkFab0xDVjJrQWl2TEoweVNGMVI3ZkVkNWdZWThiMER4Tnl5RS1udURRREpnVU1jRzVNaXRCV01LNFJTUC1tcGVZQUJxemxJZDhLRFhFbnlRZUdaNDF2X3B1dnNqd1daZktBU0lhbDN4aW9yblBreVRXYU1MQUE?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 12:10:38 GMT",
-          "sourceName": "Лада.Онлайн"
+          "title": "Лада Искра после 20 000 км пробега: оцениваем износ компонентов подвески и тормозов - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE9UM1JVVXFjWHFLaXFTeFdlQnFnOFc1TndVMjJxcU9hOTFnQ0FnQ1BmUHg3dlpEaXVvRllPdkNGVVBJWlRiWTByOHkzaDZ2a2xkUllHcF9haHd6WWhOTnREX2tpTWlLeDRJODdVZnln0gFzQVVfeXFMTzg5MS1NbW1zXzlnZVltM2h0Y3RSRkJCbEpNN1ZDV2t2M0dKU0Zra19TU1pxMkM2ZE1VSTNBcXlmX0J0NFpzSWdrTmcyeFdad1hHRHowVTZlblJVNWJsVllBdGZRTmE4QlQ3ODQ0QTktZ0ZyNA?oc=5",
+          "publishedAt": "Sun, 18 Oct 2026 03:00:00 GMT",
+          "sourceName": "За рулем"
         },
         {
           "title": "В русских гонках — новая любопытная серия: авто за 7 млн, «буст» и смена пилотов по ходу - https://www.championat.ru/",
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
           "publishedAt": "Sat, 17 Oct 2026 16:00:00 GMT",
           "sourceName": "https://www.championat.ru/"
-        },
-        {
-          "title": "Lada Iskra метит в народные любимцы: новинка АвтоВАЗа замахнулась на место Granta - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzFSQWh6M1pOV3FkSVhhNVliWkNVc3hjNkpMTm1FbUJkeXR1NVg3OXJVOXIxY1NsNFh1MF9OMnpfLWJScXdkWUNpd19Qai1scVZ0OVNwaGNzU2M1QW52cUF5cFJXSVJoeFNTUmhvOHZzU0VYTHQxNjB0UmNBYkVWbA?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 21:27:52 GMT",
-          "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
-          "sourceName": "ВТамбове"
         }
       ]
     },
@@ -218,23 +225,17 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
+      "sourceCount30d": 7,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
-      "latestSourceName": "RTVI",
+      "latestPublishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
+      "latestTitle": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
+      "latestSourceName": "ITSpeaker",
       "sources": [
-        {
-          "title": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
-          "sourceName": "RTVI"
-        },
         {
           "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
@@ -258,23 +259,35 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlk1bGNGMk1aNXphWEotdEpyeS0zRFBVOXpXVEhOeGppYkJ3RzRJbW5HODB1X0Z1SUxDYWk3aEJSeVA1S01EQTNHY1djRVpuZ0JnYXhkM2hDRnY4bFcxNVZOWEp2R1FjdC1oTEhXLXB3bUEyekdOQmRscnZUaTNCYTR3c19OSHJkZllLbm5MREg?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
+        },
+        {
+          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
+          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Общественная служба новостей"
         }
       ]
     },
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 2,
-      "sourceCount7d": 0,
+      "sourceCount30d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
-      "latestSourceName": "Newslab",
+      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
@@ -356,22 +369,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 14:58:27 GMT",
-      "latestTitle": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
+      "latestTitle": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
+      "latestSourceName": "Forbes.ru",
       "sources": [
-        {
-          "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 14:58:27 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
           "sourceName": "Forbes.ru"
+        },
+        {
+          "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
         },
         {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
@@ -440,7 +453,7 @@ export const liveMarketSnapshot = {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
       "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 2,
@@ -740,17 +753,24 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+      "latestSourceName": "Retail Life",
+      "sources": [
+        {
+          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
+          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+          "sourceName": "Retail Life"
+        }
+      ]
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -1380,11 +1400,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 19 Oct 2026 11:05:00 GMT",
-      "latestTitle": "Месячная аудитория нейросетей в России выросла до 55% населения старше 12 лет - TKS.RU",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdHBJcW9iem1mM1JBZTJzZXZ5Z25VUnA2SExlOEFiekwtSnUxSmNocjNGYkUwd09uNGV4aU42ZFAtTHNhTXZuVDFNZXFNdVc4NElzRmVzMm1kbDd5LWZIVFY2TG1JZmdWenp3WUJyZ1gzY1Mzck00ek9COUowS3NfTHN6VjJPZHhwZTA1NUJYX1o0WVc2ZW83RDZIUnJmeU1JazN1SFVBeDBWcDhqdVc1RzB2d19WMDZkQlMyQjBncGdWMW1HSkRiQmxZYjhISEdhTVZPLQ?oc=5",
-      "latestSourceName": "TKS.RU",
+      "latestPublishedAt": "Tue, 20 Oct 2026 08:57:50 GMT",
+      "latestTitle": "Миллион просмотров — еще не результат: от больших охватов к доверию - Сноб",
+      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3Zzc05zS2RsUWJDb0Y2aTJtMG5FTm52VEM5SXBPeUpOTE5PU0NQdklnRVBXYjlTcTU4azRTZWQ3b0hsOXcwcVZmQktoOV9fMURSbDRIdU5WWjlOZzZpMFo1cGRYaVNFTlVNYUQ5NjMyb1ZYQWVkT3Z1ZFNnY1prcXlEdWlBOS1GcHM3enBHNkhEeFlrLVhz?oc=5",
+      "latestSourceName": "Сноб",
       "sources": [
+        {
+          "title": "Миллион просмотров — еще не результат: от больших охватов к доверию - Сноб",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3Zzc05zS2RsUWJDb0Y2aTJtMG5FTm52VEM5SXBPeUpOTE5PU0NQdklnRVBXYjlTcTU4azRTZWQ3b0hsOXcwcVZmQktoOV9fMURSbDRIdU5WWjlOZzZpMFo1cGRYaVNFTlVNYUQ5NjMyb1ZYQWVkT3Z1ZFNnY1prcXlEdWlBOS1GcHM3enBHNkhEeFlrLVhz?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 08:57:50 GMT",
+          "sourceName": "Сноб"
+        },
         {
           "title": "Месячная аудитория нейросетей в России выросла до 55% населения старше 12 лет - TKS.RU",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdHBJcW9iem1mM1JBZTJzZXZ5Z25VUnA2SExlOEFiekwtSnUxSmNocjNGYkUwd09uNGV4aU42ZFAtTHNhTXZuVDFNZXFNdVc4NElzRmVzMm1kbDd5LWZIVFY2TG1JZmdWenp3WUJyZ1gzY1Mzck00ek9COUowS3NfTHN6VjJPZHhwZTA1NUJYX1o0WVc2ZW83RDZIUnJmeU1JazN1SFVBeDBWcDhqdVc1RzB2d19WMDZkQlMyQjBncGdWMW1HSkRiQmxZYjhISEdhTVZPLQ?oc=5",
@@ -1402,12 +1428,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
           "publishedAt": "Mon, 19 Oct 2026 05:54:54 GMT",
           "sourceName": "Автоновости дня"
-        },
-        {
-          "title": "Месячник по профилактике туберкулеза: результаты и охват населения - GOV.KZ",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMzVNX1ljekpIS2hxTFlzTVdkS1NoWW1xSTdUMFEyblYwVU5KLThWd09za0g1aC1lQXVXc1k5THpoS2F4TlR5R0o2cXVCN1NtQjdRZ215eWprN1dndVUzd0lFd3hjVXlldlFqZEJMUFphWVhlVUh4ZHRYeW9jQ3NNQ09R?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 03:14:57 GMT",
-          "sourceName": "GOV.KZ"
         },
         {
           "title": "Более половины россиян стали пользоваться нейросетями - Росбалт",
