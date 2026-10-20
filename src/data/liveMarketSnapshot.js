@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-20T13:55:10.485Z",
+  "generatedAt": "2026-10-20T18:47:37.983Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -121,8 +121,8 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 10,
-      "fundingMentions": 2,
+      "sourceCount7d": 9,
+      "fundingMentions": 3,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -430,16 +430,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-      "latestSourceName": "Kursiv Media",
+      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+      "latestSourceName": "Profit.kz",
       "sources": [
         {
-          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "Kursiv Media"
+          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+          "sourceName": "Profit.kz"
         },
         {
           "title": "Tutu внедрил голосового ИИ-агента targetai - TAdviser",
@@ -486,17 +486,23 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
+      "latestPublishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
+        {
+          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
         {
           "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
@@ -753,24 +759,17 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-      "latestSourceName": "Retail Life",
-      "sources": [
-        {
-          "title": "ИИ-агенты в ритейле: что обсуждали на Е-Ритейл Форуме - Retail Life",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNcXdQdTY2Ymh3NVpIQ25JUktkb0JUSEZYSjdWU0ppdjE3MVVFc1B0NlJpQnhNQ3BIejlaeG9YRm1Ec1pUV1hER19hME5iUzRtUHlnMFRXUy0zN21VdnVDQzdTNnRlV19nT0QzS1Q4V19lTElvQUpMTURUSjhuSG5Ma0xaSUg?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "sourceName": "Retail Life"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -1042,17 +1041,23 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
-      "latestTitle": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
-      "latestSourceName": "Всеостройке.рф",
+      "latestPublishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
+      "latestTitle": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
+      "latestSourceName": "Restate.ru",
       "sources": [
+        {
+          "title": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
+          "sourceName": "Restate.ru"
+        },
         {
           "title": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
