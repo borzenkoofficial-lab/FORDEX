@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-19T21:47:12.072Z",
+  "generatedAt": "2026-10-20T02:18:52.070Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -142,10 +142,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Правда.Ру"
         },
         {
-          "title": "Как изменятся цены на новую и подержанную Lada Iskra в 2026 году и что это значит для покупателей - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxNSlgySDhZV3VyRnB6a2U0a2ZnM1laRDJNUUJIVmNITUpQcnZsMjdsNHJ6T1FndFhYcXRFUlQ0bHFpTEVJalcxREhkYndnMENjNUVpdXJjV1hyZzNkZW8weEU4dnptUlZFaVJSdzFmUFBhN29qXzZSano3eEtZekN3LWdUTXN4V1h1aFh4YU5PMlVkWHZmVW1fZHMxbWk3OEliMjdoc1JmTUFaYkRrU2owSU5KSm5nTDlsSFkyMEh1UlZURk9mdjY5aGVRQjJkV3c4WW1n?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 20:31:30 GMT",
-          "sourceName": "ВТамбове"
+          "title": "Гоночная Lada Iskra стоит 6,95 млн рублей: 240 сил и планы на отдельный кубок - Южный автомобиль",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOeFdnZGw0S1dMZnJERGl1OVNmWTMxYzNOQlVfMzRkbVJMSlIyQjhRVTdjbmVEYVJuZVBFeUViLTNjQ2tTODJaSzMyR3g2YmVzUm1BWjNtVktaMlZhYzV3cVlNQkdLY0lNNTFHR1lSZXA4OGJDS3hhMGhub1hHaTl5ZU5kODNDTlY4QUVSWTZSVldBVFFJaVJzdEhEQVlMMFZHNGw0?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 05:35:25 GMT",
+          "sourceName": "Южный автомобиль"
         }
       ]
     },
@@ -229,16 +229,16 @@ export const liveMarketSnapshot = {
           "sourceName": "RTVI"
         },
         {
+          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
+          "sourceName": "ITSpeaker"
+        },
+        {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
           "sourceName": "RuNews24"
-        },
-        {
-          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "Ростех"
         },
         {
           "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
@@ -466,17 +466,23 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
+      "latestPublishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
+        {
+          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
         {
           "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
@@ -1403,16 +1409,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Автоновости дня"
         },
         {
-          "title": "Месячник по профилактике туберкулеза: результаты и охват населения - GOV.KZ",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOMzVNX1ljekpIS2hxTFlzTVdkS1NoWW1xSTdUMFEyblYwVU5KLThWd09za0g1aC1lQXVXc1k5THpoS2F4TlR5R0o2cXVCN1NtQjdRZ215eWprN1dndVUzd0lFd3hjVXlldlFqZEJMUFphWVhlVUh4ZHRYeW9jQ3NNQ09R?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 03:14:57 GMT",
-          "sourceName": "GOV.KZ"
-        },
-        {
           "title": "Более половины россиян стали пользоваться нейросетями - Росбалт",
           "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
           "publishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
           "sourceName": "Росбалт"
+        },
+        {
+          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.ru",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 17:00:00 GMT",
+          "sourceName": "RB.ru"
         }
       ]
     },
