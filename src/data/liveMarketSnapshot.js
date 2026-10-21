@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-21T14:11:31.560Z",
+  "generatedAt": "2026-10-21T19:00:30.287Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -108,7 +108,7 @@ export const liveMarketSnapshot = {
       "companyName": "ISKRA",
       "sourceCount30d": 10,
       "sourceCount7d": 9,
-      "fundingMentions": 3,
+      "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -211,28 +211,22 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 7,
+      "sourceCount30d": 5,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
-      "latestTitle": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
-      "latestSourceName": "ITSpeaker",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
+      "latestSourceName": "Ростех",
       "sources": [
         {
-          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
-          "sourceName": "ITSpeaker"
-        },
-        {
-          "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
+          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "RuNews24"
+          "sourceName": "Ростех"
         },
         {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
@@ -251,6 +245,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSzdCSGNOdzdPNy01NUd5aUxZaS1hdXdmRG1JNGxsU2hLak9BRUJybTZTdHg1ZWwtb3NycmFOR1RDblFYZERKdXVMMkliS055ajZzdGdNRGlzbldEQk5PTE1GajlmUS14ZlVYY0oteXV4cGI1a2ZQa3U3MU55YlpPUXVldFhwLTZNUzJ6QWtuaGh5Vko5RFJtRDRmZw?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 02:17:00 GMT",
           "sourceName": "Ростех"
+        },
+        {
+          "title": "ИИ-видеоаналитика NtechLab интегрирована с АПК «Безопасный город» Калужской области для поиска пропавших - RUБЕЖ",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYW8tTmdEcW9sRUZ6RXQ3VVlSNXpNaTlDYXc2R2xwWS04UzJwclZwQ195SWcwaG9XVDEzQVRxbnFwNWM4UUt4TWgyMk9ycWRFV3NlcHBhREpxRm1wU3Q1V1F6cEdYcktRUExIcG5KQ2RxSzFEeFFMQ1VYeXp2cUF5Y1czMDJlZjdPMURZVU8xX2lLb3AxM2lFYkUySmozZ21NQ0JsSXNGRnlodmNjNk82a21LdHE?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "RUБЕЖ"
         }
       ]
     },
@@ -343,17 +343,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
+      "sourceCount30d": 6,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
-      "latestTitle": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
-      "latestSourceName": "Forbes.ru",
+      "latestPublishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
+      "latestTitle": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
+          "sourceName": "CNews.ru"
+        },
         {
           "title": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
@@ -377,12 +383,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
           "publishedAt": "Fri, 25 Sep 2026 10:09:07 GMT",
           "sourceName": "Сделано у нас"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - www1.ru",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNY1YwWnFZTmcwVmVDT1JCeTk2WkliQWtiZklPOTNOdlBCZ01HQnAzUU1vVWk2R2pMTjBIcTg3RU5lUlB4QzQ3WlhNWW11LUtDeXI2RmxsTnRSeWtTajJ6RkY0Sy1OMTEwN0dGdV84T1FESWhSazRFVFJGcHRqbHlrSERzSHBHbVJQbmc2aUdiVFJMclk4eGV3SlFleXROWGxYeWl0aU1ZUENNNFJE0gGyAUFVX3lxTE10MjR5enNjNml5cmJ3b1lqN21nSDNhVUY2SUVQYTVGWk1oVkVKc1JvWm5tT0EtOHhJY29QQjdnNkZRSVNveEpLTmtYbFpFOF9FbkxqRXE5VmVURl82UERGYjVkMVlsTmM0UTI2ZUxmVEZ2aWV3WXJmemNZZXhCaXdSTURRYzlqOFlJU0ZjSkVLdFdjdnQzR3hvSzNrNFZLQlZXUzN1ZmpfeXlhLXdoemowWGc?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 07:00:00 GMT",
-          "sourceName": "www1.ru"
         }
       ]
     },
@@ -863,7 +863,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Компания Nestlé и НБА сотрудничают на глобальном уровне для развития детского баскетбола. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNem9aZVA3SHFjVGxCa2pJdVYwdUk1TVR4SVpFM0NQRFpmWlY2aW1mRDctYjhoWFoxYnRCX19kaGpYaWZrNTh5QlJCZ3FRVGpWR196eG9mclA1MW5BWFMzR0ZnUGJPYWxabWJxbUIzenBpZzJOQUthS0p5RWhZS0lUdi1yVEhTUQ?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
+          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
           "sourceName": "Vietnam.vn"
         },
         {
@@ -983,24 +983,17 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Jev: модель, которая ничего не пишет - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
-          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1069,7 +1062,7 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1084,12 +1077,6 @@ export const liveMarketSnapshot = {
           "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
           "publishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Бренды перестали гоняться за охватом. Теперь они борются за перетекание внимания — и короткое видео стало точкой входа - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFAyZXpncGd1bXg4cUNJUGY4S2R1bmZycE1WM3piN1ZzYzQ0bF9KU3FGVUhGZEc5TWRWNk5yZmlZSXJJRWtCUktCdFE3b2Q1Z2phMUE?oc=5",
-          "publishedAt": "Thu, 24 Sep 2026 14:51:21 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1230,17 +1217,24 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Wikibot Pulse - новый Voice of the Customer сервис для российского рынка - TAdviser",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOUnhyZFZUSjNkb1BVT2c4RTRjUzYtTFp6cHMxUHJWSnlRaXIxeW5BSXpzcGFyNE4zNWk5NjFsLVgxZ0ZWUDZWUGFvdFBTWUpKZVdKUEpFWjlpclBnQnY2ZlVhMVFIazdIM3NINXVfeTIzYklNOXNscnQ2OERxVTRuVnU4bmNKQ1BfdWFPdi01T2pqeWl3dWh4WmxfYkktUElPTWVBSFZmUzNVQUFxNzJldEVraFlBbFFTV3hZSndEQm92emExbXZDb0I2X2RlaUh5bDRrUjNjd09jb1E4VXl6eVRGcUVuM0hraGtQQ09kd2hVZ1lsOGN3cW9JaEhKRGJuQjZMMmo2QmJPRUFiTkRqX005dGtrVWt4ODVlcndzUlNOOVBFNTg4RUl2bTViSGpfZjBveVk3WDhyeFBodjJ1aGlWMjBLR19HR0VnMDV1VDNtOXhDbE1LRjBaTklyX0VaZXVDNmdCQ1BCWjJFTFlibFhUYXgta3h3OWltSmxWVGdsWFdBRW5MWnRKVU9NX1hiZzF6UVlqTjRiWldRV3pOM3RIUi1fN1RnSGo4?oc=5",
+      "latestSourceName": "TAdviser",
+      "sources": [
+        {
+          "title": "Wikibot Pulse - новый Voice of the Customer сервис для российского рынка - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOUnhyZFZUSjNkb1BVT2c4RTRjUzYtTFp6cHMxUHJWSnlRaXIxeW5BSXpzcGFyNE4zNWk5NjFsLVgxZ0ZWUDZWUGFvdFBTWUpKZVdKUEpFWjlpclBnQnY2ZlVhMVFIazdIM3NINXVfeTIzYklNOXNscnQ2OERxVTRuVnU4bmNKQ1BfdWFPdi01T2pqeWl3dWh4WmxfYkktUElPTWVBSFZmUzNVQUFxNzJldEVraFlBbFFTV3hZSndEQm92emExbXZDb0I2X2RlaUh5bDRrUjNjd09jb1E4VXl6eVRGcUVuM0hraGtQQ09kd2hVZ1lsOGN3cW9JaEhKRGJuQjZMMmo2QmJPRUFiTkRqX005dGtrVWt4ODVlcndzUlNOOVBFNTg4RUl2bTViSGpfZjBveVk3WDhyeFBodjJ1aGlWMjBLR19HR0VnMDV1VDNtOXhDbE1LRjBaTklyX0VaZXVDNmdCQ1BCWjJFTFlibFhUYXgta3h3OWltSmxWVGdsWFdBRW5MWnRKVU9NX1hiZzF6UVlqTjRiWldRV3pOM3RIUi1fN1RnSGo4?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
+        }
+      ]
     },
     "wunjo": {
       "companyId": "wunjo",
@@ -1378,11 +1372,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 09:59:32 GMT",
-      "latestTitle": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
-      "latestSourceName": "Vietnam.vn",
+      "latestPublishedAt": "Wed, 21 Oct 2026 15:57:39 GMT",
+      "latestTitle": "В «МосХаб.Сколково» обсудили продвижение ИТ-проектов через сообщества и доверие - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6TkVScU9FWHZNQlZSUFZqcXJud20wTFU1TWxCSUJZSk1PU1g0YkFiRXU0VkNFajFZSld0aGk5cGluS3FyemNIWUNpZ1hUQTJmZmR6akpPNGhxRkplN3BpUXk5UWJVSnRDd3M4Wk00a3Uwb0k?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
+        {
+          "title": "В «МосХаб.Сколково» обсудили продвижение ИТ-проектов через сообщества и доверие - Компьютерра",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6TkVScU9FWHZNQlZSUFZqcXJud20wTFU1TWxCSUJZSk1PU1g0YkFiRXU0VkNFajFZSld0aGk5cGluS3FyemNIWUNpZ1hUQTJmZmR6akpPNGhxRkplN3BpUXk5UWJVSnRDd3M4Wk00a3Uwb0k?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 15:57:39 GMT",
+          "sourceName": "Компьютерра"
+        },
         {
           "title": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
@@ -1406,12 +1406,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52SVNzYkdKd0t2TlVfMmpRSzRkbVhHOVF2SVp6MkIwcVV0ajZKNUVxVDB3THZLNE9rbktNNFdDZWdaMWk4UXdWbzhjRXRfVG83bUZTbTZiQkLSAVhBVV95cUxOdklTc2JHSndLdk5VXzJqUUs0ZG1YRzlRdklaejJCMHFVdGo2SjVFcVQwd0x2SzRPa25LTTRXQ2VnWjFpOFF3Vm84Y0V0X1RvN21GU202YkJC?oc=5",
           "publishedAt": "Mon, 19 Oct 2026 07:35:29 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "В России назвали способ расширить охват льготных автокредитов: Evolute и Voyah рассказали, что стоит изменить - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 05:54:54 GMT",
-          "sourceName": "Автоновости дня"
         }
       ]
     },
