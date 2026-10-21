@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-21T08:03:05.801Z",
+  "generatedAt": "2026-10-21T14:11:31.560Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,11 +112,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 19 Oct 2026 14:01:03 GMT",
-      "latestTitle": "LADA Iskra 120: механика или вариатор — что выбрать - Новости Тольятти",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVQWtKZi1ETnBuaTVGMWp4aHVVQTVkVVJYSExDYkF1M05rNVR3QzFRdWVkNXF1ZC14bFZMZEo1Nmt1Y1AxbV9Pd3hyUHVOT1F2YklWaGwtVXFtTXJxTkN5SXB4S2R4ek5RR3dFbWR3TjlqZVFBS1B3b0ttcw?oc=5",
-      "latestSourceName": "Новости Тольятти",
+      "latestPublishedAt": "Tue, 20 Oct 2026 06:18:59 GMT",
+      "latestTitle": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
+      "latestSourceName": "TengriNews",
       "sources": [
+        {
+          "title": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 06:18:59 GMT",
+          "sourceName": "TengriNews"
+        },
         {
           "title": "LADA Iskra 120: механика или вариатор — что выбрать - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVQWtKZi1ETnBuaTVGMWp4aHVVQTVkVVJYSExDYkF1M05rNVR3QzFRdWVkNXF1ZC14bFZMZEo1Nmt1Y1AxbV9Pd3hyUHVOT1F2YklWaGwtVXFtTXJxTkN5SXB4S2R4ek5RR3dFbWR3TjlqZVFBS1B3b0ttcw?oc=5",
@@ -140,12 +146,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi8wFBVV95cUxNQUVFWExBU2xwS2ZuNmhOTDFfU28tQ2oyLXlDM2MtMmozZ3NTaGxNelVzODhOY2VCVkZlamlkd2lxVUNINWt4WjNyaFlGZmFXeWtvMmdFN3Y2YUNGLVd6TFBUMFJ4T0NNNVRTRkQzZzhBX3p3U3U1ZV91TmdsdVU2NUZqelV5eDZYSTdWVGd2ZjZxOVRqWFF3cUNLam5SWjFRb1hKRXpndUVTUjQzbl9HR2Q3SFpCZngxam1zRzdRbnktUlVTZXVJWEV1akRSdDE5QWRkdDVKbXViZ2RDZkNfTVhSamxLVUxyRFVtSUM4VDNKeUk?oc=5",
           "publishedAt": "Sat, 17 Oct 2026 16:00:00 GMT",
           "sourceName": "https://www.championat.ru/"
-        },
-        {
-          "title": "Lada Iskra метит в народные любимцы: новинка АвтоВАЗа замахнулась на место Granta - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQbzFSQWh6M1pOV3FkSVhhNVliWkNVc3hjNkpMTm1FbUJkeXR1NVg3OXJVOXIxY1NsNFh1MF9OMnpfLWJScXdkWUNpd19Qai1scVZ0OVNwaGNzU2M1QW52cUF5cFJXSVJoeFNTUmhvOHZzU0VYTHQxNjB0UmNBYkVWbA?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 21:27:52 GMT",
-          "sourceName": "Правда.Ру"
         }
       ]
     },
@@ -231,14 +231,8 @@ export const liveMarketSnapshot = {
         {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "RuNews24"
-        },
-        {
-          "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
-          "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
-          "sourceName": "RUБЕЖ"
         },
         {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
@@ -251,6 +245,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Общественная служба новостей"
+        },
+        {
+          "title": "Медиа - Новости - NtechLab и «Швабе» договорились о создании совместных ИИ-разработок - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSzdCSGNOdzdPNy01NUd5aUxZaS1hdXdmRG1JNGxsU2hLak9BRUJybTZTdHg1ZWwtb3NycmFOR1RDblFYZERKdXVMMkliS055ajZzdGdNRGlzbldEQk5PTE1GajlmUS14ZlVYY0oteXV4cGI1a2ZQa3U3MU55YlpPUXVldFhwLTZNUzJ6QWtuaGh5Vko5RFJtRDRmZw?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 02:17:00 GMT",
+          "sourceName": "Ростех"
         }
       ]
     },
@@ -343,17 +343,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
+      "sourceCount30d": 5,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
+      "latestTitle": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
+      "latestSourceName": "Forbes.ru",
       "sources": [
+        {
+          "title": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
+          "sourceName": "Forbes.ru"
+        },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
@@ -404,16 +410,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         },
         {
           "title": "Tutu внедрил голосового ИИ-агента targetai - TAdviser",
@@ -432,22 +438,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 08:15:30 GMT",
-      "latestTitle": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
+      "latestTitle": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
+      "latestSourceName": "Телеспутник",
       "sources": [
-        {
-          "title": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 08:15:30 GMT",
-          "sourceName": "CNews.ru"
-        },
         {
           "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
           "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
           "sourceName": "Телеспутник"
+        },
+        {
+          "title": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "sourceName": "CNews.ru"
         },
         {
           "title": "ИИТ запустила биометрическую систему TrustCBS на базе технологий VisionLabs - TAdviser",
@@ -466,7 +472,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 06:22:03 GMT",
+      "latestPublishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
       "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
       "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
       "latestSourceName": "Webiomed",
@@ -474,7 +480,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 06:22:03 GMT",
+          "publishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
           "sourceName": "Webiomed"
         },
         {
@@ -515,24 +521,17 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "askhow": {
       "companyId": "askhow",
@@ -845,26 +844,26 @@ export const liveMarketSnapshot = {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
       "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
-      "latestTitle": "Компания Nestlé и НБА сотрудничают на глобальном уровне для развития детского баскетбола. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNem9aZVA3SHFjVGxCa2pJdVYwdUk1TVR4SVpFM0NQRFpmWlY2aW1mRDctYjhoWFoxYnRCX19kaGpYaWZrNTh5QlJCZ3FRVGpWR196eG9mclA1MW5BWFMzR0ZnUGJPYWxabWJxbUIzenBpZzJOQUthS0p5RWhZS0lUdi1yVEhTUQ?oc=5",
+      "latestPublishedAt": "Wed, 21 Oct 2026 08:25:47 GMT",
+      "latestTitle": "Торжественное открытие баскетбольного турнира для начальных школ Ханоя — Кубка Nestlé Milo 2026. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
       "latestSourceName": "Vietnam.vn",
       "sources": [
+        {
+          "title": "Торжественное открытие баскетбольного турнира для начальных школ Ханоя — Кубка Nestlé Milo 2026. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 08:25:47 GMT",
+          "sourceName": "Vietnam.vn"
+        },
         {
           "title": "Компания Nestlé и НБА сотрудничают на глобальном уровне для развития детского баскетбола. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxNem9aZVA3SHFjVGxCa2pJdVYwdUk1TVR4SVpFM0NQRFpmWlY2aW1mRDctYjhoWFoxYnRCX19kaGpYaWZrNTh5QlJCZ3FRVGpWR196eG9mclA1MW5BWFMzR0ZnUGJPYWxabWJxbUIzenBpZzJOQUthS0p5RWhZS0lUdi1yVEhTUQ?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 16:21:22 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Компания Nestlé и НБА объявляют о партнерстве, направленном на распространение среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQU1VYanRNVzZtWGtMNHFjRWk3TDVPUHFkTXl5YjZmdTNhSVUySWJDSnZkTXU5VXhLWDB1ci1nT2xVbHZEanpTNTZNbDJJSFBHYmtKNXZjbHMxMFhPVkFXUFBrYTJ5am1SVFA3c0V0MTJkaVQzX3lWUnJIaTRxdnNVSjVCYmhydzVMWkI0cEcyRDA1b1ZTRWdleUZ5bHE0cW5xZFVHdmt0UzJCTXdrQURB?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 06:54:55 GMT",
           "sourceName": "Vietnam.vn"
         },
         {
@@ -902,12 +901,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
-          "publishedAt": "Sat, 03 Oct 2026 12:13:26 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
           "title": "Один выпуск - пять форматов. Рефрейм, субтитры, транскрипт, XML и SEO-статья в MnogoReels - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5YS3JzMEtvSWhQRlk0ZXFzOUpVR2tQZ2pURllkclFqSTJqeUlZRllqa1FWaS10bTdtWmRhc0VhNklwVG1CbjQ1MFFBUFctb2lRRXZz?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
@@ -917,6 +910,12 @@ export const liveMarketSnapshot = {
           "title": "ИИ автоматизировал рутину монтажера коротких видео: сравнение MnogoReels с Submagic, Vizard и Klap – кто лучше? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Генератор превью MnogoReels: три обложки за 30 секунд - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5fUnVBd0lnR0ZmR2NTQlVuS0t5ZDVRRjFJSWN4bU9lUUVBcXF4X2dFc1FiNUVBSkdkU2MxUTZyRThsdnlsMXItREJMNm56TXRpbkxv?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1231,24 +1230,17 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Wikibot Pulse - новый Voice of the Customer сервис для российского рынка - TAdviser",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOUnhyZFZUSjNkb1BVT2c4RTRjUzYtTFp6cHMxUHJWSnlRaXIxeW5BSXpzcGFyNE4zNWk5NjFsLVgxZ0ZWUDZWUGFvdFBTWUpKZVdKUEpFWjlpclBnQnY2ZlVhMVFIazdIM3NINXVfeTIzYklNOXNscnQ2OERxVTRuVnU4bmNKQ1BfdWFPdi01T2pqeWl3dWh4WmxfYkktUElPTWVBSFZmUzNVQUFxNzJldEVraFlBbFFTV3hZSndEQm92emExbXZDb0I2X2RlaUh5bDRrUjNjd09jb1E4VXl6eVRGcUVuM0hraGtQQ09kd2hVZ1lsOGN3cW9JaEhKRGJuQjZMMmo2QmJPRUFiTkRqX005dGtrVWt4ODVlcndzUlNOOVBFNTg4RUl2bTViSGpfZjBveVk3WDhyeFBodjJ1aGlWMjBLR19HR0VnMDV1VDNtOXhDbE1LRjBaTklyX0VaZXVDNmdCQ1BCWjJFTFlibFhUYXgta3h3OWltSmxWVGdsWFdBRW5MWnRKVU9NX1hiZzF6UVlqTjRiWldRV3pOM3RIUi1fN1RnSGo4?oc=5",
-      "latestSourceName": "TAdviser",
-      "sources": [
-        {
-          "title": "Wikibot Pulse - новый Voice of the Customer сервис для российского рынка - TAdviser",
-          "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOUnhyZFZUSjNkb1BVT2c4RTRjUzYtTFp6cHMxUHJWSnlRaXIxeW5BSXpzcGFyNE4zNWk5NjFsLVgxZ0ZWUDZWUGFvdFBTWUpKZVdKUEpFWjlpclBnQnY2ZlVhMVFIazdIM3NINXVfeTIzYklNOXNscnQ2OERxVTRuVnU4bmNKQ1BfdWFPdi01T2pqeWl3dWh4WmxfYkktUElPTWVBSFZmUzNVQUFxNzJldEVraFlBbFFTV3hZSndEQm92emExbXZDb0I2X2RlaUh5bDRrUjNjd09jb1E4VXl6eVRGcUVuM0hraGtQQ09kd2hVZ1lsOGN3cW9JaEhKRGJuQjZMMmo2QmJPRUFiTkRqX005dGtrVWt4ODVlcndzUlNOOVBFNTg4RUl2bTViSGpfZjBveVk3WDhyeFBodjJ1aGlWMjBLR19HR0VnMDV1VDNtOXhDbE1LRjBaTklyX0VaZXVDNmdCQ1BCWjJFTFlibFhUYXgta3h3OWltSmxWVGdsWFdBRW5MWnRKVU9NX1hiZzF6UVlqTjRiWldRV3pOM3RIUi1fN1RnSGo4?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "TAdviser"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "wunjo": {
       "companyId": "wunjo",
@@ -1380,21 +1372,21 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 5,
+      "sourceCount30d": 10,
+      "sourceCount7d": 10,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 05:28:24 GMT",
-      "latestTitle": "Необходимо убедиться, что план расширения охвата социальным страхованием является адекватным и осуществимым. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTFhbVNyS0lpV2N6NnQyekhKTkM0cDRUeHM1QnpVWnY1WXVMWFZoTG4yVGplRmNvZmsySnhaZ3BadDlUdUFycTVnYU96N0F5NFdLdVJfR2hmNDVSWENQMnVhUWYzUUQ1dFNpRWtES3NoendzVWhZWHRjcVF6bUs3d25EWjlzMjRFRDVjVXpNU3JnMk81NG4zQ0tQTVFKRUptYjNxVGsyUUc?oc=5",
+      "latestPublishedAt": "Wed, 21 Oct 2026 09:59:32 GMT",
+      "latestTitle": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
       "latestSourceName": "Vietnam.vn",
       "sources": [
         {
-          "title": "Необходимо убедиться, что план расширения охвата социальным страхованием является адекватным и осуществимым. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTFhbVNyS0lpV2N6NnQyekhKTkM0cDRUeHM1QnpVWnY1WXVMWFZoTG4yVGplRmNvZmsySnhaZ3BadDlUdUFycTVnYU96N0F5NFdLdVJfR2hmNDVSWENQMnVhUWYzUUQ1dFNpRWtES3NoendzVWhZWHRjcVF6bUs3d25EWjlzMjRFRDVjVXpNU3JnMk81NG4zQ0tQTVFKRUptYjNxVGsyUUc?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 05:28:24 GMT",
+          "title": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 09:59:32 GMT",
           "sourceName": "Vietnam.vn"
         },
         {
