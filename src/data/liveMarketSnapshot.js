@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-21T02:12:12.366Z",
+  "generatedAt": "2026-10-21T08:03:05.801Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -54,24 +54,17 @@ export const liveMarketSnapshot = {
     "dbrain": {
       "companyId": "dbrain",
       "companyName": "Dbrain",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
-      "latestTitle": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "dresscode-ai": {
       "companyId": "dresscode-ai",
@@ -119,22 +112,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 06:36:03 GMT",
-      "latestTitle": "LADA Iskra прошла 20 000 км: какие заводские детали потребовали внимания - Лада.Онлайн",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaGpMX0EyWjJoU0JVRW05X1Bfa3BzR0FvemxsNWFtZFR4bjRKbDNnWTRfNFM3alZ1TE1ySzNrVnlaLUpDSUxHVEdXM2FVbzFrNE8xdjRNVVdJTEpQWG9sbFFEOFZPTG5UNHBaM20zOFBVY0VhOGRzOVhzenY2ak95YTZLbWxLOUJyN0pqbGRWbWNnaHVMYlo5UFBjdDh0cENmWHd5b2pwN1kxOHp1NTl5NXZ5LTRNZHEyTkJ1VTZ2MUwtMWFibC1GcXJjaDFWa1ZFSERJU3R0enVBelE?oc=5",
-      "latestSourceName": "Лада.Онлайн",
+      "latestPublishedAt": "Mon, 19 Oct 2026 14:01:03 GMT",
+      "latestTitle": "LADA Iskra 120: механика или вариатор — что выбрать - Новости Тольятти",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVQWtKZi1ETnBuaTVGMWp4aHVVQTVkVVJYSExDYkF1M05rNVR3QzFRdWVkNXF1ZC14bFZMZEo1Nmt1Y1AxbV9Pd3hyUHVOT1F2YklWaGwtVXFtTXJxTkN5SXB4S2R4ek5RR3dFbWR3TjlqZVFBS1B3b0ttcw?oc=5",
+      "latestSourceName": "Новости Тольятти",
       "sources": [
-        {
-          "title": "LADA Iskra прошла 20 000 км: какие заводские детали потребовали внимания - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi2wFBVV95cUxQaGpMX0EyWjJoU0JVRW05X1Bfa3BzR0FvemxsNWFtZFR4bjRKbDNnWTRfNFM3alZ1TE1ySzNrVnlaLUpDSUxHVEdXM2FVbzFrNE8xdjRNVVdJTEpQWG9sbFFEOFZPTG5UNHBaM20zOFBVY0VhOGRzOVhzenY2ak95YTZLbWxLOUJyN0pqbGRWbWNnaHVMYlo5UFBjdDh0cENmWHd5b2pwN1kxOHp1NTl5NXZ5LTRNZHEyTkJ1VTZ2MUwtMWFibC1GcXJjaDFWa1ZFSERJU3R0enVBelE?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 06:36:03 GMT",
-          "sourceName": "Лада.Онлайн"
-        },
         {
           "title": "LADA Iskra 120: механика или вариатор — что выбрать - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBVQWtKZi1ETnBuaTVGMWp4aHVVQTVkVVJYSExDYkF1M05rNVR3QzFRdWVkNXF1ZC14bFZMZEo1Nmt1Y1AxbV9Pd3hyUHVOT1F2YklWaGwtVXFtTXJxTkN5SXB4S2R4ek5RR3dFbWR3TjlqZVFBS1B3b0ttcw?oc=5",
           "publishedAt": "Mon, 19 Oct 2026 14:01:03 GMT",
           "sourceName": "Новости Тольятти"
+        },
+        {
+          "title": "LADA Iskra SW Cross стала призером премии Russian Traveler Awards - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQaTV5bWcyR1Nsb0lKVTRnVG9lSms2bzFnV3lHQlVSVEp3dGpaTEp3VEs2WkhtTFdmSG02RU8tTnFiY24zU3hubjZNRVNOVXZmTkFab0xDVjJrQWl2TEoweVNGMVI3ZkVkNWdZWThiMER4Tnl5RS1udURRREpnVU1jRzVNaXRCV01LNFJTUC1tcGVZQUJxemxJZDhLRFhFbnlRZUdaNDF2X3B1dnNqd1daZktBU0lhbDN4aW9yblBreVRXYU1MQUE?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 12:10:38 GMT",
+          "sourceName": "Лада.Онлайн"
         },
         {
           "title": "Лада Искра после 20 000 км пробега: оцениваем износ компонентов подвески и тормозов - За рулем",
@@ -264,23 +257,17 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
-      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
+      "latestSourceName": "Newslab",
       "sources": [
-        {
-          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "ИТ-холдинг Т1 и Piklema будут развивать цифровые решения для промышленности - Newslab",
           "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTE8wRWdlb1NtNWZiN0pJN3VCUF85QUljUy1pVEs0SmVNakpseWFoZ243RWZpSzBOb1dCVmNvcEwzTHo5bUVRMlHSAVpBVV95cUxOTDFrV1Z4eTY2NjNscTVOLWxEMjlzblk3N1N5U0cya3hGM0JxU0U3WUFuVm5qcS03dDYxZURoSnpKTDhJTHBfcmJLNko0dzB2dThSTV94bWNFWnc?oc=5",
@@ -313,17 +300,23 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 29 Sep 2026 13:15:15 GMT",
-      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - Новости Воронежа интернет-газета",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
-      "latestSourceName": "Новости Воронежа интернет-газета",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - Новости Воронежа интернет-газета",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -350,23 +343,17 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
-      "latestTitle": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
-      "latestSourceName": "Forbes.ru",
+      "latestPublishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
-        {
-          "title": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
-          "sourceName": "Forbes.ru"
-        },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
@@ -473,17 +460,23 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+      "latestPublishedAt": "Wed, 21 Oct 2026 06:22:03 GMT",
+      "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
+        {
+          "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 06:22:03 GMT",
+          "sourceName": "Webiomed"
+        },
         {
           "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
@@ -1238,17 +1231,24 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Wikibot Pulse - новый Voice of the Customer сервис для российского рынка - TAdviser",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOUnhyZFZUSjNkb1BVT2c4RTRjUzYtTFp6cHMxUHJWSnlRaXIxeW5BSXpzcGFyNE4zNWk5NjFsLVgxZ0ZWUDZWUGFvdFBTWUpKZVdKUEpFWjlpclBnQnY2ZlVhMVFIazdIM3NINXVfeTIzYklNOXNscnQ2OERxVTRuVnU4bmNKQ1BfdWFPdi01T2pqeWl3dWh4WmxfYkktUElPTWVBSFZmUzNVQUFxNzJldEVraFlBbFFTV3hZSndEQm92emExbXZDb0I2X2RlaUh5bDRrUjNjd09jb1E4VXl6eVRGcUVuM0hraGtQQ09kd2hVZ1lsOGN3cW9JaEhKRGJuQjZMMmo2QmJPRUFiTkRqX005dGtrVWt4ODVlcndzUlNOOVBFNTg4RUl2bTViSGpfZjBveVk3WDhyeFBodjJ1aGlWMjBLR19HR0VnMDV1VDNtOXhDbE1LRjBaTklyX0VaZXVDNmdCQ1BCWjJFTFlibFhUYXgta3h3OWltSmxWVGdsWFdBRW5MWnRKVU9NX1hiZzF6UVlqTjRiWldRV3pOM3RIUi1fN1RnSGo4?oc=5",
+      "latestSourceName": "TAdviser",
+      "sources": [
+        {
+          "title": "Wikibot Pulse - новый Voice of the Customer сервис для российского рынка - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMiqwNBVV95cUxOUnhyZFZUSjNkb1BVT2c4RTRjUzYtTFp6cHMxUHJWSnlRaXIxeW5BSXpzcGFyNE4zNWk5NjFsLVgxZ0ZWUDZWUGFvdFBTWUpKZVdKUEpFWjlpclBnQnY2ZlVhMVFIazdIM3NINXVfeTIzYklNOXNscnQ2OERxVTRuVnU4bmNKQ1BfdWFPdi01T2pqeWl3dWh4WmxfYkktUElPTWVBSFZmUzNVQUFxNzJldEVraFlBbFFTV3hZSndEQm92emExbXZDb0I2X2RlaUh5bDRrUjNjd09jb1E4VXl6eVRGcUVuM0hraGtQQ09kd2hVZ1lsOGN3cW9JaEhKRGJuQjZMMmo2QmJPRUFiTkRqX005dGtrVWt4ODVlcndzUlNOOVBFNTg4RUl2bTViSGpfZjBveVk3WDhyeFBodjJ1aGlWMjBLR19HR0VnMDV1VDNtOXhDbE1LRjBaTklyX0VaZXVDNmdCQ1BCWjJFTFlibFhUYXgta3h3OWltSmxWVGdsWFdBRW5MWnRKVU9NX1hiZzF6UVlqTjRiWldRV3pOM3RIUi1fN1RnSGo4?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
+        }
+      ]
     },
     "wunjo": {
       "companyId": "wunjo",
@@ -1349,7 +1349,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
+      "latestPublishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
       "latestTitle": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
       "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
       "latestSourceName": "IT Channel News",
@@ -1357,7 +1357,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Предлагаешь — покажи: готов ли российский ИТ-канал стать примером внедрения ИИ? Часть II - IT Channel News",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE9wamZMblo5VkE5blFhOUFCb21lZFBRT2xTTmJJb2p2UjdYb3pNOXVVT3lVcjBXV2ZRM3dHUUxRcFVNallWWHNMR3E3VW9DeWR1bDJFdlpiZThxTU9QdmN1SENRcmJESjQ?oc=5",
-          "publishedAt": "Sun, 27 Sep 2026 21:00:00 GMT",
+          "publishedAt": "Mon, 28 Sep 2026 07:00:00 GMT",
           "sourceName": "IT Channel News"
         }
       ]
@@ -1380,17 +1380,23 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
-      "sourceCount7d": 10,
+      "sourceCount30d": 9,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 08:57:50 GMT",
-      "latestTitle": "Миллион просмотров — еще не результат: от больших охватов к доверию - Сноб",
-      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3Zzc05zS2RsUWJDb0Y2aTJtMG5FTm52VEM5SXBPeUpOTE5PU0NQdklnRVBXYjlTcTU4azRTZWQ3b0hsOXcwcVZmQktoOV9fMURSbDRIdU5WWjlOZzZpMFo1cGRYaVNFTlVNYUQ5NjMyb1ZYQWVkT3Z1ZFNnY1prcXlEdWlBOS1GcHM3enBHNkhEeFlrLVhz?oc=5",
-      "latestSourceName": "Сноб",
+      "latestPublishedAt": "Wed, 21 Oct 2026 05:28:24 GMT",
+      "latestTitle": "Необходимо убедиться, что план расширения охвата социальным страхованием является адекватным и осуществимым. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTFhbVNyS0lpV2N6NnQyekhKTkM0cDRUeHM1QnpVWnY1WXVMWFZoTG4yVGplRmNvZmsySnhaZ3BadDlUdUFycTVnYU96N0F5NFdLdVJfR2hmNDVSWENQMnVhUWYzUUQ1dFNpRWtES3NoendzVWhZWHRjcVF6bUs3d25EWjlzMjRFRDVjVXpNU3JnMk81NG4zQ0tQTVFKRUptYjNxVGsyUUc?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
+        {
+          "title": "Необходимо убедиться, что план расширения охвата социальным страхованием является адекватным и осуществимым. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOZTFhbVNyS0lpV2N6NnQyekhKTkM0cDRUeHM1QnpVWnY1WXVMWFZoTG4yVGplRmNvZmsySnhaZ3BadDlUdUFycTVnYU96N0F5NFdLdVJfR2hmNDVSWENQMnVhUWYzUUQ1dFNpRWtES3NoendzVWhZWHRjcVF6bUs3d25EWjlzMjRFRDVjVXpNU3JnMk81NG4zQ0tQTVFKRUptYjNxVGsyUUc?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 05:28:24 GMT",
+          "sourceName": "Vietnam.vn"
+        },
         {
           "title": "Миллион просмотров — еще не результат: от больших охватов к доверию - Сноб",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3Zzc05zS2RsUWJDb0Y2aTJtMG5FTm52VEM5SXBPeUpOTE5PU0NQdklnRVBXYjlTcTU4azRTZWQ3b0hsOXcwcVZmQktoOV9fMURSbDRIdU5WWjlOZzZpMFo1cGRYaVNFTlVNYUQ5NjMyb1ZYQWVkT3Z1ZFNnY1prcXlEdWlBOS1GcHM3enBHNkhEeFlrLVhz?oc=5",
@@ -1414,12 +1420,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
           "publishedAt": "Mon, 19 Oct 2026 05:54:54 GMT",
           "sourceName": "Автоновости дня"
-        },
-        {
-          "title": "Более половины россиян стали пользоваться нейросетями - Росбалт",
-          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNamd0UjJ4MHNnU0EzeDI0blEzZHFBZmJTaWxDZDhrN2pkVGw4c1l5Y2huNnpqUlR3N3RkRm10b0J4cXJRZnhFZzl6RU4xYUpWNDU1Nm5tWjFzRHlWNEhKc0VheGtseGVuNV9yaFVsX3NjRHB3NlpQZDNTWVpHYWQwQWFSSnBWam9nMEFBakxTZllVMnVrSkd5TVMyZGVkOWVaNlZR?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 22:05:42 GMT",
-          "sourceName": "Росбалт"
         }
       ]
     },
