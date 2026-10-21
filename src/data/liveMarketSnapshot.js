@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-21T19:00:30.287Z",
+  "generatedAt": "2026-10-21T23:46:00.586Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -211,22 +211,28 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 5,
+      "sourceCount30d": 7,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-      "latestSourceName": "Ростех",
+      "latestPublishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
+      "latestTitle": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
+      "latestSourceName": "ITSpeaker",
       "sources": [
         {
-          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "Ростех"
+          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
+          "sourceName": "ITSpeaker"
+        },
+        {
+          "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
+          "sourceName": "RuNews24"
         },
         {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
@@ -245,12 +251,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSzdCSGNOdzdPNy01NUd5aUxZaS1hdXdmRG1JNGxsU2hLak9BRUJybTZTdHg1ZWwtb3NycmFOR1RDblFYZERKdXVMMkliS055ajZzdGdNRGlzbldEQk5PTE1GajlmUS14ZlVYY0oteXV4cGI1a2ZQa3U3MU55YlpPUXVldFhwLTZNUzJ6QWtuaGh5Vko5RFJtRDRmZw?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 02:17:00 GMT",
           "sourceName": "Ростех"
-        },
-        {
-          "title": "ИИ-видеоаналитика NtechLab интегрирована с АПК «Безопасный город» Калужской области для поиска пропавших - RUБЕЖ",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOYW8tTmdEcW9sRUZ6RXQ3VVlSNXpNaTlDYXc2R2xwWS04UzJwclZwQ195SWcwaG9XVDEzQVRxbnFwNWM4UUt4TWgyMk9ycWRFV3NlcHBhREpxRm1wU3Q1V1F6cEdYcktRUExIcG5KQ2RxSzFEeFFMQ1VYeXp2cUF5Y1czMDJlZjdPMURZVU8xX2lLb3AxM2lFYkUySmozZ21NQ0JsSXNGRnlodmNjNk82a21LdHE?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "RUБЕЖ"
         }
       ]
     },
@@ -410,16 +410,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-      "latestSourceName": "Kursiv Media",
+      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+      "latestSourceName": "Profit.kz",
       "sources": [
         {
-          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "Kursiv Media"
+          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+          "sourceName": "Profit.kz"
         },
         {
           "title": "Tutu внедрил голосового ИИ-агента targetai - TAdviser",
@@ -662,7 +662,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 20:56:01 GMT",
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
       "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
       "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
       "latestSourceName": "Компьютерра",
@@ -670,7 +670,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 20:56:01 GMT",
+          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "Компьютерра"
         }
       ]
@@ -1372,17 +1372,11 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 15:57:39 GMT",
-      "latestTitle": "В «МосХаб.Сколково» обсудили продвижение ИТ-проектов через сообщества и доверие - Компьютерра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6TkVScU9FWHZNQlZSUFZqcXJud20wTFU1TWxCSUJZSk1PU1g0YkFiRXU0VkNFajFZSld0aGk5cGluS3FyemNIWUNpZ1hUQTJmZmR6akpPNGhxRkplN3BpUXk5UWJVSnRDd3M4Wk00a3Uwb0k?oc=5",
-      "latestSourceName": "Компьютерра",
+      "latestPublishedAt": "Wed, 21 Oct 2026 09:59:32 GMT",
+      "latestTitle": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
-        {
-          "title": "В «МосХаб.Сколково» обсудили продвижение ИТ-проектов через сообщества и доверие - Компьютерра",
-          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTFB6TkVScU9FWHZNQlZSUFZqcXJud20wTFU1TWxCSUJZSk1PU1g0YkFiRXU0VkNFajFZSld0aGk5cGluS3FyemNIWUNpZ1hUQTJmZmR6akpPNGhxRkplN3BpUXk5UWJVSnRDd3M4Wk00a3Uwb0k?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 15:57:39 GMT",
-          "sourceName": "Компьютерра"
-        },
         {
           "title": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
@@ -1406,6 +1400,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE52SVNzYkdKd0t2TlVfMmpRSzRkbVhHOVF2SVp6MkIwcVV0ajZKNUVxVDB3THZLNE9rbktNNFdDZWdaMWk4UXdWbzhjRXRfVG83bUZTbTZiQkLSAVhBVV95cUxOdklTc2JHSndLdk5VXzJqUUs0ZG1YRzlRdklaejJCMHFVdGo2SjVFcVQwd0x2SzRPa25LTTRXQ2VnWjFpOFF3Vm84Y0V0X1RvN21GU202YkJC?oc=5",
           "publishedAt": "Mon, 19 Oct 2026 07:35:29 GMT",
           "sourceName": "Хабр"
+        },
+        {
+          "title": "В России назвали способ расширить охват льготных автокредитов: Evolute и Voyah рассказали, что стоит изменить - Автоновости дня",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 05:54:54 GMT",
+          "sourceName": "Автоновости дня"
         }
       ]
     },
