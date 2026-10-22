@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-21T23:46:00.586Z",
+  "generatedAt": "2026-10-22T08:01:25.094Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -54,32 +54,46 @@ export const liveMarketSnapshot = {
     "dbrain": {
       "companyId": "dbrain",
       "companyName": "Dbrain",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
+      "latestTitle": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "dresscode-ai": {
       "companyId": "dresscode-ai",
       "companyName": "DRESSCODE",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 14 Oct 2026 05:18:58 GMT",
+      "latestTitle": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+      "latestSourceName": "Клуб DNS",
+      "sources": [
+        {
+          "title": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 05:18:58 GMT",
+          "sourceName": "Клуб DNS"
+        }
+      ]
     },
     "expanta": {
       "companyId": "expanta",
@@ -108,7 +122,7 @@ export const liveMarketSnapshot = {
       "companyName": "ISKRA",
       "sourceCount30d": 10,
       "sourceCount7d": 9,
-      "fundingMentions": 2,
+      "fundingMentions": 3,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -231,7 +245,7 @@ export const liveMarketSnapshot = {
         {
           "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:05:00 GMT",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "RuNews24"
         },
         {
@@ -343,28 +357,28 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
-      "sourceCount7d": 0,
+      "sourceCount30d": 7,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
-      "latestTitle": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Thu, 22 Oct 2026 05:29:11 GMT",
+      "latestTitle": "\"РСХБ Лизинг\" оптимизирует бизнес-процессы с помощью искусственного интеллекта Smart Engines - TAdviser",
+      "latestUrl": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQcnJ3T0FOOEVIUWgwU3hUaktJb3Z2QTNKbC15Vm1lcjM0WWdXWDkzWlUzRWFOQThSZlJQTDFxY3doTHV2NWl5MnpCSlpGWk9qYS02TlQxaXVYZnJXQW1fa3lSTGZ2bVl3X0Nib2RxOU9SSUxUQkcwV2hsWUJiYXphQU1CNVMwOTAybllod2hLVnlHNVowUGNmTTdTZmVUb0EwVWZPU2dUU3UtWXdNZFFQR1R5TVQtd0UzSTlkLVFrS1gxTzRZeGg1M21tam5UZTFnOWhQN2kwVjBvT2lrZi1ILWtKelFrem1QQkRRajNjYm9VMlpad2pTeU1tQzQxXzlwdWp4NS1XYlpiTGpyUkFlS0s4NG9vSk1zbG5ldWFvdk5YcnVKOVlmVlRzb2NqX25nTlE?oc=5",
+      "latestSourceName": "TAdviser",
       "sources": [
+        {
+          "title": "\"РСХБ Лизинг\" оптимизирует бизнес-процессы с помощью искусственного интеллекта Smart Engines - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMisgJBVV95cUxQcnJ3T0FOOEVIUWgwU3hUaktJb3Z2QTNKbC15Vm1lcjM0WWdXWDkzWlUzRWFOQThSZlJQTDFxY3doTHV2NWl5MnpCSlpGWk9qYS02TlQxaXVYZnJXQW1fa3lSTGZ2bVl3X0Nib2RxOU9SSUxUQkcwV2hsWUJiYXphQU1CNVMwOTAybllod2hLVnlHNVowUGNmTTdTZmVUb0EwVWZPU2dUU3UtWXdNZFFQR1R5TVQtd0UzSTlkLVFrS1gxTzRZeGg1M21tam5UZTFnOWhQN2kwVjBvT2lrZi1ILWtKelFrem1QQkRRajNjYm9VMlpad2pTeU1tQzQxXzlwdWp4NS1XYlpiTGpyUkFlS0s4NG9vSk1zbG5ldWFvdk5YcnVKOVlmVlRzb2NqX25nTlE?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 05:29:11 GMT",
+          "sourceName": "TAdviser"
+        },
         {
           "title": "Без облачной и инфраструктурной зависимости: Smart Engines расширила поддержку документов для ВЭД в Smart Document Engine 3.6 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE85WVFWQ0hqajFkQUpuMXMtVE5DQi1NYjF6RGVYay1YZ2pDbXVOOTExVnZEZmR0WFFOZkNEMXRmZ0ZOZXdZVE9uWjlnQXNpSTcwMWJhZDhJVDZJSEZDeHpTSFFBWWlVQzlsSkZEVW9acHlDS3VicHp5ZmJFeHZ0TzQ?oc=5",
           "publishedAt": "Wed, 14 Oct 2026 09:05:27 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 09:00:00 GMT",
-          "sourceName": "Forbes.ru"
         },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
@@ -373,16 +387,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
+          "title": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+          "sourceName": "Forbes.ru"
+        },
+        {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 10:09:07 GMT",
-          "sourceName": "Сделано у нас"
         }
       ]
     },
@@ -432,34 +446,22 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 3,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 2,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
-      "latestTitle": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
-      "latestSourceName": "Телеспутник",
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
-          "sourceName": "Телеспутник"
-        },
         {
           "title": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИТ запустила биометрическую систему TrustCBS на базе технологий VisionLabs - TAdviser",
-          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNOVRMS1RITEE5Q0NocHBlTlgxUGtUVUR1Z2VBMHpFNi1kNTQtMHpLMHNBVlFpTGo1YkU3akFLTGRPaWRYa3ZkMk9VUFRjWnllYUZHQXVSRmlxZkloY29Fa2t6bTEwQjRWdUxUTEhOSXBLQi02V0t6ZElGdEdMMjBvWFNJVHRZWGRjbGJCQTlEUC1lWjFpVFlXclpIdDBoVDZPMEQzS1ZzemxpdVhMVWl2X1plNUVPMWRrOVo2OEg3b1NHVV9aSlBfN2ZYeGF3bkVaRW03NXhucWtMaWJDMURjQ2U4OXlQTDhWX2w5ajdOYk5JZTdseHY2OWk2XzVBOTMtWXU5SzZPQlhyaWthVVV2Zk1idmNLRENqeWllaUM4dzI1NGFlbjBxX1NLRmlmWmdRZmtiQXo2VkpLa2o2V1E?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "TAdviser"
         }
       ]
     },
@@ -656,17 +658,23 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
-      "latestSourceName": "Компьютерра",
+      "latestPublishedAt": "Thu, 22 Oct 2026 07:07:40 GMT",
+      "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - РИА Карачаево-Черкесия",
+      "latestUrl": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VYkp0eGYwSGRFRzRQbWp0cFJhUjhfSmltUXZkaU9uOEczdTczWDVEcmRFc1JFVUlOb1lES3BVYlVJYkxZNGlTSzZOS3BDTWRUeVR5QjlFSGNmeVc0S0duUlJtSjcwdUF5SzYyWFNYZDJabkU?oc=5",
+      "latestSourceName": "РИА Карачаево-Черкесия",
       "sources": [
+        {
+          "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - РИА Карачаево-Черкесия",
+          "url": "https://news.google.com/rss/articles/CBMic0FVX3lxTE1VYkp0eGYwSGRFRzRQbWp0cFJhUjhfSmltUXZkaU9uOEczdTczWDVEcmRFc1JFVUlOb1lES3BVYlVJYkxZNGlTSzZOS3BDTWRUeVR5QjlFSGNmeVc0S0duUlJtSjcwdUF5SzYyWFNYZDJabkU?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 07:07:40 GMT",
+          "sourceName": "РИА Карачаево-Черкесия"
+        },
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
@@ -923,17 +931,24 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
+      "latestSourceName": "thecode.media",
+      "sources": [
+        {
+          "title": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
+          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "thecode.media"
+        }
+      ]
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -1014,7 +1029,7 @@ export const liveMarketSnapshot = {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
       "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1039,7 +1054,7 @@ export const liveMarketSnapshot = {
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
         }
       ]
@@ -1063,26 +1078,26 @@ export const liveMarketSnapshot = {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
       "sourceCount30d": 2,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
-      "latestTitle": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
+      "latestPublishedAt": "Wed, 21 Oct 2026 01:55:45 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 01:55:45 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
           "publishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "🔥 Как нарезать длинное видео на клипы в Reels Boss - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5FNkVqUHBtSWt2QzZ6azZoR3JWQjA2NGRPRXAyQVRmWHpDQU80bEVza0xJR0RBemg4UEE2T29oZC1OODhWdkVZd2tBSFhTOWI4MHA4?oc=5",
-          "publishedAt": "Tue, 22 Sep 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1367,7 +1382,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
