@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-22T14:09:37.822Z",
+  "generatedAt": "2026-10-22T18:54:40.853Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -121,8 +121,8 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
-      "fundingMentions": 2,
+      "sourceCount7d": 10,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -138,10 +138,16 @@ export const liveMarketSnapshot = {
           "sourceName": "ВТамбове"
         },
         {
-          "title": "LADA Iskra 120 л.с.: почему расход вырос до 10,4 л, а разгон остался прежним — и когда ждать новинку - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNLUYyRksydE1acm1feDZVQUFpX0xsM1dkeHFnM3RRTUhYd0c3MnVFOTdBMm9MUUt1TUVmY21lcUNrcFgwTThRM190UHpEaUZmbWpTLWIzV09ha2tHRmYxV3BRMFpQejIxZWpDNVYwQk5fUHpjNkhTcWgtOVZNRUU3UmVtZXZsSmVYY1NHQzg4MkJkQks4dmhjaTZYMA?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 08:25:51 GMT",
+          "title": "Утечка документов LADA: что проверят и заменят дилеры у Iskra во время сервисной кампании - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTmozbmJSMGVIQU1DdFpNS1hRRThXR0owU2J5YkdLSFNXdVBQdlRzbDZ5aUtiRXd3b1BuM2NSUTVkWkFUQ3lZei1SRXBqMWdRbnNCY1ZreWJzRkJhV0JKV0JGV3hlMHJCSkx0RkV5dTZNUzF3MXRWaTVYOFBtTmQtMTQxTHMwN3V4d01PY2NZX1VqN0xOYklueQ?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 10:23:54 GMT",
           "sourceName": "110km.ru"
+        },
+        {
+          "title": "Что не так со скоростью Lada Iskra — объяснение эксперта - Авто Mail",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZGNVWHNfMm1VXy1VRnlLYW9rMGE1YzFnZ0tSVXpnOFRTenJBQmt0R19xZDU3aUpWeElHSllfOGNueUI0VF9qY29vTXN6c3pYSndaVmtYWFRNNFFkNWlqeHFPNVZtM1QxUkJWeFZtLVY5RmZhZmZEVmpEUFZWY1lvWFM4UDdocGxRaGw2bmhITkhXbFlYMENJ?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 08:10:00 GMT",
+          "sourceName": "Авто Mail"
         },
         {
           "title": "Прошивка не помогла: у Lada Iskra снова отказал спидометр после похолодания - Южный автомобиль",
@@ -154,12 +160,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRWVuWkxBTHB5bTRiQUxwVnhvYTVyLWlxcElpWWJHbEUtb1JGTzA4SWxXNGNHWnRqLVN3eHlGRjNnV3pMYzdiMmZXdmw1a1JKZlhEbmlBWlRNTDZjaE9NTndaZXhhZDlOdFpJM2tzSFFnbjJaUEpSbmxQbU5rNTRZRg?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 06:52:58 GMT",
           "sourceName": "Главный Региональный"
-        },
-        {
-          "title": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
-          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 13:31:00 GMT",
-          "sourceName": "TengriNews"
         }
       ]
     },
@@ -244,8 +244,8 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "Медиа - Новости - Отечественный ИИ поможет выявлять самокатчиков-нарушителей в Марий Эл - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxPeW1wa2M0cFhYOFBkTmdKYldsTFcxdlhRd1FsSFplWHpJUVBYYjJScGpzanVJUXAtNXdYUkpiRGFhYkVHdW5IWk45bzlFdUJTcVpmUlljd3RpQ3lNNDVST2JiNkZaNjN3QUwxT2VVX2JOUkxwZWZsVFJWRFczOWlSZWFrWkQtRjJFcXBzNW5STjNHYXE4aGt5dTBHR0cxY2lhMFJWVkpuZw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 08:05:17 GMT",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2RJai0waWxRdTJXRy00eS14U1ZGVE5WVmd2NzNIblVhVFlGY1c3TTdMbFZWb0ZXZVNCYjkxY3V0alpUQ0VyUkstaDVSX0FLV2JKV2x5UEJESGJ1QmZVRVQ4cFY0b3E5bzV4RGJjMFV3d2NTY2MwSGdnYThGS204TmFYT2xJc09XM0c1VmlRcVdEWHNpaU40Q0tiQmxQWFdYVUQxa1V3?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 10:35:22 GMT",
           "sourceName": "Ростех"
         },
         {
@@ -314,17 +314,30 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 0,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
+      "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+          "publishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
+          "sourceName": "novostivoronezha.ru"
+        }
+      ]
     },
     "rubbles": {
       "companyId": "rubbles",
@@ -411,16 +424,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         },
         {
           "title": "Tutu внедрил голосового ИИ-агента targetai - TAdviser",
@@ -433,22 +446,34 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 1,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "latestTitle": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
+      "latestTitle": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
+      "latestSourceName": "Телеспутник",
       "sources": [
+        {
+          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 08:11:40 GMT",
+          "sourceName": "Телеспутник"
+        },
         {
           "title": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "ИИТ запустила биометрическую систему TrustCBS на базе технологий VisionLabs - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMivgJBVV95cUxNOVRMS1RITEE5Q0NocHBlTlgxUGtUVUR1Z2VBMHpFNi1kNTQtMHpLMHNBVlFpTGo1YkU3akFLTGRPaWRYa3ZkMk9VUFRjWnllYUZHQXVSRmlxZkloY29Fa2t6bTEwQjRWdUxUTEhOSXBLQi02V0t6ZElGdEdMMjBvWFNJVHRZWGRjbGJCQTlEUC1lWjFpVFlXclpIdDBoVDZPMEQzS1ZzemxpdVhMVWl2X1plNUVPMWRrOVo2OEg3b1NHVV9aSlBfN2ZYeGF3bkVaRW03NXhucWtMaWJDMURjQ2U4OXlQTDhWX2w5ajdOYk5JZTdseHY2OWk2XzVBOTMtWXU5SzZPQlhyaWthVVV2Zk1idmNLRENqeWllaUM4dzI1NGFlbjBxX1NLRmlmWmdRZmtiQXo2VkpLa2o2V1E?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
         }
       ]
     },
@@ -645,7 +670,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 08:15:43 GMT",
+      "latestPublishedAt": "Thu, 22 Oct 2026 13:14:19 GMT",
       "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
       "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
       "latestSourceName": "Архыз24",
@@ -653,7 +678,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 08:15:43 GMT",
+          "publishedAt": "Thu, 22 Oct 2026 13:14:19 GMT",
           "sourceName": "Архыз24"
         },
         {
@@ -986,17 +1011,24 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Jev: модель, которая ничего не пишет - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1042,7 +1074,7 @@ export const liveMarketSnapshot = {
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 04:51:11 GMT",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
         }
       ]
@@ -1369,46 +1401,46 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 5,
+      "sourceCount30d": 10,
+      "sourceCount7d": 10,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 09:59:32 GMT",
-      "latestTitle": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
-      "latestSourceName": "Vietnam.vn",
+      "latestPublishedAt": "Thu, 22 Oct 2026 15:25:25 GMT",
+      "latestTitle": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
+      "latestSourceName": "Ведомости",
       "sources": [
         {
-          "title": "Власти Хошимина расширяют охват бесплатным медицинским обследованием для лиц, не зарегистрированных в качестве лиц, имеющих временный вид на жительство. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPT0hDRFBOR0ZDdWJ2eVlhRGJhSWh4TWstMTdRSUdCX2ZudlpoeU9pNXZsaTJSYXdxN3M4R1ZnamljZHE3cEpHNHcxSVg2TDFxNnZ3TmI0Y085WXhUOF94ZnJTQlFyc24xV0YzeEswRTBOeG03YmVwUkVVVGZmSEZ4emFpcVpxRnNsOW9OR1J1OThMYlhac1Y1X3R3Z2FvOWM?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 09:59:32 GMT",
-          "sourceName": "Vietnam.vn"
+          "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 15:25:25 GMT",
+          "sourceName": "Ведомости"
+        },
+        {
+          "title": "Премиальный охват: Обзор монитора Samsung Odyssey OLED G8 G80SH - GameMAG",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZHhFZWc3NjJ4cHJrNHhtTlJ5QWhaYXRHcElnc1R5S2RGZVNCVHdVTS1MWmhMYk1HVzlCWDR5YndiOThZV2ZPTDZvSlpXb0x1WkJlcjVhTWNaaVMzenplLW5ZMWthY3MydzNsY202MXE1MHFjSHRWU2xnVmprWU8za2Vn?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 14:00:00 GMT",
+          "sourceName": "GameMAG"
+        },
+        {
+          "title": "В Тверской области растёт охват Всероссийской олимпиады школьников - Tverlife.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlJQR3hEb1BoTVRBRG56d1BTakhGcGRaS1pQMXJpSkVXdDJNTGZGbERYNUZUUTM1aENwRXNWZms5bHhsbWtUQlluc3FLVzZBNzRpVkdEbmx6c1Qxc0REX25DM0QtekVGMnRTOGdFVUQ5YXpMYlRrNTJMQXRxRGRnanVCV1Uwd1Z0SHpQUHZHMXctMmJCUFd1cWFB?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 13:25:38 GMT",
+          "sourceName": "Tverlife.ru"
+        },
+        {
+          "title": "Миллион просмотров — еще не результат: от больших охватов к доверию - Сноб",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3Zzc05zS2RsUWJDb0Y2aTJtMG5FTm52VEM5SXBPeUpOTE5PU0NQdklnRVBXYjlTcTU4azRTZWQ3b0hsOXcwcVZmQktoOV9fMURSbDRIdU5WWjlOZzZpMFo1cGRYaVNFTlVNYUQ5NjMyb1ZYQWVkT3Z1ZFNnY1prcXlEdWlBOS1GcHM3enBHNkhEeFlrLVhz?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 08:57:50 GMT",
+          "sourceName": "Сноб"
         },
         {
           "title": "Месячная аудитория нейросетей в России выросла до 55% населения старше 12 лет - TKS.RU",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxQdHBJcW9iem1mM1JBZTJzZXZ5Z25VUnA2SExlOEFiekwtSnUxSmNocjNGYkUwd09uNGV4aU42ZFAtTHNhTXZuVDFNZXFNdVc4NElzRmVzMm1kbDd5LWZIVFY2TG1JZmdWenp3WUJyZ1gzY1Mzck00ek9COUowS3NfTHN6VjJPZHhwZTA1NUJYX1o0WVc2ZW83RDZIUnJmeU1JazN1SFVBeDBWcDhqdVc1RzB2d19WMDZkQlMyQjBncGdWMW1HSkRiQmxZYjhISEdhTVZPLQ?oc=5",
           "publishedAt": "Mon, 19 Oct 2026 11:05:00 GMT",
           "sourceName": "TKS.RU"
-        },
-        {
-          "title": "Mediascope оценил аудиторию нейросетей в России в 55% населения - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE85eVRZaG9tOFpEVktsYVdsZVBjblN3VlFiTVE4R3RtaE80WWU5U0VmVEp3TExaemtjWTZaa3FCNDl3a09CXzBQZ9IBWEFVX3lxTE52SVNzYkdKd0t2TlVfMmpRSzRkbVhHOVF2SVp6MkIwcVV0ajZKNUVxVDB3THZLNE9rbktNNFdDZWdaMWk4UXdWbzhjRXRfVG83bUZTbTZiQkI?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 07:35:29 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "В России назвали способ расширить охват льготных автокредитов: Evolute и Voyah рассказали, что стоит изменить - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 05:54:54 GMT",
-          "sourceName": "Автоновости дня"
-        },
-        {
-          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - rb.ru",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 17:00:00 GMT",
-          "sourceName": "rb.ru"
         }
       ]
     },
