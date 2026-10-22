@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-22T18:54:40.853Z",
+  "generatedAt": "2026-10-22T23:43:07.629Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -54,24 +54,17 @@ export const liveMarketSnapshot = {
     "dbrain": {
       "companyId": "dbrain",
       "companyName": "Dbrain",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
-      "latestTitle": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Укрощение GPU в Kubernetes: динамический шеринг мощностей - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBJamxHdFNlZTQwekRFTFhtWnJjRGN2Y3Q4OHJoTW5uUk95ZUxQNHFaSEh3dWJTZHVPV0hnLWtsYTVtSUNtT2hmSnd3QVJzbW9GOFZESVJZX2TSAVhBVV95cUxQSWpsR3RTZWU0MHpERUxYbVpyY0RjdmN0ODhyaE1ublJPeWVMUDRxWkhId3ViU2R1T1dIZy1rbGE1bUlDbU9oZkp3d0FSc21vRjhWRElSWV9k?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 05:30:30 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "dresscode-ai": {
       "companyId": "dresscode-ai",
@@ -121,22 +114,16 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 10,
-      "fundingMentions": 1,
+      "sourceCount7d": 9,
+      "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 10:43:41 GMT",
-      "latestTitle": "Lada Iskra объявлена в четырёх бесплатных сервисных кампаниях: что дилеры проверят и поменяют владельцам - ВТамбове",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNnBTUHRVd1FaYk1oRG1ySE1WdFpRSGFuY0EtWTZVZGMxOXBWQXY1ZVNTZENTaWUydkQwakl2T2pHT1A4OGZqc1VSblFILWVRd3ZFQllMMEo1UGFwUzRNcDZod1NHWU1SYWJhNFdsbldGTF9HTkVaMUxYY2hUcVFlNmVNbExxUUhqSWd3YWYtTnUyd3d0Mmp1WnQ1TFBySmxCQU5OSVh4ajFrdnlYYjdvUnZ1d1VQODhEWW9kUWhnVnlhdG5Kd2tSNGd3bVNrR3o2dFVVT0xwTFE?oc=5",
-      "latestSourceName": "ВТамбове",
+      "latestPublishedAt": "Thu, 22 Oct 2026 10:23:54 GMT",
+      "latestTitle": "Утечка документов LADA: что проверят и заменят дилеры у Iskra во время сервисной кампании - 110km.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTmozbmJSMGVIQU1DdFpNS1hRRThXR0owU2J5YkdLSFNXdVBQdlRzbDZ5aUtiRXd3b1BuM2NSUTVkWkFUQ3lZei1SRXBqMWdRbnNCY1ZreWJzRkJhV0JKV0JGV3hlMHJCSkx0RkV5dTZNUzF3MXRWaTVYOFBtTmQtMTQxTHMwN3V4d01PY2NZX1VqN0xOYklueQ?oc=5",
+      "latestSourceName": "110km.ru",
       "sources": [
-        {
-          "title": "Lada Iskra объявлена в четырёх бесплатных сервисных кампаниях: что дилеры проверят и поменяют владельцам - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMi2AFBVV95cUxNNnBTUHRVd1FaYk1oRG1ySE1WdFpRSGFuY0EtWTZVZGMxOXBWQXY1ZVNTZENTaWUydkQwakl2T2pHT1A4OGZqc1VSblFILWVRd3ZFQllMMEo1UGFwUzRNcDZod1NHWU1SYWJhNFdsbldGTF9HTkVaMUxYY2hUcVFlNmVNbExxUUhqSWd3YWYtTnUyd3d0Mmp1WnQ1TFBySmxCQU5OSVh4ajFrdnlYYjdvUnZ1d1VQODhEWW9kUWhnVnlhdG5Kd2tSNGd3bVNrR3o2dFVVT0xwTFE?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 10:43:41 GMT",
-          "sourceName": "ВТамбове"
-        },
         {
           "title": "Утечка документов LADA: что проверят и заменят дилеры у Iskra во время сервисной кампании - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTmozbmJSMGVIQU1DdFpNS1hRRThXR0owU2J5YkdLSFNXdVBQdlRzbDZ5aUtiRXd3b1BuM2NSUTVkWkFUQ3lZei1SRXBqMWdRbnNCY1ZreWJzRkJhV0JKV0JGV3hlMHJCSkx0RkV5dTZNUzF3MXRWaTVYOFBtTmQtMTQxTHMwN3V4d01PY2NZX1VqN0xOYklueQ?oc=5",
@@ -150,16 +137,22 @@ export const liveMarketSnapshot = {
           "sourceName": "Авто Mail"
         },
         {
-          "title": "Прошивка не помогла: у Lada Iskra снова отказал спидометр после похолодания - Южный автомобиль",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOZUtpNnFXZjFlQWI3UzB0SGhYZnJfMjlQRkRWLVB6YklXaHgyekc4cHdIRDMzR2hXRmxzTHlqS0NKbXhFd2RHNG9GZ0RacEhGQWxUY3dqUHFzMFU5ZnN6bjBhN3ZHN3hZakdWRjUtcG9sVDQybXVpYnRRcFZoTnNmZkV0OWFYUFdwcEhpNWlJOTcxc2E1SFpYWndEYXdZMlFjSVp6X2dwdzNiQQ?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 06:56:30 GMT",
-          "sourceName": "Южный автомобиль"
-        },
-        {
           "title": "Спидометр, кресло и круиз-контроль: на что жалуются первые владельцы Lada Iskra - Главный Региональный",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRWVuWkxBTHB5bTRiQUxwVnhvYTVyLWlxcElpWWJHbEUtb1JGTzA4SWxXNGNHWnRqLVN3eHlGRjNnV3pMYzdiMmZXdmw1a1JKZlhEbmlBWlRNTDZjaE9NTndaZXhhZDlOdFpJM2tzSFFnbjJaUEpSbmxQbU5rNTRZRg?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 06:52:58 GMT",
           "sourceName": "Главный Региональный"
+        },
+        {
+          "title": "Пробег в 20 тысяч километров расставил всё по местам: LADA Iskra раскрыла слабое звено - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE15U1hGOHU4OHBZY0EzTkkyelVtZzkwZHFsdndiajcwV29SQlA4YUt2enlIOEJocnJ4OGQ1MVh0bnltdW1LcmJTeGFWVzlyUG5kbFBNSWVYNXJZNlU5MUhyVDljY0pMNnFldUN6aHZyd2FLa25XV2lBVTJLUm4tUQ?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 19:38:06 GMT",
+          "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "Гоночную Lada Iskra поставили на трек против Porsche - что из этого вышло - TengriNews",
+          "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxOTlR6MEI4aFZIbFdYenE5XzRrdW9xRmdfa2U4Y2k4OWcxdkZfUlFUSGFaNlp6emNKSDE5V0ZJY0s4YndYV0V1cEtiYUJIbFhkallkZ04xZkt6WFZVbXktRm1tcWxISzYxYmV3bVdDemxxYXRmZS1ZRllhN1E3Nnh3OG4wMmpRVWV0aXppTjFOeFdMeDd6blRRTQ?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 13:31:00 GMT",
+          "sourceName": "TengriNews"
         }
       ]
     },
@@ -314,23 +307,17 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+      "latestSourceName": "novostivoronezha.ru",
       "sources": [
-        {
-          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -357,7 +344,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 8,
+      "sourceCount30d": 7,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -529,17 +516,24 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
+          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "askhow": {
       "companyId": "askhow",
@@ -670,7 +664,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 13:14:19 GMT",
+      "latestPublishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
       "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
       "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
       "latestSourceName": "Архыз24",
@@ -678,7 +672,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 13:14:19 GMT",
+          "publishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
           "sourceName": "Архыз24"
         },
         {
@@ -1011,24 +1005,17 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "Jev: модель, которая ничего не пишет - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
-          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
