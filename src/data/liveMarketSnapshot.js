@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-22T23:43:07.629Z",
+  "generatedAt": "2026-10-23T02:11:21.696Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -307,17 +307,23 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
-      "latestSourceName": "novostivoronezha.ru",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -344,7 +350,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -374,15 +380,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Число преступлений по подделке документов выросло больше чем в четыре раза - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxPY0FYY195elpQN0FobWdBSjk3S3dhR2xjNHVSMmZOWTg1TDlUOGhnLTRubEVmMmlFLVh4LU8zWkwtbzExVDE2RGpXMUNZeWlTN1NsZWNsd2R4RmZISXl5Q0pkbThIaWZkbzNzbk1fSWZWeXg3eFZtS2lTSmc5WGJTSXJHcjFpX0dUdEpnWTZ1VkxiNEtYcmRwRGJUTUtHSGZ5RWZreUkyMHpaTHlJZlc5V1E4NWc3Zw?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
-        },
-        {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
@@ -516,24 +522,17 @@ export const liveMarketSnapshot = {
     "artgeneration-me": {
       "companyId": "artgeneration-me",
       "companyName": "ArtGeneration.me",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-      "latestTitle": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "YuE2 Studio: бесплатная замена Suno на своей видеокарте, и почему я перешел с Python и Gradio на Rust, Tauri и C++ - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBDSDBpWXRDcWxtQVZ3cVE5TDk5cVJWekdickFfZElQR2dUb29CdTJrTExEVjVjTkFQWnc5WFdJb1RrSXNsa0JCaVBzc0hWUdIBWEFVX3lxTFBzNWZSOEppTU40NzdOOXBqUVpyV0RyXzdQVFowQ1A4bjhVYW40YkZWdVg3cHl4Y0JpYWxMSm9DeWtad2hNbXpmUlF0d0s2Z2RveHhxQmM2MEk?oc=5",
-          "publishedAt": "Wed, 23 Sep 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "askhow": {
       "companyId": "askhow",
@@ -892,7 +891,7 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1005,17 +1004,24 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Jev: модель, которая ничего не пишет - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "Jev: модель, которая ничего не пишет - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFB5MEFxOXpuZzNQSlNyN0M3ZjhMSkRBcmNVaUphRFkyMkxTWmFQY0xYR0ctZ2ViREZZT0tUOXJJWXRLbWx5eGprTTFWWm1jOVVHQXRXeWFsWGs5ZGZfWi16cmJMd2VVd9IBWEFVX3lxTE1kS1AzME9pUFJLdXpwTnhQem5Cc2MtRVk0UXV2Q2hDZDBCbkRaRDVSZ3Q3eERIeFZkT3BUOWRMUWQ4Y0JQOVdmeHhXdlNNaVdsOHAxcGN5dmU?oc=5",
+          "publishedAt": "Thu, 24 Sep 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
