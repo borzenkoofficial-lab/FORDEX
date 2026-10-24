@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-24T12:58:36.170Z",
+  "generatedAt": "2026-10-24T17:41:42.527Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -204,40 +204,46 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 4,
-      "sourceCount7d": 0,
+      "sourceCount30d": 6,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-      "latestSourceName": "Ростех",
+      "latestPublishedAt": "Thu, 22 Oct 2026 11:46:45 GMT",
+      "latestTitle": "ИИ начал выявлять нарушителей на электросамокатах - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPejhVQ1ZjZ1oxREl5WFBVdDBveEZwa1p5dkhZWERDdy1NQVRWVllxNi1LN0xEYjRUU1V4Q0NoeHVrOFQtMVB0MFk3N3FESmJULXdnUG5XUjlFVXpfTWc1X0VFM0lUOTYtR3doX3NtUkFtUVpvQkI3azNLWExPcnRRcXgwVnNMNjFlaE9VR2tiRQ?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
         {
-          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "title": "ИИ начал выявлять нарушителей на электросамокатах - Компьютерра",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPejhVQ1ZjZ1oxREl5WFBVdDBveEZwa1p5dkhZWERDdy1NQVRWVllxNi1LN0xEYjRUU1V4Q0NoeHVrOFQtMVB0MFk3N3FESmJULXdnUG5XUjlFVXpfTWc1X0VFM0lUOTYtR3doX3NtUkFtUVpvQkI3azNLWExPcnRRcXgwVnNMNjFlaE9VR2tiRQ?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 11:46:45 GMT",
+          "sourceName": "Компьютерра"
+        },
+        {
+          "title": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 11:17:11 GMT",
+          "sourceName": "www1.ru"
+        },
+        {
+          "title": "Медиа - Новости - Отечественный ИИ поможет выявлять самокатчиков-нарушителей в Марий Эл - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2RJai0waWxRdTJXRy00eS14U1ZGVE5WVmd2NzNIblVhVFlGY1c3TTdMbFZWb0ZXZVNCYjkxY3V0alpUQ0VyUkstaDVSX0FLV2JKV2x5UEJESGJ1QmZVRVQ4cFY0b3E5bzV4RGJjMFV3d2NTY2MwSGdnYThGS204TmFYT2xJc09XM0c1VmlRcVdEWHNpaU40Q0tiQmxQWFdYVUQxa1V3?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 10:35:22 GMT",
           "sourceName": "Ростех"
         },
         {
-          "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxPdlk1bGNGMk1aNXphWEotdEpyeS0zRFBVOXpXVEhOeGppYkJ3RzRJbW5HODB1X0Z1SUxDYWk3aEJSeVA1S01EQTNHY1djRVpuZ0JnYXhkM2hDRnY4bFcxNVZOWEp2R1FjdC1oTEhXLXB3bUEyekdOQmRscnZUaTNCYTR3c19OSHJkZllLbm5MREg?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
+          "title": "NtechLab: нейросеть выявляет самокатчиков в запретных зонах столицы Марий Эл - Рамблер",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONy1kWGtnUm5qU29rejJ2c2V1VHNfR3hRX0JPbnNvck51OVg5Q3U2MDRoRHhlcFFyc0ZnaTN4VmhNTUtwSmlqTkRBaDVHZVJFU09FbXlmNzJLNy1QYnpMM0xsQ2lHZkdmUnloSkYxbzFxNlNHOWlzRWhyNzRDekpYZWJ4OExfRUFqSk9yaUFRUmc1MlpzOTZQWHoyT3hxck4wbWNsaWU4MkVFcEJBWVpxX1lKMC1UY1U2aWFZNnlqR25sUnls0gHEAUFVX3lxTE43LWRYa2dSbmpTb2t6MnZzZXVUc19HeFFfQk9uc29yTnU5WDlDdTYwNGhEeGVwUXJzRmdpM3hWaE1NS3BKaWpOREFoNUdlUkVTT0VteWY3Mks3LVBiekwzTGxDaUdmR2ZSeWhKRjFvMXE2U0c5aXNFaHI3NEN6SlhlYng4TF9FQWpKT3JpQVFSZzUyWnM5NlBYejJPeHFyTjBtY2xpZTgyRUVwQkFZWnFfWUowLVRjVTZpYVk2eWpHbmxSeWw?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 08:00:28 GMT",
+          "sourceName": "Рамблер"
+        },
+        {
+          "title": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
-        },
-        {
-          "title": "NtechLab и «Швабе» создадут совместные ИИ-разработки - Общественная служба новостей",
-          "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
-          "sourceName": "Общественная служба новостей"
-        },
-        {
-          "title": "Медиа - Новости - NtechLab и «Швабе» договорились о создании совместных ИИ-разработок - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSzdCSGNOdzdPNy01NUd5aUxZaS1hdXdmRG1JNGxsU2hLak9BRUJybTZTdHg1ZWwtb3NycmFOR1RDblFYZERKdXVMMkliS055ajZzdGdNRGlzbldEQk5PTE1GajlmUS14ZlVYY0oteXV4cGI1a2ZQa3U3MU55YlpPUXVldFhwLTZNUzJ6QWtuaGh5Vko5RFJtRDRmZw?oc=5",
-          "publishedAt": "Thu, 01 Oct 2026 02:17:00 GMT",
-          "sourceName": "Ростех"
         }
       ]
     },
@@ -274,23 +280,17 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+      "latestSourceName": "novostivoronezha.ru",
       "sources": [
-        {
-          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -378,17 +378,24 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+      "latestSourceName": "Profit.kz",
+      "sources": [
+        {
+          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
+          "sourceName": "Profit.kz"
+        }
+      ]
     },
     "visionlabs": {
       "companyId": "visionlabs",
@@ -805,10 +812,10 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 3,
+      "sourceCount30d": 1,
       "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Wed, 21 Oct 2026 08:25:47 GMT",
@@ -820,18 +827,6 @@ export const liveMarketSnapshot = {
           "title": "Торжественное открытие баскетбольного турнира для начальных школ Ханоя — Кубка Nestlé Milo 2026. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 08:25:47 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1340,17 +1335,11 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 24 Oct 2026 07:39:05 GMT",
-      "latestTitle": "Школьное питание в Лидском районе: 99,5% охвата, бесплатные места и новое меню - Лидская газета",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fejZPaEFJd2ZNZkxzeDVreDF6OE5TTjFwUlEtWjh2SEZNNk1nTV9ZM2h6cXJEc0g5UF9EWHFVSVlRa2FpWV9DSGlSMkc4T2VYUmppSlBiWQ?oc=5",
-      "latestSourceName": "Лидская газета",
+      "latestPublishedAt": "Fri, 23 Oct 2026 15:01:05 GMT",
+      "latestTitle": "Уралсиб вошел в топ-10 банков России по числу офисов и охвату регионов - Юга.ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDVlbUdrdnhMMm1FV2ZtM3NZZU5oSXQxRnQya25URFlMbDVCZjFvN19vUWRJNGdNS0h3WW9TTUpBaG4yLWlOSktRbFNoZ20tcERpdnI2WmkyOU51QmU1blEzc2ZGSzlPalIzV1VSOU9KcC1lVlVJd0NJb1ZaMkd6Y2dLdkNKZVlWam1yWlpuMDNaVGRvSXBnZ1p0WUJBXzZJRURtdUVJWE5LY1lsSnBV0gGvAUFVX3lxTE5INWVtR2t2eEwybUVXZm0zc1llTmhJdDFGdDJrblREWUxsNUJmMW83X29RZEk0Z01LSHdZb1NNSkFobjItaU5KS1FsU2hnbS1wRGl2cjZaaTI5TnVCZTVuUTNzZkZLOU9qUjNXVVI5T0pwLWVWVUl3Q0lvVloyR3pjZ0t2Q0plWVZqbXJaWm4wM1pUZG9JcGdnWnRZQkFfNklFRG11RUlYTktjWWxKcFU?oc=5",
+      "latestSourceName": "Юга.ру",
       "sources": [
-        {
-          "title": "Школьное питание в Лидском районе: 99,5% охвата, бесплатные места и новое меню - Лидская газета",
-          "url": "https://news.google.com/rss/articles/CBMiV0FVX3lxTE5fejZPaEFJd2ZNZkxzeDVreDF6OE5TTjFwUlEtWjh2SEZNNk1nTV9ZM2h6cXJEc0g5UF9EWHFVSVlRa2FpWV9DSGlSMkc4T2VYUmppSlBiWQ?oc=5",
-          "publishedAt": "Sat, 24 Oct 2026 07:39:05 GMT",
-          "sourceName": "Лидская газета"
-        },
         {
           "title": "Уралсиб вошел в топ-10 банков России по числу офисов и охвату регионов - Юга.ру",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDVlbUdrdnhMMm1FV2ZtM3NZZU5oSXQxRnQya25URFlMbDVCZjFvN19vUWRJNGdNS0h3WW9TTUpBaG4yLWlOSktRbFNoZ20tcERpdnI2WmkyOU51QmU1blEzc2ZGSzlPalIzV1VSOU9KcC1lVlVJd0NJb1ZaMkd6Y2dLdkNKZVlWam1yWlpuMDNaVGRvSXBnZ1p0WUJBXzZJRURtdUVJWE5LY1lsSnBV0gGvAUFVX3lxTE5INWVtR2t2eEwybUVXZm0zc1llTmhJdDFGdDJrblREWUxsNUJmMW83X29RZEk0Z01LSHdZb1NNSkFobjItaU5KS1FsU2hnbS1wRGl2cjZaaTI5TnVCZTVuUTNzZkZLOU9qUjNXVVI5T0pwLWVWVUl3Q0lvVloyR3pjZ0t2Q0plWVZqbXJaWm4wM1pUZG9JcGdnWnRZQkFfNklFRG11RUlYTktjWWxKcFU?oc=5",
@@ -1374,6 +1363,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 15:25:25 GMT",
           "sourceName": "Ведомости"
+        },
+        {
+          "title": "Премиальный охват: Обзор монитора Samsung Odyssey OLED G8 G80SH - GameMAG",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZHhFZWc3NjJ4cHJrNHhtTlJ5QWhaYXRHcElnc1R5S2RGZVNCVHdVTS1MWmhMYk1HVzlCWDR5YndiOThZV2ZPTDZvSlpXb0x1WkJlcjVhTWNaaVMzenplLW5ZMWthY3MydzNsY202MXE1MHFjSHRWU2xnVmprWU8za2Vn?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 14:00:00 GMT",
+          "sourceName": "GameMAG"
         }
       ]
     },
