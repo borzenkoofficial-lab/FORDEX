@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-24T02:10:14.611Z",
+  "generatedAt": "2026-10-24T07:40:05.163Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -218,15 +218,15 @@ export const liveMarketSnapshot = {
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Thu, 22 Oct 2026 11:17:11 GMT",
-      "latestTitle": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - Первый технический",
+      "latestTitle": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
-      "latestSourceName": "Первый технический",
+      "latestSourceName": "www1.ru",
       "sources": [
         {
-          "title": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - Первый технический",
+          "title": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 11:17:11 GMT",
-          "sourceName": "Первый технический"
+          "sourceName": "www1.ru"
         },
         {
           "title": "Медиа - Новости - Отечественный ИИ поможет выявлять самокатчиков-нарушителей в Марий Эл - Ростех",
@@ -257,21 +257,33 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
-      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+      "latestPublishedAt": "Tue, 20 Oct 2026 22:07:57 GMT",
+      "latestTitle": "Суд ликвидировал «Цифровые решения» по иску ЦБ - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2RDX0VodWRXd2R6R3ZpX0Z3T3NjVXVEM1k3ejhrQm41cGJxSW0tOGxKOGpWVjRuNGxhVGo1WkJqWGFnYURhOUd5OGtwYnpFRXJlOUF1SEJhMXdQaVdfNzRlVVR5WWtGUDdLNVZMWHBEWUZHaEx3Zm5pZFZnNkNzeW9lWDU3N2NrTUEzX05NcktsNFg3?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "Суд ликвидировал «Цифровые решения» по иску ЦБ - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxQd2RDX0VodWRXd2R6R3ZpX0Z3T3NjVXVEM1k3ejhrQm41cGJxSW0tOGxKOGpWVjRuNGxhVGo1WkJqWGFnYURhOUd5OGtwYnpFRXJlOUF1SEJhMXdQaVdfNzRlVVR5WWtGUDdLNVZMWHBEWUZHaEx3Zm5pZFZnNkNzeW9lWDU3N2NrTUEzX05NcktsNFg3?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 22:07:57 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
           "sourceName": "prospect.com.ru"
         }
       ]
@@ -294,17 +306,23 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
-      "latestSourceName": "novostivoronezha.ru",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -337,7 +355,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 05:37:50 GMT",
+      "latestPublishedAt": "Thu, 22 Oct 2026 05:29:11 GMT",
       "latestTitle": "\"РСХБ Лизинг\" оптимизирует бизнес-процессы с помощью искусственного интеллекта Smart Engines - TAdviser",
       "latestUrl": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOX3hYNnNXT2x5MVJ3NDZaeUF3YUVIaEw0cnI5ZXFTc1JGSDI0YmdwYzVlWTg1RkxvbnljTFJ1WUZyOU9BeUo1VktoRXhWMXc0T1EtTzhCNzZ0d0tRMEU5akNaNFp1VXdjb2xRa2RRV2pKMmRpUng0dkVpVWEtUjhjSXZ5QktLSkt1ZFJjdTM4SXFBYkxnN1Izb0ljaDBoY0xuY285cF9zQjNpT1NUYktOT0xITTZjM2NOcjFyRVRwSmZ0WlpwY2o1eDFtV1J5TmhwQkVMeFZMaklHWXhuaGlNMTRVdG9pejlKRl8tbXhZcjFKQmZTSFpfUXZXbHBnLTBsRWRjVXVKQUhPdHJxcDI4YzZyVjN3SDNkUDc1NzVtRS1wMUdDZlg4LVBENklEU2M?oc=5",
       "latestSourceName": "TAdviser",
@@ -345,7 +363,7 @@ export const liveMarketSnapshot = {
         {
           "title": "\"РСХБ Лизинг\" оптимизирует бизнес-процессы с помощью искусственного интеллекта Smart Engines - TAdviser",
           "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOX3hYNnNXT2x5MVJ3NDZaeUF3YUVIaEw0cnI5ZXFTc1JGSDI0YmdwYzVlWTg1RkxvbnljTFJ1WUZyOU9BeUo1VktoRXhWMXc0T1EtTzhCNzZ0d0tRMEU5akNaNFp1VXdjb2xRa2RRV2pKMmRpUng0dkVpVWEtUjhjSXZ5QktLSkt1ZFJjdTM4SXFBYkxnN1Izb0ljaDBoY0xuY285cF9zQjNpT1NUYktOT0xITTZjM2NOcjFyRVRwSmZ0WlpwY2o1eDFtV1J5TmhwQkVMeFZMaklHWXhuaGlNMTRVdG9pejlKRl8tbXhZcjFKQmZTSFpfUXZXbHBnLTBsRWRjVXVKQUhPdHJxcDI4YzZyVjN3SDNkUDc1NzVtRS1wMUdDZlg4LVBENklEU2M?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 05:37:50 GMT",
+          "publishedAt": "Thu, 22 Oct 2026 05:29:11 GMT",
           "sourceName": "TAdviser"
         },
         {
@@ -774,17 +792,24 @@ export const liveMarketSnapshot = {
     "insighter": {
       "companyId": "insighter",
       "companyName": "Insighter",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
-      "fundingMentions": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 23 Oct 2026 15:02:32 GMT",
+      "latestTitle": "Ликвидировано позиций на $335 млн — рынок наказывает обе стороны - Binance",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05QVlyVnJTSzBzbWFaTDdPM3o3eWF6WHhVQk5VcWFzaldhQjg3aEdCa3ZOWFVUdkw4c0FOM2hMS3NMV3lubjZIUE9iVXlCYW1vSUU4SmZUcGxDM05kdHlXZmh5ZEs?oc=5",
+      "latestSourceName": "Binance",
+      "sources": [
+        {
+          "title": "Ликвидировано позиций на $335 млн — рынок наказывает обе стороны - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05QVlyVnJTSzBzbWFaTDdPM3o3eWF6WHhVQk5VcWFzaldhQjg3aEdCa3ZOWFVUdkw4c0FOM2hMS3NMV3lubjZIUE9iVXlCYW1vSUU4SmZUcGxDM05kdHlXZmh5ZEs?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 15:02:32 GMT",
+          "sourceName": "Binance"
+        }
+      ]
     },
     "legiscan": {
       "companyId": "legiscan",
@@ -853,7 +878,7 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1349,7 +1374,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 8,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1372,6 +1397,12 @@ export const liveMarketSnapshot = {
           "sourceName": "https://iludinovo.com/news.xml"
         },
         {
+          "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - rospotrebnadzor.ru",
+          "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
+          "sourceName": "rospotrebnadzor.ru"
+        },
+        {
           "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 15:25:25 GMT",
@@ -1382,12 +1413,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZHhFZWc3NjJ4cHJrNHhtTlJ5QWhaYXRHcElnc1R5S2RGZVNCVHdVTS1MWmhMYk1HVzlCWDR5YndiOThZV2ZPTDZvSlpXb0x1WkJlcjVhTWNaaVMzenplLW5ZMWthY3MydzNsY202MXE1MHFjSHRWU2xnVmprWU8za2Vn?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 14:00:00 GMT",
           "sourceName": "GameMAG"
-        },
-        {
-          "title": "В Тверской области растёт охват Всероссийской олимпиады школьников - Tverlife.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlJQR3hEb1BoTVRBRG56d1BTakhGcGRaS1pQMXJpSkVXdDJNTGZGbERYNUZUUTM1aENwRXNWZms5bHhsbWtUQlluc3FLVzZBNzRpVkdEbmx6c1Qxc0REX25DM0QtekVGMnRTOGdFVUQ5YXpMYlRrNTJMQXRxRGRnanVCV1Uwd1Z0SHpQUHZHMXctMmJCUFd1cWFB?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 13:25:38 GMT",
-          "sourceName": "Tverlife.ru"
         }
       ]
     },
