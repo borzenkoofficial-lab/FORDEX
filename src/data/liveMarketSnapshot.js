@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-24T17:41:42.527Z",
+  "generatedAt": "2026-10-24T19:53:33.276Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -174,17 +174,24 @@ export const liveMarketSnapshot = {
     "medical-visual-systems": {
       "companyId": "medical-visual-systems",
       "companyName": "Medical Visual Systems",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
+      "latestSourceName": "TAdviser",
+      "sources": [
+        {
+          "title": "ТелеМедХаб: Дистанционный мониторинг состояния здоровья пациентов - TAdviser",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE03OFhhOFVFeGtQbDdCV1VyU0R6Y1I1T2VSSEpEekxKNXNNcHB2THoyc2RTNW5CUWExOHFjbTFwamVWYmpsZUc4?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "sourceName": "TAdviser"
+        }
+      ]
     },
     "neiry": {
       "companyId": "neiry",
@@ -250,17 +257,30 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 0,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+      "latestSourceName": "prospect.com.ru",
+      "sources": [
+        {
+          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+          "sourceName": "prospect.com.ru"
+        }
+      ]
     },
     "platformeco": {
       "companyId": "platformeco",
@@ -280,17 +300,23 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
-      "latestSourceName": "novostivoronezha.ru",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -384,16 +410,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
@@ -812,10 +838,10 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 1,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Wed, 21 Oct 2026 08:25:47 GMT",
@@ -827,6 +853,18 @@ export const liveMarketSnapshot = {
           "title": "Торжественное открытие баскетбольного турнира для начальных школ Ханоя — Кубка Nestlé Milo 2026. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 08:25:47 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве с целью распространения среди молодежи страсти к баскетболу и активному образу жизни. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNbGx0UEEwbGZBWV9EWTVrU1VteUwxb1lFbGNqOWNydU9yTmFaRk9ZMDJvQ1p0d20tdFFBVXdfWEhsOXhyYjlxN1JKZFNXcHN0czFMcGdCMF9BUFFlWU83R1M5WmhtV2xqejRhaHMzdEI0OHlmc1N6TzZNRU1PX2hDSDhlZk5ZMF9CaW95QXBnUEFST05Mcmdwb0lFN0NDOHdCbWtXSkpoTWUzWXUxYXRveUpickd5NEFCS0ZTeWo5c05HT0owbUE?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Компания Nestlé и НБА объявляют о глобальном партнерстве, направленном на распространение страсти к баскетболу. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQMm1TRjJHUmRaX2x0Uy14Q3UyN2Y2Mldqbm1pNl9paTJnaXFBMnJUMTI2LThhc3VwWVJrTDNieGVxSkFObW1lQ2taSFFFV3d6OEdFUjdYZ0FjNkEwcjFWQ3paUUd4a0lsMGMweTlLcDZOczgzajlKTjBfZm5oYm16Qk5FZEVaeHNkQ1ZGT2ZlOE5FdkxJbmp3?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1330,7 +1368,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1365,10 +1403,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Ведомости"
         },
         {
-          "title": "Премиальный охват: Обзор монитора Samsung Odyssey OLED G8 G80SH - GameMAG",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxPZHhFZWc3NjJ4cHJrNHhtTlJ5QWhaYXRHcElnc1R5S2RGZVNCVHdVTS1MWmhMYk1HVzlCWDR5YndiOThZV2ZPTDZvSlpXb0x1WkJlcjVhTWNaaVMzenplLW5ZMWthY3MydzNsY202MXE1MHFjSHRWU2xnVmprWU8za2Vn?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 14:00:00 GMT",
-          "sourceName": "GameMAG"
+          "title": "В Тверской области растёт охват Всероссийской олимпиады школьников - Tverlife.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlJQR3hEb1BoTVRBRG56d1BTakhGcGRaS1pQMXJpSkVXdDJNTGZGbERYNUZUUTM1aENwRXNWZms5bHhsbWtUQlluc3FLVzZBNzRpVkdEbmx6c1Qxc0REX25DM0QtekVGMnRTOGdFVUQ5YXpMYlRrNTJMQXRxRGRnanVCV1Uwd1Z0SHpQUHZHMXctMmJCUFd1cWFB?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 13:25:38 GMT",
+          "sourceName": "Tverlife.ru"
         }
       ]
     },
