@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-25T17:55:26.742Z",
+  "generatedAt": "2026-10-25T20:05:07.592Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,8 +107,8 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 6,
-      "fundingMentions": 0,
+      "sourceCount7d": 9,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -136,16 +136,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Что не так со скоростью Lada Iskra — объяснение эксперта - Авто Mail",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZGNVWHNfMm1VXy1VRnlLYW9rMGE1YzFnZ0tSVXpnOFRTenJBQmt0R19xZDU3aUpWeElHSllfOGNueUI0VF9qY29vTXN6c3pYSndaVmtYWFRNNFFkNWlqeHFPNVZtM1QxUkJWeFZtLVY5RmZhZmZEVmpEUFZWY1lvWFM4UDdocGxRaGw2bmhITkhXbFlYMENJ?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 08:10:00 GMT",
-          "sourceName": "Авто Mail"
+          "title": "Три самых доступных новых авто с автоматом в России: что выбрать и на чём сэкономить - Авто Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZOEdyT2RNOElUYjZKbkxlZ0ttY1VNakNTdGF6TGs2Rk5Jd1h1NVZLSWJPd0NORnd0RHh3QUtoRFdmcEtBMVRVelFHZFBCbXpX0gFWQVVfeXFMT0l4TFBkVlZpanhTX3ZiT3NOamo0UEFndWN4MEREZURsU1NrTmUzVmxmSWZPWm5BNDdHY0NvM2NPQl95OER3YVA0RGJnTG5JWkU4MFhXV1E?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 21:04:55 GMT",
+          "sourceName": "Авто Юга.ру"
         },
         {
-          "title": "Спидометр, кресло и круиз-контроль: на что жалуются первые владельцы Lada Iskra - Главный Региональный",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRWVuWkxBTHB5bTRiQUxwVnhvYTVyLWlxcElpWWJHbEUtb1JGTzA4SWxXNGNHWnRqLVN3eHlGRjNnV3pMYzdiMmZXdmw1a1JKZlhEbmlBWlRNTDZjaE9NTndaZXhhZDlOdFpJM2tzSFFnbjJaUEpSbmxQbU5rNTRZRg?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 06:52:58 GMT",
-          "sourceName": "Главный Региональный"
+          "title": "Выход мощной Lada Iskra: какой расход и разгон ждать с механикой и автоматом - REGIONS.ru",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWV94blZfemJjbGFybndxWmk4TkxsU3k0c2p5bVppQy1lVTVSTklLNkl0VGFyQTVpSHl1VlVxWXVieG1WSlJHSG55MklxRU1scWRRSkM5TFE3dDJhMElFWkc4TEhSNWFhSFlBaTljWWoyVm5yZ0x1M05pWVFJMDVCWnhrQm5VaWVsXzFza0locS13NjNhTlQzbGh3bjFlRmdQUGZoTFhSdktoZw?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 14:26:00 GMT",
+          "sourceName": "REGIONS.ru"
         }
       ]
     },
@@ -257,17 +257,30 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 0,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+      "latestSourceName": "prospect.com.ru",
+      "sources": [
+        {
+          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+          "sourceName": "prospect.com.ru"
+        }
+      ]
     },
     "platformeco": {
       "companyId": "platformeco",
@@ -287,29 +300,17 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 3,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+      "latestSourceName": "novostivoronezha.ru",
       "sources": [
-        {
-          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "Средний возраст основателя бизнеса в 2026 году снизился до 25 лет - PrimaMedia.ru",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tc3BITHhUdkM3ekNlZmFnZUs1ODdQRnZMX3NyTzV5MVdLSGZrcGhtSzZnSDRYMGJEVDlBVUl3Y18yOXVNdnIzR1RDYw?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "PrimaMedia.ru"
-        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -1348,11 +1349,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 25 Oct 2026 12:23:00 GMT",
-      "latestTitle": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkZYZExWcVFJOTE1QWVYN2xKb1JJRmFvMjdhbDVRbGdMcTFYRDNnOHc5QjVyRi04N05jdDJFQ0pKMUhYSGlDWFhDZF9qS0Z0cC11bVhwZldYeTVsQ05USjlDTWFIS2x4SXZIWXdoX3FPNFg2ZWtwZm8yOEJoUzF2WWNSQ3g4Uk9mbW5LNTI1aFdIOHJYZmdUTXRVWFFiUTBXUzhDMjdZWWtabkgwb0cwSXlQMXVVaURK0gG3AUFVX3lxTE1hel9kNTdkanMyZE4yRmdYU3BZclFJNnJNSS1qNHhWX0dFRWowRkdNeDZjcXhPOGltUF9DdDJTSGJkcFJhenNzV2tPSHdEd0J0cHhJSU1seVlqT25ONXJpdXlrM2pFM3ZrNDNZVUFIYWp4ekN4TDVkZTVlVmNTYngxcy1nQTRTRlI4a1c2Z1NyUi1iMEhxMWFDRHVhWVE1QklrcmVfZGVTc2tFTUJvYzdGTWxHNGFMTQ?oc=5",
-      "latestSourceName": "Overclockers.ru",
+      "latestPublishedAt": "Sun, 25 Oct 2026 16:51:00 GMT",
+      "latestTitle": "Тактика армии РФ по охвату населенных пунктов с флангов и тыла больше не работает, — Маломуж - uatv.ua",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUC12c0I5NUhQYVM3bmE1c3dYd2NaZG1sVkhyaTdYNjRxdklzak4wWlNTUjVGSU1wb0ttSWI3ZGg3S3VEeHRINjJZcFpQZ2VRcldSclZJYTczcFQ2TlRieUJzUmt4SFo3d3V1dFQ5S04yUzRzRTNtckxMWVlVWWxiellWOE90c0dUS1ZJLTNuU0hYTmx6aWkxVUhsbkROb0V4R2JxR0FnTk9vV1U?oc=5",
+      "latestSourceName": "uatv.ua",
       "sources": [
+        {
+          "title": "Тактика армии РФ по охвату населенных пунктов с флангов и тыла больше не работает, — Маломуж - uatv.ua",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUC12c0I5NUhQYVM3bmE1c3dYd2NaZG1sVkhyaTdYNjRxdklzak4wWlNTUjVGSU1wb0ttSWI3ZGg3S3VEeHRINjJZcFpQZ2VRcldSclZJYTczcFQ2TlRieUJzUmt4SFo3d3V1dFQ5S04yUzRzRTNtckxMWVlVWWxiellWOE90c0dUS1ZJLTNuU0hYTmx6aWkxVUhsbkROb0V4R2JxR0FnTk9vV1U?oc=5",
+          "publishedAt": "Sun, 25 Oct 2026 16:51:00 GMT",
+          "sourceName": "uatv.ua"
+        },
         {
           "title": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkZYZExWcVFJOTE1QWVYN2xKb1JJRmFvMjdhbDVRbGdMcTFYRDNnOHc5QjVyRi04N05jdDJFQ0pKMUhYSGlDWFhDZF9qS0Z0cC11bVhwZldYeTVsQ05USjlDTWFIS2x4SXZIWXdoX3FPNFg2ZWtwZm8yOEJoUzF2WWNSQ3g4Uk9mbW5LNTI1aFdIOHJYZmdUTXRVWFFiUTBXUzhDMjdZWWtabkgwb0cwSXlQMXVVaURK0gG3AUFVX3lxTE1hel9kNTdkanMyZE4yRmdYU3BZclFJNnJNSS1qNHhWX0dFRWowRkdNeDZjcXhPOGltUF9DdDJTSGJkcFJhenNzV2tPSHdEd0J0cHhJSU1seVlqT25ONXJpdXlrM2pFM3ZrNDNZVUFIYWp4ekN4TDVkZTVlVmNTYngxcy1nQTRTRlI4a1c2Z1NyUi1iMEhxMWFDRHVhWVE1QklrcmVfZGVTc2tFTUJvYzdGTWxHNGFMTQ?oc=5",
@@ -1376,12 +1383,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
           "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
           "sourceName": "Rospotrebnadzor.ru"
-        },
-        {
-          "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 15:25:25 GMT",
-          "sourceName": "Ведомости"
         }
       ]
     },
