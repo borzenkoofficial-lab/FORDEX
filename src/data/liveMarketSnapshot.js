@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-25T20:05:07.592Z",
+  "generatedAt": "2026-10-25T22:52:23.326Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,8 +107,8 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
-      "fundingMentions": 1,
+      "sourceCount7d": 6,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -136,16 +136,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Три самых доступных новых авто с автоматом в России: что выбрать и на чём сэкономить - Авто Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZOEdyT2RNOElUYjZKbkxlZ0ttY1VNakNTdGF6TGs2Rk5Jd1h1NVZLSWJPd0NORnd0RHh3QUtoRFdmcEtBMVRVelFHZFBCbXpX0gFWQVVfeXFMT0l4TFBkVlZpanhTX3ZiT3NOamo0UEFndWN4MEREZURsU1NrTmUzVmxmSWZPWm5BNDdHY0NvM2NPQl95OER3YVA0RGJnTG5JWkU4MFhXV1E?oc=5",
-          "publishedAt": "Fri, 23 Oct 2026 21:04:55 GMT",
-          "sourceName": "Авто Юга.ру"
+          "title": "Завод не поднял прайсы, а на Vesta и Iskra вовсе снизил: что происходит в шоурумах Dabracar прямо сейчас - av.by",
+          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNMTJTYlpOS0l1SE9hWjNTWDh3R3Z2LUVxTFMwMHhQV1k2bjlaN0hZTjBOdmlYOHdaamx4QkVPcUdpRlFiamVYdUJUYUdpRXl6a2MxX05GcUNubzVHa2hlSi11STVBaDhaS1dr?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 21:00:00 GMT",
+          "sourceName": "av.by"
         },
         {
-          "title": "Выход мощной Lada Iskra: какой расход и разгон ждать с механикой и автоматом - REGIONS.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWV94blZfemJjbGFybndxWmk4TkxsU3k0c2p5bVppQy1lVTVSTklLNkl0VGFyQTVpSHl1VlVxWXVieG1WSlJHSG55MklxRU1scWRRSkM5TFE3dDJhMElFWkc4TEhSNWFhSFlBaTljWWoyVm5yZ0x1M05pWVFJMDVCWnhrQm5VaWVsXzFza0locS13NjNhTlQzbGh3bjFlRmdQUGZoTFhSdktoZw?oc=5",
-          "publishedAt": "Fri, 23 Oct 2026 14:26:00 GMT",
-          "sourceName": "REGIONS.ru"
+          "title": "Что не так со скоростью Lada Iskra — объяснение эксперта - Авто Mail",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZGNVWHNfMm1VXy1VRnlLYW9rMGE1YzFnZ0tSVXpnOFRTenJBQmt0R19xZDU3aUpWeElHSllfOGNueUI0VF9qY29vTXN6c3pYSndaVmtYWFRNNFFkNWlqeHFPNVZtM1QxUkJWeFZtLVY5RmZhZmZEVmpEUFZWY1lvWFM4UDdocGxRaGw2bmhITkhXbFlYMENJ?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 08:10:00 GMT",
+          "sourceName": "Авто Mail"
         }
       ]
     },
@@ -263,7 +263,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
       "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -271,7 +271,7 @@ export const liveMarketSnapshot = {
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -300,17 +300,23 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
-      "latestSourceName": "novostivoronezha.ru",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
