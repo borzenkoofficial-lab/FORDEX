@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-24T22:46:00.732Z",
+  "generatedAt": "2026-10-25T01:56:47.024Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -257,7 +257,7 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -272,6 +272,12 @@ export const liveMarketSnapshot = {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
+          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
           "sourceName": "prospect.com.ru"
         }
       ]
@@ -337,7 +343,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
+      "sourceCount30d": 7,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -353,6 +359,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirwJBVV95cUxOX3hYNnNXT2x5MVJ3NDZaeUF3YUVIaEw0cnI5ZXFTc1JGSDI0YmdwYzVlWTg1RkxvbnljTFJ1WUZyOU9BeUo1VktoRXhWMXc0T1EtTzhCNzZ0d0tRMEU5akNaNFp1VXdjb2xRa2RRV2pKMmRpUng0dkVpVWEtUjhjSXZ5QktLSkt1ZFJjdTM4SXFBYkxnN1Izb0ljaDBoY0xuY285cF9zQjNpT1NUYktOT0xITTZjM2NOcjFyRVRwSmZ0WlpwY2o1eDFtV1J5TmhwQkVMeFZMaklHWXhuaGlNMTRVdG9pejlKRl8tbXhZcjFKQmZTSFpfUXZXbHBnLTBsRWRjVXVKQUhPdHJxcDI4YzZyVjN3SDNkUDc1NzVtRS1wMUdDZlg4LVBENklEU2M?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 05:29:11 GMT",
           "sourceName": "TAdviser"
+        },
+        {
+          "title": "ИИ расширяет возможности компьютерной томографии: дайджест недели Smart Tomo Engine - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE80Ym1rQmM0SHV3ZEtZMEpyMktjY2VoZnJjYUhGamREcEw0b2hRNzZFSVEzNEF4cDQ3ZC15bG5KUzBfT0lKWWFWM3RneThBamJUclNfTWVtSGl0eDhxcDlHMUg5cjY3ZDRmLW5MatIBWEFVX3lxTE1OZFo4NDRSSlJuVlgzbEVWaDBYb3haUTlnR20yZEJkMTBDcjN1MmR2UUpBQ1AyMTZPbEpBM0F1TjR3Z2NkZ2ZUaC1lc1R2eTkwZkFvUmNIUV8?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
         },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
@@ -371,12 +383,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
           "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "Первый в мире носимый томограф создала российская Smart Engines - Сделано у нас",
-          "url": "https://news.google.com/rss/articles/CBMiTEFVX3lxTE9lWGkxdkFRQlN0TzA4TXdCQnE2eld0YjNDN29wZ1VqNndUMHlqMFN5cWVvYmRVREx3OGR5bTZoWUVCdHFjVjBZdi10bk0?oc=5",
-          "publishedAt": "Fri, 25 Sep 2026 10:09:07 GMT",
-          "sourceName": "Сделано у нас"
         }
       ]
     },
@@ -1361,22 +1367,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 23 Oct 2026 15:01:05 GMT",
-      "latestTitle": "Уралсиб вошел в топ-10 банков России по числу офисов и охвату регионов - Юга.ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDVlbUdrdnhMMm1FV2ZtM3NZZU5oSXQxRnQya25URFlMbDVCZjFvN19vUWRJNGdNS0h3WW9TTUpBaG4yLWlOSktRbFNoZ20tcERpdnI2WmkyOU51QmU1blEzc2ZGSzlPalIzV1VSOU9KcC1lVlVJd0NJb1ZaMkd6Y2dLdkNKZVlWam1yWlpuMDNaVGRvSXBnZ1p0WUJBXzZJRURtdUVJWE5LY1lsSnBV0gGvAUFVX3lxTE5INWVtR2t2eEwybUVXZm0zc1llTmhJdDFGdDJrblREWUxsNUJmMW83X29RZEk0Z01LSHdZb1NNSkFobjItaU5KS1FsU2hnbS1wRGl2cjZaaTI5TnVCZTVuUTNzZkZLOU9qUjNXVVI5T0pwLWVWVUl3Q0lvVloyR3pjZ0t2Q0plWVZqbXJaWm4wM1pUZG9JcGdnWnRZQkFfNklFRG11RUlYTktjWWxKcFU?oc=5",
-      "latestSourceName": "Юга.ру",
+      "latestPublishedAt": "Sat, 24 Oct 2026 00:06:23 GMT",
+      "latestTitle": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
+          "publishedAt": "Sat, 24 Oct 2026 00:06:23 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Уралсиб вошел в топ-10 банков России по числу офисов и охвату регионов - Юга.ру",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOSDVlbUdrdnhMMm1FV2ZtM3NZZU5oSXQxRnQya25URFlMbDVCZjFvN19vUWRJNGdNS0h3WW9TTUpBaG4yLWlOSktRbFNoZ20tcERpdnI2WmkyOU51QmU1blEzc2ZGSzlPalIzV1VSOU9KcC1lVlVJd0NJb1ZaMkd6Y2dLdkNKZVlWam1yWlpuMDNaVGRvSXBnZ1p0WUJBXzZJRURtdUVJWE5LY1lsSnBV0gGvAUFVX3lxTE5INWVtR2t2eEwybUVXZm0zc1llTmhJdDFGdDJrblREWUxsNUJmMW83X29RZEk0Z01LSHdZb1NNSkFobjItaU5KS1FsU2hnbS1wRGl2cjZaaTI5TnVCZTVuUTNzZkZLOU9qUjNXVVI5T0pwLWVWVUl3Q0lvVloyR3pjZ0t2Q0plWVZqbXJaWm4wM1pUZG9JcGdnWnRZQkFfNklFRG11RUlYTktjWWxKcFU?oc=5",
           "publishedAt": "Fri, 23 Oct 2026 15:01:05 GMT",
           "sourceName": "Юга.ру"
-        },
-        {
-          "title": "Станислав Кондрашов: Почему LinkedIn режет охваты у шаблонных постов - https://iludinovo.com/news.xml",
-          "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxOUUxaSm9YZFEzUEpyMDR5elFGQzR6WkNGb2V2TmRDcnZvbWNuOGdlWVBHbndvRWk3aTNHRWJGaTFxS1dxb2I3WDdFU29YRjFXWGppbHBKNHdIdEJGSFNWUTlhLVJQdTF0RmN4SVZqUXVTTzNQT0pNakpiQjZMYzFmMEgzYjI3STFNb1NqNHFtWEYxT0tFc1E?oc=5",
-          "publishedAt": "Fri, 23 Oct 2026 09:40:14 GMT",
-          "sourceName": "https://iludinovo.com/news.xml"
         },
         {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - rospotrebnadzor.ru",
