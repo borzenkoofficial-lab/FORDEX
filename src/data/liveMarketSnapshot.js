@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-25T13:24:54.847Z",
+  "generatedAt": "2026-10-25T17:55:26.742Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -212,7 +212,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 6,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -241,40 +241,33 @@ export const liveMarketSnapshot = {
           "sourceName": "Ростех"
         },
         {
-          "title": "NtechLab: нейросеть выявляет самокатчиков в запретных зонах столицы Марий Эл - Рамблер",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxONy1kWGtnUm5qU29rejJ2c2V1VHNfR3hRX0JPbnNvck51OVg5Q3U2MDRoRHhlcFFyc0ZnaTN4VmhNTUtwSmlqTkRBaDVHZVJFU09FbXlmNzJLNy1QYnpMM0xsQ2lHZkdmUnloSkYxbzFxNlNHOWlzRWhyNzRDekpYZWJ4OExfRUFqSk9yaUFRUmc1MlpzOTZQWHoyT3hxck4wbWNsaWU4MkVFcEJBWVpxX1lKMC1UY1U2aWFZNnlqR25sUnls0gHEAUFVX3lxTE43LWRYa2dSbmpTb2t6MnZzZXVUc19HeFFfQk9uc29yTnU5WDlDdTYwNGhEeGVwUXJzRmdpM3hWaE1NS3BKaWpOREFoNUdlUkVTT0VteWY3Mks3LVBiekwzTGxDaUdmR2ZSeWhKRjFvMXE2U0c5aXNFaHI3NEN6SlhlYng4TF9FQWpKT3JpQVFSZzUyWnM5NlBYejJPeHFyTjBtY2xpZTgyRUVwQkFZWnFfWUowLVRjVTZpYVk2eWpHbmxSeWw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 08:00:28 GMT",
-          "sourceName": "Рамблер"
-        },
-        {
           "title": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
           "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
+        },
+        {
+          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
+          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
+          "sourceName": "ITSpeaker"
         }
       ]
     },
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
-      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-      "latestSourceName": "prospect.com.ru",
-      "sources": [
-        {
-          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
-          "sourceName": "prospect.com.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "platformeco": {
       "companyId": "platformeco",
@@ -456,12 +449,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 0,
       "latestPublishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
       "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
         {
           "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
           "sourceName": "Webiomed"
         },
@@ -996,23 +989,17 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
-      "latestTitle": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
-      "latestSourceName": "Restate.ru",
+      "latestPublishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
+      "latestTitle": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
+      "latestSourceName": "Всеостройке.рф",
       "sources": [
-        {
-          "title": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 11:40:00 GMT",
-          "sourceName": "Restate.ru"
-        },
         {
           "title": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
@@ -1302,7 +1289,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 25 Oct 2026 11:03:27 GMT",
+      "latestPublishedAt": "Sun, 25 Oct 2026 11:08:09 GMT",
       "latestTitle": "Ангел-агроном и извечный Калошин - Правда Севера",
       "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4SkZVT1F2ODk5emg0cnVhT3VJdGQ4NWZJZFk5bDBwZV96UFFuZUFZMGp1QXJ4a3lGLU9QQmJWZ0ZSMHprSzBEdUJmNU5lMmx6d0p6aXh1ZlRSazdPOWN1Q2hDVnp4VGtBU3lhdzBRTktJUQ?oc=5",
       "latestSourceName": "Правда Севера",
@@ -1310,7 +1297,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Ангел-агроном и извечный Калошин - Правда Севера",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4SkZVT1F2ODk5emg0cnVhT3VJdGQ4NWZJZFk5bDBwZV96UFFuZUFZMGp1QXJ4a3lGLU9QQmJWZ0ZSMHprSzBEdUJmNU5lMmx6d0p6aXh1ZlRSazdPOWN1Q2hDVnp4VGtBU3lhdzBRTktJUQ?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 11:03:27 GMT",
+          "publishedAt": "Sun, 25 Oct 2026 11:08:09 GMT",
           "sourceName": "Правда Севера"
         }
       ]
@@ -1356,16 +1343,22 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 8,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 24 Oct 2026 00:06:23 GMT",
-      "latestTitle": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Sun, 25 Oct 2026 12:23:00 GMT",
+      "latestTitle": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkZYZExWcVFJOTE1QWVYN2xKb1JJRmFvMjdhbDVRbGdMcTFYRDNnOHc5QjVyRi04N05jdDJFQ0pKMUhYSGlDWFhDZF9qS0Z0cC11bVhwZldYeTVsQ05USjlDTWFIS2x4SXZIWXdoX3FPNFg2ZWtwZm8yOEJoUzF2WWNSQ3g4Uk9mbW5LNTI1aFdIOHJYZmdUTXRVWFFiUTBXUzhDMjdZWWtabkgwb0cwSXlQMXVVaURK0gG3AUFVX3lxTE1hel9kNTdkanMyZE4yRmdYU3BZclFJNnJNSS1qNHhWX0dFRWowRkdNeDZjcXhPOGltUF9DdDJTSGJkcFJhenNzV2tPSHdEd0J0cHhJSU1seVlqT25ONXJpdXlrM2pFM3ZrNDNZVUFIYWp4ekN4TDVkZTVlVmNTYngxcy1nQTRTRlI4a1c2Z1NyUi1iMEhxMWFDRHVhWVE1QklrcmVfZGVTc2tFTUJvYzdGTWxHNGFMTQ?oc=5",
+      "latestSourceName": "Overclockers.ru",
       "sources": [
+        {
+          "title": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkZYZExWcVFJOTE1QWVYN2xKb1JJRmFvMjdhbDVRbGdMcTFYRDNnOHc5QjVyRi04N05jdDJFQ0pKMUhYSGlDWFhDZF9qS0Z0cC11bVhwZldYeTVsQ05USjlDTWFIS2x4SXZIWXdoX3FPNFg2ZWtwZm8yOEJoUzF2WWNSQ3g4Uk9mbW5LNTI1aFdIOHJYZmdUTXRVWFFiUTBXUzhDMjdZWWtabkgwb0cwSXlQMXVVaURK0gG3AUFVX3lxTE1hel9kNTdkanMyZE4yRmdYU3BZclFJNnJNSS1qNHhWX0dFRWowRkdNeDZjcXhPOGltUF9DdDJTSGJkcFJhenNzV2tPSHdEd0J0cHhJSU1seVlqT25ONXJpdXlrM2pFM3ZrNDNZVUFIYWp4ekN4TDVkZTVlVmNTYngxcy1nQTRTRlI4a1c2Z1NyUi1iMEhxMWFDRHVhWVE1QklrcmVfZGVTc2tFTUJvYzdGTWxHNGFMTQ?oc=5",
+          "publishedAt": "Sun, 25 Oct 2026 12:23:00 GMT",
+          "sourceName": "Overclockers.ru"
+        },
         {
           "title": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
@@ -1379,22 +1372,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Юга.ру"
         },
         {
-          "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - rospotrebnadzor.ru",
+          "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
           "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
           "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
-          "sourceName": "rospotrebnadzor.ru"
+          "sourceName": "Rospotrebnadzor.ru"
         },
         {
           "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 15:25:25 GMT",
           "sourceName": "Ведомости"
-        },
-        {
-          "title": "В Тверской области растёт охват Всероссийской олимпиады школьников - Tverlife.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOSlJQR3hEb1BoTVRBRG56d1BTakhGcGRaS1pQMXJpSkVXdDJNTGZGbERYNUZUUTM1aENwRXNWZms5bHhsbWtUQlluc3FLVzZBNzRpVkdEbmx6c1Qxc0REX25DM0QtekVGMnRTOGdFVUQ5YXpMYlRrNTJMQXRxRGRnanVCV1Uwd1Z0SHpQUHZHMXctMmJCUFd1cWFB?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 13:25:38 GMT",
-          "sourceName": "Tverlife.ru"
         }
       ]
     },
