@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-26T01:58:15.998Z",
+  "generatedAt": "2026-10-26T08:11:37.431Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -152,17 +152,23 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
-      "latestSourceName": "Business FM Санкт-Петербург",
+      "latestPublishedAt": "Mon, 26 Oct 2026 07:24:20 GMT",
+      "latestTitle": "Пост @just_ai — Блог компании Just AI — 26.10 07:24 / Хабр - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TS0xFVDluVmI1MmJ6Slo3YlVZQzhiR0ZDOTdQdU1oVUpkT2dEcV8zNVk5RlYtWUNmOUl6R1cxQlpFSV9pcmNmaVhLU1JZeC1ydGlSN0tLc0RQbVRMR2htSGp3?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Пост @just_ai — Блог компании Just AI — 26.10 07:24 / Хабр - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TS0xFVDluVmI1MmJ6Slo3YlVZQzhiR0ZDOTdQdU1oVUpkT2dEcV8zNVk5RlYtWUNmOUl6R1cxQlpFSV9pcmNmaVhLU1JZeC1ydGlSN0tLc0RQbVRMR2htSGp3?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:24:20 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
@@ -263,7 +269,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
       "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -271,7 +277,7 @@ export const liveMarketSnapshot = {
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
+          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
           "sourceName": "prospect.com.ru"
         }
       ]
@@ -294,29 +300,17 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 3,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+      "latestSourceName": "novostivoronezha.ru",
       "sources": [
-        {
-          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "Средний возраст основателя бизнеса в 2026 году снизился до 25 лет - PrimaMedia.ru",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tc3BITHhUdkM3ekNlZmFnZUs1ODdQRnZMX3NyTzV5MVdLSGZrcGhtSzZnSDRYMGJEVDlBVUl3Y18yOXVNdnIzR1RDYw?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "PrimaMedia.ru"
-        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -448,7 +442,7 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -463,12 +457,6 @@ export const liveMarketSnapshot = {
           "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
           "sourceName": "Webiomed"
         },
         {
@@ -638,17 +626,23 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
-      "latestSourceName": "Компьютерра",
+      "latestPublishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
+      "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
+      "latestSourceName": "Архыз24",
       "sources": [
+        {
+          "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
+          "sourceName": "Архыз24"
+        },
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
@@ -1002,7 +996,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
       "latestTitle": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
       "latestUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
       "latestSourceName": "Всеостройке.рф",
@@ -1010,7 +1004,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 08:01:03 GMT",
+          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
           "sourceName": "Всеостройке.рф"
         },
         {
@@ -1350,22 +1344,16 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 25 Oct 2026 16:51:00 GMT",
-      "latestTitle": "Тактика армии РФ по охвату населенных пунктов с флангов и тыла больше не работает, — Маломуж - uatv.ua",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUC12c0I5NUhQYVM3bmE1c3dYd2NaZG1sVkhyaTdYNjRxdklzak4wWlNTUjVGSU1wb0ttSWI3ZGg3S3VEeHRINjJZcFpQZ2VRcldSclZJYTczcFQ2TlRieUJzUmt4SFo3d3V1dFQ5S04yUzRzRTNtckxMWVlVWWxiellWOE90c0dUS1ZJLTNuU0hYTmx6aWkxVUhsbkROb0V4R2JxR0FnTk9vV1U?oc=5",
-      "latestSourceName": "uatv.ua",
+      "latestPublishedAt": "Sun, 25 Oct 2026 12:23:00 GMT",
+      "latestTitle": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkZYZExWcVFJOTE1QWVYN2xKb1JJRmFvMjdhbDVRbGdMcTFYRDNnOHc5QjVyRi04N05jdDJFQ0pKMUhYSGlDWFhDZF9qS0Z0cC11bVhwZldYeTVsQ05USjlDTWFIS2x4SXZIWXdoX3FPNFg2ZWtwZm8yOEJoUzF2WWNSQ3g4Uk9mbW5LNTI1aFdIOHJYZmdUTXRVWFFiUTBXUzhDMjdZWWtabkgwb0cwSXlQMXVVaURK0gG3AUFVX3lxTE1hel9kNTdkanMyZE4yRmdYU3BZclFJNnJNSS1qNHhWX0dFRWowRkdNeDZjcXhPOGltUF9DdDJTSGJkcFJhenNzV2tPSHdEd0J0cHhJSU1seVlqT25ONXJpdXlrM2pFM3ZrNDNZVUFIYWp4ekN4TDVkZTVlVmNTYngxcy1nQTRTRlI4a1c2Z1NyUi1iMEhxMWFDRHVhWVE1QklrcmVfZGVTc2tFTUJvYzdGTWxHNGFMTQ?oc=5",
+      "latestSourceName": "Overclockers.ru",
       "sources": [
-        {
-          "title": "Тактика армии РФ по охвату населенных пунктов с флангов и тыла больше не работает, — Маломуж - uatv.ua",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUC12c0I5NUhQYVM3bmE1c3dYd2NaZG1sVkhyaTdYNjRxdklzak4wWlNTUjVGSU1wb0ttSWI3ZGg3S3VEeHRINjJZcFpQZ2VRcldSclZJYTczcFQ2TlRieUJzUmt4SFo3d3V1dFQ5S04yUzRzRTNtckxMWVlVWWxiellWOE90c0dUS1ZJLTNuU0hYTmx6aWkxVUhsbkROb0V4R2JxR0FnTk9vV1U?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 16:51:00 GMT",
-          "sourceName": "uatv.ua"
-        },
         {
           "title": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkZYZExWcVFJOTE1QWVYN2xKb1JJRmFvMjdhbDVRbGdMcTFYRDNnOHc5QjVyRi04N05jdDJFQ0pKMUhYSGlDWFhDZF9qS0Z0cC11bVhwZldYeTVsQ05USjlDTWFIS2x4SXZIWXdoX3FPNFg2ZWtwZm8yOEJoUzF2WWNSQ3g4Uk9mbW5LNTI1aFdIOHJYZmdUTXRVWFFiUTBXUzhDMjdZWWtabkgwb0cwSXlQMXVVaURK0gG3AUFVX3lxTE1hel9kNTdkanMyZE4yRmdYU3BZclFJNnJNSS1qNHhWX0dFRWowRkdNeDZjcXhPOGltUF9DdDJTSGJkcFJhenNzV2tPSHdEd0J0cHhJSU1seVlqT25ONXJpdXlrM2pFM3ZrNDNZVUFIYWp4ekN4TDVkZTVlVmNTYngxcy1nQTRTRlI4a1c2Z1NyUi1iMEhxMWFDRHVhWVE1QklrcmVfZGVTc2tFTUJvYzdGTWxHNGFMTQ?oc=5",
@@ -1389,6 +1377,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
           "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
           "sourceName": "Rospotrebnadzor.ru"
+        },
+        {
+          "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 15:25:25 GMT",
+          "sourceName": "Ведомости"
         }
       ]
     },
