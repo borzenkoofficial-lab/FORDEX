@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-25T22:52:23.326Z",
+  "generatedAt": "2026-10-26T01:58:15.998Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,8 +107,8 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 6,
-      "fundingMentions": 0,
+      "sourceCount7d": 9,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -136,16 +136,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Завод не поднял прайсы, а на Vesta и Iskra вовсе снизил: что происходит в шоурумах Dabracar прямо сейчас - av.by",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNMTJTYlpOS0l1SE9hWjNTWDh3R3Z2LUVxTFMwMHhQV1k2bjlaN0hZTjBOdmlYOHdaamx4QkVPcUdpRlFiamVYdUJUYUdpRXl6a2MxX05GcUNubzVHa2hlSi11STVBaDhaS1dr?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 21:00:00 GMT",
-          "sourceName": "av.by"
+          "title": "Три самых доступных новых авто с автоматом в России: что выбрать и на чём сэкономить - Авто Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZOEdyT2RNOElUYjZKbkxlZ0ttY1VNakNTdGF6TGs2Rk5Jd1h1NVZLSWJPd0NORnd0RHh3QUtoRFdmcEtBMVRVelFHZFBCbXpX0gFWQVVfeXFMT0l4TFBkVlZpanhTX3ZiT3NOamo0UEFndWN4MEREZURsU1NrTmUzVmxmSWZPWm5BNDdHY0NvM2NPQl95OER3YVA0RGJnTG5JWkU4MFhXV1E?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 21:04:55 GMT",
+          "sourceName": "Авто Юга.ру"
         },
         {
-          "title": "Что не так со скоростью Lada Iskra — объяснение эксперта - Авто Mail",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOZGNVWHNfMm1VXy1VRnlLYW9rMGE1YzFnZ0tSVXpnOFRTenJBQmt0R19xZDU3aUpWeElHSllfOGNueUI0VF9qY29vTXN6c3pYSndaVmtYWFRNNFFkNWlqeHFPNVZtM1QxUkJWeFZtLVY5RmZhZmZEVmpEUFZWY1lvWFM4UDdocGxRaGw2bmhITkhXbFlYMENJ?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 08:10:00 GMT",
-          "sourceName": "Авто Mail"
+          "title": "Выход мощной Lada Iskra: какой расход и разгон ждать с механикой и автоматом - REGIONS.ru",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPWV94blZfemJjbGFybndxWmk4TkxsU3k0c2p5bVppQy1lVTVSTklLNkl0VGFyQTVpSHl1VlVxWXVieG1WSlJHSG55MklxRU1scWRRSkM5TFE3dDJhMElFWkc4TEhSNWFhSFlBaTljWWoyVm5yZ0x1M05pWVFJMDVCWnhrQm5VaWVsXzFza0locS13NjNhTlQzbGh3bjFlRmdQUGZoTFhSdktoZw?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 14:26:00 GMT",
+          "sourceName": "REGIONS.ru"
         }
       ]
     },
@@ -257,13 +257,13 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "latestPublishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
       "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -271,13 +271,7 @@ export const liveMarketSnapshot = {
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
-          "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "\"Ростелеком\" представил инновационные решения для промышленности Сибири - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxQenNldnNxSm5rYllGQ1lLaUZGcFhGSS1ZNkYybXRtRHB2NkR4aVJMZGNQNV80QUR2Y1dSTEkzbVFHcVNoeEU5M1RNS1JBbkNwMDhUaEdLN3FEeW1hVXBXcmkxX3hxTFBlVS1QR3gzR3VGcV94RUVKaUFYTGdXWjJ6M3ZIQnhvSWgxYWVCRUIwQWI4ck90ME51X0w2NGFYMzhtVkcycEM2Q2FQQlNHQndaeFFQOW90X1k?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 20:03:42 GMT",
+          "publishedAt": "Thu, 15 Oct 2026 15:34:34 GMT",
           "sourceName": "prospect.com.ru"
         }
       ]
@@ -300,7 +294,7 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -316,6 +310,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
           "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
           "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "Средний возраст основателя бизнеса в 2026 году снизился до 25 лет - PrimaMedia.ru",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE1tc3BITHhUdkM3ekNlZmFnZUs1ODdQRnZMX3NyTzV5MVdLSGZrcGhtSzZnSDRYMGJEVDlBVUl3Y18yOXVNdnIzR1RDYw?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "PrimaMedia.ru"
         },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
@@ -448,7 +448,7 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
+      "sourceCount30d": 4,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -463,6 +463,12 @@ export const liveMarketSnapshot = {
           "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
           "sourceName": "Webiomed"
         },
         {
@@ -632,23 +638,17 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
-      "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-      "latestSourceName": "Архыз24",
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
-        {
-          "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
-          "sourceName": "Архыз24"
-        },
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
