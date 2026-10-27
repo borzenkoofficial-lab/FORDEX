@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-27T08:25:57.247Z",
+  "generatedAt": "2026-10-27T14:58:45.256Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -106,28 +106,28 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
-      "latestTitle": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
-      "latestSourceName": "TKS.RU",
+      "latestPublishedAt": "Tue, 27 Oct 2026 11:39:53 GMT",
+      "latestTitle": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
+      "latestSourceName": "110km.ru",
       "sources": [
+        {
+          "title": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 11:39:53 GMT",
+          "sourceName": "110km.ru"
+        },
         {
           "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
           "sourceName": "TKS.RU"
-        },
-        {
-          "title": "Что покажут посетителям на производстве Lada Iskra и как устроен маршрут - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVG92UUdWeGVxSkI3enR1cXBNNWNaQkt5QWtiNTBGb290MmxrMTFTNldVMlVsbWRKd3RoZzVISHRNWHhMcTJkclBqYTY5WFc2RUV0NnZIMjhtUWMxRjZmbnljb01kWXpNU0JrRlR1QXFrOXRrY0p6M0tRQ2wzdmlnclZxUmkyZjNJcU0wQTVxd193SkEtZ1pPeHFFYll6V2M?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 13:37:43 GMT",
-          "sourceName": "110km.ru"
         },
         {
           "title": "Iskra против Granta: сравнение, которое удивит - Новости Тольятти",
@@ -136,16 +136,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Новости Тольятти"
         },
         {
+          "title": "Lada Iskra на тесте: Обнаружены проблемы с электроникой и комфортом. Анализ. - Carexpo.ru_ все авто на одном сайте",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdkNXSmg1MXN3MUFaTDlUaDFwY2ZVQ0dQcmVnNkNISUxBU2NScVUyQ3dNVlp6UVI2bVJpZmZlaUU1MFVVVnpVMjFacU9rdE5QSTg1UXpHdkYyTXhYQ3c1UU9YcWtudlBhbDVBdWJhMEZYN3VramdzS2xlMzlVTE5maXFIYktmLVhMbHVUaXBOU2I1bFhuR2lOd05R?oc=5",
+          "publishedAt": "Sun, 25 Oct 2026 06:45:25 GMT",
+          "sourceName": "Carexpo.ru_ все авто на одном сайте"
+        },
+        {
           "title": "Виснет и не работает мультимедиа Lada Iskra - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNy1CZ1pmMnF3OTNPNGF2dkFUMTU5anRxdkNPc3ZnQTRucHRKdUNCa0hpSWZXRzc2QklBYzIzUzY4Q1RVenpQUEJ1Y2duSnEwMm52blFsdG56MUw1MWl2VGFEUVBhbkMzQ3A4UmhfVGdrY0ltZDR6MkZMV3A1QmtZZ1lJUzJIaGg3STBkQmV2Q1BqWlJTQ2ZkN1dBVXU0NTg?oc=5",
           "publishedAt": "Sat, 24 Oct 2026 07:48:32 GMT",
           "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "Завод не поднял прайсы, а на Vesta и Iskra вовсе снизил: что происходит в шоурумах Dabracar прямо сейчас - av.by",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTFBNMTJTYlpOS0l1SE9hWjNTWDh3R3Z2LUVxTFMwMHhQV1k2bjlaN0hZTjBOdmlYOHdaamx4QkVPcUdpRlFiamVYdUJUYUdpRXl6a2MxX05GcUNubzVHa2hlSi11STVBaDhaS1dr?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 21:00:00 GMT",
-          "sourceName": "av.by"
         }
       ]
     },
@@ -286,17 +286,23 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
-      "latestSourceName": "novostivoronezha.ru",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
+          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -323,22 +329,22 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 05:33:49 GMT",
-      "latestTitle": "\"РСХБ Лизинг\" оптимизирует бизнес-процессы с помощью искусственного интеллекта Smart Engines - TAdviser",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNRTBSUGJMcEN2YXl0RmIyUmRVM2pSSkI2Qjg2c3BOZkFHXzEweHBCMUltM3k5MFhUR2NaeE9VYjlQZmR5Zzk3M3ZWNEpwOGhObkRhaEVPZkJCd0k0a1o4eUVKSlozSUxtUVJVQThialFGQV9XV0NBMVRFQ2I0dEhGLWNGLXRFN2RueDFWUWpCbWMtWnR2cmE4QkFWMGwxUUFqSWRvQ2ZZZE9NWE85NW4tMlFBd3Y4aXdnZzJ2bEtteDM1OHlzd19WSnprQWlxVVNuZDBLa0Iyd1paQ1VFb191NnJId2ItTWtFVFhMRlBzdVM5SVhIRkNPSlc3T2tCMXQ1Q1EyUUdmeDY4ZzBRa0hXdG1LOERCU1pfOHFuSmozNjdNVHZw?oc=5",
-      "latestSourceName": "TAdviser",
+      "latestPublishedAt": "Tue, 27 Oct 2026 09:59:03 GMT",
+      "latestTitle": "Smart Engines добавила интерактивные подсказки в систему удаленной идентификации граждан СНГ - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdlNjLVNYRGRWbDhqYW5tMWNnVE9lLXhJeWdpVEdubHZ3cjZWNmxHRVUzVm5ScW5YQlo5OHBmMXg0eGt5TndZZmNHVldHX3QyYkktVXFQNkt0aGdyMndGcmdOdEdCZVJobEh3T2ZqNXNnY1RPbXQ3eWdNbUg2UnIxSVBEZGs?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
         {
-          "title": "\"РСХБ Лизинг\" оптимизирует бизнес-процессы с помощью искусственного интеллекта Smart Engines - TAdviser",
-          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNRTBSUGJMcEN2YXl0RmIyUmRVM2pSSkI2Qjg2c3BOZkFHXzEweHBCMUltM3k5MFhUR2NaeE9VYjlQZmR5Zzk3M3ZWNEpwOGhObkRhaEVPZkJCd0k0a1o4eUVKSlozSUxtUVJVQThialFGQV9XV0NBMVRFQ2I0dEhGLWNGLXRFN2RueDFWUWpCbWMtWnR2cmE4QkFWMGwxUUFqSWRvQ2ZZZE9NWE85NW4tMlFBd3Y4aXdnZzJ2bEtteDM1OHlzd19WSnprQWlxVVNuZDBLa0Iyd1paQ1VFb191NnJId2ItTWtFVFhMRlBzdVM5SVhIRkNPSlc3T2tCMXQ1Q1EyUUdmeDY4ZzBRa0hXdG1LOERCU1pfOHFuSmozNjdNVHZw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 05:33:49 GMT",
-          "sourceName": "TAdviser"
+          "title": "Smart Engines добавила интерактивные подсказки в систему удаленной идентификации граждан СНГ - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdlNjLVNYRGRWbDhqYW5tMWNnVE9lLXhJeWdpVEdubHZ3cjZWNmxHRVUzVm5ScW5YQlo5OHBmMXg0eGt5TndZZmNHVldHX3QyYkktVXFQNkt0aGdyMndGcmdOdEdCZVJobEh3T2ZqNXNnY1RPbXQ3eWdNbUg2UnIxSVBEZGs?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 09:59:03 GMT",
+          "sourceName": "CNews.ru"
         },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
@@ -350,12 +356,6 @@ export const liveMarketSnapshot = {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines / Хабр - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDg?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
@@ -430,12 +430,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 0,
       "latestPublishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
       "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
         {
           "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
           "sourceName": "Webiomed"
         },
@@ -1317,8 +1317,8 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
-      "sourceCount7d": 8,
+      "sourceCount30d": 8,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -1335,16 +1335,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Пресс-релиз.ру"
         },
         {
-          "title": "Месячник по профилактике туберкулеза: результаты и охват населения - GOV.KZ",
-          "url": "https://news.google.com/rss/articles/CBMijAFBVV95cUxQR3Z0X2tEa1VjbEFTU08wZ1dJNzJiVmRaaWdjOTBSdm9pc3N5Qjl1UW9JZE4tbzBDR3ZPbHJpbElnZW5DNEtKSHdLcWRDYTBaaHVQSXpkMjFkNHNreTNlNUlNYUV0RmhjV1R3d3RtTVY2cDM5aUxtdVcwaF9WLVF1VDB6ZkFGWENaQlVjNQ?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 14:16:54 GMT",
-          "sourceName": "GOV.KZ"
-        },
-        {
           "title": "Охваты против голосов - Актуальные комментарии",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vWTRDSjRrU0t0b0dVSExMN042WGluRTZ0QWRwMWNRLXBRWUtEcHd6U09xTWlfWXVIcHNVYmxHRXJqbUkzQ2g4MzctTUplVXhSYkw4azVveUxJeGU0azJuZlFEdXl5cVNuYUZ2SERyMTY?oc=5",
           "publishedAt": "Mon, 26 Oct 2026 10:39:00 GMT",
           "sourceName": "Актуальные комментарии"
+        },
+        {
+          "title": "Тактика армии РФ по охвату населенных пунктов с флангов и тыла больше не работает, — Маломуж - uatv.ua",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUC12c0I5NUhQYVM3bmE1c3dYd2NaZG1sVkhyaTdYNjRxdklzak4wWlNTUjVGSU1wb0ttSWI3ZGg3S3VEeHRINjJZcFpQZ2VRcldSclZJYTczcFQ2TlRieUJzUmt4SFo3d3V1dFQ5S04yUzRzRTNtckxMWVlVWWxiellWOE90c0dUS1ZJLTNuU0hYTmx6aWkxVUhsbkROb0V4R2JxR0FnTk9vV1U?oc=5",
+          "publishedAt": "Sun, 25 Oct 2026 16:51:00 GMT",
+          "sourceName": "uatv.ua"
         },
         {
           "title": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
@@ -1353,10 +1353,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Overclockers.ru"
         },
         {
-          "title": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
-          "publishedAt": "Sat, 24 Oct 2026 00:06:23 GMT",
-          "sourceName": "Sostav.ru"
+          "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
+          "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
+          "sourceName": "Rospotrebnadzor.ru"
         }
       ]
     },
@@ -1369,7 +1369,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 27 Oct 2026 02:29:43 GMT",
+      "latestPublishedAt": "Mon, 26 Oct 2026 23:29:43 GMT",
       "latestTitle": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
       "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
       "latestSourceName": "НИА-Красноярск",
@@ -1377,7 +1377,7 @@ export const liveMarketSnapshot = {
         {
           "title": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 02:29:43 GMT",
+          "publishedAt": "Mon, 26 Oct 2026 23:29:43 GMT",
           "sourceName": "НИА-Красноярск"
         }
       ]
