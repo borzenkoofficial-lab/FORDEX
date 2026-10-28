@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-27T19:47:57.282Z",
+  "generatedAt": "2026-10-28T00:07:30.352Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -106,17 +106,23 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount30d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
-      "latestTitle": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-      "latestSourceName": "110km.ru",
+      "latestPublishedAt": "Tue, 27 Oct 2026 19:20:01 GMT",
+      "latestTitle": "Lada Iskra и Vesta SW Cross признаны лучшими среди восьми доступных бюджетных автомобилей – кто вошёл в число победителей - ВТамбове",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS2NBb0t6YXhiZ0FKQ2hBVXJudXZRb0YyeGFXSnBIWklrUEVjTjZZTXhuTl9SSjR6ZDlNLXB0czl0YnJVRjh4Q1JXRGNBMG95bE8yZTN4U2J6Mjd1SWNzVU1oWUdLY0tjU3ZmWDkyN3VMc0tDclJnMU43YzVKU3ZWXzk2akNLSUI0d0tjdGVzTHFEN2Z5cTZZYl9mQUxIY21nenZ5MUhqbnNSMjgwNmp6RDc2cmIyS25aRlBVdWRfekdCV2xSWUNnbTdRbjdpYk9BSnhNUENHbDdDNlQ1Z1JlSXpiQkp5UHNwejNLeQ?oc=5",
+      "latestSourceName": "ВТамбове",
       "sources": [
+        {
+          "title": "Lada Iskra и Vesta SW Cross признаны лучшими среди восьми доступных бюджетных автомобилей – кто вошёл в число победителей - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS2NBb0t6YXhiZ0FKQ2hBVXJudXZRb0YyeGFXSnBIWklrUEVjTjZZTXhuTl9SSjR6ZDlNLXB0czl0YnJVRjh4Q1JXRGNBMG95bE8yZTN4U2J6Mjd1SWNzVU1oWUdLY0tjU3ZmWDkyN3VMc0tDclJnMU43YzVKU3ZWXzk2akNLSUI0d0tjdGVzTHFEN2Z5cTZZYl9mQUxIY21nenZ5MUhqbnNSMjgwNmp6RDc2cmIyS25aRlBVdWRfekdCV2xSWUNnbTdRbjdpYk9BSnhNUENHbDdDNlQ1Z1JlSXpiQkp5UHNwejNLeQ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 19:20:01 GMT",
+          "sourceName": "ВТамбове"
+        },
         {
           "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
@@ -140,19 +146,13 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3dDhtZDl0Y2VOckozRGV0ZjZEdFdjV2NCYXo1bWRGRTJSbjltdVpQQjhaYWY5TjM3N3hZNGdjYm9yVWJ4ZVZwXzdCbU5kOVpXalRncWJRU212U0U5ZkZHNFRsRkpaTldlQm5NWnQ4V2FQblZiYUE?oc=5",
           "publishedAt": "Sun, 25 Oct 2026 06:50:42 GMT",
           "sourceName": "Новости Тольятти"
-        },
-        {
-          "title": "Виснет и не работает мультимедиа Lada Iskra - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNy1CZ1pmMnF3OTNPNGF2dkFUMTU5anRxdkNPc3ZnQTRucHRKdUNCa0hpSWZXRzc2QklBYzIzUzY4Q1RVenpQUEJ1Y2duSnEwMm52blFsdG56MUw1MWl2VGFEUVBhbkMzQ3A4UmhfVGdrY0ltZDR6MkZMV3A1QmtZZ1lJUzJIaGg3STBkQmV2Q1BqWlJTQ2ZkN1dBVXU0NTg?oc=5",
-          "publishedAt": "Sat, 24 Oct 2026 07:48:32 GMT",
-          "sourceName": "Лада.Онлайн"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -168,12 +168,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TS0xFVDluVmI1MmJ6Slo3YlVZQzhiR0ZDOTdQdU1oVUpkT2dEcV8zNVk5RlYtWUNmOUl6R1cxQlpFSV9pcmNmaVhLU1JZeC1ydGlSN0tLc0RQbVRMR2htSGp3?oc=5",
           "publishedAt": "Mon, 26 Oct 2026 07:24:20 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "Кто создает, регулирует и внедряет ИИ в России - Ведомости",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNlN2bHVyZS1hSUZRTzN4LWpEMzJCc2VRc2FvOThaMmdrTHdXNVJHdnRIVmhUNW9uLXpyeUpRNS1qeHRjci1JdUpzbk9OUFJlSkRPSkNQUlh6aklMZWlERHpRY1l1Q3lyeUF6N0xESThfdFc1c0JMSms4WmdNMHVlNw?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "sourceName": "Ведомости"
         },
         {
           "title": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
@@ -240,16 +234,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Ростех"
         },
         {
+          "title": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
+          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
+          "sourceName": "RTVI"
+        },
+        {
           "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
           "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
           "sourceName": "ITSpeaker"
-        },
-        {
-          "title": "250 спасенных детских жизней: как российский ИИ NtechLab ищет пропавших в Новосибирской области - RuNews24",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxPMzRDM24xZUVvaXUxTjZuS2l2azRtTjJHZFdibDhPZkpFT1ZBbGMxNXVPR29obnZER3A4NVV1ZUlNVWhCOG5FTmRoSXVUM3ZDU2VILTJTX21zRzJRcWJYMEVtYjNqencyREQ3XzFSMU1VOFZidWpuUHp0c3BpQVp5Y3ZKbWdLU25HWnZicXc3Zk40Z1BKSVZvOFJvdU8xWkVjb01GRkhPOVlmMTVQLVFaZ0VQTmptNEJuY0RRTkpnSzNweW9pNWRfMkliWHdhYnVLMlhTOHlKMnphQQ?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "RuNews24"
         },
         {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
@@ -292,23 +286,17 @@ export const liveMarketSnapshot = {
     "qummy": {
       "companyId": "qummy",
       "companyName": "Qummy",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-      "latestSourceName": "Правда.Ру",
+      "latestPublishedAt": "Tue, 29 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
+      "latestSourceName": "novostivoronezha.ru",
       "sources": [
-        {
-          "title": "Бизнес движется молодыми: почему возраст создателей стартапов в России опустился до 25 лет - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE5MRmZKMGY4Ti1seEt5Y1kyazdPdllpalBiWV8xTDlIMjlQdE95VmtrVzJpUE05dFJETmY5MFNzZV9LSXlnSm1hVWR2dG1OTF9ja2FSZkdfOUozSGlLN3FMQWdRbzJXb1Bib3AwYU1BMDYyUzRBSnc?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
         {
           "title": "Александр Ведяхин: Средний возраст основателей бизнеса в России снизился до 25 лет - novostivoronezha.ru",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9EbVdYLVFONkc1dTQtZXpWZzRmajVaWW9ES201UkUzTnk0VlJxSGF5cXFlOVdpMFJxeTM1ellzOTVvNWI2MkhpUHRBV2hKeFpReDNGdkVUakU?oc=5",
@@ -335,29 +323,17 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
-      "sourceCount7d": 2,
+      "sourceCount30d": 2,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 27 Oct 2026 09:59:03 GMT",
-      "latestTitle": "Smart Engines добавила интерактивные подсказки в систему удаленной идентификации граждан СНГ - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdlNjLVNYRGRWbDhqYW5tMWNnVE9lLXhJeWdpVEdubHZ3cjZWNmxHRVUzVm5ScW5YQlo5OHBmMXg0eGt5TndZZmNHVldHX3QyYkktVXFQNkt0aGdyMndGcmdOdEdCZVJobEh3T2ZqNXNnY1RPbXQ3eWdNbUg2UnIxSVBEZGs?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
-        {
-          "title": "Smart Engines добавила интерактивные подсказки в систему удаленной идентификации граждан СНГ - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdlNjLVNYRGRWbDhqYW5tMWNnVE9lLXhJeWdpVEdubHZ3cjZWNmxHRVUzVm5ScW5YQlo5OHBmMXg0eGt5TndZZmNHVldHX3QyYkktVXFQNkt0aGdyMndGcmdOdEdCZVJobEh3T2ZqNXNnY1RPbXQ3eWdNbUg2UnIxSVBEZGs?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 09:59:03 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "\"РСХБ Лизинг\" оптимизирует бизнес-процессы с помощью искусственного интеллекта Smart Engines - TAdviser",
-          "url": "https://news.google.com/rss/articles/CBMipAJBVV95cUxNRTBSUGJMcEN2YXl0RmIyUmRVM2pSSkI2Qjg2c3BOZkFHXzEweHBCMUltM3k5MFhUR2NaeE9VYjlQZmR5Zzk3M3ZWNEpwOGhObkRhaEVPZkJCd0k0a1o4eUVKSlozSUxtUVJVQThialFGQV9XV0NBMVRFQ2I0dEhGLWNGLXRFN2RueDFWUWpCbWMtWnR2cmE4QkFWMGwxUUFqSWRvQ2ZZZE9NWE85NW4tMlFBd3Y4aXdnZzJ2bEtteDM1OHlzd19WSnprQWlxVVNuZDBLa0Iyd1paQ1VFb191NnJId2ItTWtFVFhMRlBzdVM5SVhIRkNPSlc3T2tCMXQ1Q1EyUUdmeDY4ZzBRa0hXdG1LOERCU1pfOHFuSmozNjdNVHZw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 05:33:49 GMT",
-          "sourceName": "TAdviser"
-        },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
@@ -368,12 +344,6 @@ export const liveMarketSnapshot = {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines / Хабр - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDg?oc=5",
-          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
@@ -982,7 +952,7 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1004,6 +974,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
           "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Победителями четвертого сезона конкурса «Знай наших» стали 15 брендов | Эксперт - Эксперт",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNS1VhY1ZWVktEMXBQM1ViT1M3a1p1V3A3eHhtWlFJQmM0ckJPa2FMRVpCdnpFd0piRmxvMmh1NkpxVm9PcV9jSXh4Z0pTSy1EZ1BTeHFuM09abUxhejlzRUgyRU00UUM3UDhfZHBjOU1YeS02dDd4cjR3SXhScE5WMmFSdXU0dVE1VUFrTUtvc0J4ZWFwc2NTU3p3?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+          "sourceName": "Эксперт"
         }
       ]
     },
@@ -1341,8 +1317,8 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 10,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -1365,16 +1341,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Актуальные комментарии"
         },
         {
-          "title": "Тактика армии РФ по охвату населенных пунктов с флангов и тыла больше не работает, — Маломуж - uatv.ua",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUC12c0I5NUhQYVM3bmE1c3dYd2NaZG1sVkhyaTdYNjRxdklzak4wWlNTUjVGSU1wb0ttSWI3ZGg3S3VEeHRINjJZcFpQZ2VRcldSclZJYTczcFQ2TlRieUJzUmt4SFo3d3V1dFQ5S04yUzRzRTNtckxMWVlVWWxiellWOE90c0dUS1ZJLTNuU0hYTmx6aWkxVUhsbkROb0V4R2JxR0FnTk9vV1U?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 16:51:00 GMT",
-          "sourceName": "uatv.ua"
-        },
-        {
           "title": "HDR, 8K, 120 Гц и цветовой охват: что глаз видит, а что — маркетинг - Overclockers.ru",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNdkZYZExWcVFJOTE1QWVYN2xKb1JJRmFvMjdhbDVRbGdMcTFYRDNnOHc5QjVyRi04N05jdDJFQ0pKMUhYSGlDWFhDZF9qS0Z0cC11bVhwZldYeTVsQ05USjlDTWFIS2x4SXZIWXdoX3FPNFg2ZWtwZm8yOEJoUzF2WWNSQ3g4Uk9mbW5LNTI1aFdIOHJYZmdUTXRVWFFiUTBXUzhDMjdZWWtabkgwb0cwSXlQMXVVaURK0gG3AUFVX3lxTE1hel9kNTdkanMyZE4yRmdYU3BZclFJNnJNSS1qNHhWX0dFRWowRkdNeDZjcXhPOGltUF9DdDJTSGJkcFJhenNzV2tPSHdEd0J0cHhJSU1seVlqT25ONXJpdXlrM2pFM3ZrNDNZVUFIYWp4ekN4TDVkZTVlVmNTYngxcy1nQTRTRlI4a1c2Z1NyUi1iMEhxMWFDRHVhWVE1QklrcmVfZGVTc2tFTUJvYzdGTWxHNGFMTQ?oc=5",
           "publishedAt": "Sun, 25 Oct 2026 12:23:00 GMT",
           "sourceName": "Overclockers.ru"
+        },
+        {
+          "title": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
+          "publishedAt": "Sat, 24 Oct 2026 00:06:23 GMT",
+          "sourceName": "Sostav.ru"
         },
         {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
