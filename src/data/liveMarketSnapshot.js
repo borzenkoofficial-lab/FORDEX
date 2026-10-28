@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-28T09:03:39.901Z",
+  "generatedAt": "2026-10-28T17:29:27.249Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -108,25 +108,25 @@ export const liveMarketSnapshot = {
       "companyName": "ISKRA",
       "sourceCount30d": 10,
       "sourceCount7d": 8,
-      "fundingMentions": 1,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 27 Oct 2026 20:01:59 GMT",
-      "latestTitle": "Lada Iskra и Vesta SW Cross признаны лучшими среди восьми доступных бюджетных автомобилей – кто вошёл в число победителей - ВТамбове",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS2NBb0t6YXhiZ0FKQ2hBVXJudXZRb0YyeGFXSnBIWklrUEVjTjZZTXhuTl9SSjR6ZDlNLXB0czl0YnJVRjh4Q1JXRGNBMG95bE8yZTN4U2J6Mjd1SWNzVU1oWUdLY0tjU3ZmWDkyN3VMc0tDclJnMU43YzVKU3ZWXzk2akNLSUI0d0tjdGVzTHFEN2Z5cTZZYl9mQUxIY21nenZ5MUhqbnNSMjgwNmp6RDc2cmIyS25aRlBVdWRfekdCV2xSWUNnbTdRbjdpYk9BSnhNUENHbDdDNlQ1Z1JlSXpiQkp5UHNwejNLeQ?oc=5",
-      "latestSourceName": "ВТамбове",
+      "latestPublishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
+      "latestTitle": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
+      "latestSourceName": "110km.ru",
       "sources": [
-        {
-          "title": "Lada Iskra и Vesta SW Cross признаны лучшими среди восьми доступных бюджетных автомобилей – кто вошёл в число победителей - ВТамбове",
-          "url": "https://news.google.com/rss/articles/CBMi7AFBVV95cUxPS2NBb0t6YXhiZ0FKQ2hBVXJudXZRb0YyeGFXSnBIWklrUEVjTjZZTXhuTl9SSjR6ZDlNLXB0czl0YnJVRjh4Q1JXRGNBMG95bE8yZTN4U2J6Mjd1SWNzVU1oWUdLY0tjU3ZmWDkyN3VMc0tDclJnMU43YzVKU3ZWXzk2akNLSUI0d0tjdGVzTHFEN2Z5cTZZYl9mQUxIY21nenZ5MUhqbnNSMjgwNmp6RDc2cmIyS25aRlBVdWRfekdCV2xSWUNnbTdRbjdpYk9BSnhNUENHbDdDNlQ1Z1JlSXpiQkp5UHNwejNLeQ?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 20:01:59 GMT",
-          "sourceName": "ВТамбове"
-        },
         {
           "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
+          "sourceName": "110km.ru"
+        },
+        {
+          "title": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 11:39:53 GMT",
           "sourceName": "110km.ru"
         },
         {
@@ -228,34 +228,22 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 6,
-      "sourceCount7d": 2,
+      "sourceCount30d": 4,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 11:17:11 GMT",
-      "latestTitle": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
-      "latestSourceName": "www1.ru",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+      "latestUrl": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
+      "latestSourceName": "Ростех",
       "sources": [
         {
-          "title": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 11:17:11 GMT",
-          "sourceName": "www1.ru"
-        },
-        {
-          "title": "Медиа - Новости - Отечественный ИИ поможет выявлять самокатчиков-нарушителей в Марий Эл - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2RJai0waWxRdTJXRy00eS14U1ZGVE5WVmd2NzNIblVhVFlGY1c3TTdMbFZWb0ZXZVNCYjkxY3V0alpUQ0VyUkstaDVSX0FLV2JKV2x5UEJESGJ1QmZVRVQ4cFY0b3E5bzV4RGJjMFV3d2NTY2MwSGdnYThGS204TmFYT2xJc09XM0c1VmlRcVdEWHNpaU40Q0tiQmxQWFdYVUQxa1V3?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 10:35:22 GMT",
+          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "Ростех"
-        },
-        {
-          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
-          "sourceName": "ITSpeaker"
         },
         {
           "title": "NtechLab и холдинг «Швабе» подписали соглашение о разработках ИИ - RTVI",
@@ -268,23 +256,36 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMikAFBVV95cUxOSmE4STFSLTczSkoxSGpQV2pYRzlrOG9RcDNtbDlicGg3a25qZGsyN2V6cV9WUFhEYlFaRnBKYnRIT2c3Rmk2M21Ia3N0alhPUUFJbUluSDdrUERxWGJaQjhrX0lhdVNxQTRFQWJVRzU5YlJuckNCV2MyZFBPMGlOdzVIbW1iUjlDcklmbTA5a1Q?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Общественная служба новостей"
+        },
+        {
+          "title": "Медиа - Новости - NtechLab и «Швабе» договорились о создании совместных ИИ-разработок - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxQSzdCSGNOdzdPNy01NUd5aUxZaS1hdXdmRG1JNGxsU2hLak9BRUJybTZTdHg1ZWwtb3NycmFOR1RDblFYZERKdXVMMkliS055ajZzdGdNRGlzbldEQk5PTE1GajlmUS14ZlVYY0oteXV4cGI1a2ZQa3U3MU55YlpPUXVldFhwLTZNUzJ6QWtuaGh5Vko5RFJtRDRmZw?oc=5",
+          "publishedAt": "Thu, 01 Oct 2026 02:17:00 GMT",
+          "sourceName": "Ростех"
         }
       ]
     },
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+      "latestSourceName": "prospect.com.ru",
+      "sources": [
+        {
+          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
+          "sourceName": "prospect.com.ru"
+        }
+      ]
     },
     "platformeco": {
       "companyId": "platformeco",
@@ -341,17 +342,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 2,
-      "sourceCount7d": 0,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Tue, 27 Oct 2026 09:59:03 GMT",
+      "latestTitle": "Smart Engines добавила интерактивные подсказки в систему удаленной идентификации граждан СНГ - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdlNjLVNYRGRWbDhqYW5tMWNnVE9lLXhJeWdpVEdubHZ3cjZWNmxHRVUzVm5ScW5YQlo5OHBmMXg0eGt5TndZZmNHVldHX3QyYkktVXFQNkt0aGdyMndGcmdOdEdCZVJobEh3T2ZqNXNnY1RPbXQ3eWdNbUg2UnIxSVBEZGs?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "Smart Engines добавила интерактивные подсказки в систему удаленной идентификации граждан СНГ - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNdlNjLVNYRGRWbDhqYW5tMWNnVE9lLXhJeWdpVEdubHZ3cjZWNmxHRVUzVm5ScW5YQlo5OHBmMXg0eGt5TndZZmNHVldHX3QyYkktVXFQNkt0aGdyMndGcmdOdEdCZVJobEh3T2ZqNXNnY1RPbXQ3eWdNbUg2UnIxSVBEZGs?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 09:59:03 GMT",
+          "sourceName": "CNews.ru"
+        },
         {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
@@ -362,6 +369,12 @@ export const liveMarketSnapshot = {
           "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
           "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Неделя OCR для LLM — в Telegram-канале Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTFAzTHh4R0pEU0hVQlp3X2xLZGZrWkhrcUtadm9kcDFUQWNBNUFXY3ZsTzhFSDRfVWxSVTJuN0VieVlUZDhDMEJkZnkwNmtrQ3A4LXhpQzNvOXNpUnBHZElqanM4M3dIWDjSAVhBVV95cUxPVi1ZQ21nRzBTLW5RWERJNjYyQUhnbzdRMkRfZ2JNRWgwY21xNnI5a3E0dFBOQzhJQTNjblpGblJCMzQweG5YRmp5Q3p0OXdSMDdWbkthU3Et?oc=5",
+          "publishedAt": "Fri, 02 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
@@ -406,7 +419,7 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -422,33 +435,33 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "sourceName": "Телеспутник"
         }
       ]
     },
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
       "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
         {
           "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFAtd0dtdkdfODBpN19LX0lOX1hqR2szSjdaX0xvbnY4bzF6LXJJdWNFUXg0dnlSaE1pX0FZZk5YUElMTDJnUXJYaFdYM1JsQk4ybml1RlRRMGQ3UVk?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
           "sourceName": "Webiomed"
         },
         {
@@ -1328,22 +1341,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 28 Oct 2026 08:18:34 GMT",
-      "latestTitle": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
-      "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JRkY4aGF0ajljZmF5QU9zRTlmWnl2TkFnQ3k1eGlYQlRjWXh1QmxGUUVyVVpwSlZFWXV3MGN2ZkhNV05yeGxEbU1kTlVmVUlqejd4YTFKMWY3ZG5pZ3YtV2JkQmJqRzVFLUVmZlpLRWhQdw?oc=5",
-      "latestSourceName": "AdIndex",
+      "latestPublishedAt": "Wed, 28 Oct 2026 10:02:27 GMT",
+      "latestTitle": "Организация Que Phuoc стремится к достижению уровня охвата медицинским страхованием в 95% к 2026 году. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM214R05EUnNzUkExT2xwemhvOG16a2ZoUGdwSE9pM2hlNGsyZ0JaSjl2TE8tOVc1TFllNUZJQ3pkWXlLSmZEa1h3VHdZNEQ5Y2JrenJkTFhqQUtNZXlmRTdyWTlycUxWZEpfTmw1Ym5pemFBdmhWYjhLNFQ1ZU1SOW42WWY5MjNVWno4bi1wajJRTnpDc3Z2c1l3?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
         {
-          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JRkY4aGF0ajljZmF5QU9zRTlmWnl2TkFnQ3k1eGlYQlRjWXh1QmxGUUVyVVpwSlZFWXV3MGN2ZkhNV05yeGxEbU1kTlVmVUlqejd4YTFKMWY3ZG5pZ3YtV2JkQmJqRzVFLUVmZlpLRWhQdw?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 08:18:34 GMT",
-          "sourceName": "AdIndex"
+          "title": "Организация Que Phuoc стремится к достижению уровня охвата медицинским страхованием в 95% к 2026 году. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM214R05EUnNzUkExT2xwemhvOG16a2ZoUGdwSE9pM2hlNGsyZ0JaSjl2TE8tOVc1TFllNUZJQ3pkWXlLSmZEa1h3VHdZNEQ5Y2JrenJkTFhqQUtNZXlmRTdyWTlycUxWZEpfTmw1Ym5pemFBdmhWYjhLNFQ1ZU1SOW42WWY5MjNVWno4bi1wajJRTnpDc3Z2c1l3?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 10:02:27 GMT",
+          "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Мобильная медицинская помощь в Ниньхоа: преодоление разрыва и обеспечение охвата социальным страхованием. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPUHlBSFFDSVQtRTVUMEVRWFJoeF9sVGNKV2dmQWl1Nm5tb01nYi13RHFSVzRVSTJqQlRHNmZwRUk2VnR4eVRsdmhyVVU3RWR0bWtocFFDbXNFdEhqSU1JSDdmSDJyRDg4eElfeHFZV3ZjUTQxdkRYM25mbUEzVmp6emk2aDhBWGs?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 05:13:37 GMT",
-          "sourceName": "Vietnam.vn"
+          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex.ru",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JRkY4aGF0ajljZmF5QU9zRTlmWnl2TkFnQ3k1eGlYQlRjWXh1QmxGUUVyVVpwSlZFWXV3MGN2ZkhNV05yeGxEbU1kTlVmVUlqejd4YTFKMWY3ZG5pZ3YtV2JkQmJqRzVFLUVmZlpLRWhQdw?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 09:42:05 GMT",
+          "sourceName": "AdIndex.ru"
         },
         {
           "title": "Охваты против голосов - Актуальные комментарии",
