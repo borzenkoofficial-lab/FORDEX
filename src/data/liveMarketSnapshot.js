@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-29T11:52:04.531Z",
+  "generatedAt": "2026-10-29T17:40:34.697Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -24,24 +24,17 @@ export const liveMarketSnapshot = {
     "cognitive-pilot": {
       "companyId": "cognitive-pilot",
       "companyName": "Cognitive Pilot",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 07:23:45 GMT",
-      "latestTitle": "Томский ИИ-разработчик снова вошел в рейтинг мировых лидеров в сфере автопилотов для АПК - glavpahar.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1duQ3ZQYkdSVlN6S002bHo5dnBJSW4tbVVnWWZnRW9rSUxMWDNQRmJneXhfOElBWXJJWmVoU19RdFA4V0F5dThiaGR6ZjVKblZwUjRRdWc1MXRhcjFUTXZvMVRRMXB4MWY5dlZEUTRpcm5xTklmNHhXNXduNzcxU2VxbUZ1ODZ6a2pKOWhzN2doRmNHR0JKYUxPSUJGV0NrSWNzYVZPMmpRRmZLaVR0OGkyNlZCTWgxbDJtSW9B?oc=5",
-      "latestSourceName": "glavpahar.ru",
-      "sources": [
-        {
-          "title": "Томский ИИ-разработчик снова вошел в рейтинг мировых лидеров в сфере автопилотов для АПК - glavpahar.ru",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1duQ3ZQYkdSVlN6S002bHo5dnBJSW4tbVVnWWZnRW9rSUxMWDNQRmJneXhfOElBWXJJWmVoU19RdFA4V0F5dThiaGR6ZjVKblZwUjRRdWc1MXRhcjFUTXZvMVRRMXB4MWY5dlZEUTRpcm5xTklmNHhXNXduNzcxU2VxbUZ1ODZ6a2pKOWhzN2doRmNHR0JKYUxPSUJGV0NrSWNzYVZPMmpRRmZLaVR0OGkyNlZCTWgxbDJtSW9B?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:23:45 GMT",
-          "sourceName": "glavpahar.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "datamola": {
       "companyId": "datamola",
@@ -115,7 +108,7 @@ export const liveMarketSnapshot = {
       "companyName": "ISKRA",
       "sourceCount30d": 10,
       "sourceCount7d": 6,
-      "fundingMentions": 1,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -131,10 +124,10 @@ export const liveMarketSnapshot = {
           "sourceName": "110km.ru"
         },
         {
-          "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
-          "sourceName": "TKS.RU"
+          "title": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 11:39:53 GMT",
+          "sourceName": "110km.ru"
         },
         {
           "title": "Iskra против Granta: сравнение, которое удивит - Новости Тольятти",
@@ -159,17 +152,23 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
-      "sourceCount7d": 5,
-      "fundingMentions": 1,
+      "sourceCount30d": 7,
+      "sourceCount7d": 6,
+      "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 10:04:11 GMT",
-      "latestTitle": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGcW05RVdpaFBScGg1UjdMcU9EeTg0Ym5OWEFDZEpPZlM1amVOOU5RM2JtQWtoalZNQ09qU2ppSnNlaWR0X1NmZWpaeDVyNzNPTHNXc0NpNHZTRktCc3QxUdIBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Thu, 29 Oct 2026 16:29:18 GMT",
+      "latestTitle": "Российская Just AI вложила более 400 млн рублей в создание ИИ-агентов - ICT-Online.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY3RZRHlSRHBISTlPYXNfanB0RGQ0NGRJZzhyNkdEMURCLW4xc0NvUG5PMXdxYzYybm5fUklIbHVIN2NNVWhtLTZVaDZMb3Zra2FUZmlwRUxsNjB2OE9CWUo1VzhkbkpSQmVWVFJSZW85VGlRRTFpX1pOcE41YUNuNEZ3SkJROS1RQ3VBS3M2MV9qWE9vZTJMUno5MkdHcFpuMjhEcHhlZkhGY0U?oc=5",
+      "latestSourceName": "ICT-Online.ru",
       "sources": [
+        {
+          "title": "Российская Just AI вложила более 400 млн рублей в создание ИИ-агентов - ICT-Online.ru",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY3RZRHlSRHBISTlPYXNfanB0RGQ0NGRJZzhyNkdEMURCLW4xc0NvUG5PMXdxYzYybm5fUklIbHVIN2NNVWhtLTZVaDZMb3Zra2FUZmlwRUxsNjB2OE9CWUo1VzhkbkpSQmVWVFJSZW85VGlRRTFpX1pOcE41YUNuNEZ3SkJROS1RQ3VBS3M2MV9qWE9vZTJMUno5MkdHcFpuMjhEcHhlZkhGY0U?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 16:29:18 GMT",
+          "sourceName": "ICT-Online.ru"
+        },
         {
           "title": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGcW05RVdpaFBScGg1UjdMcU9EeTg0Ym5OWEFDZEpPZlM1amVOOU5RM2JtQWtoalZNQ09qU2ppSnNlaWR0X1NmZWpaeDVyNzNPTHNXc0NpNHZTRktCc3QxUdIBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
@@ -193,12 +192,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 05:00:00 GMT",
           "sourceName": "Forbes.ru"
-        },
-        {
-          "title": "Пост @just_ai — Блог компании Just AI — 26.10 07:24 / Хабр - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TS0xFVDluVmI1MmJ6Slo3YlVZQzhiR0ZDOTdQdU1oVUpkT2dEcV8zNVk5RlYtWUNmOUl6R1cxQlpFSV9pcmNmaVhLU1JZeC1ydGlSN0tLc0RQbVRMR2htSGp3?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:24:20 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
@@ -235,17 +228,35 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
-      "sourceCount7d": 0,
+      "sourceCount30d": 9,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 11:17:11 GMT",
-      "latestTitle": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
-      "latestSourceName": "www1.ru",
+      "tractionMentions": 1,
+      "latestPublishedAt": "Thu, 29 Oct 2026 15:25:50 GMT",
+      "latestTitle": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тыс. человек - The Insider",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
+      "latestSourceName": "The Insider",
       "sources": [
+        {
+          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тыс. человек - The Insider",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 15:25:50 GMT",
+          "sourceName": "The Insider"
+        },
+        {
+          "title": "ИИ помог поймать более 8 тысяч преступников в Сибири - Газета",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1d9IBckFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1dw?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 14:10:50 GMT",
+          "sourceName": "Газета"
+        },
+        {
+          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 13:00:00 GMT",
+          "sourceName": "RTVI"
+        },
         {
           "title": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
@@ -257,24 +268,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNN2RJai0waWxRdTJXRy00eS14U1ZGVE5WVmd2NzNIblVhVFlGY1c3TTdMbFZWb0ZXZVNCYjkxY3V0alpUQ0VyUkstaDVSX0FLV2JKV2x5UEJESGJ1QmZVRVQ4cFY0b3E5bzV4RGJjMFV3d2NTY2MwSGdnYThGS204TmFYT2xJc09XM0c1VmlRcVdEWHNpaU40Q0tiQmxQWFdYVUQxa1V3?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 10:35:22 GMT",
           "sourceName": "Ростех"
-        },
-        {
-          "title": "ИИ-система NtechLab для поиска пропавших детей получила премию правительства России - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOb2VmMGZHOXZfUnhJSlFSYkpOQmNjMF9mdkVaM2h0TGRkd0NrdXBUMkxKczhqN1Y4Y2VsMDNNN3RxalpiVW9mc0hiTGNPaEZtSElkdG9xVDR2NGR6azlVeGZ4M0RWLTZ0TWZ6VGlpQVhDdG9RTkRWclRYY0h3RlVfalVlbG44M0ZNTVBqdU4wTjk5S1VabHRqeDNDQ2dhY1VGME9QU1lDSWNnMFBPbGdz?oc=5",
-          "publishedAt": "Thu, 08 Oct 2026 07:00:00 GMT",
-          "sourceName": "RTVI"
-        },
-        {
-          "title": "Система NtechLab помогла найти 250 пропавших детей - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxNTDNaOUFUTmktOGd2bUxERk5pdEItdWNYbGt2YkRxeUphbGFLa3BqMUQxVkxqRVRTN2VicVZ2X2Nwa1ZKcE9pSFpoeXRXNWVBSVl1Yjg0ZEF0dXA3ZU9XQUVwWHEzR3R3eGJXc29wa2RNa1poMzNLRkRGVTBHaURGTkctc1Jfa0U?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 13:32:58 GMT",
-          "sourceName": "ITSpeaker"
-        },
-        {
-          "title": "ОКБ «Астрон» и NtechLab договорились о совместных ИТ-разработках - RUБЕЖ",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQSU52djRsVEh1YWdIYkNZN1BUdEFYWDZnemFWVVd0YzN1WVI4Umt6VTItd2F4RUoxUHdUajlnb1pLR2Y4cDRieU4zTTlNVmc0ck96ejBDWUEyTGZZcmpEREQtUnVPc25QckNFV1FtbGJlanhyX0RVUGNsMDdNMlA1M0ZWYVpqMER2R0szMlNXM2d1VndqdTUwZHh2c182eG0zaUxkd180S05PNHBQ?oc=5",
-          "publishedAt": "Sun, 04 Oct 2026 18:17:38 GMT",
-          "sourceName": "RUБЕЖ"
         }
       ]
     },
@@ -361,22 +354,22 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 10:29:00 GMT",
-      "latestTitle": "Российская компания Smart Engines запатентовала в США технологию выявления поддельных документов - Overclockers.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMFd5bDZXa3psRUUtWWd1OWJIcEJCeGFoZW9yQzRWS21YZzM0dG9EbmtUTEx1ZXowOG8zc3Q5bEtEeXRPYThHZU1NQVdzRFJ3c01hcW1Dd28xT0dJTEdJbjF0TWdHcXFDNG9wWWRNWTdnQlY4cDc2NDg2Um81TDhFcFYwaUdNTllmMGZ4NTdaVTJVXzZ4TGVoVUhPTXotbFhHNVVScEN3aDc1ZGY0akxORUVFUnRLWjRXcG9wQ2trMm92N2NvZEtkajk4bTJrckpqbHhfaDZLUGNRQ05STkxuUXk1ZU4wa1lJbFHSAegBQVVfeXFMT0dxZXYyV1h4MktxNVJ3VVRWbXVLcnFaS29lWDFSTVdfN3E3akZlNjRvLURVbkFQV2tWT3BrcFRGTTFfVmxRdDFDRTV3S2Iwd0o2NGNhWkltWHZ6QjczSHM2UE9YV2pyZ0JvTzZ3dDU2ZDFTa0pPUDUwLTJPZEI3TWhRd3VLVzRqaXhFLUdUUGhlYV8ySXdCT1FCLUJxOTg2RmY2eFlGMERVZmptV3o3RWhLWTNDX2drempDWjBkd0pIdmUzVHhyUGpGZ0RjREpoOWNpUmczSWZ6REM5YTdCMEhKMy1kNEZNVQ?oc=5",
-      "latestSourceName": "Overclockers.ru",
+      "latestPublishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
+      "latestTitle": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
+      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
+      "latestSourceName": "ITSpeaker",
       "sources": [
+        {
+          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
+          "sourceName": "ITSpeaker"
+        },
         {
           "title": "Российская компания Smart Engines запатентовала в США технологию выявления поддельных документов - Overclockers.ru",
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMFd5bDZXa3psRUUtWWd1OWJIcEJCeGFoZW9yQzRWS21YZzM0dG9EbmtUTEx1ZXowOG8zc3Q5bEtEeXRPYThHZU1NQVdzRFJ3c01hcW1Dd28xT0dJTEdJbjF0TWdHcXFDNG9wWWRNWTdnQlY4cDc2NDg2Um81TDhFcFYwaUdNTllmMGZ4NTdaVTJVXzZ4TGVoVUhPTXotbFhHNVVScEN3aDc1ZGY0akxORUVFUnRLWjRXcG9wQ2trMm92N2NvZEtkajk4bTJrckpqbHhfaDZLUGNRQ05STkxuUXk1ZU4wa1lJbFHSAegBQVVfeXFMT0dxZXYyV1h4MktxNVJ3VVRWbXVLcnFaS29lWDFSTVdfN3E3akZlNjRvLURVbkFQV2tWT3BrcFRGTTFfVmxRdDFDRTV3S2Iwd0o2NGNhWkltWHZ6QjczSHM2UE9YV2pyZ0JvTzZ3dDU2ZDFTa0pPUDUwLTJPZEI3TWhRd3VLVzRqaXhFLUdUUGhlYV8ySXdCT1FCLUJxOTg2RmY2eFlGMERVZmptV3o3RWhLWTNDX2drempDWjBkd0pIdmUzVHhyUGpGZ0RjREpoOWNpUmczSWZ6REM5YTdCMEhKMy1kNEZNVQ?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 10:29:00 GMT",
           "sourceName": "Overclockers.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 09:35:03 GMT",
-          "sourceName": "ITSpeaker"
         },
         {
           "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
@@ -422,16 +415,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
@@ -460,29 +453,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
-      "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
+      "latestTitle": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
-        {
-          "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 10:47:39 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
         {
           "title": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
@@ -1361,46 +1342,46 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 6,
+      "sourceCount30d": 10,
+      "sourceCount7d": 7,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
-      "latestTitle": "Кейс PARI и второго дивизиона по футболу: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
-      "latestSourceName": "AdIndex",
+      "latestPublishedAt": "Thu, 29 Oct 2026 15:13:19 GMT",
+      "latestTitle": "Политика, направленная на поддержку малых и средних предприятий, обеспечивает охват целевой аудиторией и создает благоприятные условия для развития. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0JMTGMtMVgxemJvZXV4TzhOS2JmOGs0R092RWxBTlh2TGFJT2lKYzUwM0dQbnNLVktSNGVnVVExOVJFQm1peWRTUkFKMDU5U3FBRzJqdjBROGt3WDBQODRROUtOY0liQ2F5SmwzU2VKbHNlY3ZkNk51VlRfV1F5MUhDbjd1OGJGd2N2TDRYb2ZRaG83WDNMem90RkF5cXZNMEJBcFh2ekExQ1pHY2N2OWhhNWZYLWZkOVBFLWZMNnFza1VK?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
         {
-          "title": "Кейс PARI и второго дивизиона по футболу: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
-          "sourceName": "AdIndex"
+          "title": "Политика, направленная на поддержку малых и средних предприятий, обеспечивает охват целевой аудиторией и создает благоприятные условия для развития. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0JMTGMtMVgxemJvZXV4TzhOS2JmOGs0R092RWxBTlh2TGFJT2lKYzUwM0dQbnNLVktSNGVnVVExOVJFQm1peWRTUkFKMDU5U3FBRzJqdjBROGt3WDBQODRROUtOY0liQ2F5SmwzU2VKbHNlY3ZkNk51VlRfV1F5MUhDbjd1OGJGd2N2TDRYb2ZRaG83WDNMem90RkF5cXZNMEJBcFh2ekExQ1pHY2N2OWhhNWZYLWZkOVBFLWZMNnFza1VK?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 15:13:19 GMT",
+          "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Организация Que Phuoc стремится к достижению уровня охвата медицинским страхованием в 95% к 2026 году. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxOM214R05EUnNzUkExT2xwemhvOG16a2ZoUGdwSE9pM2hlNGsyZ0JaSjl2TE8tOVc1TFllNUZJQ3pkWXlLSmZEa1h3VHdZNEQ5Y2JrenJkTFhqQUtNZXlmRTdyWTlycUxWZEpfTmw1Ym5pemFBdmhWYjhLNFQ1ZU1SOW42WWY5MjNVWno4bi1wajJRTnpDc3Z2c1l3?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 10:02:27 GMT",
-          "sourceName": "Vietnam.vn"
+          "title": "Охват дошкольным образованием на Кипре достиг 89,2%, что ниже среднего показателя по ЕС и цели на 2030 год - Cyprus Inform",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOY0FlblBpcG1ORG4yejBhd3BJaGw3OWtaV3pLdkVoYVFCQzBOYVdmN3FoN2l1akhhRVgtYUNHMWNmdTcyelFmZHoxcWV1S2dlMlYycHVJZnRnVWw2RC1XUzNURGhsUjZENGlOVWdDdEJZTHVSR01IeVlTc3I1VFFHZXl2dU9qVGV2Z3ZXVmlnay1HTjJlQ3NnRnpWOVpwbWhNVzZGM3B3VF8tMXVPUVQtZTRNckViUGUwS0pZT0syeWQ5QkhTT29ISXl1eUlqRDQ0eHN6Mmhn?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 11:49:05 GMT",
+          "sourceName": "Cyprus Inform"
+        },
+        {
+          "title": "Кейс PARI и второго дивизиона по футболу: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex.ru",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
+          "sourceName": "AdIndex.ru"
+        },
+        {
+          "title": "Гонконг тестирует цифровые валюты, чтобы расширить глобальный охват юаня - IndexBox",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQaUJkLUFUODlsWERKaWZjUlJOSmJiLVRKanBlTDVJRThBdlBvZkJ1bXQ3NVd0My1KNVd4VUx4NXR1TDhra3hWNkhwUmwzR3VQQ2pyNDlBblNkWFRoX01ndUlnUnJMbUhNaGUwNUU5NE9MR21Qejc1NzR6UmlrbG5QR290NVN6RmV4N2x4STdBWEdTTVZLMWF0OUg1MFo?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 22:30:49 GMT",
+          "sourceName": "IndexBox"
         },
         {
           "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex.ru",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 09:42:05 GMT",
           "sourceName": "AdIndex.ru"
-        },
-        {
-          "title": "Охваты против голосов - Актуальные комментарии",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vWTRDSjRrU0t0b0dVSExMN042WGluRTZ0QWRwMWNRLXBRWUtEcHd6U09xTWlfWXVIcHNVYmxHRXJqbUkzQ2g4MzctTUplVXhSYkw4azVveUxJeGU0azJuZlFEdXl5cVNuYUZ2SERyMTY?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 10:39:00 GMT",
-          "sourceName": "Актуальные комментарии"
-        },
-        {
-          "title": "Тактика армии РФ по охвату населенных пунктов с флангов и тыла больше не работает, — Маломуж - uatv.ua",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQUC12c0I5NUhQYVM3bmE1c3dYd2NaZG1sVkhyaTdYNjRxdklzak4wWlNTUjVGSU1wb0ttSWI3ZGg3S3VEeHRINjJZcFpQZ2VRcldSclZJYTczcFQ2TlRieUJzUmt4SFo3d3V1dFQ5S04yUzRzRTNtckxMWVlVWWxiellWOE90c0dUS1ZJLTNuU0hYTmx6aWkxVUhsbkROb0V4R2JxR0FnTk9vV1U?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 16:51:00 GMT",
-          "sourceName": "uatv.ua"
         }
       ]
     },
