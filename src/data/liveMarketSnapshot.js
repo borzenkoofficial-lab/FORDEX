@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-28T21:56:19.013Z",
+  "generatedAt": "2026-10-29T03:05:16.152Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -106,9 +106,9 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 10,
-      "sourceCount7d": 7,
-      "fundingMentions": 2,
+      "sourceCount30d": 9,
+      "sourceCount7d": 6,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -124,35 +124,35 @@ export const liveMarketSnapshot = {
           "sourceName": "110km.ru"
         },
         {
+          "title": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 11:39:53 GMT",
+          "sourceName": "110km.ru"
+        },
+        {
           "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
           "sourceName": "TKS.RU"
         },
         {
+          "title": "В Петербурге на заводе Lada Iskra теперь можно регулярно посетить экскурсии и узнать все о производстве - ВТамбове",
+          "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxPT2xxWGxtcEFTVEdqSG8xRVBZM2VNZE9xUHczczRqalF3MXdRalQ5OGc3aTYzYU1vdWdrUWI2ZGtQc2Q4TFVHS1ROYnp1Q2ZVRkhORTVyU2Q0dkRZNnFsSnhHNFlkX2pMQUdVMXJwelB3V3RGRnUzSEtOS25BUzQ1RTh4cG55WnNfMnhfMFhOS0Y1R3ZrbjBpN0NrSVhhVGM4VnJhRWZEdkFfdzl0NHVvZU9VTDlhcUtiTFFKWXVCQW5MbWU5VUo4dk9RdXhHQQ?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 19:21:51 GMT",
+          "sourceName": "ВТамбове"
+        },
+        {
           "title": "Iskra против Granta: сравнение, которое удивит - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3dDhtZDl0Y2VOckozRGV0ZjZEdFdjV2NCYXo1bWRGRTJSbjltdVpQQjhaYWY5TjM3N3hZNGdjYm9yVWJ4ZVZwXzdCbU5kOVpXalRncWJRU212U0U5ZkZHNFRsRkpaTldlQm5NWnQ4V2FQblZiYUE?oc=5",
           "publishedAt": "Sun, 25 Oct 2026 06:50:42 GMT",
           "sourceName": "Новости Тольятти"
-        },
-        {
-          "title": "Lada Iskra на тесте: Обнаружены проблемы с электроникой и комфортом. Анализ. - Carexpo.ru_ все авто на одном сайте",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdkNXSmg1MXN3MUFaTDlUaDFwY2ZVQ0dQcmVnNkNISUxBU2NScVUyQ3dNVlp6UVI2bVJpZmZlaUU1MFVVVnpVMjFacU9rdE5QSTg1UXpHdkYyTXhYQ3c1UU9YcWtudlBhbDVBdWJhMEZYN3VramdzS2xlMzlVTE5maXFIYktmLVhMbHVUaXBOU2I1bFhuR2lOd05R?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 06:45:25 GMT",
-          "sourceName": "Carexpo.ru_ все авто на одном сайте"
-        },
-        {
-          "title": "Виснет и не работает мультимедиа Lada Iskra - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQNy1CZ1pmMnF3OTNPNGF2dkFUMTU5anRxdkNPc3ZnQTRucHRKdUNCa0hpSWZXRzc2QklBYzIzUzY4Q1RVenpQUEJ1Y2duSnEwMm52blFsdG56MUw1MWl2VGFEUVBhbkMzQ3A4UmhfVGdrY0ltZDR6MkZMV3A1QmtZZ1lJUzJIaGg3STBkQmV2Q1BqWlJTQ2ZkN1dBVXU0NTg?oc=5",
-          "publishedAt": "Sat, 24 Oct 2026 07:48:32 GMT",
-          "sourceName": "Лада.Онлайн"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
+      "sourceCount30d": 5,
       "sourceCount7d": 3,
       "fundingMentions": 1,
       "dealMentions": 0,
@@ -182,16 +182,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Как подключить Claude Code через шлюз и какие модели поддерживают агентный цикл - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE44ZGMwYnFIcnhSOEJqR0JrdExhTVNUZlZfQTh3VzBSZFdaaXdrblI1dnVDWDdidVRvQ0VueWdVb3hmZkRCOE9zT3JqRFktSXcta3ZqMlZIV19wUkI5RDlhQURpWTAwZ9IBWEFVX3lxTE9FS2RoOVRleGp2UF9kLUttVXA0V2pqZENKdnl2MFhUWnJnZnkyU1hsdTRxbUpWOW5lY2t1TzBiVG1OVUkyQnVKWjAxMUNFd1oyTUQxdHBIY1E?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        },
-        {
           "title": "Кто создает, регулирует и внедряет ИИ в России - Ведомости",
           "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxPNlN2bHVyZS1hSUZRTzN4LWpEMzJCc2VRc2FvOThaMmdrTHdXNVJHdnRIVmhUNW9uLXpyeUpRNS1qeHRjci1JdUpzbk9OUFJlSkRPSkNQUlh6aklMZWlERHpRY1l1Q3lyeUF6N0xESThfdFc1c0JMSms4WmdNMHVlNw?oc=5",
           "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
           "sourceName": "Ведомости"
+        },
+        {
+          "title": "Инструменты ИИ для бизнеса — как помочь бизнесу с помощью искусственного интеллекта - Business FM Санкт-Петербург",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPVkpqSHR0MjRlaXJlelNjZlNYbHh0aG81MGVmVXBBY0Y0ZzNObDlvYUNtNkRackZGb09ocG9XbEtBUFV1b1hXWTZJU2xaWXpmeXBQWHRFaHZBakZBVUFNRFdNV3hCMzZyTmdsb1BzZjQ4VzVISER0MHdpN1VzMWk2S0x4VkIyRTZMcHVJNTgza2JIQ2pEdW5qWjV1am5iUERMZzd4akxNUFVVMlZZ?oc=5",
+          "publishedAt": "Sat, 03 Oct 2026 07:00:00 GMT",
+          "sourceName": "Business FM Санкт-Петербург"
         }
       ]
     },
@@ -354,7 +354,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
+      "latestPublishedAt": "Wed, 28 Oct 2026 20:22:29 GMT",
       "latestTitle": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
       "latestUrl": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
       "latestSourceName": "ГИПОРТ",
@@ -362,7 +362,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
+          "publishedAt": "Wed, 28 Oct 2026 20:22:29 GMT",
           "sourceName": "ГИПОРТ"
         },
         {
@@ -415,23 +415,23 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -447,12 +447,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "sourceName": "Телеспутник"
         }
       ]
     },
@@ -631,23 +625,17 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
-      "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-      "latestSourceName": "Архыз24",
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
-        {
-          "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 16:08:37 GMT",
-          "sourceName": "Архыз24"
-        },
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
