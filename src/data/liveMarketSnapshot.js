@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-30T17:19:16.961Z",
+  "generatedAt": "2026-10-30T21:43:56.867Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,8 +107,8 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 7,
-      "fundingMentions": 0,
+      "sourceCount7d": 5,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -130,12 +130,6 @@ export const liveMarketSnapshot = {
           "sourceName": "av.by"
         },
         {
-          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
-          "sourceName": "110km.ru"
-        },
-        {
           "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
@@ -146,14 +140,20 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTFB3dDhtZDl0Y2VOckozRGV0ZjZEdFdjV2NCYXo1bWRGRTJSbjltdVpQQjhaYWY5TjM3N3hZNGdjYm9yVWJ4ZVZwXzdCbU5kOVpXalRncWJRU212U0U5ZkZHNFRsRkpaTldlQm5NWnQ4V2FQblZiYUE?oc=5",
           "publishedAt": "Sun, 25 Oct 2026 06:50:42 GMT",
           "sourceName": "Новости Тольятти"
+        },
+        {
+          "title": "Lada Iskra на тесте: Обнаружены проблемы с электроникой и комфортом. Анализ. - Carexpo.ru_ все авто на одном сайте",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdkNXSmg1MXN3MUFaTDlUaDFwY2ZVQ0dQcmVnNkNISUxBU2NScVUyQ3dNVlp6UVI2bVJpZmZlaUU1MFVVVnpVMjFacU9rdE5QSTg1UXpHdkYyTXhYQ3c1UU9YcWtudlBhbDVBdWJhMEZYN3VramdzS2xlMzlVTE5maXFIYktmLVhMbHVUaXBOU2I1bFhuR2lOd05R?oc=5",
+          "publishedAt": "Sun, 25 Oct 2026 06:45:25 GMT",
+          "sourceName": "Carexpo.ru_ все авто на одном сайте"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 7,
-      "sourceCount7d": 6,
+      "sourceCount30d": 6,
+      "sourceCount7d": 5,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -228,27 +228,27 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 7,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Fri, 30 Oct 2026 13:30:00 GMT",
-      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
-      "latestSourceName": "Ростех",
+      "latestPublishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
+      "latestTitle": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
+      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
+      "latestSourceName": "MASHNEWS | Новости Промышленности",
       "sources": [
+        {
+          "title": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
+          "publishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
+          "sourceName": "MASHNEWS | Новости Промышленности"
+        },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 13:30:00 GMT",
-          "sourceName": "Ростех"
-        },
-        {
-          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxOZTRoblR4d2hRTzM1a1ZOMHdwb3o5dlZJZHhMYXJZWHYtZXlvaWdMX0pxc0JyaURvZUlaNEFjVmZRdC1aSmZMWHFTdmRyOUJaTWEzT1VtNGYyWmxSNk4wc3RKcUZ6M1EtcThkZXNyMmJ4YlZ2NzE2VXJPM0R3eGFZRk5jcTI0cm5SYlp0SGpaNWZTbWhBMThsNDNVcjh1VHVyX01ONVRaQ3V2ejhoenlDaHo4SXliNHBabDYzOGtmc3dJWGJ1SFE?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 12:10:40 GMT",
           "sourceName": "Ростех"
         },
         {
@@ -258,16 +258,16 @@ export const liveMarketSnapshot = {
           "sourceName": "The Insider"
         },
         {
-          "title": "ИИ помог поймать более 8 тысяч преступников в Сибири - Газета",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1d9IBckFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1dw?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 14:10:50 GMT",
-          "sourceName": "Газета"
-        },
-        {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 13:00:00 GMT",
           "sourceName": "RTVI"
+        },
+        {
+          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Ростех"
         }
       ]
     },
@@ -366,7 +366,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:22:29 GMT",
+          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
           "sourceName": "ГИПОРТ"
         },
         {
@@ -401,16 +401,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
@@ -445,17 +445,30 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 0,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+      "latestSourceName": "Webiomed",
+      "sources": [
+        {
+          "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        }
+      ]
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -1333,22 +1346,22 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 10,
+      "sourceCount7d": 4,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 15:13:19 GMT",
-      "latestTitle": "Политика, направленная на поддержку малых и средних предприятий, обеспечивает охват целевой аудиторией и создает благоприятные условия для развития. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0JMTGMtMVgxemJvZXV4TzhOS2JmOGs0R092RWxBTlh2TGFJT2lKYzUwM0dQbnNLVktSNGVnVVExOVJFQm1peWRTUkFKMDU5U3FBRzJqdjBROGt3WDBQODRROUtOY0liQ2F5SmwzU2VKbHNlY3ZkNk51VlRfV1F5MUhDbjd1OGJGd2N2TDRYb2ZRaG83WDNMem90RkF5cXZNMEJBcFh2ekExQ1pHY2N2OWhhNWZYLWZkOVBFLWZMNnFza1VK?oc=5",
-      "latestSourceName": "Vietnam.vn",
+      "latestPublishedAt": "Thu, 29 Oct 2026 12:21:20 GMT",
+      "latestTitle": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
         {
-          "title": "Политика, направленная на поддержку малых и средних предприятий, обеспечивает охват целевой аудиторией и создает благоприятные условия для развития. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0JMTGMtMVgxemJvZXV4TzhOS2JmOGs0R092RWxBTlh2TGFJT2lKYzUwM0dQbnNLVktSNGVnVVExOVJFQm1peWRTUkFKMDU5U3FBRzJqdjBROGt3WDBQODRROUtOY0liQ2F5SmwzU2VKbHNlY3ZkNk51VlRfV1F5MUhDbjd1OGJGd2N2TDRYb2ZRaG83WDNMem90RkF5cXZNMEJBcFh2ekExQ1pHY2N2OWhhNWZYLWZkOVBFLWZMNnFza1VK?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 15:13:19 GMT",
-          "sourceName": "Vietnam.vn"
+          "title": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 12:21:20 GMT",
+          "sourceName": "Sostav.ru"
         },
         {
           "title": "Кейс PARI и Футбольной национальной лиги: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex.ru",
@@ -1363,16 +1376,16 @@ export const liveMarketSnapshot = {
           "sourceName": "AdIndex.ru"
         },
         {
-          "title": "Инфлюенс-маркетинг: вы покупаете охват, а решение принимается по доверию. - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lRjdteUhRVXd3X2hCcDBWOGJVZHpfQ0czUTJpMWpuS0VXbHFRVHFWT19JendfS1cxSE5ORG5PT1ZTRGZta29jU25UcF9VZVFqOWkw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 13:21:22 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
           "title": "Охваты против голосов - Актуальные комментарии",
           "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vWTRDSjRrU0t0b0dVSExMN042WGluRTZ0QWRwMWNRLXBRWUtEcHd6U09xTWlfWXVIcHNVYmxHRXJqbUkzQ2g4MzctTUplVXhSYkw4azVveUxJeGU0azJuZlFEdXl5cVNuYUZ2SERyMTY?oc=5",
           "publishedAt": "Mon, 26 Oct 2026 10:39:00 GMT",
           "sourceName": "Актуальные комментарии"
+        },
+        {
+          "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
+          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
+          "sourceName": "Ведомости"
         }
       ]
     },
