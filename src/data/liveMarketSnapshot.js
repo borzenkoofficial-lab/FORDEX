@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-30T03:09:30.080Z",
+  "generatedAt": "2026-10-30T11:44:57.254Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -108,15 +108,21 @@ export const liveMarketSnapshot = {
       "companyName": "ISKRA",
       "sourceCount30d": 10,
       "sourceCount7d": 7,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 30 Oct 2026 02:55:30 GMT",
-      "latestTitle": "Вместо Changan Alsvin: почему Lada Iskra и Vesta дешевле на 400–600 тыс. рублей, но выгоднее по гарантии — и когда ждать вариатор на Granta - 110km.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFQzbXV6YVdESFBZNVozUGVfdmU2Y2p0ZXdaLUZCbEw4Rm94MnJmeVJPSWFiaTg1ODVvRWVJOHRKcS1xNkxXZUR5MWhyTXktSDN6cWx1Qk9TU29VcFJqTDJtS1dkRjBFYngyUnZ5cW1HQnEzY3FrcC1yODRuazRwUVZtYXFfajUzYWlvYjBRYjlzNHR5Z2UydFRfMVA?oc=5",
-      "latestSourceName": "110km.ru",
+      "latestPublishedAt": "Fri, 30 Oct 2026 04:14:19 GMT",
+      "latestTitle": "Седан против кроссовера: почему автоматическая Lada или Changan — лучший выбор в России? - Свободный взгляд",
+      "latestUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFaY2hpbmE5S3ZxRENyaklkZGhQN1kxbUQ0eHB2b1Fiendjc3NKTWMzRXk2ZHpGdzRwTWIxRWFuVzM3Y2Q2R25Pc29yMmw1MS1rOVByY1hFVGh4R1ZJMjNPNFZxSE94bG4xRHYtQjUxdDVXa2NMMXBlRS15VlM3SXRKem5NNWw5VzBZQVdGbHdLZXFyaFlvN2lEY0pfUWhrQkM0SGZrV0RNWjRuZ0FCdkttak9zaWU1NEdYMGFabw?oc=5",
+      "latestSourceName": "Свободный взгляд",
       "sources": [
+        {
+          "title": "Седан против кроссовера: почему автоматическая Lada или Changan — лучший выбор в России? - Свободный взгляд",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPakFaY2hpbmE5S3ZxRENyaklkZGhQN1kxbUQ0eHB2b1Fiendjc3NKTWMzRXk2ZHpGdzRwTWIxRWFuVzM3Y2Q2R25Pc29yMmw1MS1rOVByY1hFVGh4R1ZJMjNPNFZxSE94bG4xRHYtQjUxdDVXa2NMMXBlRS15VlM3SXRKem5NNWw5VzBZQVdGbHdLZXFyaFlvN2lEY0pfUWhrQkM0SGZrV0RNWjRuZ0FCdkttak9zaWU1NEdYMGFabw?oc=5",
+          "publishedAt": "Fri, 30 Oct 2026 04:14:19 GMT",
+          "sourceName": "Свободный взгляд"
+        },
         {
           "title": "Вместо Changan Alsvin: почему Lada Iskra и Vesta дешевле на 400–600 тыс. рублей, но выгоднее по гарантии — и когда ждать вариатор на Granta - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFQzbXV6YVdESFBZNVozUGVfdmU2Y2p0ZXdaLUZCbEw4Rm94MnJmeVJPSWFiaTg1ODVvRWVJOHRKcS1xNkxXZUR5MWhyTXktSDN6cWx1Qk9TU29VcFJqTDJtS1dkRjBFYngyUnZ5cW1HQnEzY3FrcC1yODRuazRwUVZtYXFfajUzYWlvYjBRYjlzNHR5Z2UydFRfMVA?oc=5",
@@ -124,16 +130,10 @@ export const liveMarketSnapshot = {
           "sourceName": "110km.ru"
         },
         {
-          "title": "Почему новейшая Iskra стала главным хитом в шоурумах Dabracar - av.by",
+          "title": "Автомобиль за 39 900 BYN*: всё про технологический прорыв Iskra и спеццену в Dabracar - av.by",
           "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IUGVNcjZUektIU2JmOE1zb1NGcXdiakVsbW5XeXpGeldycFJnS3NDUUFPS2prRFVoMkFYU1JnN096UXYxc2E3UEFqQ2xlSDU2ZnFOVThaSkNlSTBfMHBWbkhzaWxJVTRVNXJMSHFOb2VCUQ?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 21:00:00 GMT",
           "sourceName": "av.by"
-        },
-        {
-          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
-          "sourceName": "110km.ru"
         },
         {
           "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
@@ -152,8 +152,8 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
-      "sourceCount7d": 5,
+      "sourceCount30d": 7,
+      "sourceCount7d": 6,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -168,6 +168,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxNY3RZRHlSRHBISTlPYXNfanB0RGQ0NGRJZzhyNkdEMURCLW4xc0NvUG5PMXdxYzYybm5fUklIbHVIN2NNVWhtLTZVaDZMb3Zra2FUZmlwRUxsNjB2OE9CWUo1VzhkbkpSQmVWVFJSZW85VGlRRTFpX1pOcE41YUNuNEZ3SkJROS1RQ3VBS3M2MV9qWE9vZTJMUno5MkdHcFpuMjhEcHhlZkhGY0U?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 16:29:18 GMT",
           "sourceName": "ICT-Online.ru"
+        },
+        {
+          "title": "Just AI запускает Jay Agents — универсальную ИИ‑студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGcW05RVdpaFBScGg1UjdMcU9EeTg0Ym5OWEFDZEpPZlM1amVOOU5RM2JtQWtoalZNQ09qU2ppSnNlaWR0X1NmZWpaeDVyNzNPTHNXc0NpNHZTRktCc3QxUdIBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 10:04:11 GMT",
+          "sourceName": "Хабр"
         },
         {
           "title": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
@@ -186,12 +192,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 05:00:00 GMT",
           "sourceName": "Forbes.ru"
-        },
-        {
-          "title": "Пост @just_ai — Блог компании Just AI — 26.10 07:24 / Хабр - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TS0xFVDluVmI1MmJ6Slo3YlVZQzhiR0ZDOTdQdU1oVUpkT2dEcV8zNVk5RlYtWUNmOUl6R1cxQlpFSV9pcmNmaVhLU1JZeC1ydGlSN0tLc0RQbVRMR2htSGp3?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:24:20 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
@@ -234,7 +234,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Thu, 29 Oct 2026 23:21:02 GMT",
+      "latestPublishedAt": "Fri, 30 Oct 2026 05:54:57 GMT",
       "latestTitle": "NtechLab: нейросети обнаружили более 8 тыс. преступников в Новосибирской области - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOemhRbldmc3hrRExvWktTeHp1WTRCcjJhcktLSmF3RlZ1UjlPZUhCQ3JPVUMwcjJRekowVTJ6dzRzdWhJQldPak1uZy04SU5malByenNLQ3RKX1hEcEh1MnFuSS1YTDFkNG16Y0RaTkhrcDFSYkc3bVhvUzVpZnNXRjRacXVDRVBCb1NDMzlEWjNFWkRPdlFBR2p1LVlCcE5rNE5vUWFlVDE0bkYySEtfUjZMbGNyN3czOW1hMQ?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -242,7 +242,7 @@ export const liveMarketSnapshot = {
         {
           "title": "NtechLab: нейросети обнаружили более 8 тыс. преступников в Новосибирской области - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOemhRbldmc3hrRExvWktTeHp1WTRCcjJhcktLSmF3RlZ1UjlPZUhCQ3JPVUMwcjJRekowVTJ6dzRzdWhJQldPak1uZy04SU5malByenNLQ3RKX1hEcEh1MnFuSS1YTDFkNG16Y0RaTkhrcDFSYkc3bVhvUzVpZnNXRjRacXVDRVBCb1NDMzlEWjNFWkRPdlFBR2p1LVlCcE5rNE5vUWFlVDE0bkYySEtfUjZMbGNyN3czOW1hMQ?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 23:21:02 GMT",
+          "publishedAt": "Fri, 30 Oct 2026 05:54:57 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -274,17 +274,24 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
+      "latestTitle": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+      "latestSourceName": "prospect.com.ru",
+      "sources": [
+        {
+          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
+          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
+          "sourceName": "prospect.com.ru"
+        }
+      ]
     },
     "platformeco": {
       "companyId": "platformeco",
@@ -401,16 +408,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
@@ -445,36 +452,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
-      "latestSourceName": "Webiomed",
-      "sources": [
-        {
-          "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Webiomed и TouchMED представят совместные решения на ИТМ2026 - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE44YjNRTkZ6S2czVHFrY0dVTkoyXzMzVFRlLWVOcmVrSkJGSmlYVFpFUGE1MlgxeEFtVnRiWFBlemY1RExxbno4M0VHRXFYQTBoajhqTDgzaF83MWNnWmJYck9WeUJWSGhjRUVsWQ?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -784,17 +772,23 @@ export const liveMarketSnapshot = {
     "insighter": {
       "companyId": "insighter",
       "companyName": "Insighter",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 08:50:15 GMT",
+      "latestPublishedAt": "Thu, 29 Oct 2026 17:54:37 GMT",
       "latestTitle": "Идеи и мнения Insighter Yi Xi (@Insighter_YIXI) - Binance",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85ZGk1M3lRM2JJQ0dHVHpxaWxMaXpfZS1VekJkSnluaGNvSUVlSUhpdHNDZEJwXzhSVkNYNVozMzBRbmZyZld1UlI0Y21DVVpZMURiMjFva2RmS0RTQnM3UE1BYnc?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PMEJsUjFQUGVvaU05bm1Lck9RRTRnb0R3NloxbmtnTF9jMmxUMVlUSzlYSmF1dnphTWR1RldXNnpqVXJKa2FOVHZtMUdUWGtoenlGV0hkYWMxRURKZmxOanNLbFY?oc=5",
       "latestSourceName": "Binance",
       "sources": [
+        {
+          "title": "Идеи и мнения Insighter Yi Xi (@Insighter_YIXI) - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE5PMEJsUjFQUGVvaU05bm1Lck9RRTRnb0R3NloxbmtnTF9jMmxUMVlUSzlYSmF1dnphTWR1RldXNnpqVXJKa2FOVHZtMUdUWGtoenlGV0hkYWMxRURKZmxOanNLbFY?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 17:54:37 GMT",
+          "sourceName": "Binance"
+        },
         {
           "title": "Идеи и мнения Insighter Yi Xi (@Insighter_YIXI) - Binance",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85ZGk1M3lRM2JJQ0dHVHpxaWxMaXpfZS1VekJkSnluaGNvSUVlSUhpdHNDZEJwXzhSVkNYNVozMzBRbmZyZld1UlI0Y21DVVpZMURiMjFva2RmS0RTQnM3UE1BYnc?oc=5",
@@ -858,7 +852,7 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 6,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -892,36 +886,23 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE80aVl6ZXp6eXBmYWd2MFc0bHB5dEs1bEdkaGpDbXhNVmJxRWVQcDRidlpxcG1abWI4RlVpNzgxbDV2bmxqX3o1ZjJmSVNqOW14R2tB?oc=5",
           "publishedAt": "Thu, 01 Oct 2026 07:00:00 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "AI-редактор MnogoReels: что скрывается за кнопкой «Редактор» - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5sSkpmWDNrTDZqSEJSOG4tdHR5bTZJTUZ1bjRHOE5OTGhYUWpFVUw0NXdmYzluUm5zRlFGbFNlaE9lMVUtUmhiUWxiMkNUemhTTmxJ?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-      "latestTitle": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
-      "latestSourceName": "thecode.media",
-      "sources": [
-        {
-          "title": "Нейросети для работы: 20 ИИ-инструментов для офиса — журнал Яндекс Практикума «Код» - thecode.media",
-          "url": "https://news.google.com/rss/articles/CBMiVkFVX3lxTE84a182SGU1U0pXVlFNWWg1Ul9UNGw5LUVJb3NrVG0yZlgzOVJzNHRWQ29wM0xuV0NXRTRjc3ViUGRhMm93VDlXSlRyeVVwMHZ6Z3RGNTNR?oc=5",
-          "publishedAt": "Wed, 30 Sep 2026 07:00:00 GMT",
-          "sourceName": "thecode.media"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -1070,7 +1051,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 06:59:39 GMT",
+          "publishedAt": "Thu, 29 Oct 2026 04:37:59 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1354,7 +1335,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 8,
-      "sourceCount7d": 6,
+      "sourceCount7d": 5,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
