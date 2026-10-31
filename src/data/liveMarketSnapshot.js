@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-31T20:43:26.310Z",
+  "generatedAt": "2026-10-31T23:49:43.534Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -24,24 +24,17 @@ export const liveMarketSnapshot = {
     "cognitive-pilot": {
       "companyId": "cognitive-pilot",
       "companyName": "Cognitive Pilot",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 07:23:45 GMT",
-      "latestTitle": "Томский ИИ-разработчик снова вошел в рейтинг мировых лидеров в сфере автопилотов для АПК - glavpahar.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1duQ3ZQYkdSVlN6S002bHo5dnBJSW4tbVVnWWZnRW9rSUxMWDNQRmJneXhfOElBWXJJWmVoU19RdFA4V0F5dThiaGR6ZjVKblZwUjRRdWc1MXRhcjFUTXZvMVRRMXB4MWY5dlZEUTRpcm5xTklmNHhXNXduNzcxU2VxbUZ1ODZ6a2pKOWhzN2doRmNHR0JKYUxPSUJGV0NrSWNzYVZPMmpRRmZLaVR0OGkyNlZCTWgxbDJtSW9B?oc=5",
-      "latestSourceName": "glavpahar.ru",
-      "sources": [
-        {
-          "title": "Томский ИИ-разработчик снова вошел в рейтинг мировых лидеров в сфере автопилотов для АПК - glavpahar.ru",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxON1duQ3ZQYkdSVlN6S002bHo5dnBJSW4tbVVnWWZnRW9rSUxMWDNQRmJneXhfOElBWXJJWmVoU19RdFA4V0F5dThiaGR6ZjVKblZwUjRRdWc1MXRhcjFUTXZvMVRRMXB4MWY5dlZEUTRpcm5xTklmNHhXNXduNzcxU2VxbUZ1ODZ6a2pKOWhzN2doRmNHR0JKYUxPSUJGV0NrSWNzYVZPMmpRRmZLaVR0OGkyNlZCTWgxbDJtSW9B?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:23:45 GMT",
-          "sourceName": "glavpahar.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "datamola": {
       "companyId": "datamola",
@@ -159,8 +152,8 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 7,
-      "sourceCount7d": 6,
+      "sourceCount30d": 6,
+      "sourceCount7d": 5,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -409,16 +402,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+      "latestSourceName": "Kursiv Media",
       "sources": [
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 16:17:46 GMT",
-          "sourceName": "Profit.kz"
+          "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
+          "sourceName": "Kursiv Media"
         }
       ]
     },
@@ -453,17 +446,29 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 1,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
+      "latestPublishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
+        {
+          "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
+          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
         {
           "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
@@ -774,17 +779,23 @@ export const liveMarketSnapshot = {
     "insighter": {
       "companyId": "insighter",
       "companyName": "Insighter",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 08:50:15 GMT",
+      "latestPublishedAt": "Fri, 30 Oct 2026 10:00:37 GMT",
       "latestTitle": "Идеи и мнения Insighter Yi Xi (@Insighter_YIXI) - Binance",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85ZGk1M3lRM2JJQ0dHVHpxaWxMaXpfZS1VekJkSnluaGNvSUVlSUhpdHNDZEJwXzhSVkNYNVozMzBRbmZyZld1UlI0Y21DVVpZMURiMjFva2RmS0RTQnM3UE1BYnc?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kUXV0NmxXZDdpQlRPZk52QTNOaVFHMlBoYkxCNjJ1eTJvNEE3X1BLNWVrYll6Q3B5cmhDb1pRMVk1OEc2TmEzUVZpekF6U1hLSUNHaVMxMWRBeEI0QXF1Ynpzdno?oc=5",
       "latestSourceName": "Binance",
       "sources": [
+        {
+          "title": "Идеи и мнения Insighter Yi Xi (@Insighter_YIXI) - Binance",
+          "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE1kUXV0NmxXZDdpQlRPZk52QTNOaVFHMlBoYkxCNjJ1eTJvNEE3X1BLNWVrYll6Q3B5cmhDb1pRMVk1OEc2TmEzUVZpekF6U1hLSUNHaVMxMWRBeEI0QXF1Ynpzdno?oc=5",
+          "publishedAt": "Fri, 30 Oct 2026 10:00:37 GMT",
+          "sourceName": "Binance"
+        },
         {
           "title": "Идеи и мнения Insighter Yi Xi (@Insighter_YIXI) - Binance",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE85ZGk1M3lRM2JJQ0dHVHpxaWxMaXpfZS1VekJkSnluaGNvSUVlSUhpdHNDZEJwXzhSVkNYNVozMzBRbmZyZld1UlI0Y21DVVpZMURiMjFva2RmS0RTQnM3UE1BYnc?oc=5",
@@ -826,7 +837,7 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -842,35 +853,23 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 08:25:47 GMT",
           "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Stray Kids встретились с BABY MILO® - PAP Magazine",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdURGQnNLdzhDb1FBVzloUzZwOVdGU0pyQUJPT1l4MFpsM0JlR0tVd0tSOE9SRUVnMnNDSV9aUjVqcldDd1JIQlhRSUlBMlByWEQ3RTNyWTMzVHM5U2NxcFJWMDVlU3hKS1NUaXYxZFNxdVhwbUJXN0pNZU9sSFZOSlFCd08zUQ?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 07:00:00 GMT",
-          "sourceName": "PAP Magazine"
         }
       ]
     },
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 17 Oct 2026 22:04:08 GMT",
-      "latestTitle": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
-        {
-          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
-          "publishedAt": "Sat, 17 Oct 2026 22:04:08 GMT",
-          "sourceName": "Sostav.ru"
-        },
         {
           "title": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
@@ -1338,7 +1337,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 10,
-      "sourceCount7d": 3,
+      "sourceCount7d": 4,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1367,16 +1366,16 @@ export const liveMarketSnapshot = {
           "sourceName": "AdIndex.ru"
         },
         {
+          "title": "Охваты против голосов - Актуальные комментарии",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE9vWTRDSjRrU0t0b0dVSExMN042WGluRTZ0QWRwMWNRLXBRWUtEcHd6U09xTWlfWXVIcHNVYmxHRXJqbUkzQ2g4MzctTUplVXhSYkw4azVveUxJeGU0azJuZlFEdXl5cVNuYUZ2SERyMTY?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 10:39:00 GMT",
+          "sourceName": "Актуальные комментарии"
+        },
+        {
           "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
           "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
           "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
           "sourceName": "Ведомости"
-        },
-        {
-          "title": "Миллион просмотров — еще не результат: от больших охватов к доверию - Сноб",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3Zzc05zS2RsUWJDb0Y2aTJtMG5FTm52VEM5SXBPeUpOTE5PU0NQdklnRVBXYjlTcTU4azRTZWQ3b0hsOXcwcVZmQktoOV9fMURSbDRIdU5WWjlOZzZpMFo1cGRYaVNFTlVNYUQ5NjMyb1ZYQWVkT3Z1ZFNnY1prcXlEdWlBOS1GcHM3enBHNkhEeFlrLVhz?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
-          "sourceName": "Сноб"
         }
       ]
     },
