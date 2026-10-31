@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-10-30T21:43:56.867Z",
+  "generatedAt": "2026-10-31T02:55:42.498Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,8 +107,8 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 5,
-      "fundingMentions": 1,
+      "sourceCount7d": 4,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -130,10 +130,10 @@ export const liveMarketSnapshot = {
           "sourceName": "av.by"
         },
         {
-          "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
-          "sourceName": "TKS.RU"
+          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
+          "sourceName": "110km.ru"
         },
         {
           "title": "Iskra против Granta: сравнение, которое удивит - Новости Тольятти",
@@ -142,18 +142,18 @@ export const liveMarketSnapshot = {
           "sourceName": "Новости Тольятти"
         },
         {
-          "title": "Lada Iskra на тесте: Обнаружены проблемы с электроникой и комфортом. Анализ. - Carexpo.ru_ все авто на одном сайте",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPdkNXSmg1MXN3MUFaTDlUaDFwY2ZVQ0dQcmVnNkNISUxBU2NScVUyQ3dNVlp6UVI2bVJpZmZlaUU1MFVVVnpVMjFacU9rdE5QSTg1UXpHdkYyTXhYQ3c1UU9YcWtudlBhbDVBdWJhMEZYN3VramdzS2xlMzlVTE5maXFIYktmLVhMbHVUaXBOU2I1bFhuR2lOd05R?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 06:45:25 GMT",
-          "sourceName": "Carexpo.ru_ все авто на одном сайте"
+          "title": "Три самых доступных новых авто с автоматом в России: что выбрать и на чём сэкономить - Авто Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9ZOEdyT2RNOElUYjZKbkxlZ0ttY1VNakNTdGF6TGs2Rk5Jd1h1NVZLSWJPd0NORnd0RHh3QUtoRFdmcEtBMVRVelFHZFBCbXpX0gFWQVVfeXFMT0l4TFBkVlZpanhTX3ZiT3NOamo0UEFndWN4MEREZURsU1NrTmUzVmxmSWZPWm5BNDdHY0NvM2NPQl95OER3YVA0RGJnTG5JWkU4MFhXV1E?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 21:12:36 GMT",
+          "sourceName": "Авто Юга.ру"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
-      "sourceCount7d": 5,
+      "sourceCount30d": 7,
+      "sourceCount7d": 6,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -228,8 +228,8 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 7,
-      "sourceCount7d": 4,
+      "sourceCount30d": 8,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -258,16 +258,16 @@ export const liveMarketSnapshot = {
           "sourceName": "The Insider"
         },
         {
+          "title": "ИИ помог поймать более 8 тысяч преступников в Сибири - Газета",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1d9IBckFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1dw?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 14:10:50 GMT",
+          "sourceName": "Газета"
+        },
+        {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 13:00:00 GMT",
           "sourceName": "RTVI"
-        },
-        {
-          "title": "Медиа - Новости - Отечественный ИИ помог найти 250 детей в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOQ2VacnNUYnQ3eEJKMlNqQ0JrNy1kQ0hMbDhIckcySFY4a1lKVkY0bWNFTmdGbzNqY2plODNNT1llY3VGeHk5YkhZZjQ0dlU2M1R5MFRQbDdJVWItRDdLekVYWTJRRm4xRUs5WHZEM1BiY3V6Zjh6VEd0bG9HU05nUDNMd0Nhb18wOEh0SkFManJUWVNJOWlj?oc=5",
-          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-          "sourceName": "Ростех"
         }
       ]
     },
@@ -395,17 +395,23 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
-      "latestSourceName": "Kursiv Media",
+      "latestPublishedAt": "Tue, 20 Oct 2026 10:31:41 GMT",
+      "latestTitle": "УрФУ внедрил голосового ИИ-ассистента Voxys для работы с абитуриентами - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNUQ2b3dSc1huMFBSRmpteUlwcDQ1TTlvWHI3SlF1ekJTSm92VHVWLXJibG1GUkpVU3FnNTZhdWRfTGg3NDJ5Q1lLbVFlTDVwNDJadUo2NjlwT2xwRmxuODBVVk16NjlaRzM3X3pFRmJNdm56NWhuRC1yc3BOUHB1eURKV1FIbFo4UTU0bU9QZkNER1VmQWhoTHBncl9zQlBlTVR6a01SVzRmc3ljLXl6YW93?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "УрФУ внедрил голосового ИИ-ассистента Voxys для работы с абитуриентами - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNUQ2b3dSc1huMFBSRmpteUlwcDQ1TTlvWHI3SlF1ekJTSm92VHVWLXJibG1GUkpVU3FnNTZhdWRfTGg3NDJ5Q1lLbVFlTDVwNDJadUo2NjlwT2xwRmxuODBVVk16NjlaRzM3X3pFRmJNdm56NWhuRC1yc3BOUHB1eURKV1FIbFo4UTU0bU9QZkNER1VmQWhoTHBncl9zQlBlTVR6a01SVzRmc3ljLXl6YW93?oc=5",
+          "publishedAt": "Tue, 20 Oct 2026 10:31:41 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "ИИ будет искать людей и машины по городским камерам в Алматы - Kursiv Media",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUFlrc0pwOGdKb0lWOFBrZ2xFMGg1NGRwb09zWU9sc1dEY3ZXa0tFdjJZUkR4QTVRMEVxRTFWTWdKOHQ5bHZJdUtDUVA3VHNyenRBNExyN0t1ZkxsQWEyYW5rSUdwV2JRazR5Qi05aExMdFRCTVR6UFdOVHBRVnA0eGtrbUJaSjQ2WTA4TEZxbjdnWGNhRENMTElGRDlvaWZNbEM2QUlhWQ?oc=5",
@@ -417,7 +423,7 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -433,12 +439,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "sourceName": "Телеспутник"
         }
       ]
     },
@@ -623,23 +623,17 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 08:15:43 GMT",
-      "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-      "latestSourceName": "Архыз24",
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
-        {
-          "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 08:15:43 GMT",
-          "sourceName": "Архыз24"
-        },
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
