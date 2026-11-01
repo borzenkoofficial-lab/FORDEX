@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-01T09:50:01.365Z",
+  "generatedAt": "2026-11-01T17:18:27.626Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -106,17 +106,35 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 8,
-      "sourceCount7d": 4,
-      "fundingMentions": 0,
+      "sourceCount30d": 10,
+      "sourceCount7d": 5,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 30 Oct 2026 02:55:30 GMT",
-      "latestTitle": "Вместо Changan Alsvin: почему Lada Iskra и Vesta дешевле на 400–600 тыс. рублей, но выгоднее по гарантии — и когда ждать вариатор на Granta - 110km.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFQzbXV6YVdESFBZNVozUGVfdmU2Y2p0ZXdaLUZCbEw4Rm94MnJmeVJPSWFiaTg1ODVvRWVJOHRKcS1xNkxXZUR5MWhyTXktSDN6cWx1Qk9TU29VcFJqTDJtS1dkRjBFYngyUnZ5cW1HQnEzY3FrcC1yODRuazRwUVZtYXFfajUzYWlvYjBRYjlzNHR5Z2UydFRfMVA?oc=5",
-      "latestSourceName": "110km.ru",
+      "latestPublishedAt": "Sun, 01 Nov 2026 16:31:00 GMT",
+      "latestTitle": "LADA Iskra SW Cross сорвала аплодисменты: универсал получил признание за пределами автобизнеса - Правда.Ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yT1JPajlkVXBpaFVMN09UdDFIYjY2ckVHWkl3d18xb2tlcW5fMDVReDFTZ3ZJakdkTkE0V0lSM2FLbFdSTFNHQy1EeUJpd1V1OFRtVzVsTmtUZmhjMm1meUR2NDZqa0lFWDF1d3dheDNBZHQ4TEY5eQ?oc=5",
+      "latestSourceName": "Правда.Ру",
       "sources": [
+        {
+          "title": "LADA Iskra SW Cross сорвала аплодисменты: универсал получил признание за пределами автобизнеса - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yT1JPajlkVXBpaFVMN09UdDFIYjY2ckVHWkl3d18xb2tlcW5fMDVReDFTZ3ZJakdkTkE0V0lSM2FLbFdSTFNHQy1EeUJpd1V1OFRtVzVsTmtUZmhjMm1meUR2NDZqa0lFWDF1d3dheDNBZHQ4TEY5eQ?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 16:31:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "У Lada Iskra после 20 тысяч км выявили проблемы в работе круиз-контроля - RuNews24",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWE1QXZ6OVh6ZlZBdE9rb1pwVFJQb25Pd09qYU94REtZYjVBQmV6ak5nV0w5NW5HU0lHVjJ4YmZna0szU2FrMEJFRjY0bFdVTTdiVXNmM3FHdFJZaUM5Z3FObXhkTV9JYVV4b082c1BLTDVYSlFYZjN2RU95UENjMWFVWHduWFlHcFp0QXR0N0FERWc0dG9pV3lPSHladWRUS2tjN3VHdy1NVnlkekI0MGpENUc?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 09:07:00 GMT",
+          "sourceName": "RuNews24"
+        },
+        {
+          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
+          "sourceName": "За рулем"
+        },
         {
           "title": "Вместо Changan Alsvin: почему Lada Iskra и Vesta дешевле на 400–600 тыс. рублей, но выгоднее по гарантии — и когда ждать вариатор на Granta - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFQzbXV6YVdESFBZNVozUGVfdmU2Y2p0ZXdaLUZCbEw4Rm94MnJmeVJPSWFiaTg1ODVvRWVJOHRKcS1xNkxXZUR5MWhyTXktSDN6cWx1Qk9TU29VcFJqTDJtS1dkRjBFYngyUnZ5cW1HQnEzY3FrcC1yODRuazRwUVZtYXFfajUzYWlvYjBRYjlzNHR5Z2UydFRfMVA?oc=5",
@@ -124,36 +142,18 @@ export const liveMarketSnapshot = {
           "sourceName": "110km.ru"
         },
         {
-          "title": "Почему на Iskra сейчас такая цена и зачем срочно ехать в автоцентр? Выгода — до 4 000 BYN - av.by",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IUGVNcjZUektIU2JmOE1zb1NGcXdiakVsbW5XeXpGeldycFJnS3NDUUFPS2prRFVoMkFYU1JnN096UXYxc2E3UEFqQ2xlSDU2ZnFOVThaSkNlSTBfMHBWbkhzaWxJVTRVNXJMSHFOb2VCUQ?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 21:00:00 GMT",
-          "sourceName": "av.by"
-        },
-        {
-          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
-          "sourceName": "110km.ru"
-        },
-        {
-          "title": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 11:39:53 GMT",
-          "sourceName": "110km.ru"
-        },
-        {
-          "title": "Lada Iskra и Azimut получили награды на премии «Точка зажигания» Avito Авто - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPczVJc2JsejlJSkFaa3BuWEpyOGxLWW1WaEJfWEYzSkE3T3lvT1ZHdC1nZ3ctUXNNbXFmMnlrMlFyb25ReHlFTGNMSkJPU093ZTlMTTN2UXhNNWZKZDU3a0tzR1IwMWlHWkJNUVFxQXBSamdDcURBVC1IOFhKUDNIQVRFVmNwYmRucGNBcXBia2VjUzFSTmFOMWIxeWlZdmNvZ2dCcHJwOF9uVVdmU21WQkM3RnR2YVBoS19zT3I5UGJYZm5paktFc2loaXVJd29FcXZva3ZB?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-          "sourceName": "Лада.Онлайн"
+          "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
+          "sourceName": "TKS.RU"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
-      "sourceCount7d": 5,
+      "sourceCount30d": 7,
+      "sourceCount7d": 6,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -228,34 +228,22 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 5,
-      "sourceCount7d": 4,
+      "sourceCount30d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 0,
       "launchMentions": 0,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
-      "latestTitle": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
-      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
-      "latestSourceName": "MASHNEWS | Новости Промышленности",
+      "tractionMentions": 0,
+      "latestPublishedAt": "Fri, 30 Oct 2026 13:30:00 GMT",
+      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
+      "latestSourceName": "Ростех",
       "sources": [
-        {
-          "title": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
-          "sourceName": "MASHNEWS | Новости Промышленности"
-        },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 13:30:00 GMT",
           "sourceName": "Ростех"
-        },
-        {
-          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тысяч человек - The Insider",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 15:40:34 GMT",
-          "sourceName": "The Insider"
         },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
@@ -341,8 +329,8 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
-      "sourceCount7d": 6,
+      "sourceCount30d": 8,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -377,10 +365,10 @@ export const liveMarketSnapshot = {
           "sourceName": "CNews.ru"
         },
         {
-          "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
-          "sourceName": "ГИПОРТ"
+          "title": "Российская технология выявления поддельных документов получила патент в США - Компьютерра",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1BDQnZ3VzBsaGtXS0VKdFhHUi1tczRELVdVU25oVEVaN2x4S2paVHRFSmYyLTlOLUJhWEpiQWRBNDFybW5ZZTFoTGZCNGJYMnF3b1JxUEM5LTNxYi1aeTdwRTFqNGkyWGo1QWZzZEdNRURaMjh6UTJld0w4aVFsSFd4bjlCSjVvekhqaS1mM21nSEpYVV9nS3RROV8wNHFmdE9JYWdZRkEyYnNSajdIZHNWbVY?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 06:42:48 GMT",
+          "sourceName": "Компьютерра"
         }
       ]
     },
@@ -452,36 +440,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
-      "latestSourceName": "Webiomed",
-      "sources": [
-        {
-          "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Мы приняли участие в работе Российского национального конгресса кардиологов - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9tVWRZaXRSejFJSzVMNkYwc3FFQjN6V0lYQ2VNaDdWOUVyQ0ZEVkRSLUl6QlBxTDA4eXJnU19BbGw0anktRHlub3BaYi0xM3hVV3Z5T0Q2ZVUtc21EcGh2UlZoeW1CME1oQ3h6Zk1TOHhjU09jS1BCOHNFdw?oc=5",
-          "publishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -754,15 +723,15 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 28 Oct 2026 20:46:49 GMT",
+      "latestPublishedAt": "Wed, 28 Oct 2026 21:10:00 GMT",
       "latestTitle": "Мать, помогавшую людям пережить утрату, нашли мертвой на пляже после смерти сына в Великобритании - Liter.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS1hsQ0JZb2R5TVFqckZTR1RvcUltRUhuYnozc2RQc1ZnYjdSS2FZUkpaa21tWGY2SkRGNDVURjUta2xDdW9lSVpsOXFXcTRaUzM4bFltMHdCZWxkQy1lRlFiUjVVWFlGb3NGYVJzY1VlR3JXUEtUcy1hOVplaE10eE16SW5ORjd2RXZiUldJVmlvdy1YZGRwUlBtZjJleno1TTI0bk9JNFY2VW5DMXhDVmpDWUE1cVF1YXd3V28wcWVxeVl1ZkhWakhNQ0kzcTTSAc8BQVVfeXFMTktYbENCWW9keU1RanJGU0dUb3FJbUVIbmJ6M3NkUHNWZ2I3UkthWVJKWmttbVhmNkpERjQ1VEY1LWtsQ3VvZUlabDlxV3E0WlMzOGxZbTB3QmVsZEMtZUZRYlI1VVhZRm9zRmFSc2NVZUdyV1BLVHMtYTlaZWhNdHhNekluTkY3dkV2YlJXSVZpb3ctWGRkcFJQbWYyZXp6NU0yNG5PSTRWNlVuQzF4Q1ZqQ1lBNXFRdWF3d1dvMHFlcXlZdWZIVmpITUNJM3E0?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3Jmd2ZwODBDM0ItZnhGbnFzd0l4MzAxVnBZdEI1V01hdF8zLTRaXzBLQmdTcktBSlVpRy1CT254N2ZBR005TDlpU2dFWW5rNlhsUzlwM1IwXzBuVlEwb01PM1N4azFOc0ZOakpHSkpaY0FSbXRmeEEzRk84Ync1SFBuQk1mWHZHTTBabjBoZjBZaGVNYUVZUkZ3VXhyTzd3aVpQMlJMWWVOaHNqVFJOajVsNXhyeFJzRkFGc1M3LU9wRXVSYUoxMDRB0gHPAUFVX3lxTE5LWGxDQllvZHlNUWpyRlNHVG9xSW1FSG5iejNzZFBzVmdiN1JLYVlSSlprbW1YZjZKREY0NVRGNS1rbEN1b2VJWmw5cVdxNFpTMzhsWW0wd0JlbGRDLWVGUWJSNVVYWUZvc0ZhUnNjVWVHcldQS1RzLWE5WmVoTXR4TXpJbk5GN3ZFdmJSV0lWaW93LVhkZHBSUG1mMmV6ejVNMjRuT0k0VjZVbkMxeENWakNZQTVxUXVhd3dXbzBxZXF5WXVmSFZqSE1DSTNxNA?oc=5",
       "latestSourceName": "Liter.kz",
       "sources": [
         {
           "title": "Мать, помогавшую людям пережить утрату, нашли мертвой на пляже после смерти сына в Великобритании - Liter.kz",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxOS1hsQ0JZb2R5TVFqckZTR1RvcUltRUhuYnozc2RQc1ZnYjdSS2FZUkpaa21tWGY2SkRGNDVURjUta2xDdW9lSVpsOXFXcTRaUzM4bFltMHdCZWxkQy1lRlFiUjVVWFlGb3NGYVJzY1VlR3JXUEtUcy1hOVplaE10eE16SW5ORjd2RXZiUldJVmlvdy1YZGRwUlBtZjJleno1TTI0bk9JNFY2VW5DMXhDVmpDWUE1cVF1YXd3V28wcWVxeVl1ZkhWakhNQ0kzcTTSAc8BQVVfeXFMTktYbENCWW9keU1RanJGU0dUb3FJbUVIbmJ6M3NkUHNWZ2I3UkthWVJKWmttbVhmNkpERjQ1VEY1LWtsQ3VvZUlabDlxV3E0WlMzOGxZbTB3QmVsZEMtZUZRYlI1VVhZRm9zRmFSc2NVZUdyV1BLVHMtYTlaZWhNdHhNekluTkY3dkV2YlJXSVZpb3ctWGRkcFJQbWYyZXp6NU0yNG5PSTRWNlVuQzF4Q1ZqQ1lBNXFRdWF3d1dvMHFlcXlZdWZIVmpITUNJM3E0?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:46:49 GMT",
+          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3Jmd2ZwODBDM0ItZnhGbnFzd0l4MzAxVnBZdEI1V01hdF8zLTRaXzBLQmdTcktBSlVpRy1CT254N2ZBR005TDlpU2dFWW5rNlhsUzlwM1IwXzBuVlEwb01PM1N4azFOc0ZOakpHSkpaY0FSbXRmeEEzRk84Ync1SFBuQk1mWHZHTTBabjBoZjBZaGVNYUVZUkZ3VXhyTzd3aVpQMlJMWWVOaHNqVFJOajVsNXhyeFJzRkFGc1M3LU9wRXVSYUoxMDRB0gHPAUFVX3lxTE5LWGxDQllvZHlNUWpyRlNHVG9xSW1FSG5iejNzZFBzVmdiN1JLYVlSSlprbW1YZjZKREY0NVRGNS1rbEN1b2VJWmw5cVdxNFpTMzhsWW0wd0JlbGRDLWVGUWJSNVVYWUZvc0ZhUnNjVWVHcldQS1RzLWE5WmVoTXR4TXpJbk5GN3ZFdmJSV0lWaW93LVhkZHBSUG1mMmV6ejVNMjRuT0k0VjZVbkMxeENWakNZQTVxUXVhd3dXbzBxZXF5WXVmSFZqSE1DSTNxNA?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 21:10:00 GMT",
           "sourceName": "Liter.kz"
         }
       ]
@@ -843,32 +812,51 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 0,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Торжественное открытие баскетбольного турнира для начальных школ Ханоя — Кубка Nestlé Milo 2026. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
+      "latestSourceName": "Vietnam.vn",
+      "sources": [
+        {
+          "title": "Торжественное открытие баскетбольного турнира для начальных школ Ханоя — Кубка Nestlé Milo 2026. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
+          "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Stray Kids встретились с BABY MILO® - PAP Magazine",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdURGQnNLdzhDb1FBVzloUzZwOVdGU0pyQUJPT1l4MFpsM0JlR0tVd0tSOE9SRUVnMnNDSV9aUjVqcldDd1JIQlhRSUlBMlByWEQ3RTNyWTMzVHM5U2NxcFJWMDVlU3hKS1NUaXYxZFNxdVhwbUJXN0pNZU9sSFZOSlFCd08zUQ?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 07:00:00 GMT",
+          "sourceName": "PAP Magazine"
+        }
+      ]
     },
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
+      "latestPublishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
+      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
+          "publishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
@@ -1025,21 +1013,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 30 Oct 2026 14:03:37 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Sun, 01 Nov 2026 10:22:13 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 10:22:13 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 14:03:37 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 04:37:59 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1278,7 +1266,7 @@ export const liveMarketSnapshot = {
       "companyId": "metranpazh",
       "companyName": "Метранпаж",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
