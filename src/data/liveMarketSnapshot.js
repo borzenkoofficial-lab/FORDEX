@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-01T21:24:49.971Z",
+  "generatedAt": "2026-11-02T02:56:28.410Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -90,7 +90,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 15:36:49 GMT",
+      "latestPublishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
       "latestTitle": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
       "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
       "latestSourceName": "spbIT",
@@ -98,7 +98,7 @@ export const liveMarketSnapshot = {
         {
           "title": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 15:36:49 GMT",
+          "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
           "sourceName": "spbIT"
         }
       ]
@@ -106,9 +106,9 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 9,
+      "sourceCount30d": 10,
       "sourceCount7d": 5,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -124,6 +124,12 @@ export const liveMarketSnapshot = {
           "sourceName": "Правда.Ру"
         },
         {
+          "title": "У Lada Iskra после 20 тысяч км выявили проблемы в работе круиз-контроля - RuNews24",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWE1QXZ6OVh6ZlZBdE9rb1pwVFJQb25Pd09qYU94REtZYjVBQmV6ak5nV0w5NW5HU0lHVjJ4YmZna0szU2FrMEJFRjY0bFdVTTdiVXNmM3FHdFJZaUM5Z3FObXhkTV9JYVV4b082c1BLTDVYSlFYZjN2RU95UENjMWFVWHduWFlHcFp0QXR0N0FERWc0dG9pV3lPSHladWRUS2tjN3VHdy1NVnlkekI0MGpENUc?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 09:07:00 GMT",
+          "sourceName": "RuNews24"
+        },
+        {
           "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
           "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
@@ -136,16 +142,10 @@ export const liveMarketSnapshot = {
           "sourceName": "110km.ru"
         },
         {
-          "title": "Почему на Iskra сейчас такая цена и зачем срочно ехать в автоцентр? Выгода — до 4 000 BYN - av.by",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1IUGVNcjZUektIU2JmOE1zb1NGcXdiakVsbW5XeXpGeldycFJnS3NDUUFPS2prRFVoMkFYU1JnN096UXYxc2E3UEFqQ2xlSDU2ZnFOVThaSkNlSTBfMHBWbkhzaWxJVTRVNXJMSHFOb2VCUQ?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 21:00:00 GMT",
-          "sourceName": "av.by"
-        },
-        {
-          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 18:09:55 GMT",
-          "sourceName": "110km.ru"
+          "title": "АвтоВАЗ открыл для посетителей завод Lada Iskra в Санкт-Петербурге - TKS.RU",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQNms2VFNnSGgzMUdIRUlOUTNtZjhhZXFPbkotU3hTcW5OTmh1bGkwOUY3aUhwR0VibndHMEVBWlp6a1BKeG5Qell6TWNxR3lPQXZHRjRzSEw0dWlPVDJMam03MExvRzVDTmtrUTJBTE4wSnNUdEZBUjlJQ2ViRE9oaWliNnRTbEFjVFdFeG9TcXJ2cTNSM1ZhbDVmdlhTMDA2dWJ4QnN0Z250Ty1lenBHeWdTSQ?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 05:04:10 GMT",
+          "sourceName": "TKS.RU"
         }
       ]
     },
@@ -228,7 +228,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 1,
@@ -248,7 +248,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 13:30:00 GMT",
+          "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
           "sourceName": "Ростех"
         },
         {
@@ -341,23 +341,17 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
-      "sourceCount7d": 4,
+      "sourceCount30d": 5,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
-      "latestTitle": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
-      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
-      "latestSourceName": "ITSpeaker",
+      "latestPublishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
+      "latestTitle": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
-          "sourceName": "ITSpeaker"
-        },
         {
           "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
@@ -380,6 +374,12 @@ export const liveMarketSnapshot = {
           "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
           "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Браузер умеет больше, чем кажется: дайджест недели WASM Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5RajRqbXBpX3hBSWpJSDhiaDMxcTdnM0FCRGxHRGFYNVdNV2tsTEtOUGhHZF9Wd1lsUEhrYlR1eUxRUnI3MzBINkhwTEFIQ2I4TFJjdWNiclhrNWRvbV9oWVlkMllBRWtzWFJfcdIBWEFVX3lxTE51bExKb2wyZEZmWUJnTndSbGlPNXNJU0psNUlDaVZLV2VkZlFHdW5xNmg0cGV5Ri11WUx6YmUtZXYwWXhSN3lhNXFmc2lhNlVJR3BpZ1I2ajI?oc=5",
+          "publishedAt": "Tue, 06 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
@@ -424,7 +424,7 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -440,6 +440,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
+          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
+          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+          "sourceName": "Телеспутник"
         }
       ]
     },
@@ -611,17 +617,23 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
-      "latestSourceName": "Компьютерра",
+      "latestPublishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
+      "latestSourceName": "Архыз24",
       "sources": [
+        {
+          "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
+          "sourceName": "Архыз24"
+        },
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
@@ -818,7 +830,7 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -834,29 +846,29 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
           "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Stray Kids встретились с BABY MILO® - PAP Magazine",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdURGQnNLdzhDb1FBVzloUzZwOVdGU0pyQUJPT1l4MFpsM0JlR0tVd0tSOE9SRUVnMnNDSV9aUjVqcldDd1JIQlhRSUlBMlByWEQ3RTNyWTMzVHM5U2NxcFJWMDVlU3hKS1NUaXYxZFNxdVhwbUJXN0pNZU9sSFZOSlFCd08zUQ?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 07:00:00 GMT",
-          "sourceName": "PAP Magazine"
         }
       ]
     },
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 05 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
+      "latestPublishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
+      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
+          "publishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Переупаковать без монтажки: что делает уникализатор в MnogoReels и есть ли толк против теневого бана - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBvdW03d2JnbEh3NC1LdDJyX05FTWpmWXBJNER5enc1N0kyWDc2SXFQMUlnclZ6dHNGaU1DaHFuLXY5cUdkSUY3M29HOG1odGY2TElN?oc=5",
@@ -1317,28 +1329,22 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
+      "sourceCount30d": 7,
       "sourceCount7d": 3,
-      "fundingMentions": 1,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 12:21:20 GMT",
-      "latestTitle": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Thu, 29 Oct 2026 15:13:19 GMT",
+      "latestTitle": "Политика, направленная на поддержку малых и средних предприятий, обеспечивает охват целевой аудиторией и создает благоприятные условия для развития. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0JMTGMtMVgxemJvZXV4TzhOS2JmOGs0R092RWxBTlh2TGFJT2lKYzUwM0dQbnNLVktSNGVnVVExOVJFQm1peWRTUkFKMDU5U3FBRzJqdjBROGt3WDBQODRROUtOY0liQ2F5SmwzU2VKbHNlY3ZkNk51VlRfV1F5MUhDbjd1OGJGd2N2TDRYb2ZRaG83WDNMem90RkF5cXZNMEJBcFh2ekExQ1pHY2N2OWhhNWZYLWZkOVBFLWZMNnFza1VK?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
         {
-          "title": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 12:21:20 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Кейс PARI и Футбольной национальной лиги: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
-          "sourceName": "AdIndex"
+          "title": "Политика, направленная на поддержку малых и средних предприятий, обеспечивает охват целевой аудиторией и создает благоприятные условия для развития. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQV0JMTGMtMVgxemJvZXV4TzhOS2JmOGs0R092RWxBTlh2TGFJT2lKYzUwM0dQbnNLVktSNGVnVVExOVJFQm1peWRTUkFKMDU5U3FBRzJqdjBROGt3WDBQODRROUtOY0liQ2F5SmwzU2VKbHNlY3ZkNk51VlRfV1F5MUhDbjd1OGJGd2N2TDRYb2ZRaG83WDNMem90RkF5cXZNMEJBcFh2ekExQ1pHY2N2OWhhNWZYLWZkOVBFLWZMNnFza1VK?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 15:13:19 GMT",
+          "sourceName": "Vietnam.vn"
         },
         {
           "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
@@ -1347,16 +1353,22 @@ export const liveMarketSnapshot = {
           "sourceName": "AdIndex"
         },
         {
-          "title": "Дорогой контент: медиа переходят от гонки за охватом к борьбе за окупаемость - Ведомости",
-          "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxOZDIyZWcwbHhIRnFhS0NIVzRwb0pwWDZhUlNkektyUnIySlRtSFRfM3UxZFgyN01wNWdXcHdDSUUtUlhERDVkZDFUbk9TSWU5OUhzWW93UEREVWpGOFRoLXYtQlRuajJIVzdGVHE0OG1nR25vSUJLdTh5LWI4aTNJbFYzMXBVQ0I0WWxpcndR?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
-          "sourceName": "Ведомости"
+          "title": "Инфлюенс-маркетинг: вы покупаете охват, а решение принимается по доверию. - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lRjdteUhRVXd3X2hCcDBWOGJVZHpfQ0czUTJpMWpuS0VXbHFRVHFWT19JendfS1cxSE5ORG5PT1ZTRGZta29jU25UcF9VZVFqOWkw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 13:21:22 GMT",
+          "sourceName": "Sostav.ru"
         },
         {
-          "title": "Миллион просмотров — еще не результат: от больших охватов к доверию - Сноб",
-          "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxNZ3Zzc05zS2RsUWJDb0Y2aTJtMG5FTm52VEM5SXBPeUpOTE5PU0NQdklnRVBXYjlTcTU4azRTZWQ3b0hsOXcwcVZmQktoOV9fMURSbDRIdU5WWjlOZzZpMFo1cGRYaVNFTlVNYUQ5NjMyb1ZYQWVkT3Z1ZFNnY1prcXlEdWlBOS1GcHM3enBHNkhEeFlrLVhz?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
-          "sourceName": "Сноб"
+          "title": "В России назвали способ расширить охват льготных автокредитов: Evolute и Voyah рассказали, что стоит изменить - Автоновости дня",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 07:00:00 GMT",
+          "sourceName": "Автоновости дня"
+        },
+        {
+          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 07:00:00 GMT",
+          "sourceName": "RB.RU"
         }
       ]
     },
