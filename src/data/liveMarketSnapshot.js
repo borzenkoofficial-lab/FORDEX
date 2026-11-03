@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-03T02:42:53.767Z",
+  "generatedAt": "2026-11-03T10:12:07.972Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,7 +107,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -132,7 +132,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprOA?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
+          "publishedAt": "Sun, 01 Nov 2026 07:50:45 GMT",
           "sourceName": "За рулем"
         },
         {
@@ -152,7 +152,7 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 5,
+      "sourceCount30d": 6,
       "sourceCount7d": 5,
       "fundingMentions": 2,
       "dealMentions": 0,
@@ -228,46 +228,22 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 6,
-      "sourceCount7d": 5,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 0,
       "launchMentions": 0,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
-      "latestTitle": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
-      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
-      "latestSourceName": "MASHNEWS | Новости Промышленности",
+      "tractionMentions": 0,
+      "latestPublishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
+      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
+      "latestSourceName": "Ростех",
       "sources": [
-        {
-          "title": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
-          "sourceName": "MASHNEWS | Новости Промышленности"
-        },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
           "sourceName": "Ростех"
-        },
-        {
-          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тысяч человек - The Insider",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 15:40:34 GMT",
-          "sourceName": "The Insider"
-        },
-        {
-          "title": "ИИ помог поймать более 8 тысяч преступников в Сибири - Газета",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1d9IBckFVX3lxTFBCd01zOHJtelZiUnFhZHRFUzlxdUFDVHZHRFQtQnk5aURKdTV2aXE1b2h5ZzNJRk5uWktlXzlEWXRqTmdrTUNvcjVLWVE3U2hNY2YxUGNoOUhlVHc1SENkZTRTb19vRGhXczlEa2hfZ0o1dw?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 14:10:50 GMT",
-          "sourceName": "Газета"
-        },
-        {
-          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 13:00:00 GMT",
-          "sourceName": "RTVI"
         }
       ]
     },
@@ -347,11 +323,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 13:48:44 GMT",
-      "latestTitle": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Tue, 03 Nov 2026 07:24:00 GMT",
+      "latestTitle": "Российская Smart Engines в 3,4 раза точнее выявляет дипфейки документов - Techora.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMVJUNjF4TW9xTF9WamRpNmRvNGV6aVNVcGNOTTNjVDRmZTJFc2xUTXpjdUdUWHdnYndJY1QzTTBiZWxSSkhvWUZuU1FoVWRTTXVrcmoyTGFZeVgyU0lFTHRUQlNyMThCNmxDM3NnT3ZWckVn?oc=5",
+      "latestSourceName": "Techora.ru",
       "sources": [
+        {
+          "title": "Российская Smart Engines в 3,4 раза точнее выявляет дипфейки документов - Techora.ru",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMVJUNjF4TW9xTF9WamRpNmRvNGV6aVNVcGNOTTNjVDRmZTJFc2xUTXpjdUdUWHdnYndJY1QzTTBiZWxSSkhvWUZuU1FoVWRTTXVrcmoyTGFZeVgyU0lFTHRUQlNyMThCNmxDM3NnT3ZWckVn?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 07:24:00 GMT",
+          "sourceName": "Techora.ru"
+        },
         {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
@@ -359,10 +341,10 @@ export const liveMarketSnapshot = {
           "sourceName": "CNews.ru"
         },
         {
-          "title": "Мошенничество с поддельными документами стало системной угрозой для бизнеса: дайджест недели Smart Engines, отчет - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE9VUEdmSDRrWEROdU0zWG9CTlhEMDZsVUloSXloOWtEX1VVT0J4SlBsWWlmei1nNUZVVTFhX1JJNHNGZXFXQm1lRUk5SFZBMUUtX2ZvYzl1QWNQLXJIZWZmQ3JuV3pnbkpzVGZxUNIBWEFVX3lxTE8xV3REY2F5bGowdndZMURhT0JJMzFkcjZYeWhtYk9OaUJWY2xaQmJ6NXFJQUJ4Wk1jbEhEMzFITnpQZ21FZlZkZjEwWGs4Y1M3SVk0LWtBUnI?oc=5",
-          "publishedAt": "Sat, 31 Oct 2026 11:01:03 GMT",
-          "sourceName": "Хабр"
+          "title": "ИИ научили разоблачать замаскированные дипфейки мошенников - Газета",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
+          "sourceName": "Газета"
         },
         {
           "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
@@ -375,12 +357,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMFd5bDZXa3psRUUtWWd1OWJIcEJCeGFoZW9yQzRWS21YZzM0dG9EbmtUTEx1ZXowOG8zc3Q5bEtEeXRPYThHZU1NQVdzRFJ3c01hcW1Dd28xT0dJTEdJbjF0TWdHcXFDNG9wWWRNWTdnQlY4cDc2NDg2Um81TDhFcFYwaUdNTllmMGZ4NTdaVTJVXzZ4TGVoVUhPTXotbFhHNVVScEN3aDc1ZGY0akxORUVFUnRLWjRXcG9wQ2trMm92N2NvZEtkajk4bTJrckpqbHhfaDZLUGNRQ05STkxuUXk1ZU4wa1lJbFHSAegBQVVfeXFMT0dxZXYyV1h4MktxNVJ3VVRWbXVLcnFaS29lWDFSTVdfN3E3akZlNjRvLURVbkFQV2tWT3BrcFRGTTFfVmxRdDFDRTV3S2Iwd0o2NGNhWkltWHZ6QjczSHM2UE9YV2pyZ0JvTzZ3dDU2ZDFTa0pPUDUwLTJPZEI3TWhRd3VLVzRqaXhFLUdUUGhlYV8ySXdCT1FCLUJxOTg2RmY2eFlGMERVZmptV3o3RWhLWTNDX2drempDWjBkd0pIdmUzVHhyUGpGZ0RjREpoOWNpUmczSWZ6REM5YTdCMEhKMy1kNEZNVQ?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 10:29:00 GMT",
           "sourceName": "Overclockers.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
-          "sourceName": "CNews.ru"
         }
       ]
     },
@@ -402,17 +378,23 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-      "latestSourceName": "Profit.kz",
+      "tractionMentions": 1,
+      "latestPublishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
+      "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
+          "sourceName": "CNews.ru"
+        },
         {
           "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
@@ -636,23 +618,17 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-      "latestSourceName": "Архыз24",
+      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
+      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
-        {
-          "title": "Искусственный интеллект для детей: безопасно, осмысленно, с проверяемым результатом - Архыз24",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOOVVDTDh3SEFyaFh1OFZEMTQxc1JyLWNXQkItN3JNdnJocmFWeGhKaTFlRGZEMFZpSlM5MkJtU0RIUVg2WGxmRnRWbjZlclhaMU1JX3BSVENqTllOcklqWW9PVG8wQk5MZ1Fjb2pKcDByTU9OckhRZUJCUDlyZU8xWVZFWktXUTR5dW1rSkpxRGNZaktHYzBib25oTy1ENi1UZFB1Mw?oc=5",
-          "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
-          "sourceName": "Архыз24"
-        },
         {
           "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
@@ -843,7 +819,7 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -859,6 +835,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPSmNXNGpQbVU5by1TcDQ1d0FFV1kzNFBnenhTQ1lFakFYcmpHSVFUcV9ZeFdzcW40SDV0aWpkNXNEbUdPMlp3X0k3OUJwWmgtZlBuUUNRVUR3OFdkRzBkczFCazNqUl9RS2dtQ2pSdkJlbVJRVURnMlR6ZEFhcUNINUN0QTNJWlh6bHB4eW84UU9rVENzTUV5QUp3?oc=5",
           "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
           "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Stray Kids встретились с BABY MILO® - PAP Magazine",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxPdURGQnNLdzhDb1FBVzloUzZwOVdGU0pyQUJPT1l4MFpsM0JlR0tVd0tSOE9SRUVnMnNDSV9aUjVqcldDd1JIQlhRSUlBMlByWEQ3RTNyWTMzVHM5U2NxcFJWMDVlU3hKS1NUaXYxZFNxdVhwbUJXN0pNZU9sSFZOSlFCd08zUQ?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 07:00:00 GMT",
+          "sourceName": "PAP Magazine"
         }
       ]
     },
@@ -1032,24 +1014,17 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
-      "latestTitle": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
-      "latestSourceName": "Sostav.ru",
-      "sources": [
-        {
-          "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
-          "publishedAt": "Sun, 04 Oct 2026 05:34:15 GMT",
-          "sourceName": "Sostav.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "seomeow": {
       "companyId": "seomeow",
@@ -1204,12 +1179,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 1,
       "latestPublishedAt": "Sat, 31 Oct 2026 12:36:34 GMT",
       "latestTitle": "Книга мертвых стартапов. Выпуск 2026: До последнего клиента - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLUVUxaU1fQnZ2NDJuYlBKVDVxVzdKTFdJOEdBYXdHQkdfanA2bnVtMkpZYk5hNHhuNXBRZms3NDlrdEViYlY2QTNsckZoak1GZ2luYndyTEPSAVhBVV95cUxQS1FVMWlNX0J2djQybmJQSlQ1cVc3SkxXSThHQWF3R0JHX2pwNm51bTJKWWJOYTR4bjVwUWZrNzQ5a3RFYmJWNkEzbHJGaGpNRmdpbmJ3ckxD?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sWEFoNzJhZGt3WnJVS3ZLekE5WERJT1RnV25kay05eU5qTEhGakhfVjVZNFRrX19JNlhBRkpYMV96VjNwSk84b0tjZm9BNjQwNk1EWm5fUGxWR09VVm9CZ0tyYU9Zc2dzUl9Wc9IBWEFVX3lxTFBLUVUxaU1fQnZ2NDJuYlBKVDVxVzdKTFdJOEdBYXdHQkdfanA2bnVtMkpZYk5hNHhuNXBRZms3NDlrdEViYlY2QTNsckZoak1GZ2luYndyTEM?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
         {
           "title": "Книга мертвых стартапов. Выпуск 2026: До последнего клиента - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTFBLUVUxaU1fQnZ2NDJuYlBKVDVxVzdKTFdJOEdBYXdHQkdfanA2bnVtMkpZYk5hNHhuNXBRZms3NDlrdEViYlY2QTNsckZoak1GZ2luYndyTEPSAVhBVV95cUxQS1FVMWlNX0J2djQybmJQSlQ1cVc3SkxXSThHQWF3R0JHX2pwNm51bTJKWWJOYTR4bjVwUWZrNzQ5a3RFYmJWNkEzbHJGaGpNRmdpbmJ3ckxD?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sWEFoNzJhZGt3WnJVS3ZLekE5WERJT1RnV25kay05eU5qTEhGakhfVjVZNFRrX19JNlhBRkpYMV96VjNwSk84b0tjZm9BNjQwNk1EWm5fUGxWR09VVm9CZ0tyYU9Zc2dzUl9Wc9IBWEFVX3lxTFBLUVUxaU1fQnZ2NDJuYlBKVDVxVzdKTFdJOEdBYXdHQkdfanA2bnVtMkpZYk5hNHhuNXBRZms3NDlrdEViYlY2QTNsckZoak1GZ2luYndyTEM?oc=5",
           "publishedAt": "Sat, 31 Oct 2026 12:36:34 GMT",
           "sourceName": "Хабр"
         }
@@ -1332,7 +1307,7 @@ export const liveMarketSnapshot = {
       "companyName": "Охват",
       "sourceCount30d": 10,
       "sourceCount7d": 5,
-      "fundingMentions": 1,
+      "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 1,
       "tractionMentions": 0,
@@ -1348,16 +1323,16 @@ export const liveMarketSnapshot = {
           "sourceName": "IT Channel News"
         },
         {
-          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbEN0WVBKeE5Xa1o4OWRoZjJiVmh3TmZzanhBM1hocHpFM1d2VmF1M1JUUFZ4QTNPMXRhb0Vnbm9ka2ZSZ09ldnJFdnNFQ1NpT3BHSVVBMnFXV0t0b1E5bHd4N0doelotUHVWUnZuQ2I4ZFNybkI3SFFleEJGUnJjV05meWFsazdtRDVmTlF0Ukt2d2RNcklnWFQ1Z1dtc2Q1eTRBM2RHTUt5QW93ZEU2U0ZVUUcyblBLd3RCMndoQlnSAcABQVVfeXFMTWxDdFlQSnhOV2taODlkaGYyYlZod05mc2p4QTNYaHB6RTNXdlZhdTNSVFBWeEEzTzF0YW9FZ25vZGtmUmdPZXZyRXZzRUNTaU9wR0lVQTJxV1dLdG9ROWx3eDdHaHpaLVB1VlJ2bkNiOGRTcm5CN0hRZXhCRlJyY1dOZnlhbGs3bUQ1Zk5RdFJLdndkTXJJZ1hUNWdXbXNkNXk0QTNkR01LeUFvd2RFNlNGVVFHMm5QS3d0QjJ3aEJZ?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
-          "sourceName": "Юга.ру"
+          "title": "Донг Тхап: Достижение 96,5% охвата медицинским страхованием и стремление к тому, чтобы никто не остался без внимания в системе социального обеспечения. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM3Y0N3ZUb0ZQUGNvUENvUHpwa0VheG1tSHZCeGtBQWhsLVM5WXYzWDRZU2xxX1MyNmlMdU9Jd2FNTEQ2cFRWNXpXWnR0Rk1qQzRhUW82bWZuTFRZYTU5MWpmODNVNS1IUUx6TFlUSGNkSi1uY2JnQk85UUZfRlJlQjNtdWZjZEtPZTNhdlo1X1J4MzdwODRsTmJLc1Y3NW5GMGVDS2E4MXdSeWdh?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 10:12:05 GMT",
+          "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
-          "publishedAt": "Sat, 31 Oct 2026 14:57:51 GMT",
-          "sourceName": "Sostav.ru"
+          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
+          "sourceName": "Юга.ру"
         },
         {
           "title": "Бюджет на рекламу у блогеров для Wildberries и Ozon: расчёт на примере - Т-Бизнес секреты",
@@ -1366,10 +1341,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Т-Бизнес секреты"
         },
         {
-          "title": "Кейс PARI и Футбольной национальной лиги: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
-          "sourceName": "AdIndex"
+          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex.ru",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5JRkY4aGF0ajljZmF5QU9zRTlmWnl2TkFnQ3k1eGlYQlRjWXh1QmxGUUVyVVpwSlZFWXV3MGN2ZkhNV05yeGxEbU1kTlVmVUlqejd4YTFKMWY3ZG5pZ3YtV2JkQmJqRzVFLUVmZlpLRWhQdw?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 09:42:05 GMT",
+          "sourceName": "AdIndex.ru"
         }
       ]
     },
