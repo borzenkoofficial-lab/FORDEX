@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-04T10:01:41.042Z",
+  "generatedAt": "2026-11-04T18:56:21.609Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -112,11 +112,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 05:41:00 GMT",
-      "latestTitle": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
-      "latestSourceName": "iXBT.com",
+      "latestPublishedAt": "Wed, 04 Nov 2026 10:09:23 GMT",
+      "latestTitle": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
+      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
+      "latestSourceName": "Южный автомобиль",
       "sources": [
+        {
+          "title": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 10:09:23 GMT",
+          "sourceName": "Южный автомобиль"
+        },
         {
           "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
@@ -140,19 +146,13 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVDRSVkluUzlTZ1VfV3F3ODh0YmFZNHV3TzZ6Zl94d3pFRjNqRVlIdzRQNUVxUHJkSV9DcGw4dFVEVXlfbDJDRHdlMU0tQTZHMFgtWDZIdEJYMnRKVWF4UmRuSUppN0E2bHBiNWNmaThGcjE1TDdvaFZvVDZ6bGNzVVk4MV84Ylo0Uno2MmgtYjhUbEtNUDJsRURlOGpaMEtVcElaMkpnU21WNFNGZkxkUUctSDZ2WmJPTkNGZDAwTFBkeGVRcFE?oc=5",
           "publishedAt": "Tue, 03 Nov 2026 07:23:30 GMT",
           "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "ТО LADA подорожало на 15%: новые цены, сколько придётся платить за ТО Granta, Vesta, Niva и Iskra - Новости Тольятти",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUFSb0UwcFdmc2Vjd1VuaU5nNzgwUmRITTBPNllTc2NPMnZJdTZlOU85ZkVyTlJjakhIZXA2enNfYkZac1RtdGNYbXhaMlVNSTh5djVnbHhZRmhXUHhOaVlodDRVU1puUlhMZnNGQTdxYmFHUEZvakhQT2poR09yeUJCRzlpQXZqMU84NmwtNV84UzNQczZBcUxjbmJ4anpsX1lxUXNIR2xwX29ZVFdFbFU2d1F5Z3NR?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 10:22:02 GMT",
-          "sourceName": "Новости Тольятти"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
+      "sourceCount30d": 5,
       "sourceCount7d": 3,
       "fundingMentions": 2,
       "dealMentions": 0,
@@ -190,7 +190,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Умение делегировать: Just AI вложил 400 млн рублей в студию для создания ИИ-агентов - Forbes.ru",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 05:00:00 GMT",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
           "sourceName": "Forbes.ru"
         }
       ]
@@ -256,13 +256,13 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 06:32:45 GMT",
+      "latestPublishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
       "latestTitle": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -270,13 +270,7 @@ export const liveMarketSnapshot = {
         {
           "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 06:32:45 GMT",
-          "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "В Смоленской области будут развивать исконно русскую интеллектуальную игру - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzYtVzNwMVc0WERWcWtNbTVfSmg4OHdDeGRBaHptRXpWa2NrVWdUdEpiLWlNaXdwLTFEVkxVc2F3WHl1WlFOQnNMNFBqNk1GLXh6VkFKYmRwUGE4eUt0Q0Y4bmctdW5NbjJPazlYbXlUSmgxbU5zdldScWlCNkR2Rk12aXZJbkpkeUpSMlVDVFk0YmROSEJwTkQ0N3daVHR1Y183SW52Vm1lTWFKZ1dWNlotNkpMSk0?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 15:33:57 GMT",
+          "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -335,8 +329,8 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
-      "sourceCount7d": 5,
+      "sourceCount30d": 8,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -359,22 +353,22 @@ export const liveMarketSnapshot = {
           "sourceName": "CNews.ru"
         },
         {
+          "title": "ИИ научили разоблачать замаскированные дипфейки мошенников - Газета",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
+          "sourceName": "Газета"
+        },
+        {
           "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
           "sourceName": "ITSpeaker"
         },
         {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
-          "sourceName": "ГИПОРТ"
+          "title": "Российская компания Smart Engines запатентовала в США технологию выявления поддельных документов - Overclockers.ru",
+          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMFd5bDZXa3psRUUtWWd1OWJIcEJCeGFoZW9yQzRWS21YZzM0dG9EbmtUTEx1ZXowOG8zc3Q5bEtEeXRPYThHZU1NQVdzRFJ3c01hcW1Dd28xT0dJTEdJbjF0TWdHcXFDNG9wWWRNWTdnQlY4cDc2NDg2Um81TDhFcFYwaUdNTllmMGZ4NTdaVTJVXzZ4TGVoVUhPTXotbFhHNVVScEN3aDc1ZGY0akxORUVFUnRLWjRXcG9wQ2trMm92N2NvZEtkajk4bTJrckpqbHhfaDZLUGNRQ05STkxuUXk1ZU4wa1lJbFHSAegBQVVfeXFMT0dxZXYyV1h4MktxNVJ3VVRWbXVLcnFaS29lWDFSTVdfN3E3akZlNjRvLURVbkFQV2tWT3BrcFRGTTFfVmxRdDFDRTV3S2Iwd0o2NGNhWkltWHZ6QjczSHM2UE9YV2pyZ0JvTzZ3dDU2ZDFTa0pPUDUwLTJPZEI3TWhRd3VLVzRqaXhFLUdUUGhlYV8ySXdCT1FCLUJxOTg2RmY2eFlGMERVZmptV3o3RWhLWTNDX2drempDWjBkd0pIdmUzVHhyUGpGZ0RjREpoOWNpUmczSWZ6REM5YTdCMEhKMy1kNEZNVQ?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 10:29:00 GMT",
+          "sourceName": "Overclockers.ru"
         }
       ]
     },
@@ -396,13 +390,13 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 2,
       "launchMentions": 0,
       "tractionMentions": 2,
-      "latestPublishedAt": "Wed, 04 Nov 2026 06:33:13 GMT",
+      "latestPublishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
       "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -410,7 +404,7 @@ export const liveMarketSnapshot = {
         {
           "title": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 06:33:13 GMT",
+          "publishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -418,12 +412,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
           "publishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-          "sourceName": "Profit.kz"
         }
       ]
     },
@@ -452,30 +440,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 2,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
-      "latestSourceName": "Webiomed",
-      "sources": [
-        {
-          "title": "Министр здравоохранения РФ Михаил Мурашко рассказал про наш совместный проект с НМИЦ ТПМ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE9HcTkwOVlFa3JMVS1nSTRkdnZraFozci02bmwzekh0VjZybWpseWd5cTNEdm03WktCNnNCbGJZeVJuS1RieUR6Y1Y1ZDc1Z2c5cmt5aS16U1EtUHM?oc=5",
-          "publishedAt": "Wed, 21 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Наш эксперт принял участие в исследовании рынка превентивной медицины от Purrweb и «Хелснет» НТИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE45VW5yZE16LXJaNEd0OHBCU09QVnVwWTdnX1U3NEhqMWRSbnpyd29lSEZtUkRSZUZ2cFpra1pKYy1MazlMejNTRUN1V01ud3N4RVp1QlpfRnl4UDVTUmxhUmFiS0FIZEd2N1JkWnpiY3ZWbkhZM1E?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-          "sourceName": "Webiomed"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -1117,7 +1092,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Tue, 27 Oct 2026 16:34:33 GMT",
+      "latestPublishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
       "latestTitle": "Как в SaaS найти первых b2b-клиентов: 5 каналов продвижения - Т—Ж",
       "latestUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuQU9HdVlvXzdqVnVMLTcwVl9mSGk5SnRLcFdrUm9pdUlqZG1sNG50VWFDQ0J0clVSQ0tIZ013X19LMWd3SXJWcU5WOXUwc1BLUlNKVm5mQUdRZ1p0cG5zZzNHZw?oc=5",
       "latestSourceName": "Т—Ж",
@@ -1125,7 +1100,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Как в SaaS найти первых b2b-клиентов: 5 каналов продвижения - Т—Ж",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuQU9HdVlvXzdqVnVMLTcwVl9mSGk5SnRLcFdrUm9pdUlqZG1sNG50VWFDQ0J0clVSQ0tIZ013X19LMWd3SXJWcU5WOXUwc1BLUlNKVm5mQUdRZ1p0cG5zZzNHZw?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 16:34:33 GMT",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
           "sourceName": "Т—Ж"
         }
       ]
@@ -1312,17 +1287,23 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 4,
+      "sourceCount30d": 10,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 21:00:00 GMT",
-      "latestTitle": "Экспертиза и региональный охват — главные критерии выбора сервисного партнёра - IT Channel News",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yd2hxaklXZG52MGtlTHA0aW1qTlNEMkxMeW8zNndtZm1rcV85eXpEaFQ0bF9LQXhjZnVIQTZ4Tm9WSWs3Y01PRktQQTBFNjl5RExvQlc3NUVlQ0pSM0FRZV82eE5hbU0?oc=5",
-      "latestSourceName": "IT Channel News",
+      "latestPublishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
+      "latestTitle": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnNaemg3M0tRNzJoQlczalltYTlhUl9lalZsNzNPbWlYMjFTQzREOUtUcHNNaDg2UFNTcm9ZWV9keV9mbjVNVHo3V3JzeEZFRWJlNDRBcFM1eGJDc0hDTUVpZk1TTU8tNml6RF9wWFZFY0E3dkpWSmt4TkN6dVdGaXA4ZWF1QWJJYzAxeXVFcFpyWjlsMDFtb2Q3b1V5OGwyZkNvUTZsaG1DMF93b3V5bXh5ZWlLODg5?oc=5",
+      "latestSourceName": "iXBT.com",
       "sources": [
+        {
+          "title": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnNaemg3M0tRNzJoQlczalltYTlhUl9lalZsNzNPbWlYMjFTQzREOUtUcHNNaDg2UFNTcm9ZWV9keV9mbjVNVHo3V3JzeEZFRWJlNDRBcFM1eGJDc0hDTUVpZk1TTU8tNml6RF9wWFZFY0E3dkpWSmt4TkN6dVdGaXA4ZWF1QWJJYzAxeXVFcFpyWjlsMDFtb2Q3b1V5OGwyZkNvUTZsaG1DMF93b3V5bXh5ZWlLODg5?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
+          "sourceName": "iXBT.com"
+        },
         {
           "title": "Экспертиза и региональный охват — главные критерии выбора сервисного партнёра - IT Channel News",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yd2hxaklXZG52MGtlTHA0aW1qTlNEMkxMeW8zNndtZm1rcV85eXpEaFQ0bF9LQXhjZnVIQTZ4Tm9WSWs3Y01PRktQQTBFNjl5RExvQlc3NUVlQ0pSM0FRZV82eE5hbU0?oc=5",
@@ -1346,12 +1327,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
           "sourceName": "AdIndex"
-        },
-        {
-          "title": "Инфлюенс-маркетинг: вы покупаете охват, а решение принимается по доверию. - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lRjdteUhRVXd3X2hCcDBWOGJVZHpfQ0czUTJpMWpuS0VXbHFRVHFWT19JendfS1cxSE5ORG5PT1ZTRGZta29jU25UcF9VZVFqOWkw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 13:21:22 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
