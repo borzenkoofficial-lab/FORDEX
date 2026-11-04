@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-03T18:43:40.816Z",
+  "generatedAt": "2026-11-04T00:56:55.404Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,16 +107,22 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 6,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 03 Nov 2026 11:17:08 GMT",
-      "latestTitle": "АвтоВАЗ бесплатно доработает несколько тысяч автомобилей LADA Iskra: в чем причина - Автоновости дня",
-      "latestUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KazZtckY0aHhqNVFrLW85Mmk0cldUbEUxb0xkT1psWGRlUkRENXN6SmcxQ3E2UFJCN1pvc2NPVlVvcW53a3AtbEt4SUZSeG4xU2g4WnBkNGx6dno1aURtSGgtOWoxRDJ0ZHlqQjRnY9IBdEFVX3lxTE92ZG5UaEhLMUtFT1dkUWo0NVlyenh0bFVTVDBrbjJwRW1vT1ZteEQ2VExYY29GQ2tpZlBycm1LZndKMEJMaWpmeVpicVFnVjZvQmhCdkF2RzhlNk9uNDdQV0tmcXd4UEdwMXFRdFVWQXNTR0hh?oc=5",
-      "latestSourceName": "Автоновости дня",
+      "latestPublishedAt": "Tue, 03 Nov 2026 15:40:00 GMT",
+      "latestTitle": "АвтоВАЗ проверит более 3 тыс. Lada Iskra — специалисты оценят состояние передней подвески - RB.RU",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPalpGYXgwYXgtc1NQV19UeHBINGM4bFF1ZlBXRjJQNzBOa3VHVzVMbzRTd2RQMUFTVGtza2NiV0VFWkpsT0ZCQTV3NmR3QmU3aFR6OGxibjJoVHVhRE03amtiZVZYQVgxcm15NzBETzdtRzZQRFROdUt6aTRBcC1mWWF4Nkg5SDREMVhqd2ZHSTF3VkdnOXBySFEwTml5aklEWjE5MnNUR2FyVDRN?oc=5",
+      "latestSourceName": "RB.RU",
       "sources": [
+        {
+          "title": "АвтоВАЗ проверит более 3 тыс. Lada Iskra — специалисты оценят состояние передней подвески - RB.RU",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPalpGYXgwYXgtc1NQV19UeHBINGM4bFF1ZlBXRjJQNzBOa3VHVzVMbzRTd2RQMUFTVGtza2NiV0VFWkpsT0ZCQTV3NmR3QmU3aFR6OGxibjJoVHVhRE03amtiZVZYQVgxcm15NzBETzdtRzZQRFROdUt6aTRBcC1mWWF4Nkg5SDREMVhqd2ZHSTF3VkdnOXBySFEwTml5aklEWjE5MnNUR2FyVDRN?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 15:40:00 GMT",
+          "sourceName": "RB.RU"
+        },
         {
           "title": "АвтоВАЗ бесплатно доработает несколько тысяч автомобилей LADA Iskra: в чем причина - Автоновости дня",
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KazZtckY0aHhqNVFrLW85Mmk0cldUbEUxb0xkT1psWGRlUkRENXN6SmcxQ3E2UFJCN1pvc2NPVlVvcW53a3AtbEt4SUZSeG4xU2g4WnBkNGx6dno1aURtSGgtOWoxRDJ0ZHlqQjRnY9IBdEFVX3lxTE92ZG5UaEhLMUtFT1dkUWo0NVlyenh0bFVTVDBrbjJwRW1vT1ZteEQ2VExYY29GQ2tpZlBycm1LZndKMEJMaWpmeVpicVFnVjZvQmhCdkF2RzhlNk9uNDdQV0tmcXd4UEdwMXFRdFVWQXNTR0hh?oc=5",
@@ -130,22 +136,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
+          "title": "ТО LADA подорожало на 15%: новые цены, сколько придётся платить за ТО Granta, Vesta, Niva и Iskra - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUFSb0UwcFdmc2Vjd1VuaU5nNzgwUmRITTBPNllTc2NPMnZJdTZlOU85ZkVyTlJjakhIZXA2enNfYkZac1RtdGNYbXhaMlVNSTh5djVnbHhZRmhXUHhOaVlodDRVU1puUlhMZnNGQTdxYmFHUEZvakhQT2poR09yeUJCRzlpQXZqMU84NmwtNV84UzNQczZBcUxjbmJ4anpsX1lxUXNIR2xwX29ZVFdFbFU2d1F5Z3NR?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 10:22:02 GMT",
+          "sourceName": "Новости Тольятти"
+        },
+        {
           "title": "LADA Iskra SW Cross сорвала аплодисменты: универсал получил признание за пределами автобизнеса - Правда.Ру",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yT1JPajlkVXBpaFVMN09UdDFIYjY2ckVHWkl3d18xb2tlcW5fMDVReDFTZ3ZJakdkTkE0V0lSM2FLbFdSTFNHQy1EeUJpd1V1OFRtVzVsTmtUZmhjMm1meUR2NDZqa0lFWDF1d3dheDNBZHQ4TEY5eQ?oc=5",
           "publishedAt": "Sun, 01 Nov 2026 16:31:00 GMT",
           "sourceName": "Правда.Ру"
-        },
-        {
-          "title": "У Lada Iskra после 20 тысяч км выявили проблемы в работе круиз-контроля - RuNews24",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxQRWE1QXZ6OVh6ZlZBdE9rb1pwVFJQb25Pd09qYU94REtZYjVBQmV6ak5nV0w5NW5HU0lHVjJ4YmZna0szU2FrMEJFRjY0bFdVTTdiVXNmM3FHdFJZaUM5Z3FObXhkTV9JYVV4b082c1BLTDVYSlFYZjN2RU95UENjMWFVWHduWFlHcFp0QXR0N0FERWc0dG9pV3lPSHladWRUS2tjN3VHdy1NVnlkekI0MGpENUc?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 09:07:00 GMT",
-          "sourceName": "RuNews24"
-        },
-        {
-          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprOA?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 07:50:45 GMT",
-          "sourceName": "За рулем"
         }
       ]
     },
@@ -228,12 +228,12 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 0,
+      "tractionMentions": 1,
       "latestPublishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
       "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
       "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
@@ -244,6 +244,24 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
           "sourceName": "Ростех"
+        },
+        {
+          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тысяч человек - The Insider",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 15:40:34 GMT",
+          "sourceName": "The Insider"
+        },
+        {
+          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 13:00:00 GMT",
+          "sourceName": "RTVI"
+        },
+        {
+          "title": "В Йошкар-Оле нейросеть NtechLab начнёт выявлять самокатчиков в запрещённых зонах - www1.ru",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPSGVYZW14bHNPZGJuZUQ4bnprdU40X0htZWk4ZnZXOWVLQTBXckZPcFVtdVFkb0w3VW1DVnZwcHJONHRhVVFBLVhPS0JmclEyUmJpbVdPeDhKZkJLNTFXQVdPYmRaZEpNWWVKU3ZhZUVUZVVjVHJWZU5iREJrNkttZGZ2LUk3eERUc3g1emxnRERQQjNCanRVSl9nUDBVZURPLXdSd3dXSUF1SXQ5VEdXcG1vam5FMmpzeHpJ0gHAAUFVX3lxTFB3STJKbkZZV1ZPd1JnQ2E0RkIxWWEza2VCMWVFb0ZTM3g1U0l4OXBsSlpjZDhTVVRubFRzd29uYU53ZDVCLU82QTBsa1dqZ1dQX3ZlNU1ySnZidkRuSlk5TEN5RnowbWIzRXVlTEZIX3Z6S0hjWEo4VWtSdngtcHdraXJ6emxOcXdJYmZQblEzNkVZRWstZXdVR015aEx1REZ2Ti1wd0pCaTJRS1FCb1Q4SlhzMkJNYkxRcHlFcHdWUg?oc=5",
+          "publishedAt": "Thu, 22 Oct 2026 07:00:00 GMT",
+          "sourceName": "www1.ru"
         }
       ]
     },
@@ -251,21 +269,21 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 2,
-      "sourceCount7d": 0,
-      "fundingMentions": 1,
+      "sourceCount7d": 1,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 27 Oct 2026 06:00:00 GMT",
-      "latestTitle": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-      "latestSourceName": "Forbes.ru",
+      "latestPublishedAt": "Wed, 28 Oct 2026 15:33:57 GMT",
+      "latestTitle": "В Смоленской области будут развивать исконно русскую интеллектуальную игру - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzYtVzNwMVc0WERWcWtNbTVfSmg4OHdDeGRBaHptRXpWa2NrVWdUdEpiLWlNaXdwLTFEVkxVc2F3WHl1WlFOQnNMNFBqNk1GLXh6VkFKYmRwUGE4eUt0Q0Y4bmctdW5NbjJPazlYbXlUSmgxbU5zdldScWlCNkR2Rk12aXZJbkpkeUpSMlVDVFk0YmROSEJwTkQ0N3daVHR1Y183SW52Vm1lTWFKZ1dWNlotNkpMSk0?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
         {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 06:00:00 GMT",
-          "sourceName": "Forbes.ru"
+          "title": "В Смоленской области будут развивать исконно русскую интеллектуальную игру - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzYtVzNwMVc0WERWcWtNbTVfSmg4OHdDeGRBaHptRXpWa2NrVWdUdEpiLWlNaXdwLTFEVkxVc2F3WHl1WlFOQnNMNFBqNk1GLXh6VkFKYmRwUGE4eUt0Q0Y4bmctdW5NbjJPazlYbXlUSmgxbU5zdldScWlCNkR2Rk12aXZJbkpkeUpSMlVDVFk0YmROSEJwTkQ0N3daVHR1Y183SW52Vm1lTWFKZ1dWNlotNkpMSk0?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 15:33:57 GMT",
+          "sourceName": "prospect.com.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -384,7 +402,7 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 1,
@@ -402,12 +420,6 @@ export const liveMarketSnapshot = {
           "sourceName": "CNews.ru"
         },
         {
-          "title": "УрФУ внедрил голосового ИИ-ассистента Voxys для работы с абитуриентами - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQNUQ2b3dSc1huMFBSRmpteUlwcDQ1TTlvWHI3SlF1ekJTSm92VHVWLXJibG1GUkpVU3FnNTZhdWRfTGg3NDJ5Q1lLbVFlTDVwNDJadUo2NjlwT2xwRmxuODBVVk16NjlaRzM3X3pFRmJNdm56NWhuRC1yc3BOUHB1eURKV1FIbFo4UTU0bU9QZkNER1VmQWhoTHBncl9zQlBlTVR6a01SVzRmc3ljLXl6YW93?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 10:31:41 GMT",
-          "sourceName": "prospect.com.ru"
-        },
-        {
           "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
           "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
@@ -418,7 +430,7 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -434,12 +446,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
           "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Дмитрий Марков: тотальный технологический суверенитет в ИИ нужен не везде - Телеспутник",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxOeFlDLW5oN0lURmxCY0xuZGlSMUZYZkxtOFhxbUloUTRwWlFWOW1QbmtJeV84T2N0MUhqakdvak9nMUp2RTNoR2pZaExGX0VCal9Xc0FHeVQybFJrM1FMa0ZNRU1WOUh0YUtDZkRTLU1LUDhyZ3V3WHFpR29XOVJuZ1pTUWVxR1RnSmdYMlJtWjhqUWp4UDJJZ3RJUWZDQzFLTWlPN1BzVW5YVHdGSVI3VjNnNGQ?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "sourceName": "Телеспутник"
         }
       ]
     },
@@ -1298,9 +1304,9 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
-      "sourceCount7d": 5,
-      "fundingMentions": 1,
+      "sourceCount30d": 9,
+      "sourceCount7d": 4,
+      "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 1,
       "tractionMentions": 0,
@@ -1316,28 +1322,28 @@ export const liveMarketSnapshot = {
           "sourceName": "IT Channel News"
         },
         {
+          "title": "Донг Тхап: Достижение 96,5% охвата медицинским страхованием и стремление к тому, чтобы никто не остался без внимания в системе социального обеспечения. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM3Y0N3ZUb0ZQUGNvUENvUHpwa0VheG1tSHZCeGtBQWhsLVM5WXYzWDRZU2xxX1MyNmlMdU9Jd2FNTEQ2cFRWNXpXWnR0Rk1qQzRhUW82bWZuTFRZYTU5MWpmODNVNS1IUUx6TFlUSGNkSi1uY2JnQk85UUZfRlJlQjNtdWZjZEtPZTNhdlo1X1J4MzdwODRsTmJLc1Y3NW5GMGVDS2E4MXdSeWdh?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 10:12:05 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
           "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxNbEN0WVBKeE5Xa1o4OWRoZjJiVmh3TmZzanhBM1hocHpFM1d2VmF1M1JUUFZ4QTNPMXRhb0Vnbm9ka2ZSZ09ldnJFdnNFQ1NpT3BHSVVBMnFXV0t0b1E5bHd4N0doelotUHVWUnZuQ2I4ZFNybkI3SFFleEJGUnJjV05meWFsazdtRDVmTlF0Ukt2d2RNcklnWFQ1Z1dtc2Q1eTRBM2RHTUt5QW93ZEU2U0ZVUUcyblBLd3RCMndoQlnSAcABQVVfeXFMTWxDdFlQSnhOV2taODlkaGYyYlZod05mc2p4QTNYaHB6RTNXdlZhdTNSVFBWeEEzTzF0YW9FZ25vZGtmUmdPZXZyRXZzRUNTaU9wR0lVQTJxV1dLdG9ROWx3eDdHaHpaLVB1VlJ2bkNiOGRTcm5CN0hRZXhCRlJyY1dOZnlhbGs3bUQ1Zk5RdFJLdndkTXJJZ1hUNWdXbXNkNXk0QTNkR01LeUFvd2RFNlNGVVFHMm5QS3d0QjJ3aEJZ?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
           "sourceName": "Юга.ру"
         },
         {
-          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
-          "publishedAt": "Sat, 31 Oct 2026 14:57:51 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Бюджет на рекламу у блогеров для Wildberries и Ozon: расчёт на примере - Т-Бизнес секреты",
-          "url": "https://news.google.com/rss/articles/CBMibkFVX3lxTE14NzZtNUdjdEZPY0xYdGdTTTZHbUtkZVVFVndqWktIRXZvNzJfTlpzSFZvZVU2cWtVMGh0aENTcFBReEstWkJUdURBenpvc2hNSGxQbFZZQWFIY21taXpvT2ppbDgtanBsWGVONUhR?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 14:43:31 GMT",
-          "sourceName": "Т-Бизнес секреты"
-        },
-        {
-          "title": "Кейс PARI и Футбольной национальной лиги: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
+          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
           "sourceName": "AdIndex"
+        },
+        {
+          "title": "Инфлюенс-маркетинг: вы покупаете охват, а решение принимается по доверию. - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lRjdteUhRVXd3X2hCcDBWOGJVZHpfQ0czUTJpMWpuS0VXbHFRVHFWT19JendfS1cxSE5ORG5PT1ZTRGZta29jU25UcF9VZVFqOWkw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 13:21:22 GMT",
+          "sourceName": "Sostav.ru"
         }
       ]
     },
