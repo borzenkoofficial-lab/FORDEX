@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-05T01:07:28.961Z",
+  "generatedAt": "2026-11-05T09:58:10.293Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -107,16 +107,34 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 10,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 10:09:23 GMT",
-      "latestTitle": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
-      "latestSourceName": "Южный автомобиль",
+      "latestPublishedAt": "Thu, 05 Nov 2026 09:09:50 GMT",
+      "latestTitle": "Дефект в подвеске Lada Iskra: почему АвтоВАЗ отзывает 3000 машин и что это значит для владельцев - Carexpo.ru_ все авто на одном сайте",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVjUzb0tyanM5VFZSU1VpbDUxYUJLa0xsQUhTakZKczNiWDBXZy1YWGl1UUpOSk1aVXJSb3hOQldpYWFyX2FSRnExbFdya2tTcldZaDhfM0lYRDhfMHdWSGRZLVNuZElUNXdXRnBrQ0RTNGFMUTBGVXp4YWNmaTZEajZRNzl4RWJyYmxEdVRVOXZWWTVaVl9qbEJDaTR3U1dLcUVaTQ?oc=5",
+      "latestSourceName": "Carexpo.ru_ все авто на одном сайте",
       "sources": [
+        {
+          "title": "Дефект в подвеске Lada Iskra: почему АвтоВАЗ отзывает 3000 машин и что это значит для владельцев - Carexpo.ru_ все авто на одном сайте",
+          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVjUzb0tyanM5VFZSU1VpbDUxYUJLa0xsQUhTakZKczNiWDBXZy1YWGl1UUpOSk1aVXJSb3hOQldpYWFyX2FSRnExbFdya2tTcldZaDhfM0lYRDhfMHdWSGRZLVNuZElUNXdXRnBrQ0RTNGFMUTBGVXp4YWNmaTZEajZRNzl4RWJyYmxEdVRVOXZWWTVaVl9qbEJDaTR3U1dLcUVaTQ?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 09:09:50 GMT",
+          "sourceName": "Carexpo.ru_ все авто на одном сайте"
+        },
+        {
+          "title": "У трех тысяч Lada Iskra найден дефект - Авто Mail",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXdycUxFNjRjWm5tRnRWeWpza2FJMlZ4NVBYOGJzWk43WndMek5PakNwWFlmRm1nMm9HRUVjcTN0dnNXVWI3OWdVMFpLTE5BbkV3UER5ZldOUjJrSGROYzdEQ19HbjlQUlJyeWV5d1RMNFk0d0VaMy0za2lta0V2TjdEcw?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 08:50:00 GMT",
+          "sourceName": "Авто Mail"
+        },
+        {
+          "title": "АвтоВАЗ проверит более 3 тысяч автомобилей Lada Iskra из-за проблем с подвеской - TKS.RU",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM05RaDhfYUlVVl9wM2NkTldNTVg3RTZyMHRzWDI3ZTFWdDk5cmRkb21qNm5Wd3JxYjE5SEtROHNxdlhKdDJ0YzROd2FOZm5seHpWdFN3LVVTTndpcWJPZEFQYzNCZmgwNHR3cEJ4dUpjcExYLW5xajJBQk5xT2FfXzBZcGl3MXo2ZVRkaE10RVdxMlJtblNZdGpxdTNMS3g0VUItYllKUEdBWTduRUZLUzZiVl9sNE9EbjBnZmJvak9rTnJFRWc?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 15:15:03 GMT",
+          "sourceName": "TKS.RU"
+        },
         {
           "title": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
@@ -124,27 +142,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Южный автомобиль"
         },
         {
-          "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 05:41:00 GMT",
-          "sourceName": "iXBT.com"
-        },
-        {
-          "title": "АвтоВАЗ проверит более 3 тыс. Lada Iskra — специалисты оценят состояние передней подвески - RB.RU",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPalpGYXgwYXgtc1NQV19UeHBINGM4bFF1ZlBXRjJQNzBOa3VHVzVMbzRTd2RQMUFTVGtza2NiV0VFWkpsT0ZCQTV3NmR3QmU3aFR6OGxibjJoVHVhRE03amtiZVZYQVgxcm15NzBETzdtRzZQRFROdUt6aTRBcC1mWWF4Nkg5SDREMVhqd2ZHSTF3VkdnOXBySFEwTml5aklEWjE5MnNUR2FyVDRN?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 15:40:00 GMT",
-          "sourceName": "RB.RU"
-        },
-        {
-          "title": "АвтоВАЗ бесплатно доработает несколько тысяч автомобилей LADA Iskra: в чем причина - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KazZtckY0aHhqNVFrLW85Mmk0cldUbEUxb0xkT1psWGRlUkRENXN6SmcxQ3E2UFJCN1pvc2NPVlVvcW53a3AtbEt4SUZSeG4xU2g4WnBkNGx6dno1aURtSGgtOWoxRDJ0ZHlqQjRnY9IBdEFVX3lxTE92ZG5UaEhLMUtFT1dkUWo0NVlyenh0bFVTVDBrbjJwRW1vT1ZteEQ2VExYY29GQ2tpZlBycm1LZndKMEJMaWpmeVpicVFnVjZvQmhCdkF2RzhlNk9uNDdQV0tmcXd4UEdwMXFRdFVWQXNTR0hh?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 11:17:08 GMT",
-          "sourceName": "Автоновости дня"
-        },
-        {
           "title": "АВТОВАЗ меняет пружины на LADA Iskra из-за контакта с кузовом - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVDRSVkluUzlTZ1VfV3F3ODh0YmFZNHV3TzZ6Zl94d3pFRjNqRVlIdzRQNUVxUHJkSV9DcGw4dFVEVXlfbDJDRHdlMU0tQTZHMFgtWDZIdEJYMnRKVWF4UmRuSUppN0E2bHBiNWNmaThGcjE1TDdvaFZvVDZ6bGNzVVk4MV84Ylo0Uno2MmgtYjhUbEtNUDJsRURlOGpaMEtVcElaMkpnU21WNFNGZkxkUUctSDZ2WmJPTkNGZDAwTFBkeGVRcFE?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 07:23:30 GMT",
+          "publishedAt": "Wed, 04 Nov 2026 05:59:10 GMT",
           "sourceName": "Лада.Онлайн"
         }
       ]
@@ -256,7 +256,7 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -271,12 +271,6 @@ export const liveMarketSnapshot = {
           "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
-          "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "В Смоленской области будут развивать исконно русскую интеллектуальную игру - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxPSzYtVzNwMVc0WERWcWtNbTVfSmg4OHdDeGRBaHptRXpWa2NrVWdUdEpiLWlNaXdwLTFEVkxVc2F3WHl1WlFOQnNMNFBqNk1GLXh6VkFKYmRwUGE4eUt0Q0Y4bmctdW5NbjJPazlYbXlUSmgxbU5zdldScWlCNkR2Rk12aXZJbkpkeUpSMlVDVFk0YmROSEJwTkQ0N3daVHR1Y183SW52Vm1lTWFKZ1dWNlotNkpMSk0?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 15:33:57 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -335,34 +329,22 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 8,
-      "sourceCount7d": 6,
+      "sourceCount30d": 5,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 03 Nov 2026 07:24:00 GMT",
-      "latestTitle": "Российская Smart Engines в 3,4 раза точнее выявляет дипфейки документов - Techora.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMVJUNjF4TW9xTF9WamRpNmRvNGV6aVNVcGNOTTNjVDRmZTJFc2xUTXpjdUdUWHdnYndJY1QzTTBiZWxSSkhvWUZuU1FoVWRTTXVrcmoyTGFZeVgyU0lFTHRUQlNyMThCNmxDM3NnT3ZWckVn?oc=5",
-      "latestSourceName": "Techora.ru",
+      "latestPublishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
+      "latestTitle": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "Российская Smart Engines в 3,4 раза точнее выявляет дипфейки документов - Techora.ru",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMVJUNjF4TW9xTF9WamRpNmRvNGV6aVNVcGNOTTNjVDRmZTJFc2xUTXpjdUdUWHdnYndJY1QzTTBiZWxSSkhvWUZuU1FoVWRTTXVrcmoyTGFZeVgyU0lFTHRUQlNyMThCNmxDM3NnT3ZWckVn?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 07:24:00 GMT",
-          "sourceName": "Techora.ru"
-        },
         {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 13:48:44 GMT",
+          "publishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИ научили разоблачать замаскированные дипфейки мошенников - Газета",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
-          "sourceName": "Газета"
         },
         {
           "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
@@ -371,10 +353,22 @@ export const liveMarketSnapshot = {
           "sourceName": "ITSpeaker"
         },
         {
-          "title": "Российская компания Smart Engines запатентовала в США технологию выявления поддельных документов - Overclockers.ru",
-          "url": "https://news.google.com/rss/articles/CBMi6gFBVV95cUxNMFd5bDZXa3psRUUtWWd1OWJIcEJCeGFoZW9yQzRWS21YZzM0dG9EbmtUTEx1ZXowOG8zc3Q5bEtEeXRPYThHZU1NQVdzRFJ3c01hcW1Dd28xT0dJTEdJbjF0TWdHcXFDNG9wWWRNWTdnQlY4cDc2NDg2Um81TDhFcFYwaUdNTllmMGZ4NTdaVTJVXzZ4TGVoVUhPTXotbFhHNVVScEN3aDc1ZGY0akxORUVFUnRLWjRXcG9wQ2trMm92N2NvZEtkajk4bTJrckpqbHhfaDZLUGNRQ05STkxuUXk1ZU4wa1lJbFHSAegBQVVfeXFMT0dxZXYyV1h4MktxNVJ3VVRWbXVLcnFaS29lWDFSTVdfN3E3akZlNjRvLURVbkFQV2tWT3BrcFRGTTFfVmxRdDFDRTV3S2Iwd0o2NGNhWkltWHZ6QjczSHM2UE9YV2pyZ0JvTzZ3dDU2ZDFTa0pPUDUwLTJPZEI3TWhRd3VLVzRqaXhFLUdUUGhlYV8ySXdCT1FCLUJxOTg2RmY2eFlGMERVZmptV3o3RWhLWTNDX2drempDWjBkd0pIdmUzVHhyUGpGZ0RjREpoOWNpUmczSWZ6REM5YTdCMEhKMy1kNEZNVQ?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 10:29:00 GMT",
-          "sourceName": "Overclockers.ru"
+          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
+          "sourceName": "CNews.ru"
+        },
+        {
+          "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
+          "sourceName": "ГИПОРТ"
+        },
+        {
+          "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
+          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
         }
       ]
     },
@@ -397,11 +391,11 @@ export const liveMarketSnapshot = {
       "companyId": "targetai",
       "companyName": "targetai",
       "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 2,
+      "tractionMentions": 1,
       "latestPublishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
       "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
@@ -414,10 +408,10 @@ export const liveMarketSnapshot = {
           "sourceName": "prospect.com.ru"
         },
         {
-          "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
-          "sourceName": "CNews.ru"
+          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
+          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
+          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
+          "sourceName": "Profit.kz"
         }
       ]
     },
@@ -1298,34 +1292,28 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
-      "sourceCount7d": 5,
+      "sourceCount30d": 8,
+      "sourceCount7d": 3,
       "fundingMentions": 1,
       "dealMentions": 1,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
-      "latestTitle": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnNaemg3M0tRNzJoQlczalltYTlhUl9lalZsNzNPbWlYMjFTQzREOUtUcHNNaDg2UFNTcm9ZWV9keV9mbjVNVHo3V3JzeEZFRWJlNDRBcFM1eGJDc0hDTUVpZk1TTU8tNml6RF9wWFZFY0E3dkpWSmt4TkN6dVdGaXA4ZWF1QWJJYzAxeXVFcFpyWjlsMDFtb2Q3b1V5OGwyZkNvUTZsaG1DMF93b3V5bXh5ZWlLODg5?oc=5",
-      "latestSourceName": "iXBT.com",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:46:00 GMT",
+      "latestTitle": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
+      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
+      "latestSourceName": "Национальное аграрное агентство",
       "sources": [
         {
-          "title": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPUnNaemg3M0tRNzJoQlczalltYTlhUl9lalZsNzNPbWlYMjFTQzREOUtUcHNNaDg2UFNTcm9ZWV9keV9mbjVNVHo3V3JzeEZFRWJlNDRBcFM1eGJDc0hDTUVpZk1TTU8tNml6RF9wWFZFY0E3dkpWSmt4TkN6dVdGaXA4ZWF1QWJJYzAxeXVFcFpyWjlsMDFtb2Q3b1V5OGwyZkNvUTZsaG1DMF93b3V5bXh5ZWlLODg5?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
-          "sourceName": "iXBT.com"
+          "title": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 08:46:00 GMT",
+          "sourceName": "Национальное аграрное агентство"
         },
         {
           "title": "Экспертиза и региональный охват — главные критерии выбора сервисного партнёра - IT Channel News",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yd2hxaklXZG52MGtlTHA0aW1qTlNEMkxMeW8zNndtZm1rcV85eXpEaFQ0bF9LQXhjZnVIQTZ4Tm9WSWs3Y01PRktQQTBFNjl5RExvQlc3NUVlQ0pSM0FRZV82eE5hbU0?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 21:00:00 GMT",
           "sourceName": "IT Channel News"
-        },
-        {
-          "title": "Донг Тхап: Достижение 96,5% охвата медицинским страхованием и стремление к тому, чтобы никто не остался без внимания в системе социального обеспечения. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQM3Y0N3ZUb0ZQUGNvUENvUHpwa0VheG1tSHZCeGtBQWhsLVM5WXYzWDRZU2xxX1MyNmlMdU9Jd2FNTEQ2cFRWNXpXWnR0Rk1qQzRhUW82bWZuTFRZYTU5MWpmODNVNS1IUUx6TFlUSGNkSi1uY2JnQk85UUZfRlJlQjNtdWZjZEtPZTNhdlo1X1J4MzdwODRsTmJLc1Y3NW5GMGVDS2E4MXdSeWdh?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 10:12:05 GMT",
-          "sourceName": "Vietnam.vn"
         },
         {
           "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
@@ -1338,6 +1326,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
           "sourceName": "AdIndex"
+        },
+        {
+          "title": "Инфлюенс-маркетинг: вы покупаете охват, а решение принимается по доверию. - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lRjdteUhRVXd3X2hCcDBWOGJVZHpfQ0czUTJpMWpuS0VXbHFRVHFWT19JendfS1cxSE5ORG5PT1ZTRGZta29jU25UcF9VZVFqOWkw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 13:21:22 GMT",
+          "sourceName": "Sostav.ru"
         }
       ]
     },
