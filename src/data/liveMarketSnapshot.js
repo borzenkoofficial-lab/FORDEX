@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-05T09:58:10.293Z",
+  "generatedAt": "2026-11-05T19:08:17.350Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -69,17 +69,24 @@ export const liveMarketSnapshot = {
     "dresscode-ai": {
       "companyId": "dresscode-ai",
       "companyName": "DRESSCODE",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
+      "latestTitle": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+      "latestSourceName": "Клуб DNS",
+      "sources": [
+        {
+          "title": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
+          "sourceName": "Клуб DNS"
+        }
+      ]
     },
     "expanta": {
       "companyId": "expanta",
@@ -112,19 +119,13 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 09:09:50 GMT",
-      "latestTitle": "Дефект в подвеске Lada Iskra: почему АвтоВАЗ отзывает 3000 машин и что это значит для владельцев - Carexpo.ru_ все авто на одном сайте",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVjUzb0tyanM5VFZSU1VpbDUxYUJLa0xsQUhTakZKczNiWDBXZy1YWGl1UUpOSk1aVXJSb3hOQldpYWFyX2FSRnExbFdya2tTcldZaDhfM0lYRDhfMHdWSGRZLVNuZElUNXdXRnBrQ0RTNGFMUTBGVXp4YWNmaTZEajZRNzl4RWJyYmxEdVRVOXZWWTVaVl9qbEJDaTR3U1dLcUVaTQ?oc=5",
-      "latestSourceName": "Carexpo.ru_ все авто на одном сайте",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:50:00 GMT",
+      "latestTitle": "АвтоВАЗ бесплатно проверит подвеску Lada Iskra - Авто Mail",
+      "latestUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXdycUxFNjRjWm5tRnRWeWpza2FJMlZ4NVBYOGJzWk43WndMek5PakNwWFlmRm1nMm9HRUVjcTN0dnNXVWI3OWdVMFpLTE5BbkV3UER5ZldOUjJrSGROYzdEQ19HbjlQUlJyeWV5d1RMNFk0d0VaMy0za2lta0V2TjdEcw?oc=5",
+      "latestSourceName": "Авто Mail",
       "sources": [
         {
-          "title": "Дефект в подвеске Lada Iskra: почему АвтоВАЗ отзывает 3000 машин и что это значит для владельцев - Carexpo.ru_ все авто на одном сайте",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOVjUzb0tyanM5VFZSU1VpbDUxYUJLa0xsQUhTakZKczNiWDBXZy1YWGl1UUpOSk1aVXJSb3hOQldpYWFyX2FSRnExbFdya2tTcldZaDhfM0lYRDhfMHdWSGRZLVNuZElUNXdXRnBrQ0RTNGFMUTBGVXp4YWNmaTZEajZRNzl4RWJyYmxEdVRVOXZWWTVaVl9qbEJDaTR3U1dLcUVaTQ?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 09:09:50 GMT",
-          "sourceName": "Carexpo.ru_ все авто на одном сайте"
-        },
-        {
-          "title": "У трех тысяч Lada Iskra найден дефект - Авто Mail",
+          "title": "АвтоВАЗ бесплатно проверит подвеску Lada Iskra - Авто Mail",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXdycUxFNjRjWm5tRnRWeWpza2FJMlZ4NVBYOGJzWk43WndMek5PakNwWFlmRm1nMm9HRUVjcTN0dnNXVWI3OWdVMFpLTE5BbkV3UER5ZldOUjJrSGROYzdEQ19HbjlQUlJyeWV5d1RMNFk0d0VaMy0za2lta0V2TjdEcw?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 08:50:00 GMT",
           "sourceName": "Авто Mail"
@@ -146,6 +147,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVDRSVkluUzlTZ1VfV3F3ODh0YmFZNHV3TzZ6Zl94d3pFRjNqRVlIdzRQNUVxUHJkSV9DcGw4dFVEVXlfbDJDRHdlMU0tQTZHMFgtWDZIdEJYMnRKVWF4UmRuSUppN0E2bHBiNWNmaThGcjE1TDdvaFZvVDZ6bGNzVVk4MV84Ylo0Uno2MmgtYjhUbEtNUDJsRURlOGpaMEtVcElaMkpnU21WNFNGZkxkUUctSDZ2WmJPTkNGZDAwTFBkeGVRcFE?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 05:59:10 GMT",
           "sourceName": "Лада.Онлайн"
+        },
+        {
+          "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 05:41:00 GMT",
+          "sourceName": "iXBT.com"
         }
       ]
     },
@@ -153,7 +160,7 @@ export const liveMarketSnapshot = {
       "companyId": "just-ai",
       "companyName": "Just AI",
       "sourceCount30d": 5,
-      "sourceCount7d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 2,
@@ -229,7 +236,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -256,9 +263,9 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -272,6 +279,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
           "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -329,46 +342,46 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
-      "sourceCount7d": 2,
+      "sourceCount30d": 7,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
-      "latestTitle": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
+      "latestPublishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
       "latestSourceName": "CNews.ru",
       "sources": [
         {
+          "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+          "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Российская Smart Engines в 3,4 раза точнее выявляет дипфейки документов - Techora.ru",
+          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMVJUNjF4TW9xTF9WamRpNmRvNGV6aVNVcGNOTTNjVDRmZTJFc2xUTXpjdUdUWHdnYndJY1QzTTBiZWxSSkhvWUZuU1FoVWRTTXVrcmoyTGFZeVgyU0lFTHRUQlNyMThCNmxDM3NnT3ZWckVn?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 07:24:00 GMT",
+          "sourceName": "Techora.ru"
+        },
+        {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
+          "publishedAt": "Mon, 02 Nov 2026 13:48:44 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "ИИ научили разоблачать замаскированные дипфейки мошенников - Газета",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
+          "sourceName": "Газета"
         },
         {
           "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
           "sourceName": "ITSpeaker"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
-          "sourceName": "ГИПОРТ"
-        },
-        {
-          "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
@@ -391,11 +404,11 @@ export const liveMarketSnapshot = {
       "companyId": "targetai",
       "companyName": "targetai",
       "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
-      "tractionMentions": 1,
+      "tractionMentions": 2,
       "latestPublishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
       "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
@@ -408,10 +421,10 @@ export const liveMarketSnapshot = {
           "sourceName": "prospect.com.ru"
         },
         {
-          "title": "Людей, авто и митинги хотят искать по ИИ-камерам в Алматы - Profit.kz",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxOY09SQ2dfRmd6TXdZRlRwQWJYdTljSjNLS0ZIdm9xVlpOMGdFWXoyNWI3ekZSQkpoX0JyU1F2M2tKbFJMUHdIdjYtWENZcVp0TkZvdkJtTHRMcERiT05ZV0ktdUhWRkJJNUlLZ2RvdUNmZ0xrUFVMWjcwYmF1cHR2ckNIalJrYzI4VGsxeE5OWQ?oc=5",
-          "publishedAt": "Wed, 07 Oct 2026 07:00:00 GMT",
-          "sourceName": "Profit.kz"
+          "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
+          "sourceName": "CNews.ru"
         }
       ]
     },
@@ -939,7 +952,7 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -955,12 +968,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
           "sourceName": "Всеостройке.рф"
-        },
-        {
-          "title": "Брусника снизила простои техники на стройках на 30% - Restate.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxONkhoeWxPTU8xLXV4MFY2TnAtdlBTaFpfRF8xc29zc2JOOVpGNnEwYTdfNkQtTHQ0M1JTeHVVZ3ZKWlBWb1FaMUtDM0p4R2JlZUJlODhqZnNhTWV2LWtWRFk5WFZoZVdrbFFqMVJBN0xyY2g1MV9QNEFlTHBrYzRTQm9TN3drU3FxUF9ic2owU1FiS1dBb3JyNnln?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
-          "sourceName": "Restate.ru"
         },
         {
           "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
@@ -1294,7 +1301,7 @@ export const liveMarketSnapshot = {
       "companyName": "Охват",
       "sourceCount30d": 8,
       "sourceCount7d": 3,
-      "fundingMentions": 1,
+      "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 1,
       "tractionMentions": 0,
@@ -1322,9 +1329,9 @@ export const liveMarketSnapshot = {
           "sourceName": "Юга.ру"
         },
         {
-          "title": "Кейс PARI и Футбольной национальной лиги: как добавить 11 млн охвата и более 12% к знанию бренда через народное голосование - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE1HUkc2WFFpXzNDOXJVQUl5Q3VYQ2x4eHlhY245cjdLVlh3bDd3M003Um1xSExNMTFHMW9yV3E2VU9ZSWlnZ0JWbFBXV3VpdUEzUnpFM3VHcDU3Sm8?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:24:40 GMT",
+          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
           "sourceName": "AdIndex"
         },
         {
