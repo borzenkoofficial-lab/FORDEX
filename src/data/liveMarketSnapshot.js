@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-06T01:12:44.143Z",
+  "generatedAt": "2026-11-06T10:00:03.022Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -342,17 +342,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
-      "sourceCount7d": 4,
+      "sourceCount30d": 8,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
-      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Fri, 06 Nov 2026 03:19:00 GMT",
+      "latestTitle": "В России упрощена оплата платежных документов без QR-кода - Газета Хакасия",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWJnY1pwR1FxaktfSG9PLUF4elZKUzN1MkJEcWVxODJ4T1lrN0V3T0hmUXkwdmtFWXd3d3RoNXVZX1MyZ1dtMzFKMUJJbDIybHVUN2cxSFRXSUFzcUpIWGFSQmVJUEFPa1B3MHQ2VG1VOXlGYllIUTVrYXZ6SDBVRi10OHNmMVZLd1BWYkJyc0lLdW5XUUhldUVUR3cwWW4yUzRBOHZ3RQ?oc=5",
+      "latestSourceName": "Газета Хакасия",
       "sources": [
+        {
+          "title": "В России упрощена оплата платежных документов без QR-кода - Газета Хакасия",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWJnY1pwR1FxaktfSG9PLUF4elZKUzN1MkJEcWVxODJ4T1lrN0V3T0hmUXkwdmtFWXd3d3RoNXVZX1MyZ1dtMzFKMUJJbDIybHVUN2cxSFRXSUFzcUpIWGFSQmVJUEFPa1B3MHQ2VG1VOXlGYllIUTVrYXZ6SDBVRi10OHNmMVZLd1BWYkJyc0lLdW5XUUhldUVUR3cwWW4yUzRBOHZ3RQ?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 03:19:00 GMT",
+          "sourceName": "Газета Хакасия"
+        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -376,12 +382,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
           "sourceName": "Газета"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
-          "sourceName": "ITSpeaker"
         }
       ]
     },
@@ -403,12 +403,12 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 2,
+      "tractionMentions": 1,
       "latestPublishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
       "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
@@ -419,12 +419,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
           "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
-          "sourceName": "CNews.ru"
         }
       ]
     },
@@ -862,17 +856,24 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "latestTitle": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
+      "latestSourceName": "Т—Ж",
+      "sources": [
+        {
+          "title": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Т—Ж"
+        }
+      ]
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -892,17 +893,23 @@ export const liveMarketSnapshot = {
     "nexara": {
       "companyId": "nexara",
       "companyName": "Nexara",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 04:13:00 GMT",
-      "latestTitle": "Конвертировать 100 BRL в NXR — конвертер Brazilian Real в Nexara - CoinCodex",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WYndwNWxBRXNLcF9KaGJTbUtJUzBZbVRkckMxdDNHNE9DbXJfM0lwTTRVSmFqN1g2M2kyRWtWX2l5ZnNXNzZYTVVNejVmR25wdGhaOTBqR1gtc0RGT3ZVZFZVRTZWZw?oc=5",
-      "latestSourceName": "CoinCodex",
+      "latestPublishedAt": "Fri, 06 Nov 2026 08:50:00 GMT",
+      "latestTitle": "Скачали свежий сканер безопасности с GitHub? Поздравляем, троян запустился ещё до компиляции проекта - SecurityLab.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yQ05paVdOX0lTaUdYUDlMZDBsREZqYmM1UUZFWkFHa0QxSFMzQnZFbUR5QTZoR0hLSGtPUF95ZC1QdTVnanlFTnl3Nk5wTlAwdVFOZg?oc=5",
+      "latestSourceName": "SecurityLab.ru",
       "sources": [
+        {
+          "title": "Скачали свежий сканер безопасности с GitHub? Поздравляем, троян запустился ещё до компиляции проекта - SecurityLab.ru",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yQ05paVdOX0lTaUdYUDlMZDBsREZqYmM1UUZFWkFHa0QxSFMzQnZFbUR5QTZoR0hLSGtPUF95ZC1QdTVnanlFTnl3Nk5wTlAwdVFOZg?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 08:50:00 GMT",
+          "sourceName": "SecurityLab.ru"
+        },
         {
           "title": "Конвертировать 100 BRL в NXR — конвертер Brazilian Real в Nexara - CoinCodex",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WYndwNWxBRXNLcF9KaGJTbUtJUzBZbVRkckMxdDNHNE9DbXJfM0lwTTRVSmFqN1g2M2kyRWtWX2l5ZnNXNzZYTVVNejVmR25wdGhaOTBqR1gtc0RGT3ZVZFZVRTZWZw?oc=5",
@@ -1313,7 +1320,7 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
+      "sourceCount30d": 7,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 1,
@@ -1359,24 +1366,17 @@ export const liveMarketSnapshot = {
     "poehali-dev": {
       "companyId": "poehali-dev",
       "companyName": "Поехали.dev",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 26 Oct 2026 23:29:43 GMT",
-      "latestTitle": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
-      "latestSourceName": "НИА-Красноярск",
-      "sources": [
-        {
-          "title": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 23:29:43 GMT",
-          "sourceName": "НИА-Красноярск"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "rekom-plus": {
       "companyId": "rekom-plus",
