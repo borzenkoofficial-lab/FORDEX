@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-05T19:08:17.350Z",
+  "generatedAt": "2026-11-06T01:12:44.143Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -114,7 +114,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 10,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -191,7 +191,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Just AI запустила ИИ-студию Jay Agents для запуска агентов и приложений без кода - Ведомости",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU3RUUTJIajNGQVAtdllCNk1rWXdfVE1IQVBpUHdyWVF4cGRHRE5CcGpHODMwc1RXN1Nzd1BMNUtkUEJsZWlsTy12X3c0VHpabzBOdDk3bGVXS3BYYU9UUm4zbnNGQzgxY25hall0OWJqZlp0MFNOSXVRUVFkU2JPaFpxOXl0ZVlxU2ZxQWJMeGktQ3BUeTE0?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 08:15:52 GMT",
+          "publishedAt": "Wed, 28 Oct 2026 07:00:00 GMT",
           "sourceName": "Ведомости"
         },
         {
@@ -782,17 +782,24 @@ export const liveMarketSnapshot = {
     "legiscan": {
       "companyId": "legiscan",
       "companyName": "Legiscan",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
+      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
+      "latestSourceName": "https://jurisora.ru/",
+      "sources": [
+        {
+          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
+          "sourceName": "https://jurisora.ru/"
+        }
+      ]
     },
     "lork-dev": {
       "companyId": "lork-dev",
@@ -885,17 +892,24 @@ export const liveMarketSnapshot = {
     "nexara": {
       "companyId": "nexara",
       "companyName": "Nexara",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 05 Nov 2026 04:13:00 GMT",
+      "latestTitle": "Конвертировать 100 BRL в NXR — конвертер Brazilian Real в Nexara - CoinCodex",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WYndwNWxBRXNLcF9KaGJTbUtJUzBZbVRkckMxdDNHNE9DbXJfM0lwTTRVSmFqN1g2M2kyRWtWX2l5ZnNXNzZYTVVNejVmR25wdGhaOTBqR1gtc0RGT3ZVZFZVRTZWZw?oc=5",
+      "latestSourceName": "CoinCodex",
+      "sources": [
+        {
+          "title": "Конвертировать 100 BRL в NXR — конвертер Brazilian Real в Nexara - CoinCodex",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WYndwNWxBRXNLcF9KaGJTbUtJUzBZbVRkckMxdDNHNE9DbXJfM0lwTTRVSmFqN1g2M2kyRWtWX2l5ZnNXNzZYTVVNejVmR25wdGhaOTBqR1gtc0RGT3ZVZFZVRTZWZw?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 04:13:00 GMT",
+          "sourceName": "CoinCodex"
+        }
+      ]
     },
     "pitchy-pro": {
       "companyId": "pitchy-pro",
