@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-06T10:00:03.022Z",
+  "generatedAt": "2026-11-06T18:35:46.370Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -69,52 +69,38 @@ export const liveMarketSnapshot = {
     "dresscode-ai": {
       "companyId": "dresscode-ai",
       "companyName": "DRESSCODE",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
-      "latestTitle": "Обзор швейной машины Janome Dresscode - Клуб DNS",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
-      "latestSourceName": "Клуб DNS",
-      "sources": [
-        {
-          "title": "Обзор швейной машины Janome Dresscode - Клуб DNS",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
-          "sourceName": "Клуб DNS"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "expanta": {
       "companyId": "expanta",
       "companyName": "Expanta",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
-      "latestTitle": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
-      "latestSourceName": "spbIT",
-      "sources": [
-        {
-          "title": "«Экспанта» купила 25% разработчика PLM-платформы «СТАКСЕЛЬ» - spbIT",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOenlldnVnY0dfQWRzdEFLcEVuX3JvcUE0RDQ5Qzd6VmNpMkE3eHl4cWNYVmRObDZ4SjNsWThZOHFWb2tmYmUzUHZxQkxHdHVtS0R6TXhqcWZsTnJUMDhtcUJCWUNZSWcwSlZ6SGUwdkNweXplYzdDNUUteS1PODRZX3BUX3g5amxIa0E?oc=5",
-          "publishedAt": "Tue, 20 Oct 2026 07:00:00 GMT",
-          "sourceName": "spbIT"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -236,7 +222,7 @@ export const liveMarketSnapshot = {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
       "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -255,7 +241,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 13:00:00 GMT",
+          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
         }
       ]
@@ -342,17 +328,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 9,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 06 Nov 2026 03:19:00 GMT",
-      "latestTitle": "В России упрощена оплата платежных документов без QR-кода - Газета Хакасия",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWJnY1pwR1FxaktfSG9PLUF4elZKUzN1MkJEcWVxODJ4T1lrN0V3T0hmUXkwdmtFWXd3d3RoNXVZX1MyZ1dtMzFKMUJJbDIybHVUN2cxSFRXSUFzcUpIWGFSQmVJUEFPa1B3MHQ2VG1VOXlGYllIUTVrYXZ6SDBVRi10OHNmMVZLd1BWYkJyc0lLdW5XUUhldUVUR3cwWW4yUzRBOHZ3RQ?oc=5",
-      "latestSourceName": "Газета Хакасия",
+      "latestPublishedAt": "Fri, 06 Nov 2026 05:00:00 GMT",
+      "latestTitle": "ПСБ упростил оплату платежных документов без QR-кода - omskinform.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zX1pBdkd1ejlzb19XNzI0WXBUYmd2LWtZX1l0Qmx4dGtsR3RxV3R5TGphd1lMNDh5d3R0V1hFX0YxVkhJU2dOcw?oc=5",
+      "latestSourceName": "omskinform.ru",
       "sources": [
+        {
+          "title": "ПСБ упростил оплату платежных документов без QR-кода - omskinform.ru",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zX1pBdkd1ejlzb19XNzI0WXBUYmd2LWtZX1l0Qmx4dGtsR3RxV3R5TGphd1lMNDh5d3R0V1hFX0YxVkhJU2dOcw?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 05:00:00 GMT",
+          "sourceName": "omskinform.ru"
+        },
         {
           "title": "В России упрощена оплата платежных документов без QR-кода - Газета Хакасия",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWJnY1pwR1FxaktfSG9PLUF4elZKUzN1MkJEcWVxODJ4T1lrN0V3T0hmUXkwdmtFWXd3d3RoNXVZX1MyZ1dtMzFKMUJJbDIybHVUN2cxSFRXSUFzcUpIWGFSQmVJUEFPa1B3MHQ2VG1VOXlGYllIUTVrYXZ6SDBVRi10OHNmMVZLd1BWYkJyc0lLdW5XUUhldUVUR3cwWW4yUzRBOHZ3RQ?oc=5",
@@ -376,12 +368,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 13:48:44 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИ научили разоблачать замаскированные дипфейки мошенников - Газета",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
-          "sourceName": "Газета"
         }
       ]
     },
@@ -1320,7 +1306,7 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 1,
