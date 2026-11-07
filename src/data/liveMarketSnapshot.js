@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-07T00:28:09.172Z",
+  "generatedAt": "2026-11-07T09:20:48.404Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -69,24 +69,17 @@ export const liveMarketSnapshot = {
     "dresscode-ai": {
       "companyId": "dresscode-ai",
       "companyName": "DRESSCODE",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
-      "latestTitle": "Обзор швейной машины Janome Dresscode - Клуб DNS",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
-      "latestSourceName": "Клуб DNS",
-      "sources": [
-        {
-          "title": "Обзор швейной машины Janome Dresscode - Клуб DNS",
-          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
-          "sourceName": "Клуб DNS"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "expanta": {
       "companyId": "expanta",
@@ -152,7 +145,7 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 5,
+      "sourceCount30d": 6,
       "sourceCount7d": 1,
       "fundingMentions": 2,
       "dealMentions": 0,
@@ -176,10 +169,10 @@ export const liveMarketSnapshot = {
           "sourceName": "ICT-Online.ru"
         },
         {
-          "title": "Just AI запускает Jay Agents — универсальную ИИ‑студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTFBGcW05RVdpaFBScGg1UjdMcU9EeTg0Ym5OWEFDZEpPZlM1amVOOU5RM2JtQWtoalZNQ09qU2ppSnNlaWR0X1NmZWpaeDVyNzNPTHNXc0NpNHZTRktCc3QxUdIBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 10:04:11 GMT",
-          "sourceName": "Хабр"
+          "title": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - spbIT",
+          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHRSVlpRSlFFeXN1UmN4cEt2bHVIWGZOdVc3c3ZwZVppOEdod0VEWUFaLTcxU21LY0Uza1hHT1R2SnVBOGRSdXR6anFSNUs5My1HejB6bnN1MXZNa1M5NWp6YlRnY19rQk1neXFkaEVZeF9fMDNmWkwyMjhCUzVEWGtBUkhaSl9KOHkzcVJOU2tIRTJWY0pveDFyQUN3MU14S3doN0JNLUpqWTI3eXNuajZRMGVrNWtpNkdkWkUtYnJ0N3FIREFoWXpySjJUUFlwcGZVUFptOG5KRjNqblo2MDU2RlNFVHc?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 09:54:25 GMT",
+          "sourceName": "spbIT"
         },
         {
           "title": "Just AI запустила ИИ-студию Jay Agents для запуска агентов и приложений без кода - Ведомости",
@@ -257,27 +250,27 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 3,
-      "sourceCount7d": 1,
-      "fundingMentions": 1,
+      "sourceCount7d": 2,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
-      "latestTitle": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
+      "latestPublishedAt": "Sat, 07 Nov 2026 07:18:13 GMT",
+      "latestTitle": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
+          "publishedAt": "Sat, 07 Nov 2026 07:18:13 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
           "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -335,8 +328,8 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 8,
-      "sourceCount7d": 6,
+      "sourceCount30d": 7,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -351,12 +344,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zX1pBdkd1ejlzb19XNzI0WXBUYmd2LWtZX1l0Qmx4dGtsR3RxV3R5TGphd1lMNDh5d3R0V1hFX0YxVkhJU2dOcw?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 05:00:00 GMT",
           "sourceName": "omskinform.ru"
-        },
-        {
-          "title": "В России упрощена оплата платежных документов без QR-кода - Газета Хакасия",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWJnY1pwR1FxaktfSG9PLUF4elZKUzN1MkJEcWVxODJ4T1lrN0V3T0hmUXkwdmtFWXd3d3RoNXVZX1MyZ1dtMzFKMUJJbDIybHVUN2cxSFRXSUFzcUpIWGFSQmVJUEFPa1B3MHQ2VG1VOXlGYllIUTVrYXZ6SDBVRi10OHNmMVZLd1BWYkJyc0lLdW5XUUhldUVUR3cwWW4yUzRBOHZ3RQ?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 03:19:00 GMT",
-          "sourceName": "Газета Хакасия"
         },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
@@ -375,6 +362,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 13:48:44 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "ИИ научили разоблачать замаскированные дипфейки мошенников - Газета",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
+          "sourceName": "Газета"
         }
       ]
     },
@@ -396,12 +389,12 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
-      "tractionMentions": 1,
+      "tractionMentions": 2,
       "latestPublishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
       "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
@@ -412,6 +405,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
           "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
+          "sourceName": "CNews.ru"
         }
       ]
     },
@@ -687,17 +686,24 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
+      "latestSourceName": "Пресс-релиз.ру",
+      "sources": [
+        {
+          "title": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
+          "sourceName": "Пресс-релиз.ру"
+        }
+      ]
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -1015,21 +1021,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 20:40:32 GMT",
-      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+      "latestPublishedAt": "Fri, 06 Nov 2026 07:44:43 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
         {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 20:40:32 GMT",
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 07:44:43 GMT",
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 03:58:44 GMT",
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 00:10:21 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1316,14 +1322,20 @@ export const liveMarketSnapshot = {
       "sourceCount30d": 8,
       "sourceCount7d": 6,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
-      "latestTitle": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Sat, 07 Nov 2026 04:25:03 GMT",
+      "latestTitle": "Telegram-канал городского портала: ведение и охват - ГИПОРТ",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTG9uRUFTT0prQ2lZOEtpcnp0ank0dWZYQjUxRmVjQ3FILVBOa0wzM084cGpKeGhUazRsQ0NSVlQ4empFc2RiZHNCenBxVXppdzZ4Sy1yaFR4cFJrbVM4MFdrNklBSmVqTFB2anRMZE5nWU9SbVZqQk56a2d2UDFCWmxweVdkdWNaSFBR?oc=5",
+      "latestSourceName": "ГИПОРТ",
       "sources": [
+        {
+          "title": "Telegram-канал городского портала: ведение и охват - ГИПОРТ",
+          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTG9uRUFTT0prQ2lZOEtpcnp0ank0dWZYQjUxRmVjQ3FILVBOa0wzM084cGpKeGhUazRsQ0NSVlQ4empFc2RiZHNCenBxVXppdzZ4Sy1yaFR4cFJrbVM4MFdrNklBSmVqTFB2anRMZE5nWU9SbVZqQk56a2d2UDFCWmxweVdkdWNaSFBR?oc=5",
+          "publishedAt": "Sat, 07 Nov 2026 04:25:03 GMT",
+          "sourceName": "ГИПОРТ"
+        },
         {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
@@ -1347,12 +1359,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlZ2b0lGaHRBbjktS3plOTRWR0txLTdjSlRUUTZScmEtNFlJYlpvSjgtNHVkOVFMUjNmMzY3bGNNMDUtVGgtakdvVzZCWkdpaF9EUkdlSk9fcVlCbXFZcjJBYnhiUWhXVXJuTHZxajhYYkJvUDQzQUlXdkdfOHM2aTBzeWw3ajJIdDB3ZFBvQXRSSl9xWE80MDBacHl3S3RWMEVQT1I3djdSaTk4NGhnWS0zcw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
           "sourceName": "iXBT.com"
-        },
-        {
-          "title": "Экспертиза и региональный охват — главные критерии выбора сервисного партнёра - IT Channel News",
-          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yd2hxaklXZG52MGtlTHA0aW1qTlNEMkxMeW8zNndtZm1rcV85eXpEaFQ0bF9LQXhjZnVIQTZ4Tm9WSWs3Y01PRktQQTBFNjl5RExvQlc3NUVlQ0pSM0FRZV82eE5hbU0?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 21:00:00 GMT",
-          "sourceName": "IT Channel News"
         }
       ]
     },
