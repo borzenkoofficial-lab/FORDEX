@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-07T09:20:48.404Z",
+  "generatedAt": "2026-11-07T17:03:24.575Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,7 +100,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 9,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -255,7 +255,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 07 Nov 2026 07:18:13 GMT",
+      "latestPublishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
       "latestTitle": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -263,7 +263,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
-          "publishedAt": "Sat, 07 Nov 2026 07:18:13 GMT",
+          "publishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -328,8 +328,8 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 7,
-      "sourceCount7d": 5,
+      "sourceCount30d": 6,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -346,28 +346,28 @@ export const liveMarketSnapshot = {
           "sourceName": "omskinform.ru"
         },
         {
+          "title": "В России упрощена оплата платежных документов без QR-кода - Газета Хакасия",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxOMWJnY1pwR1FxaktfSG9PLUF4elZKUzN1MkJEcWVxODJ4T1lrN0V3T0hmUXkwdmtFWXd3d3RoNXVZX1MyZ1dtMzFKMUJJbDIybHVUN2cxSFRXSUFzcUpIWGFSQmVJUEFPa1B3MHQ2VG1VOXlGYllIUTVrYXZ6SDBVRi10OHNmMVZLd1BWYkJyc0lLdW5XUUhldUVUR3cwWW4yUzRBOHZ3RQ?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 03:19:00 GMT",
+          "sourceName": "Газета Хакасия"
+        },
+        {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
           "sourceName": "CNews.ru"
         },
         {
-          "title": "Российская Smart Engines в 3,4 раза точнее выявляет дипфейки документов - Techora.ru",
-          "url": "https://news.google.com/rss/articles/CBMidEFVX3lxTE1VMVJUNjF4TW9xTF9WamRpNmRvNGV6aVNVcGNOTTNjVDRmZTJFc2xUTXpjdUdUWHdnYndJY1QzTTBiZWxSSkhvWUZuU1FoVWRTTXVrcmoyTGFZeVgyU0lFTHRUQlNyMThCNmxDM3NnT3ZWckVn?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 07:24:00 GMT",
-          "sourceName": "Techora.ru"
+          "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - Content-Review.com",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFA4SFNNQkZYUFRraVRHSWVPdVVCX3hSU0RZSnExQjQ3QVJTblJOWmdqODE4a1gzUlZuQ293R2RZLWVsaTFJTGRHbWoyRHN3ZHRnalFleWxOWHJuZ9IBX0FVX3lxTE9LdU4yOW8wUy1hbGFlT044UUxTMmtybW5OdXNCUC03WW1HdGhzMWlrbzBsRXB2MXNiSVIyTWlXWUF1R3EycV9YODRDS1VGSDVGZTZBQlJOZEpqbVVjZURV?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 07:05:22 GMT",
+          "sourceName": "Content-Review.com"
         },
         {
-          "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 13:48:44 GMT",
+          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИ научили разоблачать замаскированные дипфейки мошенников - Газета",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE95NDRXbGJLOFNnckpUOGIzbFlzVEdNS0FnSGVDZGVidDNPSzVWcUxtbC1oRHdBTGx2OU4tdDktNVJaYXJqODhkYnVqa0c4cEd0VVlpeWNRM1BhQlpjZXoyc3VVeU50eGlZYnJuUdIBckFVX3lxTE1VX3JPaGlLalZxaFZRVWliMkdpZlRFbndOTDNMWWZ4Z1hjNU9VRG9FelpPeHc0dGpoTWtqY1kwUExSemRxUXRSYnNpWXVZMjlMVmdyclkwMEh1a2VZLVhReWJBVk9RVGw0bnJRNUhHMmJWZw?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 06:00:08 GMT",
-          "sourceName": "Газета"
         }
       ]
     },
@@ -828,7 +828,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1015,8 +1015,8 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1030,12 +1030,6 @@ export const liveMarketSnapshot = {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 07:44:43 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 00:10:21 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1186,7 +1180,7 @@ export const liveMarketSnapshot = {
       "companyId": "wunjo",
       "companyName": "Wunjo",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -1319,17 +1313,23 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 6,
+      "sourceCount30d": 5,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 07 Nov 2026 04:25:03 GMT",
-      "latestTitle": "Telegram-канал городского портала: ведение и охват - ГИПОРТ",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTG9uRUFTT0prQ2lZOEtpcnp0ank0dWZYQjUxRmVjQ3FILVBOa0wzM084cGpKeGhUazRsQ0NSVlQ4empFc2RiZHNCenBxVXppdzZ4Sy1yaFR4cFJrbVM4MFdrNklBSmVqTFB2anRMZE5nWU9SbVZqQk56a2d2UDFCWmxweVdkdWNaSFBR?oc=5",
-      "latestSourceName": "ГИПОРТ",
+      "latestPublishedAt": "Sat, 07 Nov 2026 10:01:25 GMT",
+      "latestTitle": "Совместными усилиями мы расширяем охват социального и медицинского страхования в провинции Хатинь. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWtXWnMzQVFBWUxWbmNCOTc3Tm0wNC0xVENKYWF0NTVodThSNkM3MXN2UVBOaW5YcWhpNFFUQXhjMHFaVHVWTm9wdVhMQXk4V2lkSGZ0VnBFYTFWMDhKc1pSdm1PbEtGdjNmZEhGZTFWQURHbW9yUEJkcWV0WW1UQ0dn?oc=5",
+      "latestSourceName": "Vietnam.vn",
       "sources": [
+        {
+          "title": "Совместными усилиями мы расширяем охват социального и медицинского страхования в провинции Хатинь. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWtXWnMzQVFBWUxWbmNCOTc3Tm0wNC0xVENKYWF0NTVodThSNkM3MXN2UVBOaW5YcWhpNFFUQXhjMHFaVHVWTm9wdVhMQXk4V2lkSGZ0VnBFYTFWMDhKc1pSdm1PbEtGdjNmZEhGZTFWQURHbW9yUEJkcWV0WW1UQ0dn?oc=5",
+          "publishedAt": "Sat, 07 Nov 2026 10:01:25 GMT",
+          "sourceName": "Vietnam.vn"
+        },
         {
           "title": "Telegram-канал городского портала: ведение и охват - ГИПОРТ",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTG9uRUFTT0prQ2lZOEtpcnp0ank0dWZYQjUxRmVjQ3FILVBOa0wzM084cGpKeGhUazRsQ0NSVlQ4empFc2RiZHNCenBxVXppdzZ4Sy1yaFR4cFJrbVM4MFdrNklBSmVqTFB2anRMZE5nWU9SbVZqQk56a2d2UDFCWmxweVdkdWNaSFBR?oc=5",
@@ -1343,22 +1343,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Бренд-медиа в эпоху ИИ: как удерживать аудиторию и оценивать эффективность — в MEDIA MIX 70 - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91OGZsSk9mMmptRUkwdnRCWTVjRlpaY0hsbkFYTXV0RV93NkgxajlkN1RhVkctZ0hiS0I5UG8yQXhBX2EwMVJaNWRpcVQ5YnNTOHFF?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 10:08:55 GMT",
-          "sourceName": "Sostav.ru"
+          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
+          "sourceName": "Юга.ру"
         },
         {
-          "title": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 08:46:00 GMT",
-          "sourceName": "Национальное аграрное агентство"
-        },
-        {
-          "title": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlZ2b0lGaHRBbjktS3plOTRWR0txLTdjSlRUUTZScmEtNFlJYlpvSjgtNHVkOVFMUjNmMzY3bGNNMDUtVGgtakdvVzZCWkdpaF9EUkdlSk9fcVlCbXFZcjJBYnhiUWhXVXJuTHZxajhYYkJvUDQzQUlXdkdfOHM2aTBzeWw3ajJIdDB3ZFBvQXRSSl9xWE80MDBacHl3S3RWMEVQT1I3djdSaTk4NGhnWS0zcw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
-          "sourceName": "iXBT.com"
+          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 07:00:00 GMT",
+          "sourceName": "RB.RU"
         }
       ]
     },
