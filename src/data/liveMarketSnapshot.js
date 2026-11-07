@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-07T17:03:24.575Z",
+  "generatedAt": "2026-11-07T21:08:36.976Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -686,24 +686,17 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
-      "latestSourceName": "Пресс-релиз.ру",
-      "sources": [
-        {
-          "title": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-          "sourceName": "Пресс-релиз.ру"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
