@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-06T18:35:46.370Z",
+  "generatedAt": "2026-11-07T00:28:09.172Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -69,17 +69,24 @@ export const liveMarketSnapshot = {
     "dresscode-ai": {
       "companyId": "dresscode-ai",
       "companyName": "DRESSCODE",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
+      "latestTitle": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+      "latestSourceName": "Клуб DNS",
+      "sources": [
+        {
+          "title": "Обзор швейной машины Janome Dresscode - Клуб DNS",
+          "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPSEZSME9PZmp2ek1SbUZHZW9WWGNXQ0R6Q2lhZXBOaFZzbW10dEhsVmJUS2dHQjFIT1pxbzNqWWRmU1diOVN3UkFzU3FJMDRsb2kwS0M3VWxyVnNJSldKRTFWb25uM2x4QzRLcGc0RVNaMzN0Ql9sU3FNRGhicDljcTB0bnktaEM4ZXpLNWNSWGdrMExGR2t3V3JxUW4zUTVZNlBEMHVVZEbSAa4BQVVfeXFMT2Q5VlRyTjRXSVRkZUJOeG1RQjFlTkhqYVk1LXdTUE42NnVDLVdqanhyWHNFYnJ3V0d5bHo4anRPNHJoR2tGd3NrQkJBbHNNS3VlbjI3WFRscVExQWRsSEttVkg0ZkNKWFNpbHZ2ZXJwNmlrelNQQVNCbExaVnl1dXVZYXd5cWpKWVI4ZmRISjR4NUpzclJFaWpDZFJEQUtoTUVyVjNubkQwOE9pTDJB?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 10:37:45 GMT",
+          "sourceName": "Клуб DNS"
+        }
+      ]
     },
     "expanta": {
       "companyId": "expanta",
@@ -100,7 +107,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 8,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -328,7 +335,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 9,
+      "sourceCount30d": 8,
       "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1008,7 +1015,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 03 Nov 2026 19:40:52 GMT",
+      "latestPublishedAt": "Thu, 05 Nov 2026 20:40:32 GMT",
       "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
@@ -1016,7 +1023,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 19:40:52 GMT",
+          "publishedAt": "Thu, 05 Nov 2026 20:40:32 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1306,17 +1313,29 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 6,
-      "sourceCount7d": 3,
+      "sourceCount30d": 8,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:46:00 GMT",
-      "latestTitle": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
-      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
-      "latestSourceName": "Национальное аграрное агентство",
+      "latestPublishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
+      "latestTitle": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Бренд-медиа в эпоху ИИ: как удерживать аудиторию и оценивать эффективность — в MEDIA MIX 70 - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91OGZsSk9mMmptRUkwdnRCWTVjRlpaY0hsbkFYTXV0RV93NkgxajlkN1RhVkctZ0hiS0I5UG8yQXhBX2EwMVJaNWRpcVQ5YnNTOHFF?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 10:08:55 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
@@ -1324,28 +1343,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Национальное аграрное агентство"
         },
         {
+          "title": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlZ2b0lGaHRBbjktS3plOTRWR0txLTdjSlRUUTZScmEtNFlJYlpvSjgtNHVkOVFMUjNmMzY3bGNNMDUtVGgtakdvVzZCWkdpaF9EUkdlSk9fcVlCbXFZcjJBYnhiUWhXVXJuTHZxajhYYkJvUDQzQUlXdkdfOHM2aTBzeWw3ajJIdDB3ZFBvQXRSSl9xWE80MDBacHl3S3RWMEVQT1I3djdSaTk4NGhnWS0zcw?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
+          "sourceName": "iXBT.com"
+        },
+        {
           "title": "Экспертиза и региональный охват — главные критерии выбора сервисного партнёра - IT Channel News",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE8yd2hxaklXZG52MGtlTHA0aW1qTlNEMkxMeW8zNndtZm1rcV85eXpEaFQ0bF9LQXhjZnVIQTZ4Tm9WSWs3Y01PRktQQTBFNjl5RExvQlc3NUVlQ0pSM0FRZV82eE5hbU0?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 21:00:00 GMT",
           "sourceName": "IT Channel News"
-        },
-        {
-          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
-          "sourceName": "Юга.ру"
-        },
-        {
-          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
-          "sourceName": "AdIndex"
-        },
-        {
-          "title": "Инфлюенс-маркетинг: вы покупаете охват, а решение принимается по доверию. - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5lRjdteUhRVXd3X2hCcDBWOGJVZHpfQ0czUTJpMWpuS0VXbHFRVHFWT19JendfS1cxSE5ORG5PT1ZTRGZta29jU25UcF9VZVFqOWkw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 13:21:22 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
