@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-08T09:38:26.838Z",
+  "generatedAt": "2026-11-08T17:18:01.980Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,8 +99,8 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 7,
-      "sourceCount7d": 3,
+      "sourceCount30d": 8,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -123,22 +123,22 @@ export const liveMarketSnapshot = {
           "sourceName": "Южный автомобиль"
         },
         {
+          "title": "АВТОВАЗ меняет пружины на LADA Iskra из-за контакта с кузовом - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVDRSVkluUzlTZ1VfV3F3ODh0YmFZNHV3TzZ6Zl94d3pFRjNqRVlIdzRQNUVxUHJkSV9DcGw4dFVEVXlfbDJDRHdlMU0tQTZHMFgtWDZIdEJYMnRKVWF4UmRuSUppN0E2bHBiNWNmaThGcjE1TDdvaFZvVDZ6bGNzVVk4MV84Ylo0Uno2MmgtYjhUbEtNUDJsRURlOGpaMEtVcElaMkpnU21WNFNGZkxkUUctSDZ2WmJPTkNGZDAwTFBkeGVRcFE?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 05:59:10 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
+        {
           "title": "ТО LADA подорожало на 15%: новые цены, сколько придётся платить за ТО Granta, Vesta, Niva и Iskra - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUFSb0UwcFdmc2Vjd1VuaU5nNzgwUmRITTBPNllTc2NPMnZJdTZlOU85ZkVyTlJjakhIZXA2enNfYkZac1RtdGNYbXhaMlVNSTh5djVnbHhZRmhXUHhOaVlodDRVU1puUlhMZnNGQTdxYmFHUEZvakhQT2poR09yeUJCRzlpQXZqMU84NmwtNV84UzNQczZBcUxjbmJ4anpsX1lxUXNIR2xwX29ZVFdFbFU2d1F5Z3NR?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 10:22:02 GMT",
           "sourceName": "Новости Тольятти"
         },
         {
-          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "110km.ru"
-        },
-        {
-          "title": "Что покажут посетителям на производстве Lada Iskra и как устроен маршрут - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVG92UUdWeGVxSkI3enR1cXBNNWNaQkt5QWtiNTBGb290MmxrMTFTNldVMlVsbWRKd3RoZzVISHRNWHhMcTJkclBqYTY5WFc2RUV0NnZIMjhtUWMxRjZmbnljb01kWXpNU0JrRlR1QXFrOXRrY0p6M0tRQ2wzdmlnclZxUmkyZjNJcU0wQTVxd193SkEtZ1pPeHFFYll6V2M?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "110km.ru"
+          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprOA?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 07:50:45 GMT",
+          "sourceName": "За рулем"
         }
       ]
     },
@@ -322,7 +322,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
+      "sourceCount30d": 7,
       "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1172,7 +1172,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Sat, 31 Oct 2026 12:36:34 GMT",
+      "latestPublishedAt": "Sat, 31 Oct 2026 07:00:00 GMT",
       "latestTitle": "Книга мертвых стартапов. Выпуск 2026: До последнего клиента - Хабр",
       "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sWEFoNzJhZGt3WnJVS3ZLekE5WERJT1RnV25kay05eU5qTEhGakhfVjVZNFRrX19JNlhBRkpYMV96VjNwSk84b0tjZm9BNjQwNk1EWm5fUGxWR09VVm9CZ0tyYU9Zc2dzUl9Wc9IBWEFVX3lxTFBLUVUxaU1fQnZ2NDJuYlBKVDVxVzdKTFdJOEdBYXdHQkdfanA2bnVtMkpZYk5hNHhuNXBRZms3NDlrdEViYlY2QTNsckZoak1GZ2luYndyTEM?oc=5",
       "latestSourceName": "Хабр",
@@ -1180,7 +1180,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Книга мертвых стартапов. Выпуск 2026: До последнего клиента - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5sWEFoNzJhZGt3WnJVS3ZLekE5WERJT1RnV25kay05eU5qTEhGakhfVjVZNFRrX19JNlhBRkpYMV96VjNwSk84b0tjZm9BNjQwNk1EWm5fUGxWR09VVm9CZ0tyYU9Zc2dzUl9Wc9IBWEFVX3lxTFBLUVUxaU1fQnZ2NDJuYlBKVDVxVzdKTFdJOEdBYXdHQkdfanA2bnVtMkpZYk5hNHhuNXBRZms3NDlrdEViYlY2QTNsckZoak1GZ2luYndyTEM?oc=5",
-          "publishedAt": "Sat, 31 Oct 2026 12:36:34 GMT",
+          "publishedAt": "Sat, 31 Oct 2026 07:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
@@ -1301,21 +1301,21 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 5,
-      "sourceCount7d": 3,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 07 Nov 2026 10:01:25 GMT",
-      "latestTitle": "Совместными усилиями мы расширяем охват социального и медицинского страхования в провинции Хатинь. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWtXWnMzQVFBWUxWbmNCOTc3Tm0wNC0xVENKYWF0NTVodThSNkM3MXN2UVBOaW5YcWhpNFFUQXhjMHFaVHVWTm9wdVhMQXk4V2lkSGZ0VnBFYTFWMDhKc1pSdm1PbEtGdjNmZEhGZTFWQURHbW9yUEJkcWV0WW1UQ0dn?oc=5",
-      "latestSourceName": "Vietnam.vn",
+      "latestPublishedAt": "Sat, 07 Nov 2026 14:43:00 GMT",
+      "latestTitle": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
+      "latestSourceName": "Readovka.news",
       "sources": [
         {
-          "title": "Совместными усилиями мы расширяем охват социального и медицинского страхования в провинции Хатинь. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWtXWnMzQVFBWUxWbmNCOTc3Tm0wNC0xVENKYWF0NTVodThSNkM3MXN2UVBOaW5YcWhpNFFUQXhjMHFaVHVWTm9wdVhMQXk4V2lkSGZ0VnBFYTFWMDhKc1pSdm1PbEtGdjNmZEhGZTFWQURHbW9yUEJkcWV0WW1UQ0dn?oc=5",
-          "publishedAt": "Sat, 07 Nov 2026 10:01:25 GMT",
-          "sourceName": "Vietnam.vn"
+          "title": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
+          "publishedAt": "Sat, 07 Nov 2026 14:43:00 GMT",
+          "sourceName": "Readovka.news"
         },
         {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
@@ -1324,16 +1324,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
+          "title": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlZ2b0lGaHRBbjktS3plOTRWR0txLTdjSlRUUTZScmEtNFlJYlpvSjgtNHVkOVFMUjNmMzY3bGNNMDUtVGgtakdvVzZCWkdpaF9EUkdlSk9fcVlCbXFZcjJBYnhiUWhXVXJuTHZxajhYYkJvUDQzQUlXdkdfOHM2aTBzeWw3ajJIdDB3ZFBvQXRSSl9xWE80MDBacHl3S3RWMEVQT1I3djdSaTk4NGhnWS0zcw?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
+          "sourceName": "iXBT.com"
+        },
+        {
           "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
           "sourceName": "Юга.ру"
-        },
-        {
-          "title": "В России назвали способ расширить охват льготных автокредитов: Evolute и Voyah рассказали, что стоит изменить - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
-          "publishedAt": "Mon, 19 Oct 2026 07:00:00 GMT",
-          "sourceName": "Автоновости дня"
         },
         {
           "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
@@ -1346,17 +1346,24 @@ export const liveMarketSnapshot = {
     "poehali-dev": {
       "companyId": "poehali-dev",
       "companyName": "Поехали.dev",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+      "latestTitle": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
+      "latestSourceName": "НИА-Красноярск",
+      "sources": [
+        {
+          "title": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+          "sourceName": "НИА-Красноярск"
+        }
+      ]
     },
     "rekom-plus": {
       "companyId": "rekom-plus",
