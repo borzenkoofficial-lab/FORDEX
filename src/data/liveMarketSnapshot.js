@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-08T02:54:24.351Z",
+  "generatedAt": "2026-11-08T09:38:26.838Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,7 +100,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 7,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -129,15 +129,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Новости Тольятти"
         },
         {
-          "title": "LADA Iskra SW Cross сорвала аплодисменты: универсал получил признание за пределами автобизнеса - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yT1JPajlkVXBpaFVMN09UdDFIYjY2ckVHWkl3d18xb2tlcW5fMDVReDFTZ3ZJakdkTkE0V0lSM2FLbFdSTFNHQy1EeUJpd1V1OFRtVzVsTmtUZmhjMm1meUR2NDZqa0lFWDF1d3dheDNBZHQ4TEY5eQ?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 16:31:00 GMT",
-          "sourceName": "Правда.Ру"
-        },
-        {
           "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+          "sourceName": "110km.ru"
+        },
+        {
+          "title": "Что покажут посетителям на производстве Lada Iskra и как устроен маршрут - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVG92UUdWeGVxSkI3enR1cXBNNWNaQkt5QWtiNTBGb290MmxrMTFTNldVMlVsbWRKd3RoZzVISHRNWHhMcTJkclBqYTY5WFc2RUV0NnZIMjhtUWMxRjZmbnljb01kWXpNU0JrRlR1QXFrOXRrY0p6M0tRQ2wzdmlnclZxUmkyZjNJcU0wQTVxd193SkEtZ1pPeHFFYll6V2M?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
           "sourceName": "110km.ru"
         }
       ]
@@ -146,16 +146,22 @@ export const liveMarketSnapshot = {
       "companyId": "just-ai",
       "companyName": "Just AI",
       "sourceCount30d": 6,
-      "sourceCount7d": 1,
+      "sourceCount7d": 2,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 13:02:55 GMT",
-      "latestTitle": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
-      "latestSourceName": "Techora.ru",
+      "latestPublishedAt": "Fri, 06 Nov 2026 11:31:40 GMT",
+      "latestTitle": "Обучение LLM с нуля, инженерия для живого диалога и ИИ‑агенты в ночную смену: что обсудим на Сonversations 2 декабря - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ENVJpTUQtajJxSlVTMlUwd2U4eHlhVEFJLVMzNnRUcUZsRl9tN0pUN0hWa1JlcjVkZmNOZzBFNlp6Uy1ZUVVxUkl6d0NHRHpKd1I0QmRhaE1iVEtPUFJ3U9IBWEFVX3lxTFAxWFpCbWViM0h5d0xrdWszNE9ZZ2ZuNHNmeWhZVWNPNWVEa0o3VFEwa240UUp4dFoxNC1WVkxadnNyaXVHcWNJaGIwcWozSFBGOEZIb0xRYkw?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Обучение LLM с нуля, инженерия для живого диалога и ИИ‑агенты в ночную смену: что обсудим на Сonversations 2 декабря - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ENVJpTUQtajJxSlVTMlUwd2U4eHlhVEFJLVMzNnRUcUZsRl9tN0pUN0hWa1JlcjVkZmNOZzBFNlp6Uy1ZUVVxUkl6d0NHRHpKd1I0QmRhaE1iVEtPUFJ3U9IBWEFVX3lxTFAxWFpCbWViM0h5d0xrdWszNE9ZZ2ZuNHNmeWhZVWNPNWVEa0o3VFEwa240UUp4dFoxNC1WVkxadnNyaXVHcWNJaGIwcWozSFBGOEZIb0xRYkw?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 11:31:40 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
@@ -179,12 +185,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU3RUUTJIajNGQVAtdllCNk1rWXdfVE1IQVBpUHdyWVF4cGRHRE5CcGpHODMwc1RXN1Nzd1BMNUtkUEJsZWlsTy12X3c0VHpabzBOdDk3bGVXS3BYYU9UUm4zbnNGQzgxY25hall0OWJqZlp0MFNOSXVRUVFkU2JPaFpxOXl0ZVlxU2ZxQWJMeGktQ3BUeTE0?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 07:00:00 GMT",
           "sourceName": "Ведомости"
-        },
-        {
-          "title": "Умение делегировать: Just AI вложил 400 млн рублей в студию для создания ИИ-агентов - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         }
       ]
     },
@@ -959,7 +959,7 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -975,12 +975,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
           "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
           "sourceName": "Всеостройке.рф"
-        },
-        {
-          "title": "«Брусника» масштабирует систему ИИ-видеоаналитики QMonitoring на все строительные объекты компании - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1wRDlwUG9oZWNOYXNEMDBCakhfRElrb3JqVTdic2oydzZMLUl5X0FYRmxKQWxfamlLUGJaNHgtMHNvMWt2ZU5iU3k1bVJKZl9Pb1NSQXlFWEpLMzlhRjYxa1licFFfWnZRYlNuM2RSSTYyUQ?oc=5",
-          "publishedAt": "Fri, 09 Oct 2026 07:00:00 GMT",
-          "sourceName": "CNews.ru"
         }
       ]
     },
