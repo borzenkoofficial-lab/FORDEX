@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-07T21:08:36.976Z",
+  "generatedAt": "2026-11-08T02:54:24.351Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,8 +99,8 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 10,
-      "sourceCount7d": 8,
+      "sourceCount30d": 7,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -117,28 +117,28 @@ export const liveMarketSnapshot = {
           "sourceName": "Авто Mail"
         },
         {
-          "title": "АвтоВАЗ проверит более 3 тысяч автомобилей Lada Iskra из-за проблем с подвеской - TKS.RU",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM05RaDhfYUlVVl9wM2NkTldNTVg3RTZyMHRzWDI3ZTFWdDk5cmRkb21qNm5Wd3JxYjE5SEtROHNxdlhKdDJ0YzROd2FOZm5seHpWdFN3LVVTTndpcWJPZEFQYzNCZmgwNHR3cEJ4dUpjcExYLW5xajJBQk5xT2FfXzBZcGl3MXo2ZVRkaE10RVdxMlJtblNZdGpxdTNMS3g0VUItYllKUEdBWTduRUZLUzZiVl9sNE9EbjBnZmJvak9rTnJFRWc?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 15:15:03 GMT",
-          "sourceName": "TKS.RU"
-        },
-        {
           "title": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 10:09:23 GMT",
           "sourceName": "Южный автомобиль"
         },
         {
-          "title": "АВТОВАЗ меняет пружины на LADA Iskra из-за контакта с кузовом - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVDRSVkluUzlTZ1VfV3F3ODh0YmFZNHV3TzZ6Zl94d3pFRjNqRVlIdzRQNUVxUHJkSV9DcGw4dFVEVXlfbDJDRHdlMU0tQTZHMFgtWDZIdEJYMnRKVWF4UmRuSUppN0E2bHBiNWNmaThGcjE1TDdvaFZvVDZ6bGNzVVk4MV84Ylo0Uno2MmgtYjhUbEtNUDJsRURlOGpaMEtVcElaMkpnU21WNFNGZkxkUUctSDZ2WmJPTkNGZDAwTFBkeGVRcFE?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 05:59:10 GMT",
-          "sourceName": "Лада.Онлайн"
+          "title": "ТО LADA подорожало на 15%: новые цены, сколько придётся платить за ТО Granta, Vesta, Niva и Iskra - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUFSb0UwcFdmc2Vjd1VuaU5nNzgwUmRITTBPNllTc2NPMnZJdTZlOU85ZkVyTlJjakhIZXA2enNfYkZac1RtdGNYbXhaMlVNSTh5djVnbHhZRmhXUHhOaVlodDRVU1puUlhMZnNGQTdxYmFHUEZvakhQT2poR09yeUJCRzlpQXZqMU84NmwtNV84UzNQczZBcUxjbmJ4anpsX1lxUXNIR2xwX29ZVFdFbFU2d1F5Z3NR?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 10:22:02 GMT",
+          "sourceName": "Новости Тольятти"
         },
         {
-          "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 05:41:00 GMT",
-          "sourceName": "iXBT.com"
+          "title": "LADA Iskra SW Cross сорвала аплодисменты: универсал получил признание за пределами автобизнеса - Правда.Ру",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yT1JPajlkVXBpaFVMN09UdDFIYjY2ckVHWkl3d18xb2tlcW5fMDVReDFTZ3ZJakdkTkE0V0lSM2FLbFdSTFNHQy1EeUJpd1V1OFRtVzVsTmtUZmhjMm1meUR2NDZqa0lFWDF1d3dheDNBZHQ4TEY5eQ?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 16:31:00 GMT",
+          "sourceName": "Правда.Ру"
+        },
+        {
+          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+          "sourceName": "110km.ru"
         }
       ]
     },
@@ -249,23 +249,17 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
-      "latestTitle": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
+      "latestPublishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
+      "latestTitle": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
-        {
-          "title": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
-          "publishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
@@ -1008,8 +1002,8 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1023,6 +1017,12 @@ export const liveMarketSnapshot = {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 07:44:43 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 00:10:21 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1307,7 +1307,7 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 5,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -1324,12 +1324,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Vietnam.vn"
         },
         {
-          "title": "Telegram-канал городского портала: ведение и охват - ГИПОРТ",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxQTG9uRUFTT0prQ2lZOEtpcnp0ank0dWZYQjUxRmVjQ3FILVBOa0wzM084cGpKeGhUazRsQ0NSVlQ4empFc2RiZHNCenBxVXppdzZ4Sy1yaFR4cFJrbVM4MFdrNklBSmVqTFB2anRMZE5nWU9SbVZqQk56a2d2UDFCWmxweVdkdWNaSFBR?oc=5",
-          "publishedAt": "Sat, 07 Nov 2026 04:25:03 GMT",
-          "sourceName": "ГИПОРТ"
-        },
-        {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
@@ -1340,6 +1334,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
           "sourceName": "Юга.ру"
+        },
+        {
+          "title": "В России назвали способ расширить охват льготных автокредитов: Evolute и Voyah рассказали, что стоит изменить - Автоновости дня",
+          "url": "https://news.google.com/rss/articles/CBMiaEFVX3lxTE5CdnJ3RlI2c0FYTGVrcG1TSkxRamNEdmlzUFJuVWVDdlBZNlpBWHdvSnVFcE1STkhXNy1zck85MUdxcWZWWF9FNHh0eGMxZnROazFlVGd3WnhBSEpyNk9tbkU2T3M5M21H0gFuQVVfeXFMTjdjQWlOVGpNWFo1cE80YUUzV1Q5OUxONXJPbzVKMExSclVMdllxblp6ZXN3UWE0LVJPcldYcmZSalYzSFVsbnN1U3YzMGw1eGZBSHc0Q280djdXUkstQ2ZYRFVRaDNKSnJ6WGpEQ0E?oc=5",
+          "publishedAt": "Mon, 19 Oct 2026 07:00:00 GMT",
+          "sourceName": "Автоновости дня"
         },
         {
           "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
