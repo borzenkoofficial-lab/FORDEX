@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-09T03:14:57.598Z",
+  "generatedAt": "2026-11-09T14:29:42.325Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,7 +99,7 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 7,
+      "sourceCount30d": 8,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -123,6 +123,12 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
+          "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
+          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 05:41:00 GMT",
+          "sourceName": "iXBT.com"
+        },
+        {
           "title": "ТО LADA подорожало на 15%: новые цены, сколько придётся платить за ТО Granta, Vesta, Niva и Iskra - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUFSb0UwcFdmc2Vjd1VuaU5nNzgwUmRITTBPNllTc2NPMnZJdTZlOU85ZkVyTlJjakhIZXA2enNfYkZac1RtdGNYbXhaMlVNSTh5djVnbHhZRmhXUHhOaVlodDRVU1puUlhMZnNGQTdxYmFHUEZvakhQT2poR09yeUJCRzlpQXZqMU84NmwtNV84UzNQczZBcUxjbmJ4anpsX1lxUXNIR2xwX29ZVFdFbFU2d1F5Z3NR?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 10:22:02 GMT",
@@ -131,14 +137,8 @@ export const liveMarketSnapshot = {
         {
           "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprOA?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 07:50:45 GMT",
+          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
           "sourceName": "За рулем"
-        },
-        {
-          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "110km.ru"
         }
       ]
     },
@@ -146,7 +146,7 @@ export const liveMarketSnapshot = {
       "companyId": "just-ai",
       "companyName": "Just AI",
       "sourceCount30d": 6,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 2,
       "dealMentions": 0,
       "launchMentions": 2,
@@ -249,23 +249,17 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
-      "latestTitle": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
+      "latestPublishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
+      "latestTitle": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
-        {
-          "title": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
-          "publishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
@@ -782,15 +776,15 @@ export const liveMarketSnapshot = {
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
-      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
+      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
-      "latestSourceName": "https://jurisora.ru/",
+      "latestSourceName": "jurisora.ru",
       "sources": [
         {
-          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
+          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
-          "sourceName": "https://jurisora.ru/"
+          "sourceName": "jurisora.ru"
         }
       ]
     },
@@ -827,7 +821,7 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -843,12 +837,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
           "publishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "8 ИИ‑сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
@@ -892,8 +880,8 @@ export const liveMarketSnapshot = {
     "nexara": {
       "companyId": "nexara",
       "companyName": "Nexara",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -908,12 +896,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yQ05paVdOX0lTaUdYUDlMZDBsREZqYmM1UUZFWkFHa0QxSFMzQnZFbUR5QTZoR0hLSGtPUF95ZC1QdTVnanlFTnl3Nk5wTlAwdVFOZg?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 08:50:00 GMT",
           "sourceName": "SecurityLab.ru"
-        },
-        {
-          "title": "Конвертировать 100 BRL в NXR — конвертер Brazilian Real в Nexara - CoinCodex",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE1WYndwNWxBRXNLcF9KaGJTbUtJUzBZbVRkckMxdDNHNE9DbXJfM0lwTTRVSmFqN1g2M2kyRWtWX2l5ZnNXNzZYTVVNejVmR25wdGhaOTBqR1gtc0RGT3ZVZFZVRTZWZw?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 04:13:00 GMT",
-          "sourceName": "CoinCodex"
         }
       ]
     },
@@ -935,24 +917,17 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 10 Oct 2026 07:00:00 GMT",
-      "latestTitle": "8 ИИ‑сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
-      "latestSourceName": "Хабр",
-      "sources": [
-        {
-          "title": "8 ИИ‑сервисов для Reels и Shorts: что работает в 2026 году - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE92eXJrZTdWXzVLUUdqbGlhdVZ1dXJKNGYwYlNMYWlEdVBZVzVCMHdBTFEta1FUY0RBRUZSU3lSTXhHcmxyS0lYU3k3c1JqaDhSQjZVc3hBQUZfb1hJOVRiNEhMYWZtUdIBWEFVX3lxTE0xd2RmVXVYR0hHcnRMdmJ4R0ZFdm5iWUMtdjdaVnlwazZaekdmMzMteFRUOWhiSHJHLWYtaXFRZmZ2dGpLVnN3WUxWbjY4WG1od0NRX3RHdlo?oc=5",
-          "publishedAt": "Sat, 10 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1314,12 +1289,12 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 7,
-      "sourceCount7d": 5,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 08 Nov 2026 02:37:31 GMT",
+      "latestPublishedAt": "Sun, 08 Nov 2026 04:30:27 GMT",
       "latestTitle": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
       "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
       "latestSourceName": "Readovka.news",
@@ -1327,8 +1302,14 @@ export const liveMarketSnapshot = {
         {
           "title": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
-          "publishedAt": "Sun, 08 Nov 2026 02:37:31 GMT",
+          "publishedAt": "Sun, 08 Nov 2026 04:30:27 GMT",
           "sourceName": "Readovka.news"
+        },
+        {
+          "title": "Совместными усилиями мы расширяем охват социального и медицинского страхования в провинции Хатинь. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWtXWnMzQVFBWUxWbmNCOTc3Tm0wNC0xVENKYWF0NTVodThSNkM3MXN2UVBOaW5YcWhpNFFUQXhjMHFaVHVWTm9wdVhMQXk4V2lkSGZ0VnBFYTFWMDhKc1pSdm1PbEtGdjNmZEhGZTFWQURHbW9yUEJkcWV0WW1UQ0dn?oc=5",
+          "publishedAt": "Sat, 07 Nov 2026 10:01:25 GMT",
+          "sourceName": "Vietnam.vn"
         },
         {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
@@ -1341,12 +1322,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91OGZsSk9mMmptRUkwdnRCWTVjRlpaY0hsbkFYTXV0RV93NkgxajlkN1RhVkctZ0hiS0I5UG8yQXhBX2EwMVJaNWRpcVQ5YnNTOHFF?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 10:08:55 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Android 17 с разгромом проигрывает шестилетнему Android 11 по охвату устройств - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxQUlZ2b0lGaHRBbjktS3plOTRWR0txLTdjSlRUUTZScmEtNFlJYlpvSjgtNHVkOVFMUjNmMzY3bGNNMDUtVGgtakdvVzZCWkdpaF9EUkdlSk9fcVlCbXFZcjJBYnhiUWhXVXJuTHZxajhYYkJvUDQzQUlXdkdfOHM2aTBzeWw3ajJIdDB3ZFBvQXRSSl9xWE80MDBacHl3S3RWMEVQT1I3djdSaTk4NGhnWS0zcw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 10:05:39 GMT",
-          "sourceName": "iXBT.com"
         },
         {
           "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
