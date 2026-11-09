@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-09T14:29:42.325Z",
+  "generatedAt": "2026-11-09T23:37:36.372Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,17 +99,23 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 8,
-      "sourceCount7d": 3,
+      "sourceCount30d": 9,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 10:09:23 GMT",
-      "latestTitle": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
-      "latestUrl": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
-      "latestSourceName": "Южный автомобиль",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:50:00 GMT",
+      "latestTitle": "АвтоВАЗ бесплатно проверит подвеску Lada Iskra - Авто Mail",
+      "latestUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXdycUxFNjRjWm5tRnRWeWpza2FJMlZ4NVBYOGJzWk43WndMek5PakNwWFlmRm1nMm9HRUVjcTN0dnNXVWI3OWdVMFpLTE5BbkV3UER5ZldOUjJrSGROYzdEQ19HbjlQUlJyeWV5d1RMNFk0d0VaMy0za2lta0V2TjdEcw?oc=5",
+      "latestSourceName": "Авто Mail",
       "sources": [
+        {
+          "title": "АвтоВАЗ бесплатно проверит подвеску Lada Iskra - Авто Mail",
+          "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXdycUxFNjRjWm5tRnRWeWpza2FJMlZ4NVBYOGJzWk43WndMek5PakNwWFlmRm1nMm9HRUVjcTN0dnNXVWI3OWdVMFpLTE5BbkV3UER5ZldOUjJrSGROYzdEQ19HbjlQUlJyeWV5d1RMNFk0d0VaMy0za2lta0V2TjdEcw?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 08:50:00 GMT",
+          "sourceName": "Авто Mail"
+        },
         {
           "title": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
           "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
@@ -129,16 +135,10 @@ export const liveMarketSnapshot = {
           "sourceName": "iXBT.com"
         },
         {
-          "title": "ТО LADA подорожало на 15%: новые цены, сколько придётся платить за ТО Granta, Vesta, Niva и Iskra - Новости Тольятти",
-          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxORUFSb0UwcFdmc2Vjd1VuaU5nNzgwUmRITTBPNllTc2NPMnZJdTZlOU85ZkVyTlJjakhIZXA2enNfYkZac1RtdGNYbXhaMlVNSTh5djVnbHhZRmhXUHhOaVlodDRVU1puUlhMZnNGQTdxYmFHUEZvakhQT2poR09yeUJCRzlpQXZqMU84NmwtNV84UzNQczZBcUxjbmJ4anpsX1lxUXNIR2xwX29ZVFdFbFU2d1F5Z3NR?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 10:22:02 GMT",
-          "sourceName": "Новости Тольятти"
-        },
-        {
-          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprOA?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
-          "sourceName": "За рулем"
+          "title": "АвтоВАЗ бесплатно доработает несколько тысяч автомобилей LADA Iskra: в чем причина - Автоновости дня",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KazZtckY0aHhqNVFrLW85Mmk0cldUbEUxb0xkT1psWGRlUkRENXN6SmcxQ3E2UFJCN1pvc2NPVlVvcW53a3AtbEt4SUZSeG4xU2g4WnBkNGx6dno1aURtSGgtOWoxRDJ0ZHlqQjRnY9IBdEFVX3lxTE92ZG5UaEhLMUtFT1dkUWo0NVlyenh0bFVTVDBrbjJwRW1vT1ZteEQ2VExYY29GQ2tpZlBycm1LZndKMEJMaWpmeVpicVFnVjZvQmhCdkF2RzhlNk9uNDdQV0tmcXd4UEdwMXFRdFVWQXNTR0hh?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 11:17:08 GMT",
+          "sourceName": "Автоновости дня"
         }
       ]
     },
@@ -249,9 +249,9 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -265,6 +265,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
           "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -322,7 +328,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
+      "sourceCount30d": 6,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -346,6 +352,12 @@ export const liveMarketSnapshot = {
           "sourceName": "Content-Review.com"
         },
         {
+          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
+          "sourceName": "ITSpeaker"
+        },
+        {
           "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
@@ -356,12 +368,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
           "sourceName": "ГИПОРТ"
-        },
-        {
-          "title": "Исследование Smart Engines и INTELLECT: в России на 338% выросло число преступлений, связанных с подделкой документов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5XOGFSQllrUmxINWVjWXQyN20xdDE5VHdtRURzb0V1YVdVQVlObzJOQ0hOcFdxUl9wWVFWVVZWMklyR3d4QmNUcDJmcXMweGNScmYtNlhiVnhKTkVlNWxnd2YwZWJodGpNVks5Y9IBWEFVX3lxTFByVlJ2NWU2Umg2Mzh2LTJta3c1NjNZZFpPZ3FjSVVCRUkwcmd3bjVMOTFHaTE5UEFiODljUXVSR0RWTmE3di1LRDJLbE9rc2c0VUFHOHRoMGE?oc=5",
-          "publishedAt": "Mon, 12 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
@@ -680,17 +686,24 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
+      "latestSourceName": "Пресс-релиз.ру",
+      "sources": [
+        {
+          "title": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
+          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
+          "sourceName": "Пресс-релиз.ру"
+        }
+      ]
     },
     "harmoni-ai": {
       "companyId": "harmoni-ai",
@@ -716,7 +729,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 28 Oct 2026 21:10:00 GMT",
+      "latestPublishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
       "latestTitle": "Мать, помогавшую людям пережить утрату, нашли мертвой на пляже после смерти сына в Великобритании - Liter.kz",
       "latestUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3Jmd2ZwODBDM0ItZnhGbnFzd0l4MzAxVnBZdEI1V01hdF8zLTRaXzBLQmdTcktBSlVpRy1CT254N2ZBR005TDlpU2dFWW5rNlhsUzlwM1IwXzBuVlEwb01PM1N4azFOc0ZOakpHSkpaY0FSbXRmeEEzRk84Ync1SFBuQk1mWHZHTTBabjBoZjBZaGVNYUVZUkZ3VXhyTzd3aVpQMlJMWWVOaHNqVFJOajVsNXhyeFJzRkFGc1M3LU9wRXVSYUoxMDRB0gHPAUFVX3lxTE5LWGxDQllvZHlNUWpyRlNHVG9xSW1FSG5iejNzZFBzVmdiN1JLYVlSSlprbW1YZjZKREY0NVRGNS1rbEN1b2VJWmw5cVdxNFpTMzhsWW0wd0JlbGRDLWVGUWJSNVVYWUZvc0ZhUnNjVWVHcldQS1RzLWE5WmVoTXR4TXpJbk5GN3ZFdmJSV0lWaW93LVhkZHBSUG1mMmV6ejVNMjRuT0k0VjZVbkMxeENWakNZQTVxUXVhd3dXbzBxZXF5WXVmSFZqSE1DSTNxNA?oc=5",
       "latestSourceName": "Liter.kz",
@@ -724,7 +737,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Мать, помогавшую людям пережить утрату, нашли мертвой на пляже после смерти сына в Великобритании - Liter.kz",
           "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3Jmd2ZwODBDM0ItZnhGbnFzd0l4MzAxVnBZdEI1V01hdF8zLTRaXzBLQmdTcktBSlVpRy1CT254N2ZBR005TDlpU2dFWW5rNlhsUzlwM1IwXzBuVlEwb01PM1N4azFOc0ZOakpHSkpaY0FSbXRmeEEzRk84Ync1SFBuQk1mWHZHTTBabjBoZjBZaGVNYUVZUkZ3VXhyTzd3aVpQMlJMWWVOaHNqVFJOajVsNXhyeFJzRkFGc1M3LU9wRXVSYUoxMDRB0gHPAUFVX3lxTE5LWGxDQllvZHlNUWpyRlNHVG9xSW1FSG5iejNzZFBzVmdiN1JLYVlSSlprbW1YZjZKREY0NVRGNS1rbEN1b2VJWmw5cVdxNFpTMzhsWW0wd0JlbGRDLWVGUWJSNVVYWUZvc0ZhUnNjVWVHcldQS1RzLWE5WmVoTXR4TXpJbk5GN3ZFdmJSV0lWaW93LVhkZHBSUG1mMmV6ejVNMjRuT0k0VjZVbkMxeENWakNZQTVxUXVhd3dXbzBxZXF5WXVmSFZqSE1DSTNxNA?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 21:10:00 GMT",
+          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
           "sourceName": "Liter.kz"
         }
       ]
@@ -753,7 +766,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 23 Oct 2026 15:02:32 GMT",
+      "latestPublishedAt": "Fri, 23 Oct 2026 07:00:00 GMT",
       "latestTitle": "Ликвидировано позиций на $335 млн — рынок наказывает обе стороны - Binance",
       "latestUrl": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05QVlyVnJTSzBzbWFaTDdPM3o3eWF6WHhVQk5VcWFzaldhQjg3aEdCa3ZOWFVUdkw4c0FOM2hMS3NMV3lubjZIUE9iVXlCYW1vSUU4SmZUcGxDM05kdHlXZmh5ZEs?oc=5",
       "latestSourceName": "Binance",
@@ -761,7 +774,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Ликвидировано позиций на $335 млн — рынок наказывает обе стороны - Binance",
           "url": "https://news.google.com/rss/articles/CBMiZEFVX3lxTE05QVlyVnJTSzBzbWFaTDdPM3o3eWF6WHhVQk5VcWFzaldhQjg3aEdCa3ZOWFVUdkw4c0FOM2hMS3NMV3lubjZIUE9iVXlCYW1vSUU4SmZUcGxDM05kdHlXZmh5ZEs?oc=5",
-          "publishedAt": "Fri, 23 Oct 2026 15:02:32 GMT",
+          "publishedAt": "Fri, 23 Oct 2026 07:00:00 GMT",
           "sourceName": "Binance"
         }
       ]
@@ -821,24 +834,17 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
-      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
-      "latestSourceName": "Sostav.ru",
-      "sources": [
-        {
-          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
-          "publishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
-          "sourceName": "Sostav.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "mymeet-ai": {
       "companyId": "mymeet-ai",
@@ -984,23 +990,17 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 06 Nov 2026 07:44:43 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Fri, 06 Nov 2026 00:10:21 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
-        {
-          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 07:44:43 GMT",
-          "sourceName": "Sostav.ru"
-        },
         {
           "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
@@ -1288,13 +1288,13 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 7,
-      "sourceCount7d": 4,
+      "sourceCount30d": 8,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 08 Nov 2026 04:30:27 GMT",
+      "latestPublishedAt": "Sun, 08 Nov 2026 16:11:28 GMT",
       "latestTitle": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
       "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
       "latestSourceName": "Readovka.news",
@@ -1302,7 +1302,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
-          "publishedAt": "Sun, 08 Nov 2026 04:30:27 GMT",
+          "publishedAt": "Sun, 08 Nov 2026 16:11:28 GMT",
           "sourceName": "Readovka.news"
         },
         {
@@ -1324,10 +1324,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
-          "sourceName": "Юга.ру"
+          "title": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 08:46:00 GMT",
+          "sourceName": "Национальное аграрное агентство"
         }
       ]
     },
