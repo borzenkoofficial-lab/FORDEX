@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-09T23:37:36.372Z",
+  "generatedAt": "2026-11-10T04:54:46.703Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -221,7 +221,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -237,12 +237,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
           "sourceName": "Ростех"
-        },
-        {
-          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "RTVI"
         }
       ]
     },
@@ -250,27 +244,27 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 3,
-      "sourceCount7d": 1,
-      "fundingMentions": 1,
+      "sourceCount7d": 2,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
-      "latestTitle": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
+      "latestPublishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
+      "latestTitle": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
+          "publishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
           "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -389,23 +383,17 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 2,
-      "latestPublishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
-      "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "tractionMentions": 1,
+      "latestPublishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
+      "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "targetai выпустила языковую модель для клиентского сервиса - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeXJvUkFXQzl2OENLSGFWYTNsRFJjQWc3UEdkcXZ5Rlh1VFRXaHY5MGNQTXlncDF5MGpZMFpucHZsazhtaUcyQ1ZIZGloTHRyVURtVTFKQ0U5My10b3BtQ0w2QUJKZUJFaEZCREY4VEJFZXRCMTVEYk9pYURqeS1SSTh4SzdaWmR2UWlhVFdEQXd2bzhDX0N4ZWJ3aW5teTBIeFBqUw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 07:34:58 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
@@ -834,17 +822,24 @@ export const liveMarketSnapshot = {
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
+      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
+      "latestSourceName": "Sostav.ru",
+      "sources": [
+        {
+          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
+          "publishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
+          "sourceName": "Sostav.ru"
+        }
+      ]
     },
     "mymeet-ai": {
       "companyId": "mymeet-ai",
@@ -1288,8 +1283,8 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 7,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -1318,16 +1313,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Бренд-медиа в эпоху ИИ: как удерживать аудиторию и оценивать эффективность — в MEDIA MIX 70 - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE91OGZsSk9mMmptRUkwdnRCWTVjRlpaY0hsbkFYTXV0RV93NkgxajlkN1RhVkctZ0hiS0I5UG8yQXhBX2EwMVJaNWRpcVQ5YnNTOHFF?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 10:08:55 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
           "title": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 08:46:00 GMT",
           "sourceName": "Национальное аграрное агентство"
+        },
+        {
+          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
+          "sourceName": "Юга.ру"
         }
       ]
     },
