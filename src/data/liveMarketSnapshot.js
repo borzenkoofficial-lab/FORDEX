@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-10T04:54:46.703Z",
+  "generatedAt": "2026-11-10T13:51:43.256Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,8 +99,8 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 9,
-      "sourceCount7d": 5,
+      "sourceCount30d": 8,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -115,12 +115,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQbXdycUxFNjRjWm5tRnRWeWpza2FJMlZ4NVBYOGJzWk43WndMek5PakNwWFlmRm1nMm9HRUVjcTN0dnNXVWI3OWdVMFpLTE5BbkV3UER5ZldOUjJrSGROYzdEQ19HbjlQUlJyeWV5d1RMNFk0d0VaMy0za2lta0V2TjdEcw?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 08:50:00 GMT",
           "sourceName": "Авто Mail"
-        },
-        {
-          "title": "Прошло повышение стоимости ТО на Lada Granta, Iskra и Vesta - Южный автомобиль",
-          "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxQalZTb3ZJTWZkLTBxLXRjbXM4SUExUDlSM29nWVI4S0pFOXlBdnFCdDh3WVBKeElaY1NTdEJSVmdManBadzA1TmVwRFFYNThxQnlUV1Ntb1JGN2JvNWZhX0JUUFFzaURidk9oS2JFWFJXS2ZvOFloT0ZoWThpTEZNdFUtWWJhQ1hIZ3hfRXp6cw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 10:09:23 GMT",
-          "sourceName": "Южный автомобиль"
         },
         {
           "title": "АВТОВАЗ меняет пружины на LADA Iskra из-за контакта с кузовом - Лада.Онлайн",
@@ -139,6 +133,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KazZtckY0aHhqNVFrLW85Mmk0cldUbEUxb0xkT1psWGRlUkRENXN6SmcxQ3E2UFJCN1pvc2NPVlVvcW53a3AtbEt4SUZSeG4xU2g4WnBkNGx6dno1aURtSGgtOWoxRDJ0ZHlqQjRnY9IBdEFVX3lxTE92ZG5UaEhLMUtFT1dkUWo0NVlyenh0bFVTVDBrbjJwRW1vT1ZteEQ2VExYY29GQ2tpZlBycm1LZndKMEJMaWpmeVpicVFnVjZvQmhCdkF2RzhlNk9uNDdQV0tmcXd4UEdwMXFRdFVWQXNTR0hh?oc=5",
           "publishedAt": "Tue, 03 Nov 2026 11:17:08 GMT",
           "sourceName": "Автоновости дня"
+        },
+        {
+          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
+          "sourceName": "За рулем"
         }
       ]
     },
@@ -323,7 +323,7 @@ export const liveMarketSnapshot = {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
       "sourceCount30d": 6,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -384,7 +384,7 @@ export const liveMarketSnapshot = {
       "companyId": "targetai",
       "companyName": "targetai",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -427,17 +427,24 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Пациент будущего в эпоху ИИ - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zN0xZNVVNNnB4N01DWTNyN2VuU2JiZnNyTlduSk91aXJqOWtyVUM5d3lVRE9KNE55UkZhTHFrZ1RCWjI0RDBYNy13QndLZnY4Ymw1VGhFemdTTTB3V3BRZ1F0eWxsZ2c2dEE?oc=5",
+      "latestSourceName": "Webiomed",
+      "sources": [
+        {
+          "title": "Пациент будущего в эпоху ИИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zN0xZNVVNNnB4N01DWTNyN2VuU2JiZnNyTlduSk91aXJqOWtyVUM5d3lVRE9KNE55UkZhTHFrZ1RCWjI0RDBYNy13QndLZnY4Ymw1VGhFemdTTTB3V3BRZ1F0eWxsZ2c2dEE?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+          "sourceName": "Webiomed"
+        }
+      ]
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -1283,28 +1290,28 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 7,
-      "sourceCount7d": 4,
+      "sourceCount30d": 6,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 08 Nov 2026 16:11:28 GMT",
-      "latestTitle": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
-      "latestSourceName": "Readovka.news",
+      "latestPublishedAt": "Tue, 10 Nov 2026 09:52:18 GMT",
+      "latestTitle": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnfSAVhBVV95cUxNS3FIbnBod1Y4UEdZMlhyZHJJN3RPa1ZyNnpuaHdWS3ptd0lOSGRjOXZBWDBLM0lwQ0RCNHlaZG5wcGFsUDhJZEFzdGhmdkxfT2VERmVLR253?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
         {
-          "title": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
-          "publishedAt": "Sun, 08 Nov 2026 16:11:28 GMT",
-          "sourceName": "Readovka.news"
+          "title": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnfSAVhBVV95cUxNS3FIbnBod1Y4UEdZMlhyZHJJN3RPa1ZyNnpuaHdWS3ptd0lOSGRjOXZBWDBLM0lwQ0RCNHlaZG5wcGFsUDhJZEFzdGhmdkxfT2VERmVLR253?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 09:52:18 GMT",
+          "sourceName": "Хабр"
         },
         {
-          "title": "Совместными усилиями мы расширяем охват социального и медицинского страхования в провинции Хатинь. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSWtXWnMzQVFBWUxWbmNCOTc3Tm0wNC0xVENKYWF0NTVodThSNkM3MXN2UVBOaW5YcWhpNFFUQXhjMHFaVHVWTm9wdVhMQXk4V2lkSGZ0VnBFYTFWMDhKc1pSdm1PbEtGdjNmZEhGZTFWQURHbW9yUEJkcWV0WW1UQ0dn?oc=5",
-          "publishedAt": "Sat, 07 Nov 2026 10:01:25 GMT",
-          "sourceName": "Vietnam.vn"
+          "title": "ГТРК «Иртыш» вошла в ТОП-10 региональных телеканалов в МАХ по цитируемости, охватам и вовлеченности - ГТРК Иртыш",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDc3STM0QUxMRW1BRGJjU3huTmI2MERmcmVtU2QwUTF0YUJMLVNnbFJpanVQQmdOQ2hMVWhTdVMzMER2Q0xMTXFIcHBqRExMMTY5Y2xGUllwcGd3SnVjT2huem5YYWtpX2M2ekRlTlY5NlVHTHJzdk9pV3g4YTFyeTlKeUMtdmRNdng3akZhbGNRYTlzVDZVelpJTnF0WU45NnF1MTRaRTljajhKanlLc1Q4MUJkeTVGd3FWUDFKSHRHY21nV0E?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 09:09:14 GMT",
+          "sourceName": "ГТРК Иртыш"
         },
         {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
@@ -1313,16 +1320,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Агростраховщики оценили охват страхования культур и животных в ЦФО - Национальное аграрное агентство",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOTUVpWTI4Y0pfNDlXcExDZGdpSnpvakNMSU5YbU9nQUo2QkFjNmZ6SXRVTXZPb2J5bkVicC13Ym1JME56dGJ4enp5UTBpRDdZTl9laXlNcl9rdjNsMHNZQl9TcFhVa3RoN3ZjcW5vYTJVQzluN0g4S2hSTC03aEdwcFJWRjE1MnRIc2pkd044VktRMDY1SGZ1MzN1cVUyN1lJ?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 08:46:00 GMT",
-          "sourceName": "Национальное аграрное агентство"
-        },
-        {
           "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
           "sourceName": "Юга.ру"
+        },
+        {
+          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
+          "sourceName": "AdIndex"
         }
       ]
     },
