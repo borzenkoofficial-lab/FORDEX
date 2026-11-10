@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-10T13:51:43.256Z",
+  "generatedAt": "2026-11-10T21:04:09.465Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,7 +100,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 8,
-      "sourceCount7d": 3,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -117,6 +117,12 @@ export const liveMarketSnapshot = {
           "sourceName": "Авто Mail"
         },
         {
+          "title": "АвтоВАЗ проверит более 3 тысяч автомобилей Lada Iskra из-за проблем с подвеской - TKS.RU",
+          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNM05RaDhfYUlVVl9wM2NkTldNTVg3RTZyMHRzWDI3ZTFWdDk5cmRkb21qNm5Wd3JxYjE5SEtROHNxdlhKdDJ0YzROd2FOZm5seHpWdFN3LVVTTndpcWJPZEFQYzNCZmgwNHR3cEJ4dUpjcExYLW5xajJBQk5xT2FfXzBZcGl3MXo2ZVRkaE10RVdxMlJtblNZdGpxdTNMS3g0VUItYllKUEdBWTduRUZLUzZiVl9sNE9EbjBnZmJvak9rTnJFRWc?oc=5",
+          "publishedAt": "Wed, 04 Nov 2026 15:15:03 GMT",
+          "sourceName": "TKS.RU"
+        },
+        {
           "title": "АВТОВАЗ меняет пружины на LADA Iskra из-за контакта с кузовом - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVDRSVkluUzlTZ1VfV3F3ODh0YmFZNHV3TzZ6Zl94d3pFRjNqRVlIdzRQNUVxUHJkSV9DcGw4dFVEVXlfbDJDRHdlMU0tQTZHMFgtWDZIdEJYMnRKVWF4UmRuSUppN0E2bHBiNWNmaThGcjE1TDdvaFZvVDZ6bGNzVVk4MV84Ylo0Uno2MmgtYjhUbEtNUDJsRURlOGpaMEtVcElaMkpnU21WNFNGZkxkUUctSDZ2WmJPTkNGZDAwTFBkeGVRcFE?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 05:59:10 GMT",
@@ -129,12 +135,6 @@ export const liveMarketSnapshot = {
           "sourceName": "iXBT.com"
         },
         {
-          "title": "АвтоВАЗ бесплатно доработает несколько тысяч автомобилей LADA Iskra: в чем причина - Автоновости дня",
-          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KazZtckY0aHhqNVFrLW85Mmk0cldUbEUxb0xkT1psWGRlUkRENXN6SmcxQ3E2UFJCN1pvc2NPVlVvcW53a3AtbEt4SUZSeG4xU2g4WnBkNGx6dno1aURtSGgtOWoxRDJ0ZHlqQjRnY9IBdEFVX3lxTE92ZG5UaEhLMUtFT1dkUWo0NVlyenh0bFVTVDBrbjJwRW1vT1ZteEQ2VExYY29GQ2tpZlBycm1LZndKMEJMaWpmeVpicVFnVjZvQmhCdkF2RzhlNk9uNDdQV0tmcXd4UEdwMXFRdFVWQXNTR0hh?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 11:17:08 GMT",
-          "sourceName": "Автоновости дня"
-        },
-        {
           "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
           "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
@@ -145,7 +145,7 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
+      "sourceCount30d": 5,
       "sourceCount7d": 1,
       "fundingMentions": 2,
       "dealMentions": 0,
@@ -175,16 +175,16 @@ export const liveMarketSnapshot = {
           "sourceName": "ICT-Online.ru"
         },
         {
-          "title": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - spbIT",
-          "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxQNHRSVlpRSlFFeXN1UmN4cEt2bHVIWGZOdVc3c3ZwZVppOEdod0VEWUFaLTcxU21LY0Uza1hHT1R2SnVBOGRSdXR6anFSNUs5My1HejB6bnN1MXZNa1M5NWp6YlRnY19rQk1neXFkaEVZeF9fMDNmWkwyMjhCUzVEWGtBUkhaSl9KOHkzcVJOU2tIRTJWY0pveDFyQUN3MU14S3doN0JNLUpqWTI3eXNuajZRMGVrNWtpNkdkWkUtYnJ0N3FIREFoWXpySjJUUFlwcGZVUFptOG5KRjNqblo2MDU2RlNFVHc?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 09:54:25 GMT",
-          "sourceName": "spbIT"
-        },
-        {
           "title": "Just AI запустила ИИ-студию Jay Agents для запуска агентов и приложений без кода - Ведомости",
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU3RUUTJIajNGQVAtdllCNk1rWXdfVE1IQVBpUHdyWVF4cGRHRE5CcGpHODMwc1RXN1Nzd1BMNUtkUEJsZWlsTy12X3c0VHpabzBOdDk3bGVXS3BYYU9UUm4zbnNGQzgxY25hall0OWJqZlp0MFNOSXVRUVFkU2JPaFpxOXl0ZVlxU2ZxQWJMeGktQ3BUeTE0?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 07:00:00 GMT",
           "sourceName": "Ведомости"
+        },
+        {
+          "title": "Умение делегировать: Just AI вложил 400 млн рублей в студию для создания ИИ-агентов - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+          "sourceName": "Forbes.ru"
         }
       ]
     },
@@ -221,7 +221,7 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -237,6 +237,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
           "sourceName": "Ростех"
+        },
+        {
+          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+          "sourceName": "RTVI"
         }
       ]
     },
@@ -322,17 +328,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
-      "sourceCount7d": 1,
+      "sourceCount30d": 7,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
-      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Fri, 06 Nov 2026 05:00:00 GMT",
+      "latestTitle": "ПСБ упростил оплату платежных документов без QR-кода - omskinform.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zX1pBdkd1ejlzb19XNzI0WXBUYmd2LWtZX1l0Qmx4dGtsR3RxV3R5TGphd1lMNDh5d3R0V1hFX0YxVkhJU2dOcw?oc=5",
+      "latestSourceName": "omskinform.ru",
       "sources": [
+        {
+          "title": "ПСБ упростил оплату платежных документов без QR-кода - omskinform.ru",
+          "url": "https://news.google.com/rss/articles/CBMiSEFVX3lxTE8zX1pBdkd1ejlzb19XNzI0WXBUYmd2LWtZX1l0Qmx4dGtsR3RxV3R5TGphd1lMNDh5d3R0V1hFX0YxVkhJU2dOcw?oc=5",
+          "publishedAt": "Fri, 06 Nov 2026 05:00:00 GMT",
+          "sourceName": "omskinform.ru"
+        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -356,12 +368,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
-          "sourceName": "ГИПОРТ"
         }
       ]
     },
@@ -383,17 +389,23 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Tue, 03 Nov 2026 08:24:38 GMT",
-      "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Tue, 10 Nov 2026 10:11:16 GMT",
+      "latestTitle": "targetai представила технологию генерации естественной речи для голосовых ИИ-агентов - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkVpU3BpWWs1STlnMkg0UjB1NHIxWnY1dXFCRjAtR253cDRQdzF5U1h0cjhldEtMQlh6MTBnRU10dVRZdFl1YTVpSjBTcE5ySE1BcGg4Nlpfd1J6MFo2aG9reWdLOV91OEJDWkctSm5sd2l2RTVMSVQ3TGF5UDVHYUhRWDBOOXRib2NFMllWX3ZiMHppbmJtdl9pVEhuT1dacFhHTDlGQk5sY2laQkR5OFotSUJfTmQzbEs2RjlHTQ?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
+        {
+          "title": "targetai представила технологию генерации естественной речи для голосовых ИИ-агентов - Компьютерра",
+          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkVpU3BpWWs1STlnMkg0UjB1NHIxWnY1dXFCRjAtR253cDRQdzF5U1h0cjhldEtMQlh6MTBnRU10dVRZdFl1YTVpSjBTcE5ySE1BcGg4Nlpfd1J6MFo2aG9reWdLOV91OEJDWkctSm5sd2l2RTVMSVQ3TGF5UDVHYUhRWDBOOXRib2NFMllWX3ZiMHppbmJtdl9pVEhuT1dacFhHTDlGQk5sY2laQkR5OFotSUJfTmQzbEs2RjlHTQ?oc=5",
+          "publishedAt": "Tue, 10 Nov 2026 10:11:16 GMT",
+          "sourceName": "Компьютерра"
+        },
         {
           "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
@@ -435,12 +447,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 0,
       "latestPublishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
       "latestTitle": "Пациент будущего в эпоху ИИ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zN0xZNVVNNnB4N01DWTNyN2VuU2JiZnNyTlduSk91aXJqOWtyVUM5d3lVRE9KNE55UkZhTHFrZ1RCWjI0RDBYNy13QndLZnY4Ymw1VGhFemdTTTB3V3BRZ1F0eWxsZ2c2dEE?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
         {
           "title": "Пациент будущего в эпоху ИИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE0zN0xZNVVNNnB4N01DWTNyN2VuU2JiZnNyTlduSk91aXJqOWtyVUM5d3lVRE9KNE55UkZhTHFrZ1RCWjI0RDBYNy13QndLZnY4Ymw1VGhFemdTTTB3V3BRZ1F0eWxsZ2c2dEE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
           "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
           "sourceName": "Webiomed"
         }
@@ -784,15 +796,15 @@ export const liveMarketSnapshot = {
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
-      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
+      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
       "latestUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
-      "latestSourceName": "jurisora.ru",
+      "latestSourceName": "https://jurisora.ru/",
       "sources": [
         {
-          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
+          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
-          "sourceName": "jurisora.ru"
+          "sourceName": "https://jurisora.ru/"
         }
       ]
     },
@@ -992,24 +1004,17 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 06 Nov 2026 00:10:21 GMT",
-      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-      "latestSourceName": "Sostav.ru",
-      "sources": [
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 00:10:21 GMT",
-          "sourceName": "Sostav.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "seomeow": {
       "companyId": "seomeow",
@@ -1290,8 +1295,8 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 6,
-      "sourceCount7d": 3,
+      "sourceCount30d": 9,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -1314,6 +1319,12 @@ export const liveMarketSnapshot = {
           "sourceName": "ГТРК Иртыш"
         },
         {
+          "title": "ВС РФ готовятся к штурму Дружковки и начали охват Белозерского – итоговая сводка Readovka за прошедшую неделю - Readovka.news",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE9iMDk1XzJEQldHQ1Y4ekhHMzFvQ2QwQ3V0eXJvdTBpYmJfLXpFN2VXOG16NzR1YzNNYTdDRWxOZXhJbFVsZVVVeVFR?oc=5",
+          "publishedAt": "Sun, 08 Nov 2026 16:11:28 GMT",
+          "sourceName": "Readovka.news"
+        },
+        {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
@@ -1324,12 +1335,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
           "sourceName": "Юга.ру"
-        },
-        {
-          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
-          "sourceName": "AdIndex"
         }
       ]
     },
