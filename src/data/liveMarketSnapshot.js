@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-10T21:04:09.465Z",
+  "generatedAt": "2026-11-11T03:22:57.465Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -395,7 +395,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Tue, 10 Nov 2026 10:11:16 GMT",
+      "latestPublishedAt": "Tue, 10 Nov 2026 18:10:57 GMT",
       "latestTitle": "targetai представила технологию генерации естественной речи для голосовых ИИ-агентов - Компьютерра",
       "latestUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkVpU3BpWWs1STlnMkg0UjB1NHIxWnY1dXFCRjAtR253cDRQdzF5U1h0cjhldEtMQlh6MTBnRU10dVRZdFl1YTVpSjBTcE5ySE1BcGg4Nlpfd1J6MFo2aG9reWdLOV91OEJDWkctSm5sd2l2RTVMSVQ3TGF5UDVHYUhRWDBOOXRib2NFMllWX3ZiMHppbmJtdl9pVEhuT1dacFhHTDlGQk5sY2laQkR5OFotSUJfTmQzbEs2RjlHTQ?oc=5",
       "latestSourceName": "Компьютерра",
@@ -403,7 +403,7 @@ export const liveMarketSnapshot = {
         {
           "title": "targetai представила технологию генерации естественной речи для голосовых ИИ-агентов - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkVpU3BpWWs1STlnMkg0UjB1NHIxWnY1dXFCRjAtR253cDRQdzF5U1h0cjhldEtMQlh6MTBnRU10dVRZdFl1YTVpSjBTcE5ySE1BcGg4Nlpfd1J6MFo2aG9reWdLOV91OEJDWkctSm5sd2l2RTVMSVQ3TGF5UDVHYUhRWDBOOXRib2NFMllWX3ZiMHppbmJtdl9pVEhuT1dacFhHTDlGQk5sY2laQkR5OFotSUJfTmQzbEs2RjlHTQ?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 10:11:16 GMT",
+          "publishedAt": "Tue, 10 Nov 2026 18:10:57 GMT",
           "sourceName": "Компьютерра"
         },
         {
