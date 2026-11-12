@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-11T21:37:39.954Z",
+  "generatedAt": "2026-11-12T04:33:18.179Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,7 +99,7 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 7,
+      "sourceCount30d": 8,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -169,10 +169,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Techora.ru"
         },
         {
-          "title": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - ICT-Online.ru",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMjVPN3MwZDFxNU84ZGxZdDBqVXRXRl9TSVo5ek5ZQWM5ODhNWlk1bW9TVE9JTE9CTzBaTzM5TUVJUU5pQjRqZnpYNTgzYXFBV0ZFWmFqZElsWWNjQW04TG12R3FIRFdRQkczaTR1cXRkVFVFOG54djJNcG5PdnE5cUZwd3dzZ0tLUHVFSnhDY2hncHp1N0s3QlppZHVjNzVtcWxScFZuWjA2SDdwVm1xOThobHNWamJGemVOQnZ2eUptVExvMkhoTVZLSzJUa2lOV1hNZElwc1MzaVlJMkZaejJSbzFTNGd6NEkyTU5n?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 09:03:37 GMT",
-          "sourceName": "ICT-Online.ru"
+          "title": "Just AI запускает Jay Agents — универсальную ИИ‑студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkcXQ3TWs3WGNpdHpYLXR0R2tWSTVzNlY0dm9NSV9UdzhWQlNFM0RwVlN5Vkc2bFBtdVdCa2FLMmtRdWFtM0xvV09GZk9uWWFORnRQeE9YRThQVDhyQmRPT2lkdmFjd9IBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
         },
         {
           "title": "Just AI запустила ИИ-студию Jay Agents для запуска агентов и приложений без кода - Ведомости",
@@ -250,16 +250,22 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 5,
-      "sourceCount7d": 2,
-      "fundingMentions": 1,
+      "sourceCount7d": 3,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
-      "latestTitle": "Piklema и Горный университет договорились о сотрудничестве - RUБЕЖ",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
-      "latestSourceName": "RUБЕЖ",
+      "latestPublishedAt": "Thu, 12 Nov 2026 00:40:24 GMT",
+      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 00:40:24 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "Piklema и Горный университет договорились о сотрудничестве - RUБЕЖ",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
@@ -277,12 +283,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
           "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
           "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -1301,11 +1301,11 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 7,
-      "sourceCount7d": 4,
+      "sourceCount30d": 5,
+      "sourceCount7d": 3,
       "fundingMentions": 1,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Wed, 11 Nov 2026 03:45:00 GMT",
       "latestTitle": "Хабиров встретился с молодыми блогерами с общим охватом 6 млн подписчиков - Абзелил",
@@ -1325,22 +1325,22 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "ГТРК «Иртыш» вошла в ТОП-10 региональных телеканалов в МАХ по цитируемости, охватам и вовлеченности - ГТРК Иртыш",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNeDc3STM0QUxMRW1BRGJjU3huTmI2MERmcmVtU2QwUTF0YUJMLVNnbFJpanVQQmdOQ2hMVWhTdVMzMER2Q0xMTXFIcHBqRExMMTY5Y2xGUllwcGd3SnVjT2huem5YYWtpX2M2ekRlTlY5NlVHTHJzdk9pV3g4YTFyeTlKeUMtdmRNdng3akZhbGNRYTlzVDZVelpJTnF0WU45NnF1MTRaRTljajhKanlLc1Q4MUJkeTVGd3FWUDFKSHRHY21nV0E?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 09:09:14 GMT",
-          "sourceName": "ГТРК Иртыш"
-        },
-        {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 10:07:00 GMT",
-          "sourceName": "Юга.ру"
+          "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
+          "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
+          "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
+          "sourceName": "Rospotrebnadzor.ru"
+        },
+        {
+          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 07:00:00 GMT",
+          "sourceName": "RB.RU"
         }
       ]
     },
