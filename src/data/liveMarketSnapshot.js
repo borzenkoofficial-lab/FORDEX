@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-12T14:04:54.724Z",
+  "generatedAt": "2026-11-12T21:37:35.650Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,23 +99,17 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 7,
-      "sourceCount7d": 1,
+      "sourceCount30d": 6,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 11 Nov 2026 13:28:20 GMT",
-      "latestTitle": "Навоз вместо асфальта, «Лада из зада» и «писюнчик» депутата - Говорит НеМосква",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91TTNPZ2l1TzUzdFFoZlR5T1UtOXoyc3pVVGE5RzgxM2tEeEN0ZTVYWG1VLU8xaFNKUTN1NXI2S0ZGVVFiX09uckF4amJ3MlVfSi1MMVhLYnF0QkVMdzBCNHJPek5rQnZpT29BdjhVR0FrU1h4a0VZaEpR?oc=5",
-      "latestSourceName": "Говорит НеМосква",
+      "latestPublishedAt": "Wed, 04 Nov 2026 08:00:00 GMT",
+      "latestTitle": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
+      "latestUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
+      "latestSourceName": "iXBT.com",
       "sources": [
-        {
-          "title": "Навоз вместо асфальта, «Лада из зада» и «писюнчик» депутата - Говорит НеМосква",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE91TTNPZ2l1TzUzdFFoZlR5T1UtOXoyc3pVVGE5RzgxM2tEeEN0ZTVYWG1VLU8xaFNKUTN1NXI2S0ZGVVFiX09uckF4amJ3MlVfSi1MMVhLYnF0QkVMdzBCNHJPek5rQnZpT29BdjhVR0FrU1h4a0VZaEpR?oc=5",
-          "publishedAt": "Wed, 11 Nov 2026 13:28:20 GMT",
-          "sourceName": "Говорит НеМосква"
-        },
         {
           "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
@@ -139,6 +133,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
           "sourceName": "110km.ru"
+        },
+        {
+          "title": "Что покажут посетителям на производстве Lada Iskra и как устроен маршрут - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVG92UUdWeGVxSkI3enR1cXBNNWNaQkt5QWtiNTBGb290MmxrMTFTNldVMlVsbWRKd3RoZzVISHRNWHhMcTJkclBqYTY5WFc2RUV0NnZIMjhtUWMxRjZmbnljb01kWXpNU0JrRlR1QXFrOXRrY0p6M0tRQ2wzdmlnclZxUmkyZjNJcU0wQTVxd193SkEtZ1pPeHFFYll6V2M?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "110km.ru"
         }
       ]
     },
@@ -151,7 +151,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 13:02:55 GMT",
+      "latestPublishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
       "latestTitle": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
       "latestSourceName": "Techora.ru",
@@ -159,7 +159,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 13:02:55 GMT",
+          "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sourceName": "Techora.ru"
         },
         {
@@ -261,7 +261,7 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -289,12 +289,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQWjUtYW9nTXphb2FhMHZ5VXFYY0U4ZDEwN2hnZzgyWVhjUkdRTTV0X05HUENPZ2dqUkpPRGFkOVJ6XzdjT2ZqMjZER0I1MGo5YXZUT01FVGp0MFhfeHNITnp5RThyOVFvRUdyX25pVHpKclhERVNsZFpGTTFzdndNeDlZV2VsYWI3Vld0YjNEUXZEVFdreUpkeGJqWmxvbjYza3pKaHdaSTZ3c1B2cXJDYXZ1OUlDM3hZSldvWHNCWThOZw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 07:42:49 GMT",
-          "sourceName": "prospect.com.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -697,22 +691,28 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 13:15:10 GMT",
-      "latestTitle": "Билайн Adtech и Gradius договорились о сотрудничестве в сфере рекламных технологий - Код.ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43dmJGTmpNMTJtRWNORTgzWVVCai1kLWhSVDV2UUM3a004S003aDRZNV92MHFTWXI4ei1Mb2tGNzMyNTAyVTM1NW56TFYtbzdTajdqNTR3ZzJncG1OekdjSnJB0gFiQVVfeXFMTjd2YkZOak0xMm1FY05FODNZVUJqLWQtaFJUNXZRQzdrTThLTTdoNFk1X3YwcVNZcjh6LUxva0Y3MzI1MDJVMzU1bnpMVi1vN1NqN2o1NHdnMmdwbU56R2NKckE?oc=5",
-      "latestSourceName": "Код.ру",
+      "latestPublishedAt": "Thu, 12 Nov 2026 16:58:45 GMT",
+      "latestTitle": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - gosrf",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZMQmR2NThKTUl5a1puUktqdk1WM2tXNUhKVUVzY1F2amFsVDEtWXc5d1JyUGNEbDdEaC1UYTVsZ1IySWVDejgxVm5aNHk3b0J2WXI2OTd0cF9OMUdLM3kxem5UaHVtTkdHRHdCb2doQ1FzOEE4eWlQdDZvc0RLRTB0Um9kOVh6R3JrRmt3VktXQlNRQS1tV0haSkdIY0lZNlI0TWd3?oc=5",
+      "latestSourceName": "gosrf",
       "sources": [
         {
-          "title": "Билайн Adtech и Gradius договорились о сотрудничестве в сфере рекламных технологий - Код.ру",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43dmJGTmpNMTJtRWNORTgzWVVCai1kLWhSVDV2UUM3a004S003aDRZNV92MHFTWXI4ei1Mb2tGNzMyNTAyVTM1NW56TFYtbzdTajdqNTR3ZzJncG1OekdjSnJB0gFiQVVfeXFMTjd2YkZOak0xMm1FY05FODNZVUJqLWQtaFJUNXZRQzdrTThLTTdoNFk1X3YwcVNZcjh6LUxva0Y3MzI1MDJVMzU1bnpMVi1vN1NqN2o1NHdnMmdwbU56R2NKckE?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 13:15:10 GMT",
-          "sourceName": "Код.ру"
+          "title": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - gosrf",
+          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZMQmR2NThKTUl5a1puUktqdk1WM2tXNUhKVUVzY1F2amFsVDEtWXc5d1JyUGNEbDdEaC1UYTVsZ1IySWVDejgxVm5aNHk3b0J2WXI2OTd0cF9OMUdLM3kxem5UaHVtTkdHRHdCb2doQ1FzOEE4eWlQdDZvc0RLRTB0Um9kOVh6R3JrRmt3VktXQlNRQS1tV0haSkdIY0lZNlI0TWd3?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 16:58:45 GMT",
+          "sourceName": "gosrf"
+        },
+        {
+          "title": "«Билайн Adtech» и Gradius договорились о сотрудничестве в сфере рекламных технологий - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmNOQ0RScFB4RU45cG1vUVNtSVZBNXdySzJqS0FRTlRoaVlJbTQ5OGN3aXFEZTFjYVRpbml6NVM1LWhxdmNvX1htbzNqR0RpZHl2N0x5WU8yX2VtTE1UeVhyUFIxaHljdUhNSk9iOE15Zkh5SjE1bFliSmloM3ByUGNmTmliZUVoYzZTOENiQTJyN0NhU3BmZG1WNU5BUGRCa2NjdEFIdDNZbnZsM0VJOFlKaWNiaFBhUXRkT1EyWnRQWENZZ0pLRw?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 15:17:54 GMT",
+          "sourceName": "Sostav.ru"
         }
       ]
     },
@@ -794,7 +794,7 @@ export const liveMarketSnapshot = {
       "companyId": "legiscan",
       "companyName": "Legiscan",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -867,24 +867,17 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "latestTitle": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
-      "latestSourceName": "Т—Ж",
-      "sources": [
-        {
-          "title": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Т—Ж"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
