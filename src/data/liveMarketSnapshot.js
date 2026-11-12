@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-12T04:33:18.179Z",
+  "generatedAt": "2026-11-12T14:04:54.724Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,8 +99,8 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 8,
-      "sourceCount7d": 2,
+      "sourceCount30d": 7,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -117,51 +117,45 @@ export const liveMarketSnapshot = {
           "sourceName": "Говорит НеМосква"
         },
         {
-          "title": "''Плакала в подушку и хотела покинуть сцену'': iSKra рассказала о личном кризисе в новой песне ''Холодная принцесса'' - StopCor - информационный портал",
-          "url": "https://news.google.com/rss/articles/CBMi5AFBVV95cUxPNTNlSklIZFo3WmxIejF4VGpHZC1ER1gwU1o0RDF1aksyZklqbFhTZVlMc1RRanNDNDEwWkRwdlBUVjliMGNoTkcyVDNrXzVQQTJxS080cG5qVFZjZ0J3enhSbTVsMTZWYURWdjllM0szQ0ZpcWhnaWl2Rm02c2lPcWptMHc0R3dHT0YyV2RpaUNpQnYyc2tvcV92RG14dmx6Z3VEajU1bjk4S2dkVmliOVFwMEViNGU0RzBqd0Itc20xUkRMWEFtYnBqNnRVUzZFd3MyQ3JfWGRTeTlNRmFLejRMVnLSAegBQVVfeXFMUHpZaFp1WU05dklDLXNVTGIzSk83X3ZvZWo1RGFYZW1KaTRYeUFDXzhUMTU3S3RvMXVMcVVxdTRnbmJ3MzNWZjEzSTZ5Sjc4RmM0QkQtZzJTSGVueERKRC1Gb3JTeTNIWlNNaWlmeHpQMFNyR3plQmJlWFZtQnU4OTM3YWcwZllsNmgxbjI0cnpUVkZjVVFIR2RsaWhSU0M5SnhxY25SWmE1Y1lxTk5HQWdNRjd1MlVVZXl6UlNoTzczRFRnaTNoR1pEZDBjc0NOOVF1UTNjeEFqb1ZVbHlCYUhPdy1lbTh6Uw?oc=5",
-          "publishedAt": "Mon, 09 Nov 2026 14:49:36 GMT",
-          "sourceName": "StopCor - информационный портал"
-        },
-        {
           "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 05:41:00 GMT",
+          "publishedAt": "Wed, 04 Nov 2026 08:00:00 GMT",
           "sourceName": "iXBT.com"
         },
         {
-          "title": "АВТОВАЗ меняет пружины на LADA Iskra из-за контакта с кузовом - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNVDRSVkluUzlTZ1VfV3F3ODh0YmFZNHV3TzZ6Zl94d3pFRjNqRVlIdzRQNUVxUHJkSV9DcGw4dFVEVXlfbDJDRHdlMU0tQTZHMFgtWDZIdEJYMnRKVWF4UmRuSUppN0E2bHBiNWNmaThGcjE1TDdvaFZvVDZ6bGNzVVk4MV84Ylo0Uno2MmgtYjhUbEtNUDJsRURlOGpaMEtVcElaMkpnU21WNFNGZkxkUUctSDZ2WmJPTkNGZDAwTFBkeGVRcFE?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
-          "sourceName": "Лада.Онлайн"
+          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
+          "sourceName": "За рулем"
         },
         {
-          "title": "LADA Iskra SW Cross сорвала аплодисменты: универсал получил признание за пределами автобизнеса - Правда.Ру",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE0yT1JPajlkVXBpaFVMN09UdDFIYjY2ckVHWkl3d18xb2tlcW5fMDVReDFTZ3ZJakdkTkE0V0lSM2FLbFdSTFNHQy1EeUJpd1V1OFRtVzVsTmtUZmhjMm1meUR2NDZqa0lFWDF1d3dheDNBZHQ4TEY5eQ?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 07:00:00 GMT",
-          "sourceName": "Правда.Ру"
+          "title": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+          "sourceName": "110km.ru"
+        },
+        {
+          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
+          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
+          "sourceName": "110km.ru"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 6,
-      "sourceCount7d": 1,
+      "sourceCount30d": 5,
+      "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 06 Nov 2026 11:31:40 GMT",
-      "latestTitle": "Обучение LLM с нуля, инженерия для живого диалога и ИИ‑агенты в ночную смену: что обсудим на Сonversations 2 декабря - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ENVJpTUQtajJxSlVTMlUwd2U4eHlhVEFJLVMzNnRUcUZsRl9tN0pUN0hWa1JlcjVkZmNOZzBFNlp6Uy1ZUVVxUkl6d0NHRHpKd1I0QmRhaE1iVEtPUFJ3U9IBWEFVX3lxTFAxWFpCbWViM0h5d0xrdWszNE9ZZ2ZuNHNmeWhZVWNPNWVEa0o3VFEwa240UUp4dFoxNC1WVkxadnNyaXVHcWNJaGIwcWozSFBGOEZIb0xRYkw?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Mon, 02 Nov 2026 13:02:55 GMT",
+      "latestTitle": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
+      "latestSourceName": "Techora.ru",
       "sources": [
-        {
-          "title": "Обучение LLM с нуля, инженерия для живого диалога и ИИ‑агенты в ночную смену: что обсудим на Сonversations 2 декабря - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE1ENVJpTUQtajJxSlVTMlUwd2U4eHlhVEFJLVMzNnRUcUZsRl9tN0pUN0hWa1JlcjVkZmNOZzBFNlp6Uy1ZUVVxUkl6d0NHRHpKd1I0QmRhaE1iVEtPUFJ3U9IBWEFVX3lxTFAxWFpCbWViM0h5d0xrdWszNE9ZZ2ZuNHNmeWhZVWNPNWVEa0o3VFEwa240UUp4dFoxNC1WVkxadnNyaXVHcWNJaGIwcWozSFBGOEZIb0xRYkw?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 11:31:40 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
@@ -169,10 +163,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Techora.ru"
         },
         {
-          "title": "Just AI запускает Jay Agents — универсальную ИИ‑студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkcXQ3TWs3WGNpdHpYLXR0R2tWSTVzNlY0dm9NSV9UdzhWQlNFM0RwVlN5Vkc2bFBtdVdCa2FLMmtRdWFtM0xvV09GZk9uWWFORnRQeE9YRThQVDhyQmRPT2lkdmFjd9IBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
+          "title": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - ICT-Online.ru",
+          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMjVPN3MwZDFxNU84ZGxZdDBqVXRXRl9TSVo5ek5ZQWM5ODhNWlk1bW9TVE9JTE9CTzBaTzM5TUVJUU5pQjRqZnpYNTgzYXFBV0ZFWmFqZElsWWNjQW04TG12R3FIRFdRQkczaTR1cXRkVFVFOG54djJNcG5PdnE5cUZwd3dzZ0tLUHVFSnhDY2hncHp1N0s3QlppZHVjNzVtcWxScFZuWjA2SDdwVm1xOThobHNWamJGemVOQnZ2eUptVExvMkhoTVZLSzJUa2lOV1hNZElwc1MzaVlJMkZaejJSbzFTNGd6NEkyTU5n?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 09:03:37 GMT",
+          "sourceName": "ICT-Online.ru"
         },
         {
           "title": "Just AI запустила ИИ-студию Jay Agents для запуска агентов и приложений без кода - Ведомости",
@@ -185,6 +179,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
           "sourceName": "Forbes.ru"
+        },
+        {
+          "title": "Пост @just_ai — Блог компании Just AI — 26.10 07:24 / Хабр - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TS0xFVDluVmI1MmJ6Slo3YlVZQzhiR0ZDOTdQdU1oVUpkT2dEcV8zNVk5RlYtWUNmOUl6R1cxQlpFSV9pcmNmaVhLU1JZeC1ydGlSN0tLc0RQbVRMR2htSGp3?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
         }
       ]
     },
@@ -221,17 +221,29 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 2,
-      "sourceCount7d": 0,
+      "sourceCount30d": 4,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
-      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
-      "latestSourceName": "Ростех",
+      "latestPublishedAt": "Thu, 12 Nov 2026 12:00:03 GMT",
+      "latestTitle": "ИИ поможет не пускать дебоширов в рестораны и торговые центры - Финансы Mail",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0dJV3lfRkZFQVVnVFE1eXZKdFoxRHllb0NscnR3WnFoUmxRRERTTDVJcEZ1WTF4V0QwNEVzVWRtd0RlRWpRMmRHS2dXQkNTdGtMdWhpQUNhdUkySFZ2a2I5cHc5cEsyZVhUN0JSOXJnSXpDbURrN21ic2dfX2ZwZF9kOGNDM0lDUTZYdmJhQ0RsaTNPS1NCNWgtdGxOV25Cb09uTGtIWXBsZlc2?oc=5",
+      "latestSourceName": "Финансы Mail",
       "sources": [
+        {
+          "title": "ИИ поможет не пускать дебоширов в рестораны и торговые центры - Финансы Mail",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0dJV3lfRkZFQVVnVFE1eXZKdFoxRHllb0NscnR3WnFoUmxRRERTTDVJcEZ1WTF4V0QwNEVzVWRtd0RlRWpRMmRHS2dXQkNTdGtMdWhpQUNhdUkySFZ2a2I5cHc5cEsyZVhUN0JSOXJnSXpDbURrN21ic2dfX2ZwZF9kOGNDM0lDUTZYdmJhQ0RsaTNPS1NCNWgtdGxOV25Cb09uTGtIWXBsZlc2?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 12:00:03 GMT",
+          "sourceName": "Финансы Mail"
+        },
+        {
+          "title": "ИИ NtechLab поможет не пускать дебоширов в рестораны и торговые центры - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbjVIOG5OSzUzZmkxZDNXUVBkNWNjNjFzc0pxQ0JZSGwyWXcxUVEtLXNoQ29ZTmR3WVAtOUVxbXFUdktUSk53UVJmY1dEcTdZdlpHamNhblBucnRvdEJVZVgweWVoRGxEQ2d1am41VHFVbTJpMW42RlVWSzFMOHkxMm5GTVlNYXp3UVA5UmZMNFplRWR0TUFSS2FieHg?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 07:40:00 GMT",
+          "sourceName": "RTVI"
+        },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
@@ -255,15 +267,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 00:40:24 GMT",
-      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
+      "latestPublishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
+      "latestTitle": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
         {
+          "title": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
+          "sourceName": "prospect.com.ru"
+        },
+        {
           "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 00:40:24 GMT",
+          "publishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -271,12 +289,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "Московский инновационный кластер и «Кибердом» будут развивать кибербезопасность городских робосистем - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxOMEhPUXhxOUU4TzNBMzB6d1lOR0tMZUdKMUhKMWxoQkh0d1k1QkhHRGdINkpNSHk0clFUU0lCQTBmUU9HYnpCRHNWbTkxV1NhazJLM2NtVjRNNkI0dGc2UUREZHJmMjRXQ1g0ZjNMX2tWeFlYMzgwbUJLMHVYaFp3NGNmNVpDcUZnTi1LU1MtZzhzbmlEeWlaWlRqWkRLclhhSGFxMDg5cWZlX0ZnUUNPWEgwWUUtOXU4RlZHLVNiSnB6bGdTNHp1elBsVVl3T0k1d0NGejlB?oc=5",
-          "publishedAt": "Sat, 07 Nov 2026 10:23:22 GMT",
-          "sourceName": "prospect.com.ru"
         },
         {
           "title": "«Группа Астра» и «Лиман-Тех» будут вместе развивать отечественные решения для АСУ ТП - prospect.com.ru",
@@ -423,24 +435,17 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "latestTitle": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
-      "latestSourceName": "CNews.ru",
-      "sources": [
-        {
-          "title": "VisionLabs запустила систему автоматизации паркинга в офисе МТС - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5QZTYyWjJ3TTIwNW82TnVzLXZqRTRvZFB2VnVkZk1qTElGOFZkRGdMb0R0UHJHMUlEcnVvQkZORUN2dFBUa2trNHpIWGdUWjE5YWRzQWpST2ZLSGlFbzBVNUF6a1JabW5fYTllWlpWUGlnUTBpdENieHF3?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "sourceName": "CNews.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "webiomed": {
       "companyId": "webiomed",
@@ -617,24 +622,17 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-      "latestTitle": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
-      "latestSourceName": "Компьютерра",
-      "sources": [
-        {
-          "title": "ТОП-5 ИИ-сервисов для создания карточек товаров на маркетплейсах в 2026 году - Компьютерра",
-          "url": "https://news.google.com/rss/articles/CBMidkFVX3lxTE1LRkM5ZXEzWk9yUHZVYndSWWR5cUFqYmF2ZXJvd1ZleW9rOVp0b20tdUd0OE8xb1JLeG1RQWQ4VWhkQ1haeWN2SE1RT0VleU9xRHRVR0xidlNQcGIzMFBWaVVPQ1JVbi1jZlNIOGtuNW9ERE84b2c?oc=5",
-          "publishedAt": "Tue, 13 Oct 2026 07:00:00 GMT",
-          "sourceName": "Компьютерра"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "freestyling-ai": {
       "companyId": "freestyling-ai",
@@ -700,21 +698,21 @@ export const liveMarketSnapshot = {
       "companyId": "gradius",
       "companyName": "Gradius",
       "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
-      "latestSourceName": "Пресс-релиз.ру",
+      "latestPublishedAt": "Thu, 12 Nov 2026 13:15:10 GMT",
+      "latestTitle": "Билайн Adtech и Gradius договорились о сотрудничестве в сфере рекламных технологий - Код.ру",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43dmJGTmpNMTJtRWNORTgzWVVCai1kLWhSVDV2UUM3a004S003aDRZNV92MHFTWXI4ei1Mb2tGNzMyNTAyVTM1NW56TFYtbzdTajdqNTR3ZzJncG1OekdjSnJB0gFiQVVfeXFMTjd2YkZOak0xMm1FY05FODNZVUJqLWQtaFJUNXZRQzdrTThLTTdoNFk1X3YwcVNZcjh6LUxva0Y3MzI1MDJVMzU1bnpMVi1vN1NqN2o1NHdnMmdwbU56R2NKckE?oc=5",
+      "latestSourceName": "Код.ру",
       "sources": [
         {
-          "title": "Hybrid представил новое поколение продуктов экосистемы: итоги Hybrid Spotlight - Пресс-релиз.ру",
-          "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxNeHVLcHBqN0tTeWROR010dGNBdU1MTmk3b2MtVWlkN0tmYXJfTnd0Sm5aVUp4TDZRXy04WTg1ZjhKY21Zam9zQWRoWHVfek5xYjk0anM0YUp0S2pQandJUTdKX2VNdXRGVDJ2YmlyUy1yUjdrREhzSWprYy1xMHdtdldIZHZOeUpkRGc?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-          "sourceName": "Пресс-релиз.ру"
+          "title": "Билайн Adtech и Gradius договорились о сотрудничестве в сфере рекламных технологий - Код.ру",
+          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE43dmJGTmpNMTJtRWNORTgzWVVCai1kLWhSVDV2UUM3a004S003aDRZNV92MHFTWXI4ei1Mb2tGNzMyNTAyVTM1NW56TFYtbzdTajdqNTR3ZzJncG1OekdjSnJB0gFiQVVfeXFMTjd2YkZOak0xMm1FY05FODNZVUJqLWQtaFJUNXZRQzdrTThLTTdoNFk1X3YwcVNZcjh6LUxva0Y3MzI1MDJVMzU1bnpMVi1vN1NqN2o1NHdnMmdwbU56R2NKckE?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 13:15:10 GMT",
+          "sourceName": "Код.ру"
         }
       ]
     },
