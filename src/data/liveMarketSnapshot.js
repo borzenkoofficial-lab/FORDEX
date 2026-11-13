@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-12T21:37:35.650Z",
+  "generatedAt": "2026-11-13T03:47:21.399Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,16 +100,22 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 6,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 04 Nov 2026 08:00:00 GMT",
-      "latestTitle": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
-      "latestUrl": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
-      "latestSourceName": "iXBT.com",
+      "latestPublishedAt": "Thu, 12 Nov 2026 15:45:18 GMT",
+      "latestTitle": "АвтоВАЗ не стоит на месте и составляет конкуренцию китайским авто: как автомобили LADA обновляют модельный ряд и завоевывают рынок - 110km.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXRHbEJhM0hMRmtGTkNSaVFMVjl1TjBWZzRmT2ZFenZZRFlEd0x2SEVWSm9McUJyMGh5MmFlSUx2R3B1YXV5dXdSUXRuX1Rlb2tOeXF5RERTM3psRjAxRHZoamFLcEZubmRGTmZOWDZYOGpGYlZIYVZFcmIyS0xFU0tnZ081SlNUR3FLUGFnNGZzd0VvWGFxdm1iN2pfZW5N?oc=5",
+      "latestSourceName": "110km.ru",
       "sources": [
+        {
+          "title": "АвтоВАЗ не стоит на месте и составляет конкуренцию китайским авто: как автомобили LADA обновляют модельный ряд и завоевывают рынок - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXRHbEJhM0hMRmtGTkNSaVFMVjl1TjBWZzRmT2ZFenZZRFlEd0x2SEVWSm9McUJyMGh5MmFlSUx2R3B1YXV5dXdSUXRuX1Rlb2tOeXF5RERTM3psRjAxRHZoamFLcEZubmRGTmZOWDZYOGpGYlZIYVZFcmIyS0xFU0tnZ081SlNUR3FLUGFnNGZzd0VvWGFxdm1iN2pfZW5N?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 15:45:18 GMT",
+          "sourceName": "110km.ru"
+        },
         {
           "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
           "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
@@ -123,22 +129,16 @@ export const liveMarketSnapshot = {
           "sourceName": "За рулем"
         },
         {
-          "title": "АвтоВАЗ раскрыл планы и сроки: когда ждать обновленные Iskra и Vesta, вариатор для Granta и юбилейную Niva - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxNWmdTdUZNZDlualAxV083SlkyRzMxckVoVmxWaDdaLWtpNzJIcDlLYzFJTzM3TFFrcmM1NFlrRUYtTGJucDFWN19vOVc4WGZzZkVhLU5BeHpSbldrcXp5VXhJZjVYR3FUbTVubXNCQUdTampQY1cybm9rZThpWWZyZjgybUhXakQtcElScnlVMjB0WnNjVXo0Mk93?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "110km.ru"
-        },
-        {
           "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
           "sourceName": "110km.ru"
         },
         {
-          "title": "Что покажут посетителям на производстве Lada Iskra и как устроен маршрут - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVG92UUdWeGVxSkI3enR1cXBNNWNaQkt5QWtiNTBGb290MmxrMTFTNldVMlVsbWRKd3RoZzVISHRNWHhMcTJkclBqYTY5WFc2RUV0NnZIMjhtUWMxRjZmbnljb01kWXpNU0JrRlR1QXFrOXRrY0p6M0tRQ2wzdmlnclZxUmkyZjNJcU0wQTVxd193SkEtZ1pPeHFFYll6V2M?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "110km.ru"
+          "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wczlnSkFNTkY2emM3bl9UV1c2cjYxQkNiSHFkWXZlWk1oMkJzRTZuRnJRN1NhLWZIWmRsNHltUEZySjVKWXh1SHFlREdjRVoy0gFWQVVfeXFMTmtQdFZrYVB5ZHFpQ0lxS3Qyem9ONHNqRmcwdTZRTlM4MWRONVZuTzRqUjV2RGotLVdhOWZWU1FmSnY4ZjdhT1RMamM2dTlYdU55dy0xR1E?oc=5",
+          "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
+          "sourceName": "Авто Юга.ру"
         }
       ]
     },
@@ -261,9 +261,9 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 4,
+      "sourceCount30d": 5,
       "sourceCount7d": 3,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -289,6 +289,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
+        },
+        {
+          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -346,7 +352,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -362,12 +368,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
-          "sourceName": "ITSpeaker"
         },
         {
           "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
@@ -867,17 +867,24 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+      "latestTitle": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
+      "latestSourceName": "Т—Ж",
+      "sources": [
+        {
+          "title": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Т—Ж"
+        }
+      ]
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -1001,17 +1008,24 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 12 Nov 2026 01:35:57 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestSourceName": "Sostav.ru",
+      "sources": [
+        {
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 01:35:57 GMT",
+          "sourceName": "Sostav.ru"
+        }
+      ]
     },
     "seomeow": {
       "companyId": "seomeow",
@@ -1293,22 +1307,16 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 5,
-      "sourceCount7d": 3,
-      "fundingMentions": 1,
+      "sourceCount7d": 2,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 11 Nov 2026 03:45:00 GMT",
-      "latestTitle": "Хабиров встретился с молодыми блогерами с общим охватом 6 млн подписчиков - Абзелил",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmlHMFhWOW5YcHFlbUIyQWhtcHZNZmNBaFZDa1A0ekNBcDNCcFY5QUFjTlV4M1JSSXI2YnJnMTFsQmx4ZjdrbERya3pIa0hmbzFiUG0xZzNvaFI1RDRERGN5a3VJcnMxWjdRbUJDZzJIRkZuaTVUdFUxMDNSZmtzd2ZLSVlpcXgtbXZRT1JlRkVOQXFLbkxrcDJKVTNJdGFneEJjdldjdUhzNXpiRlBuaXB1MjVGV3BzZEQybGF2TS1qbWs2Ymh1cw?oc=5",
-      "latestSourceName": "Абзелил",
+      "latestPublishedAt": "Tue, 10 Nov 2026 09:52:18 GMT",
+      "latestTitle": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnfSAVhBVV95cUxNS3FIbnBod1Y4UEdZMlhyZHJJN3RPa1ZyNnpuaHdWS3ptd0lOSGRjOXZBWDBLM0lwQ0RCNHlaZG5wcGFsUDhJZEFzdGhmdkxfT2VERmVLR253?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
-        {
-          "title": "Хабиров встретился с молодыми блогерами с общим охватом 6 млн подписчиков - Абзелил",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmlHMFhWOW5YcHFlbUIyQWhtcHZNZmNBaFZDa1A0ekNBcDNCcFY5QUFjTlV4M1JSSXI2YnJnMTFsQmx4ZjdrbERya3pIa0hmbzFiUG0xZzNvaFI1RDRERGN5a3VJcnMxWjdRbUJDZzJIRkZuaTVUdFUxMDNSZmtzd2ZLSVlpcXgtbXZRT1JlRkVOQXFLbkxrcDJKVTNJdGFneEJjdldjdUhzNXpiRlBuaXB1MjVGV3BzZEQybGF2TS1qbWs2Ymh1cw?oc=5",
-          "publishedAt": "Wed, 11 Nov 2026 03:45:00 GMT",
-          "sourceName": "Абзелил"
-        },
         {
           "title": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnfSAVhBVV95cUxNS3FIbnBod1Y4UEdZMlhyZHJJN3RPa1ZyNnpuaHdWS3ptd0lOSGRjOXZBWDBLM0lwQ0RCNHlaZG5wcGFsUDhJZEFzdGhmdkxfT2VERmVLR253?oc=5",
@@ -1320,6 +1328,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
           "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
+          "sourceName": "AdIndex"
         },
         {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
