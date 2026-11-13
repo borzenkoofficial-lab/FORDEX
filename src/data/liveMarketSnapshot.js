@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-13T03:47:21.399Z",
+  "generatedAt": "2026-11-13T13:30:00.363Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,46 +99,46 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 6,
-      "sourceCount7d": 1,
+      "sourceCount30d": 8,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 15:45:18 GMT",
-      "latestTitle": "АвтоВАЗ не стоит на месте и составляет конкуренцию китайским авто: как автомобили LADA обновляют модельный ряд и завоевывают рынок - 110km.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXRHbEJhM0hMRmtGTkNSaVFMVjl1TjBWZzRmT2ZFenZZRFlEd0x2SEVWSm9McUJyMGh5MmFlSUx2R3B1YXV5dXdSUXRuX1Rlb2tOeXF5RERTM3psRjAxRHZoamFLcEZubmRGTmZOWDZYOGpGYlZIYVZFcmIyS0xFU0tnZ081SlNUR3FLUGFnNGZzd0VvWGFxdm1iN2pfZW5N?oc=5",
-      "latestSourceName": "110km.ru",
+      "latestPublishedAt": "Fri, 13 Nov 2026 11:40:11 GMT",
+      "latestTitle": "LADA Azimut и Iskra TMS: АВТОВАЗ показал будущее российского автопрома на Автошоу - Carexpo.ru_ все авто на одном сайте",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhWZE9sWk1jZnltRVN6UUdNMi1BSlNSMXFvbWhjR25ybVp1QWpKTGF3em5JQmVOYl9fU1VtR2twNFV4MWVSWW9WNGJDaUNwVEdZdnR4V2pDX2N5amQ4b2pGRFBMMDJaRlhBc3I5T0wxYXQwNy0yZVZ3VXE5NlJrYy1QVnl1Zm9Db1duTEk0YmtWbERTTF9INWt6bw?oc=5",
+      "latestSourceName": "Carexpo.ru_ все авто на одном сайте",
       "sources": [
+        {
+          "title": "LADA Azimut и Iskra TMS: АВТОВАЗ показал будущее российского автопрома на Автошоу - Carexpo.ru_ все авто на одном сайте",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhWZE9sWk1jZnltRVN6UUdNMi1BSlNSMXFvbWhjR25ybVp1QWpKTGF3em5JQmVOYl9fU1VtR2twNFV4MWVSWW9WNGJDaUNwVEdZdnR4V2pDX2N5amQ4b2pGRFBMMDJaRlhBc3I5T0wxYXQwNy0yZVZ3VXE5NlJrYy1QVnl1Zm9Db1duTEk0YmtWbERTTF9INWt6bw?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 11:40:11 GMT",
+          "sourceName": "Carexpo.ru_ все авто на одном сайте"
+        },
+        {
+          "title": "LADA Azimut и 259-сильная Iskra TMS представлены на Московском Автошоу - За рулем Кубань",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSThhVjFGeERUUFFhS3hLNWlvU3VLNG41VVdibWZvX18xNncxQ0N0R1pKR1NhUk9rQ0hMSFg0enoyTWpSd2dUOVNGTjBiX3N4TWZuOE1aSV9yLURPSHY0NXJrZm5NZzNZLUQwNUd5MzNleGpuWVZscUR6UEFKRndyOW91U0NpTlZ1VnVjdmpyRXJMVElfdDZhRWpBLVF3bEt4eU56N2trWQ?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 09:23:00 GMT",
+          "sourceName": "За рулем Кубань"
+        },
+        {
+          "title": "LADA Azimut и гоночный седан Iskra TMS: контраст гражданской и спортивной линейки LADA - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFlXNmFhc005aHl3NmR3a3o2OXl6Vi0xV3hSby1SSW5XMFk5QWVqVUpXbWRmSmd1SjNuS053MGlxT0RZTldsY0tZYkpKWFB2UHdEZHdTU0FRU2h1MTZSU3U3RDlzTDk4SlBGLU9QUWVUckZwV0lGenk1akNyX1JiVHJnSlc3UzFqY1BBTGd5YmtZUlJRTTZ4ZTZVaHdmc0x5em9xbW94SzRwZDRmQW5z?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 09:20:22 GMT",
+          "sourceName": "Новости Тольятти"
+        },
+        {
+          "title": "LADA Azimut и 259-сильную Iskra TMS можно увидеть на Московском Автошоу - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONlZqajlZeUxMcTZnNTRsZlF0NXNaUkxtdzJPT1Z5MmtwV2RkUzJTNUxZWnoxeXY3Qi0zeVZmRXJXV3pnSGhIQzAyb3g4Yk5tbmpKZFFyS3VudXk4TEJWZWdlR1BLdWNoVGxfUWc2YkdPTENld2hncXJMUGdfdE5QQUxia0stZlVnWEhhVlpJd3FzMXhlV3htOWg2NFZ0cTl6a3h1Ui1scGZTMHQzbXpTR0NHMXNEQlRKbE5HV3U5U2lYbEtTRWhRS2RQY1dabWRWbFVTN3l3MlNDZw?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 09:08:42 GMT",
+          "sourceName": "Лада.Онлайн"
+        },
         {
           "title": "АвтоВАЗ не стоит на месте и составляет конкуренцию китайским авто: как автомобили LADA обновляют модельный ряд и завоевывают рынок - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXRHbEJhM0hMRmtGTkNSaVFMVjl1TjBWZzRmT2ZFenZZRFlEd0x2SEVWSm9McUJyMGh5MmFlSUx2R3B1YXV5dXdSUXRuX1Rlb2tOeXF5RERTM3psRjAxRHZoamFLcEZubmRGTmZOWDZYOGpGYlZIYVZFcmIyS0xFU0tnZ081SlNUR3FLUGFnNGZzd0VvWGFxdm1iN2pfZW5N?oc=5",
           "publishedAt": "Thu, 12 Nov 2026 15:45:18 GMT",
           "sourceName": "110km.ru"
-        },
-        {
-          "title": "АвтоВАЗ проверит подвеску на тысячах новеньких и уже проданных Lada Iskra - iXBT.com",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQVUdrZ0w0WklIcjhCeW1VcnVCUHhBMHhUa3FscUpjUzVNT3BKSS00enl0STFYTlQ4bXR6bGozb21lbXcydC1kWFlsc3dZQlpNek9LRnh4WjlIUC1HSE43Nm1BWFhtX2hmOU9tV1Y2Vl9fZ0lSdFhrRWw4RFgwb0VGZHEzRzZ0eG8zVVVVdnVTdWtiMFk5Z3dRTVR6Y09HRWl4RFZjeC03SmhWcWMxSHdBemhJZXU0UdIBuwFBVV95cUxNYkpUcnZPN3JnaUVDaXo1QUFReUNNUzkwaEZXYnFrczR0TGRVVnJFcGtCVUVTQlhqWHI0LWZiQUxKVkU5blhsSXF1V1V1U3RmZGNTRXREbzhXdE95VVNrMEFlSjFndU9rRlFOajdacE5JOVlNNHJJcUd2a2NwTTBXd3VaNUF5VGJlVnN3NzUwNEVmWEN0WldueHJjbTUxTy1jdXBPM1dtQW43N0dMc1o0emxGU1V6QVRIeFEw?oc=5",
-          "publishedAt": "Wed, 04 Nov 2026 08:00:00 GMT",
-          "sourceName": "iXBT.com"
-        },
-        {
-          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
-          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
-          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
-          "sourceName": "За рулем"
-        },
-        {
-          "title": "Кто из бюджетных машин лучше готов к зиме и почему Lada Iskra и Vesta SW Cross обошли Solaris и Москвич — итоги теста - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQT3lBZEk3Q2FIY2p4RXVGakRYeDJ0NVdXWDhhSy1wME94MjFXMXVzSEFCeUZmN3pZUjE4WkxlV3pzZ2FVRjZuNlU5VVh0THVwc1Zncm1obnFpSG82VW1lMnFMaUhldDk3MnpDWko4bmpmSUVRZXFRNkNIWjdKeVNTeE1za2tzeF8xRGxfWG1YdWN0ZUtUVUk2alUzODV3bldiWnZTa2ZmZmdzR1E?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "110km.ru"
-        },
-        {
-          "title": "Годовалую Lada Iskra оценили у дилера, в салоне выкупа и у перекупов: разница достигла 150 000 рублей - Авто Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiUEFVX3lxTE9wczlnSkFNTkY2emM3bl9UV1c2cjYxQkNiSHFkWXZlWk1oMkJzRTZuRnJRN1NhLWZIWmRsNHltUEZySjVKWXh1SHFlREdjRVoy0gFWQVVfeXFMTmtQdFZrYVB5ZHFpQ0lxS3Qyem9ONHNqRmcwdTZRTlM4MWRONVZuTzRqUjV2RGotLVdhOWZWU1FmSnY4ZjdhT1RMamM2dTlYdU55dy0xR1E?oc=5",
-          "publishedAt": "Wed, 14 Oct 2026 07:00:00 GMT",
-          "sourceName": "Авто Юга.ру"
         }
       ]
     },
@@ -163,10 +163,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Techora.ru"
         },
         {
-          "title": "Just AI запускает Jay Agents — универсальную ИИ-студию для создания агентов, приложений и автоматизации задач без кода - ICT-Online.ru",
-          "url": "https://news.google.com/rss/articles/CBMi7gFBVV95cUxPMjVPN3MwZDFxNU84ZGxZdDBqVXRXRl9TSVo5ek5ZQWM5ODhNWlk1bW9TVE9JTE9CTzBaTzM5TUVJUU5pQjRqZnpYNTgzYXFBV0ZFWmFqZElsWWNjQW04TG12R3FIRFdRQkczaTR1cXRkVFVFOG54djJNcG5PdnE5cUZwd3dzZ0tLUHVFSnhDY2hncHp1N0s3QlppZHVjNzVtcWxScFZuWjA2SDdwVm1xOThobHNWamJGemVOQnZ2eUptVExvMkhoTVZLSzJUa2lOV1hNZElwc1MzaVlJMkZaejJSbzFTNGd6NEkyTU5n?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 09:03:37 GMT",
-          "sourceName": "ICT-Online.ru"
+          "title": "Just AI запускает Jay Agents — универсальную ИИ‑студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkcXQ3TWs3WGNpdHpYLXR0R2tWSTVzNlY0dm9NSV9UdzhWQlNFM0RwVlN5Vkc2bFBtdVdCa2FLMmtRdWFtM0xvV09GZk9uWWFORnRQeE9YRThQVDhyQmRPT2lkdmFjd9IBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+          "sourceName": "Хабр"
         },
         {
           "title": "Just AI запустила ИИ-студию Jay Agents для запуска агентов и приложений без кода - Ведомости",
@@ -691,17 +691,23 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 16:58:45 GMT",
-      "latestTitle": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - gosrf",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZMQmR2NThKTUl5a1puUktqdk1WM2tXNUhKVUVzY1F2amFsVDEtWXc5d1JyUGNEbDdEaC1UYTVsZ1IySWVDejgxVm5aNHk3b0J2WXI2OTd0cF9OMUdLM3kxem5UaHVtTkdHRHdCb2doQ1FzOEE4eWlQdDZvc0RLRTB0Um9kOVh6R3JrRmt3VktXQlNRQS1tV0haSkdIY0lZNlI0TWd3?oc=5",
-      "latestSourceName": "gosrf",
+      "latestPublishedAt": "Fri, 13 Nov 2026 11:00:25 GMT",
+      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 11:00:25 GMT",
+          "sourceName": "CNews.ru"
+        },
         {
           "title": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - gosrf",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZMQmR2NThKTUl5a1puUktqdk1WM2tXNUhKVUVzY1F2amFsVDEtWXc5d1JyUGNEbDdEaC1UYTVsZ1IySWVDejgxVm5aNHk3b0J2WXI2OTd0cF9OMUdLM3kxem5UaHVtTkdHRHdCb2doQ1FzOEE4eWlQdDZvc0RLRTB0Um9kOVh6R3JrRmt3VktXQlNRQS1tV0haSkdIY0lZNlI0TWd3?oc=5",
@@ -830,32 +836,45 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 13 Nov 2026 11:50:20 GMT",
+      "latestTitle": "Проект компании Nestlé MILO предоставляет детям больше места для занятий физической активностью в Дананге. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm81Vml2WXBmRTBlVnZRdngwRzJWczJZb3NHQ1dLZTlyOFJ0SEJJdTQ3c25sZHJnckM3dDJ1UXMzbFFsajN2bUJBUnVSTnhPZkhmMEp1QUd5ZHE5N0pKMGU2ZXJ3Z2M5QmVHRUlYZ1R2UnoyMHkwaGV3N3hXRlVYRHZQTzdGc1hHSnhrWWRMdUdzamtjQnlMTU90d0lFNGxPR3Y3U2ItWQ?oc=5",
+      "latestSourceName": "Vietnam.vn",
+      "sources": [
+        {
+          "title": "Проект компании Nestlé MILO предоставляет детям больше места для занятий физической активностью в Дананге. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm81Vml2WXBmRTBlVnZRdngwRzJWczJZb3NHQ1dLZTlyOFJ0SEJJdTQ3c25sZHJnckM3dDJ1UXMzbFFsajN2bUJBUnVSTnhPZkhmMEp1QUd5ZHE5N0pKMGU2ZXJ3Z2M5QmVHRUlYZ1R2UnoyMHkwaGV3N3hXRlVYRHZQTzdGc1hHSnhrWWRMdUdzamtjQnlMTU90d0lFNGxPR3Y3U2ItWQ?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 11:50:20 GMT",
+          "sourceName": "Vietnam.vn"
+        }
+      ]
     },
     "mnogoreels": {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
-      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
+      "latestPublishedAt": "Wed, 11 Nov 2026 20:13:02 GMT",
+      "latestTitle": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+          "publishedAt": "Wed, 11 Nov 2026 20:13:02 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
@@ -867,24 +886,17 @@ export const liveMarketSnapshot = {
     "mymeet-ai": {
       "companyId": "mymeet-ai",
       "companyName": "mymeet.ai",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-      "latestTitle": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
-      "latestSourceName": "Т—Ж",
-      "sources": [
-        {
-          "title": "10 бесплатных нейросетей для краткого пересказа текста, видео или аудио - Т—Ж",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE00WUhQZjZaVXY5NkNDZFFkalNCMTVhblRFRl9wQ3c4Vkh4SmFtOUNzS0tSb1pUdmVpTFdXaXdIY3FLOGtFcmZuaklB?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Т—Ж"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "neuroscribe": {
       "companyId": "neuroscribe",
@@ -905,7 +917,7 @@ export const liveMarketSnapshot = {
       "companyId": "nexara",
       "companyName": "Nexara",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -1306,7 +1318,7 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1328,12 +1340,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
-          "sourceName": "AdIndex"
         },
         {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
