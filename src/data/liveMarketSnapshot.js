@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-13T13:30:00.363Z",
+  "generatedAt": "2026-11-13T21:02:20.545Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,17 +99,23 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 8,
-      "sourceCount7d": 5,
+      "sourceCount30d": 9,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 11:40:11 GMT",
-      "latestTitle": "LADA Azimut и Iskra TMS: АВТОВАЗ показал будущее российского автопрома на Автошоу - Carexpo.ru_ все авто на одном сайте",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhWZE9sWk1jZnltRVN6UUdNMi1BSlNSMXFvbWhjR25ybVp1QWpKTGF3em5JQmVOYl9fU1VtR2twNFV4MWVSWW9WNGJDaUNwVEdZdnR4V2pDX2N5amQ4b2pGRFBMMDJaRlhBc3I5T0wxYXQwNy0yZVZ3VXE5NlJrYy1QVnl1Zm9Db1duTEk0YmtWbERTTF9INWt6bw?oc=5",
+      "latestPublishedAt": "Fri, 13 Nov 2026 17:14:00 GMT",
+      "latestTitle": "Новый флагман LADA Azimut и Iskra на 259 сил: АВТОВАЗ привез две новинки на Московское Автошоу - Carexpo.ru_ все авто на одном сайте",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMklUc0loZEpBLS1pejdCN2dzc2FUaURfaGRNQW5ZR1lzbFQzZVd1V0s0OU5iNHVtdGl5eEttOVdQemhLZzRzeHFjRmNiMzY2cFJDWjN3NU90U1Vxby1tNlJvTHdUaENnaDJaWWhUVUF4Vlh6NXgxWmhjVGdKSGliNkZFeHRVbUJmNzJjN180MTRwdDdFQnE1TUdQaVBIek5uRHhjOUlpMVgzcVdPT0Y5cGdxSQ?oc=5",
       "latestSourceName": "Carexpo.ru_ все авто на одном сайте",
       "sources": [
+        {
+          "title": "Новый флагман LADA Azimut и Iskra на 259 сил: АВТОВАЗ привез две новинки на Московское Автошоу - Carexpo.ru_ все авто на одном сайте",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMklUc0loZEpBLS1pejdCN2dzc2FUaURfaGRNQW5ZR1lzbFQzZVd1V0s0OU5iNHVtdGl5eEttOVdQemhLZzRzeHFjRmNiMzY2cFJDWjN3NU90U1Vxby1tNlJvTHdUaENnaDJaWWhUVUF4Vlh6NXgxWmhjVGdKSGliNkZFeHRVbUJmNzJjN180MTRwdDdFQnE1TUdQaVBIek5uRHhjOUlpMVgzcVdPT0Y5cGdxSQ?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 17:14:00 GMT",
+          "sourceName": "Carexpo.ru_ все авто на одном сайте"
+        },
         {
           "title": "LADA Azimut и Iskra TMS: АВТОВАЗ показал будущее российского автопрома на Автошоу - Carexpo.ru_ все авто на одном сайте",
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhWZE9sWk1jZnltRVN6UUdNMi1BSlNSMXFvbWhjR25ybVp1QWpKTGF3em5JQmVOYl9fU1VtR2twNFV4MWVSWW9WNGJDaUNwVEdZdnR4V2pDX2N5amQ4b2pGRFBMMDJaRlhBc3I5T0wxYXQwNy0yZVZ3VXE5NlJrYy1QVnl1Zm9Db1duTEk0YmtWbERTTF9INWt6bw?oc=5",
@@ -125,7 +131,7 @@ export const liveMarketSnapshot = {
         {
           "title": "LADA Azimut и гоночный седан Iskra TMS: контраст гражданской и спортивной линейки LADA - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFlXNmFhc005aHl3NmR3a3o2OXl6Vi0xV3hSby1SSW5XMFk5QWVqVUpXbWRmSmd1SjNuS053MGlxT0RZTldsY0tZYkpKWFB2UHdEZHdTU0FRU2h1MTZSU3U3RDlzTDk4SlBGLU9QUWVUckZwV0lGenk1akNyX1JiVHJnSlc3UzFqY1BBTGd5YmtZUlJRTTZ4ZTZVaHdmc0x5em9xbW94SzRwZDRmQW5z?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 09:20:22 GMT",
+          "publishedAt": "Fri, 13 Nov 2026 09:20:50 GMT",
           "sourceName": "Новости Тольятти"
         },
         {
@@ -133,12 +139,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONlZqajlZeUxMcTZnNTRsZlF0NXNaUkxtdzJPT1Z5MmtwV2RkUzJTNUxZWnoxeXY3Qi0zeVZmRXJXV3pnSGhIQzAyb3g4Yk5tbmpKZFFyS3VudXk4TEJWZWdlR1BLdWNoVGxfUWc2YkdPTENld2hncXJMUGdfdE5QQUxia0stZlVnWEhhVlpJd3FzMXhlV3htOWg2NFZ0cTl6a3h1Ui1scGZTMHQzbXpTR0NHMXNEQlRKbE5HV3U5U2lYbEtTRWhRS2RQY1dabWRWbFVTN3l3MlNDZw?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 09:08:42 GMT",
           "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "АвтоВАЗ не стоит на месте и составляет конкуренцию китайским авто: как автомобили LADA обновляют модельный ряд и завоевывают рынок - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNWXRHbEJhM0hMRmtGTkNSaVFMVjl1TjBWZzRmT2ZFenZZRFlEd0x2SEVWSm9McUJyMGh5MmFlSUx2R3B1YXV5dXdSUXRuX1Rlb2tOeXF5RERTM3psRjAxRHZoamFLcEZubmRGTmZOWDZYOGpGYlZIYVZFcmIyS0xFU0tnZ081SlNUR3FLUGFnNGZzd0VvWGFxdm1iN2pfZW5N?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 15:45:18 GMT",
-          "sourceName": "110km.ru"
         }
       ]
     },
@@ -261,9 +261,9 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 3,
-      "fundingMentions": 1,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -289,12 +289,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -358,21 +352,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
-      "latestTitle": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
+      "latestPublishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
       "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+          "sourceName": "CNews.ru"
+        },
         {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -691,17 +685,23 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount30d": 4,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 11:00:25 GMT",
-      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Fri, 13 Nov 2026 16:55:20 GMT",
+      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 16:55:20 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
@@ -1169,17 +1169,24 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
+      "latestSourceName": "Sostav.ru",
+      "sources": [
+        {
+          "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        }
+      ]
     },
     "wunjo": {
       "companyId": "wunjo",
@@ -1303,26 +1310,33 @@ export const liveMarketSnapshot = {
     "okrest": {
       "companyId": "okrest",
       "companyName": "Окрест",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
+      "latestTitle": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
+      "latestSourceName": "Клопс",
+      "sources": [
+        {
+          "title": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
+          "sourceName": "Клопс"
+        }
+      ]
     },
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 4,
-      "sourceCount7d": 2,
+      "sourceCount30d": 6,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
       "latestPublishedAt": "Tue, 10 Nov 2026 09:52:18 GMT",
       "latestTitle": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
@@ -1340,6 +1354,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
           "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
+          "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
+          "sourceName": "Юга.ру"
         },
         {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
