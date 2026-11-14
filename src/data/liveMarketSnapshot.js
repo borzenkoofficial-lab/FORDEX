@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-13T21:02:20.545Z",
+  "generatedAt": "2026-11-14T03:45:52.436Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,7 +100,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 9,
-      "sourceCount7d": 7,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -115,6 +115,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMklUc0loZEpBLS1pejdCN2dzc2FUaURfaGRNQW5ZR1lzbFQzZVd1V0s0OU5iNHVtdGl5eEttOVdQemhLZzRzeHFjRmNiMzY2cFJDWjN3NU90U1Vxby1tNlJvTHdUaENnaDJaWWhUVUF4Vlh6NXgxWmhjVGdKSGliNkZFeHRVbUJmNzJjN180MTRwdDdFQnE1TUdQaVBIek5uRHhjOUlpMVgzcVdPT0Y5cGdxSQ?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 17:14:00 GMT",
           "sourceName": "Carexpo.ru_ все авто на одном сайте"
+        },
+        {
+          "title": "АвтоВАЗ представил новый флагманский кроссовер Azimut и 259-сильную Lada Iskra - РИА Твои Новости",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NX1ZYN3A2ZkhBUjNmWFo4UWhVSWFnNDc3N1A3dDNqR0dFQUdhNmtuV0tLVHpoREppLVFIS1N5ZXFTcndrSHdj?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 16:44:55 GMT",
+          "sourceName": "РИА Твои Новости"
         },
         {
           "title": "LADA Azimut и Iskra TMS: АВТОВАЗ показал будущее российского автопрома на Автошоу - Carexpo.ru_ все авто на одном сайте",
@@ -133,12 +139,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFlXNmFhc005aHl3NmR3a3o2OXl6Vi0xV3hSby1SSW5XMFk5QWVqVUpXbWRmSmd1SjNuS053MGlxT0RZTldsY0tZYkpKWFB2UHdEZHdTU0FRU2h1MTZSU3U3RDlzTDk4SlBGLU9QUWVUckZwV0lGenk1akNyX1JiVHJnSlc3UzFqY1BBTGd5YmtZUlJRTTZ4ZTZVaHdmc0x5em9xbW94SzRwZDRmQW5z?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 09:20:50 GMT",
           "sourceName": "Новости Тольятти"
-        },
-        {
-          "title": "LADA Azimut и 259-сильную Iskra TMS можно увидеть на Московском Автошоу - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONlZqajlZeUxMcTZnNTRsZlF0NXNaUkxtdzJPT1Z5MmtwV2RkUzJTNUxZWnoxeXY3Qi0zeVZmRXJXV3pnSGhIQzAyb3g4Yk5tbmpKZFFyS3VudXk4TEJWZWdlR1BLdWNoVGxfUWc2YkdPTENld2hncXJMUGdfdE5QQUxia0stZlVnWEhhVlpJd3FzMXhlV3htOWg2NFZ0cTl6a3h1Ui1scGZTMHQzbXpTR0NHMXNEQlRKbE5HV3U5U2lYbEtTRWhRS2RQY1dabWRWbFVTN3l3MlNDZw?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 09:08:42 GMT",
-          "sourceName": "Лада.Онлайн"
         }
       ]
     },
@@ -221,8 +221,8 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 4,
-      "sourceCount7d": 2,
+      "sourceCount30d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -237,12 +237,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0dJV3lfRkZFQVVnVFE1eXZKdFoxRHllb0NscnR3WnFoUmxRRERTTDVJcEZ1WTF4V0QwNEVzVWRtd0RlRWpRMmRHS2dXQkNTdGtMdWhpQUNhdUkySFZ2a2I5cHc5cEsyZVhUN0JSOXJnSXpDbURrN21ic2dfX2ZwZF9kOGNDM0lDUTZYdmJhQ0RsaTNPS1NCNWgtdGxOV25Cb09uTGtIWXBsZlc2?oc=5",
           "publishedAt": "Thu, 12 Nov 2026 12:00:03 GMT",
           "sourceName": "Финансы Mail"
-        },
-        {
-          "title": "ИИ NtechLab поможет не пускать дебоширов в рестораны и торговые центры - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbjVIOG5OSzUzZmkxZDNXUVBkNWNjNjFzc0pxQ0JZSGwyWXcxUVEtLXNoQ29ZTmR3WVAtOUVxbXFUdktUSk53UVJmY1dEcTdZdlpHamNhblBucnRvdEJVZVgweWVoRGxEQ2d1am41VHFVbTJpMW42RlVWSzFMOHkxMm5GTVlNYXp3UVA5UmZMNFplRWR0TUFSS2FieHg?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 07:40:00 GMT",
-          "sourceName": "RTVI"
         },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
@@ -262,22 +256,16 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 4,
-      "sourceCount7d": 3,
-      "fundingMentions": 0,
+      "sourceCount7d": 2,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
-      "latestTitle": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
+      "latestPublishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
+      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
-        {
-          "title": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
@@ -289,6 +277,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
+        },
+        {
+          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Forbes.ru"
         },
         {
           "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
@@ -352,7 +346,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+      "latestPublishedAt": "Fri, 06 Nov 2026 03:21:59 GMT",
       "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
       "latestSourceName": "CNews.ru",
@@ -360,7 +354,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+          "publishedAt": "Fri, 06 Nov 2026 03:21:59 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -438,24 +432,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Пациент будущего в эпоху ИИ - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
-      "latestSourceName": "Webiomed",
-      "sources": [
-        {
-          "title": "Пациент будущего в эпоху ИИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
-          "sourceName": "Webiomed"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -691,7 +678,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 16:55:20 GMT",
+      "latestPublishedAt": "Fri, 13 Nov 2026 17:05:08 GMT",
       "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
       "latestSourceName": "prospect.com.ru",
@@ -699,7 +686,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 16:55:20 GMT",
+          "publishedAt": "Fri, 13 Nov 2026 17:05:08 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -859,26 +846,26 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 11 Nov 2026 20:13:02 GMT",
-      "latestTitle": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
+      "latestPublishedAt": "Thu, 12 Nov 2026 17:36:15 GMT",
+      "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 17:36:15 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Нейросети для нарезки видео на Shorts и Reels: сравниваем MnogoReels с OpusClip, Submagic, Vizard и Klap - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE82MTNWNU5nWkpRYkVYUHMzalpOMlFEWjY4dlBCOTh6d3o4R0RZdVJDZnhfMHNLZ0dmMFdlOGctRWpLaVluWVBGdGE3V1M1VlozTXlz?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 20:13:02 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
-          "publishedAt": "Sat, 31 Oct 2026 12:55:44 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1020,17 +1007,23 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 01:35:57 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Thu, 12 Nov 2026 21:30:04 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 21:30:04 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
@@ -1333,16 +1326,22 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 6,
-      "sourceCount7d": 1,
-      "fundingMentions": 0,
+      "sourceCount7d": 2,
+      "fundingMentions": 1,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 10 Nov 2026 09:52:18 GMT",
-      "latestTitle": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnfSAVhBVV95cUxNS3FIbnBod1Y4UEdZMlhyZHJJN3RPa1ZyNnpuaHdWS3ptd0lOSGRjOXZBWDBLM0lwQ0RCNHlaZG5wcGFsUDhJZEFzdGhmdkxfT2VERmVLR253?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Wed, 11 Nov 2026 03:45:00 GMT",
+      "latestTitle": "Хабиров встретился с молодыми блогерами с общим охватом 6 млн подписчиков - Абзелил",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmlHMFhWOW5YcHFlbUIyQWhtcHZNZmNBaFZDa1A0ekNBcDNCcFY5QUFjTlV4M1JSSXI2YnJnMTFsQmx4ZjdrbERya3pIa0hmbzFiUG0xZzNvaFI1RDRERGN5a3VJcnMxWjdRbUJDZzJIRkZuaTVUdFUxMDNSZmtzd2ZLSVlpcXgtbXZRT1JlRkVOQXFLbkxrcDJKVTNJdGFneEJjdldjdUhzNXpiRlBuaXB1MjVGV3BzZEQybGF2TS1qbWs2Ymh1cw?oc=5",
+      "latestSourceName": "Абзелил",
       "sources": [
+        {
+          "title": "Хабиров встретился с молодыми блогерами с общим охватом 6 млн подписчиков - Абзелил",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmlHMFhWOW5YcHFlbUIyQWhtcHZNZmNBaFZDa1A0ekNBcDNCcFY5QUFjTlV4M1JSSXI2YnJnMTFsQmx4ZjdrbERya3pIa0hmbzFiUG0xZzNvaFI1RDRERGN5a3VJcnMxWjdRbUJDZzJIRkZuaTVUdFUxMDNSZmtzd2ZLSVlpcXgtbXZRT1JlRkVOQXFLbkxrcDJKVTNJdGFneEJjdldjdUhzNXpiRlBuaXB1MjVGV3BzZEQybGF2TS1qbWs2Ymh1cw?oc=5",
+          "publishedAt": "Wed, 11 Nov 2026 03:45:00 GMT",
+          "sourceName": "Абзелил"
+        },
         {
           "title": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnfSAVhBVV95cUxNS3FIbnBod1Y4UEdZMlhyZHJJN3RPa1ZyNnpuaHdWS3ptd0lOSGRjOXZBWDBLM0lwQ0RCNHlaZG5wcGFsUDhJZEFzdGhmdkxfT2VERmVLR253?oc=5",
@@ -1356,22 +1355,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-          "sourceName": "Юга.ру"
+          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
+          "sourceName": "AdIndex"
         },
         {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
           "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
           "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
           "sourceName": "Rospotrebnadzor.ru"
-        },
-        {
-          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
-          "publishedAt": "Fri, 16 Oct 2026 07:00:00 GMT",
-          "sourceName": "RB.RU"
         }
       ]
     },
