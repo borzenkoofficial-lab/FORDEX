@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-14T03:45:52.436Z",
+  "generatedAt": "2026-11-14T12:36:05.056Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -105,11 +105,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 17:14:00 GMT",
-      "latestTitle": "Новый флагман LADA Azimut и Iskra на 259 сил: АВТОВАЗ привез две новинки на Московское Автошоу - Carexpo.ru_ все авто на одном сайте",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMklUc0loZEpBLS1pejdCN2dzc2FUaURfaGRNQW5ZR1lzbFQzZVd1V0s0OU5iNHVtdGl5eEttOVdQemhLZzRzeHFjRmNiMzY2cFJDWjN3NU90U1Vxby1tNlJvTHdUaENnaDJaWWhUVUF4Vlh6NXgxWmhjVGdKSGliNkZFeHRVbUJmNzJjN180MTRwdDdFQnE1TUdQaVBIek5uRHhjOUlpMVgzcVdPT0Y5cGdxSQ?oc=5",
-      "latestSourceName": "Carexpo.ru_ все авто на одном сайте",
+      "latestPublishedAt": "Sat, 14 Nov 2026 02:54:18 GMT",
+      "latestTitle": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
+      "latestSourceName": "Интернет-газета «ЖУК»",
       "sources": [
+        {
+          "title": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
+          "publishedAt": "Sat, 14 Nov 2026 02:54:18 GMT",
+          "sourceName": "Интернет-газета «ЖУК»"
+        },
         {
           "title": "Новый флагман LADA Azimut и Iskra на 259 сил: АВТОВАЗ привез две новинки на Московское Автошоу - Carexpo.ru_ все авто на одном сайте",
           "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMklUc0loZEpBLS1pejdCN2dzc2FUaURfaGRNQW5ZR1lzbFQzZVd1V0s0OU5iNHVtdGl5eEttOVdQemhLZzRzeHFjRmNiMzY2cFJDWjN3NU90U1Vxby1tNlJvTHdUaENnaDJaWWhUVUF4Vlh6NXgxWmhjVGdKSGliNkZFeHRVbUJmNzJjN180MTRwdDdFQnE1TUdQaVBIek5uRHhjOUlpMVgzcVdPT0Y5cGdxSQ?oc=5",
@@ -133,19 +139,13 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSThhVjFGeERUUFFhS3hLNWlvU3VLNG41VVdibWZvX18xNncxQ0N0R1pKR1NhUk9rQ0hMSFg0enoyTWpSd2dUOVNGTjBiX3N4TWZuOE1aSV9yLURPSHY0NXJrZm5NZzNZLUQwNUd5MzNleGpuWVZscUR6UEFKRndyOW91U0NpTlZ1VnVjdmpyRXJMVElfdDZhRWpBLVF3bEt4eU56N2trWQ?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 09:23:00 GMT",
           "sourceName": "За рулем Кубань"
-        },
-        {
-          "title": "LADA Azimut и гоночный седан Iskra TMS: контраст гражданской и спортивной линейки LADA - Новости Тольятти",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFlXNmFhc005aHl3NmR3a3o2OXl6Vi0xV3hSby1SSW5XMFk5QWVqVUpXbWRmSmd1SjNuS053MGlxT0RZTldsY0tZYkpKWFB2UHdEZHdTU0FRU2h1MTZSU3U3RDlzTDk4SlBGLU9QUWVUckZwV0lGenk1akNyX1JiVHJnSlc3UzFqY1BBTGd5YmtZUlJRTTZ4ZTZVaHdmc0x5em9xbW94SzRwZDRmQW5z?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 09:20:50 GMT",
-          "sourceName": "Новости Тольятти"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
@@ -179,12 +179,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
           "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
           "sourceName": "Forbes.ru"
-        },
-        {
-          "title": "Пост @just_ai — Блог компании Just AI — 26.10 07:24 / Хабр - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE1TS0xFVDluVmI1MmJ6Slo3YlVZQzhiR0ZDOTdQdU1oVUpkT2dEcV8zNVk5RlYtWUNmOUl6R1cxQlpFSV9pcmNmaVhLU1JZeC1ydGlSN0tLc0RQbVRMR2htSGp3?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
@@ -221,8 +215,8 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 3,
-      "sourceCount7d": 1,
+      "sourceCount30d": 4,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -237,6 +231,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxPR0dJV3lfRkZFQVVnVFE1eXZKdFoxRHllb0NscnR3WnFoUmxRRERTTDVJcEZ1WTF4V0QwNEVzVWRtd0RlRWpRMmRHS2dXQkNTdGtMdWhpQUNhdUkySFZ2a2I5cHc5cEsyZVhUN0JSOXJnSXpDbURrN21ic2dfX2ZwZF9kOGNDM0lDUTZYdmJhQ0RsaTNPS1NCNWgtdGxOV25Cb09uTGtIWXBsZlc2?oc=5",
           "publishedAt": "Thu, 12 Nov 2026 12:00:03 GMT",
           "sourceName": "Финансы Mail"
+        },
+        {
+          "title": "ИИ NtechLab поможет не пускать дебоширов в рестораны и торговые центры - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxQbjVIOG5OSzUzZmkxZDNXUVBkNWNjNjFzc0pxQ0JZSGwyWXcxUVEtLXNoQ29ZTmR3WVAtOUVxbXFUdktUSk53UVJmY1dEcTdZdlpHamNhblBucnRvdEJVZVgweWVoRGxEQ2d1am41VHFVbTJpMW42RlVWSzFMOHkxMm5GTVlNYXp3UVA5UmZMNFplRWR0TUFSS2FieHg?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 07:40:00 GMT",
+          "sourceName": "RTVI"
         },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
@@ -255,9 +255,9 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 4,
+      "sourceCount30d": 2,
       "sourceCount7d": 2,
-      "fundingMentions": 1,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -277,18 +277,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
-        },
-        {
-          "title": "LGMG демонстрирует сверхбыструю зарядку и интегрированные энергетические решения для электрификации горнодобывающей промышленности - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxOdDNTSDBKaUhUbWlpYlRhQWVaTHNWQnVUMUstemNMcFZ5Q01aSnBreUp3NzNFVWpNT1RfZ0xRN2EyLUFPQTVJRWdqbkhUQUNPZ1NuRzVhdUxHdC05a0hNUXBhX0FHOFhNV3JYblRFUDVkaDlQbHVBb2V2bDF5Z3ZyRnpMRDI4NXJzWF9ibXJwdXd4SGZtRXVuLUdrU0ZBQkIwVm1Bdl9jMTBTS1MxWE1uaFFIVktOT1pRdFlHOUktSjlIRFZ6NTJjUWxwVy1SSU5UME5uQ01iOFVzQQ?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
-          "sourceName": "prospect.com.ru"
         }
       ]
     },
@@ -360,7 +348,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 09:06:13 GMT",
+          "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -432,17 +420,24 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Пациент будущего в эпоху ИИ - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
+      "latestSourceName": "Webiomed",
+      "sources": [
+        {
+          "title": "Пациент будущего в эпоху ИИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+          "sourceName": "Webiomed"
+        }
+      ]
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -823,17 +818,23 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 11:50:20 GMT",
-      "latestTitle": "Проект компании Nestlé MILO предоставляет детям больше места для занятий физической активностью в Дананге. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm81Vml2WXBmRTBlVnZRdngwRzJWczJZb3NHQ1dLZTlyOFJ0SEJJdTQ3c25sZHJnckM3dDJ1UXMzbFFsajN2bUJBUnVSTnhPZkhmMEp1QUd5ZHE5N0pKMGU2ZXJ3Z2M5QmVHRUlYZ1R2UnoyMHkwaGV3N3hXRlVYRHZQTzdGc1hHSnhrWWRMdUdzamtjQnlMTU90d0lFNGxPR3Y3U2ItWQ?oc=5",
+      "latestPublishedAt": "Sat, 14 Nov 2026 08:36:51 GMT",
+      "latestTitle": "Компания Nestlé Milo торжественно открыла и передала в эксплуатацию общественную спортивную площадку, расширив возможности для физической активности детей. - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV3ROcG1TTWtvbFNuU0RHVTUwX1JUOWRjR2NyZ2syQ1NBbTlRRGR3UEFsMWQyUnFkaUJZT29Eb2xkTDF0VmxkNk5uVFNRREUyRkc4UUxMMjdFeE56d2JCN1pRWF9HLW54UjVCRlRXQVhUV0VUR2ZDTVR1RTIzY1R2eVNYcW1hcURxT3hwWW5CYnRXeHhrTG1oOUZoQ0NrY1FJaGhUR0NuU01WdmxiZzA3dzEyVGktdTBjUE9CVnJoV0NxUQ?oc=5",
       "latestSourceName": "Vietnam.vn",
       "sources": [
+        {
+          "title": "Компания Nestlé Milo торжественно открыла и передала в эксплуатацию общественную спортивную площадку, расширив возможности для физической активности детей. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV3ROcG1TTWtvbFNuU0RHVTUwX1JUOWRjR2NyZ2syQ1NBbTlRRGR3UEFsMWQyUnFkaUJZT29Eb2xkTDF0VmxkNk5uVFNRREUyRkc4UUxMMjdFeE56d2JCN1pRWF9HLW54UjVCRlRXQVhUV0VUR2ZDTVR1RTIzY1R2eVNYcW1hcURxT3hwWW5CYnRXeHhrTG1oOUZoQ0NrY1FJaGhUR0NuU01WdmxiZzA3dzEyVGktdTBjUE9CVnJoV0NxUQ?oc=5",
+          "publishedAt": "Sat, 14 Nov 2026 08:36:51 GMT",
+          "sourceName": "Vietnam.vn"
+        },
         {
           "title": "Проект компании Nestlé MILO предоставляет детям больше места для занятий физической активностью в Дананге. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm81Vml2WXBmRTBlVnZRdngwRzJWczJZb3NHQ1dLZTlyOFJ0SEJJdTQ3c25sZHJnckM3dDJ1UXMzbFFsajN2bUJBUnVSTnhPZkhmMEp1QUd5ZHE5N0pKMGU2ZXJ3Z2M5QmVHRUlYZ1R2UnoyMHkwaGV3N3hXRlVYRHZQTzdGc1hHSnhrWWRMdUdzamtjQnlMTU90d0lFNGxPR3Y3U2ItWQ?oc=5",
@@ -970,24 +971,17 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
-      "latestSourceName": "Всеостройке.рф",
-      "sources": [
-        {
-          "title": "Брусника внедрила ИИ-видеоаналитику QMonitoring на всех стройплощадках после пилота в московском проекте «МОНС - Всеостройке.рф",
-          "url": "https://news.google.com/rss/articles/CBMi4AFBVV95cUxPSnFwYnAxcUthanBHZF9US0t4dHJidlRFTnhKa3ZBdjBfTTJSd2pwYjNHQXc2QktndXFwN3dHdUJtZnRNc09RNzJlNnpFS0FXN1Z0c1RnZG9PbWZzazItSUFCdzZqSHlfY3VuZVg2YUNvTlRaQkN6eTR6RTFmYjczc2FBTHdESU5vbmFvSE5lY0QyaGsxSmhrM21zUDFMVzJiSTRuOWFGVklUSzhLeEI5enI4MDF5azhvamR5Z3NVUG9DWDhTd1pFZWhQRmNSMTRzV2pCTjFXVVl3amlPT0ktdA?oc=5",
-          "publishedAt": "Thu, 15 Oct 2026 07:00:00 GMT",
-          "sourceName": "Всеостройке.рф"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "readabee": {
       "companyId": "readabee",
@@ -1310,22 +1304,22 @@ export const liveMarketSnapshot = {
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
-      "latestTitle": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс",
+      "latestTitle": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
       "latestUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
-      "latestSourceName": "Клопс",
+      "latestSourceName": "Клопс - новости Калининград",
       "sources": [
         {
-          "title": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс",
+          "title": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
-          "sourceName": "Клопс"
+          "sourceName": "Клопс - новости Калининград"
         }
       ]
     },
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 6,
+      "sourceCount30d": 5,
       "sourceCount7d": 2,
       "fundingMentions": 1,
       "dealMentions": 0,
@@ -1355,16 +1349,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Кейс MediaGuru и «ДНКОМ»: как превратить медийный охват в измеримый спрос - AdIndex",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTE4wN2xXWVd0NkhVNVVQVms2aEZHQ2ZvTnJZNnRoSnl3b21FV2JDX3F4aGV4eFJhUFRKT3NYV2JLUlhYTkExWDVSTWMwV2tTMWxRbzVuV0JMemVvaGM?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 19:55:51 GMT",
-          "sourceName": "AdIndex"
-        },
-        {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
           "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
           "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
           "sourceName": "Rospotrebnadzor.ru"
+        },
+        {
+          "title": "Аудитория нейросетей в России выросла вдвое — всего за год: самой популярной стала Алиса AI - RB.RU",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQdnAwdThhN040UmpsRy1NSV9zVTRySHBRTGhudWNGVHJKMlJ5cWl0dldYUjhPV1Q4UFhybWVsZWotUmpKZHB2VG5UYkxPQWpnQlE2LTVxWERENWpOSEd0dFVyOTRlc1lKSWlxLVJBSXl3clZsM3JMSjMtdEl0akRWei0tSnJjWFIxcTNuX1JKZ211UGpMUTEyRktMQ2J6VXRXVDh3YkgwWVpsM1ZEVVcw?oc=5",
+          "publishedAt": "Fri, 16 Oct 2026 07:00:00 GMT",
+          "sourceName": "RB.RU"
         }
       ]
     },
