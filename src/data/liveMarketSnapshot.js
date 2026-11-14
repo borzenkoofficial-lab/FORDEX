@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-14T12:36:05.056Z",
+  "generatedAt": "2026-11-14T19:32:08.076Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -334,7 +334,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 06 Nov 2026 03:21:59 GMT",
+      "latestPublishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
       "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
       "latestSourceName": "CNews.ru",
@@ -342,7 +342,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 03:21:59 GMT",
+          "publishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -910,7 +910,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 06 Nov 2026 08:50:00 GMT",
+      "latestPublishedAt": "Fri, 06 Nov 2026 08:00:00 GMT",
       "latestTitle": "Скачали свежий сканер безопасности с GitHub? Поздравляем, троян запустился ещё до компиляции проекта - SecurityLab.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yQ05paVdOX0lTaUdYUDlMZDBsREZqYmM1UUZFWkFHa0QxSFMzQnZFbUR5QTZoR0hLSGtPUF95ZC1QdTVnanlFTnl3Nk5wTlAwdVFOZg?oc=5",
       "latestSourceName": "SecurityLab.ru",
@@ -918,7 +918,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Скачали свежий сканер безопасности с GitHub? Поздравляем, троян запустился ещё до компиляции проекта - SecurityLab.ru",
           "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTE8yQ05paVdOX0lTaUdYUDlMZDBsREZqYmM1UUZFWkFHa0QxSFMzQnZFbUR5QTZoR0hLSGtPUF95ZC1QdTVnanlFTnl3Nk5wTlAwdVFOZg?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 08:50:00 GMT",
+          "publishedAt": "Fri, 06 Nov 2026 08:00:00 GMT",
           "sourceName": "SecurityLab.ru"
         }
       ]
@@ -1319,33 +1319,21 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 5,
-      "sourceCount7d": 2,
-      "fundingMentions": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 11 Nov 2026 03:45:00 GMT",
-      "latestTitle": "Хабиров встретился с молодыми блогерами с общим охватом 6 млн подписчиков - Абзелил",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmlHMFhWOW5YcHFlbUIyQWhtcHZNZmNBaFZDa1A0ekNBcDNCcFY5QUFjTlV4M1JSSXI2YnJnMTFsQmx4ZjdrbERya3pIa0hmbzFiUG0xZzNvaFI1RDRERGN5a3VJcnMxWjdRbUJDZzJIRkZuaTVUdFUxMDNSZmtzd2ZLSVlpcXgtbXZRT1JlRkVOQXFLbkxrcDJKVTNJdGFneEJjdldjdUhzNXpiRlBuaXB1MjVGV3BzZEQybGF2TS1qbWs2Ymh1cw?oc=5",
-      "latestSourceName": "Абзелил",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
-        {
-          "title": "Хабиров встретился с молодыми блогерами с общим охватом 6 млн подписчиков - Абзелил",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxObmlHMFhWOW5YcHFlbUIyQWhtcHZNZmNBaFZDa1A0ekNBcDNCcFY5QUFjTlV4M1JSSXI2YnJnMTFsQmx4ZjdrbERya3pIa0hmbzFiUG0xZzNvaFI1RDRERGN5a3VJcnMxWjdRbUJDZzJIRkZuaTVUdFUxMDNSZmtzd2ZLSVlpcXgtbXZRT1JlRkVOQXFLbkxrcDJKVTNJdGFneEJjdldjdUhzNXpiRlBuaXB1MjVGV3BzZEQybGF2TS1qbWs2Ymh1cw?oc=5",
-          "publishedAt": "Wed, 11 Nov 2026 03:45:00 GMT",
-          "sourceName": "Абзелил"
-        },
-        {
-          "title": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnfSAVhBVV95cUxNS3FIbnBod1Y4UEdZMlhyZHJJN3RPa1ZyNnpuaHdWS3ptd0lOSGRjOXZBWDBLM0lwQ0RCNHlaZG5wcGFsUDhJZEFzdGhmdkxfT2VERmVLR253?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 09:52:18 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
-          "publishedAt": "Fri, 06 Nov 2026 18:48:39 GMT",
+          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1365,24 +1353,17 @@ export const liveMarketSnapshot = {
     "poehali-dev": {
       "companyId": "poehali-dev",
       "companyName": "Поехали.dev",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-      "latestTitle": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
-      "latestSourceName": "НИА-Красноярск",
-      "sources": [
-        {
-          "title": "В краевом ревматологическом центре 20-й больницы начинают работу школы для пациентов с ревматическими заболеваниями - НИА-Красноярск",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBoalJRT2ZBdHlueE1XWFpvcXM2bWZ5X1Z6NXp1VFlwWDBidGJtRldLWlZDTVNDcHRxTFZ4VVNRd1YxYkRUaUtSVlhMUDlzcTMtVFU0?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "НИА-Красноярск"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "rekom-plus": {
       "companyId": "rekom-plus",
