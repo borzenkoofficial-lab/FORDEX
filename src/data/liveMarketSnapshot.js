@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-15T10:00:58.488Z",
+  "generatedAt": "2026-11-15T18:03:47.528Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,16 +100,22 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 9,
-      "sourceCount7d": 8,
+      "sourceCount7d": 9,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 14 Nov 2026 02:54:18 GMT",
-      "latestTitle": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
-      "latestSourceName": "Интернет-газета «ЖУК»",
+      "latestPublishedAt": "Sun, 15 Nov 2026 14:36:23 GMT",
+      "latestTitle": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
+      "latestSourceName": "Телеканал ЛенТВ24",
       "sources": [
+        {
+          "title": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
+          "publishedAt": "Sun, 15 Nov 2026 14:36:23 GMT",
+          "sourceName": "Телеканал ЛенТВ24"
+        },
         {
           "title": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
@@ -133,12 +139,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhWZE9sWk1jZnltRVN6UUdNMi1BSlNSMXFvbWhjR25ybVp1QWpKTGF3em5JQmVOYl9fU1VtR2twNFV4MWVSWW9WNGJDaUNwVEdZdnR4V2pDX2N5amQ4b2pGRFBMMDJaRlhBc3I5T0wxYXQwNy0yZVZ3VXE5NlJrYy1QVnl1Zm9Db1duTEk0YmtWbERTTF9INWt6bw?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 11:40:11 GMT",
           "sourceName": "Carexpo.ru_ все авто на одном сайте"
-        },
-        {
-          "title": "LADA Azimut и 259-сильная Iskra TMS представлены на Московском Автошоу - За рулем Кубань",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSThhVjFGeERUUFFhS3hLNWlvU3VLNG41VVdibWZvX18xNncxQ0N0R1pKR1NhUk9rQ0hMSFg0enoyTWpSd2dUOVNGTjBiX3N4TWZuOE1aSV9yLURPSHY0NXJrZm5NZzNZLUQwNUd5MzNleGpuWVZscUR6UEFKRndyOW91U0NpTlZ1VnVjdmpyRXJMVElfdDZhRWpBLVF3bEt4eU56N2trWQ?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 09:23:00 GMT",
-          "sourceName": "За рулем Кубань"
         }
       ]
     },
@@ -328,7 +328,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 3,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -350,6 +350,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
+          "sourceName": "ITSpeaker"
         },
         {
           "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
@@ -1150,17 +1156,23 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Sun, 15 Nov 2026 07:10:26 GMT",
+      "latestTitle": "Habr - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qT0NvcDJiaWdZWEhSZm9zci1PSTJaaVlJU3ZwQ1FVSFdJYlBBSXc2N2dZbWJFeXNudFpiN1NFY1dVMWxvYXNBbUIwaFRJYmU2Rk9ic2V2Tkg?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Habr - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qT0NvcDJiaWdZWEhSZm9zci1PSTJaaVlJU3ZwQ1FVSFdJYlBBSXc2N2dZbWJFeXNudFpiN1NFY1dVMWxvYXNBbUIwaFRJYmU2Rk9ic2V2Tkg?oc=5",
+          "publishedAt": "Sun, 15 Nov 2026 07:10:26 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
@@ -1254,17 +1266,24 @@ export const liveMarketSnapshot = {
     "metranpazh": {
       "companyId": "metranpazh",
       "companyName": "Метранпаж",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Sun, 25 Oct 2026 11:08:09 GMT",
+      "latestTitle": "Ангел-агроном и извечный Калошин - Правда Севера",
+      "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4SkZVT1F2ODk5emg0cnVhT3VJdGQ4NWZJZFk5bDBwZV96UFFuZUFZMGp1QXJ4a3lGLU9QQmJWZ0ZSMHprSzBEdUJmNU5lMmx6d0p6aXh1ZlRSazdPOWN1Q2hDVnp4VGtBU3lhdzBRTktJUQ?oc=5",
+      "latestSourceName": "Правда Севера",
+      "sources": [
+        {
+          "title": "Ангел-агроном и извечный Калошин - Правда Севера",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4SkZVT1F2ODk5emg0cnVhT3VJdGQ4NWZJZFk5bDBwZV96UFFuZUFZMGp1QXJ4a3lGLU9QQmJWZ0ZSMHprSzBEdUJmNU5lMmx6d0p6aXh1ZlRSazdPOWN1Q2hDVnp4VGtBU3lhdzBRTktJUQ?oc=5",
+          "publishedAt": "Sun, 25 Oct 2026 11:08:09 GMT",
+          "sourceName": "Правда Севера"
+        }
+      ]
     },
     "navstreche": {
       "companyId": "navstreche",
@@ -1307,27 +1326,27 @@ export const liveMarketSnapshot = {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
+      "latestTitle": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWXSAVhBVV95cUxOWHR5MElzR1FmSXVlLWM0eDJILXhnQ05TQ19DblBYXzZFS29lOG9oSDRaTGZUNUNWbmp3QTFCeFdYLVhUSnl5bEhnUEJBZjkzTjhsQUUxWHll?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWXSAVhBVV95cUxOWHR5MElzR1FmSXVlLWM0eDJILXhnQ05TQ19DblBYXzZFS29lOG9oSDRaTGZUNUNWbmp3QTFCeFdYLVhUSnl5bEhnUEJBZjkzTjhsQUUxWHll?oc=5",
+          "publishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Дополнительный охват и релевантная реклама: Авито запустил бета-версию рекламной сети - Юга.ру",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQXzF2VW96cVdzOE1NcXJ5OE8tNGhHSXRHYS1pbGpjaHdGcXZxQkdMQTFrc1J1RFRxRjJhUVU4Vk9zeFVuX0xYUEVSSnhBLVUybmJqQnR6X0Y4TkFETzFidV9ONUdEb2RqV1JjZWJiM0sxMlBCR1FiaGFibUl1T3QxXzJwN2NJd3I1UE5vcG14V0FsOXF2WG1Mb0wwQXhXWVdOZ1NVbUhxMGdDQm5NMTBYSHR4eWpUYmg0NU1R0gHAAUFVX3lxTE1sQ3RZUEp4TldrWjg5ZGhmMmJWaHdOZnNqeEEzWGhwekUzV3ZWYXUzUlRQVnhBM08xdGFvRWdub2RrZlJnT2V2ckV2c0VDU2lPcEdJVUEycVdXS3RvUTlsd3g3R2h6Wi1QdVZSdm5DYjhkU3JuQjdIUWV4QkZScmNXTmZ5YWxrN21ENWZOUXRSS3Z3ZE1ySWdYVDVnV21zZDV5NEEzZEdNS3lBb3dkRTZTRlVRRzJuUEt3dEIyd2hCWQ?oc=5",
-          "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-          "sourceName": "Юга.ру"
         },
         {
           "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
