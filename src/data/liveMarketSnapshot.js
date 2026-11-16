@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-16T00:28:13.161Z",
+  "generatedAt": "2026-11-16T10:15:07.001Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -243,17 +243,23 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount30d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
-      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
+      "latestPublishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
+      "latestTitle": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
@@ -420,17 +426,30 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jVWpvcDBVWVRXMmFkZGxQcjlOZk8yYkppRmNiaV9iQktzekFGaVU3czVWcVNpR0ZlWUtWWHJlUnJLZ0ZqX0k4MzU0U1JoVTJDUjZRek81bUg2RjVLaHdCTmxMWV85UGtVenpteXc3RUM3UmJlbU85NA?oc=5",
+      "latestSourceName": "Webiomed",
+      "sources": [
+        {
+          "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jVWpvcDBVWVRXMmFkZGxQcjlOZk8yYkppRmNiaV9iQktzekFGaVU3czVWcVNpR0ZlWUtWWHJlUnJLZ0ZqX0k4MzU0U1JoVTJDUjZRek81bUg2RjVLaHdCTmxMWV85UGtVenpteXc3RUM3UmJlbU85NA?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Пациент будущего в эпоху ИИ - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
+          "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+          "sourceName": "Webiomed"
+        }
+      ]
     },
     "aiesa": {
       "companyId": "aiesa",
@@ -1313,12 +1332,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 0,
       "latestPublishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
       "latestTitle": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWXSAVhBVV95cUxOWHR5MElzR1FmSXVlLWM0eDJILXhnQ05TQ19DblBYXzZFS29lOG9oSDRaTGZUNUNWbmp3QTFCeFdYLVhUSnl5bEhnUEJBZjkzTjhsQUUxWHll?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PenR6YXV3NTBBUGdLaG5FOXpoUlY0S0V5LW92TTF6ZXczUXhQOFcteThiVDRpTTdOdWNXRGtPdE05NlVvaXc2OU5IYUVaUdIBWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWU?oc=5",
       "latestSourceName": "Хабр",
       "sources": [
         {
           "title": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWXSAVhBVV95cUxOWHR5MElzR1FmSXVlLWM0eDJILXhnQ05TQ19DblBYXzZFS29lOG9oSDRaTGZUNUNWbmp3QTFCeFdYLVhUSnl5bEhnUEJBZjkzTjhsQUUxWHll?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PenR6YXV3NTBBUGdLaG5FOXpoUlY0S0V5LW92TTF6ZXczUXhQOFcteThiVDRpTTdOdWNXRGtPdE05NlVvaXc2OU5IYUVaUdIBWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWU?oc=5",
           "publishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
           "sourceName": "Хабр"
         },
