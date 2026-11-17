@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-17T14:59:34.307Z",
+  "generatedAt": "2026-11-17T22:47:06.502Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,7 +99,7 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 9,
+      "sourceCount30d": 8,
       "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -223,12 +223,12 @@ export const liveMarketSnapshot = {
       "tractionMentions": 0,
       "latestPublishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
       "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
-      "latestUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRkVNc1BFcWlWYUctbER4MjhINV9lLUtEVTNHYW1PVnVqWmp6TWNXUjdvQWtYTlN0QXFJVGVjSnJLWGdpRVl6X3VOSlhBXzJNM2ZvWHE0MjBVWjZMOVAzRVdDY29kRDFHQ2xzVGM1VU9MOEJhTnNvYndjcDlkZkFYR0JoYk5KR1dpLTJHR0F2cHNlRDZwMDBKTkZWUDJ0cmxSaGE3Z2hnazNyZUpTLU5rc1UtOWoteFRaMUlMWTNxN3hhTlU?oc=5",
       "latestSourceName": "RTVI",
       "sources": [
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRkVNc1BFcWlWYUctbER4MjhINV9lLUtEVTNHYW1PVnVqWmp6TWNXUjdvQWtYTlN0QXFJVGVjSnJLWGdpRVl6X3VOSlhBXzJNM2ZvWHE0MjBVWjZMOVAzRVdDY29kRDFHQ2xzVGM1VU9MOEJhTnNvYndjcDlkZkFYR0JoYk5KR1dpLTJHR0F2cHNlRDZwMDBKTkZWUDJ0cmxSaGE3Z2hnazNyZUpTLU5rc1UtOWoteFRaMUlMWTNxN3hhTlU?oc=5",
           "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
           "sourceName": "RTVI"
         }
@@ -237,23 +237,17 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 4,
-      "sourceCount7d": 3,
-      "fundingMentions": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
-      "latestTitle": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
+      "latestPublishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
+      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
-        {
-          "title": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
-          "publishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
@@ -265,12 +259,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         }
       ]
     },
@@ -322,13 +310,13 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
       "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
       "latestSourceName": "CNews.ru",
@@ -336,19 +324,13 @@ export const liveMarketSnapshot = {
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 14:33:03 GMT",
+          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
           "sourceName": "CNews.ru"
         },
         {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -377,23 +359,17 @@ export const liveMarketSnapshot = {
     "targetai": {
       "companyId": "targetai",
       "companyName": "targetai",
-      "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Tue, 10 Nov 2026 18:10:57 GMT",
-      "latestTitle": "targetai представила технологию генерации естественной речи для голосовых ИИ-агентов - Компьютерра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkVpU3BpWWs1STlnMkg0UjB1NHIxWnY1dXFCRjAtR253cDRQdzF5U1h0cjhldEtMQlh6MTBnRU10dVRZdFl1YTVpSjBTcE5ySE1BcGg4Nlpfd1J6MFo2aG9reWdLOV91OEJDWkctSm5sd2l2RTVMSVQ3TGF5UDVHYUhRWDBOOXRib2NFMllWX3ZiMHppbmJtdl9pVEhuT1dacFhHTDlGQk5sY2laQkR5OFotSUJfTmQzbEs2RjlHTQ?oc=5",
-      "latestSourceName": "Компьютерра",
+      "latestPublishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
+      "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "targetai представила технологию генерации естественной речи для голосовых ИИ-агентов - Компьютерра",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPUkVpU3BpWWs1STlnMkg0UjB1NHIxWnY1dXFCRjAtR253cDRQdzF5U1h0cjhldEtMQlh6MTBnRU10dVRZdFl1YTVpSjBTcE5ySE1BcGg4Nlpfd1J6MFo2aG9reWdLOV91OEJDWkctSm5sd2l2RTVMSVQ3TGF5UDVHYUhRWDBOOXRib2NFMllWX3ZiMHppbmJtdl9pVEhuT1dacFhHTDlGQk5sY2laQkR5OFotSUJfTmQzbEs2RjlHTQ?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 18:10:57 GMT",
-          "sourceName": "Компьютерра"
-        },
         {
           "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
@@ -673,16 +649,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 16 Nov 2026 16:34:46 GMT",
-      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - SMINEWS",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9CR0NyMXVmSmtKc3VQT0Z2MjN2a2FTTElwRWJiNXdIY2hLbkRvNXhJS3Y2M2R6Y0Zaa3VN?oc=5",
-      "latestSourceName": "SMINEWS",
+      "latestPublishedAt": "Tue, 17 Nov 2026 18:34:00 GMT",
+      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - www.innov.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CYWI2c2puWFdGcUc4XzNZMG91SDE2X1J1eVhHaWxQa2Vja29lX0FsOVAtYkZjNU1pN2xMM0FkVFBzUzFhamZGc0k4MG52eHhSWURKRTZGd2MzbVlEd3Z1cGxVZk9Odw?oc=5",
+      "latestSourceName": "www.innov.ru",
       "sources": [
         {
-          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - SMINEWS",
-          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9CR0NyMXVmSmtKc3VQT0Z2MjN2a2FTTElwRWJiNXdIY2hLbkRvNXhJS3Y2M2R6Y0Zaa3VN?oc=5",
-          "publishedAt": "Mon, 16 Nov 2026 16:34:46 GMT",
-          "sourceName": "SMINEWS"
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - www.innov.ru",
+          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CYWI2c2puWFdGcUc4XzNZMG91SDE2X1J1eVhHaWxQa2Vja29lX0FsOVAtYkZjNU1pN2xMM0FkVFBzUzFhamZGc0k4MG52eHhSWURKRTZGd2MzbVlEd3Z1cGxVZk9Odw?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 18:34:00 GMT",
+          "sourceName": "www.innov.ru"
         },
         {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
@@ -1312,17 +1288,23 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 5,
-      "sourceCount7d": 3,
+      "sourceCount30d": 6,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 17 Nov 2026 11:14:15 GMT",
-      "latestTitle": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Tue, 17 Nov 2026 13:14:31 GMT",
+      "latestTitle": "Сократить дефицит врачей и увеличить охват скринингами намерены в Жетісу - Вестник Жетісу",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObkJGTHBaU1pvdXI4cVBNbVRaUnJRSEtKTzhQY3BuVXNyT0tQZ2s0ck1nU1U3bGQza1ZBSWl2ME1QVllmYmpzbkhzRG50V19nVUNmTkFUbHJXUXdCdW9pck5ybXNCVUduQnEwc1pxNWFZWXlGbnBEYVdNV3VVOWtNZExyM29XZkdkMzZhTTdBNENTTGdkY0dtaEJCWndnTVl4bEpsc2NrWXpNOUZOT1NYdjlsMDVvNmJXMF9OMUU2Skxudw?oc=5",
+      "latestSourceName": "Вестник Жетісу",
       "sources": [
+        {
+          "title": "Сократить дефицит врачей и увеличить охват скринингами намерены в Жетісу - Вестник Жетісу",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObkJGTHBaU1pvdXI4cVBNbVRaUnJRSEtKTzhQY3BuVXNyT0tQZ2s0ck1nU1U3bGQza1ZBSWl2ME1QVllmYmpzbkhzRG50V19nVUNmTkFUbHJXUXdCdW9pck5ybXNCVUduQnEwc1pxNWFZWXlGbnBEYVdNV3VVOWtNZExyM29XZkdkMzZhTTdBNENTTGdkY0dtaEJCWndnTVl4bEpsc2NrWXpNOUZOT1NYdjlsMDVvNmJXMF9OMUU2Skxudw?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 13:14:31 GMT",
+          "sourceName": "Вестник Жетісу"
+        },
         {
           "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
@@ -1346,12 +1328,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
           "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Итоги IV этапа Лектория «Санпросвет» в Магаданской области: охват и вовлеченность - Rospotrebnadzor.ru",
-          "url": "https://news.google.com/rss/articles/CBMi_wRBVV95cUxOc0taeUc1NmhqMF9QRC0tZktUZ2lxTXhXSXBrcHJkekNXZXpUMlU2REg1eGhtbUp2ckdkS3Z6dkhPeUkxRGplUmItcUpXVHE4TjBUTnEwUEJZT1RKNWhZMzdXaXNzbmcweEYwUnExMkI3ci1VUjdReGdOUGFyMlJnRGxXdHIzVVlTVDVDVkRpb1k0Z196Sk80UzhSSkZmYmNkelNjcHVOOVU4d1FwaTAxaENkeXRtSDJIWWlkQVBUMlU5TC1kb1czRFl0eFlvaC1wZFVJZjRxM204Z0hkVndPNDNnNE1VbnVIeWRQRVVpMG1jYmkzTVItVTJ3WXlValFxcFVlZUhFVlVRQWs5LXlnN3dlYzRac3BkQ3RfNFV2bGxzdkFSYzgtMXZsUFZNRHdZcHZGNjVJTkF6ZC1hRTlQQkpTMHp4cTVxa0g2TXhweENzc0lPZW9xdTlRbnZPRkZ2QzR0N3o4WVowVWJXN2oyQktjazVZbElWVzg3aXA2cllOU212LXBDaHNpS0I4cUZrckpsQUhzX0lNd0NuRGZaT3pWZDBEaHVwUnpNRkJwLVFPbW5MbEtCem42YnB6RkY5cjNWbDhPMjdRVVJhYUZ3TEI1WW9mYV9UZ3h3UEZNMUtJcW1FRkZyWmhxSC1VYlJudi05dWRLWklodERYR1pUY2FHeDhDZkdtOXNGT3RMME5yX1FsZzBUZkp6ZHlvQmg0R29aQUV0dlRKdnd2bXZRWEtOQXVHT2EtZ2xNWVR2Q2ZHeUVhUUQtVnVfRlpNb3lEeEpPc09LdWhEcDVKYWQ0NVdPSmhscjBfMmNpTk5LUGhGNWtWWEdMVnhiZmhUTzg?oc=5",
-          "publishedAt": "Fri, 23 Oct 2026 07:18:53 GMT",
-          "sourceName": "Rospotrebnadzor.ru"
         }
       ]
     },
