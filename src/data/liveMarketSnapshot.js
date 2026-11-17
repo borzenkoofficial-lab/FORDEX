@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-16T10:15:07.001Z",
+  "generatedAt": "2026-11-17T14:59:34.307Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,7 +100,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 9,
-      "sourceCount7d": 9,
+      "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -135,10 +135,10 @@ export const liveMarketSnapshot = {
           "sourceName": "РИА Твои Новости"
         },
         {
-          "title": "LADA Azimut и Iskra TMS: АВТОВАЗ показал будущее российского автопрома на Автошоу - Carexpo.ru_ все авто на одном сайте",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOVFhWZE9sWk1jZnltRVN6UUdNMi1BSlNSMXFvbWhjR25ybVp1QWpKTGF3em5JQmVOYl9fU1VtR2twNFV4MWVSWW9WNGJDaUNwVEdZdnR4V2pDX2N5amQ4b2pGRFBMMDJaRlhBc3I5T0wxYXQwNy0yZVZ3VXE5NlJrYy1QVnl1Zm9Db1duTEk0YmtWbERTTF9INWt6bw?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 11:40:11 GMT",
-          "sourceName": "Carexpo.ru_ все авто на одном сайте"
+          "title": "LADA Azimut и 259-сильная Iskra TMS представлены на Московском Автошоу - За рулем Кубань",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSThhVjFGeERUUFFhS3hLNWlvU3VLNG41VVdibWZvX18xNncxQ0N0R1pKR1NhUk9rQ0hMSFg0enoyTWpSd2dUOVNGTjBiX3N4TWZuOE1aSV9yLURPSHY0NXJrZm5NZzNZLUQwNUd5MzNleGpuWVZscUR6UEFKRndyOW91U0NpTlZ1VnVjdmpyRXJMVElfdDZhRWpBLVF3bEt4eU56N2trWQ?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 09:23:00 GMT",
+          "sourceName": "За рулем Кубань"
         }
       ]
     },
@@ -215,23 +215,17 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
-      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
-      "latestSourceName": "Ростех",
+      "latestPublishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
+      "latestUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
+      "latestSourceName": "RTVI",
       "sources": [
-        {
-          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
-          "sourceName": "Ростех"
-        },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
           "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOSk5EVlczRGxqQk9GR3VJek1fekIzSHBtNFRNSHc1RGFtcWw3SkJVNUJ0RThJa09STGo2eElCR19mV3ptZUM2SVJtcGIxV1BZcGtKZDMtVEszMGlLWkVfOVNoNlA5SXhZaTFZdXJTaUY4M2U3djNLSTd4TnJBSWZPdkt6VjBQUTN2MExkYUx0VzRFTE5QYWp4Q1lPdnFLanZPNHFVa19XbVZTQTE2eWZSak94MlZnSU9aZGxOVktB?oc=5",
@@ -249,15 +243,15 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
-      "latestTitle": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
+      "latestPublishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
+      "latestTitle": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
         {
-          "title": "Радиоточки будут жить. В России собираются развивать проводное радиовещание - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQMGpkTGhQdHdTbEtoTFJzNUIzRTN0dDlPbTRGNTVVOWNYR0lCd2FCakk5ZktqZERoeDRmZGhCcV9sMEZkNkxWdG1tWW9sdVFMUjdUZnpZdnBmMDlQellVQjQ2STlGU1hHeVJ4UXd5dGs4ZlNjYXFPWG5udFhseU51UkdzV1Z3MTEtSFRyQ0xPMThPWG5Edl9PNUZxQ3BzOU0zNVlwdHRkdkwzNVBVbExRam8yNlF4MkJleGZ3?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 04:20:36 GMT",
+          "title": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
+          "publishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
           "sourceName": "prospect.com.ru"
         },
         {
@@ -352,10 +346,10 @@ export const liveMarketSnapshot = {
           "sourceName": "CNews.ru"
         },
         {
-          "title": "Smart Engines запатентовала в США технологию защиты от мошенников - ITSpeaker",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxOcWVLcFM3VEJmSXFUNkE3RlgtX1cyblpQdmpHbGRRZXRkS3Bpb2FiZ1V4T3h4blBGaVd0RER5RDNBTWpBMXRyZEh3Zk43SUJPZmVXa3paWjVsN0l0QTNwTWx6WldJcUw3SGRXMEVxY3F2a0wzNjlVcHRRSnVMaFVHTXpJMHhWTl9tVnppZ0RYSV9GZXlsNHBZY1FrWkFQV3ZY?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 14:59:38 GMT",
-          "sourceName": "ITSpeaker"
+          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
+          "sourceName": "CNews.ru"
         },
         {
           "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
@@ -426,7 +420,7 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -441,12 +435,6 @@ export const liveMarketSnapshot = {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jVWpvcDBVWVRXMmFkZGxQcjlOZk8yYkppRmNiaV9iQktzekFGaVU3czVWcVNpR0ZlWUtWWHJlUnJLZ0ZqX0k4MzU0U1JoVTJDUjZRek81bUg2RjVLaHdCTmxMWV85UGtVenpteXc3RUM3UmJlbU85NA?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Пациент будущего в эпоху ИИ - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiakFVX3lxTE9qVU1Rc2U1LWVkNkc5d3JLVFB0X25GRDBFVng3d2trTk1Wa2NVNTdxXzM1ck9sQzdYc3Axa2I0dDFHd2N3cTFOMkZ4YUVwdXllSVBEelN6dmdYaTF4TWo3QUhPLUd1SlZTdGc?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
           "sourceName": "Webiomed"
         }
       ]
@@ -679,17 +667,23 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount30d": 4,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 17:05:08 GMT",
-      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Mon, 16 Nov 2026 16:34:46 GMT",
+      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - SMINEWS",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9CR0NyMXVmSmtKc3VQT0Z2MjN2a2FTTElwRWJiNXdIY2hLbkRvNXhJS3Y2M2R6Y0Zaa3VN?oc=5",
+      "latestSourceName": "SMINEWS",
       "sources": [
+        {
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - SMINEWS",
+          "url": "https://news.google.com/rss/articles/CBMiO0FVX3lxTE9CR0NyMXVmSmtKc3VQT0Z2MjN2a2FTTElwRWJiNXdIY2hLbkRvNXhJS3Y2M2R6Y0Zaa3VN?oc=5",
+          "publishedAt": "Mon, 16 Nov 2026 16:34:46 GMT",
+          "sourceName": "SMINEWS"
+        },
         {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
@@ -728,24 +722,17 @@ export const liveMarketSnapshot = {
     "health-hero": {
       "companyId": "health-hero",
       "companyName": "Health Hero",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Мать, помогавшую людям пережить утрату, нашли мертвой на пляже после смерти сына в Великобритании - Liter.kz",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3Jmd2ZwODBDM0ItZnhGbnFzd0l4MzAxVnBZdEI1V01hdF8zLTRaXzBLQmdTcktBSlVpRy1CT254N2ZBR005TDlpU2dFWW5rNlhsUzlwM1IwXzBuVlEwb01PM1N4azFOc0ZOakpHSkpaY0FSbXRmeEEzRk84Ync1SFBuQk1mWHZHTTBabjBoZjBZaGVNYUVZUkZ3VXhyTzd3aVpQMlJMWWVOaHNqVFJOajVsNXhyeFJzRkFGc1M3LU9wRXVSYUoxMDRB0gHPAUFVX3lxTE5LWGxDQllvZHlNUWpyRlNHVG9xSW1FSG5iejNzZFBzVmdiN1JLYVlSSlprbW1YZjZKREY0NVRGNS1rbEN1b2VJWmw5cVdxNFpTMzhsWW0wd0JlbGRDLWVGUWJSNVVYWUZvc0ZhUnNjVWVHcldQS1RzLWE5WmVoTXR4TXpJbk5GN3ZFdmJSV0lWaW93LVhkZHBSUG1mMmV6ejVNMjRuT0k0VjZVbkMxeENWakNZQTVxUXVhd3dXbzBxZXF5WXVmSFZqSE1DSTNxNA?oc=5",
-      "latestSourceName": "Liter.kz",
-      "sources": [
-        {
-          "title": "Мать, помогавшую людям пережить утрату, нашли мертвой на пляже после смерти сына в Великобритании - Liter.kz",
-          "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPb3Jmd2ZwODBDM0ItZnhGbnFzd0l4MzAxVnBZdEI1V01hdF8zLTRaXzBLQmdTcktBSlVpRy1CT254N2ZBR005TDlpU2dFWW5rNlhsUzlwM1IwXzBuVlEwb01PM1N4azFOc0ZOakpHSkpaY0FSbXRmeEEzRk84Ync1SFBuQk1mWHZHTTBabjBoZjBZaGVNYUVZUkZ3VXhyTzd3aVpQMlJMWWVOaHNqVFJOajVsNXhyeFJzRkFGc1M3LU9wRXVSYUoxMDRB0gHPAUFVX3lxTE5LWGxDQllvZHlNUWpyRlNHVG9xSW1FSG5iejNzZFBzVmdiN1JLYVlSSlprbW1YZjZKREY0NVRGNS1rbEN1b2VJWmw5cVdxNFpTMzhsWW0wd0JlbGRDLWVGUWJSNVVYWUZvc0ZhUnNjVWVHcldQS1RzLWE5WmVoTXR4TXpJbk5GN3ZFdmJSV0lWaW93LVhkZHBSUG1mMmV6ejVNMjRuT0k0VjZVbkMxeENWakNZQTVxUXVhd3dXbzBxZXF5WXVmSFZqSE1DSTNxNA?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "Liter.kz"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "innde": {
       "companyId": "innde",
@@ -947,17 +934,24 @@ export const liveMarketSnapshot = {
     "polza-ai": {
       "companyId": "polza-ai",
       "companyName": "Polza AI",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Mon, 09 Nov 2026 14:39:56 GMT",
+      "latestTitle": "ТОП-9 агрегаторов нейросетей: сравнение лучших сервисов в России, где все ИИ в одном месте с оплатой рублями - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WU19XVnBDcnhJVGVnVlRfSTk2R3d4NmFSUFF5dF8tQzhkWExJZ3ZtU3lOWE5IRlZlSVc4SnZvM0FWZlpFcm5hdl83dTNLbzFuc2NpQnVzSlRBTXViQkIyN0tlOGU5VFnSAVhBVV95cUxQLWo4Sl82TE1MNl85X2FMUVh0Nlc3aXVHMGVsOUl0VF9KQjFzaU5GalQ3R0ZpQjF4UnJGZVQ3LXFHS0hYcDBfUjlGcTRJODB2MFhwY0x0VU1q?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "ТОП-9 агрегаторов нейросетей: сравнение лучших сервисов в России, где все ИИ в одном месте с оплатой рублями - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WU19XVnBDcnhJVGVnVlRfSTk2R3d4NmFSUFF5dF8tQzhkWExJZ3ZtU3lOWE5IRlZlSVc4SnZvM0FWZlpFcm5hdl83dTNLbzFuc2NpQnVzSlRBTXViQkIyN0tlOGU5VFnSAVhBVV95cUxQLWo4Sl82TE1MNl85X2FMUVh0Nlc3aXVHMGVsOUl0VF9KQjFzaU5GalQ3R0ZpQjF4UnJGZVQ3LXFHS0hYcDBfUjlGcTRJODB2MFhwY0x0VU1q?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 14:39:56 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "prezka-ai": {
       "companyId": "prezka-ai",
@@ -1007,8 +1001,8 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1022,12 +1016,6 @@ export const liveMarketSnapshot = {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Sat, 14 Nov 2026 20:35:57 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 21:30:04 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1324,17 +1312,29 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 3,
-      "sourceCount7d": 1,
+      "sourceCount30d": 5,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
-      "latestTitle": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PenR6YXV3NTBBUGdLaG5FOXpoUlY0S0V5LW92TTF6ZXczUXhQOFcteThiVDRpTTdOdWNXRGtPdE05NlVvaXc2OU5IYUVaUdIBWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWU?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Tue, 17 Nov 2026 11:14:15 GMT",
+      "latestTitle": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 11:14:15 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "Казахстан оказался в числе мировых лидеров по охвату соцсетей - Ак Жайык",
+          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmQjRPQzBfMlg1NEVJUUx2c1lTeEtPVDdEMkhxNmxGQU95Umtaakp2b0NmaE4wZ2Q5SmMyZ3NSd24yM0szcGtOZEp3?oc=5",
+          "publishedAt": "Mon, 16 Nov 2026 05:33:05 GMT",
+          "sourceName": "Ак Жайык"
+        },
         {
           "title": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PenR6YXV3NTBBUGdLaG5FOXpoUlY0S0V5LW92TTF6ZXczUXhQOFcteThiVDRpTTdOdWNXRGtPdE05NlVvaXc2OU5IYUVaUdIBWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWU?oc=5",
