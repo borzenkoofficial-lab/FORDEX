@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-18T04:51:38.323Z",
+  "generatedAt": "2026-11-18T14:40:30.692Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -238,7 +238,7 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -316,17 +316,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
-      "sourceCount7d": 0,
+      "sourceCount30d": 5,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
+      "latestTitle": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -408,17 +414,23 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jVWpvcDBVWVRXMmFkZGxQcjlOZk8yYkppRmNiaV9iQktzekFGaVU3czVWcVNpR0ZlWUtWWHJlUnJLZ0ZqX0k4MzU0U1JoVTJDUjZRek81bUg2RjVLaHdCTmxMWV85UGtVenpteXc3RUM3UmJlbU85NA?oc=5",
-      "latestSourceName": "Webiomed",
+      "latestPublishedAt": "Wed, 18 Nov 2026 13:41:47 GMT",
+      "latestTitle": "ИИ-сервис федерального масштаба на РЕД ОС — платформа Webiomed связала тысячи медорганизаций в единую сеть - Компьютерра",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONXhxTmhFRExqYVJQYldoYnpsNlE3NUZuWXlWZXJBakp5LUtzX29XaFBhQ0NCZ1M4TjAtUW42aDU2ajJSZ2hBTkM4bVBfOVRTVTJXcm5mVkk0ejlnMXkzQjN0bDltU19DbWliNHN4VXRyaVZKeHpXWUYxY19xNEVGZWh1b1lXWWZlRzRuTjlRQ1VGNEZPUGhWMnRnd3FMYk1ZTndNVHVDcHFxVWJpUnItdjRIcm9IU0xjMVRRZFNYTWNNVDd4Q3E2c19nNlpVVVV1d2dnb0VUZE53dw?oc=5",
+      "latestSourceName": "Компьютерра",
       "sources": [
+        {
+          "title": "ИИ-сервис федерального масштаба на РЕД ОС — платформа Webiomed связала тысячи медорганизаций в единую сеть - Компьютерра",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONXhxTmhFRExqYVJQYldoYnpsNlE3NUZuWXlWZXJBakp5LUtzX29XaFBhQ0NCZ1M4TjAtUW42aDU2ajJSZ2hBTkM4bVBfOVRTVTJXcm5mVkk0ejlnMXkzQjN0bDltU19DbWliNHN4VXRyaVZKeHpXWUYxY19xNEVGZWh1b1lXWWZlRzRuTjlRQ1VGNEZPUGhWMnRnd3FMYk1ZTndNVHVDcHFxVWJpUnItdjRIcm9IU0xjMVRRZFNYTWNNVDd4Q3E2c19nNlpVVVV1d2dnb0VUZE53dw?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 13:41:47 GMT",
+          "sourceName": "Компьютерра"
+        },
         {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jVWpvcDBVWVRXMmFkZGxQcjlOZk8yYkppRmNiaV9iQktzekFGaVU3czVWcVNpR0ZlWUtWWHJlUnJLZ0ZqX0k4MzU0U1JoVTJDUjZRek81bUg2RjVLaHdCTmxMWV85UGtVenpteXc3RUM3UmJlbU85NA?oc=5",
@@ -661,11 +673,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 17 Nov 2026 18:34:00 GMT",
-      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - www.innov.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CYWI2c2puWFdGcUc4XzNZMG91SDE2X1J1eVhHaWxQa2Vja29lX0FsOVAtYkZjNU1pN2xMM0FkVFBzUzFhamZGc0k4MG52eHhSWURKRTZGd2MzbVlEd3Z1cGxVZk9Odw?oc=5",
-      "latestSourceName": "www.innov.ru",
+      "latestPublishedAt": "Wed, 18 Nov 2026 01:45:49 GMT",
+      "latestTitle": "«Билайн Adtech» и Gradius договорились о сотрудничестве в сфере рекламных технологий - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmNOQ0RScFB4RU45cG1vUVNtSVZBNXdySzJqS0FRTlRoaVlJbTQ5OGN3aXFEZTFjYVRpbml6NVM1LWhxdmNvX1htbzNqR0RpZHl2N0x5WU8yX2VtTE1UeVhyUFIxaHljdUhNSk9iOE15Zkh5SjE1bFliSmloM3ByUGNmTmliZUVoYzZTOENiQTJyN0NhU3BmZG1WNU5BUGRCa2NjdEFIdDNZbnZsM0VJOFlKaWNiaFBhUXRkT1EyWnRQWENZZ0pLRw?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "«Билайн Adtech» и Gradius договорились о сотрудничестве в сфере рекламных технологий - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmNOQ0RScFB4RU45cG1vUVNtSVZBNXdySzJqS0FRTlRoaVlJbTQ5OGN3aXFEZTFjYVRpbml6NVM1LWhxdmNvX1htbzNqR0RpZHl2N0x5WU8yX2VtTE1UeVhyUFIxaHljdUhNSk9iOE15Zkh5SjE1bFliSmloM3ByUGNmTmliZUVoYzZTOENiQTJyN0NhU3BmZG1WNU5BUGRCa2NjdEFIdDNZbnZsM0VJOFlKaWNiaFBhUXRkT1EyWnRQWENZZ0pLRw?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 01:45:49 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - www.innov.ru",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CYWI2c2puWFdGcUc4XzNZMG91SDE2X1J1eVhHaWxQa2Vja29lX0FsOVAtYkZjNU1pN2xMM0FkVFBzUzFhamZGc0k4MG52eHhSWURKRTZGd2MzbVlEd3Z1cGxVZk9Odw?oc=5",
@@ -689,12 +707,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZMQmR2NThKTUl5a1puUktqdk1WM2tXNUhKVUVzY1F2amFsVDEtWXc5d1JyUGNEbDdEaC1UYTVsZ1IySWVDejgxVm5aNHk3b0J2WXI2OTd0cF9OMUdLM3kxem5UaHVtTkdHRHdCb2doQ1FzOEE4eWlQdDZvc0RLRTB0Um9kOVh6R3JrRmt3VktXQlNRQS1tV0haSkdIY0lZNlI0TWd3?oc=5",
           "publishedAt": "Thu, 12 Nov 2026 16:58:45 GMT",
           "sourceName": "gosrf"
-        },
-        {
-          "title": "«Билайн Adtech» и Gradius договорились о сотрудничестве в сфере рекламных технологий - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmNOQ0RScFB4RU45cG1vUVNtSVZBNXdySzJqS0FRTlRoaVlJbTQ5OGN3aXFEZTFjYVRpbml6NVM1LWhxdmNvX1htbzNqR0RpZHl2N0x5WU8yX2VtTE1UeVhyUFIxaHljdUhNSk9iOE15Zkh5SjE1bFliSmloM3ByUGNmTmliZUVoYzZTOENiQTJyN0NhU3BmZG1WNU5BUGRCa2NjdEFIdDNZbnZsM0VJOFlKaWNiaFBhUXRkT1EyWnRQWENZZ0pLRw?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 15:17:54 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
@@ -716,17 +728,24 @@ export const liveMarketSnapshot = {
     "health-hero": {
       "companyId": "health-hero",
       "companyName": "Health Hero",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 18 Nov 2026 08:17:20 GMT",
+      "latestTitle": "Биолог из Челябинска выиграла премию молодых предпринимателей с персональным медицинским ИИ-ассистентом - Хорошие новости Челябинской области",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMzN2WTlieWlqcDNlSzlkVlluRGJnSTNFUFR0NjB0clNWSEZ0WlN2aHVqRTRCOTEyOWJXa0YwVXRsMjFxN19maEFzNXVTaENfVHJaLWZwWG9pMEZUcnpIb0R0VUxmZ2VVelpUYTZOeGZoZkMtTVZGak9vTFNwNjhsbGxjV21vZVF5XzRVMk5pTHFhRDBBbnE3WHZLRWhPQ1JSN29KVjN3dFJGc1FsTEtmNTVqbERqZ01ISkl1UHdkeFN2SUxR?oc=5",
+      "latestSourceName": "Хорошие новости Челябинской области",
+      "sources": [
+        {
+          "title": "Биолог из Челябинска выиграла премию молодых предпринимателей с персональным медицинским ИИ-ассистентом - Хорошие новости Челябинской области",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMzN2WTlieWlqcDNlSzlkVlluRGJnSTNFUFR0NjB0clNWSEZ0WlN2aHVqRTRCOTEyOWJXa0YwVXRsMjFxN19maEFzNXVTaENfVHJaLWZwWG9pMEZUcnpIb0R0VUxmZ2VVelpUYTZOeGZoZkMtTVZGak9vTFNwNjhsbGxjV21vZVF5XzRVMk5pTHFhRDBBbnE3WHZLRWhPQ1JSN29KVjN3dFJGc1FsTEtmNTVqbERqZ01ISkl1UHdkeFN2SUxR?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 08:17:20 GMT",
+          "sourceName": "Хорошие новости Челябинской области"
+        }
+      ]
     },
     "innde": {
       "companyId": "innde",
@@ -774,16 +793,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
-      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
-      "latestSourceName": "https://jurisora.ru/",
+      "latestSourceName": "jurisora.ru",
       "sources": [
         {
-          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - https://jurisora.ru/",
+          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
           "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 18:34:13 GMT",
-          "sourceName": "https://jurisora.ru/"
+          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+          "sourceName": "jurisora.ru"
         }
       ]
     },
@@ -805,8 +824,8 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -820,12 +839,6 @@ export const liveMarketSnapshot = {
           "title": "Компания Nestlé Milo торжественно открыла и передала в эксплуатацию общественную спортивную площадку, расширив возможности для физической активности детей. - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV3ROcG1TTWtvbFNuU0RHVTUwX1JUOWRjR2NyZ2syQ1NBbTlRRGR3UEFsMWQyUnFkaUJZT29Eb2xkTDF0VmxkNk5uVFNRREUyRkc4UUxMMjdFeE56d2JCN1pRWF9HLW54UjVCRlRXQVhUV0VUR2ZDTVR1RTIzY1R2eVNYcW1hcURxT3hwWW5CYnRXeHhrTG1oOUZoQ0NrY1FJaGhUR0NuU01WdmxiZzA3dzEyVGktdTBjUE9CVnJoV0NxUQ?oc=5",
           "publishedAt": "Sat, 14 Nov 2026 08:36:51 GMT",
-          "sourceName": "Vietnam.vn"
-        },
-        {
-          "title": "Проект компании Nestlé MILO предоставляет детям больше места для занятий физической активностью в Дананге. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm81Vml2WXBmRTBlVnZRdngwRzJWczJZb3NHQ1dLZTlyOFJ0SEJJdTQ3c25sZHJnckM3dDJ1UXMzbFFsajN2bUJBUnVSTnhPZkhmMEp1QUd5ZHE5N0pKMGU2ZXJ3Z2M5QmVHRUlYZ1R2UnoyMHkwaGV3N3hXRlVYRHZQTzdGc1hHSnhrWWRMdUdzamtjQnlMTU90d0lFNGxPR3Y3U2ItWQ?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 11:50:20 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1306,28 +1319,34 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 6,
-      "sourceCount7d": 4,
+      "sourceCount30d": 7,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 17 Nov 2026 13:14:31 GMT",
-      "latestTitle": "Сократить дефицит врачей и увеличить охват скринингами намерены в Жетісу - Вестник Жетісу",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObkJGTHBaU1pvdXI4cVBNbVRaUnJRSEtKTzhQY3BuVXNyT0tQZ2s0ck1nU1U3bGQza1ZBSWl2ME1QVllmYmpzbkhzRG50V19nVUNmTkFUbHJXUXdCdW9pck5ybXNCVUduQnEwc1pxNWFZWXlGbnBEYVdNV3VVOWtNZExyM29XZkdkMzZhTTdBNENTTGdkY0dtaEJCWndnTVl4bEpsc2NrWXpNOUZOT1NYdjlsMDVvNmJXMF9OMUU2Skxudw?oc=5",
-      "latestSourceName": "Вестник Жетісу",
+      "latestPublishedAt": "Wed, 18 Nov 2026 09:55:38 GMT",
+      "latestTitle": "Бесплатная юридическая помощь в Коми: рост охвата и цифровизация - Газета Республика",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9zdmxaUmt3UDFkQktqdnMtMFhYVFN0ODVacXlqX1JyRjU5NmoydU9RZC1BbXNXN1liOVc0LV81a0lXaEVCN0tF?oc=5",
+      "latestSourceName": "Газета Республика",
       "sources": [
+        {
+          "title": "Бесплатная юридическая помощь в Коми: рост охвата и цифровизация - Газета Республика",
+          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9zdmxaUmt3UDFkQktqdnMtMFhYVFN0ODVacXlqX1JyRjU5NmoydU9RZC1BbXNXN1liOVc0LV81a0lXaEVCN0tF?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 09:55:38 GMT",
+          "sourceName": "Газета Республика"
+        },
+        {
+          "title": "Снижение охвата вакцинацией привело к возвращению кори в США, Мексике и Боливии - BES.media",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanFtT3BobjJibHhGLWxyUF83QW9ZOVRndkZEVFRPMFlDaUhGNlZRT1Y3Ul9BUFBSRXdaWkN5U09OT0RWUWcyeFZ6cHN1Q292QWZDRzFSdXVVRlhldkVmUlA4Ui14aVVucnFRRnBpVmduN2pWRV9VWWhXR1NuV0pTX1NOLS15d3I1LWRmWGNnaS04Wmx4MVZxcXRXWjJqRWtqRVBJSi15Q0I5TTdWUmfSAawBQVVfeXFMTm5OZEJtMjAxYjJUSVlsMTh1V0ttSVVkVGNkREFjZGxlYmNSbkNmV2drMFRuR1hnV0FQSThtNXV6RmNEaUxyX09nR2RxU2NqaHQzb2lPMnBaOWFJVjZhRTJRWlBLbWVTbmNDTlRCRzFuQXVPR2h0SXhQT0YyQ0ZGWWd3VlVYTVhnZmlURnBjLVExdTdsRGFNdTdiTEhEOXBhTVo4dkxRUU5DNTVtYQ?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 05:39:50 GMT",
+          "sourceName": "BES.media"
+        },
         {
           "title": "Сократить дефицит врачей и увеличить охват скринингами намерены в Жетісу - Вестник Жетісу",
           "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObkJGTHBaU1pvdXI4cVBNbVRaUnJRSEtKTzhQY3BuVXNyT0tQZ2s0ck1nU1U3bGQza1ZBSWl2ME1QVllmYmpzbkhzRG50V19nVUNmTkFUbHJXUXdCdW9pck5ybXNCVUduQnEwc1pxNWFZWXlGbnBEYVdNV3VVOWtNZExyM29XZkdkMzZhTTdBNENTTGdkY0dtaEJCWndnTVl4bEpsc2NrWXpNOUZOT1NYdjlsMDVvNmJXMF9OMUU2Skxudw?oc=5",
           "publishedAt": "Tue, 17 Nov 2026 13:14:31 GMT",
           "sourceName": "Вестник Жетісу"
-        },
-        {
-          "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
-          "publishedAt": "Tue, 17 Nov 2026 11:14:15 GMT",
-          "sourceName": "Sostav.ru"
         },
         {
           "title": "Казахстан оказался в числе мировых лидеров по охвату соцсетей - Ак Жайык",
@@ -1340,12 +1359,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PenR6YXV3NTBBUGdLaG5FOXpoUlY0S0V5LW92TTF6ZXczUXhQOFcteThiVDRpTTdOdWNXRGtPdE05NlVvaXc2OU5IYUVaUdIBWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWU?oc=5",
           "publishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "Как B2B-производитель расширил поисковый охват и вырос с 800 до 3 717 визитов в месяц - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE9LT3FGSHdnamloaHRyTG81MURDVUtvNTFuYk5Vd1pabFE4ekdET3JPVmdNRlBDUUVQWWZTY3h4Ni01TlhtX245Vzh1Z2I3eDJqTFBZ?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
