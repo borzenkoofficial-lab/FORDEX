@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-18T14:40:30.692Z",
+  "generatedAt": "2026-11-18T22:24:24.044Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,23 +99,17 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 10,
-      "sourceCount7d": 8,
+      "sourceCount30d": 9,
+      "sourceCount7d": 6,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 15 Nov 2026 14:36:23 GMT",
-      "latestTitle": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
-      "latestSourceName": "Телеканал ЛенТВ24",
+      "latestPublishedAt": "Sat, 14 Nov 2026 02:54:18 GMT",
+      "latestTitle": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
+      "latestSourceName": "Интернет-газета «ЖУК»",
       "sources": [
-        {
-          "title": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
-          "publishedAt": "Sun, 15 Nov 2026 14:36:23 GMT",
-          "sourceName": "Телеканал ЛенТВ24"
-        },
         {
           "title": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
@@ -139,6 +133,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSThhVjFGeERUUFFhS3hLNWlvU3VLNG41VVdibWZvX18xNncxQ0N0R1pKR1NhUk9rQ0hMSFg0enoyTWpSd2dUOVNGTjBiX3N4TWZuOE1aSV9yLURPSHY0NXJrZm5NZzNZLUQwNUd5MzNleGpuWVZscUR6UEFKRndyOW91U0NpTlZ1VnVjdmpyRXJMVElfdDZhRWpBLVF3bEt4eU56N2trWQ?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 09:23:00 GMT",
           "sourceName": "За рулем Кубань"
+        },
+        {
+          "title": "LADA Azimut и гоночный седан Iskra TMS: контраст гражданской и спортивной линейки LADA - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFlXNmFhc005aHl3NmR3a3o2OXl6Vi0xV3hSby1SSW5XMFk5QWVqVUpXbWRmSmd1SjNuS053MGlxT0RZTldsY0tZYkpKWFB2UHdEZHdTU0FRU2h1MTZSU3U3RDlzTDk4SlBGLU9QUWVUckZwV0lGenk1akNyX1JiVHJnSlc3UzFqY1BBTGd5YmtZUlJRTTZ4ZTZVaHdmc0x5em9xbW94SzRwZDRmQW5z?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 09:20:50 GMT",
+          "sourceName": "Новости Тольятти"
         }
       ]
     },
@@ -238,16 +238,22 @@ export const liveMarketSnapshot = {
       "companyId": "piklema",
       "companyName": "Piklema",
       "sourceCount30d": 3,
-      "sourceCount7d": 1,
-      "fundingMentions": 1,
+      "sourceCount7d": 2,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
-      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
+      "latestPublishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
+      "latestTitle": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
+          "publishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
@@ -259,12 +265,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
-          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         }
       ]
     },
@@ -414,22 +414,28 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 18 Nov 2026 13:41:47 GMT",
-      "latestTitle": "ИИ-сервис федерального масштаба на РЕД ОС — платформа Webiomed связала тысячи медорганизаций в единую сеть - Компьютерра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONXhxTmhFRExqYVJQYldoYnpsNlE3NUZuWXlWZXJBakp5LUtzX29XaFBhQ0NCZ1M4TjAtUW42aDU2ajJSZ2hBTkM4bVBfOVRTVTJXcm5mVkk0ejlnMXkzQjN0bDltU19DbWliNHN4VXRyaVZKeHpXWUYxY19xNEVGZWh1b1lXWWZlRzRuTjlRQ1VGNEZPUGhWMnRnd3FMYk1ZTndNVHVDcHFxVWJpUnItdjRIcm9IU0xjMVRRZFNYTWNNVDd4Q3E2c19nNlpVVVV1d2dnb0VUZE53dw?oc=5",
-      "latestSourceName": "Компьютерра",
+      "latestPublishedAt": "Wed, 18 Nov 2026 18:42:11 GMT",
+      "latestTitle": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6Sm1yeWxya0lCS25uRmdTQWhsVDhOcWEzSm9qN2F0dnlObDFWdVhkb3dzTDc4SVNXWkpLNy1tckZ4QlR5NFE3Rm4yMGNFU3RWeFh3R2YtcERXN0J4Z2NkWnRJR0RDeWNQc1IzYjBvYzV3ZVhFY21lM1NR?oc=5",
+      "latestSourceName": "Webiomed",
       "sources": [
         {
-          "title": "ИИ-сервис федерального масштаба на РЕД ОС — платформа Webiomed связала тысячи медорганизаций в единую сеть - Компьютерра",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONXhxTmhFRExqYVJQYldoYnpsNlE3NUZuWXlWZXJBakp5LUtzX29XaFBhQ0NCZ1M4TjAtUW42aDU2ajJSZ2hBTkM4bVBfOVRTVTJXcm5mVkk0ejlnMXkzQjN0bDltU19DbWliNHN4VXRyaVZKeHpXWUYxY19xNEVGZWh1b1lXWWZlRzRuTjlRQ1VGNEZPUGhWMnRnd3FMYk1ZTndNVHVDcHFxVWJpUnItdjRIcm9IU0xjMVRRZFNYTWNNVDd4Q3E2c19nNlpVVVV1d2dnb0VUZE53dw?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 13:41:47 GMT",
-          "sourceName": "Компьютерра"
+          "title": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6Sm1yeWxya0lCS25uRmdTQWhsVDhOcWEzSm9qN2F0dnlObDFWdVhkb3dzTDc4SVNXWkpLNy1tckZ4QlR5NFE3Rm4yMGNFU3RWeFh3R2YtcERXN0J4Z2NkWnRJR0RDeWNQc1IzYjBvYzV3ZVhFY21lM1NR?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 18:42:11 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Американские профессиональные медицинские сообщества потребовали вовлечь разработчиков генеративного ИИ в ответственность за правильность работы их решений - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE1VNHlaOXYtM3VsQVlSQjZmR05tbGxmdmF3N2tzNnNrMFV3Nnd3WTBsMHNkS1JWeUFZcWdyUHVvemtuQVd2OGFUT0N5RHd1akI5T3UxMHZodjQ0UQ?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 10:45:22 GMT",
+          "sourceName": "Webiomed"
         },
         {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
@@ -847,7 +853,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1319,7 +1325,7 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 7,
+      "sourceCount30d": 6,
       "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -1339,7 +1345,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Снижение охвата вакцинацией привело к возвращению кори в США, Мексике и Боливии - BES.media",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanFtT3BobjJibHhGLWxyUF83QW9ZOVRndkZEVFRPMFlDaUhGNlZRT1Y3Ul9BUFBSRXdaWkN5U09OT0RWUWcyeFZ6cHN1Q292QWZDRzFSdXVVRlhldkVmUlA4Ui14aVVucnFRRnBpVmduN2pWRV9VWWhXR1NuV0pTX1NOLS15d3I1LWRmWGNnaS04Wmx4MVZxcXRXWjJqRWtqRVBJSi15Q0I5TTdWUmfSAawBQVVfeXFMTm5OZEJtMjAxYjJUSVlsMTh1V0ttSVVkVGNkREFjZGxlYmNSbkNmV2drMFRuR1hnV0FQSThtNXV6RmNEaUxyX09nR2RxU2NqaHQzb2lPMnBaOWFJVjZhRTJRWlBLbWVTbmNDTlRCRzFuQXVPR2h0SXhQT0YyQ0ZGWWd3VlVYTVhnZmlURnBjLVExdTdsRGFNdTdiTEhEOXBhTVo4dkxRUU5DNTVtYQ?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 05:39:50 GMT",
+          "publishedAt": "Wed, 18 Nov 2026 05:37:00 GMT",
           "sourceName": "BES.media"
         },
         {
@@ -1349,10 +1355,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Вестник Жетісу"
         },
         {
-          "title": "Казахстан оказался в числе мировых лидеров по охвату соцсетей - Ак Жайык",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTFBmQjRPQzBfMlg1NEVJUUx2c1lTeEtPVDdEMkhxNmxGQU95Umtaakp2b0NmaE4wZ2Q5SmMyZ3NSd24yM0szcGtOZEp3?oc=5",
-          "publishedAt": "Mon, 16 Nov 2026 05:33:05 GMT",
-          "sourceName": "Ак Жайык"
+          "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 11:14:33 GMT",
+          "sourceName": "Sostav.ru"
         },
         {
           "title": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
