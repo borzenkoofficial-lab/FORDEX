@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-17T22:47:06.502Z",
+  "generatedAt": "2026-11-18T04:51:38.323Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,7 +99,7 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 8,
+      "sourceCount30d": 10,
       "sourceCount7d": 8,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -237,9 +237,9 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 2,
+      "sourceCount30d": 3,
       "sourceCount7d": 2,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
@@ -259,6 +259,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
           "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
           "sourceName": "RUБЕЖ"
+        },
+        {
+          "title": "Авария по расписанию: как IT-решения для горняков привлекли 1 млрд рублей инвестиций - Forbes.ru",
+          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxOLVo0S2lnN2lsQnlXRVRjZjJqbGMtSF9FZUIwSHM3MGsxUFNBbF9FUTVTMEMtTFBoVkkzVTNsd0xkUlV5czNQM3VFV0IyYW5TMW9vQWpxOXRZNDVOWUg3TFhHOXZqNHY5UnZVb0ZxWWc5NHYwbk1nc01LMzFCOVVGcXBBXzB0MTAtUWtrQk13N1d1YUM2RjJXczFESXlTYzNudE9GeTUyZzZNZFU2eUlRcnkzcGNwOTdQMmVFZ3BRY2FjZw?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
+          "sourceName": "Forbes.ru"
         }
       ]
     },
@@ -310,7 +316,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 3,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -331,6 +337,12 @@ export const liveMarketSnapshot = {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
+          "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 08:30:16 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -643,8 +655,8 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount30d": 5,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -665,6 +677,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 17:05:08 GMT",
           "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 11:00:25 GMT",
+          "sourceName": "CNews.ru"
         },
         {
           "title": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - gosrf",
@@ -916,7 +934,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 09 Nov 2026 14:39:56 GMT",
+      "latestPublishedAt": "Mon, 09 Nov 2026 08:00:00 GMT",
       "latestTitle": "ТОП-9 агрегаторов нейросетей: сравнение лучших сервисов в России, где все ИИ в одном месте с оплатой рублями - Хабр",
       "latestUrl": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WU19XVnBDcnhJVGVnVlRfSTk2R3d4NmFSUFF5dF8tQzhkWExJZ3ZtU3lOWE5IRlZlSVc4SnZvM0FWZlpFcm5hdl83dTNLbzFuc2NpQnVzSlRBTXViQkIyN0tlOGU5VFnSAVhBVV95cUxQLWo4Sl82TE1MNl85X2FMUVh0Nlc3aXVHMGVsOUl0VF9KQjFzaU5GalQ3R0ZpQjF4UnJGZVQ3LXFHS0hYcDBfUjlGcTRJODB2MFhwY0x0VU1q?oc=5",
       "latestSourceName": "Хабр",
@@ -924,7 +942,7 @@ export const liveMarketSnapshot = {
         {
           "title": "ТОП-9 агрегаторов нейросетей: сравнение лучших сервисов в России, где все ИИ в одном месте с оплатой рублями - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiZ0FVX3lxTE5WU19XVnBDcnhJVGVnVlRfSTk2R3d4NmFSUFF5dF8tQzhkWExJZ3ZtU3lOWE5IRlZlSVc4SnZvM0FWZlpFcm5hdl83dTNLbzFuc2NpQnVzSlRBTXViQkIyN0tlOGU5VFnSAVhBVV95cUxQLWo4Sl82TE1MNl85X2FMUVh0Nlc3aXVHMGVsOUl0VF9KQjFzaU5GalQ3R0ZpQjF4UnJGZVQ3LXFHS0hYcDBfUjlGcTRJODB2MFhwY0x0VU1q?oc=5",
-          "publishedAt": "Mon, 09 Nov 2026 14:39:56 GMT",
+          "publishedAt": "Mon, 09 Nov 2026 08:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
