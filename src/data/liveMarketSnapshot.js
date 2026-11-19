@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-19T04:42:53.322Z",
+  "generatedAt": "2026-11-19T22:29:34.478Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -237,23 +237,17 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 4,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
-      "latestTitle": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
+      "latestPublishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
+      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
       "latestSourceName": "prospect.com.ru",
       "sources": [
-        {
-          "title": "Концерн «Гранит» и «ИТ и СБ решения» объединят технологии для импортозамещения в промышленности и госсекторе - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxQdDlKN0l1aXkyeldGMzdfME9KeHg5SkVSMWpVSnREbDcwMk42XzNySVJOd0huelMxNjBxWkk3SlJjVGg4R2paUzhVeXUzVVBsUVVfQy00Tm1NM1ozS0RBM2p0MV9FWlR2QzVka3dNanN4SmxCcl9uT1Z3NkhJTWVlX09hUS1Mb09EejZpLVlybXZSUWw3SnNuaFB4ZTd1dm41SlBlaFk5Xy00YTlLS01SeDlXRy1fVXkySjVSNXhEbHBULVpmRFV1QjRwMnctY3Jud0ZFTkx4WDQtdw?oc=5",
-          "publishedAt": "Mon, 16 Nov 2026 23:20:39 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
@@ -322,23 +316,17 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
-      "latestTitle": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -349,12 +337,6 @@ export const liveMarketSnapshot = {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -405,32 +387,45 @@ export const liveMarketSnapshot = {
     "visionlabs": {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 19 Nov 2026 08:14:05 GMT",
+      "latestTitle": "«Ъ»: МТС и VisionLabs столкнулись с прекращением услуг по разметке данных от «Яндекса» - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41UF9QcU5uQlFRejZhNUJUVWc3azNBQS11cGZ0LTlVY3JVakQ5VU4xaDVVdG9INUV4Z1NMN0JlSVdJS1JzUmVoRXYzOFg4d9IBWEFVX3lxTE5sRHl1WXlhRTRRQnhDdzZhQnE2MEI1SkJiVVV2d1Jxb2s0ZjBISmVQdUF0QjV2ZDVhSE11eUluNkZjbms5ZnJFWF93WWdKMF9zSVlaaWs0dXk?oc=5",
+      "latestSourceName": "Хабр",
+      "sources": [
+        {
+          "title": "«Ъ»: МТС и VisionLabs столкнулись с прекращением услуг по разметке данных от «Яндекса» - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE41UF9QcU5uQlFRejZhNUJUVWc3azNBQS11cGZ0LTlVY3JVakQ5VU4xaDVVdG9INUV4Z1NMN0JlSVdJS1JzUmVoRXYzOFg4d9IBWEFVX3lxTE5sRHl1WXlhRTRRQnhDdzZhQnE2MEI1SkJiVVV2d1Jxb2s0ZjBISmVQdUF0QjV2ZDVhSE11eUluNkZjbms5ZnJFWF93WWdKMF9zSVlaaWs0dXk?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 08:14:05 GMT",
+          "sourceName": "Хабр"
+        }
+      ]
     },
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount30d": 7,
+      "sourceCount7d": 5,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 18 Nov 2026 19:28:48 GMT",
-      "latestTitle": "ИИ советует. Врач отвечает - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pWG5zX2hUSVVlRlZFa09jTDZtWWJsXzY1WFA1bFg0dUR1ZlFmZS1PekdtdktvR0lPeXFXRlhGc25UNTdGMmpUdDJkMUZOZ9IBWEFVX3lxTE14WkRfUG9uVndOYVNFZ1VEcDVtb2kzLUNPLTRlMmY0QkpuclRyeGxDeWotRnJST3JTekFZcHZuMmJ2ZnIzdEk3S2VrNWxxM1Z1SEo4bWY4QjY?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Thu, 19 Nov 2026 12:22:28 GMT",
+      "latestTitle": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - ICT-Online.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVzVjc3NnQXhNOTMwQU1UZlNiR3RWYmV5eTRsaFBzeGxhbkdYdXBnUXJTYXR0bEpoRC1yUWtGWHZEQkE3djV5dnMyU2NOTjNSbVR1TW16MEpJR0pRaWtSekpFck5GVDVraGM1WUVYcC16aC1aUS1rN1lTVnROa2s4SVFiTG5DeXBRa3dJNlFvZmVlNkowSGF3TTJwdDJpd1dJYzR1WGZtcWx6ZkJvZ24tNTJhdHgwN3Rka2F0N05BMHBRejZKMjUxakRNd1JIdlZ2SkVVNVhnb1Ryd2VV?oc=5",
+      "latestSourceName": "ICT-Online.ru",
       "sources": [
+        {
+          "title": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - ICT-Online.ru",
+          "url": "https://news.google.com/rss/articles/CBMi3AFBVV95cUxNVzVjc3NnQXhNOTMwQU1UZlNiR3RWYmV5eTRsaFBzeGxhbkdYdXBnUXJTYXR0bEpoRC1yUWtGWHZEQkE3djV5dnMyU2NOTjNSbVR1TW16MEpJR0pRaWtSekpFck5GVDVraGM1WUVYcC16aC1aUS1rN1lTVnROa2s4SVFiTG5DeXBRa3dJNlFvZmVlNkowSGF3TTJwdDJpd1dJYzR1WGZtcWx6ZkJvZ24tNTJhdHgwN3Rka2F0N05BMHBRejZKMjUxakRNd1JIdlZ2SkVVNVhnb1Ryd2VV?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 12:22:28 GMT",
+          "sourceName": "ICT-Online.ru"
+        },
         {
           "title": "ИИ советует. Врач отвечает - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pWG5zX2hUSVVlRlZFa09jTDZtWWJsXzY1WFA1bFg0dUR1ZlFmZS1PekdtdktvR0lPeXFXRlhGc25UNTdGMmpUdDJkMUZOZ9IBWEFVX3lxTE14WkRfUG9uVndOYVNFZ1VEcDVtb2kzLUNPLTRlMmY0QkpuclRyeGxDeWotRnJST3JTekFZcHZuMmJ2ZnIzdEk3S2VrNWxxM1Z1SEo4bWY4QjY?oc=5",
@@ -438,16 +433,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTFB6Sm1yeWxya0lCS25uRmdTQWhsVDhOcWEzSm9qN2F0dnlObDFWdVhkb3dzTDc4SVNXWkpLNy1tckZ4QlR5NFE3Rm4yMGNFU3RWeFh3R2YtcERXN0J4Z2NkWnRJR0RDeWNQc1IzYjBvYzV3ZVhFY21lM1NR?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 18:42:11 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
           "title": "ИИ-сервис федерального масштаба на РЕД ОС — платформа Webiomed связала тысячи медорганизаций в единую сеть - Компьютерра",
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONXhxTmhFRExqYVJQYldoYnpsNlE3NUZuWXlWZXJBakp5LUtzX29XaFBhQ0NCZ1M4TjAtUW42aDU2ajJSZ2hBTkM4bVBfOVRTVTJXcm5mVkk0ejlnMXkzQjN0bDltU19DbWliNHN4VXRyaVZKeHpXWUYxY19xNEVGZWh1b1lXWWZlRzRuTjlRQ1VGNEZPUGhWMnRnd3FMYk1ZTndNVHVDcHFxVWJpUnItdjRIcm9IU0xjMVRRZFNYTWNNVDd4Q3E2c19nNlpVVVV1d2dnb0VUZE53dw?oc=5",
           "publishedAt": "Wed, 18 Nov 2026 13:41:47 GMT",
           "sourceName": "Компьютерра"
+        },
+        {
+          "title": "Американские профессиональные медицинские сообщества потребовали вовлечь разработчиков генеративного ИИ в ответственность за правильность работы их решений - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTGVOSXRWU2VRSjFpTUhTck5zU1pXSHFCb0NPeE9jMVpIZmdXdXI4VW9senJUQzRaNURURkFpZWVTc2JMcWhROGdtMEtqNFp6a1hxbVh0VzJBQQ?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 10:45:22 GMT",
+          "sourceName": "Webiomed"
         },
         {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
@@ -610,17 +605,30 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 19 Nov 2026 17:06:00 GMT",
+      "latestTitle": "Flyvi или SUPA для визуалов без дизайнера? - quasa.io",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSjlrdmdhTFJVQjhKUTZJZG5QX3FEeEQ1UlFGLWRNVmd4MFBnQ2NnZWFpOWU0OEY4WlpBTWs0eHh0VUhZN1NUcHlDTWt1d0FXOTJIc3VxOUhpUngteGhkQjF3ZHhnbFFDc25KRV92SzNoQWhfRzFyaHdn?oc=5",
+      "latestSourceName": "quasa.io",
+      "sources": [
+        {
+          "title": "Flyvi или SUPA для визуалов без дизайнера? - quasa.io",
+          "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSjlrdmdhTFJVQjhKUTZJZG5QX3FEeEQ1UlFGLWRNVmd4MFBnQ2NnZWFpOWU0OEY4WlpBTWs0eHh0VUhZN1NUcHlDTWt1d0FXOTJIc3VxOUhpUngteGhkQjF3ZHhnbFFDc25KRV92SzNoQWhfRzFyaHdn?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 17:06:00 GMT",
+          "sourceName": "quasa.io"
+        },
+        {
+          "title": "Графический редактор Flyvi в деталях: что умеет и как пользоваться - skillbox.ru",
+          "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxOdnBGZTBJQUtsQ24yTm1OeHg0WTdtb29odGl0NnM5WmRncmVldUg4Tm5DZTA0TVl1bDAxd2x0SzBHaHZnYUQtenZjRVZLb0hFRTFETjFJc1lsczJ5RlU4SVg4QU0xUDZMZmlvZlpEUXlBNHVTSk4wQl9IanBuSGUxT1BxdEo0Q0NXUGxSWVJtMml6c29Tdkp1cEFhb21HTFdVV084?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 07:19:30 GMT",
+          "sourceName": "skillbox.ru"
+        }
+      ]
     },
     "freestyling-ai": {
       "companyId": "freestyling-ai",
@@ -686,7 +694,7 @@ export const liveMarketSnapshot = {
       "companyId": "gradius",
       "companyName": "Gradius",
       "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -842,15 +850,15 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 14 Nov 2026 08:36:51 GMT",
-      "latestTitle": "Компания Nestlé Milo торжественно открыла и передала в эксплуатацию общественную спортивную площадку, расширив возможности для физической активности детей. - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV3ROcG1TTWtvbFNuU0RHVTUwX1JUOWRjR2NyZ2syQ1NBbTlRRGR3UEFsMWQyUnFkaUJZT29Eb2xkTDF0VmxkNk5uVFNRREUyRkc4UUxMMjdFeE56d2JCN1pRWF9HLW54UjVCRlRXQVhUV0VUR2ZDTVR1RTIzY1R2eVNYcW1hcURxT3hwWW5CYnRXeHhrTG1oOUZoQ0NrY1FJaGhUR0NuU01WdmxiZzA3dzEyVGktdTBjUE9CVnJoV0NxUQ?oc=5",
+      "latestPublishedAt": "Thu, 19 Nov 2026 05:39:03 GMT",
+      "latestTitle": "Совет: Купите банку солодового молока Milo объемом 240 мл и получите бесплатный подарок (действует региональное предложение с 12 по 30 ноября). - Vietnam.vn",
+      "latestUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRy1ESDhRUFFlVUp1Zmh0cmE1YUdwT3lJd1dheVk4Ukw2aFJudnJRR2MtaVhnTmNOcTdIUUt0SGpUa1NzZ0dLYUZJSkRSbjJHYlp3dXdFQUhLM0xyZklkNG96TWJfMFMxY3kxRW9veWdhbHdqa3lGSFVIOWV0THVwdXZHbHlVY3VOUndWVGczU0xLRHRxdWhTcENiUHFuUTRnOUc0eTB4R3BNdEFvX2N5OThnRlc4N19tbDl4UA?oc=5",
       "latestSourceName": "Vietnam.vn",
       "sources": [
         {
-          "title": "Компания Nestlé Milo торжественно открыла и передала в эксплуатацию общественную спортивную площадку, расширив возможности для физической активности детей. - Vietnam.vn",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxQV3ROcG1TTWtvbFNuU0RHVTUwX1JUOWRjR2NyZ2syQ1NBbTlRRGR3UEFsMWQyUnFkaUJZT29Eb2xkTDF0VmxkNk5uVFNRREUyRkc4UUxMMjdFeE56d2JCN1pRWF9HLW54UjVCRlRXQVhUV0VUR2ZDTVR1RTIzY1R2eVNYcW1hcURxT3hwWW5CYnRXeHhrTG1oOUZoQ0NrY1FJaGhUR0NuU01WdmxiZzA3dzEyVGktdTBjUE9CVnJoV0NxUQ?oc=5",
-          "publishedAt": "Sat, 14 Nov 2026 08:36:51 GMT",
+          "title": "Совет: Купите банку солодового молока Milo объемом 240 мл и получите бесплатный подарок (действует региональное предложение с 12 по 30 ноября). - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRy1ESDhRUFFlVUp1Zmh0cmE1YUdwT3lJd1dheVk4Ukw2aFJudnJRR2MtaVhnTmNOcTdIUUt0SGpUa1NzZ0dLYUZJSkRSbjJHYlp3dXdFQUhLM0xyZklkNG96TWJfMFMxY3kxRW9veWdhbHdqa3lGSFVIOWV0THVwdXZHbHlVY3VOUndWVGczU0xLRHRxdWhTcENiUHFuUTRnOUc0eTB4R3BNdEFvX2N5OThnRlc4N19tbDl4UA?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 05:39:03 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -859,7 +867,7 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1316,39 +1324,38 @@ export const liveMarketSnapshot = {
     "okrest": {
       "companyId": "okrest",
       "companyName": "Окрест",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
-      "latestTitle": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
-      "latestUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
-      "latestSourceName": "Клопс - новости Калининград",
-      "sources": [
-        {
-          "title": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
-          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
-          "sourceName": "Клопс - новости Калининград"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
       "sourceCount30d": 6,
       "sourceCount7d": 5,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 18 Nov 2026 09:55:38 GMT",
-      "latestTitle": "Бесплатная юридическая помощь в Коми: рост охвата и цифровизация - Газета Республика",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9zdmxaUmt3UDFkQktqdnMtMFhYVFN0ODVacXlqX1JyRjU5NmoydU9RZC1BbXNXN1liOVc0LV81a0lXaEVCN0tF?oc=5",
-      "latestSourceName": "Газета Республика",
+      "latestPublishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
+      "latestTitle": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
+      "latestSourceName": "AdIndex.ru",
       "sources": [
+        {
+          "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
+          "sourceName": "AdIndex.ru"
+        },
         {
           "title": "Бесплатная юридическая помощь в Коми: рост охвата и цифровизация - Газета Республика",
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE9zdmxaUmt3UDFkQktqdnMtMFhYVFN0ODVacXlqX1JyRjU5NmoydU9RZC1BbXNXN1liOVc0LV81a0lXaEVCN0tF?oc=5",
@@ -1360,12 +1367,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanFtT3BobjJibHhGLWxyUF83QW9ZOVRndkZEVFRPMFlDaUhGNlZRT1Y3Ul9BUFBSRXdaWkN5U09OT0RWUWcyeFZ6cHN1Q292QWZDRzFSdXVVRlhldkVmUlA4Ui14aVVucnFRRnBpVmduN2pWRV9VWWhXR1NuV0pTX1NOLS15d3I1LWRmWGNnaS04Wmx4MVZxcXRXWjJqRWtqRVBJSi15Q0I5TTdWUmfSAawBQVVfeXFMTm5OZEJtMjAxYjJUSVlsMTh1V0ttSVVkVGNkREFjZGxlYmNSbkNmV2drMFRuR1hnV0FQSThtNXV6RmNEaUxyX09nR2RxU2NqaHQzb2lPMnBaOWFJVjZhRTJRWlBLbWVTbmNDTlRCRzFuQXVPR2h0SXhQT0YyQ0ZGWWd3VlVYTVhnZmlURnBjLVExdTdsRGFNdTdiTEhEOXBhTVo4dkxRUU5DNTVtYQ?oc=5",
           "publishedAt": "Wed, 18 Nov 2026 05:37:00 GMT",
           "sourceName": "BES.media"
-        },
-        {
-          "title": "Сократить дефицит врачей и увеличить охват скринингами намерены в Жетісу - Вестник Жетісу",
-          "url": "https://news.google.com/rss/articles/CBMiwgFBVV95cUxObkJGTHBaU1pvdXI4cVBNbVRaUnJRSEtKTzhQY3BuVXNyT0tQZ2s0ck1nU1U3bGQza1ZBSWl2ME1QVllmYmpzbkhzRG50V19nVUNmTkFUbHJXUXdCdW9pck5ybXNCVUduQnEwc1pxNWFZWXlGbnBEYVdNV3VVOWtNZExyM29XZkdkMzZhTTdBNENTTGdkY0dtaEJCWndnTVl4bEpsc2NrWXpNOUZOT1NYdjlsMDVvNmJXMF9OMUU2Skxudw?oc=5",
-          "publishedAt": "Tue, 17 Nov 2026 13:14:31 GMT",
-          "sourceName": "Вестник Жетісу"
         },
         {
           "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
