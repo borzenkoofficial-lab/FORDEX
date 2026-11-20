@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-20T14:28:30.056Z",
+  "generatedAt": "2026-11-20T22:00:16.545Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,8 +99,8 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 9,
-      "sourceCount7d": 7,
+      "sourceCount30d": 5,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -117,12 +117,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Новости Тольятти"
         },
         {
-          "title": "«АвтоВАЗ» перестроил подачу колес для Lada Granta и Iskra на 1,5 км - CenyAvto.com",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rZ0dhX01naDBrLXZaeDRib005a1JqX200VDJRNFNZdmhzNmNDY2FTZTRRMVpkeEhMdlhtdy1Pa3NsbXhLc3BlMXlrWG84WDVsblUyOGpGRFdnNnFCZzNrVEFxOFpIQjBkbE1id1hiOXFxLWZRYldiUVlnZUxmdw?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 06:47:56 GMT",
-          "sourceName": "CenyAvto.com"
-        },
-        {
           "title": "АВТОВАЗ запустил 1,5-километровую систему доставки колес для Granta и Iskra - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNG81a01SSFY2MzJxOS0yU05nb2dfbmRaaWxnNDItRFVtdVctWmVuQldWMFgtc2tOMkFLRzZRNV9sdlpWaF9NRzVrU0VTenplY1hVa3poRWZUUFp1UElYSl81SzBvdWU2cW1rWUE4YkxJMzZma0kyd05Wck1qaXJRWEJfaS1xb0F5UGQwbU5jR1A4enpNUlg3SE5vbHNYXzBiazNFWE9SVWVqRWhRWjNXWTFyaHhPMVhaY25ySmJKeGd2aktqQ0tyRnZTamMzTzByM1laWg?oc=5",
           "publishedAt": "Fri, 20 Nov 2026 06:20:24 GMT",
@@ -135,10 +129,16 @@ export const liveMarketSnapshot = {
           "sourceName": "Телеканал ЛенТВ24"
         },
         {
-          "title": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
-          "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
-          "publishedAt": "Sat, 14 Nov 2026 02:54:18 GMT",
-          "sourceName": "Интернет-газета «ЖУК»"
+          "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
+          "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
+          "sourceName": "За рулем"
+        },
+        {
+          "title": "Вместо Changan Alsvin: почему Lada Iskra и Vesta дешевле на 400–600 тыс. рублей, но выгоднее по гарантии — и когда ждать вариатор на Granta - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFQzbXV6YVdESFBZNVozUGVfdmU2Y2p0ZXdaLUZCbEw4Rm94MnJmeVJPSWFiaTg1ODVvRWVJOHRKcS1xNkxXZUR5MWhyTXktSDN6cWx1Qk9TU29VcFJqTDJtS1dkRjBFYngyUnZ5cW1HQnEzY3FrcC1yODRuazRwUVZtYXFfajUzYWlvYjBRYjlzNHR5Z2UydFRfMVA?oc=5",
+          "publishedAt": "Fri, 30 Oct 2026 07:00:00 GMT",
+          "sourceName": "110km.ru"
         }
       ]
     },
@@ -322,7 +322,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -349,12 +349,6 @@ export const liveMarketSnapshot = {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -427,7 +421,7 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 6,
+      "sourceCount30d": 4,
       "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -460,12 +454,6 @@ export const liveMarketSnapshot = {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jVWpvcDBVWVRXMmFkZGxQcjlOZk8yYkppRmNiaV9iQktzekFGaVU3czVWcVNpR0ZlWUtWWHJlUnJLZ0ZqX0k4MzU0U1JoVTJDUjZRek81bUg2RjVLaHdCTmxMWV85UGtVenpteXc3RUM3UmJlbU85NA?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Zocdoc открыла доступ к своему решению для зарегистрированных ИИ-агентов - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TYnF3UG9qV3ByTVctMnZ4VTZZSVJJRU5OUTBnTHQtbWlpZVAzSjBXNEZBcVpNOVRDSVNPaHhURER4TFZPQ3VvUk5KUDFVTmZ0TE5xOGNZYmZuaGViZThfRw?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 20:03:55 GMT",
           "sourceName": "Webiomed"
         }
       ]
@@ -712,7 +700,7 @@ export const liveMarketSnapshot = {
       "companyId": "gradius",
       "companyName": "Gradius",
       "sourceCount30d": 4,
-      "sourceCount7d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1045,17 +1033,23 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 14 Nov 2026 20:35:57 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Thu, 19 Nov 2026 12:48:20 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 12:48:20 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
@@ -1200,23 +1194,17 @@ export const liveMarketSnapshot = {
     "wikibot": {
       "companyId": "wikibot",
       "companyName": "Wikibot",
-      "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 15 Nov 2026 07:10:26 GMT",
-      "latestTitle": "Habr - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qT0NvcDJiaWdZWEhSZm9zci1PSTJaaVlJU3ZwQ1FVSFdJYlBBSXc2N2dZbWJFeXNudFpiN1NFY1dVMWxvYXNBbUIwaFRJYmU2Rk9ic2V2Tkg?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
-        {
-          "title": "Habr - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiWEFVX3lxTE9qT0NvcDJiaWdZWEhSZm9zci1PSTJaaVlJU3ZwQ1FVSFdJYlBBSXc2N2dZbWJFeXNudFpiN1NFY1dVMWxvYXNBbUIwaFRJYmU2Rk9ic2V2Tkg?oc=5",
-          "publishedAt": "Sun, 15 Nov 2026 07:10:26 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
@@ -1348,7 +1336,7 @@ export const liveMarketSnapshot = {
       "companyId": "okrest",
       "companyName": "Окрест",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1375,7 +1363,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 20 Nov 2026 07:23:13 GMT",
+      "latestPublishedAt": "Fri, 20 Nov 2026 13:42:35 GMT",
       "latestTitle": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
       "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
       "latestSourceName": "spbIT",
@@ -1383,7 +1371,7 @@ export const liveMarketSnapshot = {
         {
           "title": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 07:23:13 GMT",
+          "publishedAt": "Fri, 20 Nov 2026 13:42:35 GMT",
           "sourceName": "spbIT"
         },
         {
