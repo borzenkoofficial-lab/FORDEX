@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-19T22:29:34.478Z",
+  "generatedAt": "2026-11-20T04:34:29.074Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,17 +99,29 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 9,
-      "sourceCount7d": 6,
+      "sourceCount30d": 10,
+      "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 14 Nov 2026 02:54:18 GMT",
-      "latestTitle": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
-      "latestSourceName": "Интернет-газета «ЖУК»",
+      "latestPublishedAt": "Mon, 16 Nov 2026 12:18:11 GMT",
+      "latestTitle": "Lada Iskra против Granta: разница 150 тысяч, одинаковый двигатель и платформа — что не так с новой моделью зимой - 110km.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWTUyQVZHUlJpcm5pZy1FTW5iT0RiYVdveHlTSS1BN0syNGVrZWg0VlM1U3RHalBlY2gxRTBoaDZCNzBBVlBNdU4xa1cybGstOFMtelh6dE5FV2Y4MHFNZXdiRVNvcWUySHFyaldsM2RpdzNEMTdLamk0UWczRk9rMy1TMC1DZlJ2YXdlXzBURUl2bTluaHF1elc4OWswZw?oc=5",
+      "latestSourceName": "110km.ru",
       "sources": [
+        {
+          "title": "Lada Iskra против Granta: разница 150 тысяч, одинаковый двигатель и платформа — что не так с новой моделью зимой - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWTUyQVZHUlJpcm5pZy1FTW5iT0RiYVdveHlTSS1BN0syNGVrZWg0VlM1U3RHalBlY2gxRTBoaDZCNzBBVlBNdU4xa1cybGstOFMtelh6dE5FV2Y4MHFNZXdiRVNvcWUySHFyaldsM2RpdzNEMTdLamk0UWczRk9rMy1TMC1DZlJ2YXdlXzBURUl2bTluaHF1elc4OWswZw?oc=5",
+          "publishedAt": "Mon, 16 Nov 2026 12:18:11 GMT",
+          "sourceName": "110km.ru"
+        },
+        {
+          "title": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
+          "publishedAt": "Sun, 15 Nov 2026 14:36:23 GMT",
+          "sourceName": "Телеканал ЛенТВ24"
+        },
         {
           "title": "Lada покажет на Московском автошоу кроссовер Azimut и Iskra TMS - Интернет-газета «ЖУК»",
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
@@ -127,18 +139,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NX1ZYN3A2ZkhBUjNmWFo4UWhVSWFnNDc3N1A3dDNqR0dFQUdhNmtuV0tLVHpoREppLVFIS1N5ZXFTcndrSHdj?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 16:44:55 GMT",
           "sourceName": "РИА Твои Новости"
-        },
-        {
-          "title": "LADA Azimut и 259-сильная Iskra TMS представлены на Московском Автошоу - За рулем Кубань",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSThhVjFGeERUUFFhS3hLNWlvU3VLNG41VVdibWZvX18xNncxQ0N0R1pKR1NhUk9rQ0hMSFg0enoyTWpSd2dUOVNGTjBiX3N4TWZuOE1aSV9yLURPSHY0NXJrZm5NZzNZLUQwNUd5MzNleGpuWVZscUR6UEFKRndyOW91U0NpTlZ1VnVjdmpyRXJMVElfdDZhRWpBLVF3bEt4eU56N2trWQ?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 09:23:00 GMT",
-          "sourceName": "За рулем Кубань"
-        },
-        {
-          "title": "LADA Azimut и гоночный седан Iskra TMS: контраст гражданской и спортивной линейки LADA - Новости Тольятти",
-          "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPSFlXNmFhc005aHl3NmR3a3o2OXl6Vi0xV3hSby1SSW5XMFk5QWVqVUpXbWRmSmd1SjNuS053MGlxT0RZTldsY0tZYkpKWFB2UHdEZHdTU0FRU2h1MTZSU3U3RDlzTDk4SlBGLU9QUWVUckZwV0lGenk1akNyX1JiVHJnSlc3UzFqY1BBTGd5YmtZUlJRTTZ4ZTZVaHdmc0x5em9xbW94SzRwZDRmQW5z?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 09:20:50 GMT",
-          "sourceName": "Новости Тольятти"
         }
       ]
     },
@@ -316,7 +316,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 3,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -337,6 +337,12 @@ export const liveMarketSnapshot = {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
+          "sourceName": "CNews.ru"
+        },
+        {
+          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -409,8 +415,8 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 7,
-      "sourceCount7d": 5,
+      "sourceCount30d": 4,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -437,12 +443,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONXhxTmhFRExqYVJQYldoYnpsNlE3NUZuWXlWZXJBakp5LUtzX29XaFBhQ0NCZ1M4TjAtUW42aDU2ajJSZ2hBTkM4bVBfOVRTVTJXcm5mVkk0ejlnMXkzQjN0bDltU19DbWliNHN4VXRyaVZKeHpXWUYxY19xNEVGZWh1b1lXWWZlRzRuTjlRQ1VGNEZPUGhWMnRnd3FMYk1ZTndNVHVDcHFxVWJpUnItdjRIcm9IU0xjMVRRZFNYTWNNVDd4Q3E2c19nNlpVVVV1d2dnb0VUZE53dw?oc=5",
           "publishedAt": "Wed, 18 Nov 2026 13:41:47 GMT",
           "sourceName": "Компьютерра"
-        },
-        {
-          "title": "Американские профессиональные медицинские сообщества потребовали вовлечь разработчиков генеративного ИИ в ответственность за правильность работы их решений - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTGVOSXRWU2VRSjFpTUhTck5zU1pXSHFCb0NPeE9jMVpIZmdXdXI4VW9senJUQzRaNURURkFpZWVTc2JMcWhROGdtMEtqNFp6a1hxbVh0VzJBQQ?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 10:45:22 GMT",
-          "sourceName": "Webiomed"
         },
         {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
@@ -693,17 +693,23 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 4,
-      "sourceCount7d": 3,
+      "sourceCount30d": 5,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 17 Nov 2026 18:34:00 GMT",
-      "latestTitle": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - www.innov.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CYWI2c2puWFdGcUc4XzNZMG91SDE2X1J1eVhHaWxQa2Vja29lX0FsOVAtYkZjNU1pN2xMM0FkVFBzUzFhamZGc0k4MG52eHhSWURKRTZGd2MzbVlEd3Z1cGxVZk9Odw?oc=5",
-      "latestSourceName": "www.innov.ru",
+      "latestPublishedAt": "Thu, 19 Nov 2026 14:50:50 GMT",
+      "latestTitle": "«Билайн Adtech» и Gradius договорились о сотрудничестве в сфере рекламных технологий - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmNOQ0RScFB4RU45cG1vUVNtSVZBNXdySzJqS0FRTlRoaVlJbTQ5OGN3aXFEZTFjYVRpbml6NVM1LWhxdmNvX1htbzNqR0RpZHl2N0x5WU8yX2VtTE1UeVhyUFIxaHljdUhNSk9iOE15Zkh5SjE1bFliSmloM3ByUGNmTmliZUVoYzZTOENiQTJyN0NhU3BmZG1WNU5BUGRCa2NjdEFIdDNZbnZsM0VJOFlKaWNiaFBhUXRkT1EyWnRQWENZZ0pLRw?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "«Билайн Adtech» и Gradius договорились о сотрудничестве в сфере рекламных технологий - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmNOQ0RScFB4RU45cG1vUVNtSVZBNXdySzJqS0FRTlRoaVlJbTQ5OGN3aXFEZTFjYVRpbml6NVM1LWhxdmNvX1htbzNqR0RpZHl2N0x5WU8yX2VtTE1UeVhyUFIxaHljdUhNSk9iOE15Zkh5SjE1bFliSmloM3ByUGNmTmliZUVoYzZTOENiQTJyN0NhU3BmZG1WNU5BUGRCa2NjdEFIdDNZbnZsM0VJOFlKaWNiaFBhUXRkT1EyWnRQWENZZ0pLRw?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 14:50:50 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - www.innov.ru",
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CYWI2c2puWFdGcUc4XzNZMG91SDE2X1J1eVhHaWxQa2Vja29lX0FsOVAtYkZjNU1pN2xMM0FkVFBzUzFhamZGc0k4MG52eHhSWURKRTZGd2MzbVlEd3Z1cGxVZk9Odw?oc=5",
