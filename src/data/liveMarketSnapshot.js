@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-20T04:34:29.074Z",
+  "generatedAt": "2026-11-20T14:28:30.056Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,22 +99,34 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 10,
+      "sourceCount30d": 9,
       "sourceCount7d": 7,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 16 Nov 2026 12:18:11 GMT",
-      "latestTitle": "Lada Iskra против Granta: разница 150 тысяч, одинаковый двигатель и платформа — что не так с новой моделью зимой - 110km.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWTUyQVZHUlJpcm5pZy1FTW5iT0RiYVdveHlTSS1BN0syNGVrZWg0VlM1U3RHalBlY2gxRTBoaDZCNzBBVlBNdU4xa1cybGstOFMtelh6dE5FV2Y4MHFNZXdiRVNvcWUySHFyaldsM2RpdzNEMTdLamk0UWczRk9rMy1TMC1DZlJ2YXdlXzBURUl2bTluaHF1elc4OWswZw?oc=5",
-      "latestSourceName": "110km.ru",
+      "latestPublishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
+      "latestTitle": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
+      "latestSourceName": "Новости Тольятти",
       "sources": [
         {
-          "title": "Lada Iskra против Granta: разница 150 тысяч, одинаковый двигатель и платформа — что не так с новой моделью зимой - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWTUyQVZHUlJpcm5pZy1FTW5iT0RiYVdveHlTSS1BN0syNGVrZWg0VlM1U3RHalBlY2gxRTBoaDZCNzBBVlBNdU4xa1cybGstOFMtelh6dE5FV2Y4MHFNZXdiRVNvcWUySHFyaldsM2RpdzNEMTdLamk0UWczRk9rMy1TMC1DZlJ2YXdlXzBURUl2bTluaHF1elc4OWswZw?oc=5",
-          "publishedAt": "Mon, 16 Nov 2026 12:18:11 GMT",
-          "sourceName": "110km.ru"
+          "title": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
+          "publishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
+          "sourceName": "Новости Тольятти"
+        },
+        {
+          "title": "«АвтоВАЗ» перестроил подачу колес для Lada Granta и Iskra на 1,5 км - CenyAvto.com",
+          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rZ0dhX01naDBrLXZaeDRib005a1JqX200VDJRNFNZdmhzNmNDY2FTZTRRMVpkeEhMdlhtdy1Pa3NsbXhLc3BlMXlrWG84WDVsblUyOGpGRFdnNnFCZzNrVEFxOFpIQjBkbE1id1hiOXFxLWZRYldiUVlnZUxmdw?oc=5",
+          "publishedAt": "Fri, 20 Nov 2026 06:47:56 GMT",
+          "sourceName": "CenyAvto.com"
+        },
+        {
+          "title": "АВТОВАЗ запустил 1,5-километровую систему доставки колес для Granta и Iskra - Лада.Онлайн",
+          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNG81a01SSFY2MzJxOS0yU05nb2dfbmRaaWxnNDItRFVtdVctWmVuQldWMFgtc2tOMkFLRzZRNV9sdlpWaF9NRzVrU0VTenplY1hVa3poRWZUUFp1UElYSl81SzBvdWU2cW1rWUE4YkxJMzZma0kyd05Wck1qaXJRWEJfaS1xb0F5UGQwbU5jR1A4enpNUlg3SE5vbHNYXzBiazNFWE9SVWVqRWhRWjNXWTFyaHhPMVhaY25ySmJKeGd2aktqQ0tyRnZTamMzTzByM1laWg?oc=5",
+          "publishedAt": "Fri, 20 Nov 2026 06:20:24 GMT",
+          "sourceName": "Лада.Онлайн"
         },
         {
           "title": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
@@ -127,35 +139,29 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiSkFVX3lxTE5LLUlxQXR3YndTRHBLYzV2aFNhNXg3N0VqZHZTTG5QRVdhX1g4SjJQWlBZc0JEdFk2OTJxNmNyOUppMlpPNV9DcjhR?oc=5",
           "publishedAt": "Sat, 14 Nov 2026 02:54:18 GMT",
           "sourceName": "Интернет-газета «ЖУК»"
-        },
-        {
-          "title": "Новый флагман LADA Azimut и Iskra на 259 сил: АВТОВАЗ привез две новинки на Московское Автошоу - Carexpo.ru_ все авто на одном сайте",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOMklUc0loZEpBLS1pejdCN2dzc2FUaURfaGRNQW5ZR1lzbFQzZVd1V0s0OU5iNHVtdGl5eEttOVdQemhLZzRzeHFjRmNiMzY2cFJDWjN3NU90U1Vxby1tNlJvTHdUaENnaDJaWWhUVUF4Vlh6NXgxWmhjVGdKSGliNkZFeHRVbUJmNzJjN180MTRwdDdFQnE1TUdQaVBIek5uRHhjOUlpMVgzcVdPT0Y5cGdxSQ?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 17:14:00 GMT",
-          "sourceName": "Carexpo.ru_ все авто на одном сайте"
-        },
-        {
-          "title": "АвтоВАЗ представил новый флагманский кроссовер Azimut и 259-сильную Lada Iskra - РИА Твои Новости",
-          "url": "https://news.google.com/rss/articles/CBMiR0FVX3lxTE5NX1ZYN3A2ZkhBUjNmWFo4UWhVSWFnNDc3N1A3dDNqR0dFQUdhNmtuV0tLVHpoREppLVFIS1N5ZXFTcndrSHdj?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 16:44:55 GMT",
-          "sourceName": "РИА Твои Новости"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 4,
+      "sourceCount30d": 5,
       "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
-      "latestSourceName": "Techora.ru",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
+      "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
@@ -316,17 +322,23 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
-      "sourceCount7d": 0,
+      "sourceCount30d": 5,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-      "latestSourceName": "CNews.ru",
+      "latestPublishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
+      "latestTitle": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -415,8 +427,8 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount30d": 6,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -448,6 +460,12 @@ export const liveMarketSnapshot = {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9jVWpvcDBVWVRXMmFkZGxQcjlOZk8yYkppRmNiaV9iQktzekFGaVU3czVWcVNpR0ZlWUtWWHJlUnJLZ0ZqX0k4MzU0U1JoVTJDUjZRek81bUg2RjVLaHdCTmxMWV85UGtVenpteXc3RUM3UmJlbU85NA?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
+        {
+          "title": "Zocdoc открыла доступ к своему решению для зарегистрированных ИИ-агентов - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMiYEFVX3lxTE5TYnF3UG9qV3ByTVctMnZ4VTZZSVJJRU5OUTBnTHQtbWlpZVAzSjBXNEZBcVpNOVRDSVNPaHhURER4TFZPQ3VvUk5KUDFVTmZ0TE5xOGNZYmZuaGViZThfRw?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 20:03:55 GMT",
           "sourceName": "Webiomed"
         }
       ]
@@ -693,8 +711,8 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 5,
-      "sourceCount7d": 4,
+      "sourceCount30d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -723,16 +741,10 @@ export const liveMarketSnapshot = {
           "sourceName": "prospect.com.ru"
         },
         {
-          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 11:00:25 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - gosrf",
+          "title": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - Gosrf.ru",
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZMQmR2NThKTUl5a1puUktqdk1WM2tXNUhKVUVzY1F2amFsVDEtWXc5d1JyUGNEbDdEaC1UYTVsZ1IySWVDejgxVm5aNHk3b0J2WXI2OTd0cF9OMUdLM3kxem5UaHVtTkdHRHdCb2doQ1FzOEE4eWlQdDZvc0RLRTB0Um9kOVh6R3JrRmt3VktXQlNRQS1tV0haSkdIY0lZNlI0TWd3?oc=5",
           "publishedAt": "Thu, 12 Nov 2026 16:58:45 GMT",
-          "sourceName": "gosrf"
+          "sourceName": "Gosrf.ru"
         }
       ]
     },
@@ -813,24 +825,17 @@ export const liveMarketSnapshot = {
     "legiscan": {
       "companyId": "legiscan",
       "companyName": "Legiscan",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
-      "latestSourceName": "jurisora.ru",
-      "sources": [
-        {
-          "title": "Демократы получили контроль над Конгрессом: что изменится для американцев - jurisora.ru",
-          "url": "https://news.google.com/rss/articles/CBMiiwFBVV95cUxNWV9VdHBlN3ltdG1TRGduejZTdjQ1Rk83Z1RDeDhKVTBjeUc3Nkg4a0tuSklMNE44MFYzLTJQSFdmYzZ5UUxYN3UwdUJObW44X2dXeWwyMnlHQVRXc21YaVNqQ3lfNUlKZVYzT25mYkxRUnBNOHQ1UG9IQjFpWWwwSU9kU2ZWLUtQZ0RN?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-          "sourceName": "jurisora.ru"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "lork-dev": {
       "companyId": "lork-dev",
@@ -850,7 +855,7 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -865,6 +870,12 @@ export const liveMarketSnapshot = {
           "title": "Совет: Купите банку солодового молока Milo объемом 240 мл и получите бесплатный подарок (действует региональное предложение с 12 по 30 ноября). - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRy1ESDhRUFFlVUp1Zmh0cmE1YUdwT3lJd1dheVk4Ukw2aFJudnJRR2MtaVhnTmNOcTdIUUt0SGpUa1NzZ0dLYUZJSkRSbjJHYlp3dXdFQUhLM0xyZklkNG96TWJfMFMxY3kxRW9veWdhbHdqa3lGSFVIOWV0THVwdXZHbHlVY3VOUndWVGczU0xLRHRxdWhTcENiUHFuUTRnOUc0eTB4R3BNdEFvX2N5OThnRlc4N19tbDl4UA?oc=5",
           "publishedAt": "Thu, 19 Nov 2026 05:39:03 GMT",
+          "sourceName": "Vietnam.vn"
+        },
+        {
+          "title": "Проект компании Nestlé MILO предоставляет детям больше места для занятий физической активностью в Дананге. - Vietnam.vn",
+          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNbm81Vml2WXBmRTBlVnZRdngwRzJWczJZb3NHQ1dLZTlyOFJ0SEJJdTQ3c25sZHJnckM3dDJ1UXMzbFFsajN2bUJBUnVSTnhPZkhmMEp1QUd5ZHE5N0pKMGU2ZXJ3Z2M5QmVHRUlYZ1R2UnoyMHkwaGV3N3hXRlVYRHZQTzdGc1hHSnhrWWRMdUdzamtjQnlMTU90d0lFNGxPR3Y3U2ItWQ?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 11:50:20 GMT",
           "sourceName": "Vietnam.vn"
         }
       ]
@@ -1131,17 +1142,23 @@ export const liveMarketSnapshot = {
     "trigga": {
       "companyId": "trigga",
       "companyName": "Trigga",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 2,
       "launchMentions": 0,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Как в SaaS найти первых b2b-клиентов: 5 каналов продвижения - Т—Ж",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuQU9HdVlvXzdqVnVMLTcwVl9mSGk5SnRLcFdrUm9pdUlqZG1sNG50VWFDQ0J0clVSQ0tIZ013X19LMWd3SXJWcU5WOXUwc1BLUlNKVm5mQUdRZ1p0cG5zZzNHZw?oc=5",
+      "tractionMentions": 2,
+      "latestPublishedAt": "Fri, 20 Nov 2026 08:05:35 GMT",
+      "latestTitle": "Как маркетинговому агентству находить клиентов: 7 рабочих каналов - Т—Ж",
+      "latestUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ra01yS0JkQmhoc1Nma2FUNUplVnVmcnN0Z2xTRkI0SnYzOU9GMFJLR25zcmxwNG1jWFcwOF9Feml5U2lQWW1EN21aZk04LXV3LVB4OGFRTXowN0JpNFM3YnZrbmlwcVJ5Z05mYThQbw?oc=5",
       "latestSourceName": "Т—Ж",
       "sources": [
+        {
+          "title": "Как маркетинговому агентству находить клиентов: 7 рабочих каналов - Т—Ж",
+          "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ra01yS0JkQmhoc1Nma2FUNUplVnVmcnN0Z2xTRkI0SnYzOU9GMFJLR25zcmxwNG1jWFcwOF9Feml5U2lQWW1EN21aZk04LXV3LVB4OGFRTXowN0JpNFM3YnZrbmlwcVJ5Z05mYThQbw?oc=5",
+          "publishedAt": "Fri, 20 Nov 2026 08:05:35 GMT",
+          "sourceName": "Т—Ж"
+        },
         {
           "title": "Как в SaaS найти первых b2b-клиентов: 5 каналов продвижения - Т—Ж",
           "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuQU9HdVlvXzdqVnVMLTcwVl9mSGk5SnRLcFdrUm9pdUlqZG1sNG50VWFDQ0J0clVSQ0tIZ013X19LMWd3SXJWcU5WOXUwc1BLUlNKVm5mQUdRZ1p0cG5zZzNHZw?oc=5",
@@ -1330,32 +1347,45 @@ export const liveMarketSnapshot = {
     "okrest": {
       "companyId": "okrest",
       "companyName": "Окрест",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
+      "latestTitle": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
+      "latestSourceName": "Клопс - новости Калининград",
+      "sources": [
+        {
+          "title": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
+          "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
+          "sourceName": "Клопс - новости Калининград"
+        }
+      ]
     },
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 6,
-      "sourceCount7d": 5,
+      "sourceCount30d": 7,
+      "sourceCount7d": 6,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
-      "latestTitle": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
-      "latestSourceName": "AdIndex.ru",
+      "latestPublishedAt": "Fri, 20 Nov 2026 07:23:13 GMT",
+      "latestTitle": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
+      "latestSourceName": "spbIT",
       "sources": [
+        {
+          "title": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
+          "publishedAt": "Fri, 20 Nov 2026 07:23:13 GMT",
+          "sourceName": "spbIT"
+        },
         {
           "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
@@ -1371,7 +1401,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Снижение охвата вакцинацией привело к возвращению кори в США, Мексике и Боливии - BES.media",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanFtT3BobjJibHhGLWxyUF83QW9ZOVRndkZEVFRPMFlDaUhGNlZRT1Y3Ul9BUFBSRXdaWkN5U09OT0RWUWcyeFZ6cHN1Q292QWZDRzFSdXVVRlhldkVmUlA4Ui14aVVucnFRRnBpVmduN2pWRV9VWWhXR1NuV0pTX1NOLS15d3I1LWRmWGNnaS04Wmx4MVZxcXRXWjJqRWtqRVBJSi15Q0I5TTdWUmfSAawBQVVfeXFMTm5OZEJtMjAxYjJUSVlsMTh1V0ttSVVkVGNkREFjZGxlYmNSbkNmV2drMFRuR1hnV0FQSThtNXV6RmNEaUxyX09nR2RxU2NqaHQzb2lPMnBaOWFJVjZhRTJRWlBLbWVTbmNDTlRCRzFuQXVPR2h0SXhQT0YyQ0ZGWWd3VlVYTVhnZmlURnBjLVExdTdsRGFNdTdiTEhEOXBhTVo4dkxRUU5DNTVtYQ?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 05:37:00 GMT",
+          "publishedAt": "Wed, 18 Nov 2026 05:39:50 GMT",
           "sourceName": "BES.media"
         },
         {
@@ -1379,12 +1409,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
           "publishedAt": "Tue, 17 Nov 2026 11:14:33 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PenR6YXV3NTBBUGdLaG5FOXpoUlY0S0V5LW92TTF6ZXczUXhQOFcteThiVDRpTTdOdWNXRGtPdE05NlVvaXc2OU5IYUVaUdIBWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWU?oc=5",
-          "publishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
