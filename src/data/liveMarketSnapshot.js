@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-21T04:28:33.315Z",
+  "generatedAt": "2026-11-21T13:47:39.797Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,11 +99,11 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 4,
-      "sourceCount7d": 2,
+      "sourceCount30d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
       "latestTitle": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
@@ -115,12 +115,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
           "publishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
           "sourceName": "Новости Тольятти"
-        },
-        {
-          "title": "АВТОВАЗ запустил 1,5-километровую систему доставки колес для Granta и Iskra - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNG81a01SSFY2MzJxOS0yU05nb2dfbmRaaWxnNDItRFVtdVctWmVuQldWMFgtc2tOMkFLRzZRNV9sdlpWaF9NRzVrU0VTenplY1hVa3poRWZUUFp1UElYSl81SzBvdWU2cW1rWUE4YkxJMzZma0kyd05Wck1qaXJRWEJfaS1xb0F5UGQwbU5jR1A4enpNUlg3SE5vbHNYXzBiazNFWE9SVWVqRWhRWjNXWTFyaHhPMVhaY25ySmJKeGd2aktqQ0tyRnZTamMzTzByM1laWg?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 06:20:24 GMT",
-          "sourceName": "Лада.Онлайн"
         },
         {
           "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
@@ -209,40 +203,22 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 5,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
-      "dealMentions": 1,
-      "launchMentions": 1,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Thu, 19 Nov 2026 12:26:00 GMT",
-      "latestTitle": "В Томской области запустят ИИ NtechLab для поиска преступников и пропавших — система заработает в ноябре - ВКонтакте",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE81QnZTaEZWLUJESHNXY09wUE55OEVPZnMwbTE5U19RQmpoLW9GNnNxcnlOM3lLa2hJSHlVZTlLcVRHWWJZRldPN0JwZw?oc=5",
-      "latestSourceName": "ВКонтакте",
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
+      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
+      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
+      "latestSourceName": "Ростех",
       "sources": [
         {
-          "title": "В Томской области запустят ИИ NtechLab для поиска преступников и пропавших — система заработает в ноябре - ВКонтакте",
-          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE81QnZTaEZWLUJESHNXY09wUE55OEVPZnMwbTE5U19RQmpoLW9GNnNxcnlOM3lLa2hJSHlVZTlLcVRHWWJZRldPN0JwZw?oc=5",
-          "publishedAt": "Thu, 19 Nov 2026 12:26:00 GMT",
-          "sourceName": "ВКонтакте"
-        },
-        {
-          "title": "ИИ NtechLab поможет не пускать дебоширов в рестораны и торговые центры - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXzRZSXJmRkRxRlI1amZqOHZjaHdYSDA0c2xKV3phZWVKMkFrV1FqeW1KTl9wSDJOenRVenZ0elZ0elJSakJBbXhQZmdVa0JvSXo4Ukt6QW9jOHdXVEJReGR4cmVXc3FqWmNZTXBvYzdCSlZ6cFQwSTJBcjlNNkZMM2tTaFJiSFprSk9FdzVjYmh4QzBtaTRXaFZmeHVSVVYwaFE?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT",
-          "sourceName": "RTVI"
-        },
-        {
-          "title": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
-          "sourceName": "MASHNEWS | Новости Промышленности"
-        },
-        {
-          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тысяч человек - The Insider",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "The Insider"
+          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
+          "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
+          "sourceName": "Ростех"
         },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
@@ -328,23 +304,17 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
-      "latestTitle": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
-      "latestSourceName": "Хабр",
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -705,7 +675,7 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 4,
+      "sourceCount30d": 5,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -733,6 +703,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 17:05:08 GMT",
           "sourceName": "prospect.com.ru"
+        },
+        {
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 11:00:25 GMT",
+          "sourceName": "CNews.ru"
         },
         {
           "title": "«Билайн Adtech» и Gradius договорились развивать рекламные технологии для ИИ-сервисов - Gosrf.ru",
@@ -1039,17 +1015,23 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 19 Nov 2026 22:44:45 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Sat, 21 Nov 2026 08:39:19 GMT",
+      "latestTitle": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
+          "publishedAt": "Sat, 21 Nov 2026 08:39:19 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
@@ -1304,24 +1286,17 @@ export const liveMarketSnapshot = {
     "metranpazh": {
       "companyId": "metranpazh",
       "companyName": "Метранпаж",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 25 Oct 2026 11:08:09 GMT",
-      "latestTitle": "Ангел-агроном и извечный Калошин - Правда Севера",
-      "latestUrl": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4SkZVT1F2ODk5emg0cnVhT3VJdGQ4NWZJZFk5bDBwZV96UFFuZUFZMGp1QXJ4a3lGLU9QQmJWZ0ZSMHprSzBEdUJmNU5lMmx6d0p6aXh1ZlRSazdPOWN1Q2hDVnp4VGtBU3lhdzBRTktJUQ?oc=5",
-      "latestSourceName": "Правда Севера",
-      "sources": [
-        {
-          "title": "Ангел-агроном и извечный Калошин - Правда Севера",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTFB4SkZVT1F2ODk5emg0cnVhT3VJdGQ4NWZJZFk5bDBwZV96UFFuZUFZMGp1QXJ4a3lGLU9QQmJWZ0ZSMHprSzBEdUJmNU5lMmx6d0p6aXh1ZlRSazdPOWN1Q2hDVnp4VGtBU3lhdzBRTktJUQ?oc=5",
-          "publishedAt": "Sun, 25 Oct 2026 11:08:09 GMT",
-          "sourceName": "Правда Севера"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "navstreche": {
       "companyId": "navstreche",
@@ -1347,7 +1322,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
+      "latestPublishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
       "latestTitle": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
       "latestUrl": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
       "latestSourceName": "Клопс - новости Калининград",
@@ -1355,7 +1330,7 @@ export const liveMarketSnapshot = {
         {
           "title": "«Вопль слышится окрест — доплатите за проезд!»: музыкальный дайджест калининградских событий за неделю (видео) - Клопс - новости Калининград",
           "url": "https://news.google.com/rss/articles/CBMi5gFBVV95cUxQak5JQ1F1cWdKbEc1WGEtYWJ3WFhxQzJZTkJzc1Z2dF9udzE4OWN1eV9PNGpVdHhDWi1KSGFQWG9aNXJ5MXRqRF9Yb1BzZGVvMTQ4dFpxeEI4VHdWSEprYnVOcXZhWWpIam80X1lwUFhxNWpVX1lQaTY1VmY5VXNRZnJQMnVPbkZ6MkJLMGM5UngzLWRaenliWFRHU0pvOHhDUWg3R293YWE5R29Ha3ZPbUQtU2dxY0RUeWsyM1kxY1B1UUhnRWNsQjVVWS04ak9BT2htQ0VTdUtFbHpHN0VsRHZnTVZsZw?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 18:01:11 GMT",
+          "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
           "sourceName": "Клопс - новости Калининград"
         }
       ]
