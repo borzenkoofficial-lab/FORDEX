@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-21T13:47:39.797Z",
+  "generatedAt": "2026-11-21T20:41:27.198Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,22 +100,16 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 3,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
-      "latestTitle": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
-      "latestSourceName": "Новости Тольятти",
+      "latestPublishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
+      "latestTitle": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
+      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
+      "latestSourceName": "За рулем",
       "sources": [
-        {
-          "title": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
-          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
-          "sourceName": "Новости Тольятти"
-        },
         {
           "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
@@ -126,6 +120,12 @@ export const liveMarketSnapshot = {
           "title": "Вместо Changan Alsvin: почему Lada Iskra и Vesta дешевле на 400–600 тыс. рублей, но выгоднее по гарантии — и когда ждать вариатор на Granta - 110km.ru",
           "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFQzbXV6YVdESFBZNVozUGVfdmU2Y2p0ZXdaLUZCbEw4Rm94MnJmeVJPSWFiaTg1ODVvRWVJOHRKcS1xNkxXZUR5MWhyTXktSDN6cWx1Qk9TU29VcFJqTDJtS1dkRjBFYngyUnZ5cW1HQnEzY3FrcC1yODRuazRwUVZtYXFfajUzYWlvYjBRYjlzNHR5Z2UydFRfMVA?oc=5",
           "publishedAt": "Fri, 30 Oct 2026 07:00:00 GMT",
+          "sourceName": "110km.ru"
+        },
+        {
+          "title": "Что покажут посетителям на производстве Lada Iskra и как устроен маршрут - 110km.ru",
+          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQVG92UUdWeGVxSkI3enR1cXBNNWNaQkt5QWtiNTBGb290MmxrMTFTNldVMlVsbWRKd3RoZzVISHRNWHhMcTJkclBqYTY5WFc2RUV0NnZIMjhtUWMxRjZmbnljb01kWXpNU0JrRlR1QXFrOXRrY0p6M0tRQ2wzdmlnclZxUmkyZjNJcU0wQTVxd193SkEtZ1pPeHFFYll6V2M?oc=5",
+          "publishedAt": "Mon, 26 Oct 2026 07:00:00 GMT",
           "sourceName": "110km.ru"
         }
       ]
@@ -304,17 +304,35 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount30d": 8,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
-      "dealMentions": 0,
+      "dealMentions": 1,
       "launchMentions": 0,
-      "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
-      "latestSourceName": "CNews.ru",
+      "tractionMentions": 1,
+      "latestPublishedAt": "Thu, 19 Nov 2026 16:40:36 GMT",
+      "latestTitle": "Бизнес обяжут платить по 50 рублей за каждый запрос к МВД: как теперь проверять паспорта клиентов - Хабр",
+      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSFpqM0V2eW53LWxqeTZBVjdRSUNUZXY2cmp2b3lXZnpBWldyTzdtSzY1SFdlZ29Ia3g5blBIZDQ3cGtuNUhtRzBfNURaZllWZ1NnTnpSNWpkWWxidGktVWUyejFhYWJXZmpnVtIBWEFVX3lxTFAwRXhyUXEyYTV5ZjE3bmEzMF9SYXNfdXNzc3FwNUtnZUJpUVBfUnhSTEFEUzRwRTZ2TU9JWnZIOFIwTUpqOHJiNHJjUFMwY3lhVEFtYUlvdjk?oc=5",
+      "latestSourceName": "Хабр",
       "sources": [
+        {
+          "title": "Бизнес обяжут платить по 50 рублей за каждый запрос к МВД: как теперь проверять паспорта клиентов - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSFpqM0V2eW53LWxqeTZBVjdRSUNUZXY2cmp2b3lXZnpBWldyTzdtSzY1SFdlZ29Ia3g5blBIZDQ3cGtuNUhtRzBfNURaZllWZ1NnTnpSNWpkWWxidGktVWUyejFhYWJXZmpnVtIBWEFVX3lxTFAwRXhyUXEyYTV5ZjE3bmEzMF9SYXNfdXNzc3FwNUtnZUJpUVBfUnhSTEFEUzRwRTZ2TU9JWnZIOFIwTUpqOHJiNHJjUFMwY3lhVEFtYUlvdjk?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 16:40:36 GMT",
+          "sourceName": "Хабр"
+        },
+        {
+          "title": "Smart Engines выпустила Smart ID Engine 2.11 - Content-Review.com",
+          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rX0xyOWEyeXEyOHpiSENKX3hobEktUWRxTFUxMUtySUhiYks5T1JyN0ZXRUNYTWI0M2dNdThuLU85aWt1RDg4WjM3RnNpdVFqcnJNWnByamFCUdIBX0FVX3lxTE80elhOQ2lLY1djZmxPVEpPTHpVUnI0X1hjYktHZS14dnpidWVydFFRbEdZdGtiVEk4VlphVDlCZEJTNm8yUEliMnh0QnZTbk00Rk1ndk8xcjR3aGtXZTNB?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 14:12:28 GMT",
+          "sourceName": "Content-Review.com"
+        },
+        {
+          "title": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
+          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
+          "sourceName": "Хабр"
+        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -326,12 +344,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
-          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
-          "sourceName": "ГИПОРТ"
         }
       ]
     },
@@ -1015,23 +1027,17 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 21 Nov 2026 08:39:19 GMT",
-      "latestTitle": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
+      "latestPublishedAt": "Thu, 19 Nov 2026 22:44:45 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
-        {
-          "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
-          "publishedAt": "Sat, 21 Nov 2026 08:39:19 GMT",
-          "sourceName": "Sostav.ru"
-        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
@@ -1124,12 +1130,12 @@ export const liveMarketSnapshot = {
     "trigga": {
       "companyId": "trigga",
       "companyName": "Trigga",
-      "sourceCount30d": 2,
-      "sourceCount7d": 1,
+      "sourceCount30d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
-      "dealMentions": 2,
+      "dealMentions": 3,
       "launchMentions": 0,
-      "tractionMentions": 2,
+      "tractionMentions": 3,
       "latestPublishedAt": "Fri, 20 Nov 2026 08:05:35 GMT",
       "latestTitle": "Как маркетинговому агентству находить клиентов: 7 рабочих каналов - Т—Ж",
       "latestUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ra01yS0JkQmhoc1Nma2FUNUplVnVmcnN0Z2xTRkI0SnYzOU9GMFJLR25zcmxwNG1jWFcwOF9Feml5U2lQWW1EN21aZk04LXV3LVB4OGFRTXowN0JpNFM3YnZrbmlwcVJ5Z05mYThQbw?oc=5",
@@ -1140,6 +1146,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ra01yS0JkQmhoc1Nma2FUNUplVnVmcnN0Z2xTRkI0SnYzOU9GMFJLR25zcmxwNG1jWFcwOF9Feml5U2lQWW1EN21aZk04LXV3LVB4OGFRTXowN0JpNFM3YnZrbmlwcVJ5Z05mYThQbw?oc=5",
           "publishedAt": "Fri, 20 Nov 2026 08:05:35 GMT",
           "sourceName": "Т—Ж"
+        },
+        {
+          "title": "Как находить клиентов в B2B в 2026: 5 проверенных сервисов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PM3ZDNzdUTDhpaEc3STRFekR0Mk1zS2NUWjZybWRYLWpjN09vc0x0cm5Mb1dhOUc3ZXhVTWNHZVRFZGg4cG1QN3JsT3dueU14akNz?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT",
+          "sourceName": "Sostav.ru"
         },
         {
           "title": "Как в SaaS найти первых b2b-клиентов: 5 каналов продвижения - Т—Ж",
@@ -1338,8 +1350,8 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 7,
-      "sourceCount7d": 6,
+      "sourceCount30d": 9,
+      "sourceCount7d": 7,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -1356,6 +1368,12 @@ export const liveMarketSnapshot = {
           "sourceName": "spbIT"
         },
         {
+          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 19:59:43 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
           "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
           "publishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
@@ -1369,15 +1387,9 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "Снижение охвата вакцинацией привело к возвращению кори в США, Мексике и Боливии - BES.media",
-          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanFtT3BobjJibHhGLWxyUF83QW9ZOVRndkZEVFRPMFlDaUhGNlZRT1Y3Ul9BUFBSRXdaWkN5U09OT0RWUWcyeFZ6cHN1Q292QWZDRzFSdXVVRlhldkVmUlA4Ui14aVVucnFRRnBpVmduN2pWRV9VWWhXR1NuV0pTX1NOLS15d3I1LWRmWGNnaS04Wmx4MVZxcXRXWjJqRWtqRVBJSi15Q0I5TTdWUmfSAawBQVVfeXFMTm5OZEJtMjAxYjJUSVlsMTh1V0ttSVVkVGNkREFjZGxlYmNSbkNmV2drMFRuR1hnV0FQSThtNXV6RmNEaUxyX09nR2RxU2NqaHQzb2lPMnBaOWFJVjZhRTJRWlBLbWVTbmNDTlRCRzFuQXVPR2h0SXhQT0YyQ0ZGWWd3VlVYTVhnZmlURnBjLVExdTdsRGFNdTdiTEhEOXBhTVo4dkxRUU5DNTVtYQ?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 05:39:50 GMT",
+          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk5kQm0yMDFiMlRJWWwxOHVXS21JVWRUY2REQWNkbGViY1JuQ2ZXZ2swVG5HWGdXQVBJOG01dXpGY0RpTHJfT2dHZHFTY2podDNvaU8ycFo5YUlWNmFFMlFaUEttZVNuY0NOVEJHMW5BdU9HaHRJeFBPRjJDRkZZZ3dWVVhNWGdmaVRGcGMtUTF1N2xEYU11N2JMSEQ5cGFNWjh2TFFRTkM1NW1h0gGsAUFVX3lxTE5uTmRCbTIwMWIyVElZbDE4dVdLbUlVZFRjZERBY2RsZWJjUm5DZldnazBUbkdYZ1dBUEk4bTV1ekZjRGlMcl9PZ0dkcVNjamh0M29pTzJwWjlhSVY2YUUyUVpQS21lU25jQ05UQkcxbkF1T0dodEl4UE9GMkNGRllnd1ZVWE1YZ2ZpVEZwYy1RMXU3bERhTXU3YkxIRDlwYU1aOHZMUVFOQzU1bWE?oc=5",
+          "publishedAt": "Wed, 18 Nov 2026 05:37:00 GMT",
           "sourceName": "BES.media"
-        },
-        {
-          "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
-          "publishedAt": "Tue, 17 Nov 2026 11:14:33 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
