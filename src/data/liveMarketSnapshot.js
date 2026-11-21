@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-20T22:00:16.545Z",
+  "generatedAt": "2026-11-21T04:28:33.315Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,8 +99,8 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 5,
-      "sourceCount7d": 3,
+      "sourceCount30d": 4,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -123,12 +123,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Лада.Онлайн"
         },
         {
-          "title": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
-          "publishedAt": "Sun, 15 Nov 2026 14:36:23 GMT",
-          "sourceName": "Телеканал ЛенТВ24"
-        },
-        {
           "title": "Lada Iskra после 20 тысяч км — как работает круиз-контроль? - За рулем",
           "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE4xYlVaSEJUM21xa2tsLUNxV0lNX2E1bVFfendZUG9BeFBBM2FMc0xwVHBXTFJzc2xIQ0FXYi1mTDVlVzc3WlBWR2t0MmpXN3czcXg0dGkyV2RaaXpyZFpmajVHTWJwSWpxUVZpeV9BT0tfTDZJSkprONIBfkFVX3lxTE92M2RTaENWS3VDZldodXRqamxCUTEtN25qQlBCbC1WbzNYV2huVnRvV0x4dXRxMGZCNlk0a0FtUUNyelRJZGRJRllzdzV1NXNPSGhhR0ZWZV9FM2hfSEdySjJ5aWdhaDRWUGFycVNJR3hiZDd0UXQ3dkthdHNpdw?oc=5",
           "publishedAt": "Sun, 01 Nov 2026 06:44:20 GMT",
@@ -145,23 +139,17 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
+      "latestSourceName": "Techora.ru",
       "sources": [
-        {
-          "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-          "sourceName": "Sostav.ru"
-        },
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
@@ -221,17 +209,41 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 5,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 0,
-      "launchMentions": 0,
-      "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRkVNc1BFcWlWYUctbER4MjhINV9lLUtEVTNHYW1PVnVqWmp6TWNXUjdvQWtYTlN0QXFJVGVjSnJLWGdpRVl6X3VOSlhBXzJNM2ZvWHE0MjBVWjZMOVAzRVdDY29kRDFHQ2xzVGM1VU9MOEJhTnNvYndjcDlkZkFYR0JoYk5KR1dpLTJHR0F2cHNlRDZwMDBKTkZWUDJ0cmxSaGE3Z2hnazNyZUpTLU5rc1UtOWoteFRaMUlMWTNxN3hhTlU?oc=5",
-      "latestSourceName": "RTVI",
+      "dealMentions": 1,
+      "launchMentions": 1,
+      "tractionMentions": 1,
+      "latestPublishedAt": "Thu, 19 Nov 2026 12:26:00 GMT",
+      "latestTitle": "В Томской области запустят ИИ NtechLab для поиска преступников и пропавших — система заработает в ноябре - ВКонтакте",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE81QnZTaEZWLUJESHNXY09wUE55OEVPZnMwbTE5U19RQmpoLW9GNnNxcnlOM3lLa2hJSHlVZTlLcVRHWWJZRldPN0JwZw?oc=5",
+      "latestSourceName": "ВКонтакте",
       "sources": [
+        {
+          "title": "В Томской области запустят ИИ NtechLab для поиска преступников и пропавших — система заработает в ноябре - ВКонтакте",
+          "url": "https://news.google.com/rss/articles/CBMiS0FVX3lxTE81QnZTaEZWLUJESHNXY09wUE55OEVPZnMwbTE5U19RQmpoLW9GNnNxcnlOM3lLa2hJSHlVZTlLcVRHWWJZRldPN0JwZw?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 12:26:00 GMT",
+          "sourceName": "ВКонтакте"
+        },
+        {
+          "title": "ИИ NtechLab поможет не пускать дебоширов в рестораны и торговые центры - RTVI",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXzRZSXJmRkRxRlI1amZqOHZjaHdYSDA0c2xKV3phZWVKMkFrV1FqeW1KTl9wSDJOenRVenZ0elZ0elJSakJBbXhQZmdVa0JvSXo4Ukt6QW9jOHdXVEJReGR4cmVXc3FqWmNZTXBvYzdCSlZ6cFQwSTJBcjlNNkZMM2tTaFJiSFprSk9FdzVjYmh4QzBtaTRXaFZmeHVSVVYwaFE?oc=5",
+          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT",
+          "sourceName": "RTVI"
+        },
+        {
+          "title": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
+          "publishedAt": "Fri, 30 Oct 2026 17:52:28 GMT",
+          "sourceName": "MASHNEWS | Новости Промышленности"
+        },
+        {
+          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тысяч человек - The Insider",
+          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
+          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+          "sourceName": "The Insider"
+        },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRkVNc1BFcWlWYUctbER4MjhINV9lLUtEVTNHYW1PVnVqWmp6TWNXUjdvQWtYTlN0QXFJVGVjSnJLWGdpRVl6X3VOSlhBXzJNM2ZvWHE0MjBVWjZMOVAzRVdDY29kRDFHQ2xzVGM1VU9MOEJhTnNvYndjcDlkZkFYR0JoYk5KR1dpLTJHR0F2cHNlRDZwMDBKTkZWUDJ0cmxSaGE3Z2hnazNyZUpTLU5rc1UtOWoteFRaMUlMWTNxN3hhTlU?oc=5",
@@ -243,23 +255,17 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
-      "latestTitle": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
+      "latestTitle": "Piklema и Горный университет договорились о сотрудничестве - RUБЕЖ",
+      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
+      "latestSourceName": "RUБЕЖ",
       "sources": [
-        {
-          "title": "Piklema и Санкт-Петербургский горный университет договорились о сотрудничестве - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQalN4U0lsMmtMQkdxb2lQeDRwXzNVd2lUbml5OVdKVXVienIzemRsSGx0MWFJSnlzdjkya1dGNHNpNkxtc1VFYkNZLVNLYXFnQ2I4OUVEWGpUNFBTTDNqMVN1bEVuU1hRLU5aUXgwaUJMX2swMWtkUW1mTHZNYW1rYVA4WmZkc3R1QXZIUEVwSTh3LVdCZ0dhUEl6ajgtbkFzNDJTOXFFRTNSaTlQY0NCN0NMZzhyeWZHVXJn?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 02:20:24 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "Piklema и Горный университет договорились о сотрудничестве - RUБЕЖ",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
@@ -1039,21 +1045,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 19 Nov 2026 12:48:20 GMT",
-      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+      "latestPublishedAt": "Thu, 19 Nov 2026 22:44:45 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 22:44:45 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
           "publishedAt": "Thu, 19 Nov 2026 12:48:20 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Sat, 14 Nov 2026 20:35:57 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
