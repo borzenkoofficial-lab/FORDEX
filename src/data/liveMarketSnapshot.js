@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-21T20:41:27.198Z",
+  "generatedAt": "2026-11-22T00:45:10.284Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -304,35 +304,17 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 8,
-      "sourceCount7d": 3,
+      "sourceCount30d": 3,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 0,
       "launchMentions": 0,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Thu, 19 Nov 2026 16:40:36 GMT",
-      "latestTitle": "Бизнес обяжут платить по 50 рублей за каждый запрос к МВД: как теперь проверять паспорта клиентов - Хабр",
-      "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSFpqM0V2eW53LWxqeTZBVjdRSUNUZXY2cmp2b3lXZnpBWldyTzdtSzY1SFdlZ29Ia3g5blBIZDQ3cGtuNUhtRzBfNURaZllWZ1NnTnpSNWpkWWxidGktVWUyejFhYWJXZmpnVtIBWEFVX3lxTFAwRXhyUXEyYTV5ZjE3bmEzMF9SYXNfdXNzc3FwNUtnZUJpUVBfUnhSTEFEUzRwRTZ2TU9JWnZIOFIwTUpqOHJiNHJjUFMwY3lhVEFtYUlvdjk?oc=5",
-      "latestSourceName": "Хабр",
+      "tractionMentions": 0,
+      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "Бизнес обяжут платить по 50 рублей за каждый запрос к МВД: как теперь проверять паспорта клиентов - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSFpqM0V2eW53LWxqeTZBVjdRSUNUZXY2cmp2b3lXZnpBWldyTzdtSzY1SFdlZ29Ia3g5blBIZDQ3cGtuNUhtRzBfNURaZllWZ1NnTnpSNWpkWWxidGktVWUyejFhYWJXZmpnVtIBWEFVX3lxTFAwRXhyUXEyYTV5ZjE3bmEzMF9SYXNfdXNzc3FwNUtnZUJpUVBfUnhSTEFEUzRwRTZ2TU9JWnZIOFIwTUpqOHJiNHJjUFMwY3lhVEFtYUlvdjk?oc=5",
-          "publishedAt": "Thu, 19 Nov 2026 16:40:36 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Smart Engines выпустила Smart ID Engine 2.11 - Content-Review.com",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTE5rX0xyOWEyeXEyOHpiSENKX3hobEktUWRxTFUxMUtySUhiYks5T1JyN0ZXRUNYTWI0M2dNdThuLU85aWt1RDg4WjM3RnNpdVFqcnJNWnByamFCUdIBX0FVX3lxTE80elhOQ2lLY1djZmxPVEpPTHpVUnI0X1hjYktHZS14dnpidWVydFFRbEdZdGtiVEk4VlphVDlCZEJTNm8yUEliMnh0QnZTbk00Rk1ndk8xcjR3aGtXZTNB?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 14:12:28 GMT",
-          "sourceName": "Content-Review.com"
-        },
-        {
-          "title": "«LLM без OCR в обработке документов не работает»: как «АльфаСтрахование» построила IDP-оркестратор с ИИ Smart Engines - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTE5OdGRxQlp3akRmdDJsUWtuai1ZODdQR0lJSTBJdGJmdmNGQlNsSHQ0MG9FcFlZVlQ1bXQyZmk3UGhxUVlic1htSnpFcEl5NWRDNER6d3VNdjZ5NVJ0M09PRDVLOGZleVkyaFNWZ9IBWEFVX3lxTFBzRUZFRFl5ZGhQUzBHdF9pQWdsNVlwX1R4MVJGTHdNOG9jTEUtN0ZibnlmcWVmaDZUYTlBYUw4Zng1T0lHOEdpUW9IbFZkYkpTaEZJU1Y3MWg?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 11:07:46 GMT",
-          "sourceName": "Хабр"
-        },
         {
           "title": "Smart Engines вывела распознавание паспортных штампов на новый уровень в Smart ID Engine 2.11 - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxOY2J2RlJOVVI1TXJWV0JyM1RZUnJUSkh0X2NpRndId2dVZXJGR0thSjgzMHQ4ZWhUX2VHSF8xMDdsVi1teEo2Y2NwSHZ0bm1vNzFEWHNtTDFiSmM3MkxyS0tpRTNQT0U3UkVWNkFMb21ReWRVeGt4cTd3NHdVRThoWnlB?oc=5",
@@ -344,6 +326,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sourceName": "CNews.ru"
+        },
+        {
+          "title": "ИИ Smart Engines получил патент США на распознавание паспортов - ГИПОРТ",
+          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxQVWdYajZKT3hCcDRlNXA2QXg1V3F1TkRQMjRFM1NFclhPUU5QbDM0SEg4VmJhc3lQU3ZmSGFuUEEzSTlWRmxHV2xJeWdXV2g1VFRYWjd6cEZubDBTa2NLT2lDWEpHNmxTallYREwzYVpzT0Jvbmg3R2x2NVhwYjVwLVB2TF9IVjZzVU9zMFlzdmw1UVhoczlGMzVFUEJvVzhKX2c?oc=5",
+          "publishedAt": "Wed, 28 Oct 2026 20:20:23 GMT",
+          "sourceName": "ГИПОРТ"
         }
       ]
     },
@@ -409,8 +397,8 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 4,
-      "sourceCount7d": 3,
+      "sourceCount30d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -431,12 +419,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE1pWG5zX2hUSVVlRlZFa09jTDZtWWJsXzY1WFA1bFg0dUR1ZlFmZS1PekdtdktvR0lPeXFXRlhGc25UNTdGMmpUdDJkMUZOZ9IBWEFVX3lxTE14WkRfUG9uVndOYVNFZ1VEcDVtb2kzLUNPLTRlMmY0QkpuclRyeGxDeWotRnJST3JTekFZcHZuMmJ2ZnIzdEk3S2VrNWxxM1Z1SEo4bWY4QjY?oc=5",
           "publishedAt": "Wed, 18 Nov 2026 19:28:48 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "ИИ-сервис федерального масштаба на РЕД ОС — платформа Webiomed связала тысячи медорганизаций в единую сеть - Компьютерра",
-          "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxONXhxTmhFRExqYVJQYldoYnpsNlE3NUZuWXlWZXJBakp5LUtzX29XaFBhQ0NCZ1M4TjAtUW42aDU2ajJSZ2hBTkM4bVBfOVRTVTJXcm5mVkk0ejlnMXkzQjN0bDltU19DbWliNHN4VXRyaVZKeHpXWUYxY19xNEVGZWh1b1lXWWZlRzRuTjlRQ1VGNEZPUGhWMnRnd3FMYk1ZTndNVHVDcHFxVWJpUnItdjRIcm9IU0xjMVRRZFNYTWNNVDd4Q3E2c19nNlpVVVV1d2dnb0VUZE53dw?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 13:41:47 GMT",
-          "sourceName": "Компьютерра"
         },
         {
           "title": "Зарегистрированные медицинские изделия, использующие технологии искусственного интеллекта - Webiomed",
@@ -997,17 +979,24 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Sat, 21 Nov 2026 21:24:59 GMT",
+      "latestTitle": "Строительные компании в Европе хотели бы поучаствовать в военных проектах - СМИ - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeV9ERzVfWUcxTEZ2OS1KcVNSbzhRd0pDVzNESWxneHlvN2tSRGJWdkwyTHpYejRZeFRsRUZ4bHdwSmptZmdqZE9ndV9VdzlTbTB4cFJ1dEVJV0ZhbEpVV0NpU09oWU85YTJHcE5DakoxekJySnU5WGU2WklKX2ZpZExCZWF6QkJnMnBIMTdWUjU0YkJHTHlVTS0tTUw0VE9Mck9lSHV2TXBBbjVkTVBqby13NS1ZdWRidEE?oc=5",
+      "latestSourceName": "prospect.com.ru",
+      "sources": [
+        {
+          "title": "Строительные компании в Европе хотели бы поучаствовать в военных проектах - СМИ - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeV9ERzVfWUcxTEZ2OS1KcVNSbzhRd0pDVzNESWxneHlvN2tSRGJWdkwyTHpYejRZeFRsRUZ4bHdwSmptZmdqZE9ndV9VdzlTbTB4cFJ1dEVJV0ZhbEpVV0NpU09oWU85YTJHcE5DakoxekJySnU5WGU2WklKX2ZpZExCZWF6QkJnMnBIMTdWUjU0YkJHTHlVTS0tTUw0VE9Mck9lSHV2TXBBbjVkTVBqby13NS1ZdWRidEE?oc=5",
+          "publishedAt": "Sat, 21 Nov 2026 21:24:59 GMT",
+          "sourceName": "prospect.com.ru"
+        }
+      ]
     },
     "readabee": {
       "companyId": "readabee",
@@ -1027,17 +1016,23 @@ export const liveMarketSnapshot = {
     "reels-boss": {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 3,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 19 Nov 2026 22:44:45 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Sat, 21 Nov 2026 08:39:19 GMT",
+      "latestTitle": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
+          "publishedAt": "Sat, 21 Nov 2026 08:39:19 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
@@ -1350,28 +1345,28 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
+      "sourceCount30d": 8,
       "sourceCount7d": 7,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 20 Nov 2026 13:42:35 GMT",
-      "latestTitle": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
-      "latestSourceName": "spbIT",
+      "latestPublishedAt": "Sat, 21 Nov 2026 08:56:56 GMT",
+      "latestTitle": "Алгоритмы без барьеров: как продвигать инклюзивный контент в TikTok и получать органический охват - Дверь в мир",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlF0OEVLMlozNWp5akFyOVlvNmRLbFZ2Y0ZBazI1RGRSVDRyMXZndXBzc1NDd3dXMkNvTTZfRHFkZXRBYmR6WWJ2eDNRaDBtRkg5LXlCWUdaWWJTX2hZaWp1ZkJEclpSVG1tdDNacUx4NC1LcHNDdEgyWnVEMGc2ekRzRDFhZW51d296TnFDYjJOVEVkeHdjOUJUc2JPSC1pM0sxWnI4eU9IZw?oc=5",
+      "latestSourceName": "Дверь в мир",
       "sources": [
+        {
+          "title": "Алгоритмы без барьеров: как продвигать инклюзивный контент в TikTok и получать органический охват - Дверь в мир",
+          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlF0OEVLMlozNWp5akFyOVlvNmRLbFZ2Y0ZBazI1RGRSVDRyMXZndXBzc1NDd3dXMkNvTTZfRHFkZXRBYmR6WWJ2eDNRaDBtRkg5LXlCWUdaWWJTX2hZaWp1ZkJEclpSVG1tdDNacUx4NC1LcHNDdEgyWnVEMGc2ekRzRDFhZW51d296TnFDYjJOVEVkeHdjOUJUc2JPSC1pM0sxWnI4eU9IZw?oc=5",
+          "publishedAt": "Sat, 21 Nov 2026 08:56:56 GMT",
+          "sourceName": "Дверь в мир"
+        },
         {
           "title": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
           "publishedAt": "Fri, 20 Nov 2026 13:42:35 GMT",
           "sourceName": "spbIT"
-        },
-        {
-          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
-          "publishedAt": "Thu, 19 Nov 2026 19:59:43 GMT",
-          "sourceName": "Sostav.ru"
         },
         {
           "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
@@ -1387,7 +1382,7 @@ export const liveMarketSnapshot = {
         },
         {
           "title": "Снижение охвата вакцинацией привело к возвращению кори в США, Мексике и Боливии - BES.media",
-          "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxObk5kQm0yMDFiMlRJWWwxOHVXS21JVWRUY2REQWNkbGViY1JuQ2ZXZ2swVG5HWGdXQVBJOG01dXpGY0RpTHJfT2dHZHFTY2podDNvaU8ycFo5YUlWNmFFMlFaUEttZVNuY0NOVEJHMW5BdU9HaHRJeFBPRjJDRkZZZ3dWVVhNWGdmaVRGcGMtUTF1N2xEYU11N2JMSEQ5cGFNWjh2TFFRTkM1NW1h0gGsAUFVX3lxTE5uTmRCbTIwMWIyVElZbDE4dVdLbUlVZFRjZERBY2RsZWJjUm5DZldnazBUbkdYZ1dBUEk4bTV1ekZjRGlMcl9PZ0dkcVNjamh0M29pTzJwWjlhSVY2YUUyUVpQS21lU25jQ05UQkcxbkF1T0dodEl4UE9GMkNGRllnd1ZVWE1YZ2ZpVEZwYy1RMXU3bERhTXU3YkxIRDlwYU1aOHZMUVFOQzU1bWE?oc=5",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQanFtT3BobjJibHhGLWxyUF83QW9ZOVRndkZEVFRPMFlDaUhGNlZRT1Y3Ul9BUFBSRXdaWkN5U09OT0RWUWcyeFZ6cHN1Q292QWZDRzFSdXVVRlhldkVmUlA4Ui14aVVucnFRRnBpVmduN2pWRV9VWWhXR1NuV0pTX1NOLS15d3I1LWRmWGNnaS04Wmx4MVZxcXRXWjJqRWtqRVBJSi15Q0I5TTdWUmfSAawBQVVfeXFMTm5OZEJtMjAxYjJUSVlsMTh1V0ttSVVkVGNkREFjZGxlYmNSbkNmV2drMFRuR1hnV0FQSThtNXV6RmNEaUxyX09nR2RxU2NqaHQzb2lPMnBaOWFJVjZhRTJRWlBLbWVTbmNDTlRCRzFuQXVPR2h0SXhQT0YyQ0ZGWWd3VlVYTVhnZmlURnBjLVExdTdsRGFNdTdiTEhEOXBhTVo4dkxRUU5DNTVtYQ?oc=5",
           "publishedAt": "Wed, 18 Nov 2026 05:37:00 GMT",
           "sourceName": "BES.media"
         }
