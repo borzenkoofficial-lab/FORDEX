@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-22T18:45:14.713Z",
+  "generatedAt": "2026-11-23T01:11:38.110Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -133,23 +133,17 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
+      "latestSourceName": "Techora.ru",
       "sources": [
-        {
-          "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-          "sourceName": "Sostav.ru"
-        },
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
@@ -237,17 +231,23 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
-      "latestTitle": "Piklema и Горный университет договорились о сотрудничестве - RUБЕЖ",
-      "latestUrl": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
-      "latestSourceName": "RUБЕЖ",
+      "latestPublishedAt": "Thu, 19 Nov 2026 20:14:38 GMT",
+      "latestTitle": "«Гарда» и «Цифровые решения» объединили технологии для масштабируемой защиты веб-приложений - prospect.com.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSm5LWGdiSmluTzBtT2ppS09PQ0lZZ0RabGhULTdaZDZLMnhOTV9weTZBN3czMU45YkRxVVBJRDMwbE8tbzdZUmg2VFFPU2dEcUpyektpWnM5bHdfS2w2Q0dYRzdlc09ZTzN4UWVtYTdLQjlndmd6aUQ5LUdNVUxWbkV1X3R1X0J5V3BmdFdNT2VwSzFzNWwxNmhaUmtEcU5rcGR5czVpZGJtNFVCcXJTcXJVdUI0ZmZiWU5BSHotUUlTMGc2TGxPTXFMcVdVVzA?oc=5",
+      "latestSourceName": "prospect.com.ru",
       "sources": [
+        {
+          "title": "«Гарда» и «Цифровые решения» объединили технологии для масштабируемой защиты веб-приложений - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSm5LWGdiSmluTzBtT2ppS09PQ0lZZ0RabGhULTdaZDZLMnhOTV9weTZBN3czMU45YkRxVVBJRDMwbE8tbzdZUmg2VFFPU2dEcUpyektpWnM5bHdfS2w2Q0dYRzdlc09ZTzN4UWVtYTdLQjlndmd6aUQ5LUdNVUxWbkV1X3R1X0J5V3BmdFdNT2VwSzFzNWwxNmhaUmtEcU5rcGR5czVpZGJtNFVCcXJTcXJVdUI0ZmZiWU5BSHotUUlTMGc2TGxPTXFMcVdVVzA?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 20:14:38 GMT",
+          "sourceName": "prospect.com.ru"
+        },
         {
           "title": "Piklema и Горный университет договорились о сотрудничестве - RUБЕЖ",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
@@ -316,7 +316,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -337,12 +337,6 @@ export const liveMarketSnapshot = {
           "title": "Smart Engines обучила ИИ выявлять дипфейки даже при маскировке следов подделки - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-          "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Smart Engines запатентовала в США технологию, с помощью которой российские банки и госведомства защищаются от мошенников - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxQSTFSeVpnMzZySUZENGJERXBNMWNsRGd2UDQzaV9oN2t2M0FxSmE3LXZVWml1UG9ZVEFySHhJMUYtU2NKOGFkZmQwd2kxNDlXeXBZREttNXlmV0JRSjdxSFN0MjdCTTYzVl9QYVpJUHN3dUFCcUdYVlByTXFqbVhDSFNR?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
           "sourceName": "CNews.ru"
         },
         {
@@ -1363,17 +1357,23 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 5,
-      "sourceCount7d": 3,
+      "sourceCount30d": 7,
+      "sourceCount7d": 4,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 20 Nov 2026 13:42:35 GMT",
-      "latestTitle": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
-      "latestUrl": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
-      "latestSourceName": "spbIT",
+      "latestPublishedAt": "Sun, 22 Nov 2026 07:16:59 GMT",
+      "latestTitle": "99% охвата и интерес на селе: в Беларуси обновят систему измерения телеаудитории - Варяг медиа",
+      "latestUrl": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WWExQQnk3aGstVExaRUVzOXR1UWNwb1JaRkJKNWhmZC15azBFbDZ4WjAzOG1CNkZra1hlLUczdFk0Mnl4Tjh6LVY4dlRmaWw0NmFHZ1YxUzBqNWtmNnMzQjRtVndTUEhwTUtlbUs5RVhJX21hWVJNNFYwb3k?oc=5",
+      "latestSourceName": "Варяг медиа",
       "sources": [
+        {
+          "title": "99% охвата и интерес на селе: в Беларуси обновят систему измерения телеаудитории - Варяг медиа",
+          "url": "https://news.google.com/rss/articles/CBMifEFVX3lxTE5WWExQQnk3aGstVExaRUVzOXR1UWNwb1JaRkJKNWhmZC15azBFbDZ4WjAzOG1CNkZra1hlLUczdFk0Mnl4Tjh6LVY4dlRmaWw0NmFHZ1YxUzBqNWtmNnMzQjRtVndTUEhwTUtlbUs5RVhJX21hWVJNNFYwb3k?oc=5",
+          "publishedAt": "Sun, 22 Nov 2026 07:16:59 GMT",
+          "sourceName": "Варяг медиа"
+        },
         {
           "title": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
           "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
@@ -1396,12 +1396,6 @@ export const liveMarketSnapshot = {
           "title": "Как работают розыгрыши в Телеграме: как обеспечить лучший охват и честные результаты - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE9PenR6YXV3NTBBUGdLaG5FOXpoUlY0S0V5LW92TTF6ZXczUXhQOFcteThiVDRpTTdOdWNXRGtPdE05NlVvaXc2OU5IYUVaUdIBWEFVX3lxTE5YdHkwSXNHUWZJdWUtYzR4MkgteGdDTlNDX0NuUFhfNkVLb2U4b2hINFpMZlQ1Q1ZuandBMUJ4V1gtWFRKeXlsSGdQQkFmOTNOOGxBRTFYeWU?oc=5",
           "publishedAt": "Sun, 15 Nov 2026 11:48:01 GMT",
-          "sourceName": "Хабр"
-        },
-        {
-          "title": "Охват есть, установок нет: что я узнал за месяц ежедневных постов в Тредс - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE5SYzVEMXpyeTZsRGdXSC1BaTZmLS1EVUluWjBiN0tBaTNSN2o5V055aU12cGJVamUydlRtU0RGVFl0VUdvSk1DRFFqTGJ3Z9IBWEFVX3lxTE1LcUhucGh3VjhQR1kyWHJkckk3dE9rVnI2em5od1ZLem13SU5IZGM5dkFYMEszSXBDREI0eVpkbnBwYWxQOElkQXN0aGZ2TF9PZURGZUtHbnc?oc=5",
-          "publishedAt": "Tue, 10 Nov 2026 08:00:00 GMT",
           "sourceName": "Хабр"
         }
       ]
