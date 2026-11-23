@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-23T01:11:38.110Z",
+  "generatedAt": "2026-11-23T11:24:54.201Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -231,33 +231,27 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 1,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 19 Nov 2026 20:14:38 GMT",
-      "latestTitle": "«Гарда» и «Цифровые решения» объединили технологии для масштабируемой защиты веб-приложений - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSm5LWGdiSmluTzBtT2ppS09PQ0lZZ0RabGhULTdaZDZLMnhOTV9weTZBN3czMU45YkRxVVBJRDMwbE8tbzdZUmg2VFFPU2dEcUpyektpWnM5bHdfS2w2Q0dYRzdlc09ZTzN4UWVtYTdLQjlndmd6aUQ5LUdNVUxWbkV1X3R1X0J5V3BmdFdNT2VwSzFzNWwxNmhaUmtEcU5rcGR5czVpZGJtNFVCcXJTcXJVdUI0ZmZiWU5BSHotUUlTMGc2TGxPTXFMcVdVVzA?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Mon, 23 Nov 2026 04:00:00 GMT",
+      "latestTitle": "Как студенты Горного осваивают технологии роботизации - Форпост Северо-Запад",
+      "latestUrl": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTQwMTd1WEY2RUN6VElPcHdJd2NaUkV5UTdaMDZYTThCUmhUVkhoZkJySHlaODZYcERjUWhQU1hrcXBrZUNZaGl3TFBCREVhUG40WnBRNTFRQlJZbHFxLTBoWTZFT3hvU1g4UV9IRmVBYUpsbWJqMG5senBLRnJCVWFpTFFKXzhfYl9NNUpCaHlCcWZG0gGaAUFVX3lxTE5oUlZ6S2JSckxuTzZiU0g4MmNPRXdKVlluNlJXMTdyQS1MbXZNVGNNVW1NT01BdVYwMk80MlB6WFZ6Xzh4VUE2emcweTBjdm5TYXdHSVlCSWpoU2RhalFLNmd6RGtmWk84cjFYaFBralYwQXE3dzQ0YnB2NGxDM3h5cnc2WC16dHdCM2V6a28wRWlZclFwOVVDeVE?oc=5",
+      "latestSourceName": "Форпост Северо-Запад",
       "sources": [
         {
-          "title": "«Гарда» и «Цифровые решения» объединили технологии для масштабируемой защиты веб-приложений - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxNSm5LWGdiSmluTzBtT2ppS09PQ0lZZ0RabGhULTdaZDZLMnhOTV9weTZBN3czMU45YkRxVVBJRDMwbE8tbzdZUmg2VFFPU2dEcUpyektpWnM5bHdfS2w2Q0dYRzdlc09ZTzN4UWVtYTdLQjlndmd6aUQ5LUdNVUxWbkV1X3R1X0J5V3BmdFdNT2VwSzFzNWwxNmhaUmtEcU5rcGR5czVpZGJtNFVCcXJTcXJVdUI0ZmZiWU5BSHotUUlTMGc2TGxPTXFMcVdVVzA?oc=5",
-          "publishedAt": "Thu, 19 Nov 2026 20:14:38 GMT",
-          "sourceName": "prospect.com.ru"
+          "title": "Как студенты Горного осваивают технологии роботизации - Форпост Северо-Запад",
+          "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxNZTQwMTd1WEY2RUN6VElPcHdJd2NaUkV5UTdaMDZYTThCUmhUVkhoZkJySHlaODZYcERjUWhQU1hrcXBrZUNZaGl3TFBCREVhUG40WnBRNTFRQlJZbHFxLTBoWTZFT3hvU1g4UV9IRmVBYUpsbWJqMG5senBLRnJCVWFpTFFKXzhfYl9NNUpCaHlCcWZG0gGaAUFVX3lxTE5oUlZ6S2JSckxuTzZiU0g4MmNPRXdKVlluNlJXMTdyQS1MbXZNVGNNVW1NT01BdVYwMk80MlB6WFZ6Xzh4VUE2emcweTBjdm5TYXdHSVlCSWpoU2RhalFLNmd6RGtmWk84cjFYaFBralYwQXE3dzQ0YnB2NGxDM3h5cnc2WC16dHdCM2V6a28wRWlZclFwOVVDeVE?oc=5",
+          "publishedAt": "Mon, 23 Nov 2026 04:00:00 GMT",
+          "sourceName": "Форпост Северо-Запад"
         },
         {
           "title": "Piklema и Горный университет договорились о сотрудничестве - RUБЕЖ",
           "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxNOEhtRzZ5RHZ4XzhyY29oakI0T0VPeVpIVGlOQVJjNXlzX2JZU080UnNiMlRpYzhMZDdUQ3ZUaHFKdTFhMno1aURZc0tIeTlXR2thOXgwTmNMRWtyNDl3UnFtTWtIS28yMFNWUi1rMlBnVjVJMmM5RmNOXzJXa3BRU3VLWmZLTHNpOU56VEl1RVhzU1BaQ3ZFeGxfSmttQkJuVlJNYUVHN2xkRkhQV2c?oc=5",
-          "publishedAt": "Wed, 11 Nov 2026 06:01:23 GMT",
-          "sourceName": "RUБЕЖ"
-        },
-        {
-          "title": "Национальная премия и форум «Лидеры проектирования 2026» - RUБЕЖ",
-          "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxNYUtwTVE2WEd4ckVQd21XVGFGT2FWM0NQM1ZaNFdrM2tCY1RtV2NvMWdJMEhpSXdHNnZLS1A4bm90LXFoeVUtdExTWlRub3ZwaUNjUWpoWi1xcU9HRU1xQVhSb1lEUzM2d3pWSU5ySk9tVHNWWTh1c3I3Q1VqWG9SRm91S1NMWUg5WF9ZNjZ3VlBOTWs?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 22:44:57 GMT",
+          "publishedAt": "Tue, 10 Nov 2026 08:00:00 GMT",
           "sourceName": "RUБЕЖ"
         },
         {
@@ -736,17 +730,23 @@ export const liveMarketSnapshot = {
     "health-hero": {
       "companyId": "health-hero",
       "companyName": "Health Hero",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 2,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 18 Nov 2026 08:17:20 GMT",
-      "latestTitle": "Биолог из Челябинска выиграла премию молодых предпринимателей с персональным медицинским ИИ-ассистентом - Хорошие новости Челябинской области",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMzN2WTlieWlqcDNlSzlkVlluRGJnSTNFUFR0NjB0clNWSEZ0WlN2aHVqRTRCOTEyOWJXa0YwVXRsMjFxN19maEFzNXVTaENfVHJaLWZwWG9pMEZUcnpIb0R0VUxmZ2VVelpUYTZOeGZoZkMtTVZGak9vTFNwNjhsbGxjV21vZVF5XzRVMk5pTHFhRDBBbnE3WHZLRWhPQ1JSN29KVjN3dFJGc1FsTEtmNTVqbERqZ01ISkl1UHdkeFN2SUxR?oc=5",
-      "latestSourceName": "Хорошие новости Челябинской области",
+      "latestPublishedAt": "Mon, 23 Nov 2026 08:59:40 GMT",
+      "latestTitle": "Челябинку признали одним из лучших молодых предпринимателей России - 1obl.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORTNLVTNkSHM5blVpZE9pQVlRek83bTBpQWF3aXkxY1BSREJnRkpPYTJ4RW91QnJLeHF6aDdBUExBMWszY0MxV2IyZV83RXUwUlBJSXBoSUgtemRzem5EaWR3dkQyc1IwZ2R0NEdrWjhDcVFLZGtJMHIyNmlOX29JUzFJWHVLeW82LTBCOHBjRVZBY0hEVnB2ZmdmTlp2WVBPZi1URnBfbVVlc2RIM05YVThBdw?oc=5",
+      "latestSourceName": "1obl.ru",
       "sources": [
+        {
+          "title": "Челябинку признали одним из лучших молодых предпринимателей России - 1obl.ru",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORTNLVTNkSHM5blVpZE9pQVlRek83bTBpQWF3aXkxY1BSREJnRkpPYTJ4RW91QnJLeHF6aDdBUExBMWszY0MxV2IyZV83RXUwUlBJSXBoSUgtemRzem5EaWR3dkQyc1IwZ2R0NEdrWjhDcVFLZGtJMHIyNmlOX29JUzFJWHVLeW82LTBCOHBjRVZBY0hEVnB2ZmdmTlp2WVBPZi1URnBfbVVlc2RIM05YVThBdw?oc=5",
+          "publishedAt": "Mon, 23 Nov 2026 08:59:40 GMT",
+          "sourceName": "1obl.ru"
+        },
         {
           "title": "Биолог из Челябинска выиграла премию молодых предпринимателей с персональным медицинским ИИ-ассистентом - Хорошие новости Челябинской области",
           "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxPMzN2WTlieWlqcDNlSzlkVlluRGJnSTNFUFR0NjB0clNWSEZ0WlN2aHVqRTRCOTEyOWJXa0YwVXRsMjFxN19maEFzNXVTaENfVHJaLWZwWG9pMEZUcnpIb0R0VUxmZ2VVelpUYTZOeGZoZkMtTVZGak9vTFNwNjhsbGxjV21vZVF5XzRVMk5pTHFhRDBBbnE3WHZLRWhPQ1JSN29KVjN3dFJGc1FsTEtmNTVqbERqZ01ISkl1UHdkeFN2SUxR?oc=5",
@@ -978,8 +978,8 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -993,12 +993,6 @@ export const liveMarketSnapshot = {
           "title": "Европа нарастит траты на оборону до €620 млрд. Строительные компании уже делят заказы - prospect.com.ru",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQjBVbTFDaUhvSVpnZ0tlY1ZWRlpPTXg5YUhxaHpXZFBQY2o1VktjZ2U0RWFxNnk2ODNOckk5SWhZVmxEUXh1cEJyNnVKY1ZmZ0lRQUFDVm04clA0VG9qWFpqUmJJQWEwRG5nYWV4VWJvQmg2UGhpTVoySlJSeWRyamIyNGxpY0xIbzM3S1ZqdEpUY1ZjVHFkaXRGQ1g0UG94VDB3SVoxQzRSalU1QzJyT1E3LV9uSERwanRlUXJsMENIZU0?oc=5",
           "publishedAt": "Sun, 22 Nov 2026 11:44:07 GMT",
-          "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "Строительные компании в Европе хотели бы поучаствовать в военных проектах - СМИ - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeV9ERzVfWUcxTEZ2OS1KcVNSbzhRd0pDVzNESWxneHlvN2tSRGJWdkwyTHpYejRZeFRsRUZ4bHdwSmptZmdqZE9ndV9VdzlTbTB4cFJ1dEVJV0ZhbEpVV0NpU09oWU85YTJHcE5DakoxekJySnU5WGU2WklKX2ZpZExCZWF6QkJnMnBIMTdWUjU0YkJHTHlVTS0tTUw0VE9Mck9lSHV2TXBBbjVkTVBqby13NS1ZdWRidEE?oc=5",
-          "publishedAt": "Sat, 21 Nov 2026 23:22:29 GMT",
           "sourceName": "prospect.com.ru"
         }
       ]
@@ -1027,11 +1021,17 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sat, 21 Nov 2026 08:39:19 GMT",
-      "latestTitle": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
+      "latestPublishedAt": "Sun, 22 Nov 2026 07:09:37 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Sun, 22 Nov 2026 07:09:37 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Русский ИИ против западных: как новая нейросеть наконец-то научилась читать смыслы между строк (а не просто субтитры) - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE50Y2NXMjB1QnlxOG14TFZYQUV4ZHd1UW9RM3lRZGR1VlltbF9TNE9vOTd6aVlkbVpxMmRIdzJLaUpiNml5SnpJYjlUYVZnakdyRWc?oc=5",
@@ -1042,12 +1042,6 @@ export const liveMarketSnapshot = {
           "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
           "publishedAt": "Thu, 19 Nov 2026 22:44:45 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Thu, 19 Nov 2026 12:48:20 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1359,7 +1353,7 @@ export const liveMarketSnapshot = {
       "companyName": "Охват",
       "sourceCount30d": 7,
       "sourceCount7d": 4,
-      "fundingMentions": 0,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
@@ -1375,10 +1369,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Варяг медиа"
         },
         {
-          "title": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 13:42:35 GMT",
-          "sourceName": "spbIT"
+          "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
+          "sourceName": "AdIndex.ru"
         },
         {
           "title": "CTV-реклама на Smart TV: охват и конверсии в одном канале - Т-Бизнес секреты",
