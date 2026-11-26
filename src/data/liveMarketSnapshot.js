@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-25T03:50:23.560Z",
+  "generatedAt": "2026-11-26T11:36:49.792Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -99,7 +99,7 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -127,34 +127,28 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5KazZtckY0aHhqNVFrLW85Mmk0cldUbEUxb0xkT1psWGRlUkRENXN6SmcxQ3E2UFJCN1pvc2NPVlVvcW53a3AtbEt4SUZSeG4xU2g4WnBkNGx6dno1aURtSGgtOWoxRDJ0ZHlqQjRnY9IBdEFVX3lxTE92ZG5UaEhLMUtFT1dkUWo0NVlyenh0bFVTVDBrbjJwRW1vT1ZteEQ2VExYY29GQ2tpZlBycm1LZndKMEJMaWpmeVpicVFnVjZvQmhCdkF2RzhlNk9uNDdQV0tmcXd4UEdwMXFRdFVWQXNTR0hh?oc=5",
           "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
           "sourceName": "Автоновости дня"
-        },
-        {
-          "title": "Вместо Changan Alsvin: почему Lada Iskra и Vesta дешевле на 400–600 тыс. рублей, но выгоднее по гарантии — и когда ждать вариатор на Granta - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxORFQzbXV6YVdESFBZNVozUGVfdmU2Y2p0ZXdaLUZCbEw4Rm94MnJmeVJPSWFiaTg1ODVvRWVJOHRKcS1xNkxXZUR5MWhyTXktSDN6cWx1Qk9TU29VcFJqTDJtS1dkRjBFYngyUnZ5cW1HQnEzY3FrcC1yODRuazRwUVZtYXFfajUzYWlvYjBRYjlzNHR5Z2UydFRfMVA?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 07:00:00 GMT",
-          "sourceName": "110km.ru"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 5,
-      "sourceCount7d": 0,
-      "fundingMentions": 1,
+      "sourceCount30d": 4,
+      "sourceCount7d": 1,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-      "latestTitle": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
-      "latestSourceName": "Sostav.ru",
+      "latestPublishedAt": "Thu, 26 Nov 2026 08:37:30 GMT",
+      "latestTitle": "Just AI открывает командный доступ к Jay Flow — платформе для работы с нейросетями на одном холсте - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MTWhkcGhXZ3JZMEsxalEycFViVTF6M2RsZ1gydDhjTWxuaGU5VVRSVXBQYW9LVmtHZWxtVFVEYmI0Rl9SQ1pSZ3RlSEdpYjNSNXpTYjA5NnhRU01tX1YyNzBvRzl4dUtzWFg5aXl6aTNmcW9ZdGNMYw?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
         {
-          "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
-          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
-          "sourceName": "Sostav.ru"
+          "title": "Just AI открывает командный доступ к Jay Flow — платформе для работы с нейросетями на одном холсте - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MTWhkcGhXZ3JZMEsxalEycFViVTF6M2RsZ1gydDhjTWxuaGU5VVRSVXBQYW9LVmtHZWxtVFVEYmI0Rl9SQ1pSZ3RlSEdpYjNSNXpTYjA5NnhRU01tX1YyNzBvRzl4dUtzWFg5aXl6aTNmcW9ZdGNMYw?oc=5",
+          "publishedAt": "Thu, 26 Nov 2026 08:37:30 GMT",
+          "sourceName": "CNews.ru"
         },
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
@@ -173,12 +167,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxOU3RUUTJIajNGQVAtdllCNk1rWXdfVE1IQVBpUHdyWVF4cGRHRE5CcGpHODMwc1RXN1Nzd1BMNUtkUEJsZWlsTy12X3c0VHpabzBOdDk3bGVXS3BYYU9UUm4zbnNGQzgxY25hall0OWJqZlp0MFNOSXVRUVFkU2JPaFpxOXl0ZVlxU2ZxQWJMeGktQ3BUeTE0?oc=5",
           "publishedAt": "Wed, 28 Oct 2026 07:00:00 GMT",
           "sourceName": "Ведомости"
-        },
-        {
-          "title": "Умение делегировать: Just AI вложил 400 млн рублей в студию для создания ИИ-агентов - Forbes.ru",
-          "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxNOUxOdVZWQlFET0FFZ0g1M3RweUpLbERuMGFOSmdxYmdnaXplcGZTVmtvQlhHWl9UTTlsUGNJWEtScjZEME4zRTZSbnlTMGNyMkdoVEc4eDM5ZHpxVlhqUTdyMUlUQ3l5Q3FYQW1jR0h1Vjhfa05BemlwTy1XVUFZaXAtZnZqajZ4WDl6ZDhTWnM0OThYQW1BOTZVTGkybWVLRVJwMm8weXVIdWloX0ZYakp6Qkw5a1ZpWkQzd3ItZw?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "Forbes.ru"
         }
       ]
     },
@@ -200,38 +188,39 @@ export const liveMarketSnapshot = {
     "neiry": {
       "companyId": "neiry",
       "companyName": "Neiry",
-      "sourceCount30d": 0,
-      "sourceCount7d": 0,
+      "sourceCount30d": 1,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Wed, 25 Nov 2026 19:00:00 GMT",
+      "latestTitle": "Российские голуби-биодроны готовы к коммерческим полётам: Neiry начала принимать заказы на птичью аэрофотосъёмку - 3DNews",
+      "latestUrl": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSDZydlhFR1FWek5rZXpsYVlaTkJGUlNBeWRkM3J2Qk1HRXBubW5UQlQ3d0JDbzdYM1Z3ZGVMTnlmQzJzUTI1Q3hKWndCYm5uSHpyQVIwMUdFNEFZQ3M0UjJ6Mk5yMVk2SEk5VXhCcEt4YlBYbjJTdkRiNnJTNGt4eDJuS281OW1CRm93VzZKb1lrdHg1SW92Rkh5blpjX1NLSjk3c285aldDZUNrRWFpTkpRU2tXWlRJVjZZbHo5eHZ5d3FzSW1QeGpmMkdKQjF5RFhlUlR30gHbAUFVX3lxTE1RaHJwU2Y4Z0dZRDhMcEtIUUtlZGo1dTkwU1FTLWlFazBZTEItU1pIVmJncjRqZVpEMm9UaXItX2w4Rl9TekpRcEJ1Q0ttaTk2LXpBQ3F2a1RXVzhhek04MW5JbERTWTZTcnExZDlodFdPZmRJb21FYk5ONEVGM2dncHhhM3AwQTVmNjlWQmlWNlBHUFEzQVU3SlFXZXp6NFJiaEZJNDdVeWhXSHljby1qd1hueW51cVBhMUxFdVhPNEZveUJnbGYxRE1FcEZmSElPTkpLRlhRbWlhaw?oc=5",
+      "latestSourceName": "3DNews",
+      "sources": [
+        {
+          "title": "Российские голуби-биодроны готовы к коммерческим полётам: Neiry начала принимать заказы на птичью аэрофотосъёмку - 3DNews",
+          "url": "https://news.google.com/rss/articles/CBMi1gFBVV95cUxPSDZydlhFR1FWek5rZXpsYVlaTkJGUlNBeWRkM3J2Qk1HRXBubW5UQlQ3d0JDbzdYM1Z3ZGVMTnlmQzJzUTI1Q3hKWndCYm5uSHpyQVIwMUdFNEFZQ3M0UjJ6Mk5yMVk2SEk5VXhCcEt4YlBYbjJTdkRiNnJTNGt4eDJuS281OW1CRm93VzZKb1lrdHg1SW92Rkh5blpjX1NLSjk3c285aldDZUNrRWFpTkpRU2tXWlRJVjZZbHo5eHZ5d3FzSW1QeGpmMkdKQjF5RFhlUlR30gHbAUFVX3lxTE1RaHJwU2Y4Z0dZRDhMcEtIUUtlZGo1dTkwU1FTLWlFazBZTEItU1pIVmJncjRqZVpEMm9UaXItX2w4Rl9TekpRcEJ1Q0ttaTk2LXpBQ3F2a1RXVzhhek04MW5JbERTWTZTcnExZDlodFdPZmRJb21FYk5ONEVGM2dncHhhM3AwQTVmNjlWQmlWNlBHUFEzQVU3SlFXZXp6NFJiaEZJNDdVeWhXSHljby1qd1hueW51cVBhMUxFdVhPNEZveUJnbGYxRE1FcEZmSElPTkpLRlhRbWlhaw?oc=5",
+          "publishedAt": "Wed, 25 Nov 2026 19:00:00 GMT",
+          "sourceName": "3DNews"
+        }
+      ]
     },
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 2,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
-      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
-      "latestUrl": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
-      "latestSourceName": "Ростех",
+      "latestPublishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
+      "latestTitle": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRkVNc1BFcWlWYUctbER4MjhINV9lLUtEVTNHYW1PVnVqWmp6TWNXUjdvQWtYTlN0QXFJVGVjSnJLWGdpRVl6X3VOSlhBXzJNM2ZvWHE0MjBVWjZMOVAzRVdDY29kRDFHQ2xzVGM1VU9MOEJhTnNvYndjcDlkZkFYR0JoYk5KR1dpLTJHR0F2cHNlRDZwMDBKTkZWUDJ0cmxSaGE3Z2hnazNyZUpTLU5rc1UtOWoteFRaMUlMWTNxN3hhTlU?oc=5",
+      "latestSourceName": "RTVI",
       "sources": [
-        {
-          "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - Ростех",
-          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQbTVBeVI4cVZwMjJMOU16N1FXT0xKcjVfYnRWQWxtbFVQSXlZc2N3S0NaRXMtQmhOM1hPaC1iZV95TWI1NGVZSzhLV2dlR3prU3dHdmswaWE1RWZwSkxTZ1VWVHZ0NkxjVHRENUtwSVdKRk1OdHJvREZEbjg0ZVVKVVVfSW40dUtOXzloNWtFanhjY2xhZnFHNVdSeHptZVhpVmVYU1hqQ2pfSGw3R2ZHRjlPMW1xRnJQUktPakRfM21RWXZW?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 13:31:51 GMT",
-          "sourceName": "Ростех"
-        },
         {
           "title": "Искусственный интеллект NtechLab помог найти более 8 тысяч преступников в Новосибирской области - RTVI",
           "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRkVNc1BFcWlWYUctbER4MjhINV9lLUtEVTNHYW1PVnVqWmp6TWNXUjdvQWtYTlN0QXFJVGVjSnJLWGdpRVl6X3VOSlhBXzJNM2ZvWHE0MjBVWjZMOVAzRVdDY29kRDFHQ2xzVGM1VU9MOEJhTnNvYndjcDlkZkFYR0JoYk5KR1dpLTJHR0F2cHNlRDZwMDBKTkZWUDJ0cmxSaGE3Z2hnazNyZUpTLU5rc1UtOWoteFRaMUlMWTNxN3hhTlU?oc=5",
@@ -243,33 +232,27 @@ export const liveMarketSnapshot = {
     "piklema": {
       "companyId": "piklema",
       "companyName": "Piklema",
-      "sourceCount30d": 6,
-      "sourceCount7d": 4,
-      "fundingMentions": 1,
+      "sourceCount30d": 4,
+      "sourceCount7d": 3,
+      "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
       "latestPublishedAt": "Tue, 24 Nov 2026 20:15:34 GMT",
-      "latestTitle": "Piklema: цифровые советчики для горной промышленности - Добывающая промышленность",
+      "latestTitle": "Piklema: цифровые советчики для горной промышленности - dprom.online",
       "latestUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM09yOTNUdnpibVh4SkxKN1p3Rm9TOS1BQmtmLTNCemFnZ1h0aUwtckRDU3Bpc2ZXc1VVb3RTUGs0eEJpMHNGN3VuZTdFMVNtZ1dldzlnOHJZa3ZkdGpjM1BBX1ktNTJZTFZhVktXakUtbTAtTnRxOFA3Yk9oWnFLMDg5QkNEWno2aEd4bzBlelRXRTh0UndOQU1RQlp1UQ?oc=5",
-      "latestSourceName": "Добывающая промышленность",
+      "latestSourceName": "dprom.online",
       "sources": [
         {
-          "title": "Piklema: цифровые советчики для горной промышленности - Добывающая промышленность",
+          "title": "Piklema: цифровые советчики для горной промышленности - dprom.online",
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM09yOTNUdnpibVh4SkxKN1p3Rm9TOS1BQmtmLTNCemFnZ1h0aUwtckRDU3Bpc2ZXc1VVb3RTUGs0eEJpMHNGN3VuZTdFMVNtZ1dldzlnOHJZa3ZkdGpjM1BBX1ktNTJZTFZhVktXakUtbTAtTnRxOFA3Yk9oWnFLMDg5QkNEWno2aEd4bzBlelRXRTh0UndOQU1RQlp1UQ?oc=5",
           "publishedAt": "Tue, 24 Nov 2026 20:15:34 GMT",
-          "sourceName": "Добывающая промышленность"
+          "sourceName": "dprom.online"
         },
         {
           "title": "Piklema расскажет о новых «цифровых советчиках» - Добывающая промышленность",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSm5yUEx1ZEYtS0tDbWMzc3o3bDNOcjZUR1FaOW05b1Rvd2hUeTFGeFh3ZS0wOUNwS1UyaGlEbWM5cVp5QjdjT2h4MVVyeW01NjBWR1IzeTZiVlNkSUp0Y210c0x5QmR5QnpPQ0VGcU9kMHhYQy14UjI2N1RTNGhqLS1JVHhxT0YtZkE?oc=5",
           "publishedAt": "Tue, 24 Nov 2026 11:03:39 GMT",
-          "sourceName": "Добывающая промышленность"
-        },
-        {
-          "title": "«Пиклема» и ПИР будут развивать решения для роботизации и цифровизации горнодобывающей отрасли - Добывающая промышленность",
-          "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxQRnVmUklGNXZicEJxVURmbFNvNllVU1lySDBUQk1sVmIwSUFmWXYwNmJJd0gwTS1FR0VTTkVKY01nQ0daSjc2TVFzdFcyUzV5bU95WVFOYnhJd2RJa1hlSm5zTjAxR1NuQ29jdE9BQWp4dTE4RmtjUXFmYnNKTEd5aQ?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 05:15:21 GMT",
           "sourceName": "Добывающая промышленность"
         },
         {
@@ -335,7 +318,7 @@ export const liveMarketSnapshot = {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
       "sourceCount30d": 6,
-      "sourceCount7d": 3,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 1,
       "launchMentions": 0,
@@ -418,7 +401,7 @@ export const liveMarketSnapshot = {
       "companyId": "visionlabs",
       "companyName": "VisionLabs",
       "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -439,23 +422,17 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
-      "sourceCount7d": 2,
+      "sourceCount30d": 2,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 24 Nov 2026 11:39:05 GMT",
-      "latestTitle": "Google запустила специализированный ИИ-сервис для медицины Gemini for healthcare - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkYVdpMWhDajc5QnJCWUs0RjkwSWo1MTJWaEZFcGZtc2RkT3YxTWNyUVczMElMcmRkLVIwLXZEZmN2TFhTY1FrSlFZcDZHTEw0UnlPQ09WZUxFa2c?oc=5",
+      "latestPublishedAt": "Wed, 18 Nov 2026 18:46:38 GMT",
+      "latestTitle": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYUxxX2Q2R25XQXM3UDFEYzdJLUNzMUVYc2MtOEdQRlV5Q0txSzZfeGVacTdUczdBMndSVlJycUtFTHE1TXJBaDBBWXQ4c1RqQjdiY2JBekFZSFg3MkoyQk5Zd254Y0pUZklqQkMxcDZJMlF2YmR4UUFB?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
-        {
-          "title": "Google запустила специализированный ИИ-сервис для медицины Gemini for healthcare - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFBkYVdpMWhDajc5QnJCWUs0RjkwSWo1MTJWaEZFcGZtc2RkT3YxTWNyUVczMElMcmRkLVIwLXZEZmN2TFhTY1FrSlFZcDZHTEw0UnlPQ09WZUxFa2c?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 11:39:05 GMT",
-          "sourceName": "Webiomed"
-        },
         {
           "title": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYUxxX2Q2R25XQXM3UDFEYzdJLUNzMUVYc2MtOEdQRlV5Q0txSzZfeGVacTdUczdBMndSVlJycUtFTHE1TXJBaDBBWXQ4c1RqQjdiY2JBekFZSFg3MkoyQk5Zd254Y0pUZklqQkMxcDZJMlF2YmR4UUFB?oc=5",
@@ -623,23 +600,17 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 24 Nov 2026 15:56:25 GMT",
-      "latestTitle": "Canva в России в 2026 году. Как работает сервис и чем его заменить - SecurityLab.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xYlRGenJfQmg1cnFsaldRbm9ZN2J6NnA1Z2lQZ1I1ZktacXRkem90OTdtQnJ2QlBDZ2FvTHktYUFPMTVtNUhZelR3ajdXQ2ZDNmR4bTN2UlhWWHFJVmhTWVhhSUZrOUtnMFgzckN1THc?oc=5",
-      "latestSourceName": "SecurityLab.ru",
+      "latestPublishedAt": "Thu, 19 Nov 2026 17:06:00 GMT",
+      "latestTitle": "Flyvi или SUPA для визуалов без дизайнера? - quasa.io",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSjlrdmdhTFJVQjhKUTZJZG5QX3FEeEQ1UlFGLWRNVmd4MFBnQ2NnZWFpOWU0OEY4WlpBTWs0eHh0VUhZN1NUcHlDTWt1d0FXOTJIc3VxOUhpUngteGhkQjF3ZHhnbFFDc25KRV92SzNoQWhfRzFyaHdn?oc=5",
+      "latestSourceName": "quasa.io",
       "sources": [
-        {
-          "title": "Canva в России в 2026 году. Как работает сервис и чем его заменить - SecurityLab.ru",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xYlRGenJfQmg1cnFsaldRbm9ZN2J6NnA1Z2lQZ1I1ZktacXRkem90OTdtQnJ2QlBDZ2FvTHktYUFPMTVtNUhZelR3ajdXQ2ZDNmR4bTN2UlhWWHFJVmhTWVhhSUZrOUtnMFgzckN1THc?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 15:56:25 GMT",
-          "sourceName": "SecurityLab.ru"
-        },
         {
           "title": "Flyvi или SUPA для визуалов без дизайнера? - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSjlrdmdhTFJVQjhKUTZJZG5QX3FEeEQ1UlFGLWRNVmd4MFBnQ2NnZWFpOWU0OEY4WlpBTWs0eHh0VUhZN1NUcHlDTWt1d0FXOTJIc3VxOUhpUngteGhkQjF3ZHhnbFFDc25KRV92SzNoQWhfRzFyaHdn?oc=5",
@@ -717,7 +688,7 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 5,
+      "sourceCount30d": 6,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -741,6 +712,12 @@ export const liveMarketSnapshot = {
           "sourceName": "www.innov.ru"
         },
         {
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 17:05:08 GMT",
+          "sourceName": "prospect.com.ru"
+        },
+        {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNX0hrZ2cyd2UxQzBmdW9BQmZ6eERvT3AzZGZ1NDJCUFpMTmM0enFmMjZLMXlEcGhmeFJhZXBQOHZrLWlGZ0o4WlEzc0VsNjVnNWN2Q0hCVWprMkFLRExtVm11QXNveVdNUlU5N3pnSzBIbXpxY2JOWkZkaWRKLTZKMG9aVjU?oc=5",
           "publishedAt": "Fri, 13 Nov 2026 08:00:00 GMT",
@@ -751,12 +728,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQRWZMQmR2NThKTUl5a1puUktqdk1WM2tXNUhKVUVzY1F2amFsVDEtWXc5d1JyUGNEbDdEaC1UYTVsZ1IySWVDejgxVm5aNHk3b0J2WXI2OTd0cF9OMUdLM3kxem5UaHVtTkdHRHdCb2doQ1FzOEE4eWlQdDZvc0RLRTB0Um9kOVh6R3JrRmt3VktXQlNRQS1tV0haSkdIY0lZNlI0TWd3?oc=5",
           "publishedAt": "Thu, 12 Nov 2026 16:58:45 GMT",
           "sourceName": "gosrf"
-        },
-        {
-          "title": "«Билайн Adtech» и Gradius договорились о сотрудничестве в сфере рекламных технологий - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNTmNOQ0RScFB4RU45cG1vUVNtSVZBNXdySzJqS0FRTlRoaVlJbTQ5OGN3aXFEZTFjYVRpbml6NVM1LWhxdmNvX1htbzNqR0RpZHl2N0x5WU8yX2VtTE1UeVhyUFIxaHljdUhNSk9iOE15Zkh5SjE1bFliSmloM3ByUGNmTmliZUVoYzZTOENiQTJyN0NhU3BmZG1WNU5BUGRCa2NjdEFIdDNZbnZsM0VJOFlKaWNiaFBhUXRkT1EyWnRQWENZZ0pLRw?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT",
-          "sourceName": "Sostav.ru"
         }
       ]
     },
@@ -779,7 +750,7 @@ export const liveMarketSnapshot = {
       "companyId": "health-hero",
       "companyName": "Health Hero",
       "sourceCount30d": 4,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -878,17 +849,23 @@ export const liveMarketSnapshot = {
     "milo": {
       "companyId": "milo",
       "companyName": "M.I.L.O.",
-      "sourceCount30d": 1,
+      "sourceCount30d": 2,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 19 Nov 2026 05:39:03 GMT",
-      "latestTitle": "Совет: Купите банку солодового молока Milo объемом 240 мл и получите бесплатный подарок (действует региональное предложение с 12 по 30 ноября). - Vietnam.vn",
-      "latestUrl": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRy1ESDhRUFFlVUp1Zmh0cmE1YUdwT3lJd1dheVk4Ukw2aFJudnJRR2MtaVhnTmNOcTdIUUt0SGpUa1NzZ0dLYUZJSkRSbjJHYlp3dXdFQUhLM0xyZklkNG96TWJfMFMxY3kxRW9veWdhbHdqa3lGSFVIOWV0THVwdXZHbHlVY3VOUndWVGczU0xLRHRxdWhTcENiUHFuUTRnOUc0eTB4R3BNdEFvX2N5OThnRlc4N19tbDl4UA?oc=5",
-      "latestSourceName": "Vietnam.vn",
+      "latestPublishedAt": "Wed, 25 Nov 2026 15:25:26 GMT",
+      "latestTitle": "Aape и Baby Milo выпустили совместную коллекцию - Buro 24/7",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAxRHpzNjcyalA0dzlMZ0xtWHh5S0o5dmg3bFZLcmdvRjNhb2g0djB0R0l0ZUZ0QnV5OUJ0S3pZUHpWSkl1NnfSAUZBVV95cUxQMUR6czY3MmpQNHc5TGdMbVh4eUtKOXZoN2xWS3Jnb0YzYW9oNHYwdEdJdGVGdEJ1eTlCdEt6WVB6VkpJdTZ3?oc=5",
+      "latestSourceName": "Buro 24/7",
       "sources": [
+        {
+          "title": "Aape и Baby Milo выпустили совместную коллекцию - Buro 24/7",
+          "url": "https://news.google.com/rss/articles/CBMiRkFVX3lxTFAxRHpzNjcyalA0dzlMZ0xtWHh5S0o5dmg3bFZLcmdvRjNhb2g0djB0R0l0ZUZ0QnV5OUJ0S3pZUHpWSkl1NnfSAUZBVV95cUxQMUR6czY3MmpQNHc5TGdMbVh4eUtKOXZoN2xWS3Jnb0YzYW9oNHYwdEdJdGVGdEJ1eTlCdEt6WVB6VkpJdTZ3?oc=5",
+          "publishedAt": "Wed, 25 Nov 2026 15:25:26 GMT",
+          "sourceName": "Buro 24/7"
+        },
         {
           "title": "Совет: Купите банку солодового молока Milo объемом 240 мл и получите бесплатный подарок (действует региональное предложение с 12 по 30 ноября). - Vietnam.vn",
           "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxQRy1ESDhRUFFlVUp1Zmh0cmE1YUdwT3lJd1dheVk4Ukw2aFJudnJRR2MtaVhnTmNOcTdIUUt0SGpUa1NzZ0dLYUZJSkRSbjJHYlp3dXdFQUhLM0xyZklkNG96TWJfMFMxY3kxRW9veWdhbHdqa3lGSFVIOWV0THVwdXZHbHlVY3VOUndWVGczU0xLRHRxdWhTcENiUHFuUTRnOUc0eTB4R3BNdEFvX2N5OThnRlc4N19tbDl4UA?oc=5",
@@ -901,12 +878,12 @@ export const liveMarketSnapshot = {
       "companyId": "mnogoreels",
       "companyName": "MnogoReels",
       "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 17:36:15 GMT",
+      "latestPublishedAt": "Tue, 24 Nov 2026 14:19:58 GMT",
       "latestTitle": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
       "latestUrl": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
       "latestSourceName": "Sostav.ru",
@@ -914,7 +891,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Как превратить час видео в контент на неделю: тест MnogoReels и сравнение с зарубежными AI-сервисами - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTFBCeDZyTnpZY3VWWWJjcGYzV2NUMjBZWFRMRl9VOVVJaEZFWENSMFpLRDFXRU1HVWNWVUFUb1ctV3RWazdFMEVVcGRybEMySklRaWQ4?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 17:36:15 GMT",
+          "publishedAt": "Tue, 24 Nov 2026 14:19:58 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
@@ -1075,21 +1052,21 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 23 Nov 2026 11:41:12 GMT",
-      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+      "latestPublishedAt": "Wed, 25 Nov 2026 01:30:25 GMT",
+      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
         {
-          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Mon, 23 Nov 2026 11:41:12 GMT",
+          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+          "publishedAt": "Wed, 25 Nov 2026 01:30:25 GMT",
           "sourceName": "Sostav.ru"
         },
         {
-          "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
-          "publishedAt": "Sun, 22 Nov 2026 07:09:37 GMT",
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Tue, 24 Nov 2026 18:39:01 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1178,12 +1155,12 @@ export const liveMarketSnapshot = {
     "trigga": {
       "companyId": "trigga",
       "companyName": "Trigga",
-      "sourceCount30d": 3,
+      "sourceCount30d": 2,
       "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 3,
+      "dealMentions": 2,
       "launchMentions": 0,
-      "tractionMentions": 3,
+      "tractionMentions": 2,
       "latestPublishedAt": "Fri, 20 Nov 2026 08:05:35 GMT",
       "latestTitle": "Как маркетинговому агентству находить клиентов: 7 рабочих каналов - Т—Ж",
       "latestUrl": "https://news.google.com/rss/articles/CBMib0FVX3lxTE5Ra01yS0JkQmhoc1Nma2FUNUplVnVmcnN0Z2xTRkI0SnYzOU9GMFJLR25zcmxwNG1jWFcwOF9Feml5U2lQWW1EN21aZk04LXV3LVB4OGFRTXowN0JpNFM3YnZrbmlwcVJ5Z05mYThQbw?oc=5",
@@ -1200,12 +1177,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5PM3ZDNzdUTDhpaEc3STRFekR0Mk1zS2NUWjZybWRYLWpjN09vc0x0cm5Mb1dhOUc3ZXhVTWNHZVRFZGg4cG1QN3JsT3dueU14akNz?oc=5",
           "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT",
           "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "Как в SaaS найти первых b2b-клиентов: 5 каналов продвижения - Т—Ж",
-          "url": "https://news.google.com/rss/articles/CBMiY0FVX3lxTFBuQU9HdVlvXzdqVnVMLTcwVl9mSGk5SnRLcFdrUm9pdUlqZG1sNG50VWFDQ0J0clVSQ0tIZ013X19LMWd3SXJWcU5WOXUwc1BLUlNKVm5mQUdRZ1p0cG5zZzNHZw?oc=5",
-          "publishedAt": "Tue, 27 Oct 2026 07:00:00 GMT",
-          "sourceName": "Т—Ж"
         }
       ]
     },
@@ -1398,17 +1369,29 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 10,
-      "sourceCount7d": 7,
+      "sourceCount30d": 8,
+      "sourceCount7d": 4,
       "fundingMentions": 1,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 24 Nov 2026 14:08:00 GMT",
-      "latestTitle": "Туркменистан намерен обеспечить охват всех населенных пунктов связью 4G и 5G - Интерфакс",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxamVJbzFUSnRpcTFYNXdQRUxHRWlvT1NpVDBaMjB6WDJtNlp2OHd3MW9QOVpKdEZpN0xLNlF5cmRwSGRweEFYdzJRMGtlZ9IBS0FVX3lxTE9XZzFwM2hITjAtSjg1aks3U0Z6ZUZaWGk4eGJqSTFCOGxtNjcyWXdPM2FWYnBVMi1IVnNDcHF1MGdxTVl0V3YzTjNpVQ?oc=5",
-      "latestSourceName": "Интерфакс",
+      "latestPublishedAt": "Thu, 26 Nov 2026 09:53:16 GMT",
+      "latestTitle": "Нина Подгорнова: «Охваты и медийность не гарантируют успешного сотрудничества с амбассадором» - irbis.spb.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWXVSMlpjd0ZQc2JvZWFNV3liT3lDUTcyNFU4Tm5Ra1BfVVByNnJaZEdETzVGVlFaMXN0MmNMZm9NU0F0amg3YWstLThkQzFZYWZ0aFVlUjlESGF1LS11Q2dRdzl4MmtWR2dERzBkR0pJQl9RMjJyU01IWDhLZmVEX1B0SUZSSHJrbkRpQVl2YUdlanBzWEROSWwxRUstZEZscmlUMWVmeW1IS2d3eThSNHFuNUVLb0I4ZTJDZHkzTUlUc2xfNGVXYUtYRQ?oc=5",
+      "latestSourceName": "irbis.spb.ru",
       "sources": [
+        {
+          "title": "Нина Подгорнова: «Охваты и медийность не гарантируют успешного сотрудничества с амбассадором» - irbis.spb.ru",
+          "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOWXVSMlpjd0ZQc2JvZWFNV3liT3lDUTcyNFU4Tm5Ra1BfVVByNnJaZEdETzVGVlFaMXN0MmNMZm9NU0F0amg3YWstLThkQzFZYWZ0aFVlUjlESGF1LS11Q2dRdzl4MmtWR2dERzBkR0pJQl9RMjJyU01IWDhLZmVEX1B0SUZSSHJrbkRpQVl2YUdlanBzWEROSWwxRUstZEZscmlUMWVmeW1IS2d3eThSNHFuNUVLb0I4ZTJDZHkzTUlUc2xfNGVXYUtYRQ?oc=5",
+          "publishedAt": "Thu, 26 Nov 2026 09:53:16 GMT",
+          "sourceName": "irbis.spb.ru"
+        },
+        {
+          "title": "От детализации до глобального охвата: представлен новый спутник Freetail 5 - Naked Science",
+          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsWXVGMW1TNmxWbVhkU0cyUWY1OEYtNjhSMjctVWFrWjRtMDZZNlZIbFpyQTlwVGhxNThoUzd3akg2Z21Vc1M3Zm1EblBIT1BURThHeA?oc=5",
+          "publishedAt": "Wed, 25 Nov 2026 04:48:41 GMT",
+          "sourceName": "Naked Science"
+        },
         {
           "title": "Туркменистан намерен обеспечить охват всех населенных пунктов связью 4G и 5G - Интерфакс",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxamVJbzFUSnRpcTFYNXdQRUxHRWlvT1NpVDBaMjB6WDJtNlp2OHd3MW9QOVpKdEZpN0xLNlF5cmRwSGRweEFYdzJRMGtlZ9IBS0FVX3lxTE9XZzFwM2hITjAtSjg1aks3U0Z6ZUZaWGk4eGJqSTFCOGxtNjcyWXdPM2FWYnBVMi1IVnNDcHF1MGdxTVl0V3YzTjNpVQ?oc=5",
@@ -1416,27 +1399,15 @@ export const liveMarketSnapshot = {
           "sourceName": "Интерфакс"
         },
         {
-          "title": "IBTM World расширяет event-технологии и международный охват на фоне сдвига спроса покупателей - IndexBox",
-          "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQMWpyNXBRbVFiRjY1YzdZWjRnek93SFdwS1pzM1pPYlM4T0RNc2hwTXlSdVVlUGQ1Z1RBcWVhYUhFdmVUb090WHdjTm5rVDg5Y3p4RkhYSFdpXzRuY2FUa3VVd1FCdmJERzVrQWhucWY5YUpBRFhzS1lfMEpQY2U3OWxacnNPNzVlclNEaXBHSFR3dEhEaHJoaElGY2V6SGh2OU8tUjQ3SW1PZE9IQ1IwTm41SVBHdw?oc=5",
-          "publishedAt": "Mon, 23 Nov 2026 12:50:44 GMT",
-          "sourceName": "IndexBox"
+          "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
+          "sourceName": "AdIndex.ru"
         },
         {
-          "title": "Алгоритмы без барьеров: как продвигать инклюзивный контент в TikTok и получать органический охват - Дверь в мир",
-          "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNQlF0OEVLMlozNWp5akFyOVlvNmRLbFZ2Y0ZBazI1RGRSVDRyMXZndXBzc1NDd3dXMkNvTTZfRHFkZXRBYmR6WWJ2eDNRaDBtRkg5LXlCWUdaWWJTX2hZaWp1ZkJEclpSVG1tdDNacUx4NC1LcHNDdEgyWnVEMGc2ekRzRDFhZW51d296TnFDYjJOVEVkeHdjOUJUc2JPSC1pM0sxWnI4eU9IZw?oc=5",
-          "publishedAt": "Sat, 21 Nov 2026 08:56:56 GMT",
-          "sourceName": "Дверь в мир"
-        },
-        {
-          "title": "В Петербурге проверили качество и охват 5G у «большой четверки» - spbIT",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxPZzdUU1pLZU1kOGVGSS0ybnJvU096bFh1dFBGV0x4d2Y2ZGd4bms4NW9YQ2R2MnlaVDlZUUNoQmRXcWdVaEtCSnJ5V282RWxGb2I0Q3RXNlBPNkNIY0daM2IyTFJCN1RJaUNJanhpaXBSM1lKb2tYejUwZDdOLXB0bHlSdHUwOUVWUElFOGFtUTRWVmtQaG9BcVlR?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 13:42:35 GMT",
-          "sourceName": "spbIT"
-        },
-        {
-          "title": "Контент без нейросетей: как аутентичные ролики дают брендам миллионные охваты и рост продаж - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1XeWNQaE9POEFwVEZaTl9vbHhXSDd0anJhQVdWeThtSVVPN1B5RHRRNkJVU29ad1p6Yk9yd0dZQm83bFZ3alg5QkoyeWlia1EwOXRZ?oc=5",
-          "publishedAt": "Thu, 19 Nov 2026 19:59:43 GMT",
+          "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 11:14:33 GMT",
           "sourceName": "Sostav.ru"
         }
       ]
