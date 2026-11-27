@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-26T20:37:13.643Z",
+  "generatedAt": "2026-11-27T03:19:40.375Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -100,7 +100,7 @@ export const liveMarketSnapshot = {
       "companyId": "iskra",
       "companyName": "ISKRA",
       "sourceCount30d": 10,
-      "sourceCount7d": 4,
+      "sourceCount7d": 3,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 1,
@@ -123,12 +123,6 @@ export const liveMarketSnapshot = {
           "sourceName": "Новости Тольятти"
         },
         {
-          "title": "«АвтоВАЗ» перестроил подачу колес для Lada Granta и Iskra на 1,5 км - CenyAvto.com",
-          "url": "https://news.google.com/rss/articles/CBMifkFVX3lxTE5rZ0dhX01naDBrLXZaeDRib005a1JqX200VDJRNFNZdmhzNmNDY2FTZTRRMVpkeEhMdlhtdy1Pa3NsbXhLc3BlMXlrWG84WDVsblUyOGpGRFdnNnFCZzNrVEFxOFpIQjBkbE1id1hiOXFxLWZRYldiUVlnZUxmdw?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 06:47:56 GMT",
-          "sourceName": "CenyAvto.com"
-        },
-        {
           "title": "АВТОВАЗ запустил 1,5-километровую систему доставки колес для Granta и Iskra - Лада.Онлайн",
           "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNG81a01SSFY2MzJxOS0yU05nb2dfbmRaaWxnNDItRFVtdVctWmVuQldWMFgtc2tOMkFLRzZRNV9sdlpWaF9NRzVrU0VTenplY1hVa3poRWZUUFp1UElYSl81SzBvdWU2cW1rWUE4YkxJMzZma0kyd05Wck1qaXJRWEJfaS1xb0F5UGQwbU5jR1A4enpNUlg3SE5vbHNYXzBiazNFWE9SVWVqRWhRWjNXWTFyaHhPMVhaY25ySmJKeGd2aktqQ0tyRnZTamMzTzByM1laWg?oc=5",
           "publishedAt": "Fri, 20 Nov 2026 06:20:24 GMT",
@@ -139,23 +133,41 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWTUyQVZHUlJpcm5pZy1FTW5iT0RiYVdveHlTSS1BN0syNGVrZWg0VlM1U3RHalBlY2gxRTBoaDZCNzBBVlBNdU4xa1cybGstOFMtelh6dE5FV2Y4MHFNZXdiRVNvcWUySHFyaldsM2RpdzNEMTdLamk0UWczRk9rMy1TMC1DZlJ2YXdlXzBURUl2bTluaHF1elc4OWswZw?oc=5",
           "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT",
           "sourceName": "110km.ru"
+        },
+        {
+          "title": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
+          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
+          "publishedAt": "Sun, 15 Nov 2026 14:36:23 GMT",
+          "sourceName": "Телеканал ЛенТВ24"
         }
       ]
     },
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 3,
-      "sourceCount7d": 0,
+      "sourceCount30d": 5,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 2,
       "tractionMentions": 0,
-      "latestPublishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
-      "latestSourceName": "Techora.ru",
+      "latestPublishedAt": "Thu, 26 Nov 2026 09:00:23 GMT",
+      "latestTitle": "Just AI открывает командный доступ к Jay Flow — платформе для работы с нейросетями на одном холсте - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MTWhkcGhXZ3JZMEsxalEycFViVTF6M2RsZ1gydDhjTWxuaGU5VVRSVXBQYW9LVmtHZWxtVFVEYmI0Rl9SQ1pSZ3RlSEdpYjNSNXpTYjA5NnhRU01tX1YyNzBvRzl4dUtzWFg5aXl6aTNmcW9ZdGNMYw?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
+        {
+          "title": "Just AI открывает командный доступ к Jay Flow — платформе для работы с нейросетями на одном холсте - CNews.ru",
+          "url": "https://news.google.com/rss/articles/CBMieEFVX3lxTE9MTWhkcGhXZ3JZMEsxalEycFViVTF6M2RsZ1gydDhjTWxuaGU5VVRSVXBQYW9LVmtHZWxtVFVEYmI0Rl9SQ1pSZ3RlSEdpYjNSNXpTYjA5NnhRU01tX1YyNzBvRzl4dUtzWFg5aXl6aTNmcW9ZdGNMYw?oc=5",
+          "publishedAt": "Thu, 26 Nov 2026 09:00:23 GMT",
+          "sourceName": "CNews.ru"
+        },
+        {
+          "title": "5 российских платформ для автоматизации поддержки с помощью ИИ-ботов и агентов - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE5aVDk2VndHc2RfYVR5bWhpMjJ5VHBRVGJtYmFSYTQyUHdEX2I4VnZFekhGNWN1VnQ4NEViWGxVX0trNTRUYnl2RFVnSzlIRlRhajZ3?oc=5",
+          "publishedAt": "Thu, 05 Nov 2026 08:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Just AI запустила Jay Agents для создания сайтов и приложений без кода - Techora.ru",
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
@@ -222,68 +234,37 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 4,
-      "sourceCount7d": 1,
-      "fundingMentions": 0,
-      "dealMentions": 1,
-      "launchMentions": 0,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Mon, 23 Nov 2026 18:12:09 GMT",
-      "latestTitle": "В Обнинске внедрена инновационная система видеоаналитики на основе ИИ - RTVI",
-      "latestUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcDgwenMtSnBub1BPSms3TWhUVVhUT1dUQmpOU2o0cDdmS2VrZHJ3N00waHlCZUxWZGtWUWxyZURGYlpDOTBBMkU5TjVZUmpRRC0ydGFJVDR2b09UTm1VRnNydWM2MzdXN3NCRWJLV0thYVBpS0xOS0hISXQ1RnVXU1lVVzBjNVY1dnl6aGZhZmc3NkJoVlY3SFBTM2Z1dGs?oc=5",
-      "latestSourceName": "RTVI",
-      "sources": [
-        {
-          "title": "В Обнинске внедрена инновационная система видеоаналитики на основе ИИ - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcDgwenMtSnBub1BPSms3TWhUVVhUT1dUQmpOU2o0cDdmS2VrZHJ3N00waHlCZUxWZGtWUWxyZURGYlpDOTBBMkU5TjVZUmpRRC0ydGFJVDR2b09UTm1VRnNydWM2MzdXN3NCRWJLV0thYVBpS0xOS0hISXQ1RnVXU1lVVzBjNVY1dnl6aGZhZmc3NkJoVlY3SFBTM2Z1dGs?oc=5",
-          "publishedAt": "Mon, 23 Nov 2026 18:12:09 GMT",
-          "sourceName": "RTVI"
-        },
-        {
-          "title": "ИИ NtechLab поможет не пускать дебоширов в рестораны и торговые центры - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXzRZSXJmRkRxRlI1amZqOHZjaHdYSDA0c2xKV3phZWVKMkFrV1FqeW1KTl9wSDJOenRVenZ0elZ0elJSakJBbXhQZmdVa0JvSXo4Ukt6QW9jOHdXVEJReGR4cmVXc3FqWmNZTXBvYzdCSlZ6cFQwSTJBcjlNNkZMM2tTaFJiSFprSk9FdzVjYmh4QzBtaTRXaFZmeHVSVVYwaFE?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT",
-          "sourceName": "RTVI"
-        },
-        {
-          "title": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 07:00:00 GMT",
-          "sourceName": "MASHNEWS | Новости Промышленности"
-        },
-        {
-          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тысяч человек - The Insider",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "The Insider"
-        }
-      ]
-    },
-    "piklema": {
-      "companyId": "piklema",
-      "companyName": "Piklema",
-      "sourceCount30d": 4,
-      "sourceCount7d": 3,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 24 Nov 2026 20:15:34 GMT",
-      "latestTitle": "Piklema: цифровые советчики для горной промышленности - dprom.online",
-      "latestUrl": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM09yOTNUdnpibVh4SkxKN1p3Rm9TOS1BQmtmLTNCemFnZ1h0aUwtckRDU3Bpc2ZXc1VVb3RTUGs0eEJpMHNGN3VuZTdFMVNtZ1dldzlnOHJZa3ZkdGpjM1BBX1ktNTJZTFZhVktXakUtbTAtTnRxOFA3Yk9oWnFLMDg5QkNEWno2aEd4bzBlelRXRTh0UndOQU1RQlp1UQ?oc=5",
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "piklema": {
+      "companyId": "piklema",
+      "companyName": "Piklema",
+      "sourceCount30d": 3,
+      "sourceCount7d": 2,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Tue, 24 Nov 2026 11:03:39 GMT",
+      "latestTitle": "Piklema расскажет о новых «цифровых советчиках» - dprom.online",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSm5yUEx1ZEYtS0tDbWMzc3o3bDNOcjZUR1FaOW05b1Rvd2hUeTFGeFh3ZS0wOUNwS1UyaGlEbWM5cVp5QjdjT2h4MVVyeW01NjBWR1IzeTZiVlNkSUp0Y210c0x5QmR5QnpPQ0VGcU9kMHhYQy14UjI2N1RTNGhqLS1JVHhxT0YtZkE?oc=5",
       "latestSourceName": "dprom.online",
       "sources": [
         {
-          "title": "Piklema: цифровые советчики для горной промышленности - dprom.online",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNM09yOTNUdnpibVh4SkxKN1p3Rm9TOS1BQmtmLTNCemFnZ1h0aUwtckRDU3Bpc2ZXc1VVb3RTUGs0eEJpMHNGN3VuZTdFMVNtZ1dldzlnOHJZa3ZkdGpjM1BBX1ktNTJZTFZhVktXakUtbTAtTnRxOFA3Yk9oWnFLMDg5QkNEWno2aEd4bzBlelRXRTh0UndOQU1RQlp1UQ?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 20:15:34 GMT",
-          "sourceName": "dprom.online"
-        },
-        {
-          "title": "Piklema расскажет о новых «цифровых советчиках» - Добывающая промышленность",
+          "title": "Piklema расскажет о новых «цифровых советчиках» - dprom.online",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSm5yUEx1ZEYtS0tDbWMzc3o3bDNOcjZUR1FaOW05b1Rvd2hUeTFGeFh3ZS0wOUNwS1UyaGlEbWM5cVp5QjdjT2h4MVVyeW01NjBWR1IzeTZiVlNkSUp0Y210c0x5QmR5QnpPQ0VGcU9kMHhYQy14UjI2N1RTNGhqLS1JVHhxT0YtZkE?oc=5",
           "publishedAt": "Tue, 24 Nov 2026 11:03:39 GMT",
-          "sourceName": "Добывающая промышленность"
+          "sourceName": "dprom.online"
         },
         {
           "title": "Как студенты Горного осваивают технологии роботизации - Форпост Северо-Запад",
@@ -347,7 +328,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 6,
+      "sourceCount30d": 5,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 1,
@@ -393,17 +374,24 @@ export const liveMarketSnapshot = {
     "syntelly": {
       "companyId": "syntelly",
       "companyName": "Syntelly",
-      "sourceCount30d": 0,
+      "sourceCount30d": 1,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": null,
-      "latestTitle": null,
-      "latestUrl": null,
-      "latestSourceName": null,
-      "sources": []
+      "latestPublishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
+      "latestSourceName": "Webiomed",
+      "sources": [
+        {
+          "title": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
+          "sourceName": "Webiomed"
+        }
+      ]
     },
     "targetai": {
       "companyId": "targetai",
@@ -452,17 +440,23 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 3,
+      "sourceCount30d": 4,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 18 Nov 2026 18:46:38 GMT",
-      "latestTitle": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYUxxX2Q2R25XQXM3UDFEYzdJLUNzMUVYc2MtOEdQRlV5Q0txSzZfeGVacTdUczdBMndSVlJycUtFTHE1TXJBaDBBWXQ4c1RqQjdiY2JBekFZSFg3MkoyQk5Zd254Y0pUZklqQkMxcDZJMlF2YmR4UUFB?oc=5",
+      "latestPublishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
+      "latestTitle": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
+      "latestUrl": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
       "latestSourceName": "Webiomed",
       "sources": [
+        {
+          "title": "Обзор Российских систем искусственного интеллекта для здравоохранения - Webiomed",
+          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxONWxzc0p3b0k2WTVJTlpWeU5OUnY0c1BNT0NyMF8zZmRpeDQzZ1oyTWdmV0I4cGFuc2VaYmxnazR1ZXI1aThZdktBRGtWaUdHR1JIdGNuNl9BeWZLSnlTUzY5OEJhWThlMUIzajJXZHI1cTNJb2pUbzNBOE9yQjlrWWx0NVJyd051ZW8wdTJxLXNHR2Vkbk9DMEMtWmFtS0Zs?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
+          "sourceName": "Webiomed"
+        },
         {
           "title": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYUxxX2Q2R25XQXM3UDFEYzdJLUNzMUVYc2MtOEdQRlV5Q0txSzZfeGVacTdUczdBMndSVlJycUtFTHE1TXJBaDBBWXQ4c1RqQjdiY2JBekFZSFg3MkoyQk5Zd254Y0pUZklqQkMxcDZJMlF2YmR4UUFB?oc=5",
@@ -636,17 +630,29 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 2,
-      "sourceCount7d": 0,
+      "sourceCount30d": 4,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 19 Nov 2026 17:06:00 GMT",
-      "latestTitle": "Flyvi или SUPA для визуалов без дизайнера? - quasa.io",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSjlrdmdhTFJVQjhKUTZJZG5QX3FEeEQ1UlFGLWRNVmd4MFBnQ2NnZWFpOWU0OEY4WlpBTWs0eHh0VUhZN1NUcHlDTWt1d0FXOTJIc3VxOUhpUngteGhkQjF3ZHhnbFFDc25KRV92SzNoQWhfRzFyaHdn?oc=5",
-      "latestSourceName": "quasa.io",
+      "latestPublishedAt": "Wed, 25 Nov 2026 05:14:27 GMT",
+      "latestTitle": "В Бурятии подружили восточную медицину с интеллектом ЭМЧИ - Новостное издание Vostok.Today",
+      "latestUrl": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZnNFhTVXZUajlTS3hLRFVPaml0QWRiV2d1LVdDQk9jOVpsRk00Z0VqZFgzYWtVMmJYNklUQ1dSLVRfM0xKcDh2WTRfZHhmRFE3RmQ1c29xT1ZuSFY0eEFpTExaV0lrMFFIbnBlXzQ2NlRoMTlQZXJmOUJtV095SkZmVzhHTHpfTFhQZjkyLWVYempQOUlNR1JDRQ?oc=5",
+      "latestSourceName": "Новостное издание Vostok.Today",
       "sources": [
+        {
+          "title": "В Бурятии подружили восточную медицину с интеллектом ЭМЧИ - Новостное издание Vostok.Today",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZnNFhTVXZUajlTS3hLRFVPaml0QWRiV2d1LVdDQk9jOVpsRk00Z0VqZFgzYWtVMmJYNklUQ1dSLVRfM0xKcDh2WTRfZHhmRFE3RmQ1c29xT1ZuSFY0eEFpTExaV0lrMFFIbnBlXzQ2NlRoMTlQZXJmOUJtV095SkZmVzhHTHpfTFhQZjkyLWVYempQOUlNR1JDRQ?oc=5",
+          "publishedAt": "Wed, 25 Nov 2026 05:14:27 GMT",
+          "sourceName": "Новостное издание Vostok.Today"
+        },
+        {
+          "title": "Canva в России в 2026 году. Как работает сервис и чем его заменить - SecurityLab.ru",
+          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xYlRGenJfQmg1cnFsaldRbm9ZN2J6NnA1Z2lQZ1I1ZktacXRkem90OTdtQnJ2QlBDZ2FvTHktYUFPMTVtNUhZelR3ajdXQ2ZDNmR4bTN2UlhWWHFJVmhTWVhhSUZrOUtnMFgzckN1THc?oc=5",
+          "publishedAt": "Tue, 24 Nov 2026 15:56:25 GMT",
+          "sourceName": "SecurityLab.ru"
+        },
         {
           "title": "Flyvi или SUPA для визуалов без дизайнера? - quasa.io",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE5XSjlrdmdhTFJVQjhKUTZJZG5QX3FEeEQ1UlFGLWRNVmd4MFBnQ2NnZWFpOWU0OEY4WlpBTWs0eHh0VUhZN1NUcHlDTWt1d0FXOTJIc3VxOUhpUngteGhkQjF3ZHhnbFFDc25KRV92SzNoQWhfRzFyaHdn?oc=5",
@@ -1347,24 +1353,17 @@ export const liveMarketSnapshot = {
     "metranpazh": {
       "companyId": "metranpazh",
       "companyName": "Метранпаж",
-      "sourceCount30d": 1,
-      "sourceCount7d": 1,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 26 Nov 2026 11:48:09 GMT",
-      "latestTitle": "Спектакль \"Провинциальные анекдоты\" - Piter.tv",
-      "latestUrl": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sLWMyTUo2TV9pbzZDX21FZzRRbDdPRktRU0NuZFlZT2ctMkl5alNKR1NzUldPNE9YOHZpMUpCeFFtY3ZvTWpZTUgwNlBMdHl5NHh5UGUxS0s1ZWNqbnFENzVHRm1EWW5BVzJr?oc=5",
-      "latestSourceName": "Piter.tv",
-      "sources": [
-        {
-          "title": "Спектакль \"Провинциальные анекдоты\" - Piter.tv",
-          "url": "https://news.google.com/rss/articles/CBMia0FVX3lxTE5sLWMyTUo2TV9pbzZDX21FZzRRbDdPRktRU0NuZFlZT2ctMkl5alNKR1NzUldPNE9YOHZpMUpCeFFtY3ZvTWpZTUgwNlBMdHl5NHh5UGUxS0s1ZWNqbnFENzVHRm1EWW5BVzJr?oc=5",
-          "publishedAt": "Thu, 26 Nov 2026 11:48:09 GMT",
-          "sourceName": "Piter.tv"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "navstreche": {
       "companyId": "navstreche",
