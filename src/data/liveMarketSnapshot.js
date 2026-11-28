@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-27T15:42:20.746Z",
+  "generatedAt": "2026-11-28T00:45:05.380Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -106,46 +106,22 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 10,
-      "sourceCount7d": 1,
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 1,
+      "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 24 Nov 2026 09:15:00 GMT",
-      "latestTitle": "Крупнейший зимний турнир по футболу Iskra Cup проходит в Хабаровске (ФОТО) - Новости Хабаровска",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8ycFY2M2YtQjFUNzdwRS0zTzllSG1BbFZTRndCS05MSEZYa2V1SjN2NFoxUl9xWThYWE1za1N0SnZGVXpxbjhzZ0E2Q1pFUHNZeGlRdFBvdE50OGdqSEE?oc=5",
-      "latestSourceName": "Новости Хабаровска",
+      "latestPublishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
+      "latestTitle": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
+      "latestUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
+      "latestSourceName": "Новости Тольятти",
       "sources": [
         {
-          "title": "Крупнейший зимний турнир по футболу Iskra Cup проходит в Хабаровске (ФОТО) - Новости Хабаровска",
-          "url": "https://news.google.com/rss/articles/CBMiXkFVX3lxTE8ycFY2M2YtQjFUNzdwRS0zTzllSG1BbFZTRndCS05MSEZYa2V1SjN2NFoxUl9xWThYWE1za1N0SnZGVXpxbjhzZ0E2Q1pFUHNZeGlRdFBvdE50OGdqSEE?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 09:15:00 GMT",
-          "sourceName": "Новости Хабаровска"
-        },
-        {
-          "title": "АВТОВАЗ запустил 1,5-километровую систему доставки колес для Granta и Iskra - Лада.Онлайн",
-          "url": "https://news.google.com/rss/articles/CBMi1AFBVV95cUxPNG81a01SSFY2MzJxOS0yU05nb2dfbmRaaWxnNDItRFVtdVctWmVuQldWMFgtc2tOMkFLRzZRNV9sdlpWaF9NRzVrU0VTenplY1hVa3poRWZUUFp1UElYSl81SzBvdWU2cW1rWUE4YkxJMzZma0kyd05Wck1qaXJRWEJfaS1xb0F5UGQwbU5jR1A4enpNUlg3SE5vbHNYXzBiazNFWE9SVWVqRWhRWjNXWTFyaHhPMVhaY25ySmJKeGd2aktqQ0tyRnZTamMzTzByM1laWg?oc=5",
-          "publishedAt": "Fri, 20 Nov 2026 06:20:24 GMT",
-          "sourceName": "Лада.Онлайн"
-        },
-        {
-          "title": "Lada Iskra против Granta: разница 150 тысяч, одинаковый двигатель и платформа — что не так с новой моделью зимой - 110km.ru",
-          "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxOWTUyQVZHUlJpcm5pZy1FTW5iT0RiYVdveHlTSS1BN0syNGVrZWg0VlM1U3RHalBlY2gxRTBoaDZCNzBBVlBNdU4xa1cybGstOFMtelh6dE5FV2Y4MHFNZXdiRVNvcWUySHFyaldsM2RpdzNEMTdLamk0UWczRk9rMy1TMC1DZlJ2YXdlXzBURUl2bTluaHF1elc4OWswZw?oc=5",
-          "publishedAt": "Mon, 16 Nov 2026 08:00:00 GMT",
-          "sourceName": "110km.ru"
-        },
-        {
-          "title": "Полицейский на Lada Iskra сбил насмерть пешехода под Выборгом и скрылся - Телеканал ЛенТВ24",
-          "url": "https://news.google.com/rss/articles/CBMimgFBVV95cUxQejdZT0xqc0oyZFQyN0VSYjhDQzdmQVFOWkY5MzZXdDRLT3VaQTFEME9YVmQ3Wm80eVZ5Nmw3ajExR2ZzN3kzWVA0SGVRV1hubTllODRMQlphZW5TQ1pFVmhMWm1ZaFZ4NlBpN2NKNS1tcmVvUU1xaW9KYVdWRlJ6YWFiUU1ET2VfRThuN05VSG8yM0F3LWQyaXV3?oc=5",
-          "publishedAt": "Sun, 15 Nov 2026 08:00:00 GMT",
-          "sourceName": "Телеканал ЛенТВ24"
-        },
-        {
-          "title": "LADA Azimut и 259-сильная Iskra TMS представлены на Московском Автошоу - За рулем Кубань",
-          "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQSThhVjFGeERUUFFhS3hLNWlvU3VLNG41VVdibWZvX18xNncxQ0N0R1pKR1NhUk9rQ0hMSFg0enoyTWpSd2dUOVNGTjBiX3N4TWZuOE1aSV9yLURPSHY0NXJrZm5NZzNZLUQwNUd5MzNleGpuWVZscUR6UEFKRndyOW91U0NpTlZ1VnVjdmpyRXJMVElfdDZhRWpBLVF3bEt4eU56N2trWQ?oc=5",
-          "publishedAt": "Fri, 13 Nov 2026 09:23:00 GMT",
-          "sourceName": "За рулем Кубань"
+          "title": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
+          "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
+          "publishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
+          "sourceName": "Новости Тольятти"
         }
       ]
     },
@@ -247,69 +223,32 @@ export const liveMarketSnapshot = {
     "ntechlab": {
       "companyId": "ntechlab",
       "companyName": "NtechLab",
-      "sourceCount30d": 5,
-      "sourceCount7d": 2,
-      "fundingMentions": 0,
-      "dealMentions": 1,
-      "launchMentions": 0,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Thu, 26 Nov 2026 02:49:00 GMT",
-      "latestTitle": "Городские камеры начнут автоматически штрафовать за незаконные свалки - RTVI",
-      "latestUrl": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZHdIcTB1Tk5nR1FnQTMwWE5JQ1BfNlJiUzZNR3l3a3pIMEZ2NTN5Tm55Z3NBYmdINGdkUC1GaXhLNm1YZ3ZrQjNzSVI5Q2JabERRLUE2SmRtT0d1X2JLbG1FU05VbkVYWEZGLW1za04tbmsxY0F0YmxHazBMQTRoQ1Rpd1ZIS1FxZzBGMUhYZUhPS2pTMEZMdUxNY1pwVnM?oc=5",
-      "latestSourceName": "RTVI",
-      "sources": [
-        {
-          "title": "Городские камеры начнут автоматически штрафовать за незаконные свалки - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOZHdIcTB1Tk5nR1FnQTMwWE5JQ1BfNlJiUzZNR3l3a3pIMEZ2NTN5Tm55Z3NBYmdINGdkUC1GaXhLNm1YZ3ZrQjNzSVI5Q2JabERRLUE2SmRtT0d1X2JLbG1FU05VbkVYWEZGLW1za04tbmsxY0F0YmxHazBMQTRoQ1Rpd1ZIS1FxZzBGMUhYZUhPS2pTMEZMdUxNY1pwVnM?oc=5",
-          "publishedAt": "Thu, 26 Nov 2026 02:49:00 GMT",
-          "sourceName": "RTVI"
-        },
-        {
-          "title": "В Обнинске внедрена инновационная система видеоаналитики на основе ИИ - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQcDgwenMtSnBub1BPSms3TWhUVVhUT1dUQmpOU2o0cDdmS2VrZHJ3N00waHlCZUxWZGtWUWxyZURGYlpDOTBBMkU5TjVZUmpRRC0ydGFJVDR2b09UTm1VRnNydWM2MzdXN3NCRWJLV0thYVBpS0xOS0hISXQ1RnVXU1lVVzBjNVY1dnl6aGZhZmc3NkJoVlY3SFBTM2Z1dGs?oc=5",
-          "publishedAt": "Mon, 23 Nov 2026 18:12:09 GMT",
-          "sourceName": "RTVI"
-        },
-        {
-          "title": "ИИ NtechLab поможет не пускать дебоширов в рестораны и торговые центры - RTVI",
-          "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxNXzRZSXJmRkRxRlI1amZqOHZjaHdYSDA0c2xKV3phZWVKMkFrV1FqeW1KTl9wSDJOenRVenZ0elZ0elJSakJBbXhQZmdVa0JvSXo4Ukt6QW9jOHdXVEJReGR4cmVXc3FqWmNZTXBvYzdCSlZ6cFQwSTJBcjlNNkZMM2tTaFJiSFprSk9FdzVjYmh4QzBtaTRXaFZmeHVSVVYwaFE?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT",
-          "sourceName": "RTVI"
-        },
-        {
-          "title": "NtechLab помог найти более 8 тысяч преступников в Новосибирской области - MASHNEWS | Новости Промышленности",
-          "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNaVhPbEZzb1hWSjRCX0xRdGt0YlpROU5Va3NOVXJ1cjZuWFY4NXVZcHBrbmVSTElnUjhBRVBhQjRmVFBDcE12c1QycV9zNHlKWk9aendEeXdTUXI4UGthRWJKa2o3OUk3T05FRzZ0a3BESFZNMzJrTTV4ZTIyQ3NBQ19PNkowS3hQYm9aM2RaeEU3alR2amFIV3ZZUDVXZV9z?oc=5",
-          "publishedAt": "Fri, 30 Oct 2026 07:00:00 GMT",
-          "sourceName": "MASHNEWS | Новости Промышленности"
-        },
-        {
-          "title": "Камеры подсанкционной NtechLab, среди клиентов которой значится ФСБ, помогли задержать в Новосибирской области 8 тысяч человек - The Insider",
-          "url": "https://news.google.com/rss/articles/CBMiQ0FVX3lxTE5qRU5xM3h1NEhCckZWdExTMk5NOUpfZVVYdnJfbWN4ZkJaSjFzN21KRWhhNEh1a2M2SlNTLUlhQ216X1E?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "The Insider"
-        }
-      ]
-    },
-    "piklema": {
-      "companyId": "piklema",
-      "companyName": "Piklema",
-      "sourceCount30d": 4,
-      "sourceCount7d": 3,
+      "sourceCount30d": 0,
+      "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 27 Nov 2026 08:43:14 GMT",
-      "latestTitle": "Ростехнадзор и «Норникель» внедрят цифровые технологии в промбезопасность - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRXlUUkQxZ3lmMXNueU9TeVdzSGNyTjZ2ZEt3R1BxekdxUFVleDNjX2JOM2xLWW9oQk5wYmE1ek9lRjJyMXMyOWxBLTVEMVp1ODh4YXlXMHhBTkZnNXVWaVhycDQyYUVKd1JUM2FyVXhadDhjaXMxTEJzeWtkZ09xUEFGQm4tam5VcjkyM0FzdUdTTUI0ZW1xbTNMczZDaGVlUEszc0Z5cGNFWmRKb2k5ckVDcw?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
+    },
+    "piklema": {
+      "companyId": "piklema",
+      "companyName": "Piklema",
+      "sourceCount30d": 3,
+      "sourceCount7d": 2,
+      "fundingMentions": 0,
+      "dealMentions": 0,
+      "launchMentions": 0,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Tue, 24 Nov 2026 11:03:39 GMT",
+      "latestTitle": "Piklema расскажет о новых «цифровых советчиках» - dprom.online",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSm5yUEx1ZEYtS0tDbWMzc3o3bDNOcjZUR1FaOW05b1Rvd2hUeTFGeFh3ZS0wOUNwS1UyaGlEbWM5cVp5QjdjT2h4MVVyeW01NjBWR1IzeTZiVlNkSUp0Y210c0x5QmR5QnpPQ0VGcU9kMHhYQy14UjI2N1RTNGhqLS1JVHhxT0YtZkE?oc=5",
+      "latestSourceName": "dprom.online",
       "sources": [
-        {
-          "title": "Ростехнадзор и «Норникель» внедрят цифровые технологии в промбезопасность - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPRXlUUkQxZ3lmMXNueU9TeVdzSGNyTjZ2ZEt3R1BxekdxUFVleDNjX2JOM2xLWW9oQk5wYmE1ek9lRjJyMXMyOWxBLTVEMVp1ODh4YXlXMHhBTkZnNXVWaVhycDQyYUVKd1JUM2FyVXhadDhjaXMxTEJzeWtkZ09xUEFGQm4tam5VcjkyM0FzdUdTTUI0ZW1xbTNMczZDaGVlUEszc0Z5cGNFWmRKb2k5ckVDcw?oc=5",
-          "publishedAt": "Fri, 27 Nov 2026 08:43:14 GMT",
-          "sourceName": "prospect.com.ru"
-        },
         {
           "title": "Piklema расскажет о новых «цифровых советчиках» - dprom.online",
           "url": "https://news.google.com/rss/articles/CBMiigFBVV95cUxOSm5yUEx1ZEYtS0tDbWMzc3o3bDNOcjZUR1FaOW05b1Rvd2hUeTFGeFh3ZS0wOUNwS1UyaGlEbWM5cVp5QjdjT2h4MVVyeW01NjBWR1IzeTZiVlNkSUp0Y210c0x5QmR5QnpPQ0VGcU9kMHhYQy14UjI2N1RTNGhqLS1JVHhxT0YtZkE?oc=5",
@@ -384,7 +323,7 @@ export const liveMarketSnapshot = {
       "dealMentions": 1,
       "launchMentions": 0,
       "tractionMentions": 1,
-      "latestPublishedAt": "Thu, 19 Nov 2026 16:40:36 GMT",
+      "latestPublishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
       "latestTitle": "Бизнес обяжут платить по 50 рублей за каждый запрос к МВД: как теперь проверять паспорта клиентов - Хабр",
       "latestUrl": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSFpqM0V2eW53LWxqeTZBVjdRSUNUZXY2cmp2b3lXZnpBWldyTzdtSzY1SFdlZ29Ia3g5blBIZDQ3cGtuNUhtRzBfNURaZllWZ1NnTnpSNWpkWWxidGktVWUyejFhYWJXZmpnVtIBWEFVX3lxTFAwRXhyUXEyYTV5ZjE3bmEzMF9SYXNfdXNzc3FwNUtnZUJpUVBfUnhSTEFEUzRwRTZ2TU9JWnZIOFIwTUpqOHJiNHJjUFMwY3lhVEFtYUlvdjk?oc=5",
       "latestSourceName": "Хабр",
@@ -392,7 +331,7 @@ export const liveMarketSnapshot = {
         {
           "title": "Бизнес обяжут платить по 50 рублей за каждый запрос к МВД: как теперь проверять паспорта клиентов - Хабр",
           "url": "https://news.google.com/rss/articles/CBMibEFVX3lxTFBGSFpqM0V2eW53LWxqeTZBVjdRSUNUZXY2cmp2b3lXZnpBWldyTzdtSzY1SFdlZ29Ia3g5blBIZDQ3cGtuNUhtRzBfNURaZllWZ1NnTnpSNWpkWWxidGktVWUyejFhYWJXZmpnVtIBWEFVX3lxTFAwRXhyUXEyYTV5ZjE3bmEzMF9SYXNfdXNzc3FwNUtnZUJpUVBfUnhSTEFEUzRwRTZ2TU9JWnZIOFIwTUpqOHJiNHJjUFMwY3lhVEFtYUlvdjk?oc=5",
-          "publishedAt": "Thu, 19 Nov 2026 16:40:36 GMT",
+          "publishedAt": "Thu, 19 Nov 2026 08:00:00 GMT",
           "sourceName": "Хабр"
         },
         {
@@ -484,7 +423,7 @@ export const liveMarketSnapshot = {
     "webiomed": {
       "companyId": "webiomed",
       "companyName": "Webiomed",
-      "sourceCount30d": 5,
+      "sourceCount30d": 4,
       "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -511,12 +450,6 @@ export const liveMarketSnapshot = {
           "title": "ИИ-сервис федерального масштаба на РЕД ОС: платформа Webiomed связала тысячи медорганизаций в единую сеть - Webiomed",
           "url": "https://news.google.com/rss/articles/CBMiekFVX3lxTE1xYUxxX2Q2R25XQXM3UDFEYzdJLUNzMUVYc2MtOEdQRlV5Q0txSzZfeGVacTdUczdBMndSVlJycUtFTHE1TXJBaDBBWXQ4c1RqQjdiY2JBekFZSFg3MkoyQk5Zd254Y0pUZklqQkMxcDZJMlF2YmR4UUFB?oc=5",
           "publishedAt": "Wed, 18 Nov 2026 18:46:38 GMT",
-          "sourceName": "Webiomed"
-        },
-        {
-          "title": "Американские профессиональные медицинские сообщества потребовали вовлечь разработчиков генеративного ИИ в ответственность за правильность работы их решений - Webiomed",
-          "url": "https://news.google.com/rss/articles/CBMiWkFVX3lxTFBiTGVOSXRWU2VRSjFpTUhTck5zU1pXSHFCb0NPeE9jMVpIZmdXdXI4VW9senJUQzRaNURURkFpZWVTc2JMcWhROGdtMEtqNFp6a1hxbVh0VzJBQQ?oc=5",
-          "publishedAt": "Wed, 18 Nov 2026 10:45:22 GMT",
           "sourceName": "Webiomed"
         },
         {
@@ -680,8 +613,8 @@ export const liveMarketSnapshot = {
     "flyvi": {
       "companyId": "flyvi",
       "companyName": "Flyvi",
-      "sourceCount30d": 5,
-      "sourceCount7d": 3,
+      "sourceCount30d": 4,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
@@ -696,12 +629,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTE44R1JqZjFpMFhaaVF5VFY4WkZmVThfR2VRQ0dQTmlCVzRwV0g2WGhzOUJpS2diZTRkWjJOQk93ZGt5WjBXSjJJakRaTHJ5Z9IBWEFVX3lxTE8tNFl2YXNKcWI4ak82X1FWUlZ3M3BKX0tsMW91MmlvdlNvRFQ5TWhtVEhsTkZHMk5iVTdrUTNEaWFIVzZVS1UteXl5RVVxZ3c3blpZbGNHcC0?oc=5",
           "publishedAt": "Wed, 25 Nov 2026 16:46:58 GMT",
           "sourceName": "Хабр"
-        },
-        {
-          "title": "В Бурятии подружили восточную медицину с интеллектом ЭМЧИ - Новостное издание Vostok.Today",
-          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZnNFhTVXZUajlTS3hLRFVPaml0QWRiV2d1LVdDQk9jOVpsRk00Z0VqZFgzYWtVMmJYNklUQ1dSLVRfM0xKcDh2WTRfZHhmRFE3RmQ1c29xT1ZuSFY0eEFpTExaV0lrMFFIbnBlXzQ2NlRoMTlQZXJmOUJtV095SkZmVzhHTHpfTFhQZjkyLWVYempQOUlNR1JDRQ?oc=5",
-          "publishedAt": "Wed, 25 Nov 2026 05:14:27 GMT",
-          "sourceName": "Новостное издание Vostok.Today"
         },
         {
           "title": "Canva в России в 2026 году. Как работает сервис и чем его заменить - SecurityLab.ru",
@@ -786,23 +713,17 @@ export const liveMarketSnapshot = {
     "gradius": {
       "companyId": "gradius",
       "companyName": "Gradius",
-      "sourceCount30d": 5,
-      "sourceCount7d": 2,
+      "sourceCount30d": 6,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
-      "launchMentions": 2,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Thu, 26 Nov 2026 08:00:19 GMT",
-      "latestTitle": "В России запустили ПромптСтат для анализа запросов пользователей к нейросетям - iGuides.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzlUQ2tWV0JMckFUSklTdFhNVVp5U3lmN0FiU2NIRVBUQzVLUEZ4NzJ1QWotYkxIdGV1OGdyZTkzbWhYWDlCTDlWQU9ValY3VWEwSlFVa21UY1RlQ0VzWEZuS1Q4QWF2M0tLN3dtdVVtcHNqaUtERUM1blpqVDVOellpZjZQcU9lWXM1bkFQb2xXU2w4ZGNZUEdVeEZlQ0tFcF9zZWN3?oc=5",
-      "latestSourceName": "iGuides.ru",
+      "launchMentions": 1,
+      "tractionMentions": 0,
+      "latestPublishedAt": "Mon, 23 Nov 2026 17:14:49 GMT",
+      "latestTitle": "AdTech-компания Gradius запустила инструмент глубокой аналитики «ПромптСтат» - CNews.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRGVSWWdscldEWUJ3bGQ4eW02RG5xNVNVWUFKeVkzSU1nVUo2YkQtaFdLLVhXdkR1bGN5Z1JBZ19KTm9JS2RlWEJlUlJfX3lOOHJLTldNOFpXeXZUVEdOc1FaOVN4TXFYQ2taQ2NQTFJGVVRwVmU2OEJaWWVMNlFwU0Nn?oc=5",
+      "latestSourceName": "CNews.ru",
       "sources": [
-        {
-          "title": "В России запустили ПромптСтат для анализа запросов пользователей к нейросетям - iGuides.ru",
-          "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPYzlUQ2tWV0JMckFUSklTdFhNVVp5U3lmN0FiU2NIRVBUQzVLUEZ4NzJ1QWotYkxIdGV1OGdyZTkzbWhYWDlCTDlWQU9ValY3VWEwSlFVa21UY1RlQ0VzWEZuS1Q4QWF2M0tLN3dtdVVtcHNqaUtERUM1blpqVDVOellpZjZQcU9lWXM1bkFQb2xXU2w4ZGNZUEdVeEZlQ0tFcF9zZWN3?oc=5",
-          "publishedAt": "Thu, 26 Nov 2026 08:00:19 GMT",
-          "sourceName": "iGuides.ru"
-        },
         {
           "title": "AdTech-компания Gradius запустила инструмент глубокой аналитики «ПромптСтат» - CNews.ru",
           "url": "https://news.google.com/rss/articles/CBMiggFBVV95cUxNRGVSWWdscldEWUJ3bGQ4eW02RG5xNVNVWUFKeVkzSU1nVUo2YkQtaFdLLVhXdkR1bGN5Z1JBZ19KTm9JS2RlWEJlUlJfX3lOOHJLTldNOFpXeXZUVEdOc1FaOVN4TXFYQ2taQ2NQTFJGVVRwVmU2OEJaWWVMNlFwU0Nn?oc=5",
@@ -814,6 +735,12 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTE9CYWI2c2puWFdGcUc4XzNZMG91SDE2X1J1eVhHaWxQa2Vja29lX0FsOVAtYkZjNU1pN2xMM0FkVFBzUzFhamZGc0k4MG52eHhSWURKRTZGd2MzbVlEd3Z1cGxVZk9Odw?oc=5",
           "publishedAt": "Tue, 17 Nov 2026 18:34:00 GMT",
           "sourceName": "www.innov.ru"
+        },
+        {
+          "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - prospect.com.ru",
+          "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxQT3lYVzctU29vVTBhS2htaEdDZjA2Y0h1aDhjbVkyYXMtYVpzcllMSnZwSFZvQWJPcEZXeF9VNlFFYkhaRjh3cGVWaFg0MW9xRzliNUcxVndzUzdMemVHSzhtSkNKUmQ4SGpRMzI5X3kxT0wySGFGNE9sbEZDWXpjekxudGxRYmh6cS1UejNmeWJDblBZcDBra2dfYVZiOU16c1BPVFk5SzZjck9MZlE?oc=5",
+          "publishedAt": "Fri, 13 Nov 2026 17:05:08 GMT",
+          "sourceName": "prospect.com.ru"
         },
         {
           "title": "Gradius сообщил о более чем 1200 рекламных кампаний в ИИ-сервисах - CNews.ru",
@@ -1461,11 +1388,11 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 9,
-      "sourceCount7d": 5,
-      "fundingMentions": 1,
+      "sourceCount30d": 8,
+      "sourceCount7d": 4,
+      "fundingMentions": 2,
       "dealMentions": 0,
-      "launchMentions": 0,
+      "launchMentions": 1,
       "tractionMentions": 0,
       "latestPublishedAt": "Thu, 26 Nov 2026 11:47:45 GMT",
       "latestTitle": "Рассмотрены меры по повышению качества охранных услуг и расширению их охвата - president.uz",
@@ -1479,28 +1406,28 @@ export const liveMarketSnapshot = {
           "sourceName": "president.uz"
         },
         {
-          "title": "Гайд по площадкам для SMM в 2026 году: где быть бренду и зачем? - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE5XbTVkZUdpOFBnNU9NRm55cEhsSnlDeU1lX20wR0FpVExHVzV1WXdsUGhrMFdiLW5uQzFRMnpic2RZRHBHbkJ1SHc1dEliSzc2Smc?oc=5",
-          "publishedAt": "Thu, 26 Nov 2026 02:49:51 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "От детализации до глобального охвата: представлен новый спутник Freetail 5 - Naked Science",
-          "url": "https://news.google.com/rss/articles/CBMiVEFVX3lxTFBsWXVGMW1TNmxWbVhkU0cyUWY1OEYtNjhSMjctVWFrWjRtMDZZNlZIbFpyQTlwVGhxNThoUzd3akg2Z21Vc1M3Zm1EblBIT1BURThHeA?oc=5",
-          "publishedAt": "Wed, 25 Nov 2026 04:48:41 GMT",
-          "sourceName": "Naked Science"
-        },
-        {
           "title": "Туркменистан намерен обеспечить охват всех населенных пунктов связью 4G и 5G - Интерфакс",
           "url": "https://news.google.com/rss/articles/CBMiTkFVX3lxTFBxamVJbzFUSnRpcTFYNXdQRUxHRWlvT1NpVDBaMjB6WDJtNlp2OHd3MW9QOVpKdEZpN0xLNlF5cmRwSGRweEFYdzJRMGtlZ9IBS0FVX3lxTE9XZzFwM2hITjAtSjg1aks3U0Z6ZUZaWGk4eGJqSTFCOGxtNjcyWXdPM2FWYnBVMi1IVnNDcHF1MGdxTVl0V3YzTjNpVQ?oc=5",
           "publishedAt": "Tue, 24 Nov 2026 14:08:00 GMT",
           "sourceName": "Интерфакс"
         },
         {
+          "title": "АКИpress в социальных сетях . Охват и аудитория: более 3 млн человек - АКИpress",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lalpRZVB6YVJHLURSd3BFQTJ3RFZ2Y2VRckhHeVRYbFFXTUJwdWRuM21udE5fNFdwX25uZnFjblpKUnlxMTVXSFA4c01PZ3UxZktoaXZ4Z0hrVFRKeUxXRDZzSEhSTTdmdEQ3X0x4eGlrUQ?oc=5",
+          "publishedAt": "Tue, 24 Nov 2026 09:41:08 GMT",
+          "sourceName": "АКИpress"
+        },
+        {
           "title": "Охват 98%, а риск не изменился: как измерять Security Awareness - Хабр",
           "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02UzVrZmtsSXBURFRwZlJsSlZjS0ZKc0dFWEZiZy1lRTB0OV9SekNFTFJTU0Q2VXN4RGc2M1VaTUs2RmI2QzJuNlAybTRIb1FzNC1CV0ZxMDhpWDFmamxyaWtn0gFYQVVfeXFMTlpNaTBWVm5ROEJPNTh5RWdXejJsUTFfMlRpZlVJZzIwME5LRHVUZmxZYjcxQmQ5VmtZOVJfMHJDOXdDR2kyWjhwX0h5bVZXY0VEY0tiU0VWYQ?oc=5",
           "publishedAt": "Tue, 24 Nov 2026 07:49:47 GMT",
           "sourceName": "Хабр"
+        },
+        {
+          "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
+          "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
+          "publishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
+          "sourceName": "AdIndex.ru"
         }
       ]
     },
