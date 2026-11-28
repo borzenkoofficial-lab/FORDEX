@@ -2,7 +2,7 @@
 export const LIVE_MARKET_SNAPSHOT_VERSION = '1.0';
 
 export const liveMarketSnapshot = {
-  "generatedAt": "2026-11-28T00:45:05.380Z",
+  "generatedAt": "2026-11-28T10:59:08.131Z",
   "windowDays": 30,
   "source": "Google News RSS discovery",
   "companies": {
@@ -24,24 +24,17 @@ export const liveMarketSnapshot = {
     "cognitive-pilot": {
       "companyId": "cognitive-pilot",
       "companyName": "Cognitive Pilot",
-      "sourceCount30d": 1,
+      "sourceCount30d": 0,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Thu, 12 Nov 2026 08:00:00 GMT",
-      "latestTitle": "Как агротехнологии повлияют на урожаи будущего - Эксперт",
-      "latestUrl": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40VVZIUFhwM2JIUmxnenY0b3YtczFWQk5xWWRxWFphQUw4QVpNXy1nalM3bGp0TnN4RnVQbGl0eG1JbjhlbThMTlY0ek1HREg2TTE0TGV6Wk1ISGF4ZkY4d25BUWtUT1V5cjk1bjRUNVo?oc=5",
-      "latestSourceName": "Эксперт",
-      "sources": [
-        {
-          "title": "Как агротехнологии повлияют на урожаи будущего - Эксперт",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE40VVZIUFhwM2JIUmxnenY0b3YtczFWQk5xWWRxWFphQUw4QVpNXy1nalM3bGp0TnN4RnVQbGl0eG1JbjhlbThMTlY0ek1HREg2TTE0TGV6Wk1ISGF4ZkY4d25BUWtUT1V5cjk1bjRUNVo?oc=5",
-          "publishedAt": "Thu, 12 Nov 2026 08:00:00 GMT",
-          "sourceName": "Эксперт"
-        }
-      ]
+      "latestPublishedAt": null,
+      "latestTitle": null,
+      "latestUrl": null,
+      "latestSourceName": null,
+      "sources": []
     },
     "datamola": {
       "companyId": "datamola",
@@ -106,17 +99,23 @@ export const liveMarketSnapshot = {
     "iskra": {
       "companyId": "iskra",
       "companyName": "ISKRA",
-      "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount30d": 2,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Fri, 20 Nov 2026 10:27:52 GMT",
-      "latestTitle": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
-      "latestUrl": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
-      "latestSourceName": "Новости Тольятти",
+      "latestPublishedAt": "Sat, 28 Nov 2026 09:31:02 GMT",
+      "latestTitle": "АвтоВАЗ заменит 2400 дефектных 6-МКПП WLY для Lada Vesta, Iskra и Azimut: что известно - CenyAvto.com",
+      "latestUrl": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NVmlMOXNHTUVfQ0E4aHpNQ1RNUTYzUjRmRDRVVmVwTDhHS0lUbzFYb1hrYUVwLUIxLXlqVjc2S29IX0lGMElubm9Cd0RWMkFBTDQ2THBPUkE2aGVhRWQ4N0JkeWVSRWw3UXJxSmVXUnFkU09mNzNr?oc=5",
+      "latestSourceName": "CenyAvto.com",
       "sources": [
+        {
+          "title": "АвтоВАЗ заменит 2400 дефектных 6-МКПП WLY для Lada Vesta, Iskra и Azimut: что известно - CenyAvto.com",
+          "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE5NVmlMOXNHTUVfQ0E4aHpNQ1RNUTYzUjRmRDRVVmVwTDhHS0lUbzFYb1hrYUVwLUIxLXlqVjc2S29IX0lGMElubm9Cd0RWMkFBTDQ2THBPUkE2aGVhRWQ4N0JkeWVSRWw3UXJxSmVXUnFkU09mNzNr?oc=5",
+          "publishedAt": "Sat, 28 Nov 2026 09:31:02 GMT",
+          "sourceName": "CenyAvto.com"
+        },
         {
           "title": "LADA Iskra принесла АВТОВАЗу пятую награду в 2026 году - Новости Тольятти",
           "url": "https://news.google.com/rss/articles/CBMihgFBVV95cUxOQkJmSVlSdDAwRF9BOTlpUVIzQ1dBa0ktYVpNZE41aENEQmZDSmJvNGJ0VVUtUlZoUXRKX01xVzc2MG1hRlFGLUJOSHNxbXE5ZlQwYk43Q3pvZmFENWVsUEN1X0d6NWlVaXRQSEdfQ3hsNmNxZXF4SWhRaFJhaUR3enh0NVhfdw?oc=5",
@@ -128,7 +127,7 @@ export const liveMarketSnapshot = {
     "just-ai": {
       "companyId": "just-ai",
       "companyName": "Just AI",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
@@ -156,12 +155,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMid0FVX3lxTE1EbXh2aXVscEpheEhHM0VRYVBpR0JuX2FfenM2MnMyTzZ0RnRGN05CMlk3WFJCbVpfbWVraFVVcTJjbEFhWnlTb0drNWsxTldhbVk5dU1LOEFpUExIUXdYcjB6TnlqaW9mM2FQVERrU2hJU3h4TTdF?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sourceName": "Techora.ru"
-        },
-        {
-          "title": "Just AI запускает Jay Agents — универсальную ИИ‑студию для создания агентов, приложений и автоматизации задач без кода - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiZkFVX3lxTFBkcXQ3TWs3WGNpdHpYLXR0R2tWSTVzNlY0dm9NSV9UdzhWQlNFM0RwVlN5Vkc2bFBtdVdCa2FLMmtRdWFtM0xvV09GZk9uWWFORnRQeE9YRThQVDhyQmRPT2lkdmFjd9IBWEFVX3lxTE5mZnozMlZZOV9TREZHeEhRTUZmZjdPREFpR2FmQzZtRjhuaUZfc3BlVWVMQ2FVZlFQb083RDM1QUo3YlNSQ3p3T21fYkhPVGNzNFJKUGZEcmM?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "Хабр"
         }
       ]
     },
@@ -317,7 +310,7 @@ export const liveMarketSnapshot = {
     "smart-engines": {
       "companyId": "smart-engines",
       "companyName": "Smart Engines",
-      "sourceCount30d": 4,
+      "sourceCount30d": 3,
       "sourceCount7d": 0,
       "fundingMentions": 0,
       "dealMentions": 1,
@@ -345,12 +338,6 @@ export const liveMarketSnapshot = {
           "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPU2o1V3doVDVVdlJHMXRxeW13SFdjeGVpMUJZX0h5aGZ6d19PQmhyUEtNUWV2VEpZUjlGaTRUUXJlOFBWa1hjNFhuTTUwSVhMNkFrMEJxcGdaQXdpSXJlUlVsOHFfNjhkbktmam9abGlLQkpJNU1MX3N4OE1VNXo3OWNzNA?oc=5",
           "publishedAt": "Mon, 02 Nov 2026 08:00:00 GMT",
           "sourceName": "CNews.ru"
-        },
-        {
-          "title": "Российская технология выявления поддельных документов получила патент в США - Компьютерра",
-          "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPS1BDQnZ3VzBsaGtXS0VKdFhHUi1tczRELVdVU25oVEVaN2x4S2paVHRFSmYyLTlOLUJhWEpiQWRBNDFybW5ZZTFoTGZCNGJYMnF3b1JxUEM5LTNxYi1aeTdwRTFqNGkyWGo1QWZzZEdNRURaMjh6UTJld0w4aVFsSFd4bjlCSjVvekhqaS1mM21nSEpYVV9nS3RROV8wNHFmdE9JYWdZRkEyYnNSajdIZHNWbVY?oc=5",
-          "publishedAt": "Thu, 29 Oct 2026 07:00:00 GMT",
-          "sourceName": "Компьютерра"
         }
       ]
     },
@@ -380,21 +367,21 @@ export const liveMarketSnapshot = {
       "companyId": "targetai",
       "companyName": "targetai",
       "sourceCount30d": 1,
-      "sourceCount7d": 0,
+      "sourceCount7d": 1,
       "fundingMentions": 0,
-      "dealMentions": 1,
+      "dealMentions": 0,
       "launchMentions": 0,
-      "tractionMentions": 1,
-      "latestPublishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
-      "latestTitle": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
-      "latestSourceName": "CNews.ru",
+      "tractionMentions": 0,
+      "latestPublishedAt": "Wed, 25 Nov 2026 11:52:00 GMT",
+      "latestTitle": "Роботы-собаки патрулируют аэропорты Актау и Атырау: что показали в КБТУ в день 25-летия - Liter.kz",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXVycnFDUkktbDNudEVQak1XRUhlNGpiSWI3Q2E1MTczbHlZVVJIWXZScm9SazJkNGRkSk0xSmp4OVZsTmg2emRMblB5aXh6MFZIc2JTSDBDVVFFblBmTXhReVlPejJmdlY4WHl3cHBocnFkRG5QSkZmZHRBZzdDTGhjUUFOSmFod2lEZHRwb2s1NDFNMG1pZXdoeVc1VHpucFJfb09JN3dMVFdWemlTMTZwYmpudXNf0gG-AUFVX3lxTFBCMlpkUGxyUE9NSXFrcDZoZTdyVGhzUnZpZzY3ZGpxdTg2WlVXUUZUS1d1b0FSc2lHcXJEcmRTVDRreWZqX3VwMS1lZHJLX2VJaE9NVzJiV0Vfb0dERmYzUUpyRnZtOXR0Q0gtSThUMUlVM2FVMGxaY0lMcndnV2FPcVZWeXd6a2VBbG1zWWN0b1pTRUVsY3NtZ3lnYkhJbTdQVWlKek1lZ3NlQXdYQXZFbHhYRFlINGtmSlpJV2c?oc=5",
+      "latestSourceName": "Liter.kz",
       "sources": [
         {
-          "title": "targetai выпустила языковую модель для клиентского сервиса - CNews.ru",
-          "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE1BTW10clRLMy12bFoxdkFZLWZZdUNzV2dNb25ZSU1XMXVabWpBQ3RIMGR3NnRCcmlXZ3l5Ny0yTGlOak5sOEZjOFZ6UjViRjNFeEZEeVlndEFTMjMzemhiVFJ3Y1l6WVlXUkptRGZ3RWdnYWNvSDIwMGhrZw?oc=5",
-          "publishedAt": "Tue, 03 Nov 2026 08:00:00 GMT",
-          "sourceName": "CNews.ru"
+          "title": "Роботы-собаки патрулируют аэропорты Актау и Атырау: что показали в КБТУ в день 25-летия - Liter.kz",
+          "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPNXVycnFDUkktbDNudEVQak1XRUhlNGpiSWI3Q2E1MTczbHlZVVJIWXZScm9SazJkNGRkSk0xSmp4OVZsTmg2emRMblB5aXh6MFZIc2JTSDBDVVFFblBmTXhReVlPejJmdlY4WHl3cHBocnFkRG5QSkZmZHRBZzdDTGhjUUFOSmFod2lEZHRwb2s1NDFNMG1pZXdoeVc1VHpucFJfb09JN3dMVFdWemlTMTZwYmpudXNf0gG-AUFVX3lxTFBCMlpkUGxyUE9NSXFrcDZoZTdyVGhzUnZpZzY3ZGpxdTg2WlVXUUZUS1d1b0FSc2lHcXJEcmRTVDRreWZqX3VwMS1lZHJLX2VJaE9NVzJiV0Vfb0dERmYzUUpyRnZtOXR0Q0gtSThUMUlVM2FVMGxaY0lMcndnV2FPcVZWeXd6a2VBbG1zWWN0b1pTRUVsY3NtZ3lnYkhJbTdQVWlKek1lZ3NlQXdYQXZFbHhYRFlINGtmSlpJV2c?oc=5",
+          "publishedAt": "Wed, 25 Nov 2026 11:52:00 GMT",
+          "sourceName": "Liter.kz"
         }
       ]
     },
@@ -631,10 +618,10 @@ export const liveMarketSnapshot = {
           "sourceName": "Хабр"
         },
         {
-          "title": "Canva в России в 2026 году. Как работает сервис и чем его заменить - SecurityLab.ru",
-          "url": "https://news.google.com/rss/articles/CBMicEFVX3lxTE1xYlRGenJfQmg1cnFsaldRbm9ZN2J6NnA1Z2lQZ1I1ZktacXRkem90OTdtQnJ2QlBDZ2FvTHktYUFPMTVtNUhZelR3ajdXQ2ZDNmR4bTN2UlhWWHFJVmhTWVhhSUZrOUtnMFgzckN1THc?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 15:56:25 GMT",
-          "sourceName": "SecurityLab.ru"
+          "title": "В Бурятии подружили восточную медицину с интеллектом ЭМЧИ - Новостное издание Vostok.Today",
+          "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxOUVZnNFhTVXZUajlTS3hLRFVPaml0QWRiV2d1LVdDQk9jOVpsRk00Z0VqZFgzYWtVMmJYNklUQ1dSLVRfM0xKcDh2WTRfZHhmRFE3RmQ1c29xT1ZuSFY0eEFpTExaV0lrMFFIbnBlXzQ2NlRoMTlQZXJmOUJtV095SkZmVzhHTHpfTFhQZjkyLWVYempQOUlNR1JDRQ?oc=5",
+          "publishedAt": "Wed, 25 Nov 2026 05:14:27 GMT",
+          "sourceName": "Новостное издание Vostok.Today"
         },
         {
           "title": "Flyvi или SUPA для визуалов без дизайнера? - quasa.io",
@@ -780,16 +767,16 @@ export const liveMarketSnapshot = {
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Tue, 24 Nov 2026 16:28:57 GMT",
-      "latestTitle": "Аспирантка из Челябинска создала ИИ-сервис, помогающий понять результаты анализов - РИЦ «Югра",
-      "latestUrl": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXRjNnhXZnI5anRoVDk0bnEzdzFVRDlWY2hlX0JkX2d4QU4zUGRiaF9LTDczN1BUNm1QSDZtTURUN0lWOVFjTFBNcjBCTXVxRXBCZU9fQ2gzaVNKZldHWHVxNTEtSjBrcjBOSkh6aW1GRVk4cVJaSEZydC1mZ2pNdW5ud3Z6ekdSUWttbjZxbmxfREtYc2x6eHpvTVphbWRhanBiX2k0ZXBqR3locHBrVWlLM0pRWnpmNl9Pemd3?oc=5",
-      "latestSourceName": "РИЦ «Югра",
+      "latestPublishedAt": "Tue, 24 Nov 2026 16:40:41 GMT",
+      "latestTitle": "Челябинку признали одним из лучших молодых предпринимателей России - 1obl.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORTNLVTNkSHM5blVpZE9pQVlRek83bTBpQWF3aXkxY1BSREJnRkpPYTJ4RW91QnJLeHF6aDdBUExBMWszY0MxV2IyZV83RXUwUlBJSXBoSUgtemRzem5EaWR3dkQyc1IwZ2R0NEdrWjhDcVFLZGtJMHIyNmlOX29JUzFJWHVLeW82LTBCOHBjRVZBY0hEVnB2ZmdmTlp2WVBPZi1URnBfbVVlc2RIM05YVThBdw?oc=5",
+      "latestSourceName": "1obl.ru",
       "sources": [
         {
-          "title": "Аспирантка из Челябинска создала ИИ-сервис, помогающий понять результаты анализов - РИЦ «Югра",
-          "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdXRjNnhXZnI5anRoVDk0bnEzdzFVRDlWY2hlX0JkX2d4QU4zUGRiaF9LTDczN1BUNm1QSDZtTURUN0lWOVFjTFBNcjBCTXVxRXBCZU9fQ2gzaVNKZldHWHVxNTEtSjBrcjBOSkh6aW1GRVk4cVJaSEZydC1mZ2pNdW5ud3Z6ekdSUWttbjZxbmxfREtYc2x6eHpvTVphbWRhanBiX2k0ZXBqR3locHBrVWlLM0pRWnpmNl9Pemd3?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 16:28:57 GMT",
-          "sourceName": "РИЦ «Югра"
+          "title": "Челябинку признали одним из лучших молодых предпринимателей России - 1obl.ru",
+          "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxORTNLVTNkSHM5blVpZE9pQVlRek83bTBpQWF3aXkxY1BSREJnRkpPYTJ4RW91QnJLeHF6aDdBUExBMWszY0MxV2IyZV83RXUwUlBJSXBoSUgtemRzem5EaWR3dkQyc1IwZ2R0NEdrWjhDcVFLZGtJMHIyNmlOX29JUzFJWHVLeW82LTBCOHBjRVZBY0hEVnB2ZmdmTlp2WVBPZi1URnBfbVVlc2RIM05YVThBdw?oc=5",
+          "publishedAt": "Tue, 24 Nov 2026 16:40:41 GMT",
+          "sourceName": "1obl.ru"
         },
         {
           "title": "ИИ-стартап из Челябинска занял первое место на федеральном конкурсе предпринимателей - DK.RU",
@@ -1022,28 +1009,22 @@ export const liveMarketSnapshot = {
     "qmonitoring": {
       "companyId": "qmonitoring",
       "companyName": "QMonitoring",
-      "sourceCount30d": 2,
-      "sourceCount7d": 2,
+      "sourceCount30d": 1,
+      "sourceCount7d": 0,
       "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Sun, 22 Nov 2026 11:44:07 GMT",
-      "latestTitle": "Европа нарастит траты на оборону до €620 млрд. Строительные компании уже делят заказы - prospect.com.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQjBVbTFDaUhvSVpnZ0tlY1ZWRlpPTXg5YUhxaHpXZFBQY2o1VktjZ2U0RWFxNnk2ODNOckk5SWhZVmxEUXh1cEJyNnVKY1ZmZ0lRQUFDVm04clA0VG9qWFpqUmJJQWEwRG5nYWV4VWJvQmg2UGhpTVoySlJSeWRyamIyNGxpY0xIbzM3S1ZqdEpUY1ZjVHFkaXRGQ1g0UG94VDB3SVoxQzRSalU1QzJyT1E3LV9uSERwanRlUXJsMENIZU0?oc=5",
-      "latestSourceName": "prospect.com.ru",
+      "latestPublishedAt": "Mon, 09 Nov 2026 07:12:09 GMT",
+      "latestTitle": "Девять технологических брендов «Знай наших» получили инвестиционные предложения на общую сумму 763 млн рублей - Агентство стратегических инициатив",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBpcVh1SVVuRDFqTVFfWkJvNm90amlYUW1fbnNpNnp6X2JQbzB3WklPSnJYTUY2VHN5WDBnX29acw?oc=5",
+      "latestSourceName": "Агентство стратегических инициатив",
       "sources": [
         {
-          "title": "Европа нарастит траты на оборону до €620 млрд. Строительные компании уже делят заказы - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOQjBVbTFDaUhvSVpnZ0tlY1ZWRlpPTXg5YUhxaHpXZFBQY2o1VktjZ2U0RWFxNnk2ODNOckk5SWhZVmxEUXh1cEJyNnVKY1ZmZ0lRQUFDVm04clA0VG9qWFpqUmJJQWEwRG5nYWV4VWJvQmg2UGhpTVoySlJSeWRyamIyNGxpY0xIbzM3S1ZqdEpUY1ZjVHFkaXRGQ1g0UG94VDB3SVoxQzRSalU1QzJyT1E3LV9uSERwanRlUXJsMENIZU0?oc=5",
-          "publishedAt": "Sun, 22 Nov 2026 11:44:07 GMT",
-          "sourceName": "prospect.com.ru"
-        },
-        {
-          "title": "Строительные компании в Европе хотели бы поучаствовать в военных проектах - СМИ - prospect.com.ru",
-          "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPeV9ERzVfWUcxTEZ2OS1KcVNSbzhRd0pDVzNESWxneHlvN2tSRGJWdkwyTHpYejRZeFRsRUZ4bHdwSmptZmdqZE9ndV9VdzlTbTB4cFJ1dEVJV0ZhbEpVV0NpU09oWU85YTJHcE5DakoxekJySnU5WGU2WklKX2ZpZExCZWF6QkJnMnBIMTdWUjU0YkJHTHlVTS0tTUw0VE9Mck9lSHV2TXBBbjVkTVBqby13NS1ZdWRidEE?oc=5",
-          "publishedAt": "Sat, 21 Nov 2026 23:22:29 GMT",
-          "sourceName": "prospect.com.ru"
+          "title": "Девять технологических брендов «Знай наших» получили инвестиционные предложения на общую сумму 763 млн рублей - Агентство стратегических инициатив",
+          "url": "https://news.google.com/rss/articles/CBMiP0FVX3lxTFBpcVh1SVVuRDFqTVFfWkJvNm90amlYUW1fbnNpNnp6X2JQbzB3WklPSnJYTUY2VHN5WDBnX29acw?oc=5",
+          "publishedAt": "Mon, 09 Nov 2026 07:12:09 GMT",
+          "sourceName": "Агентство стратегических инициатив"
         }
       ]
     },
@@ -1066,26 +1047,26 @@ export const liveMarketSnapshot = {
       "companyId": "reels-boss",
       "companyName": "Reels Boss",
       "sourceCount30d": 3,
-      "sourceCount7d": 3,
+      "sourceCount7d": 2,
       "fundingMentions": 0,
       "dealMentions": 0,
       "launchMentions": 0,
       "tractionMentions": 0,
-      "latestPublishedAt": "Wed, 25 Nov 2026 01:30:25 GMT",
-      "latestTitle": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
-      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
+      "latestPublishedAt": "Sat, 28 Nov 2026 08:58:01 GMT",
+      "latestTitle": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+      "latestUrl": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
       "latestSourceName": "Sostav.ru",
       "sources": [
+        {
+          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
+          "publishedAt": "Sat, 28 Nov 2026 08:58:01 GMT",
+          "sourceName": "Sostav.ru"
+        },
         {
           "title": "Нейросеть для нарезки видео на шортсы бесплатно: топ-7 ИИ-сервисов для создания рилсов на 2026 год - Sostav.ru",
           "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTE1ybzRzanhvT0tIREtnNjVoV29yVkZsazROY00zVF9wcFlxWXpBWlhnN0FERTR4aGZyQ1FLRy1HdnJ6aUhNWGduc2pGcTdoVEZHY2c?oc=5",
           "publishedAt": "Wed, 25 Nov 2026 01:30:25 GMT",
-          "sourceName": "Sostav.ru"
-        },
-        {
-          "title": "ИИ для создания рилсов: топ-7 нейросетей для монтажа на 2026 год - Sostav.ru",
-          "url": "https://news.google.com/rss/articles/CBMiUkFVX3lxTFBLSEU2bU1UQVhfMDdWTU5pZmE0OU5heWdkZWVhV0pMLVRZSnR6engtSTlrZ1hJcG5LYmhhU0RUdm9rMFlDbWFwaC0wNE9hNW5ubHc?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 18:39:01 GMT",
           "sourceName": "Sostav.ru"
         },
         {
@@ -1388,9 +1369,9 @@ export const liveMarketSnapshot = {
     "ohvat": {
       "companyId": "ohvat",
       "companyName": "Охват",
-      "sourceCount30d": 8,
-      "sourceCount7d": 4,
-      "fundingMentions": 2,
+      "sourceCount30d": 7,
+      "sourceCount7d": 2,
+      "fundingMentions": 1,
       "dealMentions": 0,
       "launchMentions": 1,
       "tractionMentions": 0,
@@ -1412,22 +1393,22 @@ export const liveMarketSnapshot = {
           "sourceName": "Интерфакс"
         },
         {
-          "title": "АКИpress в социальных сетях . Охват и аудитория: более 3 млн человек - АКИpress",
-          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE5lalpRZVB6YVJHLURSd3BFQTJ3RFZ2Y2VRckhHeVRYbFFXTUJwdWRuM21udE5fNFdwX25uZnFjblpKUnlxMTVXSFA4c01PZ3UxZktoaXZ4Z0hrVFRKeUxXRDZzSEhSTTdmdEQ3X0x4eGlrUQ?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 09:41:08 GMT",
-          "sourceName": "АКИpress"
-        },
-        {
-          "title": "Охват 98%, а риск не изменился: как измерять Security Awareness - Хабр",
-          "url": "https://news.google.com/rss/articles/CBMiYkFVX3lxTE02UzVrZmtsSXBURFRwZlJsSlZjS0ZKc0dFWEZiZy1lRTB0OV9SekNFTFJTU0Q2VXN4RGc2M1VaTUs2RmI2QzJuNlAybTRIb1FzNC1CV0ZxMDhpWDFmamxyaWtn0gFYQVVfeXFMTlpNaTBWVm5ROEJPNTh5RWdXejJsUTFfMlRpZlVJZzIwME5LRHVUZmxZYjcxQmQ5VmtZOVJfMHJDOXdDR2kyWjhwX0h5bVZXY0VEY0tiU0VWYQ?oc=5",
-          "publishedAt": "Tue, 24 Nov 2026 07:49:47 GMT",
-          "sourceName": "Хабр"
-        },
-        {
           "title": "Кейс «Дзена» и «Газеты.Ru»: как нативная публикация получила 2,4 млн охвата за сутки - AdIndex.ru",
           "url": "https://news.google.com/rss/articles/CBMiW0FVX3lxTFB6WUN6UjFwOFdMQi1sa3FFWHRmaG4tSWVyUWtYNmJQeVF5VDFqUDlIXzg3VTNmYXZQSEJfbkZMV1pydjliOFA2N0RmbkFkeU5hd1A5U214bjVUQ2c?oc=5",
           "publishedAt": "Thu, 19 Nov 2026 14:11:55 GMT",
           "sourceName": "AdIndex.ru"
+        },
+        {
+          "title": "Максимальный охват Okko: усиление премьеры «Полураспада» с продуктом «Все включено» - Sostav.ru",
+          "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQcmFhWnpFTUJ1NFBpd3BwZnFYekI2cjl4WHZrRWIyUjg0cFJxeDF5U0xfVHM0MTRtOE9xN1lCazJnX2xLVUk2Y2xwM1JFMW15OGRWN0ZZaDNSRnlpalgxc3JUZ2lyMlRGWDdBM3BrZmpVVEdUaG9uRFQ3aFVNdFVBSDJ3b2ZaOTZZdkotRGNIZXQzWVJZbzlVY0RTMUZZTDRzMlp1RmFkSHVFUU1OakptalZMSG1mLTRvY25FVWpZbzQ1bWRH?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT",
+          "sourceName": "Sostav.ru"
+        },
+        {
+          "title": "CTV-реклама на Smart TV: охват и конверсии в одном канале - Т-Бизнес секреты",
+          "url": "https://news.google.com/rss/articles/CBMickFVX3lxTE1fUG12OUVJLVB4U1FBX00yMWJHbldKVVVmN1pJajY1UlJYOGNnNENURVRrRFoxalFyZExIRk9jSlM3Tm15SXdtX0didlktZzhOX1ZPUXNxajB6WWVaUXJXTWdZbTRSWkhndVJNc2Fadm5CUQ?oc=5",
+          "publishedAt": "Tue, 17 Nov 2026 08:00:00 GMT",
+          "sourceName": "Т-Бизнес секреты"
         }
       ]
     },
